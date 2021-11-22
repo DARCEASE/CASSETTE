@@ -58,7 +58,8 @@ public class GameManager : MonoBehaviour
     {
         computerPanel.SetActive(true);
         personOnePanel.SetActive(true);
-       
+        notepadPanel.SetActive(true);
+
     }
 
     // if youre in the computer panel, and you select person 2, activate that panel 
