@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//PURPOSE: To manage the UI interface interactions 
+//USAGE: place on emply gameobject and call it the game managaer 
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
