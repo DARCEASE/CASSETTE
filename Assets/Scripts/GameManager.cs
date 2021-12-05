@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject juliaFilePanel;
     public GameObject michaelFilePanel;
     public GameObject maxFilePanel;
+    public GameObject newsPaperPanel;
 
 
     void Start()
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
         juliaFilePanel.SetActive(false);
         michaelFilePanel.SetActive(false);
         maxFilePanel.SetActive(false);
+        
 
     }
 
@@ -67,5 +69,11 @@ public class GameManager : MonoBehaviour
     public void OpenMaxFile()
     {
         maxFilePanel.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("UpdatedGameScene");
+        newsPaperPanel.SetActive(false);
     }
 }

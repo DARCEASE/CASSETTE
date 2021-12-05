@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//DEPRECIATED
-/// <summary>
-/// /////////////////////////////NO LONGER USED///////////////////////////////////////////////////////////////////////////
+using UnityEngine.SceneManagement;
+
 /// </summary>
 public class UIBehavior : MonoBehaviour
 {
@@ -14,6 +13,7 @@ public class UIBehavior : MonoBehaviour
     public GameObject juliaFilePanel;
     public GameObject michaelFilePanel;
     public GameObject maxFilePanel;
+    public GameObject newsPaperPanel;
 
 
     void Start()
@@ -24,6 +24,7 @@ public class UIBehavior : MonoBehaviour
         juliaFilePanel.SetActive(false);
         michaelFilePanel.SetActive(false);
         maxFilePanel.SetActive(false);
+        newsPaperPanel.SetActive(false); // disabled until fully working
 
     }
 
@@ -64,5 +65,15 @@ public class UIBehavior : MonoBehaviour
     public void OpenMaxFile()
     {
         maxFilePanel.SetActive(true);
+    }
+    public void RestartGame()
+    {
+        Debug.Log("restarting game commencing...");
+        SceneManager.LoadScene("UpdatedGameScene");
+        newsPaperPanel.SetActive(false);
+    }
+    public void SubmitReport()
+    {
+        newsPaperPanel.SetActive(true);
     }
 }
