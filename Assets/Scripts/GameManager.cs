@@ -1,117 +1,70 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-//PURPOSE: To maneuver through alll of the UI within the scene 
-//USAGE:Place on game manager object 
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    //main panels 
-    public GameObject computerPanel;
-    public GameObject notepadPanel;
-
-    //additional panels within computer view 
-    public GameObject personOnePanel;
-    public GameObject personTwoPanel;
-    public GameObject personThreePanel;
-    public GameObject personFourPanel;
-    public GameObject personFivePanel;
-
-
-
     // Start is called before the first frame update
+    public GameObject fileManagerPanel;
+    public GameObject novakFilePanel;
+    public GameObject jimFilePanel;
+    public GameObject juliaFilePanel;
+    public GameObject michaelFilePanel;
+    public GameObject maxFilePanel;
+
+
     void Start()
     {
-        //make sure all panels are inactive at the start of the game 
-        notepadPanel.SetActive(false);
-        computerPanel.SetActive(false);
-        personOnePanel.SetActive(false);
-        personTwoPanel.SetActive(false);
-        personThreePanel.SetActive(false);
-        personFourPanel.SetActive(false);
-        personFivePanel.SetActive(false);
-
+        fileManagerPanel.SetActive(false);
+        novakFilePanel.SetActive(false);
+        jimFilePanel.SetActive(false);
+        juliaFilePanel.SetActive(false);
+        michaelFilePanel.SetActive(false);
+        maxFilePanel.SetActive(false);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    //if you click the back button, deactivate the panel that youre on.
-    public void BackButton()
-    {
-        notepadPanel.SetActive(false);
-        computerPanel.SetActive(false);
-        personOnePanel.SetActive(false);
-        personTwoPanel.SetActive(false);
-        personThreePanel.SetActive(false);
-        personFourPanel.SetActive(false);
-        personFivePanel.SetActive(false);
-
-    }
-    //if you click on the computer, then activate the computer panel 
-    public void ActivateComputer()
-    {
-        computerPanel.SetActive(true);
-        personOnePanel.SetActive(true);
-        notepadPanel.SetActive(true);
-
-    }
-
-    // if youre in the computer panel, and you select person 2, activate that panel 
-    public void PersonTwoFile()
-    {
-        personOnePanel.SetActive(false);
-        personTwoPanel.SetActive(true);
-        personThreePanel.SetActive(false);
-        personFourPanel.SetActive(false);
-        personFivePanel.SetActive(false);
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("UpdatedGameScene");
+        }
         
     }
-    // if youre in the computer panel, and you select person 3, activate that panel 
-    public void PersonThreeFile()
+    public void ExitButton()
     {
-        personOnePanel.SetActive(false);
-        personTwoPanel.SetActive(false);
-        personThreePanel.SetActive(true); 
-        personFourPanel.SetActive(false);
-        personFivePanel.SetActive(false);
+        // if you are on one of the text files and you want to close it, return to file manager
+        novakFilePanel.SetActive(false);
+        jimFilePanel.SetActive(false);
+        juliaFilePanel.SetActive(false);
+        michaelFilePanel.SetActive(false);
+        maxFilePanel.SetActive(false);
     }
-    // if youre in the computer panel, and you select person 4, activate that panel 
-    public void PersonFourFile()
+    public void OpenFileFolder()
     {
-        personOnePanel.SetActive(false);
-        personTwoPanel.SetActive(false);
-        personThreePanel.SetActive(false);
-        personFourPanel.SetActive(true);
-        personFivePanel.SetActive(false);
+        fileManagerPanel.SetActive(true);
     }
-    // if youre in the computer panel, and you select person 5, activate that panel 
-    public void PersonFiveFile()
+    public void OpenNovakFile()
     {
-        personOnePanel.SetActive(false);
-        personTwoPanel.SetActive(false);
-        personThreePanel.SetActive(false);
-        personFourPanel.SetActive(false);
-        personFivePanel.SetActive(true);
+        novakFilePanel.SetActive(true);
     }
-    // if youre in the computer panel, and you select person 1, activate that panel 
-    public void PersonOneFile()
+    public void OpenJimFile()
     {
-        personOnePanel.SetActive(true);
-        personTwoPanel.SetActive(false);
-        personThreePanel.SetActive(false);
-        personFourPanel.SetActive(false);
-        personFivePanel.SetActive(false);
+        jimFilePanel.SetActive(true);
     }
-    // if you click on the note pad, activate the notepad panel 
-    public void ActivateNotePad()
+    public void OpenJuliaFile()
     {
-        notepadPanel.SetActive(true);
+        juliaFilePanel.SetActive(true);
     }
-
+    public void OpenMichaelFile()
+    {
+        michaelFilePanel.SetActive(true);
+    }
+    public void OpenMaxFile()
+    {
+        maxFilePanel.SetActive(true);
+    }
 }
