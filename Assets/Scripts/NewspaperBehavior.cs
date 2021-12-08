@@ -9,6 +9,8 @@ using UnityEngine.UI;
 // cont cont: now, when you select a specific dropdown, it should do something. 
 public class NewspaperBehavior : MonoBehaviour
 {
+    public string PlayerNewspaper;
+    public Text finalNewspaper;
 
     // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
     public Dropdown NovakDPOne;
@@ -32,25 +34,25 @@ public class NewspaperBehavior : MonoBehaviour
     public Dropdown MaxDPThree;
 
     //UI TEXT THAT WILL HOLD ALL STRING CHANGES
-    public Text JimNewspaperA;
-    public Text JimNewspaperB;
-    public Text JimNewspaperC;
+    public string JimNewspaperA;
+    public string JimNewspaperB;
+    public string JimNewspaperC;
 
-    public Text JuliaNewspaperA;
-    public Text JuliaNewspaperB;
-    public Text JuliaNewspaperC;
+    public string JuliaNewspaperA;
+    public string JuliaNewspaperB;
+    public string JuliaNewspaperC;
 
-    public Text MichaelNewspaperA;
-    public Text MichaelNewspaperB;
-    public Text MichaelNewspaperC;
+    public string MichaelNewspaperA;
+    public string MichaelNewspaperB;
+    public string MichaelNewspaperC;
 
-    public Text MaxNewspaperA;
-    public Text MaxNewspaperB;
-    public Text MaxNewspaperC;
+    public string MaxNewspaperA;
+    public string MaxNewspaperB;
+    public string MaxNewspaperC;
 
-    public Text NovakNewspaperA;
-    public Text NovakNewspaperB;
-    public Text NovakNewspaperC;
+    public string NovakNewspaperA;
+    public string NovakNewspaperB;
+    public string NovakNewspaperC;
 
 
 
@@ -92,7 +94,7 @@ public class NewspaperBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        NewspaperPrint();
     }
 
     //NOVAK
@@ -101,21 +103,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (NovakDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {
             Debug.Log("NOV. Drop 1 Opt 1");
-            novakInfoA = "The detective assigned to the case.";// change the text in the newspaper to be a certain line
-            NovakNewspaperA.text = "Mr. Robert Evergreen, local hero and CEO of Abundandia Investments, was found dead on the morning of Monday, November 27th. According to an official police statement given to this reporter by Detective Novak, the manner of death is still undetermined." + " Detective Novak is " + novakInfoA;
-            
+            novakInfoA = "the detective assigned to the case.";// change the text in the newspaper to be a certain line
+            NovakNewspaperA = novakInfoA;
         }
         else if (NovakDPOne.value == 2)
         {
             Debug.Log("NOV. Drop 1 Opt 2");
-            novakInfoB = "the detective the case was handed off to.";// change the text in the newspaper to be a certain line
-            NovakNewspaperA.text = "Mr. Robert Evergreen, local hero and CEO of Abundandia Investments, was found dead on the morning of Monday, November 27th. According to an official police statement given to this reporter by Detective Novak, the manner of death is still undetermined." + "Detective Novak is " + novakInfoB;
+            novakInfoA = "the detective the case was handed off to.";// change the text in the newspaper to be a certain line
+            NovakNewspaperA = novakInfoA;
         }
         else if (NovakDPOne.value == 3)
         {
             Debug.Log("NOV. Drop 1 Opt 3");
-            novakInfoC = "on top of the case.";// change the text in the newspaper to be a certain line
-            NovakNewspaperA.text = "Mr. Robert Evergreen, local hero and CEO of Abundandia Investments, was found dead on the morning of Monday, November 27th. According to an official police statement given to this reporter by Detective Novak, the manner of death is still undetermined."+ " Detective Novak is " + novakInfoC ;
+            novakInfoA = "the detective on top of the case.";// change the text in the newspaper to be a certain line
+            NovakNewspaperA = novakInfoA;
         }
     }
     public void NovakDropB() // WHO second dropdown for Novak
@@ -123,42 +124,42 @@ public class NewspaperBehavior : MonoBehaviour
         if (NovakDPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
             Debug.Log("NOV. Drop 2 Opt 1");
-            novakInfoB = "is passionate about getting justice.";// change the text in the newspaper to be a certain line
-            NovakNewspaperB.text = "Novak " + novakInfoB;
+            novakInfoB = "seems more interested in gossip than finding the truth.";// change the text in the newspaper to be a certain line
+            NovakNewspaperB =novakInfoB;
         }
         else if (NovakDPTwo.value == 2)
         {
             Debug.Log("NOV. Drop 2 Opt 2");
-            novakInfoB = "is determined to uncover all the facts.";// change the text in the newspaper to be a certain line
-            NovakNewspaperB.text = "Novak " + novakInfoB; 
+            novakInfoB = "is determined to get justice for Mr.Evergreen, no matter what";// change the text in the newspaper to be a certain line
+            NovakNewspaperB = novakInfoB; 
         }
         else if (NovakDPTwo.value == 3)
         {
             Debug.Log("NOV. Drop 2 Opt 3");
-            novakInfoB = "is taking a passive stance towards solving the case.";// change the text in the newspaper to be a certain line
-            NovakNewspaperB.text = "Novak " + novakInfoB ;
-        }
+            novakInfoB = "is following up on any and all leads";// change the text in the newspaper to be a certain line
+            NovakNewspaperB = novakInfoB;
+            
+        } 
     }
     public void NovakDropC()
     {
         if (NovakDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
             Debug.Log("NOV. Drop 3 Opt 1");
-            novakInfoC = "Novak seems more interested in gossip than finidn the truth.";// change the text in the newspaper to be a certain line
-            NovakNewspaperC.text = "While it is clear that Mr. Evergreen’s death was the apparent result of a fall from a great height, the circumstances of that fall are the subject of an active and ongoing investigation, and the NYPD does not wish to speculate on those circumstances at this time." +  "But " + novakInfoC;
+            novakInfoC = "does not wish to speculate on the manner of death at this time";// change the text in the newspaper to be a certain line
+            NovakNewspaperC = novakInfoC;
         }
         else if (NovakDPThree.value == 2)
         {
             Debug.Log("NOV. Drop 3 Opt 2");
-            novakInfoC = "Novak is determined to uncover the thruth, no matter what.";// change the text in the newspaper to be a certain line
-            NovakNewspaperC.text = "While it is clear that Mr. Evergreen’s death was the apparent result of a fall from a great height, the circumstances of that fall are the subject of an active and ongoing investigation, and the NYPD does not wish to speculate on those circumstances at this time."  + "But " + novakInfoC;
-          
+            novakInfoC = "is considering the possiblity of homicide";// change the text in the newspaper to be a certain line
+            NovakNewspaperC = novakInfoC;
         }
         else if (NovakDPThree.value == 3)
         {
             Debug.Log("NOV. Drop 3 Opt 3");
-            novakInfoC = "Novak is following up on any and all leads.";// change the text in the newsaper to be a certain line
-            NovakNewspaperC.text = "While it is clear that Mr. Evergreen’s death was the apparent result of a fall from a great height, the circumstances of that fall are the subject of an active and ongoing investigation, and the NYPD does not wish to speculate on those circumstances at this time." + "But " + novakInfoC;
+            novakInfoC = "is considering the possibility the Mr. Evergreen took his life";// change the text in the newsaper to be a certain line
+            NovakNewspaperC = novakInfoC;
         }
     }
 
@@ -168,20 +169,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (JimDPOne.value == 1) 
         {
             Debug.Log("JIM. Drop 1 Opt 1");
-            jimInfoA = "Mr. Evergreen's ridiculous son.";// change the text in the newspaper to be a certain line
-            JimNewspaperA.text = "" + "And " + jimInfoA;
+            jimInfoA = "ridiculous son";// change the text in the newspaper to be a certain line
+            JimNewspaperA = jimInfoA;
         }
         else if (JimDPOne.value == 2)
         {
-            Debug.Log("Char_Name. Drop 1 Opt 2");
-            jimInfoA = "Mr.Evergreen's grieving son.";// change the text in the newspaper to be a certain line
-            JimNewspaperA.text = "" + "And " + jimInfoA;
+            Debug.Log("JIM. Drop 1 Opt 2");
+            jimInfoA = "grieving son";// change the text in the newspaper to be a certain line
+            JimNewspaperA = jimInfoA;
         }
         else if (JimDPOne.value == 3)
         {
-            Debug.Log("Char_Name. Drop 1 Opt 3");
-            jimInfoA = "Mr. Evergreen's resentful son.";// change the text in the newspaper to be a certain line
-            JimNewspaperA.text = "" + "And " + jimInfoA;
+            Debug.Log("JIM. Drop 1 Opt 3");
+            jimInfoA = "resentful son";// change the text in the newspaper to be a certain line
+            JimNewspaperA = jimInfoA;
         }
     }
     public void JimDropB() // JIM SENTENCE 2
@@ -189,20 +190,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (JimDPTwo.value == 1) 
         {
             Debug.Log("JIM. Drop 2 Opt 1");
-            jimInfoB = "He knew Mr. Evergreen better than anyone else";// change the text in the newspaper to be a certain line
-            JimNewspaperB.text = "" + "And " + jimInfoB;
+            jimInfoB = "knew Mr. Evergreen better than anyone else";// change the text in the newspaper to be a certain line
+            JimNewspaperB = jimInfoB;
         }
         else if (JimDPOne.value == 2)
         {
             Debug.Log("JIM. Drop 2 Opt 2");
             jimInfoB = "used to know Mr.Evergreen well";// change the text in the newspaper to be a certain line
-            JimNewspaperB.text = "" + "And " + jimInfoB;
+            JimNewspaperB = jimInfoB;
         }
         else if (JimDPOne.value == 3)
         {
             Debug.Log("JIM. Drop 2 Opt 3");
             jimInfoB = "hardly knew Mr.Evergreen at all";// change the text in the newspaper to be a certain line
-            JimNewspaperB.text = "" + "And " + jimInfoB;
+            JimNewspaperB = jimInfoB;
         }
     }
     public void JimDropC() // JIM SENTENCE 3 
@@ -211,19 +212,19 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JIM. Drop 3 Opt 1");
             jimInfoC = "loved Mr. Evergreen";// change the text in the newspaper to be a certain line
-            JimNewspaperC.text = "" + "And " + jimInfoC;
+            JimNewspaperC = jimInfoC;
         }
         else if (JimDPThree.value == 2)
         {
             Debug.Log("JIM. Drop 3 Opt 2");
             jimInfoC = "had a troubled relationship with Mr.Evergreen";// change the text in the newspaper to be a certain line
-            JimNewspaperC.text = "" + "And " + jimInfoC;
+            JimNewspaperC = jimInfoC;
         }
         else if (JimDPThree.value == 3)
         {
             Debug.Log("JIM. Drop 3 Opt 3");
             jimInfoC = "hated Mr. Evergreen";// change the text in the newspaper to be a certain line
-            JimNewspaperC.text = "" + "And " + jimInfoC; ;
+            JimNewspaperC = jimInfoC; ;
         }
         
     }
@@ -235,20 +236,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (JuliaDPOne.value == 1) 
         {
             Debug.Log("JULIA. Drop 1 Opt 1");
-            juliaInfoA = "Mr Evergreen's daughter";// change the text in the newspaper to be a certain line
-            JuliaNewspaperA.text = "" + "And " + juliaInfoA;
+            juliaInfoA = "Mr. Evergreen's daughter";// change the text in the newspaper to be a certain line
+            JuliaNewspaperA = juliaInfoA;
         }
         else if (JuliaDPOne.value == 2)
         {
             Debug.Log("JULIA. Drop 1 Opt 2");
-            juliaInfoA = "Mr. Evergreen's pregnant daughter.";// change the text in the newspaper to be a certain line
-            JuliaNewspaperA.text = "" + "And " + juliaInfoA;
+            juliaInfoA = "Mr. Evergreen's emotional daughter.";// change the text in the newspaper to be a certain line
+            JuliaNewspaperA = juliaInfoA;
         }
         else if (JuliaDPOne.value == 3)
         {
             Debug.Log("JULIA. Drop 1 Opt 3");
-            juliaInfoA = "a soon-to-be mother";// change the text in the newspaper to be a certain line
-            JuliaNewspaperA.text = "" + "And " + juliaInfoA;
+            juliaInfoA = "Mr. Evergreen's pregnant daughter";// change the text in the newspaper to be a certain line
+            JuliaNewspaperA = juliaInfoA;
         }
     }
     public void JuliaDropB()
@@ -257,19 +258,19 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JULIA. Drop 2 Opt 1");
             juliaInfoB = "loved her father very much";// change the text in the newspaper to be a certain line
-            JuliaNewspaperB.text = "" + "And " + juliaInfoB;
+            JuliaNewspaperB = juliaInfoB;
         }
         else if (JuliaDPTwo.value == 2)
         {
             Debug.Log("JULIA. Drop 2 Opt 2");
-            juliaInfoB = "is in denial about who her father was";// change the text in the newspaper to be a certain line
-            JuliaNewspaperB.text = "" + "And " + juliaInfoB;
+            juliaInfoB = "takes a neutral stance towards her father";// change the text in the newspaper to be a certain line
+            JuliaNewspaperB = juliaInfoB;
         }
         else if (JuliaDPTwo.value == 3)
         {
             Debug.Log("JULIA. Drop 2 Opt 3");
-            juliaInfoB = "takes a neutral stance towards her father";// change the text in the newspaper to be a certain line
-            JuliaNewspaperB.text = "" + "And " + juliaInfoB;
+            juliaInfoB = "is in denial about who her father was";// change the text in the newspaper to be a certain line
+            JuliaNewspaperB = juliaInfoB;
         }
     }
     public void JuliaDropC()
@@ -278,19 +279,19 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JULIA. Drop 3 Opt 1");
             juliaInfoC = "reacted poorly to questions about him";// change the text in the newspaper to be a certain line
-            JuliaNewspaperC.text = "" + "And " + juliaInfoC;
+            JuliaNewspaperC = juliaInfoC;
         }
         else if (JuliaDPTwo.value == 2)
         {
             Debug.Log("JULIA. Drop 3 Opt 2");
             juliaInfoC = "was open about who her father was";// change the text in the newspaper to be a certain line
-            JuliaNewspaperC.text = "" + "And " + juliaInfoC;
+            JuliaNewspaperC = juliaInfoC;
         }
         else if (JuliaDPTwo.value == 3)
         {
             Debug.Log("JULIA. Drop 3 Opt 3");
             juliaInfoC = "approved of her father's actions and lifestyle";// change the text in the newspaper to be a certain line
-            JuliaNewspaperC.text = "" + "And " + juliaInfoC;
+            JuliaNewspaperC = juliaInfoC;
         }
     }
 
@@ -300,20 +301,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (MichaelDPOne.value == 1)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 1");
-            michaelInfoA = "Mr. Evergreen's friend";// change the text in the newspaper to be a certain line
-            MichaelNewspaperA.text = "" + "And " + michaelInfoA;
+            michaelInfoA = "Lieutenant Michael Bailey, Mr. Evergreen’s friend.";// change the text in the newspaper to be a certain line
+            MichaelNewspaperA = michaelInfoA;
         }
         else if (MichaelDPOne.value == 2)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 2");
-            michaelInfoA = "Mr. Evergreen's anonymous Boyfriend";// change the text in the newspaper to be a certain line
-            MichaelNewspaperA.text = "" + "And " + michaelInfoA;
+            michaelInfoA = "Mr. Evergreen’s anonymous romantic partner";// change the text in the newspaper to be a certain line
+            MichaelNewspaperA = michaelInfoA;
         }
         else if (MichaelDPOne.value == 3)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 3");
-            michaelInfoA = "Michael Bailey, Mr. Evergreen's boyfriend";// change the text in the newspaper to be a certain line
-            MichaelNewspaperA.text = "" + "And " + michaelInfoA;
+            michaelInfoA = "Lieutenant Michael Bailey, Mr. Evergreen’s long-term romantic partner.";// change the text in the newspaper to be a certain line
+            MichaelNewspaperA = michaelInfoA;
         }
     }
     public void MichaelDropB()
@@ -321,20 +322,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (MichaelDPTwo.value == 1)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 1");
-            michaelInfoB = "is in the navy";// change the text in the newspaper to be a certain line
-            MichaelNewspaperB.text = "" + "And " + michaelInfoB;
+            michaelInfoB = "a career sailor in the United States Navy";// change the text in the newspaper to be a certain line
+            MichaelNewspaperB =  michaelInfoB;
         }
         else if (JuliaDPTwo.value == 2)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 2");
             michaelInfoB = "is a saucy sailor";// change the text in the newspaper to be a certain line
-            MichaelNewspaperB.text = "" + "And " + michaelInfoB;
+            MichaelNewspaperB = michaelInfoB;
         }
         else if (JuliaDPTwo.value == 3)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 3");
-            michaelInfoB = "is a victim of an oppresive system";// change the text in the newspaper to be a certain line
-            MichaelNewspaperB.text = "" + "And " + michaelInfoB;
+            michaelInfoB = "a victim of an oppressive system";// change the text in the newspaper to be a certain line
+            MichaelNewspaperB = michaelInfoB;
         }
     }
     public void MichaelDropC()
@@ -343,19 +344,19 @@ public class NewspaperBehavior : MonoBehaviour
             {
                 Debug.Log("MICHAEL Drop 3 Opt 1");
                 michaelInfoC = "regrets his relationship with Mr. Evergreen";// change the text in the newspaper to be a certain line
-                MichaelNewspaperC.text = "" + "And " + michaelInfoC;
+                MichaelNewspaperC = michaelInfoC;
             }
             else if (JuliaDPTwo.value == 2)
             {
                 Debug.Log("MICHAEL. Drop 3 Opt 2");
                 michaelInfoC = "was close with Mr. Evergreen";// change the text in the newspaper to be a certain line
-                MichaelNewspaperC.text = "" + "And " + michaelInfoC;
+                MichaelNewspaperC = michaelInfoC;
             }
             else if (JuliaDPTwo.value == 3)
             {
                 Debug.Log("MICHAEL. Drop 3 Opt 3");
                 michaelInfoC = "cared deeply for Mr. Evergreen";// change the text in the newspaper to be a certain line
-                MichaelNewspaperC.text = "" + "And " + michaelInfoC;
+                MichaelNewspaperC = michaelInfoC;
             }
         }
 
@@ -366,19 +367,19 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MAX. Drop 1 Opt 1");
             maxInfoA = "Mr. Evergreen's friend and business partner";// change the text in the newspaper to be a certain line
-            MaxNewspaperA.text = "" + "And " + maxInfoA;
+            MaxNewspaperA = maxInfoA;
         }
         else if (MichaelDPOne.value == 2)
         {
             Debug.Log("MAX. Drop 1 Opt 2");
             maxInfoA = "Mr. Evergreen's business partner";// change the text in the newspaper to be a certain line
-            MaxNewspaperA.text = "" + "And " + maxInfoA;
+            MaxNewspaperA = maxInfoA;
         }
         else if (MichaelDPOne.value == 3)
         {
             Debug.Log("MAX. Drop 1 Opt 3");
             maxInfoA = "Mr. Evergreen's subordinate";// change the text in the newspaper to be a certain line
-            MaxNewspaperA.text = "" + "And " + maxInfoA;
+            MaxNewspaperA = maxInfoA;
         }
     }
     public void MaxDropB()
@@ -386,20 +387,20 @@ public class NewspaperBehavior : MonoBehaviour
         if (MaxDPTwo.value == 1)
         {
             Debug.Log("MAX. Drop 2 Opt 1");
-            maxInfoB = "is cold and businesslike";// change the text in the newspaper to be a certain line
-            MaxNewspaperB.text = "" + "And " + maxInfoB;
+            maxInfoB = "is cold and professional";// change the text in the newspaper to be a certain line
+            MaxNewspaperB = maxInfoB;
         }
         else if (MaxDPTwo.value == 2)
         {
             Debug.Log("MAX. Drop 2 Opt 2");
-            maxInfoB = "is a bitch";// change the text in the newspaper to be a certain line
-            MaxNewspaperB.text = "" + "And " + maxInfoB;
+            maxInfoB = "is a frigid bitch";// change the text in the newspaper to be a certain line
+            MaxNewspaperB =  maxInfoB;
         }
         else if (MaxDPTwo.value == 3)
         {
             Debug.Log("MAX. Drop 2 Opt 3");
             maxInfoB = "is a woman doing her best to make it in a man's world";// change the text in the newspaper to be a certain line
-            MaxNewspaperB.text = "" + "And " + maxInfoB;
+            MaxNewspaperB = maxInfoB;
         }
     }
     public void MaxDropC()
@@ -408,19 +409,29 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MAX. Drop 3 Opt 1");
             maxInfoC = "refused to answer questions about Mr. Evergreen's personal life";// change the text in the newspaper to be a certain line
-            MaxNewspaperC.text = "" + "And " + maxInfoC;
+            MaxNewspaperC = maxInfoC;
         }
         else if (MaxDPThree.value == 2)
         {
             Debug.Log("MAX. Drop 3 Opt 2");
             maxInfoC = "did not know anything about Mr. Evergreen's personal life";// change the text in the newspaper to be a certain line
-            MaxNewspaperC.text = "" + "And " + maxInfoC;
+            MaxNewspaperC = maxInfoC;
         }
         else if (MaxDPThree.value == 3)
         {
             Debug.Log("MAX. Drop 3 Opt 3");
             maxInfoC = "knew more than she could say about MR.Evergreen's personal life";// change the text in the newspaper to be a certain line
-            MaxNewspaperC.text = "" + "And " + maxInfoC;
+            MaxNewspaperC = maxInfoC;
         }
     }
+    public void NewspaperPrint() // using this to test things 
+    {
+        PlayerNewspaper = "Businessman and local hero Robert Evergreen was found dead Monday morning, having apparently fallen from a great height. The NYPD " + NovakNewspaperC + "\n \n" + "Mr. Evergreen was the CEO of Abundantia Investments. He leaves behind Jim Evergreen, his " + JimNewspaperA + ", and Julia Anderson, his" + JuliaNewspaperA + "Detective Novak," + NovakNewspaperA + NovakNewspaperB + "\n \n" + "When reached for comment, Ms. Max Elliot," + MaxNewspaperA + "who" + MaxNewspaperB + " described Mr. Evergreen as a consummate professional and an excellent boss and business partner. However, she" + "\n \n" + "In truth, Mr. Evergreen’s life outside of business appears to have been more complicated than he let on in his life. " + "\n \n" + "Jim" + JimNewspaperB + "and" + JimNewspaperC + ".Julia" + JuliaNewspaperB + ", and" + JuliaNewspaperC + "\n \n" + "Mr.Evergreen will be missed by many in the community, including" + MichaelNewspaperA + "," + MichaelNewspaperB + "who" + MichaelNewspaperC;
+
+;
+        finalNewspaper.text = PlayerNewspaper;
+
+    }
 }
+
+

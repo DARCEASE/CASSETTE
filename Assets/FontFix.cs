@@ -10,17 +10,17 @@ public class FontFix : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       // for (int i = 0; i < fonts.Length; i++)
-        //{
-        //    fonts[i].material.mainTexture.filterMode = FilterMode.Point;
-           
-
-       // }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        for (int i = 0; i < fonts.Length; i++)
+        {
+            fonts[i].material.mainTexture.filterMode = FilterMode.Point;
+
+
+        }
     }
 }
