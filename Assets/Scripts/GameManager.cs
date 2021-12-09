@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//PURPOSE: To manage the UI interface interactions 
+//USAGE: place on emply gameobject and call it the game managaer 
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject juliaFilePanel;
     public GameObject michaelFilePanel;
     public GameObject maxFilePanel;
+    public GameObject newsPaperPanel;
 
 
     void Start()
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
         juliaFilePanel.SetActive(false);
         michaelFilePanel.SetActive(false);
         maxFilePanel.SetActive(false);
+        
 
     }
 
@@ -66,5 +69,11 @@ public class GameManager : MonoBehaviour
     public void OpenMaxFile()
     {
         maxFilePanel.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("UpdatedGameScene");
+        newsPaperPanel.SetActive(false);
     }
 }
