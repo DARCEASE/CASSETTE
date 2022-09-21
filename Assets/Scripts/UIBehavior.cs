@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class UIBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    //Character Panels where drop downs are available 
     public GameObject fileManagerPanel;
     public GameObject novakFilePanel;
     public GameObject jimFilePanel;
@@ -15,6 +17,7 @@ public class UIBehavior : MonoBehaviour
     public GameObject maxFilePanel;
     public GameObject newsPaperPanel;
 
+   
 
     void Start()
     {
