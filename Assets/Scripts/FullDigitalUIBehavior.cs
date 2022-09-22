@@ -32,13 +32,27 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     void Start()
     {
+        memoPanel.SetActive(true); // Should be set to true at the start of the game 
+        // file mger 
+        docFolderPanel.SetActive(false);
         fileManagerPanel.SetActive(false);
         novakFilePanel.SetActive(false);
         jimFilePanel.SetActive(false);
         juliaFilePanel.SetActive(false);
         michaelFilePanel.SetActive(false);
         maxFilePanel.SetActive(false);
-        newsPaperPanel.SetActive(false); // disabled until fully working
+
+        //all documents (should be off unless opened through the file manager)
+        novakAudioScriptFile.SetActive(false);
+        jimAudioScriptFile.SetActive(false);
+        juliaAudioScriptFile.SetActive(false);
+        michaelAudioScriptFile.SetActive(false);
+        maxAudioScriptFile.SetActive(false);
+    //all audio files 
+
+    // all jpg files
+
+    newsPaperPanel.SetActive(false); // disabled until fully working
 
     }
 
@@ -47,6 +61,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
     {
 
     }
+    // items on desktop---------------------
     public void ExitButton()
     {
         // if you are on one of the text files and you want to close it, return to file manager
@@ -80,13 +95,52 @@ public class FullDigitalUIBehavior : MonoBehaviour
     {
         maxFilePanel.SetActive(true);
     }
-    public void RestartGame()
+    
+
+    public void ReturntoDesktop()
     {
-        //used to restart but also load in game from start scrn
-        Debug.Log("restarting game commencing...");
-        SceneManager.LoadScene("UpdatedGameScene");
-        newsPaperPanel.SetActive(false);
+
+        memoPanel.SetActive(false);
     }
+    public void CloseFileMger()
+    {
+        fileManagerPanel.SetActive(false);
+    }
+    public void OpenMemo()
+    {
+        memoPanel.SetActive(true);
+
+    }
+    public void OpenDocFolder()
+    {
+        docFolderPanel.SetActive(true);
+    }
+
+    // items in DOCUMENTS folder ---------------------
+    public void NovakTranscript()
+    {
+        novakAudioScriptFile.SetActive(true);
+    }
+    public void JimTranscript()
+    {
+        jimAudioScriptFile.SetActive(true);
+    }
+    public void JuliaTranscript()
+    {
+        juliaAudioScriptFile.SetActive(true);
+    }
+    public void MichaelTranscript()
+    {
+        michaelAudioScriptFile.SetActive(true);
+    }
+    public void MaxTranscript()
+    {
+        maxAudioScriptFile.SetActive(true);
+    }
+
+
+
+    // HOW TO END GAME---------------
     public void SubmitReport()
     {
         newsPaperPanel.SetActive(true);

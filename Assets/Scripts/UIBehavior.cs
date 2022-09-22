@@ -16,11 +16,13 @@ public class UIBehavior : MonoBehaviour
     public GameObject michaelFilePanel;
     public GameObject maxFilePanel;
     public GameObject newsPaperPanel;
+    public GameObject memoPanel;
 
    
 
     void Start()
     {
+        memoPanel.SetActive(true);
         fileManagerPanel.SetActive(false);
         novakFilePanel.SetActive(false);
         jimFilePanel.SetActive(false);
@@ -76,6 +78,7 @@ public class UIBehavior : MonoBehaviour
         SceneManager.LoadScene("UpdatedGameScene");
         newsPaperPanel.SetActive(false);
     }
+   
     public void SubmitReport()
     {
         newsPaperPanel.SetActive(true);

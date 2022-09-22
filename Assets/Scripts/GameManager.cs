@@ -37,8 +37,10 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene("UpdatedGameScene");
         }
-        
+
     }
+
+    
     public void ExitButton()
     {
         // if you are on one of the text files and you want to close it, return to file manager
@@ -50,6 +52,13 @@ public class GameManager : MonoBehaviour
         maxFilePanel.SetActive(false);
         newsPaperPanel.SetActive(false);
 
+    }public void RestartGame()
+
+    {
+        //used to restart but also load in game from start scrn
+        Debug.Log("restarting game commencing...");
+        SceneManager.LoadScene("UpdatedGameScene");
+        newsPaperPanel.SetActive(false);
     }
     public void OpenFileFolder()
     {
@@ -76,7 +85,7 @@ public class GameManager : MonoBehaviour
         maxFilePanel.SetActive(true);
     }
 
-    public void RestartGame()
+    public void RestartGames()
     {
         SceneManager.LoadScene("DigitalVersion");
         newsPaperPanel.SetActive(false);
