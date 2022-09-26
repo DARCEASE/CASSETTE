@@ -22,6 +22,13 @@ public class FullDigitalUIBehavior : MonoBehaviour
     public GameObject michaelAudioScriptFile;
     public GameObject maxAudioScriptFile;
 
+    //.jpg file with characyer portraits 
+    public GameObject novakImgPanel;
+    public GameObject jimImgPanel;
+    public GameObject juliaImgPanel;
+    public GameObject michaelImgPanel;
+    public GameObject maxImgPanel;
+
     //folders based on file type (documents, audio, images)
     public GameObject audioFolderPanel;
     public GameObject docFolderPanel;
@@ -48,6 +55,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
         juliaAudioScriptFile.SetActive(false);
         michaelAudioScriptFile.SetActive(false);
         maxAudioScriptFile.SetActive(false);
+
     //all audio files 
 
     // all jpg files
@@ -64,12 +72,25 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // items on desktop---------------------
     public void ExitButton()
     {
-        // if you are on one of the text files and you want to close it, return to file manager
+        // if you are on one of the character.exe and you want to close it, return to file manager
         novakFilePanel.SetActive(false);
         jimFilePanel.SetActive(false);
         juliaFilePanel.SetActive(false);
         michaelFilePanel.SetActive(false);
         maxFilePanel.SetActive(false);
+
+        //transcripts
+        novakAudioScriptFile.SetActive(false);
+        jimAudioScriptFile.SetActive(false);
+        juliaAudioScriptFile.SetActive(false);
+        michaelAudioScriptFile.SetActive(false);
+        maxAudioScriptFile.SetActive(false);
+        //images
+        novakImgPanel.SetActive(false);
+        jimImgPanel.SetActive(false);
+        juliaImgPanel.SetActive(false);
+        michaelImgPanel.SetActive(false);
+        maxImgPanel.SetActive(false);
     }
     public void OpenFileFolder()
     {
@@ -138,7 +159,31 @@ public class FullDigitalUIBehavior : MonoBehaviour
         maxAudioScriptFile.SetActive(true);
     }
 
-
+    // ITEMS IN JPG FOLDER
+    public void NovakImg()
+    {
+        novakImgPanel.SetActive(true);
+        
+    }
+    public void JimImg()
+    {
+        jimImgPanel.SetActive(true);
+       
+    }
+    public void JuliaImg()
+    {
+        juliaImgPanel.SetActive(true);
+        
+    }
+    public void MichaelImg()
+    {
+        michaelImgPanel.SetActive(true);
+       
+    }
+    public void MaxImg()
+    {
+        maxImgPanel.SetActive(true);
+    }
 
     // HOW TO END GAME---------------
     public void SubmitReport()
