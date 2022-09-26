@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: e252f300ffc26f346a9a5d98002fbd49
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fileManagerPanel: {instanceID: 0}
+  - novakFilePanel: {fileID: 6795504129946015512, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+  - jimFilePanel: {fileID: 5131388589517617169, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+  - juliaFilePanel: {fileID: 5475830914565787675, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+  - michaelFilePanel: {fileID: 824755668569429984, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+  - maxFilePanel: {fileID: 7445486616854108343, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+  - newsPaperPanel: {instanceID: 0}
+  - novakAudioScriptFile: {instanceID: 0}
+  - jimAudioScriptFile: {instanceID: 0}
+  - juliaAudioScriptFile: {instanceID: 0}
+  - michaelAudioScriptFile: {instanceID: 0}
+  - maxAudioScriptFile: {instanceID: 0}
+  - audioFolderPanel: {instanceID: 0}
+  - docFolderPanel: {instanceID: 0}
+  - imgFolderPanel: {instanceID: 0}
+  - memoPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class UIBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    //Character Panels where drop downs are available 
     public GameObject fileManagerPanel;
     public GameObject novakFilePanel;
     public GameObject jimFilePanel;
@@ -14,10 +16,13 @@ public class UIBehavior : MonoBehaviour
     public GameObject michaelFilePanel;
     public GameObject maxFilePanel;
     public GameObject newsPaperPanel;
+    public GameObject memoPanel;
 
+   
 
     void Start()
     {
+        memoPanel.SetActive(true);
         fileManagerPanel.SetActive(false);
         novakFilePanel.SetActive(false);
         jimFilePanel.SetActive(false);
@@ -68,10 +73,12 @@ public class UIBehavior : MonoBehaviour
     }
     public void RestartGame()
     {
+        //used to restart but also load in game from start scrn
         Debug.Log("restarting game commencing...");
         SceneManager.LoadScene("UpdatedGameScene");
         newsPaperPanel.SetActive(false);
     }
+   
     public void SubmitReport()
     {
         newsPaperPanel.SetActive(true);
