@@ -3160,11 +3160,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: is untrustworthy
+    - m_Text: 'is passionate about getting justice '
       m_Image: {fileID: 0}
-    - m_Text: is a dedicated partner
+    - m_Text: is determined to uncover the facts
       m_Image: {fileID: 0}
-    - m_Text: 'is loyal to her husband '
+    - m_Text: 'is following up on any and all leads '
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3436,7 +3436,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: is definitely hiding something
+  m_Text: 'loved the victim '
 --- !u!222 &306828417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6129,7 +6129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &608996055
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6437,11 +6437,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: 'the victim''s son '
+    - m_Text: 'the detective assigned to the case '
       m_Image: {fileID: 0}
-    - m_Text: the victims antagonistic son
+    - m_Text: the detective the case was handed off to
       m_Image: {fileID: 0}
-    - m_Text: the victim's forthright son
+    - m_Text: on top of the case
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6715,11 +6715,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: is untrustworthy
+    - m_Text: 'knew the victim better than anyone else '
       m_Image: {fileID: 0}
-    - m_Text: is a dedicated partner
+    - m_Text: 'used to know the victim well '
       m_Image: {fileID: 0}
-    - m_Text: 'is loyal to her husband '
+    - m_Text: 'hardly knew the victim at all '
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12905,11 +12905,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: is definitely hiding something
+    - m_Text: 'loved the victim '
       m_Image: {fileID: 0}
-    - m_Text: 'cares for thier family '
+    - m_Text: 'had conflicting feelings toward the victim '
       m_Image: {fileID: 0}
-    - m_Text: cant stand the victim
+    - m_Text: 'hated the victim '
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13081,7 +13081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1234305676
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13801,7 +13801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: is untrustworthy
+  m_Text: 'is passionate about getting justice '
 --- !u!222 &1349113793
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15140,7 +15140,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: is definitely hiding something
+  m_Text: 'seems more interested in gossip '
 --- !u!222 &1482435468
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16158,7 +16158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: is untrustworthy
+  m_Text: 'knew the victim better than anyone else '
 --- !u!222 &1615185960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20764,11 +20764,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: is definitely hiding something
+    - m_Text: 'seems more interested in gossip '
       m_Image: {fileID: 0}
-    - m_Text: 'cares for thier family '
+    - m_Text: 'is determined to uncover the truth '
       m_Image: {fileID: 0}
-    - m_Text: cant stand the victim
+    - m_Text: 'is following up on all leads '
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -21342,7 +21342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'the victim''s son '
+  m_Text: 'the detective assigned to the case '
 --- !u!222 &2139569292
 CanvasRenderer:
   m_ObjectHideFlags: 0
