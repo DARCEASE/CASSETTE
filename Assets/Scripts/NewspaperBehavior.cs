@@ -11,6 +11,8 @@ public class NewspaperBehavior : MonoBehaviour
 {
     public string PlayerNewspaper;
     public Text finalNewspaper;
+    [TextArea]
+    [SerializeField] string[] newspaperPrints;
 
     // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
     public Dropdown NovakDPOne, NovakDPTwo, NovakDPThree;
@@ -57,7 +59,7 @@ public class NewspaperBehavior : MonoBehaviour
     WITH ARRAYS: Similar to what the old version of the code is doing, but sums everything up with one line of code. There will be 3 options for the player to choose from
     per dropdown menu. Whichever option in the menu the player chooses will be stored into the character's info array, which can be accessed by other classes.
     */
-    
+
     //NOVAK
     public void NovakDropA()
     {
@@ -386,71 +388,65 @@ public class NewspaperBehavior : MonoBehaviour
     }
     public void NewspaperPrint() // using this to test things 
     {
-        //WORK IN PROGRESS!
-        //**This section is comparing the type of newspaper values so the right newspaper will appear when the player hits submit.
-
-        //PlayerNewspaper = "Businessman and local hero Robert Evergreen was found dead Monday morning, having apparently fallen from a great height. The NYPD " + NovakNewspaperC + "\n \n" + "Mr. Evergreen was the CEO of Abundantia Investments. He leaves behind Jim Evergreen, his " + JimNewspaperA + ", and Julia Anderson, his" + JuliaNewspaperA + "Detective Novak," + NovakNewspaperA + NovakNewspaperB + "\n \n" + "When reached for comment, Ms. Max Elliot," + MaxNewspaperA + MaxNewspaperB + " described Mr. Evergreen as a consummate professional and an excellent boss and business partner. However, she " + MaxNewspaperC + "\n \n" + "In truth, Mr. Evergreen�s life outside of business appears to have been more complicated than he let on in his life. " + "\n \n" + "Jim " + JimNewspaperB + "and " + JimNewspaperC + ". Julia" + JuliaNewspaperB + ", and" + JuliaNewspaperC + "\n \n" + "Mr.Evergreen will be missed by many in the community, including " + MichaelNewspaperA + MichaelNewspaperB + MichaelNewspaperC;
+        int finalPaperInt; 
         
-        int finalPaperInt; //For determining which paper to print when they're equal
-
-         //Check if they're equal first, make sure this happens AFTER the player hits submit, NOT BEFORE
-
+        //For determining which paper to print when they're equal
         if (muckrakerPaper == statusQuoPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
             else
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
         }
 
         if (muckrakerPaper == tabloidPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
             else
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!";
+                PlayerNewspaper = newspaperPrints[2];
         }
 
         if (tabloidPaper == statusQuoPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!";
+                PlayerNewspaper = newspaperPrints[2];
             else
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
         }
 
         if (tabloidPaper == muckrakerPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!";
+                PlayerNewspaper = newspaperPrints[2];
             else
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
         }
 
         if (statusQuoPaper == tabloidPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
             else
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!" ;
+                PlayerNewspaper = newspaperPrints[2];
         }
 
          if (statusQuoPaper == muckrakerPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
             else
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
         }
 
         //if they are not equal, it'll jump over here
 
         if (muckrakerPaper > tabloidPaper && muckrakerPaper > statusQuoPaper)
-            PlayerNewspaper = "This is a progressive Muckraker article!";
+            PlayerNewspaper = newspaperPrints[0];
         else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper)
-            PlayerNewspaper = "This is a spicy, suacy Tabloid article!";
+            PlayerNewspaper = newspaperPrints[1];
         else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper)
-            PlayerNewspaper = "This is a standard, typical article.";
+            PlayerNewspaper = newspaperPrints[2];
 
 
         finalNewspaper.text = PlayerNewspaper;
