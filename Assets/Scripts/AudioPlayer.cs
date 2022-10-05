@@ -39,6 +39,8 @@ public class AudioPlayer : MonoBehaviour
         //barWidith = a_durationBarBG.transform.localScale.x;
         a_slider.maxValue = a_fullLength;
         //a_slider.value = knobPosX;
+        a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
+
     }
 
 
