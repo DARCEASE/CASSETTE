@@ -7686,33 +7686,103 @@ MonoBehaviour:
   MaxDPOne: {fileID: 710844956}
   MaxDPTwo: {fileID: 592275713}
   MaxDPThree: {fileID: 2068355532}
+  jimNewspaperOptions:
+  - 
+  - 
+  - 
   JimNewspaperA: 
   JimNewspaperB: 
   JimNewspaperC: 
+  juliaNewspaperOptions:
+  - 
+  - 
+  - 
   JuliaNewspaperA: 
   JuliaNewspaperB: 
   JuliaNewspaperC: 
+  michaelNewspaperOptions:
+  - 
+  - 
+  - 
   MichaelNewspaperA: 
   MichaelNewspaperB: 
   MichaelNewspaperC: 
+  maxNewspaperOptions:
+  - 
+  - 
+  - 
   MaxNewspaperA: 
   MaxNewspaperB: 
   MaxNewspaperC: 
+  novakNewspaperOptions:
+  - 
+  - 
+  - 
   NovakNewspaperA: 
   NovakNewspaperB: 
   NovakNewspaperC: 
+  novakInfoOptions:
+  - the detective assigned to, the case
+  - the detective the case was handed off to,
+  - the detective on top of the case,
+  - seems more interested in gossip than finding the truth.
+  - is determined to get justice for Mr.Evergreen, no matter what
+  - is following up on any and all leads
+  - does not wish to speculate on the manner of death at this time.
+  - is considering the possiblity of homicide.
+  - is considering the possibility the Mr. Evergreen took his life.
   novakInfoA: 
   novakInfoB: 
   novakInfoC: 
+  jimInfoOptions:
+  - ridiculous son
+  - grieving son
+  - resentful son
+  - knew Mr. Evergreen better than anyone else
+  - used to know Mr.Evergreen well
+  - hardly knew Mr.Evergreen at all
+  - loved Mr. Evergreen
+  - had a troubled relationship with Mr.Evergreen
+  - hated Mr. Evergreen
   jimInfoA: 
   jimInfoB: 
   jimInfoC: 
+  juliaInfoOptions:
+  - daughter.
+  - emotional daughter.
+  - pregnant daughter.
+  - loved her father very much
+  - takes a neutral stance towards her father
+  - is in denial about who her father was
+  - reacted poorly to questions about him
+  - was open about who her father was
+  - approved of her father's actions and lifestyle
   juliaInfoA: 
   juliaInfoB: 
   juliaInfoC: 
+  michaelInfoOptions:
+  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
+  - Mr. Evergreen's anonymous romantic partner,
+  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
+  - 'a career sailor in the United States Navy '
+  - 'is a saucy sailor '
+  - 'a victim of an oppressive system '
+  - who regrets his relationship with Mr. Evergreen.
+  - who was close with Mr. Evergreen.
+  - who cared deeply for Mr. Evergreen.
   michaelInfoA: 
   michaelInfoB: 
   michaelInfoC: 
+  maxInfoOptions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   maxInfoA: 
   maxInfoB: 
   maxInfoC: 

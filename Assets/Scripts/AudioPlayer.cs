@@ -35,10 +35,10 @@ public class AudioPlayer : MonoBehaviour
         a_clip = a_source.clip;
         a_source.Pause();
         ShowClipInfo();
-        //knobPosX = a_knob.transform.localPosition.x;
-        //barWidith = a_durationBarBG.transform.localScale.x;
+        knobPosX = a_knob.transform.localPosition.x;
+        barWidith = a_durationBarBG.transform.localScale.x;
         a_slider.maxValue = a_fullLength;
-        //a_slider.value = knobPosX;
+        a_slider.value = knobPosX;
         a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
 
     }
@@ -47,10 +47,9 @@ public class AudioPlayer : MonoBehaviour
     void Update()
     {
         /*
-        if (!knobDragging){
             a_durationBar.transform.localScale = new Vector2(a_durationBar.transform.localScale.x, 0);
             a_knob.transform.localPosition = new Vector2(a_durationBar.transform.localPosition.x, knob.transform.localPosition.y);
-        }*/
+            */
 
      
     }
