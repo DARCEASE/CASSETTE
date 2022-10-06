@@ -11,77 +11,33 @@ public class NewspaperBehavior : MonoBehaviour
 {
     public string PlayerNewspaper;
     public Text finalNewspaper;
+    [TextArea]
+    [SerializeField] string[] newspaperPrints;
 
     // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
-    public Dropdown NovakDPOne;
-    public Dropdown NovakDPTwo;
-    public Dropdown NovakDPThree;
+    public Dropdown NovakDPOne, NovakDPTwo, NovakDPThree;
 
-    public Dropdown JimDPOne;
-    public Dropdown JimDPTwo;
-    public Dropdown JimDPThree;
+    public Dropdown JimDPOne, JimDPTwo, JimDPThree;
 
-    public Dropdown JuliaDPOne;
-    public Dropdown JuliaDPTwo;
-    public Dropdown JuliaDPThree;
+    public Dropdown JuliaDPOne, JuliaDPTwo, JuliaDPThree;
 
-    public Dropdown MichaelDPOne;
-    public Dropdown MichaelDPTwo;
-    public Dropdown MichaelDPThree;
+    public Dropdown MichaelDPOne, MichaelDPTwo, MichaelDPThree;
 
-    public Dropdown MaxDPOne;
-    public Dropdown MaxDPTwo;
-    public Dropdown MaxDPThree;
+    public Dropdown MaxDPOne, MaxDPTwo, MaxDPThree;
 
     //UI TEXT THAT WILL HOLD ALL STRING CHANGES
-    public string JimNewspaperA;
-    public string JimNewspaperB;
-    public string JimNewspaperC;
-
-    public string JuliaNewspaperA;
-    public string JuliaNewspaperB;
-    public string JuliaNewspaperC;
-
-    public string MichaelNewspaperA;
-    public string MichaelNewspaperB;
-    public string MichaelNewspaperC;
-
-    public string MaxNewspaperA;
-    public string MaxNewspaperB;
-    public string MaxNewspaperC;
-
-    public string NovakNewspaperA;
-    public string NovakNewspaperB;
-    public string NovakNewspaperC;
-
-
+    [SerializeField] string[] jimNewspaperOptions;
+    [SerializeField] string[] juliaNewspaperOptions;
+    [SerializeField] string[] michaelNewspaperOptions;
+    [SerializeField] string[] maxNewspaperOptions;
+    [SerializeField] string[] novakNewspaperOptions;
 
     // establish all string variables that can be changed. and assign them on a UI text 
-
-    //Novak
-    public string novakInfoA; //container that will hold selected option for A
-    public string novakInfoB; //B
-    public string novakInfoC; //C
-
-    //Jim 
-    public string jimInfoA; //container that will hold selected option  for A 
-    public string jimInfoB; //B
-    public string jimInfoC; //C
-
-    //Julia 
-    public string juliaInfoA; //container that will hold selected option A
-    public string juliaInfoB; //B
-    public string juliaInfoC; //C
-
-    //Michael 
-    public string michaelInfoA; //container that will hold selected option A
-    public string michaelInfoB; //B
-    public string michaelInfoC; //C
-
-    //Max
-    public string maxInfoA; //container that will hold selected option A
-    public string maxInfoB; //B
-    public string maxInfoC; //C
+    [SerializeField] string[] novakInfoOptions;
+    [SerializeField] string[] jimInfoOptions;
+    [SerializeField] string[] juliaInfoOptions;
+    [SerializeField] string[] michaelInfoOptions;
+    [SerializeField] string[] maxInfoOptions;
 
     //Values
     [SerializeField] int muckrakerPaper, tabloidPaper, statusQuoPaper;
@@ -99,6 +55,10 @@ public class NewspaperBehavior : MonoBehaviour
     {
         NewspaperPrint();
     }
+    /*
+    WITH ARRAYS: Similar to what the old version of the code is doing, but sums everything up with one line of code. There will be 3 options for the player to choose from
+    per dropdown menu. Whichever option in the menu the player chooses will be stored into the character's info array, which can be accessed by other classes.
+    */
 
     //NOVAK
     public void NovakDropA()
@@ -106,22 +66,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (NovakDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {
             Debug.Log("NOV. Drop 1 Opt 1");
-            novakInfoA = "the detective assigned to the case,";// change the text in the newspaper to be a certain line
-            NovakNewspaperA = novakInfoA;
+            novakNewspaperOptions[0] = novakInfoOptions[0];
             statusQuoPaper+=1;
         }
         else if (NovakDPOne.value == 2)
         {
             Debug.Log("NOV. Drop 1 Opt 2");
-            novakInfoA = "the detective the case was handed off to,";// change the text in the newspaper to be a certain line
-            NovakNewspaperA = novakInfoA;
+            novakNewspaperOptions[0] = novakInfoOptions[1];
             muckrakerPaper+=1;
         }
         else if (NovakDPOne.value == 3)
         {
             Debug.Log("NOV. Drop 1 Opt 3");
-            novakInfoA = "the detective on top of the case,";// change the text in the newspaper to be a certain line
-            NovakNewspaperA = novakInfoA;
+            novakNewspaperOptions[0] = novakInfoOptions[2];
             tabloidPaper+=1;
         }
     }
@@ -130,22 +87,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (NovakDPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
             Debug.Log("NOV. Drop 2 Opt 1");
-            novakInfoB = "seems more interested in gossip than finding the truth.";// change the text in the newspaper to be a certain line
-            NovakNewspaperB = novakInfoB;
+            novakNewspaperOptions[1] = novakInfoOptions[3];
             tabloidPaper+=1;
         }
         else if (NovakDPTwo.value == 2)
         {
             Debug.Log("NOV. Drop 2 Opt 2");
-            novakInfoB = "is determined to get justice for Mr.Evergreen, no matter what";// change the text in the newspaper to be a certain line
-            NovakNewspaperB = novakInfoB;
+            novakNewspaperOptions[1] = novakInfoOptions[4];
             statusQuoPaper+=1;
         }
         else if (NovakDPTwo.value == 3)
         {
             Debug.Log("NOV. Drop 2 Opt 3");
-            novakInfoB = "is following up on any and all leads";// change the text in the newspaper to be a certain line
-            NovakNewspaperB = novakInfoB;
+            novakNewspaperOptions[1] = novakInfoOptions[5];
             muckrakerPaper+=1;
             
         } 
@@ -155,22 +109,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (NovakDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
             Debug.Log("NOV. Drop 3 Opt 1");
-            novakInfoC = "does not wish to speculate on the manner of death at this time.";// change the text in the newspaper to be a certain line
-            NovakNewspaperC = novakInfoC;
+            novakNewspaperOptions[2] = novakInfoOptions[6];
             statusQuoPaper+=1;
         }
         else if (NovakDPThree.value == 2)
         {
             Debug.Log("NOV. Drop 3 Opt 2");
-            novakInfoC = "is considering the possiblity of homicide.";// change the text in the newspaper to be a certain line
-            NovakNewspaperC = novakInfoC;
+            novakNewspaperOptions[2] = novakInfoOptions[7];
             muckrakerPaper+=1;
         }
         else if (NovakDPThree.value == 3)
         {
             Debug.Log("NOV. Drop 3 Opt 3");
-            novakInfoC = "is considering the possibility the Mr. Evergreen took his life.";// change the text in the newsaper to be a certain line
-            NovakNewspaperC = novakInfoC;
+            novakNewspaperOptions[2] = novakInfoOptions[8];
             tabloidPaper+=1;
         }
     }
@@ -181,22 +132,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (JimDPOne.value == 1) 
         {
             Debug.Log("JIM. Drop 1 Opt 1");
-            jimInfoA = "ridiculous son";// change the text in the newspaper to be a certain line
-            JimNewspaperA = jimInfoA;
+            jimNewspaperOptions[0] = jimInfoOptions[0];
             tabloidPaper+=1;
         }
         else if (JimDPOne.value == 2)
         {
             Debug.Log("JIM. Drop 1 Opt 2");
-            jimInfoA = "grieving son";// change the text in the newspaper to be a certain line
-            JimNewspaperA = jimInfoA;
+            jimNewspaperOptions[0] = jimInfoOptions[1];
             statusQuoPaper+=1;
         }
         else if (JimDPOne.value == 3)
         {
             Debug.Log("JIM. Drop 1 Opt 3");
-            jimInfoA = "resentful son";// change the text in the newspaper to be a certain line
-            JimNewspaperA = jimInfoA;
+            jimNewspaperOptions[0] = jimInfoOptions[2];
             muckrakerPaper+=1;
         }
     }
@@ -205,22 +153,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (JimDPTwo.value == 1) 
         {
             Debug.Log("JIM. Drop 2 Opt 1");
-            jimInfoB = "knew Mr. Evergreen better than anyone else";// change the text in the newspaper to be a certain line
-            JimNewspaperB = jimInfoB;
+            jimNewspaperOptions[1] = jimInfoOptions[3];
             statusQuoPaper+=1;
         }
         else if (JimDPOne.value == 2)
         {
             Debug.Log("JIM. Drop 2 Opt 2");
-            jimInfoB = "used to know Mr.Evergreen well";// change the text in the newspaper to be a certain line
-            JimNewspaperB = jimInfoB;
+            jimNewspaperOptions[1] = jimInfoOptions[4];
             muckrakerPaper+=1;
         }
         else if (JimDPOne.value == 3)
         {
             Debug.Log("JIM. Drop 2 Opt 3");
-            jimInfoB = "hardly knew Mr.Evergreen at all";// change the text in the newspaper to be a certain line
-            JimNewspaperB = jimInfoB;
+            jimNewspaperOptions[1] = jimInfoOptions[5];
             tabloidPaper+=1;
         }
     }
@@ -229,25 +174,21 @@ public class NewspaperBehavior : MonoBehaviour
         if (JimDPThree.value == 1) 
         {
             Debug.Log("JIM. Drop 3 Opt 1");
-            jimInfoC = "loved Mr. Evergreen";// change the text in the newspaper to be a certain line
-            JimNewspaperC = jimInfoC;
+            jimNewspaperOptions[2] = jimInfoOptions[6];
             muckrakerPaper+=1;
         }
         else if (JimDPThree.value == 2)
         {
             Debug.Log("JIM. Drop 3 Opt 2");
-            jimInfoC = "had a troubled relationship with Mr.Evergreen";// change the text in the newspaper to be a certain line
-            JimNewspaperC = jimInfoC;
+            jimNewspaperOptions[2] = jimInfoOptions[7];
             statusQuoPaper+=1;
         }
         else if (JimDPThree.value == 3)
         {
             Debug.Log("JIM. Drop 3 Opt 3");
-            jimInfoC = "hated Mr. Evergreen";// change the text in the newspaper to be a certain line
-            JimNewspaperC = jimInfoC;
+            jimNewspaperOptions[2] = jimInfoOptions[8];
             tabloidPaper+=1;
-        }
-        
+        } 
     }
 
     //JULIA 
@@ -257,22 +198,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (JuliaDPOne.value == 1) 
         {
             Debug.Log("JULIA. Drop 1 Opt 1");
-            juliaInfoA = "daughter.";// change the text in the newspaper to be a certain line
-            JuliaNewspaperA = juliaInfoA;
+            juliaNewspaperOptions[0] = juliaInfoOptions[0];
             statusQuoPaper+=1;
         }
         else if (JuliaDPOne.value == 2)
         {
             Debug.Log("JULIA. Drop 1 Opt 2");
-            juliaInfoA = "emotional daughter.";// change the text in the newspaper to be a certain line
-            JuliaNewspaperA = juliaInfoA;
+            juliaNewspaperOptions[0] = juliaInfoOptions[1];
             tabloidPaper+=1;
         }
         else if (JuliaDPOne.value == 3)
         {
             Debug.Log("JULIA. Drop 1 Opt 3");
-            juliaInfoA = "pregnant daughter.";// change the text in the newspaper to be a certain line
-            JuliaNewspaperA = juliaInfoA;
+            juliaNewspaperOptions[0] = juliaInfoOptions[2];
             muckrakerPaper+=1;
         }
     }
@@ -281,22 +219,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (JuliaDPTwo.value == 1)
         {
             Debug.Log("JULIA. Drop 2 Opt 1");
-            juliaInfoB = "loved her father very much";// change the text in the newspaper to be a certain line
-            JuliaNewspaperB = juliaInfoB;
+            juliaNewspaperOptions[1] = juliaInfoOptions[3];
             muckrakerPaper+=1;
         }
         else if (JuliaDPTwo.value == 2)
         {
             Debug.Log("JULIA. Drop 2 Opt 2");
-            juliaInfoB = "takes a neutral stance towards her father";// change the text in the newspaper to be a certain line
-            JuliaNewspaperB = juliaInfoB;
+            juliaNewspaperOptions[1] = juliaInfoOptions[4];
             statusQuoPaper+=1;
         }
         else if (JuliaDPTwo.value == 3)
         {
             Debug.Log("JULIA. Drop 2 Opt 3");
-            juliaInfoB = "is in denial about who her father was";// change the text in the newspaper to be a certain line
-            JuliaNewspaperB = juliaInfoB;
+            juliaNewspaperOptions[1] = juliaInfoOptions[5];
             tabloidPaper+=1;
         }
     }
@@ -305,22 +240,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (JuliaDPThree.value == 1)
         {
             Debug.Log("JULIA. Drop 3 Opt 1");
-            juliaInfoC = "reacted poorly to questions about him";// change the text in the newspaper to be a certain line
-            JuliaNewspaperC = juliaInfoC;
+            juliaNewspaperOptions[2] = juliaInfoOptions[6];
             tabloidPaper+=1;
         }
         else if (JuliaDPThree.value == 2)
         {
             Debug.Log("JULIA. Drop 3 Opt 2");
-            juliaInfoC = "was open about who her father was";// change the text in the newspaper to be a certain line
-            JuliaNewspaperC = juliaInfoC;
+            juliaNewspaperOptions[2] = juliaInfoOptions[7];
             statusQuoPaper+=1;
         }
         else if (JuliaDPThree.value == 3)
         {
             Debug.Log("JULIA. Drop 3 Opt 3");
-            juliaInfoC = "approved of her father's actions and lifestyle";// change the text in the newspaper to be a certain line
-            JuliaNewspaperC = juliaInfoC;
+            juliaNewspaperOptions[2] = juliaInfoOptions[8];
             muckrakerPaper+=1;
         }
     }
@@ -331,22 +263,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (MichaelDPOne.value == 1)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 1");
-            michaelInfoA = "Lieutenant Michael Bailey, Mr. Evergreen's friend,";// change the text in the newspaper to be a certain line
-            MichaelNewspaperA = michaelInfoA;
+            michaelNewspaperOptions[0] = michaelInfoOptions[0];
             statusQuoPaper+=1;
         }
         else if (MichaelDPOne.value == 2)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 2");
-            michaelInfoA = "Mr. Evergreen's anonymous romantic partner,";// change the text in the newspaper to be a certain line
-            MichaelNewspaperA = michaelInfoA;
+            michaelNewspaperOptions[0] = michaelInfoOptions[1];
             muckrakerPaper+=1;
         }
         else if (MichaelDPOne.value == 3)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 3");
-            michaelInfoA = "Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,";// change the text in the newspaper to be a certain line
-            MichaelNewspaperA = michaelInfoA;
+            michaelNewspaperOptions[0] = michaelInfoOptions[2];
             tabloidPaper+=1;
         }
     }
@@ -355,22 +284,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (MichaelDPTwo.value == 1)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 1");
-            michaelInfoB = "a career sailor in the United States Navy ";// change the text in the newspaper to be a certain line
-            MichaelNewspaperB =  michaelInfoB;
+            michaelNewspaperOptions[1] = michaelInfoOptions[3];
             statusQuoPaper+=1;
         }
         else if (JuliaDPTwo.value == 2)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 2");
-            michaelInfoB = "is a saucy sailor ";// change the text in the newspaper to be a certain line
-            MichaelNewspaperB = michaelInfoB;
+            michaelNewspaperOptions[1] = michaelInfoOptions[4];
             tabloidPaper+=1;
         }
         else if (JuliaDPTwo.value == 3)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 3");
-            michaelInfoB = "a victim of an oppressive system ";// change the text in the newspaper to be a certain line
-            MichaelNewspaperB = michaelInfoB;
+            michaelNewspaperOptions[1] = michaelInfoOptions[5];
             muckrakerPaper+=1;
         }
     }
@@ -379,22 +305,19 @@ public class NewspaperBehavior : MonoBehaviour
             if (MichaelDPThree.value == 1)
             {
                 Debug.Log("MICHAEL Drop 3 Opt 1");
-                michaelInfoC = "who regrets his relationship with Mr. Evergreen.";// change the text in the newspaper to be a certain line
-                MichaelNewspaperC = michaelInfoC;
+                michaelNewspaperOptions[2] = michaelInfoOptions[6];
                 tabloidPaper+=1;
             }
             else if (MichaelDPThree.value == 2)
             {
                 Debug.Log("MICHAEL. Drop 3 Opt 2");
-                michaelInfoC = "who was close with Mr. Evergreen.";// change the text in the newspaper to be a certain line
-                MichaelNewspaperC = michaelInfoC;
+                michaelNewspaperOptions[2] = michaelInfoOptions[7];
                 statusQuoPaper+=1;
             }
             else if (MichaelDPThree.value == 3)
             {
                 Debug.Log("MICHAEL. Drop 3 Opt 3");
-                michaelInfoC = "who cared deeply for Mr. Evergreen.";// change the text in the newspaper to be a certain line
-                MichaelNewspaperC = michaelInfoC;
+                michaelNewspaperOptions[2] = michaelInfoOptions[8];
                 muckrakerPaper+=1;
             }
         }
@@ -405,22 +328,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (MaxDPOne.value == 1)
         {
             Debug.Log("MAX. Drop 1 Opt 1");
-            maxInfoA = "Mr. Evergreen's friend and business partner who";// change the text in the newspaper to be a certain line
-            MaxNewspaperA = maxInfoA;
+            maxNewspaperOptions[0] = maxInfoOptions[0];
             muckrakerPaper+=1;
         }
         else if (MichaelDPOne.value == 2)
         {
             Debug.Log("MAX. Drop 1 Opt 2");
-            maxInfoA = "Mr. Evergreen's business partner who";// change the text in the newspaper to be a certain line
-            MaxNewspaperA = maxInfoA;
+            michaelNewspaperOptions[0] = michaelInfoOptions[1];
             statusQuoPaper+=1;
         }
         else if (MichaelDPOne.value == 3)
         {
             Debug.Log("MAX. Drop 1 Opt 3");
-            maxInfoA = "Mr. Evergreen's subordinate who";// change the text in the newspaper to be a certain line
-            MaxNewspaperA = maxInfoA;
+            michaelNewspaperOptions[0] = michaelInfoOptions[2];
             tabloidPaper+=1;
         }
     }
@@ -429,22 +349,19 @@ public class NewspaperBehavior : MonoBehaviour
         if (MaxDPTwo.value == 1)
         {
             Debug.Log("MAX. Drop 2 Opt 1");
-            maxInfoB = "is cold and professional,";// change the text in the newspaper to be a certain line
-            MaxNewspaperB = maxInfoB;
+            michaelNewspaperOptions[1] = michaelInfoOptions[3];
             statusQuoPaper+=1;
         }
         else if (MaxDPTwo.value == 2)
         {
             Debug.Log("MAX. Drop 2 Opt 2");
-            maxInfoB = " is a frigid bitch,";// change the text in the newspaper to be a certain line
-            MaxNewspaperB =  maxInfoB;
+            michaelNewspaperOptions[1] = michaelInfoOptions[4];
             tabloidPaper+=1;
         }
         else if (MaxDPTwo.value == 3)
         {
             Debug.Log("MAX. Drop 2 Opt 3");
-            maxInfoB = "is a woman doing her best to make it in a man's world,";// change the text in the newspaper to be a certain line
-            MaxNewspaperB = maxInfoB;
+            michaelNewspaperOptions[1] = michaelInfoOptions[5];
             muckrakerPaper+=1;
         }
     }
@@ -453,92 +370,83 @@ public class NewspaperBehavior : MonoBehaviour
         if (MaxDPThree.value == 1)
         {
             Debug.Log("MAX. Drop 3 Opt 1");
-            maxInfoC = "refused to answer questions about Mr. Evergreen's personal life.";// change the text in the newspaper to be a certain line
-            MaxNewspaperC = maxInfoC;
+            michaelNewspaperOptions[2] = michaelInfoOptions[6];
             tabloidPaper+=1;
         }
         else if (MaxDPThree.value == 2)
         {
             Debug.Log("MAX. Drop 3 Opt 2");
-            maxInfoC = "did not know anything about Mr. Evergreen's personal life.";// change the text in the newspaper to be a certain line
-            MaxNewspaperC = maxInfoC;
+            michaelNewspaperOptions[2] = michaelInfoOptions[7];
             statusQuoPaper+=1;
         }
         else if (MaxDPThree.value == 3)
         {
             Debug.Log("MAX. Drop 3 Opt 3");
-            maxInfoC = "knew more than she could say about Mr.Evergreen's personal life.";// change the text in the newspaper to be a certain line
-            MaxNewspaperC = maxInfoC;
+            michaelNewspaperOptions[2] = michaelInfoOptions[8];
             muckrakerPaper+=1;
         }
     }
     public void NewspaperPrint() // using this to test things 
     {
-        //WORK IN PROGRESS!
-        //**This section is comparing the type of newspaper values so the right newspaper will appear when the player hits submit.
-
-        //PlayerNewspaper = "Businessman and local hero Robert Evergreen was found dead Monday morning, having apparently fallen from a great height. The NYPD " + NovakNewspaperC + "\n \n" + "Mr. Evergreen was the CEO of Abundantia Investments. He leaves behind Jim Evergreen, his " + JimNewspaperA + ", and Julia Anderson, his" + JuliaNewspaperA + "Detective Novak," + NovakNewspaperA + NovakNewspaperB + "\n \n" + "When reached for comment, Ms. Max Elliot," + MaxNewspaperA + MaxNewspaperB + " described Mr. Evergreen as a consummate professional and an excellent boss and business partner. However, she " + MaxNewspaperC + "\n \n" + "In truth, Mr. Evergreen�s life outside of business appears to have been more complicated than he let on in his life. " + "\n \n" + "Jim " + JimNewspaperB + "and " + JimNewspaperC + ". Julia" + JuliaNewspaperB + ", and" + JuliaNewspaperC + "\n \n" + "Mr.Evergreen will be missed by many in the community, including " + MichaelNewspaperA + MichaelNewspaperB + MichaelNewspaperC;
+        int finalPaperInt; 
         
-        int finalPaperInt; //For determining which paper to print when they're equal
-
-         //Check if they're equal first, make sure this happens AFTER the player hits submit, NOT BEFORE
-
+        //For determining which paper to print when they're equal
         if (muckrakerPaper == statusQuoPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
             else
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
         }
 
         if (muckrakerPaper == tabloidPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
             else
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!";
+                PlayerNewspaper = newspaperPrints[2];
         }
 
         if (tabloidPaper == statusQuoPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!";
+                PlayerNewspaper = newspaperPrints[2];
             else
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
         }
 
         if (tabloidPaper == muckrakerPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!";
+                PlayerNewspaper = newspaperPrints[2];
             else
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
         }
 
         if (statusQuoPaper == tabloidPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
             else
-                PlayerNewspaper = "This is a spicy, saucy Tabloid article!" ;
+                PlayerNewspaper = newspaperPrints[2];
         }
 
          if (statusQuoPaper == muckrakerPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1)
-                PlayerNewspaper = "This is a standard, typical article.";
+                PlayerNewspaper = newspaperPrints[1];
             else
-                PlayerNewspaper = "This is a progressive Muckraker article!";
+                PlayerNewspaper = newspaperPrints[0];
         }
 
         //if they are not equal, it'll jump over here
 
         if (muckrakerPaper > tabloidPaper && muckrakerPaper > statusQuoPaper)
-            PlayerNewspaper = "This is a progressive Muckraker article!";
+            PlayerNewspaper = newspaperPrints[0];
         else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper)
-            PlayerNewspaper = "This is a spicy, suacy Tabloid article!";
+            PlayerNewspaper = newspaperPrints[1];
         else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper)
-            PlayerNewspaper = "This is a standard, typical article.";
+            PlayerNewspaper = newspaperPrints[2];
 
 
         finalNewspaper.text = PlayerNewspaper;

@@ -479,7 +479,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7671,6 +7671,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
   finalNewspaper: {fileID: 625459588}
+  newspaperPrints:
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having fallen from a great height. Mr. Evergreen
+    was the CEO of Abundantia Investments. He was a father of two and a friend to
+    many. He was also a closeted gay man in a secret relationship with a US service
+    member.\r\n\r\nMr. Evergreen is survived by two children, Julia Anderson and
+    Jim Evergreen. Mr. Evergreen divorced his wife five years ago, though she declined
+    to comment for this article. Jim has grown distant from his father since the
+    split. Julia, however, supported him through his divorce, and approved of his
+    homosexuality thereafter. \u201CDad had always seemed unhappy with mom,\u201D
+    Julia said when asked about Mr. Evergreen\u2019s love life. \u201CBut I know
+    that now, my father was happy. And for that, I suppose I was happy too.\u201D\r\n\r\nRumors
+    about Mr. Evergreen were abound in his workplace. His friend and business partner,
+    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
+    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
+    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
+    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
+    it\u2019s only right that I do the same for him now.\u201D\r\n\r\nMr. Evergreen
+    was in a covert relationship with a career sailor in the US navy. The Local Rag
+    is unable to name him here without putting his profession and his safety at risk.
+    Unable to grieve Mr. Evergreen\u2019s death publicly, his partner will have no
+    choice but to mourn in private, as he continues his silent struggle against the
+    US military\u2019s rampant homophobia.\r\n"
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Detective
+    Novak of the NYPD stated that \u201CThe department does not, at this time, wish
+    to speculate on the specific manner of the death, whether it was accident, murder,
+    or suicide, as the investigation is still ongoing.\u201D\r\n\r\nMr. Evergreen
+    is survived by his ex-wife and two children, Julia Anderson and Jim Evergreen.
+    When reached for comment, both children expressed grief at the sudden loss of
+    their father.\r\n\r\nMr. Evergreen built his company, Abundantia Investments,
+    from the ground up. For now, the company will be led by Mr. Evergreen\u2019s
+    associate, Ms. Max Elliot, who described Mr. Evergreen as a consummate professional
+    and an excellent boss and business partner.\r\n\r\nIn addition to his family,
+    Mr. Evergreen leaves behind a vast network of close friends. One such individual,
+    Lieutenant Michael Bailey of the US Navy, expressed his remorse at Mr. Evergreen\u2019s
+    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
+    Lt. Bailey said when reached for comment.\r\n"
+  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having fallen from the roof of his office building.
+    While he was known as a family man and an upstanding citizen of our city, there
+    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
+    \r\n\r\nMr. Evergreen leaves behind an ex-wife and two children, each of whom
+    was left damaged by his deviant lifestyle. When asked for comment, his daughter,
+    Julia Anderson, was hysterical with emotion and reacted poorly and with strongly
+    worded reproach to questions about her father\u2019s sexual orientation. His
+    son, Jim Evergreen, shared no such denial about Mr. Evergreen\u2019s lifestyle,
+    but expressed bitterness towards his father in both life and death. Mr. Evergreen\u2019s
+    ex-wife declined to comment.\r\n\r\nMr. Evergreen\u2019s business will remain
+    in operation, left in the cold and steely hands of his former subordinate, Ms.
+    Maxine Elliot. She wouldn\u2019t directly confirm nor deny any allegations, but
+    she did make it clear that Mr. Evergreen\u2019s sex life was something of an
+    open secret at his company. \u201CThere was the occasional business trip or social
+    gathering where he\u2019d quietly slip out and we wouldn\u2019t see him again
+    until morning,\u201D she explained.\r\n\r\nAs for Mr. Evergreen\u2019s lover?
+    That would be one Lieutenant Michael Bailey of the United States Navy. Lt. Bailey
+    had been in a relationship with Mr. Evergreen for the past fifteen years, beginning
+    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
+    on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
+    his relationship with the businessman. \r\n"
   NovakDPOne: {fileID: 366016363}
   NovakDPTwo: {fileID: 697480803}
   NovakDPThree: {fileID: 1781164368}
@@ -7686,36 +7746,76 @@ MonoBehaviour:
   MaxDPOne: {fileID: 710844956}
   MaxDPTwo: {fileID: 592275713}
   MaxDPThree: {fileID: 2068355532}
-  JimNewspaperA: 
-  JimNewspaperB: 
-  JimNewspaperC: 
-  JuliaNewspaperA: 
-  JuliaNewspaperB: 
-  JuliaNewspaperC: 
-  MichaelNewspaperA: 
-  MichaelNewspaperB: 
-  MichaelNewspaperC: 
-  MaxNewspaperA: 
-  MaxNewspaperB: 
-  MaxNewspaperC: 
-  NovakNewspaperA: 
-  NovakNewspaperB: 
-  NovakNewspaperC: 
-  novakInfoA: 
-  novakInfoB: 
-  novakInfoC: 
-  jimInfoA: 
-  jimInfoB: 
-  jimInfoC: 
-  juliaInfoA: 
-  juliaInfoB: 
-  juliaInfoC: 
-  michaelInfoA: 
-  michaelInfoB: 
-  michaelInfoC: 
-  maxInfoA: 
-  maxInfoB: 
-  maxInfoC: 
+  jimNewspaperOptions:
+  - 
+  - 
+  - 
+  juliaNewspaperOptions:
+  - 
+  - 
+  - 
+  michaelNewspaperOptions:
+  - 
+  - 
+  - 
+  maxNewspaperOptions:
+  - 
+  - 
+  - 
+  novakNewspaperOptions:
+  - 
+  - 
+  - 
+  novakInfoOptions:
+  - the detective assigned to, the case
+  - the detective the case was handed off to,
+  - the detective on top of the case,
+  - seems more interested in gossip than finding the truth.
+  - is determined to get justice for Mr.Evergreen, no matter what
+  - is following up on any and all leads
+  - does not wish to speculate on the manner of death at this time.
+  - is considering the possiblity of homicide.
+  - is considering the possibility the Mr. Evergreen took his life.
+  jimInfoOptions:
+  - ridiculous son
+  - grieving son
+  - resentful son
+  - knew Mr. Evergreen better than anyone else
+  - used to know Mr.Evergreen well
+  - hardly knew Mr.Evergreen at all
+  - loved Mr. Evergreen
+  - had a troubled relationship with Mr.Evergreen
+  - hated Mr. Evergreen
+  juliaInfoOptions:
+  - daughter.
+  - emotional daughter.
+  - pregnant daughter.
+  - loved her father very much
+  - takes a neutral stance towards her father
+  - is in denial about who her father was
+  - reacted poorly to questions about him
+  - was open about who her father was
+  - approved of her father's actions and lifestyle
+  michaelInfoOptions:
+  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
+  - Mr. Evergreen's anonymous romantic partner,
+  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
+  - 'a career sailor in the United States Navy '
+  - 'is a saucy sailor '
+  - 'a victim of an oppressive system '
+  - who regrets his relationship with Mr. Evergreen.
+  - who was close with Mr. Evergreen.
+  - who cared deeply for Mr. Evergreen.
+  maxInfoOptions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0
@@ -15952,7 +16052,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -20703,7 +20803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1566272243
 RectTransform:
   m_ObjectHideFlags: 0
