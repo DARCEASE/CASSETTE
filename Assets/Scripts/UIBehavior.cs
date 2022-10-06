@@ -36,7 +36,7 @@ public class UIBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void ExitButton()
     {

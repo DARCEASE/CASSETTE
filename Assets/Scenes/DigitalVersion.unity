@@ -6983,12 +6983,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608035557}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 399.9693, y: 212.93321, z: -11.387089}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 76.806244, y: 95.64651, z: 94.71515}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &608035560
 MonoBehaviour:
@@ -11875,6 +11875,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &925287763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925287765}
+  - component: {fileID: 925287764}
+  m_Layer: 0
+  m_Name: DontDestroyGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &925287764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925287763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76edaca6b8af1694c8b5d9019404f5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &925287765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925287763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 323.16306, y: 117.286705, z: -106.102234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1507010981}
+  - {fileID: 608035559}
+  - {fileID: 993651776}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953707162
 GameObject:
   m_ObjectHideFlags: 0
@@ -12928,6 +12974,199 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991530705}
   m_CullTransparentMesh: 1
+--- !u!1 &993651775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993651776}
+  - component: {fileID: 993651777}
+  m_Layer: 0
+  m_Name: DropdownController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &993651776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993651775}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -96.09073, y: 61.748802, z: 63.012676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993651777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993651775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a08f7b7ec8cb9469972ae1a0315019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  finalNewspaper: {fileID: 0}
+  newspaperPrints:
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having fallen from a great height. Mr. Evergreen
+    was the CEO of Abundantia Investments. He was a father of two and a friend to
+    many. He was also a closeted gay man in a secret relationship with a US service
+    member.\r\n\r\nMr. Evergreen is survived by two children, Julia Anderson and
+    Jim Evergreen. Mr. Evergreen divorced his wife five years ago, though she declined
+    to comment for this article. Jim has grown distant from his father since the
+    split. Julia, however, supported him through his divorce, and approved of his
+    homosexuality thereafter. \u201CDad had always seemed unhappy with mom,\u201D
+    Julia said when asked about Mr. Evergreen\u2019s love life. \u201CBut I know
+    that now, my father was happy. And for that, I suppose I was happy too.\u201D\r\n\r\nRumors
+    about Mr. Evergreen were abound in his workplace. His friend and business partner,
+    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
+    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
+    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
+    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
+    it\u2019s only right that I do the same for him now.\u201D\r\n\r\nMr. Evergreen
+    was in a covert relationship with a career sailor in the US navy. The Local Rag
+    is unable to name him here without putting his profession and his safety at risk.
+    Unable to grieve Mr. Evergreen\u2019s death publicly, his partner will have no
+    choice but to mourn in private, as he continues his silent struggle against the
+    US military\u2019s rampant homophobia.\r\n"
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Detective
+    Novak of the NYPD stated that \u201CThe department does not, at this time, wish
+    to speculate on the specific manner of the death, whether it was accident, murder,
+    or suicide, as the investigation is still ongoing.\u201D\r\n\r\nMr. Evergreen
+    is survived by his ex-wife and two children, Julia Anderson and Jim Evergreen.
+    When reached for comment, both children expressed grief at the sudden loss of
+    their father.\r\n\r\nMr. Evergreen built his company, Abundantia Investments,
+    from the ground up. For now, the company will be led by Mr. Evergreen\u2019s
+    associate, Ms. Max Elliot, who described Mr. Evergreen as a consummate professional
+    and an excellent boss and business partner.\r\n\r\nIn addition to his family,
+    Mr. Evergreen leaves behind a vast network of close friends. One such individual,
+    Lieutenant Michael Bailey of the US Navy, expressed his remorse at Mr. Evergreen\u2019s
+    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
+    Lt. Bailey said when reached for comment.\r\n"
+  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having fallen from the roof of his office building.
+    While he was known as a family man and an upstanding citizen of our city, there
+    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
+    \r\n\r\nMr. Evergreen leaves behind an ex-wife and two children, each of whom
+    was left damaged by his deviant lifestyle. When asked for comment, his daughter,
+    Julia Anderson, was hysterical with emotion and reacted poorly and with strongly
+    worded reproach to questions about her father\u2019s sexual orientation. His
+    son, Jim Evergreen, shared no such denial about Mr. Evergreen\u2019s lifestyle,
+    but expressed bitterness towards his father in both life and death. Mr. Evergreen\u2019s
+    ex-wife declined to comment.\r\n\r\nMr. Evergreen\u2019s business will remain
+    in operation, left in the cold and steely hands of his former subordinate, Ms.
+    Maxine Elliot. She wouldn\u2019t directly confirm nor deny any allegations, but
+    she did make it clear that Mr. Evergreen\u2019s sex life was something of an
+    open secret at his company. \u201CThere was the occasional business trip or social
+    gathering where he\u2019d quietly slip out and we wouldn\u2019t see him again
+    until morning,\u201D she explained.\r\n\r\nAs for Mr. Evergreen\u2019s lover?
+    That would be one Lieutenant Michael Bailey of the United States Navy. Lt. Bailey
+    had been in a relationship with Mr. Evergreen for the past fifteen years, beginning
+    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
+    on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
+    his relationship with the businessman. \r\n"
+  NovakDPOne: {fileID: 1955818698}
+  NovakDPTwo: {fileID: 2124620505}
+  NovakDPThree: {fileID: 339281353}
+  JimDPOne: {fileID: 1034813059}
+  JimDPTwo: {fileID: 2107646787}
+  JimDPThree: {fileID: 1883459286}
+  JuliaDPOne: {fileID: 1583140558}
+  JuliaDPTwo: {fileID: 1604689592}
+  JuliaDPThree: {fileID: 1777754383}
+  MichaelDPOne: {fileID: 1116551355}
+  MichaelDPTwo: {fileID: 1409862464}
+  MichaelDPThree: {fileID: 1878335494}
+  MaxDPOne: {fileID: 1586403694}
+  MaxDPTwo: {fileID: 1649429140}
+  MaxDPThree: {fileID: 2124042287}
+  jimNewspaperOptions:
+  - 
+  - 
+  - 
+  juliaNewspaperOptions:
+  - 
+  - 
+  - 
+  michaelNewspaperOptions:
+  - 
+  - 
+  - 
+  maxNewspaperOptions:
+  - 
+  - 
+  - 
+  novakNewspaperOptions:
+  - 
+  - 
+  - 
+  novakInfoOptions:
+  - the detective assigned to, the case
+  - the detective the case was handed off to,
+  - the detective on top of the case,
+  - seems more interested in gossip than finding the truth.
+  - is determined to get justice for Mr.Evergreen, no matter what
+  - is following up on any and all leads
+  - does not wish to speculate on the manner of death at this time.
+  - is considering the possiblity of homicide.
+  - is considering the possibility the Mr. Evergreen took his life.
+  jimInfoOptions:
+  - ridiculous son
+  - grieving son
+  - resentful son
+  - knew Mr. Evergreen better than anyone else
+  - used to know Mr.Evergreen well
+  - hardly knew Mr.Evergreen at all
+  - loved Mr. Evergreen
+  - had a troubled relationship with Mr.Evergreen
+  - hated Mr. Evergreen
+  juliaInfoOptions:
+  - daughter.
+  - emotional daughter.
+  - pregnant daughter.
+  - loved her father very much
+  - takes a neutral stance towards her father
+  - is in denial about who her father was
+  - reacted poorly to questions about him
+  - was open about who her father was
+  - approved of her father's actions and lifestyle
+  michaelInfoOptions:
+  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
+  - Mr. Evergreen's anonymous romantic partner,
+  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
+  - 'a career sailor in the United States Navy '
+  - 'is a saucy sailor '
+  - 'a victim of an oppressive system '
+  - who regrets his relationship with Mr. Evergreen.
+  - who was close with Mr. Evergreen.
+  - who cared deeply for Mr. Evergreen.
+  maxInfoOptions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  muckrakerPaper: 0
+  tabloidPaper: 0
+  statusQuoPaper: 0
 --- !u!1 &1003060837
 GameObject:
   m_ObjectHideFlags: 0
@@ -13865,99 +14104,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: 38.4}
   m_SizeDelta: {x: 498, y: 215.2755}
   m_Pivot: {x: 0.5, y: 1}
---- !u!1 &1043714038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1043714040}
-  - component: {fileID: 1043714039}
-  m_Layer: 0
-  m_Name: 'DropdownController '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1043714039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043714038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a08f7b7ec8cb9469972ae1a0315019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerNewspaper: 
-  finalNewspaper: {fileID: 1358871417}
-  NovakDPOne: {fileID: 1955818698}
-  NovakDPTwo: {fileID: 2124620505}
-  NovakDPThree: {fileID: 339281353}
-  JimDPOne: {fileID: 1034813059}
-  JimDPTwo: {fileID: 2107646787}
-  JimDPThree: {fileID: 1883459286}
-  JuliaDPOne: {fileID: 1583140558}
-  JuliaDPTwo: {fileID: 1604689592}
-  JuliaDPThree: {fileID: 1777754383}
-  MichaelDPOne: {fileID: 1116551355}
-  MichaelDPTwo: {fileID: 1409862464}
-  MichaelDPThree: {fileID: 1878335494}
-  MaxDPOne: {fileID: 1586403694}
-  MaxDPTwo: {fileID: 1649429140}
-  MaxDPThree: {fileID: 2124042287}
-  JimNewspaperA: 
-  JimNewspaperB: 
-  JimNewspaperC: 
-  JuliaNewspaperA: 
-  JuliaNewspaperB: 
-  JuliaNewspaperC: 
-  MichaelNewspaperA: 
-  MichaelNewspaperB: 
-  MichaelNewspaperC: 
-  MaxNewspaperA: 
-  MaxNewspaperB: 
-  MaxNewspaperC: 
-  NovakNewspaperA: 
-  NovakNewspaperB: 
-  NovakNewspaperC: 
-  novakInfoA: 
-  novakInfoB: 
-  novakInfoC: 
-  jimInfoA: 
-  jimInfoB: 
-  jimInfoC: 
-  juliaInfoA: 
-  juliaInfoB: 
-  juliaInfoC: 
-  michaelInfoA: 
-  michaelInfoB: 
-  michaelInfoC: 
-  maxInfoA: 
-  maxInfoB: 
-  maxInfoC: 
-  muckrakerPaper: 0
-  tabloidPaper: 0
-  statusQuoPaper: 0
---- !u!4 &1043714040
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043714038}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 227.07233, y: 179.0355, z: -43.089558}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1048006059
 GameObject:
   m_ObjectHideFlags: 0
@@ -17285,7 +17431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20378,13 +20524,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507010980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 300, y: 200, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -23.163055, y: 82.713295, z: 106.102234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1743493946}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1516199894
 GameObject:
@@ -27865,11 +28011,11 @@ PrefabInstance:
     - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 824755668569429984, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_Name
       value: MichaelPanel
@@ -27965,7 +28111,7 @@ PrefabInstance:
     - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 824755669321833248, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_Text
       value: 'AGE: 45'
@@ -28002,7 +28148,7 @@ PrefabInstance:
     - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 5131388589517617169, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_Name
       value: 'JimPanel '
@@ -28118,11 +28264,11 @@ PrefabInstance:
     - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
 --- !u!1001 &5475830914199816406
@@ -28135,15 +28281,15 @@ PrefabInstance:
     - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 5475830913539462892, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
@@ -28364,7 +28510,7 @@ PrefabInstance:
     - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 6795504131199253336, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 3
@@ -28388,11 +28534,11 @@ PrefabInstance:
     - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
 --- !u!1001 &7445486616181682413
@@ -28425,7 +28571,7 @@ PrefabInstance:
     - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 7445486616854108342, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28521,10 +28667,10 @@ PrefabInstance:
     - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1043714039}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
