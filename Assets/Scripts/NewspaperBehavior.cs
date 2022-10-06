@@ -444,9 +444,9 @@ public class NewspaperBehavior : MonoBehaviour
         if (muckrakerPaper > tabloidPaper && muckrakerPaper > statusQuoPaper)
             PlayerNewspaper = newspaperPrints[0];
         else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper)
-            PlayerNewspaper = newspaperPrints[1];
-        else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper)
             PlayerNewspaper = newspaperPrints[2];
+        else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper)
+            PlayerNewspaper = newspaperPrints[1];
 
 
         finalNewspaper.text = PlayerNewspaper;
