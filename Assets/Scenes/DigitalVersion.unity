@@ -13115,55 +13115,55 @@ MonoBehaviour:
   - 
   - 
   novakInfoOptions:
-  - the detective assigned to, the case
-  - the detective the case was handed off to,
-  - the detective on top of the case,
-  - seems more interested in gossip than finding the truth.
-  - is determined to get justice for Mr.Evergreen, no matter what
+  - 'on top of the case '
+  - the detective assigned to the case
+  - underqualified for such a high-profile case
+  - is determined to get justice for Mr. Evergreen, no matter what
   - is following up on any and all leads
-  - does not wish to speculate on the manner of death at this time.
-  - is considering the possiblity of homicide.
-  - is considering the possibility the Mr. Evergreen took his life.
+  - seems more interested in gossip than in finding the truth
+  - raised the posibility of suicide
+  - does not wish to speculate on the manner of death at this time
+  - is considering the possibility of homicide
   jimInfoOptions:
-  - ridiculous son
-  - grieving son
-  - resentful son
+  - Mr. Evergreen's resentful son
+  - Mr. Evergreen's grieving son
+  - Mr. Evergreen's ridiculous son
+  - used to know Mr. Evergreen well
   - knew Mr. Evergreen better than anyone else
-  - used to know Mr.Evergreen well
-  - hardly knew Mr.Evergreen at all
+  - hardly knew Mr. Evergreen at all
+  - had a troubled relationship with Mr. Evergreen
   - loved Mr. Evergreen
-  - had a troubled relationship with Mr.Evergreen
   - hated Mr. Evergreen
   juliaInfoOptions:
-  - daughter.
-  - emotional daughter.
-  - pregnant daughter.
-  - loved her father very much
+  - currently five months pregnant
+  - "Mr. Evergreen\u2019s daughter"
+  - hysterical and very emotional
   - takes a neutral stance towards her father
+  - loved her father very much
   - is in denial about who her father was
+  - "approved of her father\u2019s lifestyle"
+  - described her father as an upstanding man
   - reacted poorly to questions about him
-  - was open about who her father was
-  - approved of her father's actions and lifestyle
   michaelInfoOptions:
-  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
-  - Mr. Evergreen's anonymous romantic partner,
-  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
-  - 'a career sailor in the United States Navy '
-  - 'is a saucy sailor '
-  - 'a victim of an oppressive system '
-  - who regrets his relationship with Mr. Evergreen.
-  - who was close with Mr. Evergreen.
-  - who cared deeply for Mr. Evergreen.
+  - "Mr. Evergreen\u2019s anonymous romantic partner"
+  - "Mr. Evergreen\u2019s friend"
+  - "Lt. Michael Bailey, Mr. Evergreen\u2019s lover"
+  - is a victim of an oppressive system
+  - is a career sailor in the United States Navy
+  - is a homosexual sailor
+  - cared deeply for Mr. Evergreen
+  - was close with Mr. Evergreen
+  - regrets his relationship with Mr. Evergreen
   maxInfoOptions:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Mr. Evergreen\u2019s friend and business partner"
+  - "Mr. Evergreen\u2019s business partner"
+  - "Mr. Evergreen\u2019s subordinate"
+  - "is a woman rising against a man\u2019s world"
+  - has a professional demeanor
+  - was curt and dismissive
+  - "refused to answer questions about Mr. Evergreen\u2019s personal life"
+  - "did not know anything about Mr. Evergreen\u2019s personal life"
+  - "knew more than she would say about Mr. Evergreen\u2019s personal life"
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0
