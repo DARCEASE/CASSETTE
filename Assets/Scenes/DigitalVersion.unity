@@ -12963,6 +12963,199 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991530705}
   m_CullTransparentMesh: 1
+--- !u!1 &993651775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993651776}
+  - component: {fileID: 993651777}
+  m_Layer: 0
+  m_Name: DropdownController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &993651776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993651775}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -96.09073, y: 61.748802, z: 63.012676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993651777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993651775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a08f7b7ec8cb9469972ae1a0315019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  finalNewspaper: {fileID: 1358871417}
+  newspaperPrints:
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having fallen from a great height. Mr. Evergreen
+    was the CEO of Abundantia Investments. He was a father of two and a friend to
+    many. He was also a closeted gay man in a secret relationship with a US service
+    member.\r\n\r\nMr. Evergreen is survived by two children, Julia Anderson and
+    Jim Evergreen. Mr. Evergreen divorced his wife five years ago, though she declined
+    to comment for this article. Jim has grown distant from his father since the
+    split. Julia, however, supported him through his divorce, and approved of his
+    homosexuality thereafter. \u201CDad had always seemed unhappy with mom,\u201D
+    Julia said when asked about Mr. Evergreen\u2019s love life. \u201CBut I know
+    that now, my father was happy. And for that, I suppose I was happy too.\u201D\r\n\r\nRumors
+    about Mr. Evergreen were abound in his workplace. His friend and business partner,
+    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
+    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
+    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
+    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
+    it\u2019s only right that I do the same for him now.\u201D\r\n\r\nMr. Evergreen
+    was in a covert relationship with a career sailor in the US navy. The Local Rag
+    is unable to name him here without putting his profession and his safety at risk.
+    Unable to grieve Mr. Evergreen\u2019s death publicly, his partner will have no
+    choice but to mourn in private, as he continues his silent struggle against the
+    US military\u2019s rampant homophobia.\r\n"
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Detective
+    Novak of the NYPD stated that \u201CThe department does not, at this time, wish
+    to speculate on the specific manner of the death, whether it was accident, murder,
+    or suicide, as the investigation is still ongoing.\u201D\r\n\r\nMr. Evergreen
+    is survived by his ex-wife and two children, Julia Anderson and Jim Evergreen.
+    When reached for comment, both children expressed grief at the sudden loss of
+    their father.\r\n\r\nMr. Evergreen built his company, Abundantia Investments,
+    from the ground up. For now, the company will be led by Mr. Evergreen\u2019s
+    associate, Ms. Max Elliot, who described Mr. Evergreen as a consummate professional
+    and an excellent boss and business partner.\r\n\r\nIn addition to his family,
+    Mr. Evergreen leaves behind a vast network of close friends. One such individual,
+    Lieutenant Michael Bailey of the US Navy, expressed his remorse at Mr. Evergreen\u2019s
+    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
+    Lt. Bailey said when reached for comment.\r\n"
+  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having fallen from the roof of his office building.
+    While he was known as a family man and an upstanding citizen of our city, there
+    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
+    \r\n\r\nMr. Evergreen leaves behind an ex-wife and two children, each of whom
+    was left damaged by his deviant lifestyle. When asked for comment, his daughter,
+    Julia Anderson, was hysterical with emotion and reacted poorly and with strongly
+    worded reproach to questions about her father\u2019s sexual orientation. His
+    son, Jim Evergreen, shared no such denial about Mr. Evergreen\u2019s lifestyle,
+    but expressed bitterness towards his father in both life and death. Mr. Evergreen\u2019s
+    ex-wife declined to comment.\r\n\r\nMr. Evergreen\u2019s business will remain
+    in operation, left in the cold and steely hands of his former subordinate, Ms.
+    Maxine Elliot. She wouldn\u2019t directly confirm nor deny any allegations, but
+    she did make it clear that Mr. Evergreen\u2019s sex life was something of an
+    open secret at his company. \u201CThere was the occasional business trip or social
+    gathering where he\u2019d quietly slip out and we wouldn\u2019t see him again
+    until morning,\u201D she explained.\r\n\r\nAs for Mr. Evergreen\u2019s lover?
+    That would be one Lieutenant Michael Bailey of the United States Navy. Lt. Bailey
+    had been in a relationship with Mr. Evergreen for the past fifteen years, beginning
+    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
+    on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
+    his relationship with the businessman. \r\n"
+  NovakDPOne: {fileID: 1955818698}
+  NovakDPTwo: {fileID: 2124620505}
+  NovakDPThree: {fileID: 339281353}
+  JimDPOne: {fileID: 1034813059}
+  JimDPTwo: {fileID: 2107646787}
+  JimDPThree: {fileID: 1883459286}
+  JuliaDPOne: {fileID: 1583140558}
+  JuliaDPTwo: {fileID: 1604689592}
+  JuliaDPThree: {fileID: 1777754383}
+  MichaelDPOne: {fileID: 1116551355}
+  MichaelDPTwo: {fileID: 1409862464}
+  MichaelDPThree: {fileID: 1878335494}
+  MaxDPOne: {fileID: 1586403694}
+  MaxDPTwo: {fileID: 1649429140}
+  MaxDPThree: {fileID: 2124042287}
+  jimNewspaperOptions:
+  - 
+  - 
+  - 
+  juliaNewspaperOptions:
+  - 
+  - 
+  - 
+  michaelNewspaperOptions:
+  - 
+  - 
+  - 
+  maxNewspaperOptions:
+  - 
+  - 
+  - 
+  novakNewspaperOptions:
+  - 
+  - 
+  - 
+  novakInfoOptions:
+  - 'on top of the case '
+  - the detective assigned to the case
+  - underqualified for such a high-profile case
+  - is determined to get justice for Mr. Evergreen, no matter what
+  - is following up on any and all leads
+  - seems more interested in gossip than in finding the truth
+  - raised the posibility of suicide
+  - does not wish to speculate on the manner of death at this time
+  - is considering the possibility of homicide
+  jimInfoOptions:
+  - Mr. Evergreen's resentful son
+  - Mr. Evergreen's grieving son
+  - Mr. Evergreen's ridiculous son
+  - used to know Mr. Evergreen well
+  - knew Mr. Evergreen better than anyone else
+  - hardly knew Mr. Evergreen at all
+  - had a troubled relationship with Mr. Evergreen
+  - loved Mr. Evergreen
+  - hated Mr. Evergreen
+  juliaInfoOptions:
+  - currently five months pregnant
+  - "Mr. Evergreen\u2019s daughter"
+  - hysterical and very emotional
+  - takes a neutral stance towards her father
+  - loved her father very much
+  - is in denial about who her father was
+  - "approved of her father\u2019s lifestyle"
+  - described her father as an upstanding man
+  - reacted poorly to questions about him
+  michaelInfoOptions:
+  - "Mr. Evergreen\u2019s anonymous romantic partner"
+  - "Mr. Evergreen\u2019s friend"
+  - "Lt. Michael Bailey, Mr. Evergreen\u2019s lover"
+  - is a victim of an oppressive system
+  - is a career sailor in the United States Navy
+  - is a homosexual sailor
+  - cared deeply for Mr. Evergreen
+  - was close with Mr. Evergreen
+  - regrets his relationship with Mr. Evergreen
+  maxInfoOptions:
+  - "Mr. Evergreen\u2019s friend and business partner"
+  - "Mr. Evergreen\u2019s business partner"
+  - "Mr. Evergreen\u2019s subordinate"
+  - "is a woman rising against a man\u2019s world"
+  - has a professional demeanor
+  - was curt and dismissive
+  - "refused to answer questions about Mr. Evergreen\u2019s personal life"
+  - "did not know anything about Mr. Evergreen\u2019s personal life"
+  - "knew more than she would say about Mr. Evergreen\u2019s personal life"
+  muckrakerPaper: 0
+  tabloidPaper: 0
+  statusQuoPaper: 0
 --- !u!1 &1003060837
 GameObject:
   m_ObjectHideFlags: 0
@@ -27874,8 +28067,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
     - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'is a victim of an oppressive system  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'is a career sailor in the United States Navy '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'is a homosexual sailor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Mr. Evergreen\u2019s anonymous romantic partner "
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s friend "
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "Lt. Michael Bailey, Mr. Evergreen\u2019s lover "
       objectReference: {fileID: 0}
     - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -27974,6 +28191,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'cared deeply for Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'was close with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'regrets his relationship with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -28010,6 +28239,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'Mr. Evergreen''s resentful son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'Mr. Evergreen''s grieving son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'Mr. Evergreen''s ridiculous son '
+      objectReference: {fileID: 0}
     - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -28127,8 +28368,24 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'had a troubled relationship with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'loved Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'used to know Mr. Evergreen well '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'knew Mr. Evergreen better than anyone else '
       objectReference: {fileID: 0}
     - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28144,12 +28401,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
     - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'currently five months pregnant '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s daughter "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'hysterical and very emotional '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'takes a neutral stance towards her father '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'loved her father very much '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "approved of her father\u2019s lifestyle "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'described her father as an upstanding man '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'reacted poorly to questions about him '
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28373,6 +28662,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'raised the posibility of suicide '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'does not wish to speculate on the manner of death at this time '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'is considering the possibility of homicide  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -28398,11 +28699,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_Options.m_Options.Array.data[1].m_Text
-      value: LOLLLLL
+      value: on top of the case
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'the detective assigned to the case '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'underqualified for such a high-profile case '
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'is determined to get justice for Mr. Evergreen, no matter what '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'is following up on any and all leads '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'seems more interested in gossip than in finding the truth  '
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28436,6 +28757,18 @@ PrefabInstance:
     - target: {fileID: 7445486616297167511, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "is a woman rising against a man\u2019s world "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'has a professional demeanor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'was curt and dismissive '
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28534,8 +28867,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "refused to answer questions about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "did not know anything about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "knew more than she would say about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Mr. Evergreen\u2019s friend and business partner  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s business partner  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "Mr. Evergreen\u2019s subordinate  "
       objectReference: {fileID: 0}
     - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
