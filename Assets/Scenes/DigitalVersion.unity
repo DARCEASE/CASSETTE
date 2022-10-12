@@ -28039,8 +28039,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
     - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'is a victim of an oppressive system  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'is a career sailor in the United States Navy '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'is a homosexual sailor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Mr. Evergreen\u2019s anonymous romantic partner "
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s friend "
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "Lt. Michael Bailey, Mr. Evergreen\u2019s lover "
       objectReference: {fileID: 0}
     - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28139,6 +28163,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'cared deeply for Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'was close with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'regrets his relationship with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -28175,6 +28211,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'Mr. Evergreen''s resentful son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'Mr. Evergreen''s grieving son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'Mr. Evergreen''s ridiculous son '
+      objectReference: {fileID: 0}
     - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -28292,8 +28340,24 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'had a troubled relationship with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'loved Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'used to know Mr. Evergreen well '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'knew Mr. Evergreen better than anyone else '
       objectReference: {fileID: 0}
     - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28309,12 +28373,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
     - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'currently five months pregnant '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s daughter "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'hysterical and very emotional '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'takes a neutral stance towards her father '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'loved her father very much '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "approved of her father\u2019s lifestyle "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'described her father as an upstanding man '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'reacted poorly to questions about him '
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28538,6 +28634,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'raised the posibility of suicide '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'does not wish to speculate on the manner of death at this time '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'is considering the possibility of homicide  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
@@ -28562,8 +28670,32 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: on top of the case
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'the detective assigned to the case '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'underqualified for such a high-profile case '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'is determined to get justice for Mr. Evergreen, no matter what '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'is following up on any and all leads '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'seems more interested in gossip than in finding the truth  '
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28597,6 +28729,18 @@ PrefabInstance:
     - target: {fileID: 7445486616297167511, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "is a woman rising against a man\u2019s world "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'has a professional demeanor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'was curt and dismissive '
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28695,8 +28839,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "refused to answer questions about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "did not know anything about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "knew more than she would say about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Mr. Evergreen\u2019s friend and business partner  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s business partner  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "Mr. Evergreen\u2019s subordinate  "
       objectReference: {fileID: 0}
     - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
