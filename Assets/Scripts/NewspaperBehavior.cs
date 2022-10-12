@@ -65,42 +65,47 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (NovakDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {
-            Debug.Log("NOV. Drop 1 Opt 1");
-            novakNewspaperOptions[0] = novakInfoOptions[0];
             statusQuoPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[0] = novakInfoOptions[0]; //NovakDPOne.options[0];
+            
         }
         else if (NovakDPOne.value == 2)
         {
-            Debug.Log("NOV. Drop 1 Opt 2");
-            novakNewspaperOptions[0] = novakInfoOptions[1];
             muckrakerPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[0] = novakInfoOptions[1];
+            
         }
         else if (NovakDPOne.value == 3)
         {
-            Debug.Log("NOV. Drop 1 Opt 3");
-            novakNewspaperOptions[0] = novakInfoOptions[2];
             tabloidPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[0] = novakInfoOptions[2];
         }
     }
     public void NovakDropB() // WHO second dropdown for Novak
     {
         if (NovakDPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
-            Debug.Log("NOV. Drop 2 Opt 1");
-            novakNewspaperOptions[1] = novakInfoOptions[3];
             tabloidPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[1] = novakInfoOptions[3];
+            
         }
         else if (NovakDPTwo.value == 2)
         {
-            Debug.Log("NOV. Drop 2 Opt 2");
-            novakNewspaperOptions[1] = novakInfoOptions[4];
             statusQuoPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[1] = novakInfoOptions[4];
+            
         }
         else if (NovakDPTwo.value == 3)
         {
-            Debug.Log("NOV. Drop 2 Opt 3");
-            novakNewspaperOptions[1] = novakInfoOptions[5];
             muckrakerPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[1] = novakInfoOptions[5];
+            
             
         } 
     }
@@ -108,21 +113,24 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (NovakDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
-            Debug.Log("NOV. Drop 3 Opt 1");
-            novakNewspaperOptions[2] = novakInfoOptions[6];
             statusQuoPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[2] = novakInfoOptions[6];
+            
         }
         else if (NovakDPThree.value == 2)
         {
-            Debug.Log("NOV. Drop 3 Opt 2");
-            novakNewspaperOptions[2] = novakInfoOptions[7];
             muckrakerPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[2] = novakInfoOptions[7];
+            
         }
         else if (NovakDPThree.value == 3)
         {
-            Debug.Log("NOV. Drop 3 Opt 3");
-            novakNewspaperOptions[2] = novakInfoOptions[8];
             tabloidPaper+=1;
+            Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+            novakNewspaperOptions[2] = novakInfoOptions[8];
+            
         }
     }
 
@@ -440,14 +448,14 @@ public class NewspaperBehavior : MonoBehaviour
         }
 
         //if they are not equal, it'll jump over here
-
+        Debug.Log("Am I here");
+        Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
         if (muckrakerPaper > tabloidPaper && muckrakerPaper > statusQuoPaper)
             PlayerNewspaper = newspaperPrints[0];
         else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper)
             PlayerNewspaper = newspaperPrints[2];
         else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper)
             PlayerNewspaper = newspaperPrints[1];
-
 
         finalNewspaper.text = PlayerNewspaper;
 
