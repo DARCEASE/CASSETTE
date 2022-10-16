@@ -448,8 +448,6 @@ public class NewspaperBehavior : MonoBehaviour
         }
 
         //if they are not equal, it'll jump over here
-        Debug.Log("Am I here");
-        Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
         if (muckrakerPaper > tabloidPaper && muckrakerPaper > statusQuoPaper)
             PlayerNewspaper = newspaperPrints[0];
         else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper)
