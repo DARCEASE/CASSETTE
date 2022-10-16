@@ -2100,6 +2100,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &155158653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2991,7 +3003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &211705009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4112,6 +4124,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &264826918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4990,17 +5014,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337643295}
   m_CullTransparentMesh: 1
---- !u!114 &339281353 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
-  m_PrefabInstance: {fileID: 6795504130408541246}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &349955977
 GameObject:
   m_ObjectHideFlags: 0
@@ -7130,6 +7143,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 17
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10680,6 +10705,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &801654295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11589,7 +11626,19 @@ MonoBehaviour:
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &841432321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12539,6 +12588,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &908141369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12829,7 +12890,8 @@ Transform:
   m_Children:
   - {fileID: 1507010981}
   - {fileID: 608035559}
-  - {fileID: 993651776}
+  - {fileID: 1410984874}
+  - {fileID: 1762230525}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13886,199 +13948,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991530705}
   m_CullTransparentMesh: 1
---- !u!1 &993651775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 993651776}
-  - component: {fileID: 993651777}
-  m_Layer: 0
-  m_Name: DropdownController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &993651776
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993651775}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -96.09073, y: 61.748802, z: 63.012676}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 925287765}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &993651777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993651775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a08f7b7ec8cb9469972ae1a0315019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerNewspaper: 
-  finalNewspaper: {fileID: 1358871417}
-  newspaperPrints:
-  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
-    his workplace Monday morning, having fallen from a great height. Mr. Evergreen
-    was the CEO of Abundantia Investments. He was a father of two and a friend to
-    many. He was also a closeted gay man in a secret relationship with a US service
-    member.\r\n\r\nMr. Evergreen is survived by two children, Julia Anderson and
-    Jim Evergreen. Mr. Evergreen divorced his wife five years ago, though she declined
-    to comment for this article. Jim has grown distant from his father since the
-    split. Julia, however, supported him through his divorce, and approved of his
-    homosexuality thereafter. \u201CDad had always seemed unhappy with mom,\u201D
-    Julia said when asked about Mr. Evergreen\u2019s love life. \u201CBut I know
-    that now, my father was happy. And for that, I suppose I was happy too.\u201D\r\n\r\nRumors
-    about Mr. Evergreen were abound in his workplace. His friend and business partner,
-    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
-    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
-    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
-    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
-    it\u2019s only right that I do the same for him now.\u201D\r\n\r\nMr. Evergreen
-    was in a covert relationship with a career sailor in the US navy. The Local Rag
-    is unable to name him here without putting his profession and his safety at risk.
-    Unable to grieve Mr. Evergreen\u2019s death publicly, his partner will have no
-    choice but to mourn in private, as he continues his silent struggle against the
-    US military\u2019s rampant homophobia.\r\n"
-  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
-    outside of his workplace, having apparently fallen from a great height. Detective
-    Novak of the NYPD stated that \u201CThe department does not, at this time, wish
-    to speculate on the specific manner of the death, whether it was accident, murder,
-    or suicide, as the investigation is still ongoing.\u201D\r\n\r\nMr. Evergreen
-    is survived by his ex-wife and two children, Julia Anderson and Jim Evergreen.
-    When reached for comment, both children expressed grief at the sudden loss of
-    their father.\r\n\r\nMr. Evergreen built his company, Abundantia Investments,
-    from the ground up. For now, the company will be led by Mr. Evergreen\u2019s
-    associate, Ms. Max Elliot, who described Mr. Evergreen as a consummate professional
-    and an excellent boss and business partner.\r\n\r\nIn addition to his family,
-    Mr. Evergreen leaves behind a vast network of close friends. One such individual,
-    Lieutenant Michael Bailey of the US Navy, expressed his remorse at Mr. Evergreen\u2019s
-    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
-    Lt. Bailey said when reached for comment.\r\n"
-  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
-    circumstances on Monday morning, having fallen from the roof of his office building.
-    While he was known as a family man and an upstanding citizen of our city, there
-    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
-    \r\n\r\nMr. Evergreen leaves behind an ex-wife and two children, each of whom
-    was left damaged by his deviant lifestyle. When asked for comment, his daughter,
-    Julia Anderson, was hysterical with emotion and reacted poorly and with strongly
-    worded reproach to questions about her father\u2019s sexual orientation. His
-    son, Jim Evergreen, shared no such denial about Mr. Evergreen\u2019s lifestyle,
-    but expressed bitterness towards his father in both life and death. Mr. Evergreen\u2019s
-    ex-wife declined to comment.\r\n\r\nMr. Evergreen\u2019s business will remain
-    in operation, left in the cold and steely hands of his former subordinate, Ms.
-    Maxine Elliot. She wouldn\u2019t directly confirm nor deny any allegations, but
-    she did make it clear that Mr. Evergreen\u2019s sex life was something of an
-    open secret at his company. \u201CThere was the occasional business trip or social
-    gathering where he\u2019d quietly slip out and we wouldn\u2019t see him again
-    until morning,\u201D she explained.\r\n\r\nAs for Mr. Evergreen\u2019s lover?
-    That would be one Lieutenant Michael Bailey of the United States Navy. Lt. Bailey
-    had been in a relationship with Mr. Evergreen for the past fifteen years, beginning
-    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
-    on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
-    his relationship with the businessman. \r\n"
-  NovakDPOne: {fileID: 1955818698}
-  NovakDPTwo: {fileID: 2124620505}
-  NovakDPThree: {fileID: 339281353}
-  JimDPOne: {fileID: 1034813059}
-  JimDPTwo: {fileID: 2107646787}
-  JimDPThree: {fileID: 1883459286}
-  JuliaDPOne: {fileID: 1583140558}
-  JuliaDPTwo: {fileID: 1604689592}
-  JuliaDPThree: {fileID: 1777754383}
-  MichaelDPOne: {fileID: 1116551355}
-  MichaelDPTwo: {fileID: 1409862464}
-  MichaelDPThree: {fileID: 1878335494}
-  MaxDPOne: {fileID: 1586403694}
-  MaxDPTwo: {fileID: 1649429140}
-  MaxDPThree: {fileID: 2124042287}
-  jimNewspaperOptions:
-  - 
-  - 
-  - 
-  juliaNewspaperOptions:
-  - 
-  - 
-  - 
-  michaelNewspaperOptions:
-  - 
-  - 
-  - 
-  maxNewspaperOptions:
-  - 
-  - 
-  - 
-  novakNewspaperOptions:
-  - 
-  - 
-  - 
-  novakInfoOptions:
-  - the detective assigned to, the case
-  - the detective the case was handed off to,
-  - the detective on top of the case,
-  - seems more interested in gossip than finding the truth.
-  - is determined to get justice for Mr.Evergreen, no matter what
-  - is following up on any and all leads
-  - does not wish to speculate on the manner of death at this time.
-  - is considering the possiblity of homicide.
-  - is considering the possibility the Mr. Evergreen took his life.
-  jimInfoOptions:
-  - ridiculous son
-  - grieving son
-  - resentful son
-  - knew Mr. Evergreen better than anyone else
-  - used to know Mr.Evergreen well
-  - hardly knew Mr.Evergreen at all
-  - loved Mr. Evergreen
-  - had a troubled relationship with Mr.Evergreen
-  - hated Mr. Evergreen
-  juliaInfoOptions:
-  - daughter.
-  - emotional daughter.
-  - pregnant daughter.
-  - loved her father very much
-  - takes a neutral stance towards her father
-  - is in denial about who her father was
-  - reacted poorly to questions about him
-  - was open about who her father was
-  - approved of her father's actions and lifestyle
-  michaelInfoOptions:
-  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
-  - Mr. Evergreen's anonymous romantic partner,
-  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
-  - 'a career sailor in the United States Navy '
-  - 'is a saucy sailor '
-  - 'a victim of an oppressive system '
-  - who regrets his relationship with Mr. Evergreen.
-  - who was close with Mr. Evergreen.
-  - who cared deeply for Mr. Evergreen.
-  maxInfoOptions:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  muckrakerPaper: 0
-  tabloidPaper: 0
-  statusQuoPaper: 0
 --- !u!1 &1003060837
 GameObject:
   m_ObjectHideFlags: 0
@@ -16051,17 +15920,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1116551355 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
-  m_PrefabInstance: {fileID: 824755669229256546}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1116621070
 GameObject:
   m_ObjectHideFlags: 0
@@ -17712,6 +17570,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 15
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20352,17 +20222,199 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384983313}
   m_CullTransparentMesh: 1
---- !u!114 &1409862464 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
-  m_PrefabInstance: {fileID: 824755669229256546}
+--- !u!1 &1410984873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410984874}
+  - component: {fileID: 1410984875}
+  m_Layer: 0
+  m_Name: DropdownController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410984874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -96.09073, y: 61.748802, z: 63.012676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1410984875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Script: {fileID: 11500000, guid: c3a08f7b7ec8cb9469972ae1a0315019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  finalNewspaper: {fileID: 1358871417}
+  newspaperPrints:
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having fallen from a great height. Mr. Evergreen
+    was the CEO of Abundantia Investments. He was a father of two and a friend to
+    many. He was also a closeted gay man in a secret relationship with a US service
+    member.\r\n\r\nMr. Evergreen is survived by two children, Julia Anderson and
+    Jim Evergreen. Mr. Evergreen divorced his wife five years ago, though she declined
+    to comment for this article. Jim has grown distant from his father since the
+    split. Julia, however, supported him through his divorce, and approved of his
+    homosexuality thereafter. \u201CDad had always seemed unhappy with mom,\u201D
+    Julia said when asked about Mr. Evergreen\u2019s love life. \u201CBut I know
+    that now, my father was happy. And for that, I suppose I was happy too.\u201D\r\n\r\nRumors
+    about Mr. Evergreen were abound in his workplace. His friend and business partner,
+    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
+    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
+    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
+    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
+    it\u2019s only right that I do the same for him now.\u201D\r\n\r\nMr. Evergreen
+    was in a covert relationship with a career sailor in the US navy. The Local Rag
+    is unable to name him here without putting his profession and his safety at risk.
+    Unable to grieve Mr. Evergreen\u2019s death publicly, his partner will have no
+    choice but to mourn in private, as he continues his silent struggle against the
+    US military\u2019s rampant homophobia.\r\n"
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Detective
+    Novak of the NYPD stated that \u201CThe department does not, at this time, wish
+    to speculate on the specific manner of the death, whether it was accident, murder,
+    or suicide, as the investigation is still ongoing.\u201D\r\n\r\nMr. Evergreen
+    is survived by his ex-wife and two children, Julia Anderson and Jim Evergreen.
+    When reached for comment, both children expressed grief at the sudden loss of
+    their father.\r\n\r\nMr. Evergreen built his company, Abundantia Investments,
+    from the ground up. For now, the company will be led by Mr. Evergreen\u2019s
+    associate, Ms. Max Elliot, who described Mr. Evergreen as a consummate professional
+    and an excellent boss and business partner.\r\n\r\nIn addition to his family,
+    Mr. Evergreen leaves behind a vast network of close friends. One such individual,
+    Lieutenant Michael Bailey of the US Navy, expressed his remorse at Mr. Evergreen\u2019s
+    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
+    Lt. Bailey said when reached for comment.\r\n"
+  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having fallen from the roof of his office building.
+    While he was known as a family man and an upstanding citizen of our city, there
+    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
+    \r\n\r\nMr. Evergreen leaves behind an ex-wife and two children, each of whom
+    was left damaged by his deviant lifestyle. When asked for comment, his daughter,
+    Julia Anderson, was hysterical with emotion and reacted poorly and with strongly
+    worded reproach to questions about her father\u2019s sexual orientation. His
+    son, Jim Evergreen, shared no such denial about Mr. Evergreen\u2019s lifestyle,
+    but expressed bitterness towards his father in both life and death. Mr. Evergreen\u2019s
+    ex-wife declined to comment.\r\n\r\nMr. Evergreen\u2019s business will remain
+    in operation, left in the cold and steely hands of his former subordinate, Ms.
+    Maxine Elliot. She wouldn\u2019t directly confirm nor deny any allegations, but
+    she did make it clear that Mr. Evergreen\u2019s sex life was something of an
+    open secret at his company. \u201CThere was the occasional business trip or social
+    gathering where he\u2019d quietly slip out and we wouldn\u2019t see him again
+    until morning,\u201D she explained.\r\n\r\nAs for Mr. Evergreen\u2019s lover?
+    That would be one Lieutenant Michael Bailey of the United States Navy. Lt. Bailey
+    had been in a relationship with Mr. Evergreen for the past fifteen years, beginning
+    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
+    on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
+    his relationship with the businessman. \r\n"
+  NovakDPOne: {fileID: 6795504130408541249}
+  NovakDPTwo: {fileID: 6795504130408541248}
+  NovakDPThree: {fileID: 6795504130408541247}
+  JimDPOne: {fileID: 5131388589555660278}
+  JimDPTwo: {fileID: 5131388589555660277}
+  JimDPThree: {fileID: 5131388589555660276}
+  JuliaDPOne: {fileID: 5475830914199816409}
+  JuliaDPTwo: {fileID: 5475830914199816408}
+  JuliaDPThree: {fileID: 5475830914199816407}
+  MichaelDPOne: {fileID: 824755669229256549}
+  MichaelDPTwo: {fileID: 824755669229256548}
+  MichaelDPThree: {fileID: 824755669229256547}
+  MaxDPOne: {fileID: 7445486616181682416}
+  MaxDPTwo: {fileID: 7445486616181682415}
+  MaxDPThree: {fileID: 7445486616181682414}
+  jimNewspaperOptions:
+  - 
+  - 
+  - 
+  juliaNewspaperOptions:
+  - 
+  - 
+  - 
+  michaelNewspaperOptions:
+  - 
+  - 
+  - 
+  maxNewspaperOptions:
+  - 
+  - 
+  - 
+  novakNewspaperOptions:
+  - 
+  - 
+  - 
+  novakInfoOptions:
+  - the detective assigned to, the case
+  - the detective the case was handed off to,
+  - the detective on top of the case,
+  - seems more interested in gossip than finding the truth.
+  - is determined to get justice for Mr.Evergreen, no matter what
+  - is following up on any and all leads
+  - does not wish to speculate on the manner of death at this time.
+  - is considering the possiblity of homicide.
+  - is considering the possibility the Mr. Evergreen took his life.
+  jimInfoOptions:
+  - ridiculous son
+  - grieving son
+  - resentful son
+  - knew Mr. Evergreen better than anyone else
+  - used to know Mr.Evergreen well
+  - hardly knew Mr.Evergreen at all
+  - loved Mr. Evergreen
+  - had a troubled relationship with Mr.Evergreen
+  - hated Mr. Evergreen
+  juliaInfoOptions:
+  - daughter.
+  - emotional daughter.
+  - pregnant daughter.
+  - loved her father very much
+  - takes a neutral stance towards her father
+  - is in denial about who her father was
+  - reacted poorly to questions about him
+  - was open about who her father was
+  - approved of her father's actions and lifestyle
+  michaelInfoOptions:
+  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
+  - Mr. Evergreen's anonymous romantic partner,
+  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
+  - 'a career sailor in the United States Navy '
+  - 'is a saucy sailor '
+  - 'a victim of an oppressive system '
+  - who regrets his relationship with Mr. Evergreen.
+  - who was close with Mr. Evergreen.
+  - who cared deeply for Mr. Evergreen.
+  maxInfoOptions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  muckrakerPaper: 0
+  tabloidPaper: 0
+  statusQuoPaper: 0
 --- !u!1 &1421087452
 GameObject:
   m_ObjectHideFlags: 0
@@ -20453,6 +20505,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20661,7 +20725,19 @@ MonoBehaviour:
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1425546703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21954,17 +22030,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581857746}
   m_CullTransparentMesh: 1
---- !u!114 &1583140558 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
-  m_PrefabInstance: {fileID: 5475830914199816406}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1583945025
 GameObject:
   m_ObjectHideFlags: 0
@@ -22055,17 +22120,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1586403694 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
-  m_PrefabInstance: {fileID: 7445486616181682413}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1588825425
 GameObject:
   m_ObjectHideFlags: 0
@@ -22277,17 +22331,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604089350}
   m_CullTransparentMesh: 1
---- !u!114 &1604689592 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
-  m_PrefabInstance: {fileID: 5475830914199816406}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1605411998
 GameObject:
   m_ObjectHideFlags: 0
@@ -24309,6 +24352,245 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761241875}
   m_CullTransparentMesh: 1
+--- !u!1 &1762230524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762230525}
+  - component: {fileID: 1762230528}
+  - component: {fileID: 1762230527}
+  - component: {fileID: 1762230526}
+  m_Layer: 0
+  m_Name: AudioControllerGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762230525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762230524}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1762230526
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762230524}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4c12613a4038fb440abc3b5c2b16b9b7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1762230527
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762230524}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8c76f97632e9639439509afb8f45b643, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1762230528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762230524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964fd7cc662e2fb4cbef53e2802d7b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bg_source: {fileID: 1762230527}
+  mouseA_source: {fileID: 1762230526}
 --- !u!1 &1768529371
 GameObject:
   m_ObjectHideFlags: 0
@@ -24503,17 +24785,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1777754383 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
-  m_PrefabInstance: {fileID: 5475830914199816406}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1778264631
 GameObject:
   m_ObjectHideFlags: 0
@@ -25801,28 +26072,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871759565}
   m_CullTransparentMesh: 1
---- !u!114 &1878335494 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
-  m_PrefabInstance: {fileID: 824755669229256546}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1883459286 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
-  m_PrefabInstance: {fileID: 5131388589555660275}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1885114667
 GameObject:
   m_ObjectHideFlags: 0
@@ -26739,17 +26988,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948933682}
   m_CullTransparentMesh: 1
---- !u!114 &1955818698 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
-  m_PrefabInstance: {fileID: 6795504130408541246}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1969164531
 GameObject:
   m_ObjectHideFlags: 0
@@ -26840,6 +27078,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 11
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -27440,6 +27690,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2034153869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27578,6 +27840,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 14
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -28409,6 +28683,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2095423348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28580,17 +28866,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100847152}
   m_CullTransparentMesh: 1
---- !u!114 &2107646787 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
-  m_PrefabInstance: {fileID: 5131388589555660275}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2111132686
 GameObject:
   m_ObjectHideFlags: 0
@@ -28746,28 +29021,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123922392}
   m_CullTransparentMesh: 1
---- !u!114 &2124042287 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
-  m_PrefabInstance: {fileID: 7445486616181682413}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2124620505 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
-  m_PrefabInstance: {fileID: 6795504130408541246}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2127958449
 GameObject:
   m_ObjectHideFlags: 0
@@ -29221,12 +29474,44 @@ PrefabInstance:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
     - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'is a victim of an oppressive system  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'is a career sailor in the United States Navy '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'is a homosexual sailor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MichaelDropB
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Mr. Evergreen\u2019s anonymous romantic partner "
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s friend "
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "Lt. Michael Bailey, Mr. Evergreen\u2019s lover "
       objectReference: {fileID: 0}
     - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MichaelDropA
       objectReference: {fileID: 0}
     - target: {fileID: 824755668545974338, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_IsActive
@@ -29325,8 +29610,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'cared deeply for Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'was close with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'regrets his relationship with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MichaelDropC
       objectReference: {fileID: 0}
     - target: {fileID: 824755669321833248, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
       propertyPath: m_Text
@@ -29354,6 +29655,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+--- !u!114 &824755669229256547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 824755668863098724, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+  m_PrefabInstance: {fileID: 824755669229256546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &824755669229256548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 824755667954758690, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+  m_PrefabInstance: {fileID: 824755669229256546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &824755669229256549 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 824755668113885145, guid: dbb8ff5f96aadd74095766c17346da03, type: 3}
+  m_PrefabInstance: {fileID: 824755669229256546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5131388589555660275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29362,8 +29696,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 1743493946}
     m_Modifications:
     - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'Mr. Evergreen''s resentful son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'Mr. Evergreen''s grieving son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'Mr. Evergreen''s ridiculous son '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JimDropA
       objectReference: {fileID: 0}
     - target: {fileID: 5131388589517617169, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_Name
@@ -29482,15 +29832,72 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'had a troubled relationship with Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'loved Mr. Evergreen '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JimDropC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'used to know Mr. Evergreen well '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'knew Mr. Evergreen better than anyone else '
       objectReference: {fileID: 0}
     - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JimDropB
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+--- !u!114 &5131388589555660276 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5131388590356855589, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+  m_PrefabInstance: {fileID: 5131388589555660275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5131388589555660277 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5131388590434358960, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+  m_PrefabInstance: {fileID: 5131388589555660275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5131388589555660278 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5131388589360860016, guid: 068258fde33eab14da277a1d4aba82fb, type: 3}
+  m_PrefabInstance: {fileID: 5131388589555660275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5475830914199816406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29503,16 +29910,60 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'currently five months pregnant '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s daughter "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'hysterical and very emotional '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JuliaDropA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'takes a neutral stance towards her father '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'loved her father very much '
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JuliaDropB
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "approved of her father\u2019s lifestyle "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'described her father as an upstanding man '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'reacted poorly to questions about him '
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JuliaDropC
       objectReference: {fileID: 0}
     - target: {fileID: 5475830913539462892, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -29628,6 +30079,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+--- !u!114 &5475830914199816407 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5475830913529932249, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+  m_PrefabInstance: {fileID: 5475830914199816406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5475830914199816408 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5475830913300305518, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+  m_PrefabInstance: {fileID: 5475830914199816406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5475830914199816409 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5475830913288324632, guid: 5012dcd6f3643a4439e480013d8888dc, type: 3}
+  m_PrefabInstance: {fileID: 5475830914199816406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6795504130408541246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29732,8 +30216,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'raised the posibility of suicide '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'does not wish to speculate on the manner of death at this time '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'is considering the possibility of homicide  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NovakDropC
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131199253336, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -29756,12 +30256,44 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: on top of the case
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'the detective assigned to the case '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'underqualified for such a high-profile case '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NovakDropA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: 'is determined to get justice for Mr. Evergreen, no matter what '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'is following up on any and all leads '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'seems more interested in gossip than in finding the truth  '
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NovakDropB
       objectReference: {fileID: 0}
     - target: {fileID: 6795504131771938120, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
       propertyPath: m_IsActive
@@ -29769,6 +30301,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+--- !u!114 &6795504130408541247 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6795504130741398007, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+  m_PrefabInstance: {fileID: 6795504130408541246}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6795504130408541248 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6795504131370929895, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+  m_PrefabInstance: {fileID: 6795504130408541246}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6795504130408541249 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6795504131271295220, guid: 4c820da6e6168a6429f20d7cb8ea9bfc, type: 3}
+  m_PrefabInstance: {fileID: 6795504130408541246}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7445486616181682413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29797,8 +30362,24 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "is a woman rising against a man\u2019s world "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: 'has a professional demeanor '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: 'was curt and dismissive '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MaxDropB
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616854108342, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_Pivot.x
@@ -29897,12 +30478,77 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "refused to answer questions about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "did not know anything about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "knew more than she would say about Mr. Evergreen\u2019s personal life "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MaxDropC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[1].m_Text
+      value: "Mr. Evergreen\u2019s friend and business partner  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[2].m_Text
+      value: "Mr. Evergreen\u2019s business partner  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_Options.m_Options.Array.data[3].m_Text
+      value: "Mr. Evergreen\u2019s subordinate  "
       objectReference: {fileID: 0}
     - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1410984875}
+    - target: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MaxDropA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+--- !u!114 &7445486616181682414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7445486616962228418, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+  m_PrefabInstance: {fileID: 7445486616181682413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7445486616181682415 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7445486616748980857, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+  m_PrefabInstance: {fileID: 7445486616181682413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7445486616181682416 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7445486617497807235, guid: 0ee6e4c1fccd14a4ea8445fc79669b8c, type: 3}
+  m_PrefabInstance: {fileID: 7445486616181682413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
