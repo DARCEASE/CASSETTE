@@ -28,6 +28,8 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // 17: Max Transcript
     // 18: Max Audio
     // 19: Newspaper Output Panel
+    // 20: StoryWrite Panel 
+    // 20: StoryWrite Panel 
 
 
     void Start()

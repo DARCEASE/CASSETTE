@@ -39,7 +39,6 @@ public class AudioPlayer : MonoBehaviour
         barWidith = a_durationBarBG.transform.localScale.x;
         a_slider.maxValue = a_fullLength;
         a_slider.value = knobPosX;
-        a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
 
     }
 
@@ -66,7 +65,8 @@ public class AudioPlayer : MonoBehaviour
  
         if (!a_source.isPlaying){
                 a_source.Play();
-                //a_slider.handleRect.gameObject.transform.localScale = new Vector2(a_durationBar.transform.localScale.x, 0);
+            a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
+
         }
         StartCoroutine(WaitForClipEnd());
     }
@@ -74,6 +74,8 @@ public class AudioPlayer : MonoBehaviour
     public void PauseAudio(){ //Pauses the audio
         if (a_source.isPlaying){
             a_source.Pause();
+            a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
+
         }
     }
 
@@ -95,10 +97,10 @@ public class AudioPlayer : MonoBehaviour
     }
    
     void OnMouseDrag() {
-        if (Input.GetMouseButtonDown(0)){
+        //if (Input.GetMouseButtonDown(0)){
              a_source.time = a_slider.value;
              Debug.Log("Sliding");
             
-        }
+        //}
     }
 }
