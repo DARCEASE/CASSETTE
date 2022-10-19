@@ -28,6 +28,8 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // 17: Max Transcript
     // 18: Max Audio
     // 19: Newspaper Output Panel
+    // 20: StoryWrite Panel 
+    // 21: Are you sure you want to exit button 
 
 
     void Start()
@@ -48,6 +50,11 @@ public class FullDigitalUIBehavior : MonoBehaviour
     public void ExitFile(int i) // If a file is open right now, close it
     {
         FilePanels[i].gameObject.SetActive(false);
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Youve officially left the office...");
     }
    
    
