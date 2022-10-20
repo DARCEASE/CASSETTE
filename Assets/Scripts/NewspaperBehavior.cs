@@ -64,15 +64,15 @@ public class NewspaperBehavior : MonoBehaviour
     public void NovakDropA()
     {
         if (NovakDPOne.value == 1) // if you choose the first option for Novak Is.. 
-        {
-            statusQuoPaper+=1;
+        {  
+            muckrakerPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
             novakNewspaperOptions[0] = novakInfoOptions[0]; //NovakDPOne.options[0];
             
         }
         else if (NovakDPOne.value == 2)
         {
-            muckrakerPaper+=1;
+            statusQuoPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
             novakNewspaperOptions[0] = novakInfoOptions[1];
             
@@ -88,7 +88,7 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (NovakDPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
-            tabloidPaper+=1;
+            muckrakerPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
             novakNewspaperOptions[1] = novakInfoOptions[3];
             
@@ -102,25 +102,23 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPTwo.value == 3)
         {
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            novakNewspaperOptions[1] = novakInfoOptions[5];
-            
-            
+            novakNewspaperOptions[1] = novakInfoOptions[5]; 
         } 
     }
     public void NovakDropC()
     {
         if (NovakDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
-            statusQuoPaper+=1;
+            muckrakerPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
             novakNewspaperOptions[2] = novakInfoOptions[6];
             
         }
         else if (NovakDPThree.value == 2)
         {
-            muckrakerPaper+=1;
+            statusQuoPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
             novakNewspaperOptions[2] = novakInfoOptions[7];
             
@@ -130,7 +128,6 @@ public class NewspaperBehavior : MonoBehaviour
             tabloidPaper+=1;
             Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
             novakNewspaperOptions[2] = novakInfoOptions[8];
-            
         }
     }
 
@@ -139,9 +136,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JimDPOne.value == 1) 
         {
+            muckrakerPaper+=1;
             Debug.Log("JIM. Drop 1 Opt 1");
             jimNewspaperOptions[0] = jimInfoOptions[0];
-            tabloidPaper+=1;
         }
         else if (JimDPOne.value == 2)
         {
@@ -153,7 +150,7 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JIM. Drop 1 Opt 3");
             jimNewspaperOptions[0] = jimInfoOptions[2];
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
         }
     }
     public void JimDropB() // JIM SENTENCE 2
@@ -162,13 +159,13 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JIM. Drop 2 Opt 1");
             jimNewspaperOptions[1] = jimInfoOptions[3];
-            statusQuoPaper+=1;
+            muckrakerPaper+=1;
         }
         else if (JimDPOne.value == 2)
         {
             Debug.Log("JIM. Drop 2 Opt 2");
             jimNewspaperOptions[1] = jimInfoOptions[4];
-            muckrakerPaper+=1;
+            statusQuoPaper+=1;
         }
         else if (JimDPOne.value == 3)
         {
@@ -207,19 +204,20 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JULIA. Drop 1 Opt 1");
             juliaNewspaperOptions[0] = juliaInfoOptions[0];
-            statusQuoPaper+=1;
+            muckrakerPaper+=1;
         }
         else if (JuliaDPOne.value == 2)
         {
             Debug.Log("JULIA. Drop 1 Opt 2");
             juliaNewspaperOptions[0] = juliaInfoOptions[1];
-            tabloidPaper+=1;
+            statusQuoPaper+=1;
+            
         }
         else if (JuliaDPOne.value == 3)
         {
             Debug.Log("JULIA. Drop 1 Opt 3");
             juliaNewspaperOptions[0] = juliaInfoOptions[2];
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
         }
     }
     public void JuliaDropB()
@@ -247,9 +245,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JuliaDPThree.value == 1)
         {
+            muckrakerPaper+=1;
             Debug.Log("JULIA. Drop 3 Opt 1");
-            juliaNewspaperOptions[2] = juliaInfoOptions[6];
-            tabloidPaper+=1;
+            juliaNewspaperOptions[2] = juliaInfoOptions[6]; 
         }
         else if (JuliaDPThree.value == 2)
         {
@@ -261,7 +259,7 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("JULIA. Drop 3 Opt 3");
             juliaNewspaperOptions[2] = juliaInfoOptions[8];
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
         }
     }
 
@@ -272,13 +270,13 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MICHAEL. Drop 1 Opt 1");
             michaelNewspaperOptions[0] = michaelInfoOptions[0];
-            statusQuoPaper+=1;
+            muckrakerPaper+=1;
         }
         else if (MichaelDPOne.value == 2)
         {
             Debug.Log("MICHAEL. Drop 1 Opt 2");
             michaelNewspaperOptions[0] = michaelInfoOptions[1];
-            muckrakerPaper+=1;
+            statusQuoPaper+=1;
         }
         else if (MichaelDPOne.value == 3)
         {
@@ -293,19 +291,19 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MICHAEL. Drop 2 Opt 1");
             michaelNewspaperOptions[1] = michaelInfoOptions[3];
-            statusQuoPaper+=1;
+            muckrakerPaper+=1;
         }
         else if (JuliaDPTwo.value == 2)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 2");
             michaelNewspaperOptions[1] = michaelInfoOptions[4];
-            tabloidPaper+=1;
+            statusQuoPaper+=1;
         }
         else if (JuliaDPTwo.value == 3)
         {
             Debug.Log("MICHAEL. Drop 2 Opt 3");
             michaelNewspaperOptions[1] = michaelInfoOptions[5];
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
         }
     }
     public void MichaelDropC()
@@ -314,7 +312,7 @@ public class NewspaperBehavior : MonoBehaviour
             {
                 Debug.Log("MICHAEL Drop 3 Opt 1");
                 michaelNewspaperOptions[2] = michaelInfoOptions[6];
-                tabloidPaper+=1;
+                muckrakerPaper+=1;
             }
             else if (MichaelDPThree.value == 2)
             {
@@ -326,7 +324,7 @@ public class NewspaperBehavior : MonoBehaviour
             {
                 Debug.Log("MICHAEL. Drop 3 Opt 3");
                 michaelNewspaperOptions[2] = michaelInfoOptions[8];
-                muckrakerPaper+=1;
+                tabloidPaper+=1;
             }
         }
 
@@ -358,19 +356,19 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MAX. Drop 2 Opt 1");
             michaelNewspaperOptions[1] = michaelInfoOptions[3];
-            statusQuoPaper+=1;
+            muckrakerPaper+=1;
         }
         else if (MaxDPTwo.value == 2)
         {
             Debug.Log("MAX. Drop 2 Opt 2");
             michaelNewspaperOptions[1] = michaelInfoOptions[4];
-            tabloidPaper+=1;
+            statusQuoPaper+=1;
         }
         else if (MaxDPTwo.value == 3)
         {
             Debug.Log("MAX. Drop 2 Opt 3");
             michaelNewspaperOptions[1] = michaelInfoOptions[5];
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
         }
     }
     public void MaxDropC()
@@ -379,7 +377,7 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MAX. Drop 3 Opt 1");
             michaelNewspaperOptions[2] = michaelInfoOptions[6];
-            tabloidPaper+=1;
+            muckrakerPaper+=1;
         }
         else if (MaxDPThree.value == 2)
         {
@@ -391,7 +389,7 @@ public class NewspaperBehavior : MonoBehaviour
         {
             Debug.Log("MAX. Drop 3 Opt 3");
             michaelNewspaperOptions[2] = michaelInfoOptions[8];
-            muckrakerPaper+=1;
+            tabloidPaper+=1;
         }
     }
     public void NewspaperPrint() // using this to test things 
