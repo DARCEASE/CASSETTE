@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 using UnityEngine.SceneManagement;
+
 //PURPOSE: To manage the UI interface interactions 
 //USAGE: place on emply gameobject and call it the game managaer 
 public class FullDigitalUIBehavior : MonoBehaviour
@@ -35,13 +38,16 @@ public class FullDigitalUIBehavior : MonoBehaviour
     void Start()
     {
         FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player 
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+       
 
     }
+    
     public void ButtonBehavior(int i) // if you press a file, activate its proper window based on the index #
     {
         FilePanels[i].gameObject.SetActive(true);
