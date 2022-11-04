@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 5926226}
   m_Layer: 5
   m_Name: 'JULIA_BUTT  '
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1738,7 +1738,7 @@ GameObject:
   - component: {fileID: 118338596}
   m_Layer: 5
   m_Name: NOVAK_BUTT
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3566,7 +3566,7 @@ GameObject:
   - component: {fileID: 240584916}
   m_Layer: 5
   m_Name: 'MAX_BUTT  '
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7479,7 +7479,7 @@ GameObject:
   - component: {fileID: 574720232}
   m_Layer: 5
   m_Name: LogoutBUTT
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8161,6 +8161,7 @@ GameObject:
   - component: {fileID: 608035559}
   - component: {fileID: 608035560}
   - component: {fileID: 608035558}
+  - component: {fileID: 608035561}
   m_Layer: 0
   m_Name: 'GameManager '
   m_TagString: Untagged
@@ -8206,6 +8207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e252f300ffc26f346a9a5d98002fbd49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openOnDClick: {fileID: 0}
   FilePanels:
   - {fileID: 1699370205}
   - {fileID: 1039742319}
@@ -8229,6 +8231,34 @@ MonoBehaviour:
   - {fileID: 1279310165}
   - {fileID: 1719463859}
   - {fileID: 444811094}
+--- !u!114 &608035561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608035557}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30981c6f6caeba488071ed289c2d2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DClickButtons:
+  - {fileID: 574720232}
+  - {fileID: 1101756044}
+  - {fileID: 966290101}
+  - {fileID: 873878755}
+  - {fileID: 118338596}
+  - {fileID: 1709420499}
+  - {fileID: 1021888797}
+  - {fileID: 5926226}
+  - {fileID: 240584916}
+  - {fileID: 797763731}
+  - {fileID: 2100847154}
+  testButton: {fileID: 0}
+  tapTime: 0
+  resetTimer: 0
+  doubleClicked: 0
 --- !u!1 &615550905
 GameObject:
   m_ObjectHideFlags: 0
@@ -12546,7 +12576,7 @@ GameObject:
   - component: {fileID: 873878755}
   m_Layer: 5
   m_Name: StoryWrite_BUTT
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13823,7 +13853,7 @@ GameObject:
   - component: {fileID: 966290101}
   m_Layer: 5
   m_Name: FilesButton
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14998,7 +15028,7 @@ GameObject:
   - component: {fileID: 1021888797}
   m_Layer: 5
   m_Name: 'MICHAEL_BUTT '
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16266,7 +16296,7 @@ GameObject:
   - component: {fileID: 1101756044}
   m_Layer: 5
   m_Name: MEMO_BUTT
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24511,7 +24541,7 @@ GameObject:
   - component: {fileID: 1709420499}
   m_Layer: 5
   m_Name: 'JIM_BUTT '
-  m_TagString: Untagged
+  m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
