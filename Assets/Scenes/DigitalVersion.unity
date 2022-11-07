@@ -1262,7 +1262,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 57005364}
   m_HorizontalScrollbar: {fileID: 298674451}
   m_VerticalScrollbar: {fileID: 1721680032}
@@ -4865,7 +4865,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11/20/91
+  m_text: 09/10/91
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -6992,7 +6992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.6000061, y: 43.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -48.299995}
   m_SizeDelta: {x: 465.1545, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &240584916
@@ -11809,7 +11809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000019073486}
+  m_AnchoredPosition: {x: 0, y: -0.0000038146973}
   m_SizeDelta: {x: 0, y: 227.7491}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &401727864
@@ -11869,7 +11869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NOTES
+  m_text: DRAFTS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -16878,7 +16878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89.29999, y: -23.999992}
+  m_AnchoredPosition: {x: -11.100002, y: -23.999992}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585694724
@@ -17035,7 +17035,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 706037743}
   m_HorizontalScrollbar: {fileID: 1043384287}
   m_VerticalScrollbar: {fileID: 1936128}
@@ -19462,7 +19462,7 @@ MonoBehaviour:
   m_Elasticity: 2
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 10
   m_Viewport: {fileID: 1842462668}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
@@ -19737,7 +19737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -96.4, y: -23.999992}
+  m_AnchoredPosition: {x: 177.3, y: -23.999992}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700885135
@@ -20286,7 +20286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.7, y: -24}
+  m_AnchoredPosition: {x: -99, y: -24}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715710444
@@ -21065,7 +21065,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 2025792041}
   m_HorizontalScrollbar: {fileID: 841432320}
   m_VerticalScrollbar: {fileID: 1425546702}
@@ -23362,7 +23362,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11/19/91
+  m_text: 09/06/91
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -26047,7 +26047,7 @@ GameObject:
   - component: {fileID: 873878756}
   - component: {fileID: 873878755}
   m_Layer: 5
-  m_Name: NOTES_BUTT
+  m_Name: StoryWrite_BUTT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35958,7 +35958,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11/21/91
+  m_text: 09/21/91
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -36505,7 +36505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.29999, y: -24}
+  m_AnchoredPosition: {x: 83, y: -23.99997}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1187518344
@@ -38483,19 +38483,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hey kid.\r\n\r\nWhen I hired you as my replacement, I knew you\u2019d
-    be a great editor. I swear you\u2019re gonna win our newspaper a Pulitzer yet!
-    Just double-check the Evergreen interviews and we\u2019ll be ready to write.\r\n\r\nI
-    understand you\u2019re still a little new to the company computer, but it\u2019s
-    really easy to use once you get the hang of it.\r\n\r\nYou can find the audio
-    recordings in a file on the desktop. Listen through the interviews to get a sense
-    of the situation. There are also transcripts of the interviews you can read if
-    the recordings are hard to hear. \r\n\r\nOnce you\u2019ve listened to those,
-    you\u2019ll need to review the writer\u2019s notes. Check the disk on the desktop
-    and you\u2019ll see some preliminary ideas from the writer. Fill in the blanks
-    as you see fit. Once you\u2019re done, hit submit, and the writer will get started,
-    using your ideas as a base to work from.\r\n\r\nWell, I\u2019m off to enjoy my
-    retirement. Can\u2019t wait to see what kinds of stories you write, kid!\r\n"
+  m_text: "Hey kid\r\n\nWhen I hired you, I knew you\u2019d be our best reporter.\r\nI
+    swear you\u2019re gonna win our newspaper a Pulitzer yet!\r\nJust double-check
+    the Evergreen interviews and we\u2019ll be ready to\r\nprint.\r\n\r\nI understand
+    you\u2019re still a little new to the company computer, but it\u2019s really
+    easy to use once you get the hang of it.\r\n\r\nYou can find the audio recordings
+    in a file on the desktop. There are also transcripts of the interviews in case
+    the recordings are hard to hear.\r\n\r\nOnce you\u2019ve listened to those, you\u2019ll
+    need to write down the story. Don\u2019t worry about that kid, I got ya covered!
+    Apple 2 just released new software called StoryWrite that automatically writes
+    articles based on templates we give it. All you have to do is tell the program
+    some basic information about the people involved in the story, and it\u2019ll
+    do the rest of the work for you. Computers really are somethin\u2019 else, huh?\r\n\r\nCan\u2019t
+    wait to see what kind of story you write, kid!\r\n\r\n-Boss\r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -39045,8 +39045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8, y: 0}
-  m_SizeDelta: {x: 605.6, y: 400}
+  m_AnchoredPosition: {x: 5.600006, y: 0}
+  m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279310167
 MonoBehaviour:
@@ -46500,7 +46500,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 13238873}
   m_HorizontalScrollbar: {fileID: 1303746401}
   m_VerticalScrollbar: {fileID: 1024168915}
@@ -49506,7 +49506,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 1443335411}
   m_HorizontalScrollbar: {fileID: 1239673825}
   m_VerticalScrollbar: {fileID: 200156292}
@@ -53657,7 +53657,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11/20/91
+  m_text: 09/12/91
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -53771,7 +53771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.59999084, y: -48.6}
+  m_AnchoredPosition: {x: -0.59999084, y: 43.69992}
   m_SizeDelta: {x: 465.1545, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1709420499
@@ -58419,7 +58419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11/18/91
+  m_text: 09/01/91
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -63347,11 +63347,11 @@ MonoBehaviour:
   m_Content: {fileID: 399510318}
   m_Horizontal: 1
   m_Vertical: 1
-  m_MovementType: 2
-  m_Elasticity: 0
+  m_MovementType: 1
+  m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 861486206}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 472237207}
@@ -65060,7 +65060,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 8
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 2009743856}
   m_HorizontalScrollbar: {fileID: 1064035015}
   m_VerticalScrollbar: {fileID: 784218209}
