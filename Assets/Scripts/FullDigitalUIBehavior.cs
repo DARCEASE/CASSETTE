@@ -12,27 +12,22 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     public GameObject[] FilePanels;
     // 0: Memo (avaialble at the start of game)
-    // 1: File Manager Folder
-    // 2: Doc Folder
-    // 3: Audio Folder
-    // 4: Novak.Exe (dropdown menu file)
-    // 5: Novak Transcript
-    // 6: Novak Audio
-    // 7: Jim.Exe
-    // 8: Jim Transcript
-    // 9: Jim Audio
-    // 10: Julia.Exe
-    // 11: Julia Transcript
-    // 12: Julia Audio
-    // 13: Michael.Exe
-    // 14: Michael Transcript
-    // 15: Michael Audio
-    // 16: Max.Exe
-    // 17: Max Transcript
-    // 18: Max Audio
-    // 19: Newspaper Output Panel
-    // 20: StoryWrite Panel 
-    // 21: Are you sure you want to exit button 
+    // 1: Interview Folder Panel
+    // 2: Are you sure you want to exit button 
+    // 3: Novak (dropdown menu file)
+    // 4: Novak Interview 
+    // 5: Jim (dropdown menu file)
+    // 6: Jim Interview
+    // 7: Julia (dropdown menu file)
+    // 8: Julia Interview
+    // 9:  Michael (dropdown menu file)
+    // 10: Michael Interview
+    // 11: Max (dropdown menu file)
+    // 12: Max Interview
+    // 13: Newspaper Output Panel
+    // 14: Drafts Folder Panel (used to be STORYWRITE)
+    // 15: 
+  
 
 
     void Start()
