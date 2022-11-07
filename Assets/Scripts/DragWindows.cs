@@ -36,8 +36,9 @@ public class DragWindows : MonoBehaviour, IDragHandler, IPointerDownHandler
 
     void IDragHandler.OnDrag(PointerEventData eventData) // as youre draggging the mouse
     {
+        
         dragRectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor; //grabs mvmt form previous mouse pos
-
+        //windowpos.y = Mathf.Clamp(windowpos.y, 30, 15);
         Debug.Log("PlayerDraggingMouse");
     }
     public void OnPointerDown(PointerEventData eventData) // as you click and hold 
