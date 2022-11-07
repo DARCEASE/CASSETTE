@@ -23,7 +23,6 @@ public class AudioController : MonoBehaviour
         if (Input.GetMouseButtonDown(0)){
             mouseA_source.Play();
             yield return new WaitForSeconds(2);
-            Debug.Log("Cliking");
         }
     }
 }

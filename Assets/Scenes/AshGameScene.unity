@@ -1321,7 +1321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &77604858
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5423,19 +5423,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 451376017}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 485223976}
-        m_TargetAssemblyTypeName: UIBehavior, Assembly-CSharp
-        m_MethodName: OpenFileFolder
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &451376017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6006,6 +5994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 429f1f3f0d7bc9b42a50bb252290dde8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onDClick: {fileID: 573211907}
+  testButton: {fileID: 0}
   fileManagerPanel: {fileID: 77604857}
   novakFilePanel: {fileID: 81963495}
   jimFilePanel: {fileID: 1238430898}
@@ -6997,6 +6987,7 @@ GameObject:
   - component: {fileID: 573211906}
   - component: {fileID: 573211905}
   - component: {fileID: 573211904}
+  - component: {fileID: 573211907}
   m_Layer: 5
   m_Name: NOVAK_BUTT
   m_TagString: Untagged
@@ -7068,9 +7059,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 485223976}
-        m_TargetAssemblyTypeName: UIBehavior, Assembly-CSharp
-        m_MethodName: OpenNovakFile
+      - m_Target: {fileID: 573211907}
+        m_TargetAssemblyTypeName: DoubleClick, Assembly-CSharp
+        m_MethodName: CheckForDoubleClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7118,6 +7109,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573211902}
   m_CullTransparentMesh: 1
+--- !u!114 &573211907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573211902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30981c6f6caeba488071ed289c2d2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DClickButtons: []
+  testButton: {fileID: 573211904}
+  tapTime: 0
+  resetTimer: 0
+  doubleClicked: 0
 --- !u!1 &574898830
 GameObject:
   m_ObjectHideFlags: 0
@@ -7831,7 +7839,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 782155397}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &606519658
 GameObject:
@@ -10671,6 +10679,7 @@ Transform:
   m_Children:
   - {fileID: 793676403}
   - {fileID: 485223977}
+  - {fileID: 1830486834}
   - {fileID: 599880776}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -23589,6 +23598,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829873999}
   m_CullTransparentMesh: 1
+--- !u!1 &1830486833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830486834}
+  m_Layer: 0
+  m_Name: DoubleClickController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1830486834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830486833}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -96.09073, y: 61.748802, z: 63.012676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 782155397}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1833084670
 GameObject:
   m_ObjectHideFlags: 0
