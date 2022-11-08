@@ -11,7 +11,7 @@ public class AudioController : MonoBehaviour
 
     void Start()
     {
-        bg_source.Play(); //if the game restarts, restart the clip for now
+        //bg_source.Play(); //if the game restarts, restart the clip for now
     }
 
     void Update()
