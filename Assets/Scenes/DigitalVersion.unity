@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 57005364}
   m_HorizontalScrollbar: {fileID: 298674451}
   m_VerticalScrollbar: {fileID: 1721680032}
@@ -16999,7 +16999,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 706037743}
   m_HorizontalScrollbar: {fileID: 1043384287}
   m_VerticalScrollbar: {fileID: 1936128}
@@ -17144,7 +17144,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 1016559878}
   m_HorizontalScrollbar: {fileID: 1472951982}
   m_VerticalScrollbar: {fileID: 1718167092}
@@ -21061,7 +21061,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 2025792041}
   m_HorizontalScrollbar: {fileID: 841432320}
   m_VerticalScrollbar: {fileID: 1425546702}
@@ -25418,7 +25418,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 504397444}
   m_HorizontalScrollbar: {fileID: 1605412000}
   m_VerticalScrollbar: {fileID: 1200464579}
@@ -29569,7 +29569,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 1608285458}
   m_HorizontalScrollbar: {fileID: 208777097}
   m_VerticalScrollbar: {fileID: 1003060839}
@@ -32523,7 +32523,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 846703539}
   m_HorizontalScrollbar: {fileID: 1229523257}
   m_VerticalScrollbar: {fileID: 159512399}
@@ -38419,19 +38419,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hey kid\r\n\nWhen I hired you, I knew you\u2019d be our best reporter.\r\nI
-    swear you\u2019re gonna win our newspaper a Pulitzer yet!\r\nJust double-check
-    the Evergreen interviews and we\u2019ll be ready to\r\nprint.\r\n\r\nI understand
-    you\u2019re still a little new to the company computer, but it\u2019s really
-    easy to use once you get the hang of it.\r\n\r\nYou can find the audio recordings
-    in a file on the desktop. There are also transcripts of the interviews in case
-    the recordings are hard to hear.\r\n\r\nOnce you\u2019ve listened to those, you\u2019ll
-    need to write down the story. Don\u2019t worry about that kid, I got ya covered!
-    Apple 2 just released new software called StoryWrite that automatically writes
-    articles based on templates we give it. All you have to do is tell the program
-    some basic information about the people involved in the story, and it\u2019ll
-    do the rest of the work for you. Computers really are somethin\u2019 else, huh?\r\n\r\nCan\u2019t
-    wait to see what kind of story you write, kid!\r\n\r\n-Boss\r\n\r\n"
+  m_text: "THE LOCAL RAG\r\n\r\nHey kid.\r\n\r\nWhen I hired you as my replacement,
+    I knew you\u2019d be a great editor. I swear you\u2019re gonna win our newspaper
+    a Pulitzer yet! Just double-check the Evergreen interviews and we\u2019ll be
+    ready to write.\r\n\r\nI understand you\u2019re still a little new to the company
+    computer, but it\u2019s really easy to use once you get the hang of it.\r\n\r\nYou
+    can find the audio recordings in a file on the desktop. Listen through the interviews
+    to get a sense of the situation. There are also transcripts of the interviews
+    you can read if the recordings are hard to hear. \r\n\r\nOnce you\u2019ve listened
+    to those, you\u2019ll need to review the writer\u2019s notes. Check the disk
+    on the desktop and you\u2019ll see some preliminary ideas from the writer. Fill
+    in the blanks as you see fit. Once you\u2019re done, hit submit, and the writer
+    will get started, using your ideas as a base to work from.\r\n\r\nWell, I\u2019m
+    off to enjoy my retirement. Can\u2019t wait to see what kinds of stories you
+    write, kid!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -44469,7 +44470,7 @@ MonoBehaviour:
   NovakDPOne: {fileID: 1955818698}
   NovakDPTwo: {fileID: 2124620505}
   NovakDPThree: {fileID: 339281353}
-  JimDPOne: {fileID: 0}
+  JimDPOne: {fileID: 1034813059}
   JimDPTwo: {fileID: 2107646787}
   JimDPThree: {fileID: 1883459286}
   JuliaDPOne: {fileID: 1583140558}
@@ -44479,7 +44480,7 @@ MonoBehaviour:
   MichaelDPTwo: {fileID: 1409862464}
   MichaelDPThree: {fileID: 1878335494}
   MaxDPOne: {fileID: 1586403694}
-  MaxDPTwo: {fileID: 0}
+  MaxDPTwo: {fileID: 1649429140}
   MaxDPThree: {fileID: 2124042287}
   jimNewspaperOptions:
   - 
@@ -46424,7 +46425,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 13238873}
   m_HorizontalScrollbar: {fileID: 1303746401}
   m_VerticalScrollbar: {fileID: 1024168915}
@@ -49430,7 +49431,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 1443335411}
   m_HorizontalScrollbar: {fileID: 1239673825}
   m_VerticalScrollbar: {fileID: 200156292}
@@ -55318,9 +55319,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1762230525}
-  - component: {fileID: 1762230528}
   - component: {fileID: 1762230527}
   - component: {fileID: 1762230526}
+  - component: {fileID: 1762230528}
   m_Layer: 0
   m_Name: AudioControllerGO
   m_TagString: Untagged
@@ -55449,7 +55450,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8c76f97632e9639439509afb8f45b643, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -55543,7 +55544,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1762230524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 964fd7cc662e2fb4cbef53e2802d7b64, type: 3}
+  m_Script: {fileID: 11500000, guid: 338acdd337181c74a9cd8da1274e23f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bg_source: {fileID: 1762230527}
@@ -63263,7 +63264,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 861486206}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 472237207}
@@ -64972,7 +64973,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 8
   m_Viewport: {fileID: 2009743856}
   m_HorizontalScrollbar: {fileID: 1064035015}
   m_VerticalScrollbar: {fileID: 784218209}
