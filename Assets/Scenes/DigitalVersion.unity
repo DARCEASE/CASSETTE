@@ -44407,7 +44407,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
+  PlayerHeadline: 
   finalNewspaper: {fileID: 1358871417}
+  finalHeadline: {fileID: 2111132688}
   newspaperPrints:
   - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having fallen from a great height. Mr. Evergreen
@@ -44468,6 +44470,10 @@ MonoBehaviour:
     when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
     on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
     his relationship with the businessman. \r\n"
+  newspaperHeadlines:
+  - 'ROB EVERGREEN: A GOOD MAN WITH AN UNFORTUNATE SECRET'
+  - ROBERT EVERGREEN FOUND DEAD
+  - THE GRASS IS GAYER ON THE EVERGREEN SIDE
   NovakDPOne: {fileID: 1955818698}
   NovakDPTwo: {fileID: 2124620505}
   NovakDPThree: {fileID: 339281353}
@@ -52240,7 +52246,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: "is a woman rising against a man\u2019s world "
+    - m_Text: "a woman rising against a man\u2019s world "
       m_Image: {fileID: 0}
     - m_Text: competent, with a professional demeanor
       m_Image: {fileID: 0}
