@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class FullDigitalUIBehavior : MonoBehaviour
 {
 
+    public DoubleClick openOnDClick;
     public GameObject[] FilePanels;
     // 0: Memo (avaialble at the start of game)
     // 1: Interview Folder Panel
@@ -32,6 +33,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     void Start()
     {
+        //openOnDClick = GetComponent<DoubleClick>(); //GameObject.Find("DoubleClickHandler").
         FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player 
       
     }
@@ -45,7 +47,11 @@ public class FullDigitalUIBehavior : MonoBehaviour
     
     public void ButtonBehavior(int i) // if you press a file, activate its proper window based on the index #
     {
-        FilePanels[i].gameObject.SetActive(true);
+        //if (openOnDClick.doubleClicked == true){
+            FilePanels[i].gameObject.SetActive(true);
+            Debug.Log("Clicked and Opened");
+        //}
+            
     }
 
     public void ExitFile(int i) // If a file is open right now, close it
