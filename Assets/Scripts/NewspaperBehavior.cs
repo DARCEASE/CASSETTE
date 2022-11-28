@@ -12,7 +12,8 @@ public class NewspaperBehavior : MonoBehaviour
 #region INITIALIZATIONS
     public string PlayerNewspaper, PlayerHeadline;
     public Text finalNewspaper, finalHeadline;
-    [TextArea]
+    
+    [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
     [SerializeField] string[] newspaperPrints, newspaperHeadlines;
 
     // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
@@ -483,7 +484,7 @@ public class NewspaperBehavior : MonoBehaviour
             PlayerNewspaper = newspaperPrints[2];
             PlayerHeadline = newspaperHeadlines[2];
         }
-        finalNewspaper.text = PlayerNewspaper;
+        finalNewspaper.text = PlayerNewspaper + "Add this";
         finalHeadline.text = PlayerHeadline;
 
     }
