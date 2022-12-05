@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 5926227}
   - component: {fileID: 5926226}
   m_Layer: 5
-  m_Name: 'JULIA_BUTT  '
+  m_Name: 'VITO_BUTT  '
   m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ RectTransform:
   - {fileID: 1706606707}
   - {fileID: 652065912}
   m_Father: {fileID: 399510318}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -546,8 +546,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5000153, y: -0.5}
+  m_AnchoredPosition: {x: -7.5000076, y: -0.5}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8328411
@@ -2316,7 +2316,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 1081.5095}
+  m_SizeDelta: {x: 0, y: 1220.9265}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &69321755
 GameObject:
@@ -3283,7 +3283,7 @@ GameObject:
   - component: {fileID: 105221604}
   - component: {fileID: 105221603}
   m_Layer: 5
-  m_Name: 'JimPanel '
+  m_Name: 'GuyPanel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3309,7 +3309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f0d88d35ef4c2947baf913dec3bbcab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30f86ad19df780b4483a6892bc9909ce, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3348,8 +3348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -18.403503}
-  m_SizeDelta: {x: 600, y: 363.193}
+  m_AnchoredPosition: {x: 0, y: -17.925385}
+  m_SizeDelta: {x: 600, y: 363.4451}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &110599889
 GameObject:
@@ -3886,7 +3886,7 @@ GameObject:
   - component: {fileID: 118338597}
   - component: {fileID: 118338596}
   m_Layer: 5
-  m_Name: NOVAK_BUTT
+  m_Name: BORIS_BUTT
   m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3957,8 +3957,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -4619,6 +4619,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149391820}
   m_CullTransparentMesh: 1
+--- !u!1 &151391138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151391139}
+  - component: {fileID: 151391141}
+  - component: {fileID: 151391140}
+  m_Layer: 5
+  m_Name: ReaderCountBG (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &151391139
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151391138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1526062899}
+  - {fileID: 1468613555}
+  m_Father: {fileID: 309659006}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 225.6, y: -128}
+  m_SizeDelta: {x: 153.7431, y: 85.5275}
+  m_Pivot: {x: 1, y: 0}
+--- !u!114 &151391140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151391138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3872b3e3e37acf54b97f60ccd752a426, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &151391141
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151391138}
+  m_CullTransparentMesh: 1
 --- !u!1 &151644621
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,7 +5230,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Bailey.INT
+  m_text: 'Brighton_Man.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -5804,7 +5883,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Bailey.INT
+  m_text: G_Stohler
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -6495,8 +6574,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 664744877}
   m_HandleRect: {fileID: 664744876}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.18259275
+  m_Value: 1.0000001
+  m_Size: 0.16174258
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7192,7 +7271,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211705008}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7200,12 +7279,12 @@ RectTransform:
   - {fileID: 509427629}
   - {fileID: 1845348226}
   - {fileID: 1784605047}
-  m_Father: {fileID: 1279310166}
+  m_Father: {fileID: 1239324485}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -2.4547, y: 0}
+  m_AnchoredPosition: {x: 1.1716428, y: 569.7366}
   m_SizeDelta: {x: 500.2895, y: 253.77}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &211705010
@@ -7937,7 +8016,7 @@ GameObject:
   - component: {fileID: 240584917}
   - component: {fileID: 240584916}
   m_Layer: 5
-  m_Name: 'MAX_BUTT  '
+  m_Name: 'BRIGHTON_BUTT  '
   m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8008,14 +8087,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9237,16 +9316,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291980235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1279310166}
+  m_Father: {fileID: 1239324485}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3294, y: 151.16443}
+  m_AnchoredPosition: {x: 2.2969427, y: 436.03275}
   m_SizeDelta: {x: 337.194, y: 53.5123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291980237
@@ -9663,7 +9742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11/22/91
+  m_text: 03/04/92
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -10191,6 +10270,7 @@ RectTransform:
   - {fileID: 873878754}
   - {fileID: 206550712}
   - {fileID: 444811095}
+  - {fileID: 151391139}
   m_Father: {fileID: 518996113}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11077,16 +11157,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: 'raised the posibility of suicide '
+    - m_Text: America saved him
       m_Image: {fileID: 0}
-    - m_Text: no speculation as of yet
+    - m_Text: Ungrateful for what this country has given him
       m_Image: {fileID: 0}
-    - m_Text: may have been homicide
+    - m_Text: Neutral/conflicted feelings about this country
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: NovakDropC
         m_Mode: 1
@@ -13183,9 +13263,9 @@ RectTransform:
   m_Children:
   - {fileID: 118338595}
   - {fileID: 1709420498}
-  - {fileID: 1021888796}
-  - {fileID: 240584915}
   - {fileID: 5926225}
+  - {fileID: 240584915}
+  - {fileID: 1021888796}
   m_Father: {fileID: 861486206}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14040,7 +14120,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 1081.5095}
+  m_SizeDelta: {x: 0, y: 1540.8525}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &433140032
 GameObject:
@@ -14655,7 +14735,7 @@ GameObject:
   - component: {fileID: 456504218}
   - component: {fileID: 456504219}
   m_Layer: 5
-  m_Name: JuliaInterviewPanel
+  m_Name: BRIGHTONInterviewPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14681,7 +14761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.80001, y: 60.200012}
+  m_AnchoredPosition: {x: -17.7, y: -34.1}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456504218
@@ -15278,7 +15358,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7711429
+  m_Size: 0.85236514
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -16229,8 +16309,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 168.2}
-  m_SizeDelta: {x: 88.4776, y: 18.406}
+  m_AnchoredPosition: {x: -1.4049, y: 167.53}
+  m_SizeDelta: {x: 102.3692, y: 18.406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498093485
 MonoBehaviour:
@@ -16252,7 +16332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Bailey
+  m_text: Brighton_Man
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -18023,7 +18103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19521,7 +19601,7 @@ GameObject:
   - component: {fileID: 585694725}
   - component: {fileID: 585694724}
   m_Layer: 5
-  m_Name: Jim.INT
+  m_Name: VITO.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19591,14 +19671,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20059,6 +20139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608035559}
   - component: {fileID: 608035560}
+  - component: {fileID: 608035562}
   - component: {fileID: 608035558}
   - component: {fileID: 608035561}
   m_Layer: 0
@@ -20153,6 +20234,34 @@ MonoBehaviour:
   tapTime: 0
   resetTimer: 0
   doubleClicked: 0
+--- !u!114 &608035562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608035557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f964082eb970aa4da360f2b12dc27a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S2FilePanels:
+  - {fileID: 1699370205}
+  - {fileID: 97220001}
+  - {fileID: 444811094}
+  - {fileID: 630373158}
+  - {fileID: 1415734642}
+  - {fileID: 105221602}
+  - {fileID: 1553609064}
+  - {fileID: 2028775514}
+  - {fileID: 922320283}
+  - {fileID: 2037655682}
+  - {fileID: 456504216}
+  - {fileID: 707811533}
+  - {fileID: 1983585080}
+  - {fileID: 1279310165}
+  - {fileID: 1719463859}
 --- !u!1 &615550905
 GameObject:
   m_ObjectHideFlags: 0
@@ -20166,7 +20275,7 @@ GameObject:
   - component: {fileID: 615550908}
   - component: {fileID: 615550907}
   m_Layer: 5
-  m_Name: Novak.INT
+  m_Name: BORIS.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20236,8 +20345,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -20633,7 +20742,7 @@ GameObject:
   - component: {fileID: 630373160}
   - component: {fileID: 630373159}
   m_Layer: 5
-  m_Name: NovakPanel
+  m_Name: BorisPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20659,7 +20768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f0d88d35ef4c2947baf913dec3bbcab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30f86ad19df780b4483a6892bc9909ce, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20699,8 +20808,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -18.404}
-  m_SizeDelta: {x: 600, y: 363.19}
+  m_AnchoredPosition: {x: 0, y: -17.92588}
+  m_SizeDelta: {x: 600, y: 363.4422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &630886087
 GameObject:
@@ -20713,7 +20822,7 @@ GameObject:
   - component: {fileID: 630886088}
   - component: {fileID: 630886090}
   m_Layer: 5
-  m_Name: NovakDPThree
+  m_Name: BorisDPThree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21396,7 +21505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_ANDERSON
+  m_text: V_MASUCCI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -21729,7 +21838,7 @@ RectTransform:
   m_Father: {fileID: 338274892}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.81740725}
+  m_AnchorMin: {x: 0, y: 0.83825743}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -21975,7 +22084,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: JIM EVERGREEN
+  m_Text: GUY STOHLER
 --- !u!222 &667408833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22224,12 +22333,12 @@ RectTransform:
   m_Children:
   - {fileID: 1842462668}
   m_Father: {fileID: 1279310166}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.062496, y: -54.3912}
-  m_SizeDelta: {x: 389.0694, y: 276.3177}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682177714
 MonoBehaviour:
@@ -22502,7 +22611,7 @@ GameObject:
   - component: {fileID: 700885136}
   - component: {fileID: 700885135}
   m_Layer: 5
-  m_Name: Max.INT
+  m_Name: FRANZ.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22572,8 +22681,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -22724,7 +22833,7 @@ GameObject:
   - component: {fileID: 707811535}
   - component: {fileID: 707811534}
   m_Layer: 5
-  m_Name: JuliaPanel
+  m_Name: FranzPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22750,7 +22859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f0d88d35ef4c2947baf913dec3bbcab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30f86ad19df780b4483a6892bc9909ce, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22786,12 +22895,12 @@ RectTransform:
   - {fileID: 1466593912}
   - {fileID: 450191250}
   m_Father: {fileID: 1743493946}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -18.404}
-  m_SizeDelta: {x: 600, y: 363.19}
+  m_AnchoredPosition: {x: 0, y: -17.92588}
+  m_SizeDelta: {x: 600, y: 363.4422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &707909971
 GameObject:
@@ -23051,7 +23160,7 @@ GameObject:
   - component: {fileID: 715710445}
   - component: {fileID: 715710444}
   m_Layer: 5
-  m_Name: Julia.INT
+  m_Name: GUY.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23121,14 +23230,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -23545,9 +23654,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721872329
 MonoBehaviour:
@@ -23569,7 +23678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24287,7 +24396,7 @@ RectTransform:
   - {fileID: 337643296}
   - {fileID: 1423406108}
   m_Father: {fileID: 1239324485}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -24658,9 +24767,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775834439
 MonoBehaviour:
@@ -24682,7 +24791,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24757,7 +24866,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Novak.INT
+  m_text: B_Kramakov.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -25350,8 +25459,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1881143227}
   m_HandleRect: {fileID: 1881143226}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.18259275
+  m_Value: 1.0000001
+  m_Size: 0.12816009
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -26644,7 +26753,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Elliot.INT
+  m_text: 'F_Stohler.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -26986,7 +27097,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_BAILEY
+  m_text: F_STOHLER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -27166,8 +27277,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1766196065}
-  - {fileID: 836239700}
+  - {fileID: 2026655675}
   - {fileID: 1034813056}
   m_Father: {fileID: 1732107771}
   m_RootOrder: 0
@@ -27469,140 +27579,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: -0.5}
   m_SizeDelta: {x: -30, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &836239699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 836239700}
-  - component: {fileID: 836239702}
-  - component: {fileID: 836239701}
-  m_Layer: 5
-  m_Name: Line Txt 1 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &836239700
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836239699}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 830707977}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320.47, y: -8.372488}
-  m_SizeDelta: {x: 96.134, y: 27.4324}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &836239701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836239699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: son.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
-  m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281874488
-  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &836239702
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836239699}
-  m_CullTransparentMesh: 1
 --- !u!1 &838821015
 GameObject:
   m_ObjectHideFlags: 0
@@ -27794,7 +27770,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 710891165}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -28720,7 +28696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Det_Novak.INT
+  m_text: F_Stohler.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -28962,11 +28938,11 @@ RectTransform:
   m_Father: {fileID: 67687140}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4400024, y: -29.3393}
-  m_SizeDelta: {x: 427.7463, y: 1115.804}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -12}
+  m_SizeDelta: {x: 427.7463, y: 1204.0857}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &874848149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28987,26 +28963,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lieutenant Michael Bailey\r\n\r\n\nShould I go ahead? Hello. My name is
-    Michael Bailey. I am Robert\u2019s- ...I was Robert\u2019s romantic partner.\r\n\r\nWe
-    met about 20 years ago, during Fleet Week. We had an on-and-off relationship
-    since then. Between my service in the Navy and his business responsibilities,
-    we, um\u2026 we were unable to spend as much time together as I wish we could\u2019ve.\r\n\r\nOf
-    course, we kept our relationship a secret. If Robert\u2019s business partners
-    found out that he was. . . with a man, he would be discredited. If my superior
-    officers find out, I will be discharged. We didn\u2019t tell anybody. Yes, his
-    children found out, but Robert promised me that they would stay quiet.\r\n\r\nI
-    don\u2019t know Robert\u2019s family well. He talked about his kids sometimes.
-    When his son found out about our relationship, he didn\u2019t take it well. They
-    drifted apart after that. I think he was closer with his daughter. Yes, I know
-    he had a wife -- they parted ways five years ago. I don\u2019t have anything
-    more to say about that.\r\n\r\nUncomfortable? Of course I\u2019m uncomfortable.
-    Do you realize what kind of position I\u2019m in? I either reveal my and Robert\u2019s
-    sexual orientation, in which case my life, his family\u2019s life, his company,
-    it all falls apart -- or I try to deny it. I lie and I cover things up, and our
-    relationship is swallowed by the void, and nothing changes. I made my choice
-    already, but neither option is good. Either way, I have to regret our relationship.
-    And that is\u2026 never mind.\r\n"
+  m_text: "Guy Stohler\r\n\n\nOkay, um\u2026 I guess I should start at the beginning.
+    My cousin Franziska is visiting from Germany for a few days. We went down to
+    Coney Island together, thought we\u2019d check out the beach. We stopped for
+    lunch at a restaurant at Brighton Beach. That\u2019s where it all happened.\r\n\r\nI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming. I always thought \u2013 heh, heh \u2013 I always thought I\u2019d
+    be good in a situation like that, y\u2019know? Spring into action, take the guy
+    down \u2013 but I guess I was too surprised or something \u2018cause I couldn\u2019t
+    even move. I was just kinda frozen in my seat.\r\n\r\n And then\u2026 I got hit
+    by a stray bullet, right here in my left arm. It hurt like a bitch, I gotta tell
+    ya. And here\u2019s the funny thing: when I was sittin\u2019 in the ambulance,
+    all I could think about was my dinner reservation. Isn\u2019t that kinda stupid?
+    I got shot in the arm, and a bunch of people died, and all I could think about
+    was canceling my dinner reservation.\r\n\r\nNo, I\u2019ve never seen something
+    like this before. I live on West 75th. That\u2019s the Upper West Side, we don\u2019t
+    get this kinda stuff up there. I mean, I knew about the mob. I\u2019ve seen the
+    Godfather, haha. I read the news. But I never thought I\u2019d see it up close.
+    I guess things are different in that part of the city. Next time, I\u2019m taking
+    Franz to the history museum, and that\u2019s it! Haha.\r\n\r\nNaw, I\u2019m fine.
+    The bullet wound isn\u2019t too bad. It \u2013ugh \u2013 it doesn\u2019t really
+    hurt anymore, see? I\u2019ve got good doctors. I don\u2019t mind all this. I
+    don\u2019t. I just\u2026 I guess I wanna know, why me? Y\u2019know? How\u2019s
+    that fair? Haha! But like I said, it\u2019s no big deal. I\u2019m sure I\u2019ll
+    \u201Cfuhgeddaboudit\u201D it in a week. Oh, the doctors said I\u2019ll have
+    a scar. But maybe it\u2019ll fade or something. I don\u2019t mind it. I don\u2019t
+    mind either way.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -29215,28 +29198,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detective Novak\r\n\r\n\n\nThe official statement from the department
-    is that Mr. Robert Evergreen\u2019s body was found on the sidewalk early Monday
-    morning, outside his place of work. He appeared to have fallen from a great height,
-    and death was likely instantaneous upon impact. The department does not, at this
-    time, wish to speculate on the specific manner of the death, whether it was accident,
-    murder, or suicide, as the investigation is still ongoing. We will update the
-    public when it is appropriate. So, please, no more questions.\r\n\r\n...look,
-    off the record? Of course I knew about Mr. Evergreen. Everyone in this city did.
-    The man was practically a case study in the American Dream. Started from nothing,
-    built up a successful business and eventually made his way to success in New
-    York. Beautiful wife - well, ex-wife - beautiful children, beautiful home in
-    the city. Fortune five hundred company, or at least on the way there.\r\n\r\nThose
-    kids - Jim and Julia, I think? - as far as I know, they\u2019re his only next
-    of kin. Well, and his ex-wife. Beautiful woman. Not sure why he\u2019d divorce
-    a fox like that. About as amicable as a divorce with the rich and famous could
-    be, I guess. I remember reading about it in the society pages...what? A guy like
-    me can\u2019t be interested in the lives of the hoity-toity upper class? That
-    happened a couple of years ago.\r\n\r\nSince then? Well, I guess he\u2019s been
-    a... \u201Cconfirmed bachelor\u201D, if you catch my meaning. He certainly hasn\u2019t
-    been spotted with any special lady friends. Look, what a man does in his own
-    private life is none of my business. So long as none of it ends up on page six
-    or in a holding cell whatever blows your skirt up is fine and dandy with me\r\n"
+  m_text: "Franziska Stohler\r\n\r\n\nDo you hear this music? Great stuff! I\u2019m
+    from Berlin, they have a crazy nightlife there! But I\u2019m in New York for
+    Frankie Bones. The Future is Ours! He\u2019s got a\u2013 uh\u2013 a \u201Cgenerator
+    party\u201D here, you should come! Have some fun!\r\n\r\nOh, that\u2019s a camera
+    bag! I photograph the Technoszene in Berlin. I take a lot of pictures. It\u2019s
+    good to document things. I photographed the Berlin Wall when it fell. It was
+    so great to know that the war was finally over! But the nightlife photos are
+    more important. That\u2019s where Germany really came back together \u2013 on
+    the dance floor!\r\n\r\nOh, you have questions about the restaurant, N-Nadezhda?
+    Yes, I was there with my cousin, very scary. People walked in and started shooting
+    at a group of customers, and then the customers started shooting back! It was
+    very loud \u2013 bang-bang-bang \u2013 and my cousin Guy got hit by a bullet
+    right here! After a few seconds, the shooting people ran away, and then the customers
+    ran too \u2013 even some of the ones with bullets in them! Someone told me it
+    was the Russian and the Italian mob. That\u2019s crazy! Does that kind of thing
+    happen a lot here?\r\n\r\nYes, Guy is my cousin. I invited him to come with me
+    here, to get his mind off the injury, but he said no! He doesn\u2019t come with
+    me to parties, he doesn\u2019t like to have fun. He\u2019s a\u2013 a stiff kind
+    of person, you know? But underneath I think he\u2019s really sensitive! He\u2019s
+    a nice person, very kind, I\u2019m glad he\u2019s alright.\r\n\r\nYes I\u2019m
+    out dancing! [Obviously!] Sure, there were guns and bullets, but I\u2019m still
+    alive. Man muss die Dinge nehmen, wie sie kommen. People build walls and people
+    tear walls down. Countries break apart and countries merge together. Someone
+    probably drops nukes on us tomorrow, but right now, we don\u2019t stop dancing!
+    There is no future! Peace, love, unity! Come on!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -29406,7 +29392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Detective at scene of crime. Seems to be
+  m_text: Restaurant owner
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -30490,7 +30476,7 @@ GameObject:
   - component: {fileID: 922320285}
   - component: {fileID: 922320286}
   m_Layer: 5
-  m_Name: 'JimInterviewPanel '
+  m_Name: 'VITOInterviewPanel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30516,7 +30502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.80001, y: 60.200012}
+  m_AnchoredPosition: {x: 4.4, y: -3.7}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922320285
@@ -31115,6 +31101,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940747904}
+  m_CullTransparentMesh: 1
+--- !u!1 &940783917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940783918}
+  - component: {fileID: 940783920}
+  - component: {fileID: 940783919}
+  m_Layer: 5
+  m_Name: NP_BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &940783918
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940783917}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1890045045}
+  - {fileID: 1654319776}
+  - {fileID: 1219505699}
+  - {fileID: 1282686155}
+  m_Father: {fileID: 1239324485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 969.74}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &940783919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940783917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 46ce14cc854bd9c41a577a8395e7b9cb, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &940783920
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940783917}
   m_CullTransparentMesh: 1
 --- !u!1 &950132562
 GameObject:
@@ -33210,9 +33275,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &991530707
 MonoBehaviour:
@@ -33234,7 +33299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -33449,7 +33514,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 60.901764, y: 0}
-  m_SizeDelta: {x: 124.9924, y: 11.9292}
+  m_SizeDelta: {x: 159.1237, y: 11.9292}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1003124267
 MonoBehaviour:
@@ -33471,7 +33536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DET_NOVAK
+  m_text: B_KRAMAROV
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -34010,7 +34075,7 @@ GameObject:
   - component: {fileID: 1021888798}
   - component: {fileID: 1021888797}
   m_Layer: 5
-  m_Name: 'MICHAEL_BUTT '
+  m_Name: 'FRANZ_BUTT '
   m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34030,7 +34095,7 @@ RectTransform:
   - {fileID: 822673260}
   - {fileID: 1165607337}
   m_Father: {fileID: 399510318}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -34081,14 +34146,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -34518,12 +34583,12 @@ RectTransform:
   - {fileID: 2016092317}
   - {fileID: 1406195667}
   m_Father: {fileID: 830707977}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 179.27, y: -7.46}
-  m_SizeDelta: {x: 159.2873, y: 32.5}
+  m_AnchoredPosition: {x: 154.31107, y: -7.46}
+  m_SizeDelta: {x: 209.2052, y: 32.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1034813057
 MonoBehaviour:
@@ -34614,16 +34679,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: resentful
+    - m_Text: helpless victim
       m_Image: {fileID: 0}
-    - m_Text: grieving
+    - m_Text: foolish bystander
       m_Image: {fileID: 0}
-    - m_Text: ridiculous
+    - m_Text: resolute hero
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: JimDropA
         m_Mode: 1
@@ -35268,7 +35333,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Anderson.INT
+  m_text: 'G_Stohler.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -35643,8 +35710,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.06367, y: -80.7}
-  m_SizeDelta: {x: 367.5273, y: 55.94}
+  m_AnchoredPosition: {x: 265.2624, y: -80.7}
+  m_SizeDelta: {x: 471.9247, y: 55.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058812827
 MonoBehaviour:
@@ -35679,9 +35746,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'MICHAEL BAILEY
-
-'
+  m_Text: BRIGHTON BEACH MAN
 --- !u!222 &1058812828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36362,7 +36427,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 60.7201, y: 0}
-  m_SizeDelta: {x: 141.2711, y: 11.9292}
+  m_SizeDelta: {x: 171.6509, y: 11.9292}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1087889285
 MonoBehaviour:
@@ -36384,9 +36449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'M_ELLIOT
-
-'
+  m_text: BRIGHTON_MAN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -37601,16 +37664,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: "Evergreen\u2019s anonymous romantic partner."
+    - m_Text: A resident of Brighton Beach
       m_Image: {fileID: 0}
-    - m_Text: "Lt. Michael Bailey, Evergreen\u2019s friend."
+    - m_Text: A member of the Russian mob
       m_Image: {fileID: 0}
-    - m_Text: "Lt. Michael Bailey, Evergreen\u2019s lover."
+    - m_Text: A man with a Russian accent
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: MichaelDropA
         m_Mode: 1
@@ -39809,7 +39872,7 @@ GameObject:
   - component: {fileID: 1187518345}
   - component: {fileID: 1187518344}
   m_Layer: 5
-  m_Name: MichaeL.INT
+  m_Name: BRIGHTON.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39879,8 +39942,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -40588,6 +40651,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212490895}
   m_CullTransparentMesh: 1
+--- !u!1 &1219505698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219505699}
+  - component: {fileID: 1219505701}
+  - component: {fileID: 1219505700}
+  m_Layer: 5
+  m_Name: article breaks (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1219505699
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219505698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1439434443}
+  m_Father: {fileID: 940783918}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -29.1, y: -927}
+  m_SizeDelta: {x: 450, y: 400}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1219505700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219505698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 66b89575711e66e438cf1cee72dec8d3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1219505701
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219505698}
+  m_CullTransparentMesh: 1
 --- !u!1 &1221120960
 GameObject:
   m_ObjectHideFlags: 0
@@ -40645,7 +40784,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_EVERGREEN
+  m_text: G_STOHLER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -41134,7 +41273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 168.2}
+  m_AnchoredPosition: {x: -0.5, y: 167.53}
   m_SizeDelta: {x: 88.4776, y: 18.406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236195283
@@ -41157,7 +41296,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Anderson
+  m_text: F_Stohler
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -41261,7 +41400,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 940783918}
+  - {fileID: 211705009}
   - {fileID: 1470457412}
+  - {fileID: 291980236}
   - {fileID: 2111132687}
   - {fileID: 1358871415}
   - {fileID: 761322258}
@@ -41356,7 +41498,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 970672216}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -42831,9 +42973,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 819081662}
-  - {fileID: 211705009}
   - {fileID: 682177713}
-  - {fileID: 291980236}
   m_Father: {fileID: 1743493946}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42862,8 +43002,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 583ba292f8ce597439c6cf03b9fb2040, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ef971c4e4419f874fa2a372339a31f81, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -42879,6 +43019,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279310165}
+  m_CullTransparentMesh: 1
+--- !u!1 &1282686154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282686155}
+  - component: {fileID: 1282686157}
+  - component: {fileID: 1282686156}
+  m_Layer: 5
+  m_Name: article breaks (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1282686155
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282686154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940783918}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 324.93, y: -521}
+  m_SizeDelta: {x: 600, y: 400}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1282686156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282686154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 081764e384dc5c84689ac8e4bc6e6ab5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1282686157
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282686154}
   m_CullTransparentMesh: 1
 --- !u!1 &1285076574
 GameObject:
@@ -43143,7 +43358,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Evergreen.INT
+  m_text: 'V_Masucci.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -43841,7 +44058,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Elliot.INT
+  m_text: B_Kramarov.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -44500,7 +44717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 168.2}
+  m_AnchoredPosition: {x: -0.5, y: 167.53}
   m_SizeDelta: {x: 88.4776, y: 18.406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307832999
@@ -44523,7 +44740,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Evergreen
+  m_text: G_Stohler
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -45867,7 +46084,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.6499939, y: -1.3417053}
+  m_AnchoredPosition: {x: -0.6500244, y: -1.3417053}
   m_SizeDelta: {x: 60.015, y: 29.2409}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1348841218
@@ -46753,11 +46970,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1239324485}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 69.66, y: -140.09882}
+  m_AnchoredPosition: {x: 6.4194183, y: -260.2439}
   m_SizeDelta: {x: 375.6, y: 986.7904}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1358871416
@@ -47917,7 +48134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1402027511
@@ -48454,16 +48671,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: 'is a victim of an oppressive system  '
+    - m_Text: Threatened to kill this reporter
       m_Image: {fileID: 0}
-    - m_Text: 'is a career sailor in the United States Navy '
+    - m_Text: Told this reporter to drop the story
       m_Image: {fileID: 0}
-    - m_Text: 'is a homosexual sailor '
+    - m_Text: Told this reporter to stay away from the area
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: MichaelDropB
         m_Mode: 1
@@ -48516,165 +48733,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 1410984873}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a08f7b7ec8cb9469972ae1a0315019, type: 3}
+  m_Script: {fileID: 11500000, guid: da0d9cdb3d3962f48b57d345b6e1781e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
   PlayerHeadline: 
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
-  newspaperPrints:
-  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
-    his workplace Monday morning, having fallen from a great height. Mr. Evergreen
-    was the CEO of Abundantia Investments. He was a father of two and a friend to
-    many. He was also a closeted gay man in a secret relationship with a US service
-    member.\r\n\r\nMr. Evergreen is survived by two children, Julia Anderson and
-    Jim Evergreen. Mr. Evergreen divorced his wife five years ago, though she declined
-    to comment for this article. Jim has grown distant from his father since the
-    split. Julia, however, supported him through his divorce, and approved of his
-    homosexuality thereafter. \u201CDad had always seemed unhappy with mom,\u201D
-    Julia said when asked about Mr. Evergreen\u2019s love life. \u201CBut I know
-    that now, my father was happy. And for that, I suppose I was happy too.\u201D\r\n\r\nRumors
-    about Mr. Evergreen were abound in his workplace. His friend and business partner,
-    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
-    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
-    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
-    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
-    it\u2019s only right that I do the same for him now.\u201D\r\n\r\nMr. Evergreen
-    was in a covert relationship with a career sailor in the US navy. The Local Rag
-    is unable to name him here without putting his profession and his safety at risk.
-    Unable to grieve Mr. Evergreen\u2019s death publicly, his partner will have no
-    choice but to mourn in private, as he continues his silent struggle against the
-    US military\u2019s rampant homophobia.\r\n"
-  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
-    outside of his workplace, having apparently fallen from a great height. Detective
-    Novak of the NYPD stated that \u201CThe department does not, at this time, wish
-    to speculate on the specific manner of the death, whether it was accident, murder,
-    or suicide, as the investigation is still ongoing.\u201D\r\n\r\nMr. Evergreen
-    is survived by his ex-wife and two children, Julia Anderson and Jim Evergreen.
-    When reached for comment, both children expressed grief at the sudden loss of
-    their father.\r\n\r\nMr. Evergreen built his company, Abundantia Investments,
-    from the ground up. For now, the company will be led by Mr. Evergreen\u2019s
-    associate, Ms. Max Elliot, who described Mr. Evergreen as a consummate professional
-    and an excellent boss and business partner.\r\n\r\nIn addition to his family,
-    Mr. Evergreen leaves behind a vast network of close friends. One such individual,
-    Lieutenant Michael Bailey of the US Navy, expressed his remorse at Mr. Evergreen\u2019s
-    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
-    Lt. Bailey said when reached for comment.\r\n"
-  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
-    circumstances on Monday morning, having fallen from the roof of his office building.
-    While he was known as a family man and an upstanding citizen of our city, there
-    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
-    \r\n\r\nMr. Evergreen leaves behind an ex-wife and two children, each of whom
-    was left damaged by his deviant lifestyle. When asked for comment, his daughter,
-    Julia Anderson, was hysterical with emotion and reacted poorly and with strongly
-    worded reproach to questions about her father\u2019s sexual orientation. His
-    son, Jim Evergreen, shared no such denial about Mr. Evergreen\u2019s lifestyle,
-    but expressed bitterness towards his father in both life and death. Mr. Evergreen\u2019s
-    ex-wife declined to comment.\r\n\r\nMr. Evergreen\u2019s business will remain
-    in operation, left in the cold and steely hands of his former subordinate, Ms.
-    Maxine Elliot. She wouldn\u2019t directly confirm nor deny any allegations, but
-    she did make it clear that Mr. Evergreen\u2019s sex life was something of an
-    open secret at his company. \u201CThere was the occasional business trip or social
-    gathering where he\u2019d quietly slip out and we wouldn\u2019t see him again
-    until morning,\u201D she explained.\r\n\r\nAs for Mr. Evergreen\u2019s lover?
-    That would be one Lieutenant Michael Bailey of the United States Navy. Lt. Bailey
-    had been in a relationship with Mr. Evergreen for the past fifteen years, beginning
-    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
-    on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
-    his relationship with the businessman. \r\n"
-  newspaperHeadlines:
-  - 'ROB EVERGREEN: A GOOD MAN WITH AN UNFORTUNATE SECRET'
-  - ROBERT EVERGREEN FOUND DEAD
-  - THE GRASS IS GAYER ON THE EVERGREEN SIDE
-  NovakDPOne: {fileID: 1955818698}
-  NovakDPTwo: {fileID: 2124620505}
-  NovakDPThree: {fileID: 339281353}
-  JimDPOne: {fileID: 1034813059}
-  JimDPTwo: {fileID: 2107646787}
-  JimDPThree: {fileID: 1883459286}
-  JuliaDPOne: {fileID: 1583140558}
-  JuliaDPTwo: {fileID: 1604689592}
-  JuliaDPThree: {fileID: 1777754383}
-  MichaelDPOne: {fileID: 1116551355}
-  MichaelDPTwo: {fileID: 1409862464}
-  MichaelDPThree: {fileID: 1878335494}
-  MaxDPOne: {fileID: 1586403694}
-  MaxDPTwo: {fileID: 1649429140}
-  MaxDPThree: {fileID: 2124042287}
-  jimNewspaperOptions:
-  - 
-  - 
-  - 
-  juliaNewspaperOptions:
-  - 
-  - 
-  - 
-  michaelNewspaperOptions:
-  - 
-  - 
-  - 
-  maxNewspaperOptions:
-  - 
-  - 
-  - 
-  novakNewspaperOptions:
-  - 
-  - 
-  - 
-  novakInfoOptions:
-  - the detective assigned to, the case
-  - the detective the case was handed off to,
-  - the detective on top of the case,
-  - seems more interested in gossip than finding the truth.
-  - is determined to get justice for Mr.Evergreen, no matter what
-  - is following up on any and all leads
-  - does not wish to speculate on the manner of death at this time.
-  - is considering the possiblity of homicide.
-  - is considering the possibility the Mr. Evergreen took his life.
-  jimInfoOptions:
-  - ridiculous son
-  - grieving son
-  - resentful son
-  - knew Mr. Evergreen better than anyone else
-  - used to know Mr.Evergreen well
-  - hardly knew Mr.Evergreen at all
-  - loved Mr. Evergreen
-  - had a troubled relationship with Mr.Evergreen
-  - hated Mr. Evergreen
-  juliaInfoOptions:
-  - daughter.
-  - emotional daughter.
-  - pregnant daughter.
-  - loved her father very much
-  - takes a neutral stance towards her father
-  - is in denial about who her father was
-  - reacted poorly to questions about him
-  - was open about who her father was
-  - approved of her father's actions and lifestyle
-  michaelInfoOptions:
-  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
-  - Mr. Evergreen's anonymous romantic partner,
-  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
-  - 'a career sailor in the United States Navy '
-  - 'is a saucy sailor '
-  - 'a victim of an oppressive system '
-  - who regrets his relationship with Mr. Evergreen.
-  - who was close with Mr. Evergreen.
-  - who cared deeply for Mr. Evergreen.
-  maxInfoOptions:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  muckrakerPaper: 0
-  tabloidPaper: 0
-  statusQuoPaper: 0
+  newspaperPrints: []
+  newspaperHeadlines: []
+  BorisDPOne: {fileID: 1955818698}
+  BorisDPTwo: {fileID: 2124620505}
+  BorisDPThree: {fileID: 339281353}
+  VitoDPOne: {fileID: 1586403694}
+  VitoDPTwo: {fileID: 1649429140}
+  VitoDPThree: {fileID: 2124042287}
+  GuyDPOne: {fileID: 1034813059}
+  GuyDPTwo: {fileID: 2107646787}
+  GuyDPThree: {fileID: 1883459286}
+  FranziskaDPOne: {fileID: 1583140558}
+  FranziskaDPTwo: {fileID: 1604689592}
+  FranziskaDPThree: {fileID: 1777754383}
+  BrightonDPOne: {fileID: 1116551355}
+  BrightonDPTwo: {fileID: 1409862464}
+  BrightonDPThree: {fileID: 1878335494}
+  FearfulPaper: 0
+  AngryPaper: 0
+  CompassionatePaper: 0
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0
@@ -48948,7 +49033,7 @@ GameObject:
   - component: {fileID: 1415734644}
   - component: {fileID: 1415734645}
   m_Layer: 5
-  m_Name: 'MaxInterviewPanel '
+  m_Name: 'BORISInterviewPanel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49344,29 +49429,36 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jim Evergreen\r\n\r\n\nI\u2019ve gotta be honest with you; there\u2019s
-    a lot you don\u2019t know about my dad. Sure, he seems like some kind of major
-    success story -- rags to riches and all that -- big powerful company man -- the
-    kinda guy that has his whooole life together. But I\u2019m family. I knew him
-    better than anybody. I know what he was like when no-one was lookin\u2019.\r\n\r\nHe
-    was a fine father to me and Julia growin\u2019 up -- he and mom bought a house
-    in the suburbs to raise us. Nice neighborhood, nice school. But as soon as me
-    and Julia moved out and started our own lives, somethin\u2019 changed.\r\n\r\nI
-    tried so hard to stay in touch with him, and he hardly acknowledged me. He never
-    picked up the phone when I called, never answered the door when I came to see
-    him. And on the rare occasion that he \u201Cgraced our Thanksgiving table with
-    his presence,\u201D he barely said a word to me. Barely even looked at me!\r\n\r\nI
-    dunno\u2026 I guess he decided we weren\u2019t good enough for him anymore. I
-    guess he decided that his wife and kids weren\u2019t worth nothin\u2019 to him
-    anymore and he did his best to shake us off. He ditched mom five years ago, and
-    now -- ! Now he\u2019s with that guy. He kicks our mother to the curb and replaces
-    her with that kid!? It\u2019s bullshit, man! I bet he spends more time with him
-    than he does with any of his actual family!\r\n\r\n...Look. When you ask around
-    about my dad, everyone\u2019s gonna have their own story to tell you. They\u2019re
-    gonna tell you about all the good stuff he did, all the deals he made, all the
-    \u201Clives he changed.\u201D Julia\u2019s gonna make excuses for him like she
-    always did. But don\u2019t forget what I told you, alright? I\u2019m family.
-    I knew him better than anybody.\r\n"
+  m_text: "Vito Masucci\n\n\nListen, I really appreciate you coming all the way up
+    here to Sing Sing to talk to me. It\u2019s your first time here, right? I doubt
+    it\u2019s exactly your usual beat. \r\n\nWhat do I wanna talk to you about? What
+    do you think? The Russians. Those Russian goons shot my nephew - murdered him
+    and his buddy like dogs in the street. And for what? For doing business in Brighton
+    Beach? That\u2019s illegal now? Excuse my language, but it\u2019s bullshit. He
+    didn\u2019t do a damn thing to them. He was a good kid. He had a future.\r\n\nBut
+    you already know that. That\u2019s not why I asked you to come here. No, I asked
+    you to come here because I might be able to point you in the direction of the
+    assholes that did this. Now, you didn\u2019t hear this from me, but the guy you\u2019re
+    looking for is one Ivan Puzyretsky. Ivan the Terrible, they call him. He\u2019s
+    the one running that new crop of Russian goons down on Brighton Beach that came
+    here when the wall fell. They came here to this country, this beautiful city,
+    and started sticking their noses where they don\u2019t belong.\r\n\nWhat, you
+    don\u2019t believe me, kid? Now why would I lie to you about something like that?
+    What have I got to gain, huh? Let\u2019s say you go to the cops about it. I don\u2019t
+    think they\u2019d believe you - not on my word. The suits don\u2019t exactly
+    want to trust the word of a guy they locked up on a RICO racket. I\u2019m innocent,
+    of course, but try telling that to Uncle Sam. No, I figure that information could
+    best be delivered to a good, honest paper like yours. Hey, I\u2019m a gentleman.
+    I want to give back to the community, you know?\r\n\nLook, I\u2019ve made mistakes.
+    That\u2019s why I\u2019m here. But as bad as the feds may think I am, I never
+    did anything like these Russians. I have rules, I have a code of honor. There
+    are lines you just don\u2019t cross. Not for these Russians. There\u2019s nothing
+    they won\u2019t do to you. \r\n\nListen, it\u2019s a good thing you\u2019re doing,
+    talking to me. Someone needs to get the message out there. These Russian goons\u2026they\u2019re
+    bad news. And I\u2019m glad that you\u2019re coming to me to get my opinion.
+    It\u2019s a real sign of respect, you know? And I appreciate that. If there\u2019s
+    anything, ANYTHING, you need, you let me know, ok? You can tell my lawyer, he\u2019ll
+    tell me. I\u2019ll make sure that you\u2019re taken care of. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -49654,7 +49746,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Evergreen.INT
+  m_text: V_Masucci.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -49949,7 +50041,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 577281580}
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.18259275
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -50027,7 +50119,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 168.2}
+  m_AnchoredPosition: {x: -0.5, y: 167.53}
   m_SizeDelta: {x: 88.4776, y: 18.406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426122873
@@ -50050,7 +50142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Det_Novak
+  m_text: B_Kramarov
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -50439,6 +50531,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433948595}
+  m_CullTransparentMesh: 1
+--- !u!1 &1439434442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1439434443}
+  - component: {fileID: 1439434445}
+  - component: {fileID: 1439434444}
+  m_Layer: 5
+  m_Name: article breaks (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1439434443
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439434442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1219505699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 53.8, y: 0.000030517578}
+  m_SizeDelta: {x: 450, y: 400}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1439434444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439434442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 66b89575711e66e438cf1cee72dec8d3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1439434445
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439434442}
   m_CullTransparentMesh: 1
 --- !u!1 &1443335410
 GameObject:
@@ -51231,7 +51398,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: JULIA ANDERSON
+  m_Text: FRANZISKA STOHLER
 --- !u!222 &1466593914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51319,6 +51486,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468134036}
   m_CullTransparentMesh: 1
+--- !u!1 &1468613554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1468613555}
+  - component: {fileID: 1468613557}
+  - component: {fileID: 1468613556}
+  m_Layer: 5
+  m_Name: totalreaders(TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1468613555
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468613554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 151391139}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -41.16}
+  m_SizeDelta: {x: 130.5592, y: 26.526505}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1468613556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468613554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 6876
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282335219
+  m_fontColor: {r: 0.9528302, g: 0.24629755, b: 0.24629755, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 17.7
+  m_fontSizeBase: 17.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -1.0684814, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1468613557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468613554}
+  m_CullTransparentMesh: 1
 --- !u!1 &1469444849
 GameObject:
   m_ObjectHideFlags: 0
@@ -51330,7 +51631,7 @@ GameObject:
   - component: {fileID: 1469444850}
   - component: {fileID: 1469444852}
   m_Layer: 5
-  m_Name: NovakDPTwo
+  m_Name: BorisDPTwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51569,11 +51870,11 @@ RectTransform:
   m_Children:
   - {fileID: 532583339}
   m_Father: {fileID: 1239324485}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 92.6}
+  m_AnchoredPosition: {x: 0, y: 74.6}
   m_SizeDelta: {x: 80, y: 22.400024}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1470457413
@@ -52566,7 +52867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1500020712
@@ -52816,9 +53117,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510963099
 MonoBehaviour:
@@ -52840,7 +53141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -53008,7 +53309,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: DETECTIVE NOVAK
+  m_Text: BORIS KRAMAROV
 --- !u!222 &1518510947
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53091,6 +53392,140 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519847243}
+  m_CullTransparentMesh: 1
+--- !u!1 &1526062898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526062899}
+  - component: {fileID: 1526062901}
+  - component: {fileID: 1526062900}
+  m_Layer: 5
+  m_Name: title(TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1526062899
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526062898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 151391139}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -17.95}
+  m_SizeDelta: {x: 130.5592, y: 26.526505}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1526062900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526062898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: READER COUNT
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282598211
+  m_fontColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 9.1
+  m_fontSizeBase: 9.1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -1.0684814, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1526062901
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526062898}
   m_CullTransparentMesh: 1
 --- !u!1 &1532681468
 GameObject:
@@ -53612,7 +54047,7 @@ GameObject:
   - component: {fileID: 1553609066}
   - component: {fileID: 1553609067}
   m_Layer: 5
-  m_Name: 'MichaelInterviewPanel '
+  m_Name: 'GUYInterviewPanel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53638,7 +54073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.8, y: 60.2}
+  m_AnchoredPosition: {x: 26.1, y: 27.05}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1553609066
@@ -54414,16 +54849,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: five-months-pregnant
+    - m_Text: bizarre German techno fan
       m_Image: {fileID: 0}
-    - m_Text: amicable
+    - m_Text: clueless European tourist
       m_Image: {fileID: 0}
-    - m_Text: hysterical, emotional
+    - m_Text: young photographer from Berlin
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: JuliaDropA
         m_Mode: 1
@@ -54656,16 +55091,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: friend and business partner
+    - m_Text: Pulling the strings of the Masucci family
       m_Image: {fileID: 0}
-    - m_Text: business partner
+    - m_Text: The former head of the Masucci crime family
       m_Image: {fileID: 0}
-    - m_Text: subordinate
+    - m_Text: A gentleman
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: MaxDropA
         m_Mode: 1
@@ -55288,16 +55723,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: took a neutral stance toward him
+    - m_Text: Is unconcerned with
       m_Image: {fileID: 0}
-    - m_Text: loved him very much
+    - m_Text: "Doesn\u2019t really like"
       m_Image: {fileID: 0}
-    - m_Text: in denial about who he really was
+    - m_Text: Cares a lot about
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: JuliaDropB
         m_Mode: 1
@@ -56927,7 +57362,7 @@ RectTransform:
   m_Father: {fileID: 1578922969}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.2288571}
+  m_AnchorMin: {x: 0, y: 0.14763486}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
@@ -57142,16 +57577,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: "a woman rising against a man\u2019s world "
+    - m_Text: Gave his perspective on the situation
       m_Image: {fileID: 0}
-    - m_Text: competent, with a professional demeanor
+    - m_Text: "Insisted his \u201Cfamily\u201D was totally innocent"
       m_Image: {fileID: 0}
-    - m_Text: cold, curt, and dismissive
+    - m_Text: Volunteered helpful info about the perpetrators
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: MaxDropB
         m_Mode: 1
@@ -57296,6 +57731,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650930931}
   m_CullTransparentMesh: 1
+--- !u!1 &1654319775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1654319776}
+  - component: {fileID: 1654319778}
+  - component: {fileID: 1654319777}
+  m_Layer: 5
+  m_Name: article breaks (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1654319776
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654319775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940783918}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 190.25531, y: -327.6}
+  m_SizeDelta: {x: 126.6506, y: 201.8473}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1654319777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654319775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c3959c99e99a2bc43b6902d61166f754, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1654319778
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654319775}
+  m_CullTransparentMesh: 1
 --- !u!1 &1654952554
 GameObject:
   m_ObjectHideFlags: 0
@@ -57353,7 +57863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dedicated to
+  m_text: Portray as
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -57930,11 +58440,11 @@ RectTransform:
   m_Father: {fileID: 597990866}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4400024, y: -29.3393}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000015258789, y: -12}
   m_SizeDelta: {x: 427.7463, y: 1115.804}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1676831443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57955,30 +58465,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Julia Anderson\r\n\r\n\nI don\u2019t know what you want me to tell you.
-    My father was a happy, successful man. He took pride in his business. He loved
-    his family. He was so excited to meet his grandchild - ah, five months, now...no,
-    we don\u2019t yet know what they\u2019ll be... however he died, I can\u2019t
-    believe Dad would take his own life. Whatever the cause, it wasn\u2019t suicide.\r\n\r\n...yes,
-    I knew about his partner. Jim told me. He was so flustered, so angry telling
-    me about it but I...well, I can\u2019t say I expected it, but I don\u2019t know
-    that it surprised me either.\r\n\r\nYou have to understand, our father was Jim\u2019s
-    hero. Always had been. And for a long time, I can see how he would have thought
-    that our parents had the perfect marriage. They made it look that way from the
-    outside, and they did their best to keep whatever troubles they had from us.
-    But, I still saw things. I still heard things. I could tell that, for all that
-    he loved us, our father was unhappy. I was unhappy about the divorce, yes, but
-    I was able to come to terms with it more easily than Jim did, I think.\r\n\r\nAnd
-    then when Jim told me about Dad\u2019s partner...well, I guess the pieces fell
-    into place somewhat. Why Dad had always seemed unhappy with Mom, why he seemed
-    so happy now. Of course I was worried, and I can\u2019t say that I completely
-    understand it, but I know that, now, my father is - was happy. And, for that,
-    I suppose I was happy too. I wanted my child to meet him. And now that will never
-    happen.\r\n\r\nJust, please go easy on him in the press? I know this is your
-    profession, I know that this must be a, how would you phrase it, \u201Cjuicy
-    scoop\u201D for someone in your profession, but my father was a man with a reputation,
-    a business, a family, and a life. He doesn\u2019t deserve to have his reputation
-    tarnished for who he loved in private.\r\n"
+  m_text: "Brighton Beach Man\n\r\n\n\u2013you get it? No more questions, no more
+    \u201Cchats\u201D, no more nothing. You don\u2019t talk to anyone here, got it?
+    Otherwise, you fuckin\u2019 rat\u2026I\u2019ll make you a heart attack. This
+    is the last time you\u2019ll be able to see. You ask any more questions\u2026just
+    wait and see what\u2019s goin\u2019 to happen to you.\r\nAnd don\u2019t even
+    think about going to your cops. What do you think they can do? You think they
+    can touch me? You think your American jails scare me? I survived the gulag and
+    I didn\u2019t break. You have NOTHING that can scare me.\r\nDon\u2019t ask questions.
+    Don\u2019t write about us.  Don\u2019t talk about us. As far as you\u2019re concerned,
+    we don\u2019t exist. Got it? I\u2019m being nice about this. You fucking test
+    me and you die.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -58347,8 +58844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -21.98}
-  m_SizeDelta: {x: 344.6115, y: 299.6}
+  m_AnchoredPosition: {x: 0, y: -13.4}
+  m_SizeDelta: {x: 376.015, y: 326.9017}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697027445
 MonoBehaviour:
@@ -58370,7 +58867,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7210c9edc1be73742a042d025fcae4cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b45713e4e9058984886217c56240a780, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -58480,7 +58977,7 @@ GameObject:
   - component: {fileID: 1699370207}
   - component: {fileID: 1699370209}
   m_Layer: 5
-  m_Name: MemoPanel
+  m_Name: WritersNotePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58708,7 +59205,7 @@ GameObject:
   - component: {fileID: 1709420500}
   - component: {fileID: 1709420499}
   m_Layer: 5
-  m_Name: 'JIM_BUTT '
+  m_Name: 'GUY_BUTT '
   m_TagString: DClickButtons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58779,8 +59276,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -59396,7 +59893,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764925725}
   m_HandleRect: {fileID: 1764925724}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.18259275
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -59770,9 +60267,9 @@ RectTransform:
   - {fileID: 1699370206}
   - {fileID: 630373161}
   - {fileID: 105221605}
-  - {fileID: 707811536}
-  - {fileID: 2037655685}
   - {fileID: 2028775515}
+  - {fileID: 2037655685}
+  - {fileID: 707811536}
   m_Father: {fileID: 1507010981}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -60720,140 +61217,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764925723}
   m_CullTransparentMesh: 1
---- !u!1 &1766196064
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1766196065}
-  - component: {fileID: 1766196067}
-  - component: {fileID: 1766196066}
-  m_Layer: 5
-  m_Name: Line Txt 1 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1766196065
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766196064}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 830707977}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.7, y: -11.050964}
-  m_SizeDelta: {x: 131.83, y: 22.0755}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1766196066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766196064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Evergreen\u2019s "
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
-  m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281874488
-  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1766196067
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766196064}
-  m_CullTransparentMesh: 1
 --- !u!1 &1768529371
 GameObject:
   m_ObjectHideFlags: 0
@@ -61527,16 +61890,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: expressed approval of his lifestyle
+    - m_Text: is jaded to violence
       m_Image: {fileID: 0}
-    - m_Text: described him as an upstanding man
+    - m_Text: is dismissive of tragedy
       m_Image: {fileID: 0}
-    - m_Text: reacted poorly to being questioned
+    - m_Text: has a positive outlook
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: JuliaDropC
         m_Mode: 1
@@ -62229,7 +62592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1795861768
@@ -62817,9 +63180,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1823597513
 MonoBehaviour:
@@ -62841,7 +63204,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -64464,16 +64827,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: cared deeply for
+    - m_Text: Leave this encounter out of the story
       m_Image: {fileID: 0}
-    - m_Text: was close with
+    - m_Text: Fully report the encounter
       m_Image: {fileID: 0}
-    - m_Text: regrets his relationship with
+    - m_Text: "Mention threats, but don\u2019t describe the man who made them"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: MichaelDropC
         m_Mode: 1
@@ -64518,7 +64881,7 @@ RectTransform:
   m_Father: {fileID: 1324101916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.81740725}
+  m_AnchorMin: {x: 0, y: 0.8718399}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -64799,16 +65162,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: 'conflicted feelings toward '
+    - m_Text: can affect anyone, anywhere, anytime
       m_Image: {fileID: 0}
-    - m_Text: a lot of love for
+    - m_Text: runs rampant in the Brighton Beach area
       m_Image: {fileID: 0}
-    - m_Text: 'nothing but hatred for '
+    - m_Text: thrives in poor/immigrant neighborhoods
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: JimDropC
         m_Mode: 1
@@ -64949,6 +65312,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887721091}
+  m_CullTransparentMesh: 1
+--- !u!1 &1890045044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890045045}
+  - component: {fileID: 1890045047}
+  - component: {fileID: 1890045046}
+  m_Layer: 5
+  m_Name: article breaks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1890045045
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890045044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940783918}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 190.25531, y: -127.02}
+  m_SizeDelta: {x: 126.6506, y: 201.8473}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1890045046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890045044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c3959c99e99a2bc43b6902d61166f754, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1890045047
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890045044}
   m_CullTransparentMesh: 1
 --- !u!1 &1891169134
 GameObject:
@@ -65746,7 +66184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1901295272
@@ -67512,7 +67950,7 @@ GameObject:
   - component: {fileID: 1955818696}
   - component: {fileID: 1955818698}
   m_Layer: 5
-  m_Name: NovakDPOne
+  m_Name: BorisDPOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67629,16 +68067,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: a competent investigator
+    - m_Text: An immigrant to America
       m_Image: {fileID: 0}
-    - m_Text: 'a well-meaning guy '
+    - m_Text: A former citizen of the Soviet Union
       m_Image: {fileID: 0}
-    - m_Text: underqualified for the case
+    - m_Text: A refugee from the Soviet Union
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: NovakDropA
         m_Mode: 1
@@ -67722,7 +68160,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: MAX ELLIOT
+  m_Text: VITO MASUCCI
 --- !u!222 &1958584024
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68192,7 +68630,7 @@ GameObject:
   - component: {fileID: 1983585084}
   - component: {fileID: 1983585086}
   m_Layer: 5
-  m_Name: NovakInterviewPanel
+  m_Name: FRANZInterviewPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68218,7 +68656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.80001, y: 60.200016}
+  m_AnchoredPosition: {x: -39.1, y: -65.4}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1983585082
@@ -68594,8 +69032,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.3, y: -13.3735}
-  m_SizeDelta: {x: 494.2497, y: 175.6271}
+  m_AnchoredPosition: {x: -6.3, y: -8.95}
+  m_SizeDelta: {x: 494.2497, y: 194.1254}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996729401
 MonoBehaviour:
@@ -68946,7 +69384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Anderson.INT
+  m_text: Brighton_Man.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -69401,6 +69839,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026508064}
   m_CullTransparentMesh: 1
+--- !u!1 &2026655674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026655675}
+  - component: {fileID: 2026655677}
+  - component: {fileID: 2026655676}
+  m_Layer: 5
+  m_Name: Line Txt 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2026655675
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026655674}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 830707977}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 95, y: 22.506}
+  m_SizeDelta: {x: 310.8199, y: 27.4324}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2026655676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026655674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Witnessed the shooting.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281874488
+  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2026655677
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026655674}
+  m_CullTransparentMesh: 1
 --- !u!1 &2026953175
 GameObject:
   m_ObjectHideFlags: 0
@@ -69449,7 +70021,7 @@ GameObject:
   - component: {fileID: 2028775517}
   - component: {fileID: 2028775516}
   m_Layer: 5
-  m_Name: 'MaxPanel '
+  m_Name: 'VitoPanel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69473,12 +70045,12 @@ RectTransform:
   - {fileID: 1958584022}
   - {fileID: 1831162911}
   m_Father: {fileID: 1743493946}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -15.8003}
-  m_SizeDelta: {x: 600, y: 368.3995}
+  m_AnchoredPosition: {x: 0, y: -17.926}
+  m_SizeDelta: {x: 600, y: 363.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028775516
 MonoBehaviour:
@@ -69500,7 +70072,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f0d88d35ef4c2947baf913dec3bbcab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30f86ad19df780b4483a6892bc9909ce, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -69749,7 +70321,7 @@ GameObject:
   - component: {fileID: 2037655684}
   - component: {fileID: 2037655683}
   m_Layer: 5
-  m_Name: MichaelPanel
+  m_Name: BrightonPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69775,7 +70347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9f0d88d35ef4c2947baf913dec3bbcab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30f86ad19df780b4483a6892bc9909ce, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -69815,8 +70387,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -18.404}
-  m_SizeDelta: {x: 600, y: 363.19}
+  m_AnchoredPosition: {x: 0, y: -17.92588}
+  m_SizeDelta: {x: 600, y: 363.4422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2041899755
 GameObject:
@@ -71781,7 +72353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2095423347
@@ -72191,7 +72763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.5, y: 170}
+  m_AnchoredPosition: {x: -0.5, y: 167.53}
   m_SizeDelta: {x: 88.4776, y: 18.406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2101371415
@@ -72214,7 +72786,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Elliot
+  m_text: V_Masucci
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -72423,7 +72995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Statement on manner of death:'
+  m_text: 'How he feels about America:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -72631,16 +73203,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: used to know him well, grew distant
+    - m_Text: doing very poorly
       m_Image: {fileID: 0}
-    - m_Text: knew him better than anyone else
+    - m_Text: doing totally fine
       m_Image: {fileID: 0}
-    - m_Text: hardly knew him at all
+    - m_Text: pretending to be fine
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: JimDropB
         m_Mode: 1
@@ -72683,11 +73255,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1239324485}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 254.2406, y: -49.8549}
+  m_AnchoredPosition: {x: 191, y: -170}
   m_SizeDelta: {x: 369.1607, y: 61.3859}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111132688
@@ -72800,11 +73372,11 @@ RectTransform:
   m_Father: {fileID: 432844401}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4400024, y: -29.3393}
-  m_SizeDelta: {x: 427.7463, y: 1115.804}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000015258789, y: -12}
+  m_SizeDelta: {x: 427.7463, y: 1521.4}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2113795354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72825,29 +73397,39 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Maxine \u201CMax\u201D Elliot\r\n\r\n\nWere you expecting a man? Everyone
-    does. I started going by \u201CMax\u201D in college. I find it helps in this
-    damn boys club. Alright, I don\u2019t have a lot of time, so make it quick.\r\n\r\nYes,
-    I\u2019ve worked with Robert for...five years now. Wonderful boss and business
-    partner. Immaculate dresser. Never a hair or cufflink out of place. And Always
-    a new Herm\xE9s tie.\r\n\r\nYes, business was very successful. Of course, his
-    death is going to affect some deals we have in the works, but I\u2019ve already
-    reached out to the clients in question, and we released an official statement.
-    You might have heard it on the Marketplace Morning Report yesterday.\r\n\r\nNo,
-    nothing was bothering him. Not that I knew of. Robert was a very private person.
-    An absolute professional. Occasionally he\u2019d say something about his kids,
-    but other than that he left his private life at the door.\r\n\r\nHis love life?
-    I have no idea. He was already divorced when I began working with him. I don\u2019t
-    believe he was dating anyone, but, again, he never talked about that at work.\r\n\r\nLook,
-    I know what you\u2019re getting at. I\u2019m not a fool. You\u2019re not going
-    to get anything scandalous out of me. Of course, there were rumors. There was
-    the occasional business trip or social gathering where he\u2019d quietly slip
-    out and we wouldn\u2019t see him again until morning. (Reporter: Can I quote
-    you on that?) No, you cannot quote me on that. For all I know he just got tired
-    of socializing and went back to the hotel. \r\n\r\nThe point is...this is a tough
-    business. This is a tough world to be in if you aren\u2019t part of the boys
-    club. Robert was never anything but professional with me, and I appreciated that
-    a lot. It\u2019s only right that I do the same for him now.\r"
+  m_text: "Boris Kramarov\n\r\n\nLook, ya nechevo ne znayu. My friend, I don\u2019t
+    know anything. Don\u2019t ask me about anything. I didn\u2019t see anything.
+    I don\u2019t know who did this. \r\n\nYou know what you can ask? Look at this
+    place. Look at my beautiful restaurant. How am I going to pay my bills? This
+    happened a week ago, and it\u2019s still like this. As long as it\u2019s like
+    this, I\u2019m losing money. Without money, how am I going to pay for this? New
+    windows are expensive.\r\n\nThis wasn\u2019t supposed to happen here. In America.
+    This country, it was supposed to be a promised land. \r\n\nBefore this? I was
+    in Birobidzhan. Before that I was in Moscow. Birobidzhan, it\u2019s in the east,
+    in Siberia. It was where Stalin sent all the Jews he didn\u2019t have killed
+    during his purges. It was\u2026the  fifties? The start of the fifties, I think,
+    I was just a child then. My father, a very good doctor in Moscow. But Stalin
+    accused him of trying to murder government officials. All nonsense, of course.
+    But every Jewish doctor in Moscow that didn\u2019t just disappear one day was
+    sent to Siberia. We ended up in Birobidzhan. Winter there was colder than you
+    could believe. But the mountains there\u2026it was a beautiful place, my friend.
+    \r\n\nWhy am I here? My friend, Birobidzhan was beautiful, but it wasn\u2019t
+    good. Everyone was poor, everyone was hungry. There was crime everywhere. It
+    was part of the government. We thought things might get better after Stalin died,
+    but the party never changed. Even when my father\u2019s name was cleared we weren\u2019t
+    allowed to leave. I thought America was a land of prosperity. My friends and
+    I, we passed around your rock CDs like they were holy artifacts. I listened to
+    the Voice of America and thought that your streets were paved with gold.\r\n\nSo,
+    when Gorbachev came to power, I applied to leave as soon as I could. I thought
+    life here would be better than in Birobidzhan. It had to be. Anything would be
+    better than Birobidzhan.\r\nBut when I got here\u2026my friend, this country
+    is not what was promised. \n\nThis restaurant, Nadezhda, I got lucky. There were
+    people here who would help me. Other Jews who helped me land on my feet a bit.
+    We Jews have to stick together. But this\u2026I struggle every day. My family
+    and I are barely scraping by.\r\n\nAnd now, Gorbachev is gone, and the war is
+    over, and everything that I thought I\u2019d left behind in Siberia has followed
+    me to America. It is my luck, I suppose. My friend, you have no idea what has
+    been unleashed on your country. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -73069,16 +73651,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: Refused to answer questions
+    - m_Text: Maybe
       m_Image: {fileID: 0}
-    - m_Text: "Didn\u2019t know anything about"
+    - m_Text: No
       m_Image: {fileID: 0}
-    - m_Text: Knew more than she would say
+    - m_Text: Yes
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: MaxDropC
         m_Mode: 1
@@ -73281,16 +73863,16 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: getting justice, no matter what
+    - m_Text: Frightened
       m_Image: {fileID: 0}
-    - m_Text: following up on any leads
+    - m_Text: Unhelpful
       m_Image: {fileID: 0}
-    - m_Text: gossip moreso than truth
+    - m_Text: Friendly
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewspaperBehavior, Assembly-CSharp
         m_MethodName: NovakDropB
         m_Mode: 1
