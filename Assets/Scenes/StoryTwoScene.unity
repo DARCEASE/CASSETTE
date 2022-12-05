@@ -42681,7 +42681,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48384,35 +48384,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
   PlayerHeadline: 
-  finalNewspaper: {fileID: 0}
-  finalHeadline: {fileID: 0}
+  finalNewspaper: {fileID: 1358871417}
+  finalHeadline: {fileID: 2111132688}
   newspaperPrints: []
   newspaperHeadlines: []
-  BorisDPOne: {fileID: 0}
-  BorisDPTwo: {fileID: 0}
-  BorisDPThree: {fileID: 0}
-  VitoDPOne: {fileID: 0}
-  VitoDPTwo: {fileID: 0}
-  VitoDPThree: {fileID: 0}
-  GuyDPOne: {fileID: 0}
-  GuyDPTwo: {fileID: 0}
-  GuyDPThree: {fileID: 0}
-  FranziskaDPOne: {fileID: 0}
-  FranziskaDPTwo: {fileID: 0}
-  FranziskaDPThree: {fileID: 0}
-  BrightonDPOne: {fileID: 0}
-  BrightonDPTwo: {fileID: 0}
-  BrightonDPThree: {fileID: 0}
-  jimNewspaperOptions: []
-  juliaNewspaperOptions: []
-  michaelNewspaperOptions: []
-  maxNewspaperOptions: []
-  novakNewspaperOptions: []
-  novakInfoOptions: []
-  jimInfoOptions: []
-  juliaInfoOptions: []
-  michaelInfoOptions: []
-  maxInfoOptions: []
+  BorisDPOne: {fileID: 1955818698}
+  BorisDPTwo: {fileID: 2124620505}
+  BorisDPThree: {fileID: 339281353}
+  VitoDPOne: {fileID: 1586403694}
+  VitoDPTwo: {fileID: 1649429140}
+  VitoDPThree: {fileID: 2124042287}
+  GuyDPOne: {fileID: 1034813059}
+  GuyDPTwo: {fileID: 2107646787}
+  GuyDPThree: {fileID: 1883459286}
+  FranziskaDPOne: {fileID: 1583140558}
+  FranziskaDPTwo: {fileID: 1604689592}
+  FranziskaDPThree: {fileID: 1777754383}
+  BrightonDPOne: {fileID: 1116551355}
+  BrightonDPTwo: {fileID: 1409862464}
+  BrightonDPThree: {fileID: 1878335494}
   FearfulPaper: 0
   AngryPaper: 0
   CompassionatePaper: 0
