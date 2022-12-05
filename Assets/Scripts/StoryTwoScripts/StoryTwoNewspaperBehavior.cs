@@ -19,20 +19,6 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     public Dropdown FranziskaDPOne, FranziskaDPTwo, FranziskaDPThree;
     public Dropdown BrightonDPOne, BrightonDPTwo, BrightonDPThree;
 
-    //UI TEXT THAT WILL HOLD ALL STRING CHANGES
-    [SerializeField] string[] jimNewspaperOptions;
-    [SerializeField] string[] juliaNewspaperOptions;
-    [SerializeField] string[] michaelNewspaperOptions;
-    [SerializeField] string[] maxNewspaperOptions;
-    [SerializeField] string[] novakNewspaperOptions;
-
-    // establish all string variables that can be changed. and assign them on a UI text 
-    [SerializeField] string[] novakInfoOptions;
-    [SerializeField] string[] jimInfoOptions;
-    [SerializeField] string[] juliaInfoOptions;
-    [SerializeField] string[] michaelInfoOptions;
-    [SerializeField] string[] maxInfoOptions;
-
     //Values
     [SerializeField] int FearfulPaper, AngryPaper, CompassionatePaper;
 #endregion
@@ -393,11 +379,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (FearfulPaper == AngryPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[0]; //need to change this for the different outputs
+                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0]; //need to change this for the different outputs
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = newspaperPrints[1];
+                PlayerNewspaper = "This is a angry paper."; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }   
         }
@@ -405,11 +391,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (FearfulPaper == CompassionatePaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[0];
+                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = newspaperPrints[2];
+                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
@@ -417,11 +403,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (CompassionatePaper == AngryPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[2];
+                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = newspaperPrints[1];
+                PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }
         }
@@ -429,11 +415,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (CompassionatePaper == FearfulPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[2];
+                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = newspaperPrints[0];
+                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
             }
         }
@@ -441,11 +427,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (AngryPaper == CompassionatePaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[1];
+                PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }
             else{
-                PlayerNewspaper = newspaperPrints[2];
+                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
@@ -453,26 +439,26 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (AngryPaper == FearfulPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-            PlayerNewspaper = newspaperPrints[1];
+            PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
             PlayerHeadline = newspaperHeadlines[1];
            }   
             else{
-                PlayerNewspaper = newspaperPrints[0];
+                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
             }    
         }
 
         //if they are not equal, it'll jump over here
         if (FearfulPaper > CompassionatePaper && FearfulPaper > AngryPaper){
-           PlayerNewspaper = newspaperPrints[0];
+           PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
            PlayerHeadline = newspaperHeadlines[0];
         }
         else if (AngryPaper > CompassionatePaper && AngryPaper > FearfulPaper){
-            PlayerNewspaper = newspaperPrints[1];
+            PlayerNewspaper = "This is a angry paper."; //newspaperPrints[1];
             PlayerHeadline = newspaperHeadlines[1];
         }
         else if (CompassionatePaper > FearfulPaper && CompassionatePaper > AngryPaper){
-            PlayerNewspaper = newspaperPrints[2];
+            PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
             PlayerHeadline = newspaperHeadlines[2];
         }
         finalNewspaper.text = PlayerNewspaper + "Add this";
