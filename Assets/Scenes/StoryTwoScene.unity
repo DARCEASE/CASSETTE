@@ -2055,9 +2055,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -27, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &57005365
 MonoBehaviour:
@@ -4284,7 +4284,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -4.300003, y: 0}
   m_SizeDelta: {x: 15.4005, y: -4.16}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9592,9 +9592,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -27, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &298674451
 MonoBehaviour:
@@ -23623,9 +23623,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721872329
 MonoBehaviour:
@@ -23647,7 +23647,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24736,9 +24736,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775834439
 MonoBehaviour:
@@ -24760,7 +24760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28551,9 +28551,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.19, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &861486207
 MonoBehaviour:
@@ -28663,7 +28663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Det_Novak.INT
+  m_text: F_Stohler.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -28907,7 +28907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -19.7}
+  m_AnchoredPosition: {x: 0, y: -12}
   m_SizeDelta: {x: 427.7463, y: 1204.0857}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &874848149
@@ -29165,28 +29165,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detective Novak\r\n\r\n\n\nThe official statement from the department
-    is that Mr. Robert Evergreen\u2019s body was found on the sidewalk early Monday
-    morning, outside his place of work. He appeared to have fallen from a great height,
-    and death was likely instantaneous upon impact. The department does not, at this
-    time, wish to speculate on the specific manner of the death, whether it was accident,
-    murder, or suicide, as the investigation is still ongoing. We will update the
-    public when it is appropriate. So, please, no more questions.\r\n\r\n...look,
-    off the record? Of course I knew about Mr. Evergreen. Everyone in this city did.
-    The man was practically a case study in the American Dream. Started from nothing,
-    built up a successful business and eventually made his way to success in New
-    York. Beautiful wife - well, ex-wife - beautiful children, beautiful home in
-    the city. Fortune five hundred company, or at least on the way there.\r\n\r\nThose
-    kids - Jim and Julia, I think? - as far as I know, they\u2019re his only next
-    of kin. Well, and his ex-wife. Beautiful woman. Not sure why he\u2019d divorce
-    a fox like that. About as amicable as a divorce with the rich and famous could
-    be, I guess. I remember reading about it in the society pages...what? A guy like
-    me can\u2019t be interested in the lives of the hoity-toity upper class? That
-    happened a couple of years ago.\r\n\r\nSince then? Well, I guess he\u2019s been
-    a... \u201Cconfirmed bachelor\u201D, if you catch my meaning. He certainly hasn\u2019t
-    been spotted with any special lady friends. Look, what a man does in his own
-    private life is none of my business. So long as none of it ends up on page six
-    or in a holding cell whatever blows your skirt up is fine and dandy with me\r\n"
+  m_text: "Franziska Stohler\r\n\r\n\nDo you hear this music? Great stuff! I\u2019m
+    from Berlin, they have a crazy nightlife there! But I\u2019m in New York for
+    Frankie Bones. The Future is Ours! He\u2019s got a\u2013 uh\u2013 a \u201Cgenerator
+    party\u201D here, you should come! Have some fun!\r\n\r\nOh, that\u2019s a camera
+    bag! I photograph the Technoszene in Berlin. I take a lot of pictures. It\u2019s
+    good to document things. I photographed the Berlin Wall when it fell. It was
+    so great to know that the war was finally over! But the nightlife photos are
+    more important. That\u2019s where Germany really came back together \u2013 on
+    the dance floor!\r\n\r\nOh, you have questions about the restaurant, N-Nadezhda?
+    Yes, I was there with my cousin, very scary. People walked in and started shooting
+    at a group of customers, and then the customers started shooting back! It was
+    very loud \u2013 bang-bang-bang \u2013 and my cousin Guy got hit by a bullet
+    right here! After a few seconds, the shooting people ran away, and then the customers
+    ran too \u2013 even some of the ones with bullets in them! Someone told me it
+    was the Russian and the Italian mob. That\u2019s crazy! Does that kind of thing
+    happen a lot here?\r\n\r\nYes, Guy is my cousin. I invited him to come with me
+    here, to get his mind off the injury, but he said no! He doesn\u2019t come with
+    me to parties, he doesn\u2019t like to have fun. He\u2019s a\u2013 a stiff kind
+    of person, you know? But underneath I think he\u2019s really sensitive! He\u2019s
+    a nice person, very kind, I\u2019m glad he\u2019s alright.\r\n\r\nYes I\u2019m
+    out dancing! [Obviously!] Sure, there were guns and bullets, but I\u2019m still
+    alive. Man muss die Dinge nehmen, wie sie kommen. People build walls and people
+    tear walls down. Countries break apart and countries merge together. Someone
+    probably drops nukes on us tomorrow, but right now, we don\u2019t stop dancing!
+    There is no future! Peace, love, unity! Come on!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -30445,7 +30448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &922320284
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33239,9 +33242,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &991530707
 MonoBehaviour:
@@ -33263,7 +33266,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36178,7 +36181,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -39211,7 +39214,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -53077,9 +53080,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510963099
 MonoBehaviour:
@@ -53101,7 +53104,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -57322,8 +57325,8 @@ RectTransform:
   m_Father: {fileID: 1578922969}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.14763486}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -58400,11 +58403,11 @@ RectTransform:
   m_Father: {fileID: 597990866}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4400024, y: -29.3393}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000015258789, y: -12}
   m_SizeDelta: {x: 427.7463, y: 1115.804}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1676831443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58425,30 +58428,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Julia Anderson\r\n\r\n\nI don\u2019t know what you want me to tell you.
-    My father was a happy, successful man. He took pride in his business. He loved
-    his family. He was so excited to meet his grandchild - ah, five months, now...no,
-    we don\u2019t yet know what they\u2019ll be... however he died, I can\u2019t
-    believe Dad would take his own life. Whatever the cause, it wasn\u2019t suicide.\r\n\r\n...yes,
-    I knew about his partner. Jim told me. He was so flustered, so angry telling
-    me about it but I...well, I can\u2019t say I expected it, but I don\u2019t know
-    that it surprised me either.\r\n\r\nYou have to understand, our father was Jim\u2019s
-    hero. Always had been. And for a long time, I can see how he would have thought
-    that our parents had the perfect marriage. They made it look that way from the
-    outside, and they did their best to keep whatever troubles they had from us.
-    But, I still saw things. I still heard things. I could tell that, for all that
-    he loved us, our father was unhappy. I was unhappy about the divorce, yes, but
-    I was able to come to terms with it more easily than Jim did, I think.\r\n\r\nAnd
-    then when Jim told me about Dad\u2019s partner...well, I guess the pieces fell
-    into place somewhat. Why Dad had always seemed unhappy with Mom, why he seemed
-    so happy now. Of course I was worried, and I can\u2019t say that I completely
-    understand it, but I know that, now, my father is - was happy. And, for that,
-    I suppose I was happy too. I wanted my child to meet him. And now that will never
-    happen.\r\n\r\nJust, please go easy on him in the press? I know this is your
-    profession, I know that this must be a, how would you phrase it, \u201Cjuicy
-    scoop\u201D for someone in your profession, but my father was a man with a reputation,
-    a business, a family, and a life. He doesn\u2019t deserve to have his reputation
-    tarnished for who he loved in private.\r\n"
+  m_text: "Brighton Beach Man\n\r\n\n\u2013you get it? No more questions, no more
+    \u201Cchats\u201D, no more nothing. You don\u2019t talk to anyone here, got it?
+    Otherwise, you fuckin\u2019 rat\u2026I\u2019ll make you a heart attack. This
+    is the last time you\u2019ll be able to see. You ask any more questions\u2026just
+    wait and see what\u2019s goin\u2019 to happen to you.\r\nAnd don\u2019t even
+    think about going to your cops. What do you think they can do? You think they
+    can touch me? You think your American jails scare me? I survived the gulag and
+    I didn\u2019t break. You have NOTHING that can scare me.\r\nDon\u2019t ask questions.
+    Don\u2019t write about us.  Don\u2019t talk about us. As far as you\u2019re concerned,
+    we don\u2019t exist. Got it? I\u2019m being nice about this. You fucking test
+    me and you die.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -59632,7 +59622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1719463860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59819,9 +59809,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 0}
+  m_SizeDelta: {x: 30, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1721680032
 MonoBehaviour:
@@ -61147,8 +61137,8 @@ RectTransform:
   m_Father: {fileID: 398109291}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.81740725}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
   m_Pivot: {x: 0.5, y: 1}
@@ -63153,9 +63143,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 4.295}
+  m_AnchorMax: {x: 0, y: 0.25}
+  m_AnchoredPosition: {x: 102.7, y: 4.35}
+  m_SizeDelta: {x: 221, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1823597513
 MonoBehaviour:
@@ -63177,7 +63167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895e95f9f8921aa40ab393ad736b02f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5287a89d8d8f40b4d92bc0da46a0a0c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -69357,7 +69347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Anderson.INT
+  m_text: Brighton_Man.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -73347,7 +73337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: -19.42}
+  m_AnchoredPosition: {x: -0.000015258789, y: -12}
   m_SizeDelta: {x: 427.7463, y: 1521.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2113795354
@@ -73370,7 +73360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "BORIS KRAMAROV\n\r\n\nLook, ya nechevo ne znayu. My friend, I don\u2019t
+  m_text: "Boris Kramarov\n\r\n\nLook, ya nechevo ne znayu. My friend, I don\u2019t
     know anything. Don\u2019t ask me about anything. I didn\u2019t see anything.
     I don\u2019t know who did this. \r\n\nYou know what you can ask? Look at this
     place. Look at my beautiful restaurant. How am I going to pay my bills? This
