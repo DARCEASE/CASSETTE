@@ -546,8 +546,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -3957,8 +3957,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -5230,7 +5230,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Bailey.INT
+  m_text: 'Brighton_Man.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -6572,7 +6574,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 664744877}
   m_HandleRect: {fileID: 664744876}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.16174258
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -8085,14 +8087,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -14759,7 +14761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.80001, y: 60.200012}
+  m_AnchoredPosition: {x: -17.7, y: -34.1}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456504218
@@ -19669,14 +19671,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20137,6 +20139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608035559}
   - component: {fileID: 608035560}
+  - component: {fileID: 608035562}
   - component: {fileID: 608035558}
   - component: {fileID: 608035561}
   m_Layer: 0
@@ -20231,6 +20234,34 @@ MonoBehaviour:
   tapTime: 0
   resetTimer: 0
   doubleClicked: 0
+--- !u!114 &608035562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608035557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f964082eb970aa4da360f2b12dc27a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S2FilePanels:
+  - {fileID: 1699370205}
+  - {fileID: 97220001}
+  - {fileID: 444811094}
+  - {fileID: 630373158}
+  - {fileID: 1415734642}
+  - {fileID: 105221602}
+  - {fileID: 1553609064}
+  - {fileID: 2028775514}
+  - {fileID: 922320283}
+  - {fileID: 2037655682}
+  - {fileID: 456504216}
+  - {fileID: 707811533}
+  - {fileID: 1983585080}
+  - {fileID: 1279310165}
+  - {fileID: 1719463859}
 --- !u!1 &615550905
 GameObject:
   m_ObjectHideFlags: 0
@@ -20314,8 +20345,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -22650,8 +22681,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -23199,14 +23230,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -24835,7 +24866,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Novak.INT
+  m_text: B_Kramakov.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -26722,7 +26753,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Elliot.INT
+  m_text: 'F_Stohler.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -27737,7 +27770,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 710891165}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -28551,9 +28584,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -21.19, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &861486207
 MonoBehaviour:
@@ -30469,7 +30502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.80001, y: 60.200012}
+  m_AnchoredPosition: {x: 4.4, y: -3.7}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922320285
@@ -34113,14 +34146,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -35300,7 +35333,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Anderson.INT
+  m_text: 'G_Stohler.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -39907,8 +39942,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -41463,7 +41498,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 970672216}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -43323,7 +43358,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Evergreen.INT
+  m_text: 'V_Masucci.
+
+    INT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -48097,7 +48134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1402027511
@@ -50004,7 +50041,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 577281580}
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.18259275
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -52830,7 +52867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1500020712
@@ -54036,7 +54073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.8, y: 60.2}
+  m_AnchoredPosition: {x: 26.1, y: 27.05}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1553609066
@@ -57325,8 +57362,8 @@ RectTransform:
   m_Father: {fileID: 1578922969}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.14763486}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -59239,8 +59276,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035560}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -59622,7 +59659,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1719463860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59856,7 +59893,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764925725}
   m_HandleRect: {fileID: 1764925724}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.18259275
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -62555,7 +62592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1795861768
@@ -66147,7 +66184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1901295272
@@ -68619,7 +68656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 46.80001, y: 60.200016}
+  m_AnchoredPosition: {x: -39.1, y: -65.4}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1983585082
@@ -72316,7 +72353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 21.95, y: -4.8}
+  m_AnchoredPosition: {x: 19.9, y: -4.8}
   m_SizeDelta: {x: 18, y: 19}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2095423347
