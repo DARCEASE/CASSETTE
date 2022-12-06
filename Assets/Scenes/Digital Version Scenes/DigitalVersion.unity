@@ -48949,6 +48949,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
+  MuckrakerNewspaper: 
+  StatusQuoNewspaper: 
+  TabloidNewspaper: 
   PlayerHeadline: 
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
@@ -49012,6 +49015,94 @@ MonoBehaviour:
     when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
     on the details, Lt. Bailey did comment that ultimately he had to \u201Cregret\u201D
     his relationship with the businessman. \r\n"
+  MuckrakerArticlePieces:
+  - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having apparently jumped from the roof of his
+    office building. While he was known as a family man and an upstanding citizen
+    of our city, there was a shocking secret hiding in his closet - Robert Evergreen
+    was a homosexual.
+
+'
+  - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having fallen from the roof of his office building.
+    While he was known as a family man and an upstanding citizen of our city, there
+    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
+
+'
+  - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having apparently been pushed from the roof
+    of his office building. While he was known as a family man and an upstanding
+    citizen of our city, there was a shocking secret hiding in his closet - Robert
+    Evergreen was a homosexual.
+
+
+'
+  - Mr. Evergreen leaves behind an ex-wife and two children, each of whom held a
+    conflicting opinion of his deviant lifestyle. When asked for comment, his daughter,
+    Julia Anderson, staunchly defended his homosexuality. His son, Jim Evergreen,
+    held no such perspective.
+  - 'Mr. Evergreen leaves behind an ex-wife and two children, each of whom was left
+    damaged by his deviant lifestyle. When asked for comment, his daughter, Julia
+    Anderson, pleaded that his sexuality not be made public, instead redirecting
+    the conversation toward his business and his family life. His son, Jim Evergreen,
+    however, had no such request.
+
+
+'
+  - "Mr. Evergreen leaves behind an ex-wife and two children, each of whom was left
+    damaged by his deviant lifestyle. When asked for comment, his daughter, Julia
+    Anderson, was hysterical with emotion and reacted poorly and with strongly worded
+    reproach to questions about her father\u2019s sexual orientation. His son, Jim
+    Evergreen, however, had no such reservations.\n\n\n\n\n"
+  - "Jim expressed bitterness towards his father in both life and death, describing
+    Mr. Evergreen as a neglectful and callous parent \u2013 an attitude that only
+    worsened post-divorce as he freely pursued his homosexuality Mr. Evergreen\u2019s
+    ex-wife declined to comment for this article.\r\n\n"
+  - "Jim is deep in the throes of grief after his father\u2019s death, but admitted
+    that Mr. Evergreen was a neglectful and uncaring parent \u2013 an attitude that
+    only worsened post-divorce as he freely pursued his homosexuality. Mr. Evergreen\u2019s
+    ex-wife declined to comment for this article.\r\n"
+  - "Jim seemed on the verge of tears as he described his father\u2019s cruel and
+    callous nature \u2013 an attitude that only worsened post-divorce as he freely
+    pursued his homosexuality. Mr. Evergreen\u2019s ex-wife declined to comment for
+    this article.\r\n"
+  - "Mr. Evergreen\u2019s company will remain in operation, headed by Ms. Maxine
+    Elliot, a competent woman with a firm grip on the male-dominated world of business.
+    She wouldn\u2019t directly confirm nor deny any allegations, but it\u2019s clear
+    that Mr. Evergreen\u2019s sex life was something of an open secret at his company.
+    \u201CThere was the occasional business trip or social gathering where he\u2019d
+    quietly slip out and we wouldn\u2019t see him again until morning,\u201D she
+    explained.\r\n\n"
+  - "Mr. Evergreen\u2019s company will remain in operation, led by Ms. Maxine Elliot,
+    a straight-laced woman with a sharp eye for business. She wouldn\u2019t directly
+    confirm nor deny any allegations, but it\u2019s clear that Mr. Evergreen\u2019s
+    sex life was something of an open secret at his company. \u201CThere was the
+    occasional business trip or social gathering where he\u2019d quietly slip out
+    and we wouldn\u2019t see him again until morning,\u201D she explained.\n"
+  - "Mr. Evergreen\u2019s business will remain in operation, left in the cold and
+    steely hands of Ms. Maxine Elliot. She wouldn\u2019t directly confirm nor deny
+    any allegations, but it\u2019s clear that Mr. Evergreen\u2019s sex life was something
+    of an open secret at his company. \u201CThere was the occasional business trip
+    or social gathering where he\u2019d quietly slip out and we wouldn\u2019t see
+    him again until morning,\u201D she explained.\r\n\n"
+  - "Mr. Evergreen\u2019s mysterious lover, a US Navy sailor, asked to remain anonymous.
+    He and Mr. Evergreen had been in a relationship for the past fifteen years, beginning
+    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
+    on the details, he did comment that he ultimately had to \u201Cregret\u201D his
+    relationship with the businessman.\r\n"
+  - "The details of Mr. Evergreen\u2019s relationship are a well-kept secret. Mr.
+    Evergreen\u2019s longtime friend and confidant Lieutenant Michael Bailey, however,
+    was more than willing to spill the beans. According to Lt. Bailey, Mr. Evergreen
+    had been seeing a US Naval sailor for the past fifteen years, beginning when
+    Mr. Evergreen was still married to his ex-wife. While he wouldn\u2019t elaborate
+    on the details, Lt. Bailey did reveal that the sailor came to \u201Cregret\u201D
+    his relationship with the businessman.\r\n"
+  - "As for Mr. Evergreen\u2019s lover? That would be one Lieutenant Michael Bailey
+    of the United States Navy. Lt. Bailey had been in a relationship with Mr. Evergreen
+    for the past fifteen years, beginning when Mr. Evergreen was still married to
+    his ex-wife. While he would not elaborate on the details, Lt. Bailey did comment
+    that ultimately he had to \u201Cregret\u201D his relationship with the businessman.
+    \r\n"
   newspaperHeadlines:
   - 'ROB EVERGREEN: A GOOD MAN WITH AN UNFORTUNATE SECRET'
   - ROBERT EVERGREEN FOUND DEAD
@@ -49031,76 +49122,6 @@ MonoBehaviour:
   MaxDPOne: {fileID: 1586403694}
   MaxDPTwo: {fileID: 1649429140}
   MaxDPThree: {fileID: 2124042287}
-  jimNewspaperOptions:
-  - 
-  - 
-  - 
-  juliaNewspaperOptions:
-  - 
-  - 
-  - 
-  michaelNewspaperOptions:
-  - 
-  - 
-  - 
-  maxNewspaperOptions:
-  - 
-  - 
-  - 
-  novakNewspaperOptions:
-  - 
-  - 
-  - 
-  novakInfoOptions:
-  - the detective assigned to, the case
-  - the detective the case was handed off to,
-  - the detective on top of the case,
-  - seems more interested in gossip than finding the truth.
-  - is determined to get justice for Mr.Evergreen, no matter what
-  - is following up on any and all leads
-  - does not wish to speculate on the manner of death at this time.
-  - is considering the possiblity of homicide.
-  - is considering the possibility the Mr. Evergreen took his life.
-  jimInfoOptions:
-  - ridiculous son
-  - grieving son
-  - resentful son
-  - knew Mr. Evergreen better than anyone else
-  - used to know Mr.Evergreen well
-  - hardly knew Mr.Evergreen at all
-  - loved Mr. Evergreen
-  - had a troubled relationship with Mr.Evergreen
-  - hated Mr. Evergreen
-  juliaInfoOptions:
-  - daughter.
-  - emotional daughter.
-  - pregnant daughter.
-  - loved her father very much
-  - takes a neutral stance towards her father
-  - is in denial about who her father was
-  - reacted poorly to questions about him
-  - was open about who her father was
-  - approved of her father's actions and lifestyle
-  michaelInfoOptions:
-  - Lieutenant Michael Bailey, Mr. Evergreen's friend,
-  - Mr. Evergreen's anonymous romantic partner,
-  - Lieutenant Michael Bailey, Mr. Evergreen's long-term romantic partner,
-  - 'a career sailor in the United States Navy '
-  - 'is a saucy sailor '
-  - 'a victim of an oppressive system '
-  - who regrets his relationship with Mr. Evergreen.
-  - who was close with Mr. Evergreen.
-  - who cared deeply for Mr. Evergreen.
-  maxInfoOptions:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0

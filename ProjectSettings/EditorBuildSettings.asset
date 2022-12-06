@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/StoryOneScene.unity
     guid: 22f064f1d5d8ccd4ab4fbc7466cccc97
   - enabled: 0
-    path: Assets/Scenes/HybridVersion.unity
+    path: Assets/Scenes/Hybrid Version Scenes/HybridVersion.unity
     guid: b6d75e7f1430acb499145e22227dc262
   m_configObjects: {}
