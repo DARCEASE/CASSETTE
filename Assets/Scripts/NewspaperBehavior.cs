@@ -87,37 +87,52 @@ public class NewspaperBehavior : MonoBehaviour
         {
             muckrakerPaper+=1;
             NovakOutput1Bool = true;
+            ///*
             NovakOutput2Bool = false;
             NovakOutput3Bool = false;
-
-            if (NovakOutput1Bool){
-                PlayerNewspaper += MuckrakerArticlePieces[0];
-            }
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);            
+            Debug.Log("JUMPED " + MuckrakerNewspaper);
+            //*/            
         }
         else if (NovakDPThree.value == 2)
         {
             statusQuoPaper+=1;
-            NovakOutput1Bool = false;
             NovakOutput2Bool = true;
+            //
+            NovakOutput1Bool = false;
             NovakOutput3Bool = false;
+            Debug.Log("FELL " + MuckrakerNewspaper);
 
+
+            /*
             if (NovakOutput2Bool){
-                PlayerNewspaper += MuckrakerArticlePieces[1];
-            }
+                PlayerNewspaper += MuckrakerArticlePieces[1];  
+            }//*/
             //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);            
         }
         else if (NovakDPThree.value == 3)
         {
             tabloidPaper+=1;
+            NovakOutput3Bool = true;
+            ///*
             NovakOutput1Bool = false;
             NovakOutput2Bool = false;
-            NovakOutput3Bool = true;
+            Debug.Log("PUSHED " + MuckrakerNewspaper);
 
+            /*
             if (NovakOutput3Bool){
                 MuckrakerNewspaper += MuckrakerArticlePieces[2];
-            }
+            }*/
             //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
+        }
+
+        if (NovakOutput1Bool){
+            MuckrakerNewspaper += MuckrakerArticlePieces[0];
+        }
+        if (NovakOutput2Bool){
+            MuckrakerNewspaper += MuckrakerArticlePieces[1];
+        }
+        if (NovakOutput3Bool){
+            MuckrakerNewspaper += MuckrakerArticlePieces[2];
         }
     }
 
@@ -428,11 +443,11 @@ public class NewspaperBehavior : MonoBehaviour
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
                 PlayerNewspaper = MuckrakerNewspaper;
-                PlayerHeadline = newspaperHeadlines[0];
+                //PlayerHeadline = newspaperHeadlines[0];
            }
             else{
                 PlayerNewspaper = newspaperPrints[1];
-                PlayerHeadline = newspaperHeadlines[1];
+                //PlayerHeadline = newspaperHeadlines[1];
             }   
         }
 
@@ -440,59 +455,59 @@ public class NewspaperBehavior : MonoBehaviour
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
                 PlayerNewspaper = MuckrakerNewspaper;
-                PlayerHeadline = newspaperHeadlines[0];
+                //PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = newspaperPrints[2];
-                PlayerHeadline = newspaperHeadlines[2];
+                //PlayerNewspaper = newspaperPrints[2];
+                //PlayerHeadline = newspaperHeadlines[2];
             }    
         }
 
         if (tabloidPaper == statusQuoPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[2];
-                PlayerHeadline = newspaperHeadlines[2];
+                //PlayerNewspaper = newspaperPrints[2];
+                //PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = newspaperPrints[1];
-                PlayerHeadline = newspaperHeadlines[1];
+                //PlayerNewspaper = newspaperPrints[1];
+                //PlayerHeadline = newspaperHeadlines[1];
             }
         }
 
         if (tabloidPaper == muckrakerPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[2];
-                PlayerHeadline = newspaperHeadlines[2];
+                //PlayerNewspaper = newspaperPrints[2];
+                //PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = MuckrakerNewspaper;
-                PlayerHeadline = newspaperHeadlines[0];
+                //PlayerNewspaper = MuckrakerNewspaper;
+                //PlayerHeadline = newspaperHeadlines[0];
             }
         }
 
         if (statusQuoPaper == tabloidPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = newspaperPrints[1];
-                PlayerHeadline = newspaperHeadlines[1];
+                //PlayerNewspaper = newspaperPrints[1];
+                //PlayerHeadline = newspaperHeadlines[1];
             }
             else{
-                PlayerNewspaper = newspaperPrints[2];
-                PlayerHeadline = newspaperHeadlines[2];
+                //PlayerNewspaper = newspaperPrints[2];
+                //PlayerHeadline = newspaperHeadlines[2];
             }    
         }
 
         if (statusQuoPaper == muckrakerPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-            PlayerNewspaper = newspaperPrints[1];
-            PlayerHeadline = newspaperHeadlines[1];
+            //PlayerNewspaper = newspaperPrints[1];
+            //PlayerHeadline = newspaperHeadlines[1];
            }   
             else{
-                PlayerNewspaper = newspaperPrints[0];
-                PlayerHeadline = newspaperHeadlines[0];
+                //PlayerNewspaper = newspaperPrints[0];
+                //PlayerHeadline = newspaperHeadlines[0];
             }    
         }
         //Novak: 0,1,2 Jim: 3,4,5 Julia: 6,7,8 Michael: 9,10,11 Max:, 12,13,14
@@ -502,12 +517,12 @@ public class NewspaperBehavior : MonoBehaviour
           
         }
         else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper){
-            PlayerNewspaper = newspaperPrints[1];
-            PlayerHeadline = newspaperHeadlines[1];
+            //PlayerNewspaper = newspaperPrints[1];
+            //PlayerHeadline = newspaperHeadlines[1];
         }
         else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper){
-            PlayerNewspaper = newspaperPrints[2];
-            PlayerHeadline = newspaperHeadlines[2];
+            //PlayerNewspaper = newspaperPrints[2];
+            //PlayerHeadline = newspaperHeadlines[2];
         }
         finalNewspaper.text = PlayerNewspaper;
         finalHeadline.text = PlayerHeadline;
