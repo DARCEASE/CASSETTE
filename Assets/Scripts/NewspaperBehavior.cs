@@ -91,6 +91,8 @@ public class NewspaperBehavior : MonoBehaviour
             NovakOutput2Bool = false;
             NovakOutput3Bool = false;
             Debug.Log("JUMPED " + MuckrakerNewspaper);
+            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
+
             //*/            
         }
         else if (NovakDPThree.value == 2)
@@ -101,6 +103,8 @@ public class NewspaperBehavior : MonoBehaviour
             NovakOutput1Bool = false;
             NovakOutput3Bool = false;
             Debug.Log("FELL " + MuckrakerNewspaper);
+            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
+
 
 
             /*
@@ -117,7 +121,7 @@ public class NewspaperBehavior : MonoBehaviour
             NovakOutput1Bool = false;
             NovakOutput2Bool = false;
             Debug.Log("PUSHED " + MuckrakerNewspaper);
-
+            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
             /*
             if (NovakOutput3Bool){
                 MuckrakerNewspaper += MuckrakerArticlePieces[2];
