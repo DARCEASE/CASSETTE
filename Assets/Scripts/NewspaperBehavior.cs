@@ -11,10 +11,19 @@ public class NewspaperBehavior : MonoBehaviour
 {
 #region INITIALIZATIONS
     public string PlayerNewspaper, MuckrakerNewspaper, StatusQuoNewspaper, TabloidNewspaper, PlayerHeadline;
+    
+    //All paper holding strings
+    string NovakMuckString, NovakSQString, NovakTabloidString;
+    string JimMuckString, JimSQString, JimTabloidString;
+    string JuliaMuckString, JuliaSQString, JuliaTabloidString;
+    string MaxMuckString, MaxSQString, MaxTabloidString;
+    string MichaelMuckString, MichaelSQString, MichaelTabloidString;
+
     public Text finalNewspaper, finalHeadline;
+    [SerializeField] int NovakOutputInt, JimOutputInt, JuliaOutputInt, MaxOutputInt, MikeOutputInt;
     
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperPrints, MuckrakerArticlePieces;
+    [SerializeField] string[] newspaperPrints, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
     [SerializeField] string[] newspaperHeadlines;
     // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
     public Dropdown NovakDPOne, NovakDPTwo, NovakDPThree;
@@ -94,56 +103,34 @@ public class NewspaperBehavior : MonoBehaviour
         if (NovakDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
             muckrakerPaper+=1;
-            
+            NovakOutputInt = 1;            
             Char1SelectionDoneC = true;
-            NovakOutput1Bool = true;
-            ///*
-            NovakOutput2Bool = false;
-            NovakOutput3Bool = false;
             Debug.Log("JUMPED " + MuckrakerNewspaper);
-            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
-
-            //*/            
+            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);           
         }
         else if (NovakDPThree.value == 2)
         {
             statusQuoPaper+=1;
-            NovakOutput2Bool = true;
+            NovakOutputInt = 2;
             Char1SelectionDoneC = true;
-            //
-            NovakOutput1Bool = false;
-            NovakOutput3Bool = false;
             Debug.Log("FELL " + MuckrakerNewspaper);
             Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
-            /*
-            if (NovakOutput2Bool){
-                PlayerNewspaper += MuckrakerArticlePieces[1];  
-            }//*/
         }
         else if (NovakDPThree.value == 3)
         {
             tabloidPaper+=1;
-            NovakOutput3Bool = true;
             Char1SelectionDoneC = true;
-            ///*
-            NovakOutput1Bool = false;
-            NovakOutput2Bool = false;
             Debug.Log("PUSHED " + MuckrakerNewspaper);
             Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
-            /*
-            if (NovakOutput3Bool){
-                MuckrakerNewspaper += MuckrakerArticlePieces[2];
-            }*/
         }
 
-        if (NovakOutput1Bool){
-            MuckrakerNewspaper += MuckrakerArticlePieces[0];
-        }
-        if (NovakOutput2Bool){
-            MuckrakerNewspaper += MuckrakerArticlePieces[1];
-        }
-        if (NovakOutput3Bool){
-            MuckrakerNewspaper += MuckrakerArticlePieces[2];
+        //SHould change bools into ints to make it easier and clean things up.
+        if (NovakOutputInt == 1){
+            NovakMuckString = MuckrakerArticlePieces[0];
+        } else if (NovakOutputInt == 2){
+            NovakMuckString = MuckrakerArticlePieces[1];
+        } else if (NovakOutputInt == 3){
+            NovakMuckString = MuckrakerArticlePieces[2];
         }
     }
 
@@ -154,17 +141,14 @@ public class NewspaperBehavior : MonoBehaviour
         {
             muckrakerPaper+=1;
             Char2SelectionDoneA = true;
-            Debug.Log("JIM. Drop 1 Opt 1");
         }
         else if (JimDPOne.value == 2)
         {
-            Debug.Log("JIM. Drop 1 Opt 2");
             statusQuoPaper+=1;
             Char2SelectionDoneA = true;
         }
         else if (JimDPOne.value == 3)
         {
-            Debug.Log("JIM. Drop 1 Opt 3");
             tabloidPaper+=1;
             Char2SelectionDoneA = true;
         }
@@ -197,44 +181,31 @@ public class NewspaperBehavior : MonoBehaviour
         {
             //Debug.Log("JIM. Drop 3 Opt 1");
             muckrakerPaper+=1;
+            JimOutputInt = 1;
             Char2SelectionDoneC = true;
-
-            JimOutput1Bool = true;
-            JimOutput2Bool = false;
-            JimOutput3Bool = false;
-
-            if (JimOutput1Bool){
-                MuckrakerNewspaper += MuckrakerArticlePieces[3];
-            }
         }
         else if (JimDPThree.value == 2)
         {
             //Debug.Log("JIM. Drop 3 Opt 2");
             statusQuoPaper+=1;
             Char2SelectionDoneC = true;
-
-            JimOutput1Bool = false;
-            JimOutput2Bool = true;
-            JimOutput3Bool = false;
-
-            if (JimOutput2Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[4];
-            }
+            JimOutputInt = 2;
         }
         else if (JimDPThree.value == 3)
         {
             //Debug.Log("JIM. Drop 3 Opt 3");
             tabloidPaper+=1;
+            JimOutputInt = 3;
             Char2SelectionDoneC = true;
+        }
 
-            JimOutput1Bool = false;
-            JimOutput2Bool = false;
-            JimOutput3Bool = true;
-
-            if (JimOutput2Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[5];
-            }
-        } 
+        if (JimOutputInt == 1){
+            JimMuckString = MuckrakerArticlePieces[3];
+        } else if (JimOutputInt == 2){
+            JimMuckString = MuckrakerArticlePieces[4];
+        } else if (JimOutputInt == 3){
+            JimMuckString = MuckrakerArticlePieces[5];
+        }
     }
 
     //JULIA AP:6,7,8
@@ -262,40 +233,29 @@ public class NewspaperBehavior : MonoBehaviour
         {
             //Debug.Log("JULIA. Drop 2 Opt 1");
             muckrakerPaper+=1;
-            JuliaOutput1Bool = true;
-            JuliaOutput2Bool = false;
-            JuliaOutput3Bool = false;
             Char3SelectionDoneB = true;
-
-            if (JuliaOutput1Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[6];
-            }
+            JuliaOutputInt = 1;
         }
         else if (JuliaDPTwo.value == 2)
         {
             //Debug.Log("JULIA. Drop 2 Opt 2");
             statusQuoPaper+=1;
-            JuliaOutput1Bool = false;
-            JuliaOutput2Bool = true;
-            JuliaOutput3Bool = false;
             Char3SelectionDoneB = true;
-
-            if (JuliaOutput2Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[7];
-            }
+            JuliaOutputInt = 2;
         }
         else if (JuliaDPTwo.value == 3)
         {
             //Debug.Log("JULIA. Drop 2 Opt 3");
-            tabloidPaper+=1;
-            JuliaOutput1Bool = false;
-            JuliaOutput2Bool = false;
-            JuliaOutput3Bool = true;
             Char3SelectionDoneB = true;
+            JuliaOutputInt = 3;
+        }
 
-            if (JuliaOutput3Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[8];
-            }
+        if (JuliaOutputInt == 1){
+            JuliaMuckString = MuckrakerArticlePieces[6];
+        } else if (JuliaOutputInt == 2){
+            JuliaMuckString = MuckrakerArticlePieces[7];
+        } else if (JimOutputInt == 3){
+            JuliaMuckString = MuckrakerArticlePieces[8];
         }
     }
     public void JuliaDropC()
@@ -324,31 +284,31 @@ public class NewspaperBehavior : MonoBehaviour
         {
             //Debug.Log("MICHAEL. Drop 1 Opt 1");
             muckrakerPaper+=1;
-            MikeOutput1Bool = true;
-            MikeOutput3Bool = false;
+            MikeOutputInt = 1;
             Char5SelectionDoneA = true;
-            
-            if (MikeOutput1Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[12];
-            }
         }
         else if (MichaelDPOne.value == 2)
         {
             //Debug.Log("MICHAEL. Drop 1 Opt 2");
             statusQuoPaper+=1;
+            MikeOutputInt = 2;
             Char5SelectionDoneA = true;
         }
         else if (MichaelDPOne.value == 3)
         {
             //Debug.Log("MICHAEL. Drop 1 Opt 3");
             tabloidPaper+=1;
-            MikeOutput1Bool = false;
-            MikeOutput3Bool = true;
+            MikeOutputInt = 3;
             Char5SelectionDoneA = true;
+        }
 
-            if (MikeOutput3Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[14];
-            }
+        
+        if (MikeOutputInt == 1){
+            MichaelMuckString = MuckrakerArticlePieces[12];
+        } else if (MikeOutputInt == 2){
+            MichaelMuckString = MuckrakerArticlePieces[13];
+        } else if (MikeOutputInt == 3){
+            MichaelMuckString = MuckrakerArticlePieces[14];
         }
     }
     public void MichaelDropB()
@@ -357,7 +317,6 @@ public class NewspaperBehavior : MonoBehaviour
         {
             //Debug.Log("MICHAEL. Drop 2 Opt 1");
             muckrakerPaper+=1;
-            MikeOutput2Bool = false;
             Char5SelectionDoneB = true;
         }
         else if (MichaelDPTwo.value == 2)
@@ -365,8 +324,6 @@ public class NewspaperBehavior : MonoBehaviour
             //Debug.Log("MICHAEL. Drop 2 Opt 2");
             statusQuoPaper+=1;
             Char5SelectionDoneB = true;
-
-            MikeOutput2Bool = false;
         }
         else if (MichaelDPTwo.value == 3)
         {
@@ -374,11 +331,6 @@ public class NewspaperBehavior : MonoBehaviour
             tabloidPaper+=1;
             Char5SelectionDoneB = true;
 
-            MikeOutput2Bool = true;
-
-             if (MikeOutput2Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[13];
-            }
         }
     }
     public void MichaelDropC()
@@ -407,43 +359,31 @@ public class NewspaperBehavior : MonoBehaviour
         {
             //Debug.Log("MAX. Drop 1 Opt 1");
             muckrakerPaper+=1;
+            MaxOutputInt = 1;
             Char4SelectionDoneA = true;
-
-            MaxOutput1Bool = true;
-            MaxOutput2Bool = false;
-            MaxOutput3Bool = false;
-
-             if (MaxOutput1Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[9];
-            }
         }
         else if (MaxDPOne.value == 2)
         {
             //Debug.Log("MAX. Drop 1 Opt 2");
             statusQuoPaper+=1;
+            MaxOutputInt = 2;
             Char4SelectionDoneA = true;
-
-            MaxOutput1Bool = false;
-            MaxOutput2Bool = true;
-            MaxOutput3Bool = false;
-
-             if (MaxOutput2Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[10];
-            }
         }
         else if (MaxDPOne.value == 3)
         {
             //Debug.Log("MAX. Drop 1 Opt 3");
             tabloidPaper+=1;
+            MaxOutputInt = 3;
             Char4SelectionDoneA = true;
+        }
 
-            MaxOutput1Bool = false;
-            MaxOutput2Bool = false;
-            MaxOutput3Bool = true;
-
-             if (MaxOutput3Bool){
-                MuckrakerNewspaper += "" + MuckrakerArticlePieces[11];
-            }
+        
+        if (MaxOutputInt == 1){
+            MaxMuckString = MuckrakerArticlePieces[9];
+        } else if (MaxOutputInt == 2){
+            MaxMuckString = MuckrakerArticlePieces[10];
+        } else if (MikeOutputInt == 3){
+            MaxMuckString = MuckrakerArticlePieces[11];
         }
     }
     public void MaxDropB()
@@ -494,7 +434,8 @@ public class NewspaperBehavior : MonoBehaviour
     public void NewspaperPrint() // using this to test things 
     {
         int finalPaperInt;
-
+        //PAPER PIECING
+        MuckrakerNewspaper = NovakMuckString + "" + JuliaMuckString + "" + JimMuckString + "" + MaxMuckString + "" + MichaelMuckString;
         //Value Check
         if (muckrakerPaper == statusQuoPaper){
            finalPaperInt = Random.Range(1, 2);
