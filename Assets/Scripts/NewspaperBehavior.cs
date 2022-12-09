@@ -274,13 +274,13 @@ public class NewspaperBehavior : MonoBehaviour
         else if (JuliaDPOne.value == 2)
         {
             statusQuoPaper+=1;
-            JuliaSQOutputInt = 1;
+            JuliaSQOutputInt = 2;
             Char3SelectionDoneA = true;
         }
         else if (JuliaDPOne.value == 3)
         {
             tabloidPaper+=1;
-            JuliaSQOutputInt = 1;
+            JuliaSQOutputInt = 3;
             Char3SelectionDoneA = true;
         }
 
@@ -458,7 +458,6 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MaxDPOne.value == 1)
         {
-            //Debug.Log("MAX. Drop 1 Opt 1");
             muckrakerPaper+=1;
             MaxSQOutputInt = 1;
             MaxOutputInt = 1;
@@ -466,7 +465,6 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPOne.value == 2)
         {
-            //Debug.Log("MAX. Drop 1 Opt 2");
             statusQuoPaper+=1;
             MaxSQOutputInt = 2;
             MaxOutputInt = 2;
@@ -474,13 +472,11 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPOne.value == 3)
         {
-            //Debug.Log("MAX. Drop 1 Opt 3");
             tabloidPaper+=1;
             MaxSQOutputInt = 3;
             MaxOutputInt = 3;
             Char4SelectionDoneA = true;
         }
-
         
         if (MaxOutputInt == 1){
             MaxMuckString = MuckrakerArticlePieces[9];
