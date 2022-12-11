@@ -14,10 +14,15 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R)) //restart game
         {
-            SceneManager.LoadScene("DigitalVersion");
+            SceneManager.LoadScene("StoryOneScene");
         }
     }
-    
+    public void NextStory()
+    {
+        
+        SceneManager.LoadScene("StoryTwoScene");
+        Debug.Log("StoryTwoScene");
+    }
     public void RestartGame()
     {
         //For hybrid version, if the player hits replay, the comp should check to see if the scene is the hybrid scene, then restart the hybrid scene
@@ -26,8 +31,8 @@ public class GameManager : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
 
         Debug.Log("restarting game commencing...");
-        if (scene.name == "DigitalVersion"){
-            SceneManager.LoadScene("DigitalVersion");
+        if (scene.name == "StoryOneScene"){
+            SceneManager.LoadScene("StoryOneScene");
         }
         else{
             SceneManager.LoadScene("HybridVersion");
