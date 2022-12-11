@@ -23,6 +23,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
     }
+    public void StartGame()
+    {
+
+        SceneManager.LoadScene("StoryOneScene");
+        Debug.Log("BOOTING UP!");
+    }
     public void RestartGame()
     {
         //For hybrid version, if the player hits replay, the comp should check to see if the scene is the hybrid scene, then restart the hybrid scene
