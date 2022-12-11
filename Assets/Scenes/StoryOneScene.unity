@@ -63166,7 +63166,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.2901961, g: 0.3019608, b: 0.2901961, a: 0}
+  m_BackGroundColor: {r: 0.12941177, g: 0.1254902, b: 0.12941177, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -82322,9 +82322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Max Elliot is new CEO of Abundantia Investments
-
-'
+  m_text: US SEEKING SOVIET SPACE BARGAINS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -82351,8 +82349,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.3
-  m_fontSizeBase: 18.3
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
