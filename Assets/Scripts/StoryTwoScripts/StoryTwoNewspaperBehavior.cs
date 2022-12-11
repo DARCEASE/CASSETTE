@@ -19,6 +19,12 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     public Dropdown FranziskaDPOne, FranziskaDPTwo, FranziskaDPThree;
     public Dropdown BrightonDPOne, BrightonDPTwo, BrightonDPThree;
 
+    public bool Char1SelectionDoneA, Char1SelectionDoneB, Char1SelectionDoneC;
+    public bool Char2SelectionDoneA, Char2SelectionDoneB, Char2SelectionDoneC;
+    public bool Char3SelectionDoneA, Char3SelectionDoneB, Char3SelectionDoneC;
+    public bool Char4SelectionDoneA, Char4SelectionDoneB, Char4SelectionDoneC;
+    public bool Char5SelectionDoneA, Char5SelectionDoneB, Char5SelectionDoneC;
+
     //Values
     [SerializeField] int FearfulPaper, AngryPaper, CompassionatePaper;
 #endregion
@@ -46,22 +52,20 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (BorisDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {  
             FearfulPaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[0] = novakInfoOptions[0]; //NovakDPOne.options[0];
+            Char1SelectionDoneA = true;
             
         }
         else if (BorisDPOne.value == 2)
         {
             AngryPaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[0] = novakInfoOptions[1];
+           Char1SelectionDoneA = true;
+           
             
         }
         else if (BorisDPOne.value == 3)
         {
             CompassionatePaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[0] = novakInfoOptions[2];
+            Char1SelectionDoneA = true;
         }
     }
     public void BorisDropB() // WHO second dropdown for Novak
@@ -69,22 +73,20 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (BorisDPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
             FearfulPaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[1] = novakInfoOptions[3];
+            Char1SelectionDoneB = true;
+            
             
         }
         else if (BorisDPTwo.value == 2)
         {
             AngryPaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[1] = novakInfoOptions[4];
+            Char1SelectionDoneB = true;
             
         }
         else if (BorisDPTwo.value == 3)
         {
             CompassionatePaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[1] = novakInfoOptions[5]; 
+            Char1SelectionDoneB = true;
         } 
     }
     public void BorisDropC()
@@ -92,22 +94,19 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (BorisDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
             FearfulPaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[2] = novakInfoOptions[6];
+            Char1SelectionDoneC = true;
             
         }
         else if (BorisDPThree.value == 2)
         {
             AngryPaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[2] = novakInfoOptions[7];
+            Char1SelectionDoneC = true;
             
         }
         else if (BorisDPThree.value == 3)
         {
             CompassionatePaper+=1;
-            //Debug.Log("Pts: " + statusQuoPaper +", " + muckrakerPaper + ", " + tabloidPaper);
-            //novakNewspaperOptions[2] = novakInfoOptions[8];
+            Char1SelectionDoneC = true;
         }
     }
 
@@ -117,19 +116,18 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (VitoDPOne.value == 1) 
         {
             FearfulPaper+=1;
-            Debug.Log("JIM. Drop 1 Opt 1");
-            //jimNewspaperOptions[0] = jimInfoOptions[0];
+            Char3SelectionDoneA = true;
         }
         else if (VitoDPOne.value == 2)
         {
             Debug.Log("JIM. Drop 1 Opt 2");
-            //jimNewspaperOptions[0] = jimInfoOptions[1];
+            Char3SelectionDoneA = true;
             AngryPaper+=1;
         }
         else if (VitoDPOne.value == 3)
         {
             Debug.Log("JIM. Drop 1 Opt 3");
-            //jimNewspaperOptions[0] = jimInfoOptions[2];
+            Char3SelectionDoneA = true;
             CompassionatePaper+=1;
         }
     }
@@ -138,19 +136,19 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (VitoDPTwo.value == 1) 
         {
             Debug.Log("JIM. Drop 2 Opt 1");
-            //jimNewspaperOptions[1] = jimInfoOptions[3];
+            Char3SelectionDoneB = true;
             FearfulPaper+=1;
         }
         else if (VitoDPOne.value == 2)
         {
             Debug.Log("JIM. Drop 2 Opt 2");
-            //jimNewspaperOptions[1] = jimInfoOptions[4];
+            Char3SelectionDoneB = true;
             AngryPaper+=1;
         }
         else if (VitoDPOne.value == 3)
         {
             Debug.Log("JIM. Drop 2 Opt 3");
-            //jimNewspaperOptions[1] = jimInfoOptions[5];
+            Char3SelectionDoneB = true;
             CompassionatePaper+=1;
         }
     }
@@ -159,19 +157,19 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (VitoDPThree.value == 1) 
         {
             Debug.Log("JIM. Drop 3 Opt 1");
-            //jimNewspaperOptions[2] = jimInfoOptions[6];
+            Char3SelectionDoneC = true;
             FearfulPaper+=1;
         }
         else if (VitoDPThree.value == 2)
         {
             Debug.Log("JIM. Drop 3 Opt 2");
-            //jimNewspaperOptions[2] = jimInfoOptions[7];
+            Char3SelectionDoneC = true;
             AngryPaper+=1;
         }
         else if (VitoDPThree.value == 3)
         {
             Debug.Log("JIM. Drop 3 Opt 3");
-            //jimNewspaperOptions[2] = jimInfoOptions[8];
+            Char3SelectionDoneC = true;
             CompassionatePaper+=1;
         } 
     }
@@ -182,20 +180,20 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (GuyDPOne.value == 1) 
         {
             Debug.Log("JULIA. Drop 1 Opt 1");
-            //juliaNewspaperOptions[0] = juliaInfoOptions[0];
+            Char2SelectionDoneA = true;
             FearfulPaper+=1;
         }
         else if (GuyDPOne.value == 2)
         {
             Debug.Log("JULIA. Drop 1 Opt 2");
-            //juliaNewspaperOptions[0] = juliaInfoOptions[1];
+            Char2SelectionDoneA = true;
             AngryPaper+=1;
             
         }
         else if (GuyDPOne.value == 3)
         {
             Debug.Log("JULIA. Drop 1 Opt 3");
-            //juliaNewspaperOptions[0] = juliaInfoOptions[2];
+            Char2SelectionDoneA = true;
             CompassionatePaper+=1;
         }
     }
@@ -204,19 +202,19 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (GuyDPTwo.value == 1)
         {
             Debug.Log("JULIA. Drop 2 Opt 1");
-            //juliaNewspaperOptions[1] = juliaInfoOptions[3];
+            Char2SelectionDoneB = true;
             FearfulPaper+=1;
         }
         else if (GuyDPTwo.value == 2)
         {
             Debug.Log("JULIA. Drop 2 Opt 2");
-            //juliaNewspaperOptions[1] = juliaInfoOptions[4];
+            Char2SelectionDoneB = true;
             AngryPaper+=1;
         }
         else if (GuyDPTwo.value == 3)
         {
             Debug.Log("JULIA. Drop 2 Opt 3");
-            //juliaNewspaperOptions[1] = juliaInfoOptions[5];
+            Char2SelectionDoneB = true;
             CompassionatePaper+=1;
         }
     }
@@ -225,20 +223,18 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (GuyDPThree.value == 1)
         {
             FearfulPaper+=1;
-            Debug.Log("JULIA. Drop 3 Opt 1");
-            //juliaNewspaperOptions[2] = juliaInfoOptions[6]; 
+            Char2SelectionDoneC = true;
         }
         else if (GuyDPThree.value == 2)
         {
-            Debug.Log("JULIA. Drop 3 Opt 2");
-            //juliaNewspaperOptions[2] = juliaInfoOptions[7];
+            
             AngryPaper+=1;
+            Char2SelectionDoneC = true;
         }
         else if (GuyDPThree.value == 3)
-        {
-            Debug.Log("JULIA. Drop 3 Opt 3");
-            //juliaNewspaperOptions[2] = juliaInfoOptions[8];
+        {            
             CompassionatePaper+=1;
+            Char2SelectionDoneC = true;
         }
     }
 
@@ -247,63 +243,54 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     {
         if (FranziskaDPOne.value == 1)
         {
-            Debug.Log("MICHAEL. Drop 1 Opt 1");
-            //ichaelNewspaperOptions[0] = michaelInfoOptions[0];
             FearfulPaper+=1;
+            Char5SelectionDoneA = true;
         }
         else if (FranziskaDPOne.value == 2)
         {
-            Debug.Log("MICHAEL. Drop 1 Opt 2");
-            //michaelNewspaperOptions[0] = michaelInfoOptions[1];
             AngryPaper+=1;
+            Char5SelectionDoneA = true;
         }
         else if (FranziskaDPOne.value == 3)
         {
-            Debug.Log("MICHAEL. Drop 1 Opt 3");
-            //michaelNewspaperOptions[0] = michaelInfoOptions[2];
             CompassionatePaper+=1;
+            Char5SelectionDoneA = true;
         }
     }
     public void FranziskaDropB()
     {
         if (FranziskaDPTwo.value == 1)
         {
-            Debug.Log("MICHAEL. Drop 2 Opt 1");
-            //michaelNewspaperOptions[1] = michaelInfoOptions[3];
             FearfulPaper+=1;
+            Char5SelectionDoneB = true;
         }
         else if (FranziskaDPTwo.value == 2)
         {
-            Debug.Log("MICHAEL. Drop 2 Opt 2");
-            //michaelNewspaperOptions[1] = michaelInfoOptions[4];
             AngryPaper+=1;
+            Char5SelectionDoneB = true;
         }
         else if (FranziskaDPTwo.value == 3)
         {
-            Debug.Log("MICHAEL. Drop 2 Opt 3");
-            //michaelNewspaperOptions[1] = michaelInfoOptions[5];
             CompassionatePaper+=1;
+            Char5SelectionDoneB = true;
         }
     }
     public void FranziskaDropC()
     {
-            if (FranziskaDPThree.value == 1)
-            {
-                Debug.Log("MICHAEL Drop 3 Opt 1");
-                //michaelNewspaperOptions[2] = michaelInfoOptions[6];
-                FearfulPaper+=1;
-            }
-            else if (FranziskaDPThree.value == 2)
-            {
-                Debug.Log("MICHAEL. Drop 3 Opt 2");
-                //michaelNewspaperOptions[2] = michaelInfoOptions[7];
-                AngryPaper+=1;
-            }
-            else if (FranziskaDPThree.value == 3)
-            {
-                Debug.Log("MICHAEL. Drop 3 Opt 3");
-                //michaelNewspaperOptions[2] = michaelInfoOptions[8];
-                CompassionatePaper+=1;
+        if (FranziskaDPThree.value == 1)
+        {
+            FearfulPaper+=1;
+            Char5SelectionDoneC = true;
+        }
+        else if (FranziskaDPThree.value == 2)
+        {
+            AngryPaper+=1;
+            Char5SelectionDoneC = true;
+        }
+        else if (FranziskaDPThree.value == 3)
+        {
+            CompassionatePaper+=1;
+            Char5SelectionDoneC = true;
             }
         }
 
@@ -312,63 +299,54 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     {
         if (BrightonDPOne.value == 1)
         {
-            Debug.Log("MAX. Drop 1 Opt 1");
-            //maxNewspaperOptions[0] = maxInfoOptions[0];
             FearfulPaper+=1;
+            Char4SelectionDoneA = true;
         }
         else if (BrightonDPOne.value == 2)
         {
-            Debug.Log("MAX. Drop 1 Opt 2");
-            //michaelNewspaperOptions[0] = michaelInfoOptions[1];
             AngryPaper+=1;
+            Char4SelectionDoneA = true;
         }
         else if (BrightonDPOne.value == 3)
         {
-            Debug.Log("MAX. Drop 1 Opt 3");
-            //michaelNewspaperOptions[0] = michaelInfoOptions[2];
             CompassionatePaper+=1;
+            Char4SelectionDoneA = true;
         }
     }
     public void BrightonDropB()
     {
         if (BrightonDPTwo.value == 1)
         {
-            Debug.Log("MAX. Drop 2 Opt 1");
-            //michaelNewspaperOptions[1] = michaelInfoOptions[3];
             FearfulPaper+=1;
+            Char4SelectionDoneB = true;
         }
         else if (BrightonDPTwo.value == 2)
         {
-            Debug.Log("MAX. Drop 2 Opt 2");
-            //michaelNewspaperOptions[1] = michaelInfoOptions[4];
             AngryPaper+=1;
+            Char4SelectionDoneB = true;
         }
         else if (BrightonDPTwo.value == 3)
         {
-            Debug.Log("MAX. Drop 2 Opt 3");
-            //michaelNewspaperOptions[1] = michaelInfoOptions[5];
             CompassionatePaper+=1;
+            Char4SelectionDoneB = true;
         }
     }
     public void BrightonDropC()
     {
         if (BrightonDPThree.value == 1)
         {
-            Debug.Log("MAX. Drop 3 Opt 1");
-            //michaelNewspaperOptions[2] = michaelInfoOptions[6];
             FearfulPaper+=1;
+            Char4SelectionDoneC = true;
         }
         else if (BrightonDPThree.value == 2)
         {
-            Debug.Log("MAX. Drop 3 Opt 2");
-            //michaelNewspaperOptions[2] = michaelInfoOptions[7];
             AngryPaper+=1;
+            Char4SelectionDoneC = true;
         }
         else if (BrightonDPThree.value == 3)
         {
-            Debug.Log("MAX. Drop 3 Opt 3");
-            //michaelNewspaperOptions[2] = michaelInfoOptions[8];
             CompassionatePaper+=1;
+            Char4SelectionDoneC = true;
         }
     }
     public void NewspaperPrint() // using this to test things 
@@ -461,7 +439,7 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
             PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
             PlayerHeadline = newspaperHeadlines[2];
         }
-        finalNewspaper.text = PlayerNewspaper + "Add this";
+        finalNewspaper.text = PlayerNewspaper;
         finalHeadline.text = PlayerHeadline;
 
     }
