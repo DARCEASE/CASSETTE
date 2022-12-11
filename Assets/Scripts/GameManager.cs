@@ -29,7 +29,16 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("StoryOneScene");
         Debug.Log("BOOTING UP!");
     }
-    public void RestartGame()
+
+    //temp function for the sake of time 
+    public void FinishDemo()
+    {
+        //Game will go back to title screen 
+        SceneManager.LoadScene("StoryOneScene");
+        Debug.Log("Thank you for playing :3");
+
+    }
+        public void RestartGame()
     {
         //For hybrid version, if the player hits replay, the comp should check to see if the scene is the hybrid scene, then restart the hybrid scene
         //Currently brings player from Hybrid to digital ver scene
@@ -37,7 +46,8 @@ public class GameManager : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
 
         Debug.Log("restarting game commencing...");
-        if (scene.name == "StoryOneScene"){
+        if (scene.name == "StoryOneScene")
+        {
             SceneManager.LoadScene("StoryOneScene");
         }
         else{
