@@ -62,10 +62,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
     {
         FilePanels[i].gameObject.SetActive(false);
     }
-    public void NextStory()
-    {
-        Debug.Log("Another day another dollar...");
-    }
+    
     public void QuitGame()
     {
         Application.Quit();
