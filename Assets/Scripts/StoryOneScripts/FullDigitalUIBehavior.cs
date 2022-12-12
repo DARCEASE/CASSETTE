@@ -62,6 +62,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
     {
         FilePanels[i].gameObject.SetActive(false);
     }
+    
     public void QuitGame()
     {
         Application.Quit();
