@@ -59012,10 +59012,254 @@ MonoBehaviour:
   MaxTabOutputInt: 0
   MikeTabOutputInt: 0
   newspaperPrints: []
-  MuckrakerArticlePieces: []
-  SQArticlePieces: []
-  TabloidArticlePieces: []
-  newspaperHeadlines: []
+  MuckrakerArticlePieces:
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having possibly leapt to his death from one of
+    the building\u2019s upper floors. Mr. Evergreen was the CEO of Abundantia Investments.
+    He was a father of two and a friend to many. He was also a closeted gay man in
+    a secret relationship with a US service member.\r\n\r\n"
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having apparently fallen from a great height. Mr.
+    Evergreen was the CEO of Abundantia Investments. He was a father of two and a
+    friend to many. He was also a closeted gay man in a secret relationship with
+    a US service member.\r\n\r"
+  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having possibly been thrown from one of the building\u2019s
+    upper floors. Mr. Evergreen was the CEO of Abundantia Investments. He was a father
+    of two and a friend to many. He was also a closeted gay man in a secret relationship
+    with a US service member.\r\n\r\n"
+  - "Jim, on the other hand, had a much more complicated relationship with Mr. Evergreen.
+    Jim didn\u2019t take his parents\u2019 divorce well, and when he discovered his
+    father\u2019s homosexuality, his relationship with Mr. Evergreen became even
+    more precarious.\r\n\r"
+  - "Jim, on the other hand, had a much different relationship with Mr. Evergreen.
+    Jim didn\u2019t take his parent\u2019s divorce well, and struggled to accept
+    his father\u2019s homosexuality. When interviewed, he expressed immense frustration
+    toward Mr. Evergreen. But underneath these difficulties, it\u2019s clear that
+    Jim had a deep, unshakeable love for him. \u201COur father was Jim\u2019s hero,\u201D
+    said Julia. \u201CAlways had been.\u201D \r\n\r\n"
+  - "Jim, on the other hand, had little love for his father. Jim grew resentful toward
+    Mr. Evergreen after the divorce \u2013 and when he discovered his father\u2019s
+    homosexuality, this hatred only deepened. \u201CHe was so flustered,\u201D said
+    Julia, \u201Cso angry telling me about it.\u201D\r\n\r\n"
+  - "Mr. Evergreen is survived by two children, Julia Anderson and Jim Evergreen.
+    Mr Evergreen divorced his wife five years ago, though she declined to comment
+    for this article. His daughter, Julia, is wounded by his death. Despite taking
+    a neutral stance toward him when interviewed, it\u2019s clear that Julia cared
+    deeply for him in life.\r\n\r\n"
+  - "Mr. Evergreen is survived by two children, Julia Anderson and Jim Evergreen.
+    Mr Evergreen divorced his wife five years ago, though she declined to comment
+    for this article. His daughter, Julia, is deeply wounded by his death. She is
+    a devoted, loving daughter who held her father in the highest regard.\r\n\r"
+  - 'Mr. Evergreen is survived by two children, Julia Anderson and Jim Evergreen.
+    Mr Evergreen divorced his wife five years ago, though she declined to comment
+    for this article. His daughter, Julia, is deeply wounded by his death, having
+    loved her feather dearly. However, she is clearly in denial about his true nature:
+    that of a distant, uncaring parent.
+
+'
+  - "Rumors about Mr. Evergreen were abound in his workplace. His friend and business
+    partner, Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s
+    clear that she felt a sense of kinship toward him. \u201CThis is a tough world
+    to be in if you aren\u2019t part of the boys\u2019 club,\u201D Max said when
+    asked about Mr. Evergreen. \u201CRobert was never anything but professional with
+    me\u2026 it\u2019s only right that I do the same for him now.\u201D\r\n\r\n"
+  - "Rumors about Mr. Evergreen were abound in his workplace. His business partner,
+    Max Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
+    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
+    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
+    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
+    it\u2019s only right that I do the same for him now.\u201D\r\n\r\n"
+  - "Rumors about Mr. Evergreen were abound in his workplace. His subordinate, Max
+    Elliot, didn\u2019t discuss his homosexuality. However, it\u2019s clear that
+    she felt a sense of kinship toward him. \u201CThis is a tough world to be in
+    if you aren\u2019t part of the boys\u2019 club,\u201D Max said when asked about
+    Mr. Evergreen. \u201CRobert was never anything but professional with me\u2026
+    it\u2019s only right that I do the same for him now.\u201D\r\n"
+  - "Mr. Evergreen was in a covert relationship with a career sailor in the US navy.
+    The Local Rag is unable to name him here without putting his profession and his
+    safety at risk. When asked about the consequences he might face if his homosexuality
+    were exposed, Mr. Evergreen\u2019s partner gave a simple yet damning response:
+    \u201CIf my superior officers find out, I will be discharged.\u201D Unable to
+    grieve Mr. Evergreen\u2019s death publicly, his partner will have no choice but
+    to mourn in private, as he continues his silent struggle against the US military\u2019s
+    rampant homophobia.\r\n\r\n"
+  - "Mr. Evergreen was in a long-term relationship with a career sailor in the US
+    navy. The Local Rag is unable to name him here without putting his profession
+    and his safety at risk. Mr. Evergreen\u2019s friend, Lt. Michael Bailey, was
+    aware of the relationship. When asked about the consequences Mr. Evergreen\u2019s
+    partner might face if his homosexuality were exposed, Lt. Bailey gave a simple
+    yet damning response: \u201CIf my superior officers find out, [Mr. Evergreen\u2019s
+    partner] will be discharged.\u201D Unable to grieve Mr. Evergreen\u2019s death
+    publicly, his partner will have no choice but to mourn in private, as he continues
+    his silent struggle against the US military\u2019s rampant homophobia.\r\n\r\n"
+  - "Mr. Evergreen was in a long-term relationship with Lt. Michael Bailey, a US
+    naval officer. By revealing himself as Mr. Evergreen\u2019s partner, Lt. Bailey
+    is putting his profession and his safety at risk. When asked about the consequences
+    he might face if his homosexuality were exposed, Lt. Bailey gave a simple yet
+    damning response: \u201CIf my superior officers find out, I will be discharged.\u201D
+    Unable to grieve Mr. Evergreen\u2019s death publicly, Lt. Bailey will have no
+    choice but to mourn in private, as he continues his silent struggle against the
+    US military\u2019s rampant homophobia.\r\n\r\n"
+  SQArticlePieces:
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Mr. Evergreen
+    was a well-liked member of our community and the founder of Abundantia Investments.
+    Detective Novak of the NYPD stated that \u201CThe department does not, at this
+    time, wish to speculate on the specific manner of the death, whether it was accident,
+    murder, or suicide, as the investigation is still ongoing.\u201D Novak, a revered
+    NYPD investigator, encourages the public to come forward with any information
+    about Mr. Evergreen\u2019s death.\r\n\r"
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Mr. Evergreen
+    was a well-liked member of our community and the founder of Abundantia Investments.
+    Detective Novak of the NYPD stated that \u201CThe department does not, at this
+    time, wish to speculate on the specific manner of the death, whether it was accident,
+    murder, or suicide, as the investigation is still ongoing.\u201D Novak encourages
+    the public to come forward with any information about Mr. Evergreen\u2019s death.\r\n\r\n"
+  - "Mr. Robert Evergreen, local hero and businessman, was found dead Monday morning
+    outside of his workplace, having apparently fallen from a great height. Mr. Evergreen
+    was a well-liked member of our community and the founder of Abundantia Investments.
+    Detective Novak of the NYPD stated that \u201CThe department does not, at this
+    time, wish to speculate on the specific manner of the death, whether it was accident,
+    murder, or suicide, as the investigation is still ongoing.\u201D Novak, a rookie
+    NYPD investigator, encourages the public to come forward with any information
+    about Mr. Evergreen\u2019s death.\r\n\r\n"
+  - "Mr. Evergreen\u2019s son, Jim was especially close with him as a child. Even
+    after starting his own life, Jim made every effort to stay in touch with his
+    father. \u201CI knew him better than anybody,\u201D Jim said when asked about
+    their relationship.\n"
+  - "Mr. Evergreen\u2019s relationship with his son Jim was far from perfect. Nonetheless,
+    it\u2019s clear that the two of them were very close. \u201CI knew him better
+    than anybody,\u201D Jim said of his father.\r\n"
+  - "Mr. Evergreen and his son Jim, however, were never especially close. Nonetheless,
+    it\u2019s clear that Jim\u2019s father held great importance to him. \u201CYou
+    have to understand,\u201D Julia said, \u201Cour father was Jim\u2019s hero. Always
+    had been.\u201D\n"
+  - "Mr. Evergreen is survived by his ex-wife and his two children, Julia Anderson
+    and Jim Evergreen. When reached for comment, both children expressed grief at
+    the sudden loss of their father. Julia, Mr. Evergreen\u2019s daughter, was five
+    months pregnant at the time of his death. \u201CI wanted my child to meet him,\u201D
+    she said. \u201CBut now that will never happen.\u201D"
+  - "Mr. Evergreen is survived by his ex-wife and his two children, Julia Anderson
+    and Jim Evergreen. When reached for comment, both children expressed grief at
+    the sudden loss of their father. Julia, Mr. Evergreen\u2019s daughter, is deeply
+    upset by his death, having cherished him dearly in life.\r"
+  - "Mr. Evergreen is survived by his ex-wife and his two children, Julia Anderson
+    and Jim Evergreen. When reached for comment, both children expressed grief at
+    the sudden loss of their father. Julia, Mr. Evergreen\u2019s daughter, was overcome
+    with emotion when interviewed about his death.\r"
+  - "Mr. Evergreen built his company, Abundantia Investments, from the ground up.
+    For now, the company will be led by Mr. Evergreen\u2019s friend and associate,
+    Ms. Max Elliot, who described Mr. Evergreen as a consummate professional and
+    an excellent boss and business partner.\n"
+  - "Mr. Evergreen built his company, Abundantia Investments, from the ground up.
+    For now, the company will be led by Mr. Evergreen\u2019s associate, Ms. Max Elliot,
+    who described Mr. Evergreen as a consummate professional and an excellent boss
+    and business partner.\r\n"
+  - "Mr. Evergreen built his company, Abundantia Investments, from the ground up.
+    For now, the company will be led by Mr. Evergreen\u2019s subordinate, Ms. Max
+    Elliot, who described Mr. Evergreen as a consummate professional and an excellent
+    boss and business partner.\r\n\r\n"
+  - "Mr. Evergreen was in a romantic relationship at the time of his death. The Local
+    Rag is unable to name his partner here without putting his career as a US naval
+    sailor at risk. However, he is deeply disturbed by Mr. Evergreen\u2019s sudden
+    passing. \u201CWe were unable to spend as much time together as I wish we could\u2019ve,\u201D
+    he said when reached for comment.\r\n\r\n"
+  - "In addition to his family, Mr. Evergreen leaves behind a vast network of close
+    friends. One such individual, Lieutenant Michael Bailey of the US Navy, expressed
+    his remorse at Mr. Evergreen\u2019s passing. \u201CWe were unable to spend as
+    much time together as I wish we could\u2019ve,\u201D Lt. Bailey said when reached
+    for comment.\r\n\r\n"
+  - "At the time of his death, Mr. Evergreen was in a romantic relationship with
+    Lieutenant Michael Bailey of the US Navy. Lt. Bailey is deeply disturbed by Mr.
+    Evergreen\u2019s sudden passing. \u201CWe were unable to spend as much time together
+    as I wish we could\u2019ve,\u201D he said when reached for comment.\r\n"
+  TabloidArticlePieces:
+  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having apparently jumped from the roof of his
+    office building. While he was known as a family man and an upstanding citizen
+    of our city, there was a shocking secret hiding in his closet - Robert Evergreen
+    was a homosexual.\r\n\r"
+  - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having fallen from the roof of his office building.
+    While he was known as a family man and an upstanding citizen of our city, there
+    was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
+
+    
+
+'
+  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+    circumstances on Monday morning, having apparently been pushed from the roof
+    of his office building. While he was known as a family man and an upstanding
+    citizen of our city, there was a shocking secret hiding in his closet - Robert
+    Evergreen was a homosexual. \r\n\r\n"
+  - "Jim expressed bitterness towards his father in both life and death, describing
+    Mr. Evergreen as a neglectful and callous parent \u2013 an attitude that only
+    worsened post-divorce as he freely pursued his homosexuality Mr. Evergreen\u2019s
+    ex-wife declined to comment for this article.\r\n\r\n"
+  - "Jim is deep in the throes of grief after his father\u2019s death, but admitted
+    that Mr. Evergreen was a neglectful and uncaring parent \u2013 an attitude that
+    only worsened post-divorce as he freely pursued his homosexuality. Mr. Evergreen\u2019s
+    ex-wife declined to comment for this article.\r\n\r\n"
+  - "Jim seemed on the verge of tears as he described his father\u2019s cruel and
+    callous nature \u2013 an attitude that only worsened post-divorce as he freely
+    pursued his homosexuality. Mr. Evergreen\u2019s ex-wife declined to comment for
+    this article.\r\n\r\n"
+  - Mr. Evergreen leaves behind an ex-wife and two children, each of whom held a
+    conflicting opinion of his deviant lifestyle. When asked for comment, his daughter,
+    Julia Anderson, staunchly defended his homosexuality. His son, Jim Evergreen,
+    held no such perspective.
+  - Mr. Evergreen leaves behind an ex-wife and two children, each of whom was left
+    damaged by his deviant lifestyle. When asked for comment, his daughter, Julia
+    Anderson, pleaded that his sexuality not be made public, instead redirecting
+    the conversation toward his business and his family life. His son, Jim Evergreen,
+    however, had no such request.
+  - "Mr. Evergreen leaves behind an ex-wife and two children, each of whom was left
+    damaged by his deviant lifestyle. When asked for comment, his daughter, Julia
+    Anderson, was hysterical with emotion and reacted poorly and with strongly worded
+    reproach to questions about her father\u2019s sexual orientation. His son, Jim
+    Evergreen, however, had no such reservations."
+  - "Mr. Evergreen\u2019s company will remain in operation, headed by Ms. Maxine
+    Elliot, a competent woman with a firm grip on the male-dominated world of business.
+    She wouldn\u2019t directly confirm nor deny any allegations, but it\u2019s clear
+    that Mr. Evergreen\u2019s sex life was something of an open secret at his company.
+    \u201CThere was the occasional business trip or social gathering where he\u2019d
+    quietly slip out and we wouldn\u2019t see him again until morning,\u201D she
+    explained.\r\n\r\n"
+  - "Mr. Evergreen\u2019s company will remain in operation, led by Ms. Maxine Elliot,
+    a straight-laced woman with a sharp eye for business. She wouldn\u2019t directly
+    confirm nor deny any allegations, but it\u2019s clear that Mr. Evergreen\u2019s
+    sex life was something of an open secret at his company. \u201CThere was the
+    occasional business trip or social gathering where he\u2019d quietly slip out
+    and we wouldn\u2019t see him again until morning,\u201D she explained.\r\n\r"
+  - "Mr. Evergreen\u2019s business will remain in operation, left in the cold and
+    steely hands of Ms. Maxine Elliot. She wouldn\u2019t directly confirm nor deny
+    any allegations, but it\u2019s clear that Mr. Evergreen\u2019s sex life was something
+    of an open secret at his company. \u201CThere was the occasional business trip
+    or social gathering where he\u2019d quietly slip out and we wouldn\u2019t see
+    him again until morning,\u201D she explained.\r\n"
+  - "Mr. Evergreen\u2019s mysterious lover, a US Navy sailor, asked to remain anonymous.
+    He and Mr. Evergreen had been in a relationship for the past fifteen years, beginning
+    when Mr. Evergreen was still married to his ex-wife. While he would not elaborate
+    on the details, he did comment that he ultimately had to \u201Cregret\u201D his
+    relationship with the businessman."
+  - "The details of Mr. Evergreen\u2019s relationship are a well-kept secret. Mr.
+    Evergreen\u2019s longtime friend and confidant Lieutenant Michael Bailey, however,
+    was more than willing to spill the beans. According to Lt. Bailey, Mr. Evergreen
+    had been seeing a US Naval sailor for the past fifteen years, beginning when
+    Mr. Evergreen was still married to his ex-wife. While he wouldn\u2019t elaborate
+    on the details, Lt. Bailey did reveal that the sailor came to \u201Cregret\u201D
+    his relationship with the businessman.\r\n"
+  - "As for Mr. Evergreen\u2019s lover? That would be one Lieutenant Michael Bailey
+    of the United States Navy. Lt. Bailey had been in a relationship with Mr. Evergreen
+    for the past fifteen years, beginning when Mr. Evergreen was still married to
+    his ex-wife. While he would not elaborate on the details, Lt. Bailey did comment
+    that ultimately he had to \u201Cregret\u201D his relationship with the businessman. "
+  newspaperHeadlines:
+  - Time For Change
+  - Time To Mourn
+  - Time To Fire
   NovakDPOne: {fileID: 1955818698}
   NovakDPTwo: {fileID: 2124620505}
   NovakDPThree: {fileID: 339281353}
