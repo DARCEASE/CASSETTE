@@ -24,7 +24,7 @@ public class CharacterCompleteCheck : MonoBehaviour
 
             if (NPB.Char1SelectionDoneA && NPB.Char1SelectionDoneB && NPB.Char1SelectionDoneC)
                 Char1Box.SetActive(false);
-            if (NPB.Char1SelectionDoneA && NPB.Char2SelectionDoneB && NPB.Char2SelectionDoneC)
+            if (NPB.Char2SelectionDoneA && NPB.Char2SelectionDoneB && NPB.Char2SelectionDoneC)
                 Char2Box.SetActive(false);
             if (NPB.Char3SelectionDoneA && NPB.Char3SelectionDoneB && NPB.Char3SelectionDoneC)
                 Char3Box.SetActive(false);
