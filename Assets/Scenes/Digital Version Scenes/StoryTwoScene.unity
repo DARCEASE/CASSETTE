@@ -61174,6 +61174,12 @@ MonoBehaviour:
   Char3Box: {fileID: 1125126639}
   Char4Box: {fileID: 597732063}
   Char5Box: {fileID: 1978220702}
+  SubmitButtonGO: {fileID: 633632192}
+  CompletedChar1: 0
+  CompletedChar2: 0
+  CompletedChar3: 0
+  CompletedChar4: 0
+  CompletedChar5: 0
 --- !u!1 &1699370205
 GameObject:
   m_ObjectHideFlags: 0
