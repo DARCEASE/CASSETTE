@@ -25,10 +25,14 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // 10: Michael Interview
     // 11: Max (dropdown menu file)
     // 12: Max Interview
-    // 13: Newspaper Output Panel
-    // 14: Drafts Folder Panel (used to be STORYWRITE)
-    // 15: 
-  
+    // 13: Draft Folder (again?) Dint touch it so that I dont break anything
+    // 14: Newspaper Output Panel
+    // 15: Drafts Folder Panel (used to be STORYWRITE)
+    // 16: Exit Panel (again?)
+    // 17: Settings Menu 
+    // 18: Audio Settings 
+    // 19: Interface Settings
+
 
 
     void Start()
@@ -58,6 +62,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
     {
         FilePanels[i].gameObject.SetActive(false);
     }
+    
     public void QuitGame()
     {
         Application.Quit();

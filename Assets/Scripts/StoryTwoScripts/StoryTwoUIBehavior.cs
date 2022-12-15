@@ -30,7 +30,7 @@ public class StoryTwoUIBehavior : MonoBehaviour
     void Start()
     {
         
-        S2FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player 
+        //S2FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player 
 
     }
 
