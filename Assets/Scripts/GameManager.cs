@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
         
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
-        AFS.Update();
+        AFS.FormulaCalculation();
     }
     public void StartGame()
     {

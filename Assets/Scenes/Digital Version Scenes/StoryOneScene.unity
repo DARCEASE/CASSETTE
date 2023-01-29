@@ -25725,10 +25725,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22194674fe0b4a247a4e7c37816637bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entertainingVal: 50
-  credibleVal: 50
+  entertainingVal: 0
+  credibleVal: 0
   unbiasedVal: 100
   ratingNum: 1
+  floatAudienceVal: 0
   totalAudienceVal: 0
   E_equationVal: 0
   C_equationVal: 0
