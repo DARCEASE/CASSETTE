@@ -12,6 +12,9 @@ public class NewspaperBehavior : MonoBehaviour
 #region INITIALIZATIONS
     public string PlayerNewspaper, MuckrakerNewspaper, StatusQuoNewspaper, TabloidNewspaper, PlayerHeadline;
     
+    //Audience Feedback Script
+    public AudienceFeedbackScript ADS;
+
     //All paper holding strings
     string NovakMuckString, NovakSQString, NovakTabloidString;
     string JimMuckString, JimSQString, JimTabloidString;
@@ -73,23 +76,34 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             NovakSQOutputInt = 1;
             Char1SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal -= ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (NovakDPOne.value == 2)
         {
             statusQuoPaper+=1;
             NovakSQOutputInt = 2;
             Char1SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal -= ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (NovakDPOne.value == 3)
         {
             tabloidPaper+=1;
             NovakSQOutputInt = 3;
             Char1SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         //SQ
         if (NovakSQOutputInt == 1){
             NovakSQString = SQArticlePieces[0];
+
         } else if (NovakSQOutputInt == 2){
             NovakSQString = SQArticlePieces[1];
         } else if (NovakSQOutputInt == 3){
@@ -102,16 +116,27 @@ public class NewspaperBehavior : MonoBehaviour
         {
             muckrakerPaper+=1;
             Char1SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (NovakDPTwo.value == 2)
         {
             statusQuoPaper+=1;
             Char1SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal -= ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (NovakDPTwo.value == 3)
         {
             tabloidPaper+=1;
             Char1SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         } 
     }
     public void NovakDropC()
@@ -122,8 +147,10 @@ public class NewspaperBehavior : MonoBehaviour
             NovakOutputInt = 1;
             NovakTabOutputInt = 1;           
             Char1SelectionDoneC = true;
-            Debug.Log("JUMPED " + MuckrakerNewspaper);
-            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);           
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;        
         }
         else if (NovakDPThree.value == 2)
         {
@@ -131,8 +158,9 @@ public class NewspaperBehavior : MonoBehaviour
             NovakOutputInt = 2;
             NovakTabOutputInt = 2;
             Char1SelectionDoneC = true;
-            Debug.Log("FELL " + MuckrakerNewspaper);
-            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
+            //Feedback Vals
+            ADS.entertainingVal -= ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (NovakDPThree.value == 3)
         {
@@ -140,8 +168,10 @@ public class NewspaperBehavior : MonoBehaviour
             NovakOutputInt = 3;
             NovakTabOutputInt = 3;
             Char1SelectionDoneC = true;
-            Debug.Log("PUSHED " + MuckrakerNewspaper);
-            Debug.Log("1: " + NovakOutput1Bool + " 2: " + NovakOutput2Bool + " 3: " + NovakOutput3Bool);
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;        
         }
 
         //SHould change bools into ints to make it easier and clean things up.
@@ -172,18 +202,29 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             JimTabOutputInt = 1;
             Char2SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (JimDPOne.value == 2)
         {
             statusQuoPaper+=1;
             JimTabOutputInt = 2;
             Char2SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal -= ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JimDPOne.value == 3)
         {
             tabloidPaper+=1;
             JimTabOutputInt = 3;
             Char2SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         //Tabloid
@@ -204,6 +245,8 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             JimSQOutputInt = 1;
             Char2SelectionDoneB = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JimDPOne.value == 2)
         {
@@ -211,6 +254,9 @@ public class NewspaperBehavior : MonoBehaviour
             statusQuoPaper+=1;
             JimSQOutputInt = 2;
             Char2SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (JimDPOne.value == 3)
         {
@@ -218,6 +264,10 @@ public class NewspaperBehavior : MonoBehaviour
             tabloidPaper+=1;
             JimSQOutputInt = 3;
             Char2SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         //SQ
@@ -233,17 +283,20 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JimDPThree.value == 1) 
         {
-            //Debug.Log("JIM. Drop 3 Opt 1");
             muckrakerPaper+=1;
             JimOutputInt = 1;
             Char2SelectionDoneC = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JimDPThree.value == 2)
         {
-            //Debug.Log("JIM. Drop 3 Opt 2");
             statusQuoPaper+=1;
             Char2SelectionDoneC = true;
             JimOutputInt = 2;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JimDPThree.value == 3)
         {
@@ -251,6 +304,10 @@ public class NewspaperBehavior : MonoBehaviour
             tabloidPaper+=1;
             JimOutputInt = 3;
             Char2SelectionDoneC = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         if (JimOutputInt == 1){
@@ -270,18 +327,28 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             JuliaSQOutputInt = 1;
             Char3SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (JuliaDPOne.value == 2)
         {
             statusQuoPaper+=1;
             JuliaSQOutputInt = 2;
             Char3SelectionDoneA = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JuliaDPOne.value == 3)
         {
             tabloidPaper+=1;
             JuliaSQOutputInt = 3;
             Char3SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
          if (JuliaSQOutputInt == 1){
@@ -300,6 +367,9 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             Char3SelectionDoneB = true;
             JuliaOutputInt = 1;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal += ADS.ratingNum;
         }
         else if (JuliaDPTwo.value == 2)
         {
@@ -307,6 +377,8 @@ public class NewspaperBehavior : MonoBehaviour
             statusQuoPaper+=1;
             Char3SelectionDoneB = true;
             JuliaOutputInt = 2;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JuliaDPTwo.value == 3)
         {
@@ -314,6 +386,10 @@ public class NewspaperBehavior : MonoBehaviour
             tabloidPaper +=1;
             Char3SelectionDoneB = true;
             JuliaOutputInt = 3;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         if (JuliaOutputInt == 1){
@@ -331,18 +407,28 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             JuliaTabOutputInt = 1;
             Char3SelectionDoneC = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (JuliaDPThree.value == 2)
         {
             statusQuoPaper+=1;
             JuliaTabOutputInt = 2;
             Char3SelectionDoneC = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (JuliaDPThree.value == 3)
         {
             tabloidPaper+=1;
             JuliaTabOutputInt = 3;
             Char3SelectionDoneC = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         if (JuliaTabOutputInt  == 1){
@@ -365,6 +451,9 @@ public class NewspaperBehavior : MonoBehaviour
             MikeSQOutputInt = 1;
             MikeOutputInt = 1;
             Char5SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (MichaelDPOne.value == 2)
         {
@@ -374,6 +463,8 @@ public class NewspaperBehavior : MonoBehaviour
             MikeSQOutputInt = 2;
             MikeOutputInt = 2;
             Char5SelectionDoneA = true;
+            //Feedback Vals
+            ADS.credibleVal -= ADS.ratingNum;
         }
         else if (MichaelDPOne.value == 3)
         {
@@ -383,6 +474,10 @@ public class NewspaperBehavior : MonoBehaviour
             MikeSQOutputInt = 3;
             MikeOutputInt = 3;
             Char5SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         
@@ -419,39 +514,56 @@ public class NewspaperBehavior : MonoBehaviour
             //Debug.Log("MICHAEL. Drop 2 Opt 1");
             muckrakerPaper+=1;
             Char5SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (MichaelDPTwo.value == 2)
         {
             //Debug.Log("MICHAEL. Drop 2 Opt 2");
             statusQuoPaper+=1;
             Char5SelectionDoneB = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (MichaelDPTwo.value == 3)
         {
             //Debug.Log("MICHAEL. Drop 2 Opt 3");
             tabloidPaper+=1;
             Char5SelectionDoneB = true;
-
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
         }
     }
     public void MichaelDropC()
     {
-            if (MichaelDPThree.value == 1)
-            {
-                muckrakerPaper+=1;
-                Char5SelectionDoneC = true;
-            }
-            else if (MichaelDPThree.value == 2)
-            {
-                statusQuoPaper+=1;
-                Char5SelectionDoneC = true;
-            }
-            else if (MichaelDPThree.value == 3)
-            {
-                tabloidPaper+=1;
-                Char5SelectionDoneC = true;
-            }
+        if (MichaelDPThree.value == 1)
+        {
+            muckrakerPaper+=1;
+            Char5SelectionDoneC = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
         }
+        else if (MichaelDPThree.value == 2)
+        {
+            statusQuoPaper+=1;
+            Char5SelectionDoneC = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
+        }
+        else if (MichaelDPThree.value == 3)
+        {
+            tabloidPaper+=1;
+            Char5SelectionDoneC = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
+        }
+    }
 
     //MAX AP: 9-11
     public void MaxDropA()
@@ -462,6 +574,8 @@ public class NewspaperBehavior : MonoBehaviour
             MaxSQOutputInt = 1;
             MaxOutputInt = 1;
             Char4SelectionDoneA = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (MaxDPOne.value == 2)
         {
@@ -469,6 +583,8 @@ public class NewspaperBehavior : MonoBehaviour
             MaxSQOutputInt = 2;
             MaxOutputInt = 2;
             Char4SelectionDoneA = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (MaxDPOne.value == 3)
         {
@@ -476,6 +592,10 @@ public class NewspaperBehavior : MonoBehaviour
             MaxSQOutputInt = 3;
             MaxOutputInt = 3;
             Char4SelectionDoneA = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         
         if (MaxOutputInt == 1){
@@ -504,6 +624,10 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             MaxTabOutputInt = 1;
             Char4SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (MaxDPTwo.value == 2)
         {
@@ -511,6 +635,8 @@ public class NewspaperBehavior : MonoBehaviour
             statusQuoPaper+=1;
             MaxTabOutputInt = 2;
             Char4SelectionDoneB = true;
+            //Feedback Vals
+            ADS.credibleVal += ADS.ratingNum;
         }
         else if (MaxDPTwo.value == 3)
         {
@@ -518,6 +644,10 @@ public class NewspaperBehavior : MonoBehaviour
             tabloidPaper+=1;
             MaxTabOutputInt = 3;
             Char4SelectionDoneB = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
 
         if (MaxTabOutputInt == 1){
@@ -536,20 +666,29 @@ public class NewspaperBehavior : MonoBehaviour
             Debug.Log("MAX. Drop 3 Opt 1");
             muckrakerPaper+=1;
             Char4SelectionDoneC = true;
-
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (MaxDPThree.value == 2)
         {
             Debug.Log("MAX. Drop 3 Opt 2");
             statusQuoPaper+=1;
             Char4SelectionDoneC = true;
-
+            //Feedback Vals
+            ADS.credibleVal -= ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
         else if (MaxDPThree.value == 3)
         {
             Debug.Log("MAX. Drop 3 Opt 3");
             tabloidPaper+=1;
             Char4SelectionDoneC = true;
+            //Feedback Vals
+            ADS.entertainingVal += ADS.ratingNum;
+            ADS.credibleVal += ADS.ratingNum;
+            ADS.unbiasedVal -= ADS.ratingNum;
         }
     }
 

@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public AudienceFeedbackScript AFS;
+
     void Start()
     {
+        AFS = GetComponent<AudienceFeedbackScript>();
     }
 
     // Update is called once per frame
@@ -22,6 +25,7 @@ public class GameManager : MonoBehaviour
         
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
+        AFS.Update();
     }
     public void StartGame()
     {

@@ -25616,6 +25616,7 @@ GameObject:
   - component: {fileID: 608035560}
   - component: {fileID: 608035558}
   - component: {fileID: 608035561}
+  - component: {fileID: 608035562}
   m_Layer: 0
   m_Name: 'GameManager '
   m_TagString: Untagged
@@ -25635,6 +25636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60fa15d7229cc04d985f309d7d02053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFS: {fileID: 608035562}
 --- !u!4 &608035559
 Transform:
   m_ObjectHideFlags: 0
@@ -25711,6 +25713,27 @@ MonoBehaviour:
   tapTime: 0
   resetTimer: 0
   doubleClicked: 0
+--- !u!114 &608035562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608035557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22194674fe0b4a247a4e7c37816637bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entertainingVal: 50
+  credibleVal: 50
+  unbiasedVal: 100
+  ratingNum: 1
+  totalAudienceVal: 0
+  E_equationVal: 0
+  C_equationVal: 0
+  U_equationVal: 0
+  textAudNum: {fileID: 3503494}
 --- !u!1 &609906120
 GameObject:
   m_ObjectHideFlags: 0
@@ -58994,6 +59017,7 @@ MonoBehaviour:
   StatusQuoNewspaper: 
   TabloidNewspaper: 
   PlayerHeadline: 
+  ADS: {fileID: 608035562}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
   NovakOutputInt: 0
