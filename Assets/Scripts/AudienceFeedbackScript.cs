@@ -32,7 +32,7 @@ public class AudienceFeedbackScript : MonoBehaviour
         C_equationVal = (float) (Mathf.Pow(credibleVal, 2f)/DIVIDEBY100);
         U_equationVal = (float) (Mathf.Pow(unbiasedVal, 2f)/DIVIDEBY100);
 
-        floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000);
+        floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000); //May be causing stack overflow due to the decimal vals, added extra set of () to fix
         Debug.Log("The current audience score is " + totalAudienceVal);
         totalAudienceVal = (int) floatAudienceVal;
         textAudNum.text = FormulaCalculation().ToString();

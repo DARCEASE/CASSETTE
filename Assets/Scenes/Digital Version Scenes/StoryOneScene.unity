@@ -59018,7 +59018,7 @@ MonoBehaviour:
   StatusQuoNewspaper: 
   TabloidNewspaper: 
   PlayerHeadline: 
-  ADS: {fileID: 608035562}
+  AFS: {fileID: 608035562}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
   NovakOutputInt: 0
