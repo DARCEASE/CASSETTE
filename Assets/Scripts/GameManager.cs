@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public AudienceFeedbackScript AFS;
+
     void Start()
     {
+        AFS = GetComponent<AudienceFeedbackScript>();
     }
 
     // Update is called once per frame
@@ -17,17 +20,20 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("StoryOneScene");
         }
     }
+
     public void NextStory()
     {
         
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
+        //AFS.FormulaCalculation();
     }
+
     public void StartGame()
     {
-
         SceneManager.LoadScene("StoryOneScene");
         Debug.Log("BOOTING UP!");
+        
     }
 
     //temp function for the sake of time 
@@ -38,7 +44,8 @@ public class GameManager : MonoBehaviour
         Debug.Log("Thank you for playing :3");
 
     }
-        public void RestartGame()
+
+    public void RestartGame()
     {
         //For hybrid version, if the player hits replay, the comp should check to see if the scene is the hybrid scene, then restart the hybrid scene
         //Currently brings player from Hybrid to digital ver scene
