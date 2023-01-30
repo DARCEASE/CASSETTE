@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene("StoryOneScene");
+        SceneManager.LoadScene("HybridStoryOne");
         Debug.Log("BOOTING UP!");
         
     }
@@ -58,7 +59,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("StoryOneScene");
         }
         else{
-            SceneManager.LoadScene("HybridVersion");
+            SceneManager.LoadScene("HybridStoryOne");
         }
         
     }
