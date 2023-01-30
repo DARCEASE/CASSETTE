@@ -23,19 +23,19 @@ public class AudienceFeedbackScript : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        
+        FormulaCalculation();
     }
 
     public string FormulaCalculation(){
 
-        E_equationVal = (float) (Mathf.Pow(entertainingVal, 2f) /DIVIDEBY100);
+        E_equationVal = (float) (Mathf.Pow(entertainingVal, 2f)/DIVIDEBY100);
         C_equationVal = (float) (Mathf.Pow(credibleVal, 2f)/DIVIDEBY100);
         U_equationVal = (float) (Mathf.Pow(unbiasedVal, 2f)/DIVIDEBY100);
 
         floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000); //May be causing stack overflow due to the decimal vals, added extra set of () to fix
-        Debug.Log("The current audience score is " + totalAudienceVal);
         totalAudienceVal = (int) floatAudienceVal;
-        textAudNum.text = FormulaCalculation().ToString();
+        Debug.Log("The current audience score is " + totalAudienceVal);
+        textAudNum.text = totalAudienceVal.ToString();
         return textAudNum.text;
     }
 }

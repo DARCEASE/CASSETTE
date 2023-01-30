@@ -8,8 +8,10 @@ DON'T REMOVE/DESTROY IT OR ELSE ERRORS WILL HAPPEN!
 
 public class DontDestroyScript : MonoBehaviour
 {
+    public AudienceFeedbackScript AFS;
     void Update()
     {
+        AFS.Update();
         DontDestroyOnLoad(this.gameObject);
     }
 }
