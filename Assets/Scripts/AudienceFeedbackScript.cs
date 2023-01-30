@@ -56,9 +56,9 @@ public class AudienceFeedbackScript : MonoBehaviour
     }
 
     //Tonal boosts for papers
-    public int TonalBoosts(){
+   /* public int TonalBoosts(){
 
-        
-    }
+
+    }*/
 
 }
