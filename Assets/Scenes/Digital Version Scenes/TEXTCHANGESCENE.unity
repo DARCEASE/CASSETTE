@@ -12776,7 +12776,7 @@ GameObject:
   - component: {fileID: 304014703}
   - component: {fileID: 304014702}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MemoText (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16539,7 +16539,7 @@ GameObject:
   - component: {fileID: 388139098}
   - component: {fileID: 388139097}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: LogoutText (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73992,10 +73992,10 @@ MonoBehaviour:
   SettingsMenuDisplay: {fileID: 50307238}
   SoundsMenuDisplay: {fileID: 1908652264}
   InterfaceMenuDisplay: {fileID: 1424843997}
-  regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
-  dyslexFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
-  regFontTMP: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
-  dyslexFontTMP: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  regFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
+  dyslexFont: {fileID: 12800000, guid: 56ae6163912ba084394e45e930b41442, type: 3}
+  regFontTMP: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  dyslexFontTMP: {fileID: 11400000, guid: 7825dcc4041281b479227559b1c4ae0b, type: 2}
   testTextObj: {fileID: 0}
   allTextObjects:
   - {fileID: 1348841215}
