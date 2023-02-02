@@ -38,7 +38,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
     void Start()
     {
         //openOnDClick = GetComponent<DoubleClick>(); //GameObject.Find("DoubleClickHandler").
-        FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player 
+       // FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player 
       
     }
 
