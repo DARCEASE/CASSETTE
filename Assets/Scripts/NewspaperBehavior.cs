@@ -77,8 +77,8 @@ public class NewspaperBehavior : MonoBehaviour
             NovakSQOutputInt = 1;
             Char1SelectionDoneA = true;
             //Feedback Vals
-            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (NovakDPOne.value == 2)
         {
@@ -86,8 +86,7 @@ public class NewspaperBehavior : MonoBehaviour
             NovakSQOutputInt = 2;
             Char1SelectionDoneA = true;
             //Feedback Vals
-            AFS.entertainingVal -= AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
+            AFS.entertainingVal -= AFS.ratingNum;    
         }
         else if (NovakDPOne.value == 3)
         {
@@ -96,7 +95,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char1SelectionDoneA = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
             AFS.unbiasedVal -= AFS.ratingNum;
         }
 
@@ -118,16 +116,14 @@ public class NewspaperBehavior : MonoBehaviour
             Char1SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
         else if (NovakDPTwo.value == 2)
         {
             statusQuoPaper+=1;
             Char1SelectionDoneB = true;
             //Feedback Vals
-            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (NovakDPTwo.value == 3)
         {
@@ -135,8 +131,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char1SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         } 
     }
     public void NovakDropC()
@@ -150,7 +144,6 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;        
         }
         else if (NovakDPThree.value == 2)
         {
@@ -159,8 +152,8 @@ public class NewspaperBehavior : MonoBehaviour
             NovakTabOutputInt = 2;
             Char1SelectionDoneC = true;
             //Feedback Vals
-            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (NovakDPThree.value == 3)
         {
@@ -171,7 +164,6 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;        
         }
 
         //SHould change bools into ints to make it easier and clean things up.
@@ -204,8 +196,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneA = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
         else if (JimDPOne.value == 2)
         {
@@ -213,8 +203,8 @@ public class NewspaperBehavior : MonoBehaviour
             JimTabOutputInt = 2;
             Char2SelectionDoneA = true;
             //Feedback Vals
-            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (JimDPOne.value == 3)
         {
@@ -224,7 +214,6 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
 
         //Tabloid
@@ -247,6 +236,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneB = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;        
         }
         else if (JimDPOne.value == 2)
         {
@@ -256,7 +246,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
         else if (JimDPOne.value == 3)
         {
@@ -266,8 +255,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
 
         //SQ
@@ -288,6 +275,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneC = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (JimDPThree.value == 2)
         {
@@ -295,8 +283,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneC = true;
             JimOutputInt = 2;
             //Feedback Vals
-            AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
+            AFS.entertainingVal -= AFS.ratingNum;
         }
         else if (JimDPThree.value == 3)
         {
@@ -330,7 +317,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (JuliaDPOne.value == 2)
         {
@@ -368,6 +355,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char3SelectionDoneB = true;
             JuliaOutputInt = 1;
             //Feedback Vals
+            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
         }
@@ -379,6 +367,7 @@ public class NewspaperBehavior : MonoBehaviour
             JuliaOutputInt = 2;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (JuliaDPTwo.value == 3)
         {
@@ -389,7 +378,6 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
 
         if (JuliaOutputInt == 1){
@@ -409,8 +397,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char3SelectionDoneC = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
         else if (JuliaDPThree.value == 2)
         {
@@ -418,7 +404,9 @@ public class NewspaperBehavior : MonoBehaviour
             JuliaTabOutputInt = 2;
             Char3SelectionDoneC = true;
             //Feedback Vals
+            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (JuliaDPThree.value == 3)
         {
@@ -427,8 +415,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char3SelectionDoneC = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
 
         if (JuliaTabOutputInt  == 1){
@@ -454,6 +441,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MichaelDPOne.value == 2)
         {
@@ -464,7 +452,8 @@ public class NewspaperBehavior : MonoBehaviour
             MikeOutputInt = 2;
             Char5SelectionDoneA = true;
             //Feedback Vals
-            AFS.credibleVal -= AFS.ratingNum;
+            AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MichaelDPOne.value == 3)
         {
@@ -477,10 +466,8 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
 
-        
         if (MikeOutputInt == 1){
             MichaelMuckString = MuckrakerArticlePieces[12];
         } else if (MikeOutputInt == 2){
@@ -516,7 +503,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char5SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal -= AFS.ratingNum;
         }
         else if (MichaelDPTwo.value == 2)
@@ -526,6 +512,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char5SelectionDoneB = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MichaelDPTwo.value == 3)
         {
@@ -534,7 +521,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char5SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
+            AFS.credibleVal += AFS.ratingNum;
         }
     }
     public void MichaelDropC()
@@ -553,6 +540,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char5SelectionDoneC = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MichaelDPThree.value == 3)
         {
@@ -560,8 +548,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char5SelectionDoneC = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
     }
 
@@ -575,7 +561,7 @@ public class NewspaperBehavior : MonoBehaviour
             MaxOutputInt = 1;
             Char4SelectionDoneA = true;
             //Feedback Vals
-            AFS.credibleVal += AFS.ratingNum;
+            AFS.entertainingVal += AFS.ratingNum;
         }
         else if (MaxDPOne.value == 2)
         {
@@ -585,6 +571,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char4SelectionDoneA = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MaxDPOne.value == 3)
         {
@@ -594,8 +581,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char4SelectionDoneA = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
+            AFS.credibleVal += AFS.ratingNum;
         }
         
         if (MaxOutputInt == 1){
@@ -626,7 +612,6 @@ public class NewspaperBehavior : MonoBehaviour
             Char4SelectionDoneB = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal -= AFS.ratingNum;
         }
         else if (MaxDPTwo.value == 2)
@@ -637,6 +622,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char4SelectionDoneB = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MaxDPTwo.value == 3)
         {
@@ -647,7 +633,6 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
         }
 
         if (MaxTabOutputInt == 1){
@@ -669,7 +654,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MaxDPThree.value == 2)
         {
@@ -677,8 +662,9 @@ public class NewspaperBehavior : MonoBehaviour
             statusQuoPaper+=1;
             Char4SelectionDoneC = true;
             //Feedback Vals
+            AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
+            AFS.unbiasedVal += AFS.ratingNum;
         }
         else if (MaxDPThree.value == 3)
         {
@@ -687,8 +673,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char4SelectionDoneC = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
-            AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal -= AFS.ratingNum;
+            AFS.credibleVal -= AFS.ratingNum;
         }
     }
 
