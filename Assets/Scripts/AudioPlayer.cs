@@ -27,8 +27,6 @@ public class AudioPlayer : MonoBehaviour
     //Just in case we want to display the name too (since they would click within the player's file for this)
     public TMP_Text a_titleText, a_timeText;
 
-
-    //will allow the payer to scrub through it later
     void Start()
     {
         a_source = GetComponent<AudioSource>();
@@ -42,14 +40,8 @@ public class AudioPlayer : MonoBehaviour
 
     }
 
-
     void Update()
     {
-        /*
-            a_durationBar.transform.localScale = new Vector2(a_durationBar.transform.localScale.x, 0);
-            a_knob.transform.localPosition = new Vector2(a_durationBar.transform.localPosition.x, knob.transform.localPosition.y);
-            */
-
      
     }
 
@@ -66,8 +58,8 @@ public class AudioPlayer : MonoBehaviour
         if (!a_source.isPlaying){
                 a_source.Play();
             a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
-
         }
+
         StartCoroutine(WaitForClipEnd());
     }
 
@@ -75,7 +67,6 @@ public class AudioPlayer : MonoBehaviour
         if (a_source.isPlaying){
             a_source.Pause();
             a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
-
         }
     }
 
@@ -97,10 +88,7 @@ public class AudioPlayer : MonoBehaviour
     }
    
     void OnMouseDrag() {
-        //if (Input.GetMouseButtonDown(0)){
-             a_source.time = a_slider.value;
-             Debug.Log("Sliding");
-            
-        //}
+        a_source.time = a_slider.value;
+        Debug.Log("Sliding");  
     }
 }
