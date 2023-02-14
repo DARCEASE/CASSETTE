@@ -13,11 +13,19 @@ public class SettingsMenuController : MonoBehaviour
     //Font size (SLIDER)
     //Cursor size (SLIDER)
     //FONT CHANGE (CLICK BUTTON)
-    [SerializeField] Font regFont, dyslexFont; //KEP IN MIND: This should apply to ALL TEXT
+
     [SerializeField] Slider volSlider, fontSizeSlider, cursorSizeSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
     [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay;
     AudioSource[] audioContSources;
+    
+    //Text varis
+    bool isReg, isDyslex;
+    [SerializeField] Font regFont, dyslexFont; //KEP IN MIND: This should apply to ALL TEXT
+    [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP;
     [SerializeField] Text testTextObj;
+    [SerializeField] Text[] allTextObjects;
+    [SerializeField] TMP_Text[] allTMPTextObjects;
+
     //One for text (save that for last since that's the harder one)
 
     void Start()
@@ -26,11 +34,31 @@ public class SettingsMenuController : MonoBehaviour
         SettingsMenuDisplay.SetActive(false);
         //SoundsMenuDisplay.SetActive(false);
         //InterfaceMenuDisplay.SetActive(false);
+        
+        isReg = true;
+        isDyslex = false;
+        /*
+        for (int i = 0; i < allTextObjects.Length; i++){
+            allTextObjects[i].font = regFont;
+        }
+
+        for (int i = 0; i < allTMPTextObjects.Length; i++){
+            allTMPTextObjects[i].font = regFontTMP;
+        }*/
     }
 
     void Update()
     {
         volSlider.value = audioContSources[0].volume; //leaving this just in case we decide to add BG music again
+        if(Input.GetKeyDown(KeyCode.C) && isReg){
+            Debug.Log("Dyslex: " + isDyslex + ", Reg: " + isReg);
+                ChangeToDyslexicFont();
+                Debug.Log("is dys!");
+    
+        } else if(Input.GetKeyDown(KeyCode.C) && isDyslex){
+                ChangeToRegularFont();
+                Debug.Log("is reg!");
+        }
     }
 
     public void MuteSFX(){
@@ -45,12 +73,33 @@ public class SettingsMenuController : MonoBehaviour
 
     public void ChangeToRegularFont(){
         //CHANGE ALL TEXT TO REG FONT
-        testTextObj.font = regFont;
+        //testTextObj.font = regFont;
+        Debug.Log("Changed to reg");
+        isReg = true;
+        isDyslex = false;
+        for (int i = 0; i < allTextObjects.Length; i++){
+            allTextObjects[i].font = regFont;
+        }
+
+        for (int i = 0; i < allTMPTextObjects.Length; i++){
+            allTMPTextObjects[i].font = regFontTMP;
+        }
     }
 
     public void ChangeToDyslexicFont(){
         //CHANGE ALL TEXT TO DYSLEX FONT
-        testTextObj.font = dyslexFont;
+        //testTextObj.font = dyslexFont;
+        Debug.Log("Changed to dys");
+
+        isDyslex = true;
+        isReg = false;
+        for (int i = 0; i < allTextObjects.Length; i++){
+            allTextObjects[i].font = dyslexFont;
+        }
+
+        for (int i = 0; i < allTMPTextObjects.Length; i++){
+            allTMPTextObjects[i].font = dyslexFontTMP;
+        }
     }
 
     public void ShowSettingsMenu(){

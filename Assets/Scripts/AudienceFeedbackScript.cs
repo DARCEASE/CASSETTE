@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class AudienceFeedbackScript : MonoBehaviour
 {
     public int entertainingVal, credibleVal;
-    public int unbiasedVal = 100;
+    public int unbiasedVal = 25;
     public int ratingNum; //vals to add and subtract
     public float floatAudienceVal;
     public int totalAudienceVal;
@@ -24,10 +24,13 @@ public class AudienceFeedbackScript : MonoBehaviour
     void Start()
     {
         //Entertaining
+        entertainingVal = 25;
         sliderEntertaining.maxValue = 100;
         //Credible
+        credibleVal = 25;
         sliderCredible.maxValue = 100;
         //Unbiased
+        unbiasedVal = 25;
         sliderUnbiased.maxValue = 100;
     }
 
