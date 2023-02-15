@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 3503495}
   - component: {fileID: 3503494}
   m_Layer: 5
-  m_Name: totalreaders(TMP)
+  m_Name: totalreadersText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1157,7 +1157,7 @@ GameObject:
   - component: {fileID: 10396561}
   - component: {fileID: 10396560}
   m_Layer: 5
-  m_Name: SpaceAvailNum (1)
+  m_Name: SpaceAvailNumText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1515,7 +1515,7 @@ GameObject:
   - component: {fileID: 13152239}
   - component: {fileID: 13152238}
   m_Layer: 5
-  m_Name: Text
+  m_Name: EndDayButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2128,7 +2128,7 @@ GameObject:
   - component: {fileID: 35776629}
   - component: {fileID: 35776628}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: YesButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2907,7 +2907,6 @@ RectTransform:
   - {fileID: 1908652265}
   - {fileID: 1424843998}
   - {fileID: 190440246}
-  - {fileID: 436444144}
   m_Father: {fileID: 1722718662}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3222,7 +3221,7 @@ GameObject:
   - component: {fileID: 59397840}
   - component: {fileID: 59397839}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SOTText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5676,7 +5675,7 @@ GameObject:
   - component: {fileID: 117825767}
   - component: {fileID: 117825766}
   m_Layer: 5
-  m_Name: SpaceAvailNum (1)
+  m_Name: SpaceAvailNumText (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7627,7 +7626,7 @@ GameObject:
   - component: {fileID: 166179591}
   - component: {fileID: 166179590}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: JimDateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9338,7 +9337,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: ChangeToDyslexicFont
         m_Mode: 1
@@ -9917,7 +9916,7 @@ GameObject:
   - component: {fileID: 219087688}
   - component: {fileID: 219087687}
   m_Layer: 5
-  m_Name: ItemNum (1)
+  m_Name: ItemNumText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11188,7 +11187,7 @@ GameObject:
   - component: {fileID: 255517719}
   - component: {fileID: 255517718}
   m_Layer: 5
-  m_Name: DiskNum  (1)
+  m_Name: DiskNumText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11636,7 +11635,7 @@ GameObject:
   - component: {fileID: 279715743}
   - component: {fileID: 279715742}
   m_Layer: 5
-  m_Name: Text
+  m_Name: SubmitButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12910,7 +12909,7 @@ GameObject:
   - component: {fileID: 304014703}
   - component: {fileID: 304014702}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MemoButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14221,7 +14220,7 @@ GameObject:
   - component: {fileID: 326198534}
   - component: {fileID: 326198533}
   m_Layer: 5
-  m_Name: ItemNum (1)
+  m_Name: ItemNumText (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14861,7 +14860,7 @@ GameObject:
   - component: {fileID: 342573165}
   - component: {fileID: 342573164}
   m_Layer: 5
-  m_Name: ItemNum (1)
+  m_Name: ItemNum (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15766,7 +15765,7 @@ GameObject:
   - component: {fileID: 364623594}
   - component: {fileID: 364623593}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: FilesButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16673,7 +16672,7 @@ GameObject:
   - component: {fileID: 388139098}
   - component: {fileID: 388139097}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: LogoutButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18537,85 +18536,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434134825}
   m_CullTransparentMesh: 1
---- !u!1 &436444143
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 436444144}
-  - component: {fileID: 436444146}
-  - component: {fileID: 436444145}
-  m_Layer: 5
-  m_Name: TestText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &436444144
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436444143}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 50307239}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -76.97049, y: 108.242584}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &436444145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436444143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: New Text
---- !u!222 &436444146
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436444143}
-  m_CullTransparentMesh: 1
 --- !u!1 &437543873
 GameObject:
   m_ObjectHideFlags: 0
@@ -19052,7 +18972,7 @@ GameObject:
   - component: {fileID: 456433355}
   - component: {fileID: 456433354}
   m_Layer: 5
-  m_Name: Entertainingtxt(TMP)
+  m_Name: EntertainingText(TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22592,7 +22512,7 @@ GameObject:
   - component: {fileID: 516993897}
   - component: {fileID: 516993896}
   m_Layer: 5
-  m_Name: DiskNum  (1)
+  m_Name: DiskNum  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23679,7 +23599,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: ShowSettingsMenu
         m_Mode: 1
@@ -23950,7 +23870,7 @@ GameObject:
   - component: {fileID: 532583341}
   - component: {fileID: 532583340}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NextStoryButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26255,6 +26175,7 @@ GameObject:
   - component: {fileID: 608035558}
   - component: {fileID: 608035561}
   - component: {fileID: 608035562}
+  - component: {fileID: 608035563}
   m_Layer: 0
   m_Name: 'GameManager '
   m_TagString: Untagged
@@ -26376,6 +26297,79 @@ MonoBehaviour:
   sliderEntertaining: {fileID: 51349698}
   sliderCredible: {fileID: 1146673266}
   sliderUnbiased: {fileID: 484773995}
+--- !u!114 &608035563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608035557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6be9c482914904e95c61c7c80bcfe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volSlider: {fileID: 625758980}
+  fontSizeSlider: {fileID: 0}
+  cursorSizeSlider: {fileID: 0}
+  AudioContObj: {fileID: 1762230524}
+  SettingsMenuDisplay: {fileID: 50307238}
+  SoundsMenuDisplay: {fileID: 1908652264}
+  InterfaceMenuDisplay: {fileID: 1424843997}
+  regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
+  dyslexFont: {fileID: 12800000, guid: 56ae6163912ba084394e45e930b41442, type: 3}
+  regFontTMP: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
+  dyslexFontTMP: {fileID: 11400000, guid: 7825dcc4041281b479227559b1c4ae0b, type: 2}
+  allCharText:
+  - {fileID: 1518510946}
+  - {fileID: 1625320134}
+  - {fileID: 667408832}
+  - {fileID: 395121255}
+  - {fileID: 1466593913}
+  - {fileID: 2060825489}
+  - {fileID: 1058812827}
+  - {fileID: 177005634}
+  - {fileID: 1958584023}
+  - {fileID: 313253450}
+  allCharTMPText:
+  - {fileID: 1426122873}
+  - {fileID: 903007265}
+  - {fileID: 1654952556}
+  - {fileID: 2106992099}
+  - {fileID: 1307832999}
+  - {fileID: 2057916270}
+  - {fileID: 1004026854}
+  - {fileID: 1766196066}
+  - {fileID: 836239701}
+  - {fileID: 1391197997}
+  - {fileID: 964835350}
+  - {fileID: 903420438}
+  - {fileID: 1236195283}
+  - {fileID: 984209525}
+  - {fileID: 487518109}
+  - {fileID: 1176269868}
+  - {fileID: 712789477}
+  - {fileID: 1413617493}
+  - {fileID: 498093485}
+  - {fileID: 1793958989}
+  - {fileID: 1891169136}
+  - {fileID: 1991578359}
+  - {fileID: 1998170180}
+  - {fileID: 1919837788}
+  - {fileID: 2101371415}
+  - {fileID: 1346292725}
+  - {fileID: 1105620422}
+  - {fileID: 1809505012}
+  CompText: []
+  CompTMPText: []
+  allTitleText:
+  - {fileID: 1363433848}
+  allTitleTMPText:
+  - {fileID: 1426122873}
+  - {fileID: 1004026854}
+  - {fileID: 2057916270}
+  - {fileID: 984209525}
+  - {fileID: 0}
 --- !u!1 &609906120
 GameObject:
   m_ObjectHideFlags: 0
@@ -27039,10 +27033,10 @@ RectTransform:
   m_Children:
   - {fileID: 1426122872}
   - {fileID: 1914973237}
-  - {fileID: 1518510945}
   - {fileID: 1363433847}
   - {fileID: 1936185189}
   - {fileID: 1718858273}
+  - {fileID: 1518510945}
   m_Father: {fileID: 1743493946}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27657,7 +27651,7 @@ GameObject:
   - component: {fileID: 652065914}
   - component: {fileID: 652065913}
   m_Layer: 5
-  m_Name: Text (TMP) (3)
+  m_Name: JuliaDateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27917,7 +27911,7 @@ GameObject:
   - component: {fileID: 663796265}
   - component: {fileID: 663796264}
   m_Layer: 5
-  m_Name: DiskNum  (1)
+  m_Name: DiskNumText (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29460,7 +29454,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0.99999994, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -31089,7 +31083,7 @@ GameObject:
   - component: {fileID: 755394847}
   - component: {fileID: 755394846}
   m_Layer: 5
-  m_Name: Credibletxt(TMP)
+  m_Name: CredibleText(TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33003,7 +32997,7 @@ GameObject:
   - component: {fileID: 796942640}
   - component: {fileID: 796942639}
   m_Layer: 5
-  m_Name: DiskNum  (1)
+  m_Name: DiskNumText  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33270,7 +33264,7 @@ GameObject:
   - component: {fileID: 799291734}
   - component: {fileID: 799291733}
   m_Layer: 5
-  m_Name: Text (TMP) (3)
+  m_Name: MaxTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34222,7 +34216,7 @@ GameObject:
   - component: {fileID: 822673262}
   - component: {fileID: 822673261}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: MikeTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36537,7 +36531,7 @@ GameObject:
   - component: {fileID: 874848150}
   - component: {fileID: 874848149}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MikeTranscriptText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37363,7 +37357,7 @@ MonoBehaviour:
   m_margin: {x: 18.186417, y: -0.94104004, z: 21.217438, w: 1.4188843}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &895287735
@@ -38304,7 +38298,7 @@ GameObject:
   - component: {fileID: 912270822}
   - component: {fileID: 912270821}
   m_Layer: 5
-  m_Name: 'DiskNum '
+  m_Name: DiskNumText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38438,7 +38432,7 @@ GameObject:
   - component: {fileID: 913121546}
   - component: {fileID: 913121545}
   m_Layer: 5
-  m_Name: FLUFF TXT (2)
+  m_Name: FLUFFEditText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42146,7 +42140,7 @@ GameObject:
   - component: {fileID: 1003124268}
   - component: {fileID: 1003124267}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DetNovakTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43323,7 +43317,7 @@ GameObject:
   - component: {fileID: 1032880266}
   - component: {fileID: 1032880265}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: NoButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45708,7 +45702,7 @@ GameObject:
   - component: {fileID: 1083697070}
   - component: {fileID: 1083697069}
   m_Layer: 5
-  m_Name: SpaceAvailNum
+  m_Name: SpaceAvailText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45842,7 +45836,7 @@ GameObject:
   - component: {fileID: 1087889286}
   - component: {fileID: 1087889285}
   m_Layer: 5
-  m_Name: Text (TMP) (4)
+  m_Name: MaxDateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46528,7 +46522,7 @@ GameObject:
   - component: {fileID: 1104080767}
   - component: {fileID: 1104080766}
   m_Layer: 5
-  m_Name: 'feedbacktxt(TMP) '
+  m_Name: feedbackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49868,7 +49862,7 @@ GameObject:
   - component: {fileID: 1165607339}
   - component: {fileID: 1165607338}
   m_Layer: 5
-  m_Name: Text (TMP) (3)
+  m_Name: MikeDateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50791,7 +50785,7 @@ GameObject:
   - component: {fileID: 1190805169}
   - component: {fileID: 1190805168}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SFXOffButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51576,7 +51570,7 @@ GameObject:
   - component: {fileID: 1215064516}
   - component: {fileID: 1215064515}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: AnalButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51712,7 +51706,7 @@ GameObject:
   - component: {fileID: 1221120963}
   - component: {fileID: 1221120962}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: JimTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52991,7 +52985,7 @@ GameObject:
   - component: {fileID: 1242938248}
   - component: {fileID: 1242938247}
   m_Layer: 5
-  m_Name: ItemNum (1)
+  m_Name: ItemNumText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53332,7 +53326,7 @@ GameObject:
   - component: {fileID: 1249722613}
   - component: {fileID: 1249722612}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MemoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53744,7 +53738,7 @@ GameObject:
   - component: {fileID: 1265203192}
   - component: {fileID: 1265203191}
   m_Layer: 5
-  m_Name: FileSettings
+  m_Name: SettingsButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53985,7 +53979,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: UnmuteSFX
         m_Mode: 1
@@ -54327,7 +54321,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: MuteSFX
         m_Mode: 1
@@ -54394,7 +54388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58606,7 +58600,7 @@ GameObject:
   - component: {fileID: 1356661677}
   - component: {fileID: 1356661676}
   m_Layer: 5
-  m_Name: FLUFF TXT (1)
+  m_Name: FLUFF Text (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58877,7 +58871,7 @@ GameObject:
   - component: {fileID: 1358871416}
   - component: {fileID: 1358871417}
   m_Layer: 5
-  m_Name: NewspaperTester
+  m_Name: NewspaperText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58956,7 +58950,7 @@ GameObject:
   - component: {fileID: 1359060697}
   - component: {fileID: 1359060696}
   m_Layer: 5
-  m_Name: SpaceAvailNum (1)
+  m_Name: SpaceAvailNumText (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59144,7 +59138,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 630373161}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -59467,7 +59461,7 @@ GameObject:
   - component: {fileID: 1379979593}
   - component: {fileID: 1379979592}
   m_Layer: 5
-  m_Name: ItemNum
+  m_Name: ItemNumText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62751,7 +62745,7 @@ GameObject:
   - component: {fileID: 1422692921}
   - component: {fileID: 1422692920}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: JimTranscriptText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63190,7 +63184,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: ShowInterfaceSettingsOptions
         m_Mode: 1
@@ -65072,7 +65066,7 @@ GameObject:
   - component: {fileID: 1469803186}
   - component: {fileID: 1469803185}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SFXOnButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67280,7 +67274,7 @@ GameObject:
   - component: {fileID: 1508080770}
   - component: {fileID: 1508080769}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SettingsMenuTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67785,7 +67779,7 @@ GameObject:
   - component: {fileID: 1518510947}
   - component: {fileID: 1518510946}
   m_Layer: 5
-  m_Name: Person Name
+  m_Name: Person NameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67804,7 +67798,7 @@ RectTransform:
   m_Children:
   - {fileID: 1625320133}
   m_Father: {fileID: 630373161}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -68048,7 +68042,7 @@ GameObject:
   - component: {fileID: 1537567304}
   - component: {fileID: 1537567303}
   m_Layer: 5
-  m_Name: DiskNum  (1)
+  m_Name: DiskNumText  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68272,7 +68266,7 @@ GameObject:
   - component: {fileID: 1543369408}
   - component: {fileID: 1543369407}
   m_Layer: 5
-  m_Name: SpaceAvailNum (1)
+  m_Name: SpaceAvailNumText (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70011,7 +70005,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: ChangeToRegularFont
         m_Mode: 1
@@ -71662,7 +71656,7 @@ GameObject:
   - component: {fileID: 1628282224}
   - component: {fileID: 1628282223}
   m_Layer: 5
-  m_Name: FLUFF TXT
+  m_Name: FLUFFText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73472,7 +73466,7 @@ GameObject:
   - component: {fileID: 1676831444}
   - component: {fileID: 1676831443}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: JuliaTranscriptText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74265,7 +74259,7 @@ GameObject:
   - component: {fileID: 1706606709}
   - component: {fileID: 1706606708}
   m_Layer: 5
-  m_Name: Text (TMP) (5)
+  m_Name: JuliaTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74883,7 +74877,7 @@ RectTransform:
   - {fileID: 1469444850}
   - {fileID: 630886088}
   m_Father: {fileID: 630373161}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -75367,7 +75361,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1722718662}
-  - component: {fileID: 1722718663}
   m_Layer: 5
   m_Name: SettingsMenuGO
   m_TagString: Untagged
@@ -75397,32 +75390,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1722718663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722718661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e6be9c482914904e95c61c7c80bcfe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volSlider: {fileID: 625758980}
-  fontSizeSlider: {fileID: 0}
-  cursorSizeSlider: {fileID: 0}
-  AudioContObj: {fileID: 1762230524}
-  SettingsMenuDisplay: {fileID: 50307238}
-  SoundsMenuDisplay: {fileID: 1908652264}
-  InterfaceMenuDisplay: {fileID: 1424843997}
-  regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
-  dyslexFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
-  regFontTMP: {fileID: 0}
-  dyslexFontTMP: {fileID: 0}
-  testTextObj: {fileID: 436444145}
-  allTextObjects: []
-  allTMPTextObjects: []
 --- !u!1 &1727457622
 GameObject:
   m_ObjectHideFlags: 0
@@ -76061,7 +76028,7 @@ GameObject:
   - component: {fileID: 1750918978}
   - component: {fileID: 1750918977}
   m_Layer: 5
-  m_Name: Text
+  m_Name: SubButtText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79686,7 +79653,7 @@ GameObject:
   - component: {fileID: 1825047843}
   - component: {fileID: 1825047842}
   m_Layer: 5
-  m_Name: ItemNum (1)
+  m_Name: ItemNumText (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80031,7 +79998,7 @@ GameObject:
   - component: {fileID: 1832093381}
   - component: {fileID: 1832093380}
   m_Layer: 5
-  m_Name: 'Unbiasedtxt(TMP) '
+  m_Name: 'UnbiasedText(TMP) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80240,7 +80207,7 @@ GameObject:
   - component: {fileID: 1839468061}
   - component: {fileID: 1839468060}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: NovakDateText (TMP) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82830,7 +82797,7 @@ GameObject:
   - component: {fileID: 1901279706}
   - component: {fileID: 1901279705}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SOTText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83463,7 +83430,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722718663}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
         m_MethodName: ShowAudioSettingsOptions
         m_Mode: 1
@@ -84307,7 +84274,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 630373161}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -85441,7 +85408,7 @@ GameObject:
   - component: {fileID: 1974206179}
   - component: {fileID: 1974206178}
   m_Layer: 5
-  m_Name: SpaceAvailNum (1)
+  m_Name: SpaceAvailNum (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87172,7 +87139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2028775515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -89884,7 +89851,7 @@ GameObject:
   - component: {fileID: 2096632410}
   - component: {fileID: 2096632409}
   m_Layer: 5
-  m_Name: title(TMP)
+  m_Name: ReaderCountText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90907,7 +90874,7 @@ GameObject:
   - component: {fileID: 2111132689}
   - component: {fileID: 2111132688}
   m_Layer: 5
-  m_Name: Headline
+  m_Name: HeadlineText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91022,7 +90989,7 @@ GameObject:
   - component: {fileID: 2113795355}
   - component: {fileID: 2113795354}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MaxTranscriptText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

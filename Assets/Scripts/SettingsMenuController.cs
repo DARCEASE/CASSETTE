@@ -14,17 +14,35 @@ public class SettingsMenuController : MonoBehaviour
     //Cursor size (SLIDER)
     //FONT CHANGE (CLICK BUTTON)
 
+    //FONTS
+    // Lexend (Basic Dyslex font)
+    // Berk (Basic Reg font)
+    // Apple (Basic Title font)
+    // Lexend Bold (Dys Title font, make it bold AND italicized)
+
     [SerializeField] Slider volSlider, fontSizeSlider, cursorSizeSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
     [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay;
     AudioSource[] audioContSources;
     
     //Text varis
     bool isReg, isDyslex;
-    [SerializeField] Font regFont, dyslexFont; //KEP IN MIND: This should apply to ALL TEXT
+    [SerializeField] Font regFont, dyslexFont; //KEEP IN MIND: This should apply to ALL TEXT
     [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP;
-    [SerializeField] Text testTextObj;
-    [SerializeField] Text[] allTextObjects;
-    [SerializeField] TMP_Text[] allTMPTextObjects;
+    //[SerializeField] Text[] allTextObjects;
+    //[SerializeField] TMP_Text[] allTMPTextObjects;
+
+    //Character Texts (Interview Panels & Fill-in panels (includes choices))
+    [SerializeField] Text[] allCharText; //CHar fill in Panel Info
+    [SerializeField] TMP_Text[] allCharTMPText;
+
+    //Button Text
+    [SerializeField] Text[] CompText;
+    [SerializeField] TMP_Text[] CompTMPText;
+    
+    //Title text
+    [SerializeField] Text[] allTitleText;
+    [SerializeField] TMP_Text[] allTitleTMPText;
+ 
 
     //One for text (save that for last since that's the harder one)
 
@@ -77,12 +95,31 @@ public class SettingsMenuController : MonoBehaviour
         Debug.Log("Changed to reg");
         isReg = true;
         isDyslex = false;
-        for (int i = 0; i < allTextObjects.Length; i++){
-            allTextObjects[i].font = regFont;
+        //Char font
+        for (int i = 0; i < allCharText.Length; i++){
+            allCharText[i].font = regFont;
         }
 
-        for (int i = 0; i < allTMPTextObjects.Length; i++){
-            allTMPTextObjects[i].font = regFontTMP;
+        for (int i = 0; i < allCharTMPText.Length; i++){
+            allCharTMPText[i].font = regFontTMP;
+        }
+
+        //Comp font
+        for (int i = 0; i < CompText.Length; i++){
+            CompText[i].font = regFont;
+        }
+
+        for (int i = 0; i < CompTMPText.Length; i++){
+            CompTMPText[i].font = regFontTMP;
+        }
+
+        //TItle font
+        for (int i = 0; i < allTitleText.Length; i++){
+            allTitleText[i].font = regFont;
+        }
+
+        for (int i = 0; i < allTitleTMPText.Length; i++){
+            allTitleTMPText[i].font = regFontTMP;
         }
     }
 
@@ -93,12 +130,32 @@ public class SettingsMenuController : MonoBehaviour
 
         isDyslex = true;
         isReg = false;
-        for (int i = 0; i < allTextObjects.Length; i++){
-            allTextObjects[i].font = dyslexFont;
+        
+        //Char font
+        for (int i = 0; i < allCharText.Length; i++){
+            allCharText[i].font = dyslexFont;
         }
 
-        for (int i = 0; i < allTMPTextObjects.Length; i++){
-            allTMPTextObjects[i].font = dyslexFontTMP;
+        for (int i = 0; i < allCharTMPText.Length; i++){
+            allCharTMPText[i].font = dyslexFontTMP;
+        }
+
+        //Char font
+        for (int i = 0; i < CompText.Length; i++){
+            CompText[i].font = dyslexFont;
+        }
+
+        for (int i = 0; i < CompTMPText.Length; i++){
+            CompTMPText[i].font = dyslexFontTMP;
+        }
+
+        //TItle font
+        for (int i = 0; i < allTitleText.Length; i++){
+            allTitleText[i].font = dyslexFont;
+        }
+
+        for (int i = 0; i < allTitleTMPText.Length; i++){
+            allTitleTMPText[i].font = dyslexFontTMP;
         }
     }
 
