@@ -54394,7 +54394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -75409,8 +75409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e6be9c482914904e95c61c7c80bcfe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
-  dyslexFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
   volSlider: {fileID: 625758980}
   fontSizeSlider: {fileID: 0}
   cursorSizeSlider: {fileID: 0}
@@ -75418,7 +75416,13 @@ MonoBehaviour:
   SettingsMenuDisplay: {fileID: 50307238}
   SoundsMenuDisplay: {fileID: 1908652264}
   InterfaceMenuDisplay: {fileID: 1424843997}
+  regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
+  dyslexFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
+  regFontTMP: {fileID: 0}
+  dyslexFontTMP: {fileID: 0}
   testTextObj: {fileID: 436444145}
+  allTextObjects: []
+  allTMPTextObjects: []
 --- !u!1 &1727457622
 GameObject:
   m_ObjectHideFlags: 0
