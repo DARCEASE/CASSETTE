@@ -31,7 +31,7 @@ public class SettingsMenuController : MonoBehaviour
     //Text varis
     bool isReg, isDyslex;
     [SerializeField] Font regFont, dyslexFont; //KEEP IN MIND: This should apply to ALL TEXT
-    [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP;
+    [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP, intFontTMP;
     //[SerializeField] Text[] allTextObjects;
     //[SerializeField] TMP_Text[] allTMPTextObjects;
 
@@ -46,6 +46,9 @@ public class SettingsMenuController : MonoBehaviour
     //Title text
     [SerializeField] Text[] allTitleText;
     [SerializeField] TMP_Text[] allTitleTMPText;
+
+    //InterviewPanel text
+    [SerializeField] TMP_Text[] allInterviewTMPText;
  
 
     //One for text (save that for last since that's the harder one)
@@ -129,6 +132,15 @@ public class SettingsMenuController : MonoBehaviour
         for (int i = 0; i < allTitleTMPText.Length; i++){
             allTitleTMPText[i].font = regFontTMP;
         }
+
+        //Interview Font
+        for (int i = 0; i < allInterviewTMPText.Length; i++){
+            if (i % 3 == 0){
+                allInterviewTMPText[i].font = regFontTMP;
+            } else{
+                allInterviewTMPText[i].font = intFontTMP;
+            }
+        }
     }
 
     public void ChangeToDyslexicFont(){
@@ -177,6 +189,15 @@ public class SettingsMenuController : MonoBehaviour
 
         for (int i = 0; i < allTitleTMPText.Length; i++){
             allTitleTMPText[i].font = dyslexFontTMP;
+        }
+
+        //Interview Font
+        for (int i = 0; i < allInterviewTMPText.Length; i++){
+            if (i % 3 == 0){
+                allInterviewTMPText[i].font = dyslexFontTMP;
+            } else{
+                allInterviewTMPText[i].font = dyslexFontTMP;
+            }
         }
     }
 
