@@ -23,13 +23,14 @@ public class SettingsMenuController : MonoBehaviour
     [SerializeField] Slider volSlider, fontSizeSlider, cursorSizeSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
     [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay;
     AudioSource[] audioContSources;
-    int fontSizeReg = 70;
-    int fontSizeDys = 50;
-    int smallerfont;
+    int fontSizeTitleReg = 70;
+    int fontSizeTitleDys = 50;
+    int fontSizeReg = 12;
+    int fontSizeDys = 12;
     
     //Text varis
     bool isReg, isDyslex;
-    [SerializeField] Font regFont, dyslexFont, regFont_Apple; //KEEP IN MIND: This should apply to ALL TEXT
+    [SerializeField] Font regFont, dyslexFont; //KEEP IN MIND: This should apply to ALL TEXT
     [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP;
     //[SerializeField] Text[] allTextObjects;
     //[SerializeField] TMP_Text[] allTMPTextObjects;
@@ -65,13 +66,10 @@ public class SettingsMenuController : MonoBehaviour
     {
         volSlider.value = audioContSources[0].volume; //leaving this just in case we decide to add BG music again
         if(Input.GetKeyDown(KeyCode.C) && isReg){
-            Debug.Log("Dyslex: " + isDyslex + ", Reg: " + isReg);
                 ChangeToDyslexicFont();
-                Debug.Log("is dys!");
     
         } else if(Input.GetKeyDown(KeyCode.C) && isDyslex){
                 ChangeToRegularFont();
-                Debug.Log("is reg!");
         }
     }
 
@@ -88,22 +86,30 @@ public class SettingsMenuController : MonoBehaviour
     public void ChangeToRegularFont(){
         //CHANGE ALL TEXT TO REG FONT
         //testTextObj.font = regFont;
-        Debug.Log("Changed to reg");
         isReg = true;
         isDyslex = false;
         //Char font
         for (int i = 0; i < allCharText.Length; i++){
             allCharText[i].font = regFont;
+            if (allCharText[i].fontSize == fontSizeTitleDys){
+                allCharText[i].fontSize = fontSizeTitleReg;
+            }
             if (allCharText[i].fontSize == fontSizeDys){
                 allCharText[i].fontSize = fontSizeReg;
             }
+
+            Debug.Log("Char text " + i);
         }
 
         for (int i = 0; i < allCharTMPText.Length; i++){
             allCharTMPText[i].font = regFontTMP;
-            if (allCharText[i].fontSize == fontSizeDys){
-                allCharText[i].fontSize = fontSizeReg;
+            if (allCharTMPText[i].fontSize == fontSizeTitleDys){
+                allCharTMPText[i].fontSize = fontSizeTitleDys;
             }
+            if (allCharTMPText[i].fontSize == fontSizeDys){
+                allCharTMPText[i].fontSize = fontSizeReg;
+            }
+            Debug.Log("Char TMP " + i);
         }
 
         //Comp font
@@ -128,7 +134,6 @@ public class SettingsMenuController : MonoBehaviour
     public void ChangeToDyslexicFont(){
         //CHANGE ALL TEXT TO DYSLEX FONT
         //testTextObj.font = dyslexFont;
-        Debug.Log("Changed to dys");
 
         isDyslex = true;
         isReg = false;
@@ -136,16 +141,24 @@ public class SettingsMenuController : MonoBehaviour
         //Char font
         for (int i = 0; i < allCharText.Length; i++){
             allCharText[i].font = dyslexFont;
+            if (allCharText[i].fontSize == fontSizeTitleReg){
+                allCharText[i].fontSize = fontSizeTitleDys;
+            }//*/
             if (allCharText[i].fontSize == fontSizeReg){
                 allCharText[i].fontSize = fontSizeDys;
             }
+            Debug.Log("ALl Char Text " + i);
         }
 
         for (int i = 0; i < allCharTMPText.Length; i++){
             allCharTMPText[i].font = dyslexFontTMP;
-            if (allCharText[i].fontSize == fontSizeReg){
-                allCharText[i].fontSize = fontSizeDys;
+            if (allCharTMPText[i].fontSize == fontSizeTitleReg){
+                allCharTMPText[i].fontSize = fontSizeTitleDys;
             }
+            if (allCharTMPText[i].fontSize == fontSizeReg){
+                allCharTMPText[i].fontSize = fontSizeDys;
+            }//*/
+            Debug.Log("All Char TMP " + i);
         }
 
         //Char font

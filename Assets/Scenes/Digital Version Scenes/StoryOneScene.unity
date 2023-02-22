@@ -26318,7 +26318,6 @@ MonoBehaviour:
   InterfaceMenuDisplay: {fileID: 1424843997}
   regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
   dyslexFont: {fileID: 12800000, guid: 56ae6163912ba084394e45e930b41442, type: 3}
-  regFont_Apple: {fileID: 0}
   regFontTMP: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   dyslexFontTMP: {fileID: 11400000, guid: 7825dcc4041281b479227559b1c4ae0b, type: 2}
   allCharText:
@@ -26370,7 +26369,6 @@ MonoBehaviour:
   - {fileID: 1004026854}
   - {fileID: 2057916270}
   - {fileID: 984209525}
-  - {fileID: 0}
 --- !u!1 &609906120
 GameObject:
   m_ObjectHideFlags: 0
@@ -87140,7 +87138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2028775515
 RectTransform:
   m_ObjectHideFlags: 0
