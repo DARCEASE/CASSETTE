@@ -31,7 +31,8 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // 16: Exit Panel (again?)
     // 17: Settings Menu 
     // 18: Audio Settings 
-    // 19: Interface Settings
+    // 19: Analytics App Panel
+    //20 
 
 
 
