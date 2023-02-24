@@ -52,9 +52,9 @@ public class DragWindows : MonoBehaviour, IDragHandler, IPointerDownHandler
             DragXPos = 430;
         }
  
-        if (DragYPos >= 15) //less than
+        if (DragYPos >= 175) //less than
         {
-            DragYPos = 15;
+            DragYPos = 175;
         }
  
         if (DragYPos <= -200)
