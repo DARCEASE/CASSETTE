@@ -21476,7 +21476,7 @@ RectTransform:
   m_Father: {fileID: 2145117684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.81740725}
+  m_AnchorMin: {x: 0, y: 0.8283577}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -25450,8 +25450,8 @@ RectTransform:
   m_Father: {fileID: 917591109}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.00057801604, y: 0}
+  m_AnchorMax: {x: 0.99942195, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -30664,7 +30664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &841432319
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30728,8 +30728,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 710891166}
   m_HandleRect: {fileID: 710891165}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.99999994
+  m_Value: 0.5
+  m_Size: 0.99884397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -32410,11 +32410,11 @@ RectTransform:
   m_Father: {fileID: 1072150779}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4400024, y: -29.3393}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 427.7463, y: 1115.804}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &895287734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32435,34 +32435,37 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Franziska Stohler\r\n\r\n\nDo you hear this music? Great stuff! I\u2019m
-    from Berlin, they have a crazy nightlife there! But I\u2019m in New York for
-    Frankie Bones. The Future is Ours! He\u2019s got a\u2013 uh\u2013 a \u201Cgenerator
-    party\u201D here, you should come! Have some fun!\r\n\r\nOh, that\u2019s a camera
-    bag! I photograph the Technoszene in Berlin. I take a lot of pictures. It\u2019s
-    good to document things. I photographed the Berlin Wall when it fell. It was
-    so great to know that the war was finally over! But the nightlife photos are
-    more important. That\u2019s where Germany really came back together \u2013 on
-    the dance floor!\r\n\r\nOh, you have questions about the restaurant, N-Nadezhda?
-    Yes, I was there with my cousin, very scary. People walked in and started shooting
-    at a group of customers, and then the customers started shooting back! It was
-    very loud \u2013 bang-bang-bang \u2013 and my cousin Guy got hit by a bullet
-    right here! After a few seconds, the shooting people ran away, and then the customers
-    ran too \u2013 even some of the ones with bullets in them! Someone told me it
-    was the Russian and the Italian mob. That\u2019s crazy! Does that kind of thing
-    happen a lot here?\r\n\r\nYes, Guy is my cousin. I invited him to come with me
-    here, to get his mind off the injury, but he said no! He doesn\u2019t come with
-    me to parties, he doesn\u2019t like to have fun. He\u2019s a\u2013 a stiff kind
-    of person, you know? But underneath I think he\u2019s really sensitive! He\u2019s
-    a nice person, very kind, I\u2019m glad he\u2019s alright.\r\n\r\nYes I\u2019m
-    out dancing! [Obviously!] Sure, there were guns and bullets, but I\u2019m still
-    alive. Man muss die Dinge nehmen, wie sie kommen. People build walls and people
-    tear walls down. Countries break apart and countries merge together. Someone
-    probably drops nukes on us tomorrow, but right now, we don\u2019t stop dancing!
-    There is no future! Peace, love, unity! Come on!\r\n"
+  m_text: "\nFranziska Stohler\r\n\r\n[Franziska is a tourist from Berlin, Germany,
+    visiting their cousin Guy. She is an avid participant in the Berlin techno scene
+    \u2013 it defines her life and her outlook.]\n\n\r\nFranziska: Do you hear this
+    music? Great stuff! I\u2019m from Berlin, they have a crazy nightlife there!
+    But I\u2019m in New York for Frankie Bones. The Future is Ours! He\u2019s got
+    a\u2013 uh\u2013 a \u201Cgenerator party\u201D here, you should come! Have some
+    fun!\r\n\r\nFranziska: Oh, that\u2019s a camera bag! I photograph the Technoszene
+    in Berlin. I take a lot of pictures. It\u2019s good to document things. I photographed
+    the Berlin Wall when it fell. It was so great to know that the war was finally
+    over! But the nightlife photos are more important. That\u2019s where Germany
+    really came back together \u2013 on the dance floor!\r\n\r\nFranziska: Oh, you
+    have questions about the restaurant, N-Nadezhda? Yes, I was there with my cousin,
+    very scary. People walked in and started shooting at a group of customers, and
+    then the customers started shooting back! It was very loud \u2013 bang-bang-bang
+    \u2013 and my cousin Guy got hit by a bullet right here! After a few seconds,
+    the shooting people ran away, and then the customers ran too \u2013 even some
+    of the ones with bullets in them! Someone told me it was the Russian and the
+    Italian mob. That\u2019s crazy! Does that kind of thing happen a lot here?\r\n\r\nFranziska:
+    Yes, Guy is my cousin. I invited him to come with me here, to get his mind off
+    the injury, but he said no! He doesn\u2019t come with me to parties, he doesn\u2019t
+    like to have fun. He\u2019s a\u2013 a stiff kind of person, you know? But underneath
+    I think he\u2019s really sensitive! He\u2019s a nice person, very kind, I\u2019m
+    glad he\u2019s alright.\r\n\r\nFranziska: Yes I\u2019m out dancing! [Obviously!]
+    Sure, there were guns and bullets, but I\u2019m still alive. Man muss die Dinge
+    nehmen, wie sie kommen. People build walls and people tear walls down. Countries
+    break apart and countries merge together. Someone probably drops nukes on us
+    tomorrow, but right now, we don\u2019t stop dancing! There is no future! Peace,
+    love, unity! Come on!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
-  m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32525,7 +32528,7 @@ MonoBehaviour:
   m_margin: {x: 18.186417, y: -0.94104004, z: 21.217438, w: 1.4188843}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &895287735
@@ -40326,11 +40329,11 @@ RectTransform:
   m_Father: {fileID: 2025792041}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 1081.5095}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_SizeDelta: {x: 346, y: 1150.5076}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1073894982
 GameObject:
   m_ObjectHideFlags: 0
@@ -56982,8 +56985,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 577281580}
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.18259275
+  m_Value: 1
+  m_Size: 0.17164233
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
