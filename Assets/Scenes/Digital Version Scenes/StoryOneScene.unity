@@ -205,8 +205,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150166149}
   m_HandleRect: {fileID: 1150166148}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.20740591
+  m_Value: 1
+  m_Size: 0.11493063
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1617,9 +1617,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -19.0107, y: -20.2045}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &13238874
 MonoBehaviour:
@@ -3905,11 +3905,11 @@ RectTransform:
   m_Father: {fileID: 1443335411}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 891.2637}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0}
+  m_SizeDelta: {x: 346, y: 891.2637}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &69321755
 GameObject:
   m_ObjectHideFlags: 0
@@ -5218,7 +5218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &97220002
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13082,8 +13082,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1164860416}
   m_HandleRect: {fileID: 1164860415}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.5
+  m_Size: 0.99884397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -18184,8 +18184,8 @@ RectTransform:
   m_Father: {fileID: 1359777232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.00057801604, y: 0}
+  m_AnchorMax: {x: 0.99942195, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -18813,11 +18813,11 @@ RectTransform:
   m_Father: {fileID: 2009743856}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 949.72}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.19998169, y: 0}
+  m_SizeDelta: {x: 346, y: 1867.1711}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433140032
 GameObject:
   m_ObjectHideFlags: 0
@@ -25572,7 +25572,7 @@ RectTransform:
   m_Father: {fileID: 2145117684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.77843165}
+  m_AnchorMin: {x: 0, y: 0.852852}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -26420,11 +26420,11 @@ RectTransform:
   m_Father: {fileID: 706037743}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 952.1223}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_SizeDelta: {x: 346, y: 1718.2173}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &601740682
 GameObject:
   m_ObjectHideFlags: 0
@@ -30301,8 +30301,8 @@ RectTransform:
   m_Father: {fileID: 917591109}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.99999994, y: 1}
+  m_AnchorMin: {x: 0.0011560321, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -33312,8 +33312,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1881143227}
   m_HandleRect: {fileID: 1881143226}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.20793054
+  m_Value: 1
+  m_Size: 0.10576203
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -33778,8 +33778,8 @@ RectTransform:
   m_Father: {fileID: 1287405347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.50052077, y: 0}
+  m_AnchorMax: {x: 0.9999809, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -36344,8 +36344,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 710891166}
   m_HandleRect: {fileID: 710891165}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.99999994
+  m_Value: 1.0000763
+  m_Size: 0.99884397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -37887,7 +37887,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 15
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -38400,7 +38400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -14.87}
+  m_AnchoredPosition: {x: 0, y: -9.6}
   m_SizeDelta: {x: 427.7463, y: 1115.804}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &895287734
@@ -38423,28 +38423,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detective Novak\r\n\r\n\n\nThe official statement from the department
-    is that Mr. Robert Evergreen\u2019s body was found on the sidewalk early Monday
-    morning, outside his place of work. He appeared to have fallen from a great height,
-    and death was likely instantaneous upon impact. The department does not, at this
-    time, wish to speculate on the specific manner of the death, whether it was accident,
-    murder, or suicide, as the investigation is still ongoing. We will update the
-    public when it is appropriate. So, please, no more questions.\r\n\r\n...look,
-    off the record? Of course I knew about Mr. Evergreen. Everyone in this city did.
-    The man was practically a case study in the American Dream. Started from nothing,
-    built up a successful business and eventually made his way to success in New
-    York. Beautiful wife - well, ex-wife - beautiful children, beautiful home in
-    the city. Fortune five hundred company, or at least on the way there.\r\n\r\nThose
-    kids - Jim and Julia, I think? - as far as I know, they\u2019re his only next
-    of kin. Well, and his ex-wife. Beautiful woman. Not sure why he\u2019d divorce
-    a fox like that. About as amicable as a divorce with the rich and famous could
-    be, I guess. I remember reading about it in the society pages...what? A guy like
-    me can\u2019t be interested in the lives of the hoity-toity upper class? That
-    happened a couple of years ago.\r\n\r\nSince then? Well, I guess he\u2019s been
-    a... \u201Cconfirmed bachelor\u201D, if you catch my meaning. He certainly hasn\u2019t
-    been spotted with any special lady friends. Look, what a man does in his own
-    private life is none of my business. So long as none of it ends up on page six
-    or in a holding cell whatever blows your skirt up is fine and dandy with me\r\n"
+  m_text: "Detective Novak\r\n\r\n\n\nLook, the official statement of the NYPD at
+    this point is that the investigation is ongoing. Mr. Evergreen was found dead
+    on the sidewalk on Monday morning.\r\n\r\nApparently, he\u2019d fallen from a
+    great height. This probably happened either late Sunday night or maybe even early
+    Monday morning.\r\n\r\nFor now we don\u2019t know the manner of death, or whether
+    Mr. Evergreen\u2019s death was the result of a homicide, accident, or suicide.
+    It would be improper for us to speculate on it at the moment. We will inform
+    the public of more when it is appropriate to do so.\r\n\nYeah, yeah, right, deep
+    fuckin background. I gotcha.  \r\n\r\nI mean, I'm just as surprised about this
+    as you are.\r\n\r\nOf course I knew about Mr. Evergreen, the man was a living
+    legend. Built a business outta nothing, made a fuckin fortune and went on to
+    marry one hell of a broad and ended up with 2 kids.\r\n\r\n Uhhh, think it was,
+    somethin with J\u2026 Julia and Jim. Yeah they\u2019re his only kids, as far
+    as I know.\r\n\r\nNo, not the wife. I mean ex-wife now, they divorced 5 years
+    ago.\r\n\r\nAbout as amicable as things can get with the rich and famous.\r \nThere
+    weren\u2019t any big courtroom brawls or anything that I know bout. \r\nJust
+    kind of a quiet announcement in the society pages.\r\n\r\nWhat, a guy like me
+    can't read the paper? Yeah right. \r\n\r\nWhat? I mean, since then? No, no one
+    else has been in his life. Not that I know of.\r\n\r\nHe hasn\u2019t been seen
+    with any special lady friend. I mean, there are the rumors but\u2026\r\n\r\nWell,
+    rumors going around sayin, uh, Mr. Evergreen was something of a, uh, \u201Cconfirmed
+    bachelor\u201D? I mean, not exactly my taste, but it\u2019s the 90s and love
+    is love I guess.\r\n\r\nLook, what a man does in his private life, that\u2019s,
+    that\u2019s no business of mine? So long as it doesn\u2019t end up on page six
+    or a holding cell.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -38483,7 +38486,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 15
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -40014,7 +40017,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4877bb72f263f7b48875932aae7f4df5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6761d1de23e643b45805da5d0f824841, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.472
   m_Pitch: 1
@@ -44406,8 +44409,8 @@ RectTransform:
   m_Father: {fileID: 1371694144}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.70913327}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.3972, y: 0}
   m_SizeDelta: {x: 14.6759, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -44893,9 +44896,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 22.0107, y: 0}
+  m_SizeDelta: {x: 22.0107, y: -20.2045}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1024168915
 MonoBehaviour:
@@ -45930,8 +45933,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 408616600}
   m_HandleRect: {fileID: 408616599}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 1
+  m_Value: 0.5
+  m_Size: 0.99884397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -46858,8 +46861,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 792687037}
   m_HandleRect: {fileID: 792687036}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.99999994
+  m_Value: 0.99996185
+  m_Size: 0.49946013
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -47067,11 +47070,11 @@ RectTransform:
   m_Father: {fileID: 2025792041}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 891.2637}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.19999695, y: 0}
+  m_SizeDelta: {x: 346, y: 1342.0212}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1073894982
 GameObject:
   m_ObjectHideFlags: 0
@@ -51414,7 +51417,7 @@ RectTransform:
   m_Father: {fileID: 140728778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7925941}
+  m_AnchorMin: {x: 0, y: 0.8850694}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -51946,8 +51949,8 @@ RectTransform:
   m_Father: {fileID: 199692064}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.00057801604, y: 0}
+  m_AnchorMax: {x: 0.99942195, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -57398,7 +57401,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 158.35623, y: 1.3396}
   m_SizeDelta: {x: -296.7122, y: 17.3207}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -57759,9 +57762,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: -5.612}
-  m_SizeDelta: {x: 0, y: 23.2045}
+  m_SizeDelta: {x: -19.0107, y: 23.2045}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1303746401
 MonoBehaviour:
@@ -63272,11 +63275,11 @@ RectTransform:
   m_Father: {fileID: 57005364}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 891.2637}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_SizeDelta: {x: 346, y: 1045.8562}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1406195666
 GameObject:
   m_ObjectHideFlags: 0
@@ -64036,16 +64039,20 @@ MonoBehaviour:
     the building\u2019s upper floors. Mr. Evergreen was the CEO of Abundantia Investments.
     He was a father of two and a friend to many. He was also a closeted gay man in
     a secret relationship with a US service member.\r\n\r\n"
-  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+  - 'Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having apparently fallen from a great height. Mr.
-    Evergreen was the CEO of Abundantia Investments. He was a father of two and a
-    friend to many. He was also a closeted gay man in a secret relationship with
-    a US service member.\r\n\r"
-  - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
-    his workplace Monday morning, having possibly been thrown from one of the building\u2019s
-    upper floors. Mr. Evergreen was the CEO of Abundantia Investments. He was a father
-    of two and a friend to many. He was also a closeted gay man in a secret relationship
-    with a US service member.\r\n\r\n"
+    Evergreen was the CEO of Abundantia Investments, a father of two, and a friend
+    to many. He was also a closeted gay man in a secret relationship with a US service
+    member.
+
+'
+  - 'Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
+    his workplace Monday morning, having possibly been thrown from an upper floor.
+    Mr. Evergreen was the CEO of Abundantia Investments, a father of two, and a friend
+    to many. He was also a closeted gay man in a secret relationship with a US service
+    member.
+
+'
   - "Jim, on the other hand, had a much more complicated relationship with Mr. Evergreen.
     Jim didn\u2019t take his parents\u2019 divorce well, and when he discovered his
     father\u2019s homosexuality, his relationship with Mr. Evergreen became even
@@ -65516,29 +65523,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jim Evergreen\r\n\r\n\nI\u2019ve gotta be honest with you; there\u2019s
-    a lot you don\u2019t know about my dad. Sure, he seems like some kind of major
-    success story -- rags to riches and all that -- big powerful company man -- the
-    kinda guy that has his whooole life together. But I\u2019m family. I knew him
-    better than anybody. I know what he was like when no-one was lookin\u2019.\r\n\r\nHe
-    was a fine father to me and Julia growin\u2019 up -- he and mom bought a house
-    in the suburbs to raise us. Nice neighborhood, nice school. But as soon as me
-    and Julia moved out and started our own lives, somethin\u2019 changed.\r\n\r\nI
-    tried so hard to stay in touch with him, and he hardly acknowledged me. He never
-    picked up the phone when I called, never answered the door when I came to see
-    him. And on the rare occasion that he \u201Cgraced our Thanksgiving table with
-    his presence,\u201D he barely said a word to me. Barely even looked at me!\r\n\r\nI
-    dunno\u2026 I guess he decided we weren\u2019t good enough for him anymore. I
-    guess he decided that his wife and kids weren\u2019t worth nothin\u2019 to him
-    anymore and he did his best to shake us off. He ditched mom five years ago, and
-    now -- ! Now he\u2019s with that guy. He kicks our mother to the curb and replaces
-    her with that kid!? It\u2019s bullshit, man! I bet he spends more time with him
-    than he does with any of his actual family!\r\n\r\n...Look. When you ask around
-    about my dad, everyone\u2019s gonna have their own story to tell you. They\u2019re
-    gonna tell you about all the good stuff he did, all the deals he made, all the
-    \u201Clives he changed.\u201D Julia\u2019s gonna make excuses for him like she
-    always did. But don\u2019t forget what I told you, alright? I\u2019m family.
-    I knew him better than anybody.\r\n"
+  m_text: "Jim Evergreen\r\n\r\n\nListen \u2013 there\u2019s a lot that you don\u2019t
+    know about my dad. Sure, yeah, he seems like some kinda major success story,
+    rags to riches, big company man \u2013 but I, I knew him better than anybody,
+    I knew what he was like \u2013 when nobody else was lookin\u2019.\r\n\r\nHe was
+    a fine dad when Julia and I were growin\u2019 up. Y\u2019know, he and mom had
+    a nice house in the suburbs, sent us to a nice school \u2013 but as soon as Julia
+    and I moved out to start our own lives? Somethin\u2019 changed.\r\n\r\nI did
+    my best to stay in touch with him. I really tried! But whenever I tried to call
+    him \u2013 wouldn\u2019t answer the phone. When I would come to his house and
+    knock on his door \u2013 he wouldn\u2019t answer. Whenever he decided to grace
+    our Thanksgiving table with his presence \u2013 hardly say a word to me \u2013
+    hardly looked at me!\r\n\r\nI guess he musta decided that\u2026 we weren\u2019t
+    good enough for him anymore. I guess he decided that me, Julia, and mom, none
+    of us were good enough for him anymore, \u2018n he decided it was time to ditch
+    us. He ditched mom straight away, and then replaced her! Right after that! God,
+    that fuckin\u2019 guy he\u2019s with now\u2026 it\u2019s bullshit! He probably
+    spends more time with him than he does with his actual family.\r\n\r\nListen
+    \u2013 eeeverybody\u2019s gonna tell you the same old story. They\u2019re gonna
+    talk about how great he was, they\u2019re gonna talk about all the wonderful
+    things he did, all the lives that he changed. Julia\u2019s gonna make excuses
+    for him like she always does. Always did. But I\u2019m \u2013 I\u2019m family.
+    I saw a side of him that the rest of those people never did. Don\u2019t forget
+    what I told you. I knew him better than anybody.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -65577,7 +65584,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 15
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -65604,7 +65611,7 @@ MonoBehaviour:
   m_margin: {x: 18.186417, y: -0.94104004, z: 21.217438, w: 1.4188843}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1422692921
@@ -66042,8 +66049,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 577281580}
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.22156833
+  m_Value: 1
+  m_Size: 0.14714804
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -76643,7 +76650,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -14.87}
-  m_SizeDelta: {x: 427.7463, y: 1115.804}
+  m_SizeDelta: {x: 427.7463, y: 1479.9}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1676831443
 MonoBehaviour:
@@ -76665,30 +76672,43 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Julia Anderson\r\n\r\n\nI don\u2019t know what you want me to tell you.
-    My father was a happy, successful man. He took pride in his business. He loved
-    his family. He was so excited to meet his grandchild - ah, five months, now...no,
-    we don\u2019t yet know what they\u2019ll be... however he died, I can\u2019t
-    believe Dad would take his own life. Whatever the cause, it wasn\u2019t suicide.\r\n\r\n...yes,
-    I knew about his partner. Jim told me. He was so flustered, so angry telling
-    me about it but I...well, I can\u2019t say I expected it, but I don\u2019t know
-    that it surprised me either.\r\n\r\nYou have to understand, our father was Jim\u2019s
-    hero. Always had been. And for a long time, I can see how he would have thought
-    that our parents had the perfect marriage. They made it look that way from the
-    outside, and they did their best to keep whatever troubles they had from us.
-    But, I still saw things. I still heard things. I could tell that, for all that
-    he loved us, our father was unhappy. I was unhappy about the divorce, yes, but
-    I was able to come to terms with it more easily than Jim did, I think.\r\n\r\nAnd
-    then when Jim told me about Dad\u2019s partner...well, I guess the pieces fell
-    into place somewhat. Why Dad had always seemed unhappy with Mom, why he seemed
-    so happy now. Of course I was worried, and I can\u2019t say that I completely
-    understand it, but I know that, now, my father is - was happy. And, for that,
-    I suppose I was happy too. I wanted my child to meet him. And now that will never
-    happen.\r\n\r\nJust, please go easy on him in the press? I know this is your
-    profession, I know that this must be a, how would you phrase it, \u201Cjuicy
-    scoop\u201D for someone in your profession, but my father was a man with a reputation,
-    a business, a family, and a life. He doesn\u2019t deserve to have his reputation
-    tarnished for who he loved in private.\r\n"
+  m_text: "Julia Anderson\r\n\r\n\nDad didn\u2019t kill himself. I don\u2019t care
+    what anyone says, Dad didn\u2019t kill himself. He would never do that. And he
+    didn\u2019t have any reason to. He was happy. Happier than I think he'd ever
+    been before. He had a thriving business. He had a family. He, he was about to
+    have his first grandchild. There was nothing that would have been causing him
+    that kind of grief.\r\n\r\nAbout his\u2026what do you mean about\u2026? Jim.
+    You spoke to Jim. No, Jim, Jim didn\u2019t lie to you but, but he also wasn\u2019t\u2013you
+    have to understand, of course the divorce was hard for all of us but, for Jim,
+    well\u2026\r\n\r\nDad was Jim's hero growing up. He wanted to be just like him.
+    For Jim, the divorce wasn\u2019t just sad, it, it was a betrayal. He couldn\u2019t
+    see past his own anger. He can\u2019t see past his own anger.\r\n\r\nI mean,
+    of course I was sad too when it happened. I think that everyone is a bit upset
+    if their parents get divorced. But, I think it made, more sense to me. Mom and
+    Dad were always really careful to keep their arguments away from Jim, but\u2013you
+    know, I think they tried to keep them away from me as well\u2013but I still heard
+    them. \r\n\r\nI knew that Dad wasn\u2019t happy, so the divorce made me sad but
+    it didn\u2019t\u2013I didn't feel betrayed by it the way that Jim did. The way
+    that Jim does. \r\n\r\nAnd when Jim told me about Dad\u2019s\u2026partner, I,
+    I don't know, I guess it, I guess it made some things make sense. \r\n\r\nNo,
+    I\u2019ve never met him. I, I've never had the opportunity to. I, I don\u2019t
+    think that he lives in the city. I don\u2019t think that they live together.
+    I talked to Dad about it a little bit after Jim told me. Mostly just because
+    I wanted to know if it was true. I mean, I, if it was, I was a bit scared, you
+    know, with the virus going around but, Dad assured me that that wasn\u2019t a
+    problem and\u2026I can\u2019t say that I understand it, but\u2026I do understand
+    that Dad was happy. And shouldn\u2019t that be enough?\r\n\r\nI don\u2019t know
+    what happened. I don\u2019t know why Dad is dead now. I know he didn\u2019t kill
+    himself. He was too excited to meet his grandchild in March. He would not kill
+    himself. \r\n\r\nSo I don\u2019t know if it was murder, or accident, but it wasn\u2019t
+    suicide.\r\n\r\nLook, about, about Dad\u2019s partner. About Dad. I, I get that
+    this is a juicy scoop ok? I get it. I get that you have a job to do but\u2013I
+    know that you can\u2019t lie, but\u2026do you have to tell the whole truth, either?
+    You don\u2019t have to lie. But you don\u2019t have to mention this in the press.
+    You and I may be enlightened people but, but the rest of the world isn\u2019t
+    so forgiving. Dad had a reputation and\u2026he didn\u2019t even want me to know.
+    He wouldn\u2019t want this aired. Not like this. Dad had a reputation. And it
+    isn\u2019t right for you to destroy it. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -76727,7 +76747,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 15
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -77193,7 +77213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1699370206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -78331,8 +78351,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764925725}
   m_HandleRect: {fileID: 1764925724}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.22156832
+  m_Value: 1
+  m_Size: 0.18881735
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -79852,7 +79872,7 @@ RectTransform:
   m_Father: {fileID: 398109291}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.77843165}
+  m_AnchorMin: {x: 0, y: 0.8111826}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -84767,7 +84787,7 @@ RectTransform:
   m_Father: {fileID: 1324101916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.79206944}
+  m_AnchorMin: {x: 0, y: 0.894238}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -88681,7 +88701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1983585081
 RectTransform:
   m_ObjectHideFlags: 0
@@ -93331,29 +93351,45 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Maxine \u201CMax\u201D Elliot\r\n\r\n\nWere you expecting a man? Everyone
-    does. I started going by \u201CMax\u201D in college. I find it helps in this
-    damn boys club. Alright, I don\u2019t have a lot of time, so make it quick.\r\n\r\nYes,
-    I\u2019ve worked with Robert for...five years now. Wonderful boss and business
-    partner. Immaculate dresser. Never a hair or cufflink out of place. And Always
-    a new Herm\xE9s tie.\r\n\r\nYes, business was very successful. Of course, his
-    death is going to affect some deals we have in the works, but I\u2019ve already
-    reached out to the clients in question, and we released an official statement.
-    You might have heard it on the Marketplace Morning Report yesterday.\r\n\r\nNo,
-    nothing was bothering him. Not that I knew of. Robert was a very private person.
-    An absolute professional. Occasionally he\u2019d say something about his kids,
-    but other than that he left his private life at the door.\r\n\r\nHis love life?
-    I have no idea. He was already divorced when I began working with him. I don\u2019t
-    believe he was dating anyone, but, again, he never talked about that at work.\r\n\r\nLook,
-    I know what you\u2019re getting at. I\u2019m not a fool. You\u2019re not going
-    to get anything scandalous out of me. Of course, there were rumors. There was
-    the occasional business trip or social gathering where he\u2019d quietly slip
-    out and we wouldn\u2019t see him again until morning. \n\nNo, you cannot quote
-    me on that. For all I know he just got tired of socializing and went back to
-    the hotel. \r\n\r\nThe point is...this is a tough business. This is a tough world
-    to be in if you aren\u2019t part of the boys club. Robert was never anything
-    but professional with me, and I appreciated that a lot. It\u2019s only right
-    that I do the same for him now.\r"
+  m_text: "Maxine \"Max\" Elliot\n\n\nI have a very busy schedule, so we\u2019d best
+    get to it. Go ahead and ask your questions. \r\n\r\nHm? Something wrong? Oh.
+    Let me guess. You were, ah, expecting someone\u2026taller?\r\n\r\nIf you must
+    know, I started going by Max at Wellesley. I\u2019ve found that it\u2019s helped
+    open a few doors in this boys\u2019 club business. But that\u2019s not why you\u2019re
+    here. You\u2019re here to talk about Mr. Evergreen. We\u2019re all devastated
+    by his passing, of course. Rest assured that Abundantia Investments will stay
+    open, and we should be able to resume our normal business operations within a
+    week. In fact, you may have heard our statement to that effect on the Marketplace
+    Morning Report? \r\n\r\nAs for Robert himself, Mr. Evergreen was an excellent
+    boss and business partner. A consummate professional, and an immaculate dresser,
+    I must admit. Never a hair or cufflink out of place. Always a new Herm\xE8s tie.
+    \r\n\r\nI don\u2019t know anything about his personal life. Mr. Evergreen kept
+    his home and work lives separate from one another - like I said, he was a professional.
+    It\u2019s something that I appreciated about him.\r\n\r\nI knew that he had children\u2026I
+    don\u2019t know anything about his ex-wife. They had already divorced by the
+    time that I began working here. No, I don\u2019t know that he was dating anyone.
+    I also don\u2019t know that he wasn\u2019t dating anyone. Like I said, he kept
+    his private life private.\r\n\r\nMax leans forward. Her tone drops. She\u2019s
+    still choosing her words carefully, but there\u2019s a trace of genuine anger
+    coming through her slow, considered tone. \r\n\r\n\u2026ok. Off the record. I
+    know what you\u2019re getting at. I\u2019m not a fool. You aren\u2019t going
+    to get anything salacious about Robert out of me. \r\n\r\nI know what rumors
+    there were about Robert. They\u2019re the same damn rumors there have been about
+    me my entire damn time in this industry. Sure, I heard the whispers after he
+    left the company holiday party early, but as far as I know, he was just tired
+    and went back home. I respected his privacy. And as far as I\u2019m concerned,
+    there is just as much truth to the rumors about Robert as there is to the rumors
+    about me. Which is to say, none. \r\n\r\nMore emotional here, the anger and sadness
+    is less hidden\r\n\r\nYou know, Robert and I are the only people in this damn
+    company who weren\u2019t spreading rumors. It\u2019s partly thanks to him that
+    I am where I am today. He\u2019s the first boss that I've ever had who didn\u2019t
+    expect anything in return other than that I do my best for this business. And
+    I appreciated that. I appreciated that immensely. \r\n\r\nI considered Robert
+    my friend. He\u2019s the best boss I\u2019ve ever had. \r\n\r\nMax sounds almost
+    as if she\u2019s choking back tears. She\u2019s not actually tearing up, it\u2019s
+    not obvious. But the pauses are there for her to compose herself. \r\n\r\nRobert\u2026Robert
+    was never\u2026Mr. Evergreen was never anything but professional with me. And
+    the least\u2013the least that I can do now is return the favor. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -93392,7 +93428,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 15
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
