@@ -6,32 +6,32 @@ using TMPro;
 
 public class TypewriterScript : MonoBehaviour
 {
-    [SerializeField] string textReportOf;
-    [SerializeField] string nameOfStory;
+    [SerializeField] TMP_Text TMPReportOf;
+    [SerializeField] TMP_Text TMPnameOfStory;
+    string TMPfullTitle;
+    Color32 colorC= new Color32(1,0,0,255);
+    
 
-    TMP_Text TMPReportOf;
-    TMP_Text TMPnameOfStory;
-    TMP_Text TMPfullTitle;
-    private int currentSpokenStrings = 0;
+    //For IEnum
     [SerializeField] TMP_Text introText;
     bool isTyping = false;
     bool cancelTyping = false;
     bool goToNext = false;
     bool isTalking = false;
-    public float typeSpeed;
+    [SerializeField] float typeSpeed;
 
 
     void Awake()
     {
         
+        TMPfullTitle = TMPReportOf.text +'\n' + TMPnameOfStory.text; //puts a space for the story title
+        TMPReportOf.color = Color.red;
+        Debug.Log((TMPReportOf.color));
+        StartCoroutine(TextScroll(TMPfullTitle));
     }
 
     private void Start() {
-        TMPReportOf.text = textReportOf;
-        TMPnameOfStory.text = nameOfStory;
-        TMPReportOf.color = Color.red;
-        TMPfullTitle.text = TMPReportOf.text + '\n' + TMPnameOfStory.text; //puts a space for the story title
-        StartCoroutine(TextScroll(TMPfullTitle.text));
+
     }
 
     private void Update()
@@ -45,7 +45,7 @@ public class TypewriterScript : MonoBehaviour
         introText.text = "";
         isTyping = true;
         cancelTyping = false;
-        yield return new WaitForSeconds(typeSpeed);
+        //yield return new WaitForSeconds(typeSpeed);
         while (isTyping && !cancelTyping && (letter < lineOfText.Length - 1))
         {
             introText.text += lineOfText[letter];
