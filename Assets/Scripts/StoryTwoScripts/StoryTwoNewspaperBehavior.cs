@@ -90,11 +90,12 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
             Char1SelectionDoneA = true;
         }
     }
-    public void BorisDropB() // WHO second dropdown for Novak
+    public void BorisDropB()
     {
-        if (BorisDPTwo.value == 1) // if you choose the first option for Novak Is.. 
+        if (BorisDPTwo.value == 1) //boris dropdown 2, choice 1 
         {
-            FearfulPaper+=1;
+            FearfulPaper += 1;
+            BorisBOutputInt = 1;
             Char1SelectionDoneB = true;
             
             
@@ -115,7 +116,8 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     {
         if (BorisDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
-            FearfulPaper+=1;
+            FearfulPaper += 1;
+            BorisBOutputInt = 1;
             Char1SelectionDoneC = true;
             
         }
@@ -373,17 +375,21 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     }
     public void NewspaperPrint() // using this to test things 
     {
-        int finalPaperInt; 
-        
+        int finalPaperInt;
+        //PAPER PIECING
+        AngryNewspaper = BrightonAPaperString + "" + BorisAPaperString + "" + GuyAPaperString + "" + VitoAPaperString + "" + FranzAPaperString;
+        FearfulNewspaper = BrightonBPaperString + "" + BorisBPaperString + "" + GuyBPaperString + "" + VitoBPaperString + "" + FranzBPaperString;
+        CompassionateNewspaper = BrightonCPaperString + "" + BorisCPaperString + "" + GuyCPaperString + "" + VitoCPaperString + "" + FranzCPaperString;
+
         //For determining which paper to print when they're equal
         if (FearfulPaper == AngryPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0]; //need to change this for the different outputs
+                PlayerNewspaper = AngryNewspaper; //newspaperPrints[0]; //need to change this for the different outputs
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = "This is a angry paper."; //newspaperPrints[1];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }   
         }
@@ -391,11 +397,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (FearfulPaper == CompassionatePaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
@@ -403,11 +409,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (CompassionatePaper == AngryPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
+                PlayerNewspaper = AngryNewspaper; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }
         }
@@ -415,11 +421,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (CompassionatePaper == FearfulPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
             }
         }
@@ -427,11 +433,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (AngryPaper == CompassionatePaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
+                PlayerNewspaper = AngryNewspaper; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }
             else{
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
@@ -439,15 +445,15 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (AngryPaper == FearfulPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-            PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
+            PlayerNewspaper = AngryNewspaper; //newspaperPrints[1];
             PlayerHeadline = newspaperHeadlines[1];
            }   
             else{
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
             }    
         }
-
+        //Brighton: 0,1,2 Boris: 3,4,5 Vito: 6,7,8 Guy: 9,10,11 Franz:, 12,13,14
         //if they are not equal, it'll jump over here
         if (FearfulPaper > CompassionatePaper && FearfulPaper > AngryPaper){
            PlayerNewspaper = newspaperPrints[0];
