@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public AudienceFeedbackScript AFS;
+    [SerializeField] TransitionScript TS;
 
     void Start()
     {
         AFS = GetComponent<AudienceFeedbackScript>();
+
     }
 
     // Update is called once per frame
@@ -33,6 +35,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("StoryOneScene");
         SceneManager.LoadScene("HybridStoryOne");
+        TS.ChangeAnimationState("SquareFade");
         Debug.Log("BOOTING UP!");
         
     }

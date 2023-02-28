@@ -22,7 +22,7 @@ public class TransitionScript : MonoBehaviour
 
     public void Transition()
     {
-        ChangeAnimationState("SquareFade");
+        ChangeAnimationState("SquareFadeIn");
     }
     //Change our current animation
     public void ChangeAnimationState(string newState) //Change title of currentState
