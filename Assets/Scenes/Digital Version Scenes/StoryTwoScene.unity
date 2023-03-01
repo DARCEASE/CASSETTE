@@ -1179,9 +1179,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -19.0107, y: -20.2045}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &13238874
 MonoBehaviour:
@@ -3926,9 +3926,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -21.19, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &103312300
 MonoBehaviour:
@@ -22749,6 +22749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFS: {fileID: 608035563}
+  TS: {fileID: 0}
 --- !u!4 &608035559
 Transform:
   m_ObjectHideFlags: 0
@@ -24401,8 +24402,8 @@ RectTransform:
   m_Father: {fileID: 369099032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.25545532}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -37950,8 +37951,8 @@ RectTransform:
   m_Father: {fileID: 1371694144}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.70913327}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.3972, y: 0}
   m_SizeDelta: {x: 14.6759, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -38327,9 +38328,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 22.0107, y: -20.2045}
+  m_SizeDelta: {x: 22.0107, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1024168915
 MonoBehaviour:
@@ -43597,7 +43598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MEMO
+  m_text: LETTER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -43630,7 +43631,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 5
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -48175,20 +48176,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "THE LOCAL RAG\r\n\r\nHey kid.\r\n\r\nWhen I hired you as my replacement,
-    I knew you\u2019d be a great editor. I swear you\u2019re gonna win our newspaper
-    a Pulitzer yet! Just double-check the Evergreen interviews and we\u2019ll be
-    ready to write.\r\n\r\nI understand you\u2019re still a little new to the company
-    computer, but it\u2019s really easy to use once you get the hang of it.\r\n\r\nYou
-    can find the audio recordings in a file on the desktop. Listen through the interviews
-    to get a sense of the situation. There are also transcripts of the interviews
-    you can read if the recordings are hard to hear. \r\n\r\nOnce you\u2019ve listened
-    to those, you\u2019ll need to review the writer\u2019s notes. Check the disk
-    on the desktop and you\u2019ll see some preliminary ideas from the writer. Fill
-    in the blanks as you see fit. Once you\u2019re done, hit submit, and the writer
-    will get started, using your ideas as a base to work from.\r\n\r\nWell, I\u2019m
-    off to enjoy my retirement. Can\u2019t wait to see what kinds of stories you
-    write, kid!\r\n"
+  m_text: 'Dear Editor,
+
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend
+    donec pretium vulputate sapien nec sagittis aliquam. Enim nulla aliquet porttitor
+    lacus luctus accumsan. Urna nunc id cursus metus aliquam eleifend mi. Suspendisse
+    ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Nibh sed pulvinar
+    proin gravida hendrerit. Odio aenean sed adipiscing diam donec adipiscing tristique
+    risus nec. Sit amet justo donec enim diam. Velit laoreet id donec ultrices. Viverra
+    maecenas accumsan lacus vel facilisis volutpat. Amet consectetur adipiscing elit
+    duis tristique sollicitudin.
+
+    Tortor pretium viverra suspendisse potenti
+    nullam ac. Sit amet venenatis urna cursus eget nunc scelerisque. Arcu ac tortor
+    dignissim convallis aenean et tortor at risus.
+
+    
+
+    Your Humble Servant,
+
+    Lorem
+    P. Ipsum
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -50099,7 +50111,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 158.35623, y: 1.3396}
   m_SizeDelta: {x: -296.7122, y: 17.3207}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -50575,9 +50587,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: -5.612}
-  m_SizeDelta: {x: -19.0107, y: 23.2045}
+  m_SizeDelta: {x: 0, y: 23.2045}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1303746401
 MonoBehaviour:
@@ -62331,7 +62343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1591384062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -66772,7 +66784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1699370206
 RectTransform:
   m_ObjectHideFlags: 0
