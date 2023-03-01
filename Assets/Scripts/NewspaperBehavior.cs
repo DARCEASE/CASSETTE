@@ -49,6 +49,9 @@ public class NewspaperBehavior : MonoBehaviour
     bool NovakOutput1Bool, NovakOutput2Bool, NovakOutput3Bool, JuliaOutput1Bool, JuliaOutput2Bool, JuliaOutput3Bool, JimOutput1Bool, JimOutput2Bool, JimOutput3Bool, MaxOutput1Bool, MaxOutput2Bool, MaxOutput3Bool, MikeOutput1Bool, MikeOutput2Bool, MikeOutput3Bool; //Novak is 0, 1, 2 of AP
     //Values
     [SerializeField] int muckrakerPaper, tabloidPaper, statusQuoPaper;
+
+    //Side Article
+     
 #endregion
 
     // Start is called before the first frame update
