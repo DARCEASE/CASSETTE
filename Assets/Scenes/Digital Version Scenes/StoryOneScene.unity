@@ -26141,6 +26141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFS: {fileID: 608035562}
+  TS: {fileID: 0}
 --- !u!4 &608035559
 Transform:
   m_ObjectHideFlags: 0
@@ -60981,7 +60982,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 15
+    m_LineSpacing: 1.5
   m_Text: New Text
 --- !u!1 &1359060694
 GameObject:
@@ -63822,6 +63823,7 @@ MonoBehaviour:
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0
+  SAS: {fileID: 2122143203}
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0
@@ -93827,8 +93829,9 @@ GameObject:
   - component: {fileID: 2122143200}
   - component: {fileID: 2122143202}
   - component: {fileID: 2122143201}
+  - component: {fileID: 2122143203}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SAText (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93950,6 +93953,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122143199}
   m_CullTransparentMesh: 1
+--- !u!114 &2122143203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122143199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996ccad3243fea442b4a2074622f6a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SideArticles:
+  - Jim Evergreen Questioned
+  - Lt. Michael Baily Assaulted
+  - Abundita Booms Abundantly
+  - Don't Ask, Don't Tell Introduced
+  sideArticleText: {fileID: 2122143201}
+  sideArt1: 0
+  sideArt2: 0
+  sideArt3: 0
+  sideArt4: 0
 --- !u!1 &2123922392
 GameObject:
   m_ObjectHideFlags: 0
