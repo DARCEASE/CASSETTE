@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using TMPro;
 
 
@@ -42,7 +41,6 @@ public class TypewriterScript : MonoBehaviour
     {
         if (goToNext){
             TS.TransitionIn();
-            SceneManager.LoadScene("StoryOneScene");
 
         }
         //DontDestroyOnLoad(this);
@@ -66,7 +64,6 @@ public class TypewriterScript : MonoBehaviour
         cancelTyping = false;
 
         if (letter == lineOfText.Length - 1){
-            yield return new WaitForSeconds(6);
             goToNext = true;
 
         }
