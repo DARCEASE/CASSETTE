@@ -3699,8 +3699,8 @@ RectTransform:
   - {fileID: 922320284}
   - {fileID: 456504217}
   - {fileID: 1983585081}
-  m_Father: {fileID: 1545292848}
-  m_RootOrder: 4
+  m_Father: {fileID: 1743493946}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3926,9 +3926,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -21.19, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &103312300
 MonoBehaviour:
@@ -24401,8 +24401,8 @@ RectTransform:
   m_Father: {fileID: 369099032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25545532}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -55486,8 +55486,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
   PlayerHeadline: 
+  AngryNewspaper: 
+  CompassionateNewspaper: 
+  FearfulNewspaper: 
+  AFS: {fileID: 0}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
+  BorisAOutputInt: 0
+  GuyAOutputInt: 0
+  VitoAOutputInt: 0
+  BrightonAOutputInt: 0
+  FranzAOutputInt: 0
+  BorisBOutputInt: 0
+  GuyBOutputInt: 0
+  VitoBOutputInt: 0
+  BrightonBOutputInt: 0
+  FranzBOutputInt: 0
+  BorisCOutputInt: 0
+  GuyCOutputInt: 0
+  VitoCOutputInt: 0
+  BrightonCOutputInt: 0
+  FranzCOutputInt: 0
   newspaperPrints:
   - "It is a cold, gray day on Brighton Beach. Waves lap against the shore, and the
     sounds of laughter and everyday chatter can be heard all along the boardwalk.
@@ -55592,6 +55611,189 @@ MonoBehaviour:
     bravery, Masucci\u2019s honesty and familial love. Even the attacker from the
     Russian mob seemed more desperate than malicious. Even in moments of utmost tragedy,
     the human spirit shines through.\r\n"
+  ApaperArticlePieces:
+  - "It\u2019s a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+    and chatter can be heard along the boardwalk. Despite what this peaceful facade
+    might suggest, Brighton Beach has become one of the most crime-ridden neighborhoods
+    in New York City. This is due, in part, to a surge in mob violence in the area.
+    It seems like the city\u2019s attempts to quell organized crime throughout the
+    last few decades have been in vain.\r\n"
+  - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
+    middle-aged man with a heavy Russian accent. \u201CDon\u2019t ask questions.
+    Don\u2019t write about us. Don\u2019t talk about us. As far as you\u2019re concerned,
+    we don\u2019t exist. You [expletive] test me and you die.\u201D He gives our
+    reporter one last glare and stalks off. Bystanders don\u2019t react. On Brighton
+    Beach, threats from the Russian Mob always greet those who ask too many questions.\r\n"
+  - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
+    man with a heavy Russian accent. \u201CDon\u2019t ask questions. Don\u2019t write
+    about us. Don\u2019t talk about us. As far as you\u2019re concerned, we don\u2019t
+    exist. You [expletive] test me and you die.\u201D He gives our reporter one last
+    glare and stalks off. Bystanders don\u2019t react. On Brighton Beach, threats
+    from the Russian Mob always greet those who ask too many questions.\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
+    by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
+    instead redirected the conversation toward his past. Mr. Kramarov sees America
+    as a safe haven compared to the violent, poverty-stricken Soviet Union he once
+    called home. Withith Brighton Beach as his main point of reference, however,
+    that\u2019s surely a difficult position to uphold.\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a restaurant owned by Boris
+    Kramarov, a Soviet immigrant. Unwilling to provide details about the incident,
+    Mr. Kramarov instead offered bitter complaints about the USA. \u201CI thought
+    America was a land of prosperity,\u201D Mr. Kramarov spat. \u201CLook at my beautiful
+    restaurant. How am I going to pay my bills? This happened a week ago, and it\u2019s
+    still like this.\u201D\r\n\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
+    by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
+    instead lamented the destruction of his dining area, which was still in a state
+    of bullet-scarred disrepair. \u201CLook at my beautiful restaurant,\u201D Mr.
+    Kramarov said. \u201CHow am I going to pay my bills? This happened a week ago,
+    and it\u2019s still like this.\u201D\r\n"
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    His scar will be a permanent reminder of the event. The Stohlers could not provide
+    useful information about the perpetrators.\r"
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    Luckily, the injury was minor, and he has mostly recovered. The Stohlers could
+    not provide useful information about the perpetrators."
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    He is recovering, but the injury will leave a scar. The Stohlers could not provide
+    useful information about the perpetrators.\r\n"
+  - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir to Mr. Vito Masucci,
+    jailed former head of the Masucci crime family. Mr. Masucci insisted that his
+    family was innocent and that the shooting was unprovoked. Given his family\u2019s
+    criminal record, however, these claims are unreliable. \r\n"
+  - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
+    Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
+    that his family was innocent and that the shooting was unprovoked. Given his
+    family\u2019s criminal record, this probably isn\u2019t true. \r\n"
+  - 'Despite these unhelpful witnesses, it is clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
+    Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
+    that his family was innocent and that the shooting was unprovoked. Apparently,
+    the Russian mob was the real culprit.
+
+'
+  - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
+    Stohler personifies this attitude, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as jaded to crime and violence as the rest of the
+    city.\r"
+  - "The city\u2019s inhabitants are bafflingly dismissive of the shooting. Ms. Franziska
+    Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as unconcerned for her own safety as the rest of the
+    city."
+  - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
+    Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as unconcerned for her own safety as the rest of the
+    city.\r\n"
+  BPaperArticlePieces:
+  - It is a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+    and chatter can be heard along the boardwalk. Standing here, one would never
+    guess that this seemingly peaceful neighborhood was, just last week, the site
+    of a violent shooting.
+  - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
+    a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
+    Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
+    Beach."
+  - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
+    a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
+    Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
+    Beach."
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov was visibly
+    frightened and refused to provide details. He was distraught to find that the
+    violence he\u2019d fled in the Soviet Union was beginning to reappear in his
+    new home. \u201CEverything that I thought I\u2019d left behind in Siberia has
+    followed me to America,\u201D he explained."
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov refused
+    to provide details to the police or media. He was upset to find that the violence
+    he\u2019d fled in the Soviet Union was beginning to reappear in his new home.
+    \u201CEverything that I thought I\u2019d left behind in Siberia has followed
+    me to America,\u201D he explained. "
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov politely
+    declined to provide details. He was disappointed to find that the violence he\u2019d
+    fled in the Soviet Union was beginning to reappear in his new home. \u201CEverything
+    that I thought I\u2019d left behind in Siberia has followed me to America,\u201D
+    he explained. "
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting, and his injuries have yet to fully heal."
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting. Luckily, the wound was minor, and he is in recovery.\r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting, and his injuries have yet to fully heal."
+  - "Little is known about the men behind this horrible crime. Mr. Vito Masucci,
+    the jailed head of the notorious Masucci crime family, insisted that the Russian
+    mob is responsible. Mr. Masucci\u2019s nephew and heir apparent was killed during
+    the shooting. It\u2019s possible that he was the primary target. While Mr. Masucci\u2019s
+    trustworthiness is questionable, this is the only explanation being offered at
+    the moment."
+  - "Little is known about the men behind this horrible crime. Mr. Vito Masucci,
+    the jailed head of the notorious Masucci crime family, insisted that the Russian
+    mob is responsible. Mr. Masucci\u2019s nephew and heir apparent was killed during
+    the shooting. It\u2019s possible that he was the primary target. While Mr. Masucci\u2019s
+    claims are unreliable, this is the only explanation being offered at the moment."
+  - "This crime, it seems, was an incidence of gang violence. Mr. Vito Masucci, the
+    jailed head of the Masucci crime family, insisted that the Russian mob is responsible.
+    Mr. Masucci\u2019s nephew and heir apparent was killed during the shooting. He
+    was the Russian mob\u2019s primary target. Ivan Puzyretsky, aka Ivan the Terrible,
+    a notorious Russian mobster and enemy of the Masuccis, likely led the assault."
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unbothered by the event or by her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has become
+    jaded to the world\u2019s growing violence."
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has become
+    dismissive of the world\u2019s growing violence."
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has decided
+    to disregard the world\u2019s growing violence."
+  CPaperArticlePieces:
+  - "It was a cold, gray day in Brighton Beach when a Local Rag reporter was attacked
+    by the mob. It happened suddenly; a man sprang from the shadows and began spewing
+    threats in a thick Russian accent. After he\u2019d said his piece, the man stalked
+    away, his demeanor akin to a starving wolf.\r\n"
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   newspaperHeadlines:
   - FEAR IN BRIGHTON BEACH BROOKLYN
   - BRIGHTON BEACH CRIME BEATS
@@ -55626,8 +55828,8 @@ MonoBehaviour:
   Char5SelectionDoneA: 0
   Char5SelectionDoneB: 0
   Char5SelectionDoneC: 0
-  FearfulPaper: 0
   AngryPaper: 0
+  FearfulPaper: 0
   CompassionatePaper: 0
 --- !u!1 &1411119287
 GameObject:
@@ -60755,7 +60957,6 @@ RectTransform:
   - {fileID: 986200167}
   - {fileID: 1591384062}
   - {fileID: 1039742322}
-  - {fileID: 97220002}
   m_Father: {fileID: 1743493946}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -62130,7 +62331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1591384062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68363,6 +68564,7 @@ RectTransform:
   - {fileID: 2104827467}
   - {fileID: 1343876730}
   - {fileID: 313905480}
+  - {fileID: 97220002}
   m_Father: {fileID: 1507010981}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

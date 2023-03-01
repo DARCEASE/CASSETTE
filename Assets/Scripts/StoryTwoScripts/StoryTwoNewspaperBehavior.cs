@@ -5,12 +5,31 @@ using UnityEngine.UI;
 
 public class StoryTwoNewspaperBehavior : MonoBehaviour
 {
+
    #region INITIALIZATIONS
-    public string PlayerNewspaper, PlayerHeadline;
-    public Text finalNewspaper, finalHeadline;
+    public string PlayerNewspaper, PlayerHeadline, AngryNewspaper, CompassionateNewspaper, FearfulNewspaper;
+   
+
+    //Audience Feedback Script
+    public AudienceFeedbackScript AFS;
+
+    //All paper holding strings
+    // APaper = Angry, BPaper = Fearful, CPaper = Compassionte
+    string BorisAPaperString, BorisBPaperString, BorisCPaperString;
+    string GuyAPaperString, GuyBPaperString, GuyCPaperString;
+    string VitoAPaperString, VitoBPaperString, VitoCPaperString;
+    string BrightonAPaperString, BrightonBPaperString, BrightonCPaperString;
+    string FranzAPaperString, FranzBPaperString, FranzCPaperString;
     
+    public Text finalNewspaper, finalHeadline;
+    [SerializeField] int BorisAOutputInt, GuyAOutputInt, VitoAOutputInt, BrightonAOutputInt, FranzAOutputInt;//angry
+    [SerializeField] int BorisBOutputInt, GuyBOutputInt, VitoBOutputInt, BrightonBOutputInt, FranzBOutputInt;//fearful
+    [SerializeField] int BorisCOutputInt, GuyCOutputInt, VitoCOutputInt, BrightonCOutputInt, FranzCOutputInt;//compassionate
+
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperPrints, newspaperHeadlines;
+    [SerializeField] string[] newspaperPrints, ApaperArticlePieces, BPaperArticlePieces, CPaperArticlePieces;// angry, fearful, Compassionate article pieces 
+    [SerializeField] string[] newspaperHeadlines;
+   
 
     // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
     public Dropdown BorisDPOne, BorisDPTwo, BorisDPThree;
@@ -19,6 +38,8 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     public Dropdown FranziskaDPOne, FranziskaDPTwo, FranziskaDPThree;
     public Dropdown BrightonDPOne, BrightonDPTwo, BrightonDPThree;
 
+    //Keeps track of which dropsdowns are complete. Broad so it can be used in future NPB scripts.
+    //These will be accessed by CharacterCompleteCheck so it MUST BE PUBLIC!
     public bool Char1SelectionDoneA, Char1SelectionDoneB, Char1SelectionDoneC;
     public bool Char2SelectionDoneA, Char2SelectionDoneB, Char2SelectionDoneC;
     public bool Char3SelectionDoneA, Char3SelectionDoneB, Char3SelectionDoneC;
@@ -26,7 +47,7 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     public bool Char5SelectionDoneA, Char5SelectionDoneB, Char5SelectionDoneC;
 
     //Values
-    [SerializeField] int FearfulPaper, AngryPaper, CompassionatePaper;
+    [SerializeField] int  AngryPaper,FearfulPaper, CompassionatePaper;
 #endregion
 
     // Start is called before the first frame update
@@ -46,13 +67,14 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     per dropdown menu. Whichever option in the menu the player chooses will be stored into the character's info array, which can be accessed by other classes.
     */
 
-    //BORIS
+    //BORIS AP: 0,1,2
     public void BorisDropA()
     {
         if (BorisDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {  
-            FearfulPaper+=1;
-            Char1SelectionDoneA = true;
+            FearfulPaper+=1; //TONE
+            BorisBOutputInt = 1; //Paragraph Output 
+            Char1SelectionDoneA = true; 
             
         }
         else if (BorisDPOne.value == 2)
@@ -68,11 +90,12 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
             Char1SelectionDoneA = true;
         }
     }
-    public void BorisDropB() // WHO second dropdown for Novak
+    public void BorisDropB()
     {
-        if (BorisDPTwo.value == 1) // if you choose the first option for Novak Is.. 
+        if (BorisDPTwo.value == 1) //boris dropdown 2, choice 1 
         {
-            FearfulPaper+=1;
+            FearfulPaper += 1;
+            BorisBOutputInt = 1;
             Char1SelectionDoneB = true;
             
             
@@ -93,7 +116,8 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     {
         if (BorisDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
-            FearfulPaper+=1;
+            FearfulPaper += 1;
+            BorisBOutputInt = 1;
             Char1SelectionDoneC = true;
             
         }
@@ -351,17 +375,21 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     }
     public void NewspaperPrint() // using this to test things 
     {
-        int finalPaperInt; 
-        
+        int finalPaperInt;
+        //PAPER PIECING
+        AngryNewspaper = BrightonAPaperString + "" + BorisAPaperString + "" + GuyAPaperString + "" + VitoAPaperString + "" + FranzAPaperString;
+        FearfulNewspaper = BrightonBPaperString + "" + BorisBPaperString + "" + GuyBPaperString + "" + VitoBPaperString + "" + FranzBPaperString;
+        CompassionateNewspaper = BrightonCPaperString + "" + BorisCPaperString + "" + GuyCPaperString + "" + VitoCPaperString + "" + FranzCPaperString;
+
         //For determining which paper to print when they're equal
         if (FearfulPaper == AngryPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0]; //need to change this for the different outputs
+                PlayerNewspaper = AngryNewspaper; //newspaperPrints[0]; //need to change this for the different outputs
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = "This is a angry paper."; //newspaperPrints[1];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }   
         }
@@ -369,11 +397,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (FearfulPaper == CompassionatePaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
@@ -381,11 +409,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (CompassionatePaper == AngryPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
+                PlayerNewspaper = AngryNewspaper; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }
         }
@@ -393,11 +421,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (CompassionatePaper == FearfulPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
             }
         }
@@ -405,11 +433,11 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (AngryPaper == CompassionatePaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
+                PlayerNewspaper = AngryNewspaper; //newspaperPrints[1];
                 PlayerHeadline = newspaperHeadlines[1];
             }
             else{
-                PlayerNewspaper = "This is a compassionate paper."; //newspaperPrints[2];
+                PlayerNewspaper = CompassionateNewspaper; //newspaperPrints[2];
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
@@ -417,15 +445,15 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (AngryPaper == FearfulPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-            PlayerNewspaper = "This is an angry paper."; //newspaperPrints[1];
+            PlayerNewspaper = AngryNewspaper; //newspaperPrints[1];
             PlayerHeadline = newspaperHeadlines[1];
            }   
             else{
-                PlayerNewspaper = "This is a fearful paper."; //newspaperPrints[0];
+                PlayerNewspaper = FearfulNewspaper; //newspaperPrints[0];
                 PlayerHeadline = newspaperHeadlines[0];
             }    
         }
-
+        //Brighton: 0,1,2 Boris: 3,4,5 Vito: 6,7,8 Guy: 9,10,11 Franz:, 12,13,14
         //if they are not equal, it'll jump over here
         if (FearfulPaper > CompassionatePaper && FearfulPaper > AngryPaper){
            PlayerNewspaper = newspaperPrints[0];
