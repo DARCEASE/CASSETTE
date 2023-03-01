@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public AudienceFeedbackScript AFS;
+    [SerializeField] TransitionScript TS;
 
     void Start()
     {
         AFS = GetComponent<AudienceFeedbackScript>();
+
     }
 
     // Update is called once per frame
@@ -23,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     public void NextStory()
     {
-        
+        TS.TransitionIn(); //Fades to Black
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
         //AFS.FormulaCalculation();
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        TS.TransitionIn(); //Fades to Black
         SceneManager.LoadScene("StoryOneScene");
         SceneManager.LoadScene("HybridStoryOne");
         Debug.Log("BOOTING UP!");
