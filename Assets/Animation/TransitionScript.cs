@@ -12,6 +12,7 @@ public class TransitionScript : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.enabled = false;
     }
 
     // Update is called once per frame
@@ -20,10 +21,18 @@ public class TransitionScript : MonoBehaviour
         
     }
 
-    public void Transition()
+    public void TransitionIn()
     {
+        animator.enabled = true;
         ChangeAnimationState("SquareFadeIn");
     }
+
+    public void TransitionOut()
+    {
+        animator.enabled = true;
+        ChangeAnimationState("SquareFade");
+    }
+
     //Change our current animation
     public void ChangeAnimationState(string newState) //Change title of currentState
     {

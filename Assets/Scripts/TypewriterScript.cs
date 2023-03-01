@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
+
+
 
 public class TypewriterScript : MonoBehaviour
 {
@@ -19,6 +22,7 @@ public class TypewriterScript : MonoBehaviour
     bool goToNext = false;
     bool isTalking = false;
     [SerializeField] float typeSpeed;
+    TransitionScript TS;
 
 
     void Awake()
@@ -36,7 +40,12 @@ public class TypewriterScript : MonoBehaviour
 
     private void Update()
     {
-        
+        if (goToNext){
+            TS.TransitionIn();
+            SceneManager.LoadScene("StoryOneScene");
+
+        }
+        //DontDestroyOnLoad(this);
     }
 
     private IEnumerator TextScroll(string lineOfText) //Gives it that one character at a timeffect...
@@ -55,5 +64,11 @@ public class TypewriterScript : MonoBehaviour
         introText.text = lineOfText;
         isTyping = false;
         cancelTyping = false;
+
+        if (letter == lineOfText.Length - 1){
+            yield return new WaitForSeconds(6);
+            goToNext = true;
+
+        }
     }
 }

@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     public void NextStory()
     {
-        
+        TS.TransitionIn(); //Fades to Black
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
         //AFS.FormulaCalculation();
@@ -33,9 +33,9 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        TS.TransitionIn(); //Fades to Black
         SceneManager.LoadScene("StoryOneScene");
         SceneManager.LoadScene("HybridStoryOne");
-        TS.ChangeAnimationState("SquareFade");
         Debug.Log("BOOTING UP!");
         
     }
