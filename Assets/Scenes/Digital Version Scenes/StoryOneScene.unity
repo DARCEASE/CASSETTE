@@ -13286,7 +13286,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -18453,7 +18453,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -0.19998169, y: 0}
-  m_SizeDelta: {x: 346, y: 1867.1711}
+  m_SizeDelta: {x: 346, y: 1650.6323}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433140032
 GameObject:
@@ -24975,7 +24975,7 @@ RectTransform:
   m_Father: {fileID: 2145117684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.852852}
+  m_AnchorMin: {x: 0, y: 0.8328044}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -26141,6 +26141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFS: {fileID: 608035562}
+  TS: {fileID: 0}
 --- !u!4 &608035559
 Transform:
   m_ObjectHideFlags: 0
@@ -33240,9 +33241,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: -17}
+  m_SizeDelta: {x: 30, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &784218209
 MonoBehaviour:
@@ -33288,7 +33289,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1881143226}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.10576203
+  m_Size: 0.11963645
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -33657,8 +33658,8 @@ RectTransform:
   m_Father: {fileID: 1287405347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.50052077, y: 0}
-  m_AnchorMax: {x: 0.9999809, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -38359,31 +38360,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detective Novak\r\n\r\n\n\nLook, the official statement of the NYPD at
-    this point is that the investigation is ongoing. Mr. Evergreen was found dead
-    on the sidewalk on Monday morning.\r\n\r\nApparently, he\u2019d fallen from a
-    great height. This probably happened either late Sunday night or maybe even early
-    Monday morning.\r\n\r\nFor now we don\u2019t know the manner of death, or whether
-    Mr. Evergreen\u2019s death was the result of a homicide, accident, or suicide.
-    It would be improper for us to speculate on it at the moment. We will inform
-    the public of more when it is appropriate to do so.\r\n\nYeah, yeah, right, deep
-    fuckin background. I gotcha.  \r\n\r\nI mean, I'm just as surprised about this
-    as you are.\r\n\r\nOf course I knew about Mr. Evergreen, the man was a living
-    legend. Built a business outta nothing, made a fuckin fortune and went on to
-    marry one hell of a broad and ended up with 2 kids.\r\n\r\n Uhhh, think it was,
-    somethin with J\u2026 Julia and Jim. Yeah they\u2019re his only kids, as far
-    as I know.\r\n\r\nNo, not the wife. I mean ex-wife now, they divorced 5 years
-    ago.\r\n\r\nAbout as amicable as things can get with the rich and famous.\r \nThere
-    weren\u2019t any big courtroom brawls or anything that I know bout. \r\nJust
-    kind of a quiet announcement in the society pages.\r\n\r\nWhat, a guy like me
-    can't read the paper? Yeah right. \r\n\r\nWhat? I mean, since then? No, no one
-    else has been in his life. Not that I know of.\r\n\r\nHe hasn\u2019t been seen
-    with any special lady friend. I mean, there are the rumors but\u2026\r\n\r\nWell,
-    rumors going around sayin, uh, Mr. Evergreen was something of a, uh, \u201Cconfirmed
-    bachelor\u201D? I mean, not exactly my taste, but it\u2019s the 90s and love
-    is love I guess.\r\n\r\nLook, what a man does in his private life, that\u2019s,
-    that\u2019s no business of mine? So long as it doesn\u2019t end up on page six
-    or a holding cell.\r\n"
+  m_text: "Detective Novak\r\n\r\n\nOk, look. The official statement of the NYPD
+    at this point is that the investigation is ongoing. Mr. Evergreen was found dead
+    on the sidewalk on Monday morning. Apparently he\u2019d fallen from a great height.
+    This probably happened late Sunday night, or maybe even early Monday morning.
+    For now, we don\u2019t know the manner of death or whether it was the result
+    of a homicide, accident, or suicide. It\u2019d be improper for us to speculate
+    on it at this moment. We\u2019ll inform the public of more when it\u2019s appropriate
+    to do so. \r\n\r\nYeah, yeah, yeah. Deep f***ing background. \r\n\r\nI mean,
+    I\u2019m just as surprised as you are. Course I knew about the guy. The man was
+    a living legend. Built a business out of nothing, made a f***ing fortune, and
+    went on to marry one hell of a broad and ended up with two kids - I think it
+    was something with \u201CJ\u201D. Julia! Julia and Jim. Yeah, they\u2019re his
+    only kids as far as I know. Only next of kin, too. No, not the wife. I mean,
+    ex-wife now. They divorced five years ago. About as amicable as things can get
+    with the rich and famous. Weren\u2019t any big courtroom fights or anything that
+    I know about. Just kind of a quiet announcement on the society pages. \r\n\r\nWhat,
+    a guy like me can\u2019t read the paper? Yeah, right. \r\n\r\nSince then? No,
+    no one else has been in his life, not that I know of. He hasn\u2019t been seen
+    with any special lady friend. I mean, there are the rumors, but...\r\n\r\nWell,
+    the rumor\u2019s going around saying \u2013 Mr. Evergreen was something of a
+    \u201Cconfirmed bachelor\u201D. I mean, not exactly my taste, but it\u2019s the
+    90s and, you know, love is love, I guess.\r\n\r\nLook, what a man does in his
+    private life, that\u2019s no business of mine. So long as it doesn\u2019t end
+    up on page six or in a holding cell.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -47071,9 +47071,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1064035015
 MonoBehaviour:
@@ -47119,7 +47119,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 792687036}
   m_Direction: 0
   m_Value: 0.99996185
-  m_Size: 0.49946013
+  m_Size: 0.99884397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -47462,7 +47462,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -0.19999695, y: 0}
-  m_SizeDelta: {x: 346, y: 1342.0212}
+  m_SizeDelta: {x: 346, y: 1181.1064}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1073894982
 GameObject:
@@ -64190,7 +64190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1415734643
 RectTransform:
   m_ObjectHideFlags: 0
@@ -65108,7 +65108,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.14714804
+  m_Size: 0.1671956
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -68745,7 +68745,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -4.300003, y: 0}
   m_SizeDelta: {x: 15.4005, y: -4.16}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -83967,8 +83967,8 @@ RectTransform:
   m_Father: {fileID: 1324101916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.894238}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
   m_Pivot: {x: 0.5, y: 1}
@@ -89255,9 +89255,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2009743857
 MonoBehaviour:
@@ -93294,44 +93294,40 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Maxine \"Max\" Elliot\n\n\nI have a very busy schedule, so we\u2019d best
-    get to it. Go ahead and ask your questions. \r\n\r\nHm? Something wrong? Oh.
-    Let me guess. You were, ah, expecting someone\u2026taller?\r\n\r\nIf you must
-    know, I started going by Max at Wellesley. I\u2019ve found that it\u2019s helped
-    open a few doors in this boys\u2019 club business. But that\u2019s not why you\u2019re
-    here. You\u2019re here to talk about Mr. Evergreen. We\u2019re all devastated
+    get to it. Go ahead. Ask your questions.\r\n\r\n\u2013Something wrong? Oh. Pardon
+    me, let me guess: you were \u2013 expecting someone taller? If you must know,
+    I started going by \u201CMax\u201D at Wellesley. I\u2019ve found that it\u2019s
+    helped open a few doors in this boys club business. But that\u2019s not why you\u2019re
+    here. You\u2019re here to talk about Mr. Evergreen.\r\n\r\nWe\u2019re all devastated
     by his passing, of course. Rest assured that Abundantia Investments will stay
     open, and we should be able to resume our normal business operations within a
-    week. In fact, you may have heard our statement to that effect on the Marketplace
-    Morning Report? \r\n\r\nAs for Robert himself, Mr. Evergreen was an excellent
+    week. In fact you may have heard our statement to that effect on Marketplace
+    Morning Report. \r\n\r\nAs for Robert himself, Mr. Evergreen was an excellent
     boss and business partner. A consummate professional, and an immaculate dresser,
-    I must admit. Never a hair or cufflink out of place. Always a new Herm\xE8s tie.
-    \r\n\r\nI don\u2019t know anything about his personal life. Mr. Evergreen kept
-    his home and work lives separate from one another - like I said, he was a professional.
-    It\u2019s something that I appreciated about him.\r\n\r\nI knew that he had children\u2026I
-    don\u2019t know anything about his ex-wife. They had already divorced by the
-    time that I began working here. No, I don\u2019t know that he was dating anyone.
-    I also don\u2019t know that he wasn\u2019t dating anyone. Like I said, he kept
-    his private life private.\r\n\r\nMax leans forward. Her tone drops. She\u2019s
-    still choosing her words carefully, but there\u2019s a trace of genuine anger
-    coming through her slow, considered tone. \r\n\r\n\u2026ok. Off the record. I
-    know what you\u2019re getting at. I\u2019m not a fool. You aren\u2019t going
-    to get anything salacious about Robert out of me. \r\n\r\nI know what rumors
-    there were about Robert. They\u2019re the same damn rumors there have been about
-    me my entire damn time in this industry. Sure, I heard the whispers after he
-    left the company holiday party early, but as far as I know, he was just tired
-    and went back home. I respected his privacy. And as far as I\u2019m concerned,
-    there is just as much truth to the rumors about Robert as there is to the rumors
-    about me. Which is to say, none. \r\n\r\nMore emotional here, the anger and sadness
-    is less hidden\r\n\r\nYou know, Robert and I are the only people in this damn
-    company who weren\u2019t spreading rumors. It\u2019s partly thanks to him that
-    I am where I am today. He\u2019s the first boss that I've ever had who didn\u2019t
-    expect anything in return other than that I do my best for this business. And
-    I appreciated that. I appreciated that immensely. \r\n\r\nI considered Robert
-    my friend. He\u2019s the best boss I\u2019ve ever had. \r\n\r\nMax sounds almost
-    as if she\u2019s choking back tears. She\u2019s not actually tearing up, it\u2019s
-    not obvious. But the pauses are there for her to compose herself. \r\n\r\nRobert\u2026Robert
-    was never\u2026Mr. Evergreen was never anything but professional with me. And
-    the least\u2013the least that I can do now is return the favor. \r\n"
+    I must admit. Never a hair or cufflink out of place. And always a new Hermes
+    tie. \r\n\r\nI don\u2019t know anything about his personal life. Mr. Evergreen
+    kept his home and work lives separate from one another. Like I said, he was a
+    professional. It\u2019s something that I appreciated about him. I knew he had
+    children. I don\u2019t know anything about his ex-wife. They already divorced
+    by the time that I began working here. No, I don\u2019t know that he was dating
+    anyone. I also don\u2019t know that he wasn\u2019t dating anyone. Like I said,
+    he kept his private life private.\r\n\r\nOkay. Off. The record. You heard me?
+    Off.\r\n\r\nI know what you\u2019re getting at. You\u2019re not going to take
+    me for a fool, because I am not a fool. You aren\u2019t going to get anything
+    salacious about Robert out of me. I know what rumors there were about Robert.
+    They\u2019re the same rumors there have been about me my entire damn time in
+    this industry. Sure, I heard the whispers after he left the company holiday party
+    early, but, as far as I know, he was just tired and went back home. I respected
+    his privacy, and as far as I\u2019m concerned there is just as much truth to
+    those rumors about Robert as there is to rumors about me. Which is to say, none.\r\n\r\nYou
+    know, Robert and I were the only people in this damn company who weren\u2019t
+    spreading rumors. It\u2019s partly thanks to him that I\u2019m here, to where
+    I am today. He\u2019s the first boss I\u2019d had who didn\u2019t expect anything
+    in return other than what I do best. Just to make sure this business runs properly,
+    and I appreciated that. I appreciated that immensely. \r\n\r\nI considered Robert
+    my friend. Robert was the best boss that I\u2019ve ever had in my entire career.
+    Robert \u2013 Robert \u2013 Mr. Evergreen was never anything but professional
+    with me. And the least \u2013 the least that I can do now is to return the favor.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
