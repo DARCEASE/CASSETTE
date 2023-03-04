@@ -76,6 +76,7 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             NovakSQOutputInt = 1;
             Char1SelectionDoneA = true;
+            
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
