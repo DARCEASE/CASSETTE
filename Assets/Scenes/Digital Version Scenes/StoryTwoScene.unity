@@ -45239,7 +45239,7 @@ MonoBehaviour:
   - "It was a cold, gray day on Brighton Beach. Waves lapped against the shore. Laughter
     and chatter could be heard along the boardwalk. One would never guess that this
     neighborhood was just the site of a shooting - yet another concerning symptom
-    of Brighton Beach\u2019s recent rise in criminal activity.\r\n"
+    of Brighton Beach\u2019s recent rise in criminal activity."
   - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
     the mob. It happened suddenly - a man sprang from the shadows and, in a thick
     Russian accent, growled a threatening request: to stop investigating the recent
@@ -45254,45 +45254,49 @@ MonoBehaviour:
     that of a starving wolf.
 
 '
-  - "\tThe shooting in question occurred a few days prior at the boardwalk restaurant
+  - The shooting in question occurred a few days prior at the boardwalk restaurant
     Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
     with the help of the local Jewish community when he arrived in the States. While
     he was accommodating to our reporter, he was afraid to answer questions about
-    the shooting.\r\n"
-  - "\tThe shooting in question occurred a few days prior at the boardwalk restaurant
+    the shooting.
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
     Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
     with the help of the local Jewish community when he arrived in the States. While
     he was accommodating to our reporter, he was unwilling to answer questions about
-    the shooting.\r\n"
-  - "\tThe shooting in question occurred a few days prior at the boardwalk restaurant
+    the shooting.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
     Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
     with the help of the local Jewish community when he arrived in the States. While
     he was friendly to our reporter, he was hesitant to answer questions about the
-    shooting.\r\n"
-  - "\tAmong those present at the shooting were cousins Guy and Franziska Stohler,
+    shooting.
+
+'
+  - 'Among those present at the shooting were cousins Guy and Franziska Stohler,
     visiting from Manhattan and Berlin, respectively. Mr. Stohler, frozen in shock
     at the sudden gunfire, was injured by a stray bullet. Both he and Ms. Stohler
     were able to provide details to police and reporters about the shooting. Unfortunately,
     their eyewitness observations were unable to reveal much about the motives or
-    identities of those involved. \r\n"
-  - "\tAmong those present at the shooting were cousins Guy and Franziska Stohler,
-    visiting from Manhattan and Berlin, respectively. Mr. Stohler, too surprised
-    to flee or take cover, was injured in the crossfire. Both he and Ms. Stohler
-    were able to provide details to police and reporters about the shooting. Unfortunately,
-    their eyewitness observations were unable to reveal much about the motives or
-    identities of those involved. \r\n"
-  - "\tAmong those present at the shooting were cousins Guy and Franziska Stohler,
-    visiting from Manhattan and Berlin, respectively. Mr. Stohler was injured in
-    the crossfire, but bravely kept his eyes on the events. Both he and Ms. Stohler
-    were able to provide details to police and reporters about the shooting. Unfortunately,
-    their eyewitness observations were unable to reveal much about the motives or
-    identities of those involved. \r\n"
+    identities of those involved. '
+  - Among those present at the shooting were cousins Guy and Franziska Stohler, visiting
+    from Manhattan and Berlin, respectively. Mr. Stohler, too surprised to flee or
+    take cover, was injured in the crossfire. Both he and Ms. Stohler were able to
+    provide details to police and reporters about the shooting. Unfortunately, their
+    eyewitness observations were unable to reveal much about the motives or identities
+    of those involved.
+  - Among those present at the shooting were cousins Guy and Franziska Stohler, visiting
+    from Manhattan and Berlin, respectively. Mr. Stohler was injured in the crossfire,
+    but bravely kept his eyes on the events. Both he and Ms. Stohler were able to
+    provide details to police and reporters about the shooting. Unfortunately, their
+    eyewitness observations were unable to reveal much about the motives or identities
+    of those involved.
   - "But times of crisis can move the most unlikely people to acts of selflessness.
     This paper was contacted by Mr. Vito Masucci, a mob boss currently incarcerated
     at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
     as the primary target of the shooting,  a result of a conflict between his family
     and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
-    had a future\u201D.\r\n"
+    had a future\u201D."
   - "But times of crisis can move the most unlikely people to acts of selflessness.
     This paper was contacted by Mr. Vito Masucci, a former mob boss currently incarcerated
     at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
@@ -45309,17 +45313,17 @@ MonoBehaviour:
     solution. Franziska Stohler provides an example, interviewed outside a vibrant
     rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
     to take things as they come. Perhaps, in this violent world, becoming resistant
-    to suffering is a necessary method of self-defense.\r\n"
+    to suffering is a necessary method of self-defense."
   - "It\u2019s all too easy to despair in times like these, but some find a different
     solution. Franziska Stohler provides an example, interviewed outside a vibrant
     rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
     to take things as they come. Perhaps, in this violent world, becoming indifferent
-    toward tragedy is a necessary method of self-defense. \r\n"
+    toward tragedy is a necessary method of self-defense."
   - "It is all too easy to despair in times like these, but perhaps there is an alternative.
     Franziska Stohler provides a compelling example, interviewed outside a vibrant
     rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
     to take things as they come. Following moments of tragedy, the human spirit nonetheless
-    shines as brightly as ever. \r\n"
+    shines as brightly as ever."
   newspaperHeadlines:
   - BRIGHTON BEACH CRIME BEATS
   - FEAR IN BRIGHTON BEACH BROOKLYN
