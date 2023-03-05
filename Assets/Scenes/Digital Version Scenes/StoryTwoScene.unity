@@ -45156,10 +45156,10 @@ MonoBehaviour:
     she said when interviewed, as unconcerned for her own safety as the rest of the
     city.\r\n\n"
   BPaperArticlePieces:
-  - It is a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+  - "It is a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
     and chatter can be heard along the boardwalk. Standing here, one would never
     guess that this seemingly peaceful neighborhood was, just last week, the site
-    of a violent shooting.
+    of a violent shooting.\r"
   - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
     a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
     Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
@@ -45167,7 +45167,7 @@ MonoBehaviour:
   - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
     a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
     Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
-    Beach."
+    Beach.\r\n"
   - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
     refugee named Boris Kramarov. When asked about the event, Mr. Kramarov was visibly
     frightened and refused to provide details. He was distraught to find that the
@@ -45185,7 +45185,7 @@ MonoBehaviour:
     declined to provide details. He was disappointed to find that the violence he\u2019d
     fled in the Soviet Union was beginning to reappear in his new home. \u201CEverything
     that I thought I\u2019d left behind in Siberia has followed me to America,\u201D
-    he explained. "
+    he explained."
   - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
     didn\u2019t even see them walk in! One minute we were sitting down to eat some
     pierogies and the next\u2026 there were gunshot noises and everyone was yelling
@@ -45234,7 +45234,7 @@ MonoBehaviour:
     party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
     lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
     I\u2019m still alive.\u201D She, perhaps like the rest of this city, has decided
-    to disregard the world\u2019s growing violence."
+    to disregard the world\u2019s growing violence.\r\n"
   CPaperArticlePieces:
   - "It was a cold, gray day on Brighton Beach. Waves lapped against the shore. Laughter
     and chatter could be heard along the boardwalk. One would never guess that this
