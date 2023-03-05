@@ -116,13 +116,14 @@ public class SettingsMenuController : MonoBehaviour
         }
 
         //Comp font
+        /*
         for (int i = 0; i < CompText.Length; i++){
             CompText[i].font = regFont;
         }
 
         for (int i = 0; i < CompTMPText.Length; i++){
             CompTMPText[i].font = regFontTMP;
-        }
+        }*/
 
         //TItle font
         for (int i = 0; i < allTitleText.Length; i++){
@@ -173,14 +174,15 @@ public class SettingsMenuController : MonoBehaviour
             Debug.Log("All Char TMP " + i);
         }
 
-        //Char font
+        //Comp font
+        /*
         for (int i = 0; i < CompText.Length; i++){
             CompText[i].font = dyslexFont;
         }
 
         for (int i = 0; i < CompTMPText.Length; i++){
             CompTMPText[i].font = dyslexFontTMP;
-        }
+        }*/
 
         //TItle font
         for (int i = 0; i < allTitleText.Length; i++){
