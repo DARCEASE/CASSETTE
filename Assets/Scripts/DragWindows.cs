@@ -36,44 +36,12 @@ public class DragWindows : MonoBehaviour, IDragHandler, IPointerDownHandler
     }
  
    
-    void IDragHandler.OnDrag(PointerEventData eventData) // as youre draggging the mouse
+        void IDragHandler.OnDrag(PointerEventData eventData) // as youre draggging the mouse
     {
-        /*
-        DragXPos = (dragRectTransform.anchoredPosition.x + eventData.delta.x) / canvas.scaleFactor;
-        DragYPos = (dragRectTransform.anchoredPosition.y + eventData.delta.y) / canvas.scaleFactor;
-
-        if (DragXPos <= -200) //less than
-        {
-            DragXPos = -200;
-        }
- 
-        if (DragXPos >= 430) //greater than
-        {
-            DragXPos = 430;
-        }
- 
-        if (DragYPos >= 175) //less than
-        {
-            DragYPos = 175;
-        }
- 
-        if (DragYPos <= -200)
-        {
-            DragYPos = -200;
-        }
-
-        dragRectTransform.anchoredPosition = new Vector2(DragXPos, DragYPos);
-        */
-
+        
         dragRectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor; //grabs mvmt form previous mouse pos
         //windowpos.y = Mathf.Clamp(windowpos.y, 30, 15);
         Debug.Log("PlayerDraggingMouse");
-        //dragRectTransform.anchoredPosition = dragRectTransform.anchoredPosition + eventData.delta / canvas.scaleFactor; //grabs mvmt form previous mouse pos
-
-        //dragRectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor; //grabs mvmt form previous mouse pos
-        //windowpos.y = Mathf.Clamp(windowpos.y, 30, 15);
-        Debug.Log("PlayerDraggingMouse");
-    
     }
     public void OnPointerDown(PointerEventData eventData) // as you click and hold 
     {

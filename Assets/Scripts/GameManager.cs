@@ -15,11 +15,11 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R)) //restart game
+        if (Input.GetKeyDown(KeyCode.Space)) //restart game
         {
-            SceneManager.LoadScene("StoryOneScene");
+             SceneManager.LoadScene("StoryOneScene");
         }
     }
 
@@ -33,10 +33,12 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        ///*
         TS.TransitionIn(); //Fades to Black
-        SceneManager.LoadScene("StoryOneScene");
-        SceneManager.LoadScene("HYBRIDStoryOne");
+       
+        SceneManager.LoadScene("HybridStoryOne");
         Debug.Log("BOOTING UP!");
+        //*/
         
     }
 

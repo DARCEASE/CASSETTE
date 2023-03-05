@@ -49,6 +49,9 @@ public class NewspaperBehavior : MonoBehaviour
     bool NovakOutput1Bool, NovakOutput2Bool, NovakOutput3Bool, JuliaOutput1Bool, JuliaOutput2Bool, JuliaOutput3Bool, JimOutput1Bool, JimOutput2Bool, JimOutput3Bool, MaxOutput1Bool, MaxOutput2Bool, MaxOutput3Bool, MikeOutput1Bool, MikeOutput2Bool, MikeOutput3Bool; //Novak is 0, 1, 2 of AP
     //Values
     [SerializeField] int muckrakerPaper, tabloidPaper, statusQuoPaper;
+
+    //Side Article
+    [SerializeField] SideArticleScript SAS;
 #endregion
 
     // Start is called before the first frame update
@@ -76,7 +79,7 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             NovakSQOutputInt = 1;
             Char1SelectionDoneA = true;
-            
+            SAS.sideArt1 += 2;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
@@ -115,6 +118,8 @@ public class NewspaperBehavior : MonoBehaviour
         {
             muckrakerPaper+=1;
             Char1SelectionDoneB = true;
+            SAS.sideArt2 += 2;
+
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
         }
@@ -140,7 +145,8 @@ public class NewspaperBehavior : MonoBehaviour
         {
             muckrakerPaper+=1;
             NovakOutputInt = 1;
-            NovakTabOutputInt = 1;           
+            NovakTabOutputInt = 1;
+            SAS.sideArt3 += 4;      
             Char1SelectionDoneC = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
@@ -775,6 +781,7 @@ public class NewspaperBehavior : MonoBehaviour
         }
         finalNewspaper.text = PlayerNewspaper;
         finalHeadline.text = PlayerHeadline;
+        SAS.ROTDORESAS();
     }
 }
 

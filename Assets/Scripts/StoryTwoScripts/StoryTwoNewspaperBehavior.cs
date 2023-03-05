@@ -27,7 +27,7 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     [SerializeField] int BorisCOutputInt, GuyCOutputInt, VitoCOutputInt, BrightonCOutputInt, FranzCOutputInt;//compassionate
 
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperPrints, ApaperArticlePieces, BPaperArticlePieces, CPaperArticlePieces;// angry, fearful, Compassionate article pieces 
+    [SerializeField] string[] newspaperPrints, APaperArticlePieces, BPaperArticlePieces, CPaperArticlePieces;// angry, fearful, Compassionate article pieces 
     [SerializeField] string[] newspaperHeadlines;
    
 
@@ -67,13 +67,12 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     per dropdown menu. Whichever option in the menu the player chooses will be stored into the character's info array, which can be accessed by other classes.
     */
 
-    //BORIS AP: 0,1,2
+    //BORIS (4-6)
     public void BorisDropA()
     {
         if (BorisDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {  
             FearfulPaper+=1; //TONE
-            BorisBOutputInt = 1; //Paragraph Output 
             Char1SelectionDoneA = true; 
             
         }
@@ -96,6 +95,7 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         {
             FearfulPaper += 1;
             BorisBOutputInt = 1;
+            BorisCOutputInt = 1;
             Char1SelectionDoneB = true;
             
             
@@ -103,75 +103,119 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         else if (BorisDPTwo.value == 2)
         {
             AngryPaper+=1;
+            BorisBOutputInt = 2; //Paragraph Output 
+            BorisCOutputInt = 2;
             Char1SelectionDoneB = true;
             
         }
         else if (BorisDPTwo.value == 3)
         {
             CompassionatePaper+=1;
+            BorisBOutputInt = 3; //Paragraph Output 
+            BorisCOutputInt = 3;
             Char1SelectionDoneB = true;
-        } 
+        }
+
+        //If B (FEarful)
+        if (BorisBOutputInt == 1){
+            BorisBPaperString = BPaperArticlePieces[4];
+
+        } else if (BorisBOutputInt == 2){
+            BorisBPaperString = BPaperArticlePieces[5];
+        } else if (BorisBOutputInt == 3){
+            BorisBPaperString = BPaperArticlePieces[6];
+        }
+
+        //If C (Comp)
+        if (BorisCOutputInt == 1){
+            BorisCPaperString = CPaperArticlePieces[4];
+
+        } else if (BorisCOutputInt == 2){
+            BorisCPaperString = CPaperArticlePieces[5];
+        } else if (BorisCOutputInt == 3){
+            BorisCPaperString = CPaperArticlePieces[6];
+        }
     }
     public void BorisDropC()
     {
         if (BorisDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
             FearfulPaper += 1;
-            BorisBOutputInt = 1;
+            BorisAOutputInt = 1;
             Char1SelectionDoneC = true;
             
         }
         else if (BorisDPThree.value == 2)
         {
             AngryPaper+=1;
+            BorisAOutputInt = 2;
             Char1SelectionDoneC = true;
             
         }
         else if (BorisDPThree.value == 3)
         {
             CompassionatePaper+=1;
+            BorisAOutputInt = 3;
             Char1SelectionDoneC = true;
+        }
+
+        //If A (Angry)
+        if (BorisAOutputInt == 1){
+            BorisAPaperString = APaperArticlePieces[4];
+
+        } else if (BorisAOutputInt == 2){
+            BorisAPaperString = APaperArticlePieces[5];
+        } else if (BorisAOutputInt == 3){
+            BorisAPaperString = APaperArticlePieces[6];
         }
     }
 
-    //VITO
+    //VITO (9-11)
     public void VitoDropA() // JIM SENTENCE 1
     {
         if (VitoDPOne.value == 1) 
         {
             FearfulPaper+=1;
+            VitoCOutputInt = 1;
             Char3SelectionDoneA = true;
         }
         else if (VitoDPOne.value == 2)
         {
-            Debug.Log("JIM. Drop 1 Opt 2");
             Char3SelectionDoneA = true;
+            VitoCOutputInt = 2;
             AngryPaper+=1;
         }
         else if (VitoDPOne.value == 3)
         {
-            Debug.Log("JIM. Drop 1 Opt 3");
             Char3SelectionDoneA = true;
+            VitoCOutputInt = 3;
             CompassionatePaper+=1;
+        }
+
+        
+        if (VitoCOutputInt == 1){
+            VitoCPaperString = CPaperArticlePieces[9];
+
+        } else if (VitoCOutputInt == 2){
+            VitoCPaperString = CPaperArticlePieces[10];
+        } else if (VitoCOutputInt == 3){
+            VitoCPaperString = CPaperArticlePieces[11];
         }
     }
     public void VitoDropB() // JIM SENTENCE 2
     {
         if (VitoDPTwo.value == 1) 
         {
-            Debug.Log("JIM. Drop 2 Opt 1");
             Char3SelectionDoneB = true;
             FearfulPaper+=1;
         }
         else if (VitoDPOne.value == 2)
         {
-            Debug.Log("JIM. Drop 2 Opt 2");
             Char3SelectionDoneB = true;
             AngryPaper+=1;
         }
         else if (VitoDPOne.value == 3)
         {
-            Debug.Log("JIM. Drop 2 Opt 3");
             Char3SelectionDoneB = true;
             CompassionatePaper+=1;
         }
@@ -180,66 +224,113 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     {
         if (VitoDPThree.value == 1) 
         {
-            Debug.Log("JIM. Drop 3 Opt 1");
             Char3SelectionDoneC = true;
+            VitoAOutputInt = 1;
+            VitoBOutputInt = 1;
             FearfulPaper+=1;
         }
         else if (VitoDPThree.value == 2)
         {
-            Debug.Log("JIM. Drop 3 Opt 2");
             Char3SelectionDoneC = true;
+            VitoAOutputInt = 2;
+            VitoBOutputInt = 2;
             AngryPaper+=1;
         }
         else if (VitoDPThree.value == 3)
         {
-            Debug.Log("JIM. Drop 3 Opt 3");
             Char3SelectionDoneC = true;
+            VitoAOutputInt = 3;
+            VitoBOutputInt = 3;
             CompassionatePaper+=1;
-        } 
+        }
+
+        if (VitoAOutputInt == 1){
+            VitoAPaperString = APaperArticlePieces[9];
+
+        } else if (VitoAOutputInt == 2){
+            VitoAPaperString = APaperArticlePieces[10];
+        } else if (VitoAOutputInt == 3){
+            VitoAPaperString = APaperArticlePieces[11];
+        }
+
+        if (VitoBOutputInt == 1){
+            VitoBPaperString = BPaperArticlePieces[9];
+        } else if (VitoBOutputInt == 2){
+            VitoBPaperString = BPaperArticlePieces[10];
+        } else if (VitoBOutputInt == 3){
+            VitoBPaperString = BPaperArticlePieces[11];
+        }
     }
 
-    //GUY 
+    //GUY (6-8)
     public void GuyDropA()
     {
         if (GuyDPOne.value == 1) 
         {
-            Debug.Log("JULIA. Drop 1 Opt 1");
             Char2SelectionDoneA = true;
+            GuyCOutputInt = 1;
             FearfulPaper+=1;
         }
         else if (GuyDPOne.value == 2)
         {
-            Debug.Log("JULIA. Drop 1 Opt 2");
             Char2SelectionDoneA = true;
+            GuyCOutputInt = 2;
             AngryPaper+=1;
             
         }
         else if (GuyDPOne.value == 3)
         {
-            Debug.Log("JULIA. Drop 1 Opt 3");
             Char2SelectionDoneA = true;
+            GuyCOutputInt = 3;
             CompassionatePaper+=1;
+        }
+
+        if (GuyCOutputInt == 1){
+            GuyCPaperString = CPaperArticlePieces[6];
+        } else if (VitoBOutputInt == 2){
+             GuyCPaperString = CPaperArticlePieces[7];
+        } else if (VitoBOutputInt == 3){
+             GuyCPaperString = CPaperArticlePieces[8];
         }
     }
     public void GuyDropB()
     {
         if (GuyDPTwo.value == 1)
         {
-            Debug.Log("JULIA. Drop 2 Opt 1");
             Char2SelectionDoneB = true;
+            GuyBOutputInt = 1;
+            GuyAOutputInt = 1;
             FearfulPaper+=1;
         }
         else if (GuyDPTwo.value == 2)
         {
-            Debug.Log("JULIA. Drop 2 Opt 2");
             Char2SelectionDoneB = true;
+            GuyBOutputInt = 2;
+            GuyAOutputInt = 2;
             AngryPaper+=1;
         }
         else if (GuyDPTwo.value == 3)
         {
-            Debug.Log("JULIA. Drop 2 Opt 3");
             Char2SelectionDoneB = true;
+            GuyBOutputInt = 3;
+            GuyAOutputInt = 3;
             CompassionatePaper+=1;
+        }
+
+        if (GuyAOutputInt == 1){
+            GuyAPaperString = APaperArticlePieces[6];
+        } else if (VitoBOutputInt == 2){
+            GuyAPaperString = APaperArticlePieces[7];
+        } else if (VitoBOutputInt == 3){
+            GuyAPaperString = APaperArticlePieces[8];
+        }
+
+        if (GuyBOutputInt == 1){
+            GuyBPaperString = BPaperArticlePieces[6];
+        } else if (GuyBOutputInt == 2){
+            GuyBPaperString = BPaperArticlePieces[7];
+        } else if (GuyBOutputInt == 3){
+            GuyBPaperString = BPaperArticlePieces[8];
         }
     }
     public void GuyDropC()
@@ -262,7 +353,7 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         }
     }
 
-    //FRANZ 
+    //FRANZ (12-14)
     public void FranziskaDropA()
     {
         if (FranziskaDPOne.value == 1)
@@ -304,21 +395,54 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (FranziskaDPThree.value == 1)
         {
             FearfulPaper+=1;
+            FranzAOutputInt = 1;
+            FranzBOutputInt = 1;
+            FranzCOutputInt = 1;
             Char5SelectionDoneC = true;
         }
         else if (FranziskaDPThree.value == 2)
         {
             AngryPaper+=1;
+            FranzAOutputInt = 2;
+            FranzBOutputInt = 2;
+            FranzCOutputInt = 2;
             Char5SelectionDoneC = true;
         }
         else if (FranziskaDPThree.value == 3)
         {
             CompassionatePaper+=1;
+            FranzAOutputInt = 3;
+            FranzBOutputInt = 3;
+            FranzCOutputInt = 3;
             Char5SelectionDoneC = true;
-            }
         }
 
-    //BRIGHTON BEACH MAN
+        if (FranzAOutputInt == 1){
+            FranzAPaperString = APaperArticlePieces[12];
+        } else if (FranzAOutputInt == 2){
+            FranzAPaperString = APaperArticlePieces[13];
+        } else if (FranzAOutputInt == 3){
+            FranzAPaperString = APaperArticlePieces[14];
+        }
+
+        if (FranzBOutputInt == 1){
+            FranzBPaperString = BPaperArticlePieces[12];
+        } else if (FranzBOutputInt == 2){
+            FranzBPaperString = BPaperArticlePieces[13];
+        } else if (FranzBOutputInt == 3){
+            FranzBPaperString = BPaperArticlePieces[14];
+        }
+
+        if (FranzCOutputInt == 1){
+            FranzCPaperString = CPaperArticlePieces[12];
+        } else if (FranzCOutputInt == 2){
+            FranzCPaperString = CPaperArticlePieces[13];
+        } else if (FranzCOutputInt == 3){
+            FranzCPaperString = CPaperArticlePieces[14];
+        }
+    }
+
+    //BRIGHTON BEACH MAN (0-2)
     public void BrightonDropA()
     {
         if (BrightonDPOne.value == 1)
@@ -360,17 +484,51 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         if (BrightonDPThree.value == 1)
         {
             FearfulPaper+=1;
+            BrightonAOutputInt = 1;
+            BrightonBOutputInt = 1;
+            BrightonCOutputInt = 1;
             Char4SelectionDoneC = true;
         }
         else if (BrightonDPThree.value == 2)
         {
             AngryPaper+=1;
+            BrightonAOutputInt = 2;
+            BrightonBOutputInt = 2;
+            BrightonCOutputInt = 2;
             Char4SelectionDoneC = true;
         }
         else if (BrightonDPThree.value == 3)
         {
             CompassionatePaper+=1;
+            BrightonAOutputInt = 3;
+            BrightonBOutputInt = 3;
+            BrightonCOutputInt = 3;
             Char4SelectionDoneC = true;
+        }
+
+        
+        if (BrightonAOutputInt == 1){
+            BrightonAPaperString = APaperArticlePieces[0];
+        } else if (BrightonAOutputInt == 2){
+            BrightonAPaperString = APaperArticlePieces[1];
+        } else if (BrightonAOutputInt == 3){
+            BrightonAPaperString = APaperArticlePieces[2];
+        }
+
+        if (BrightonBOutputInt == 1){
+            BrightonBPaperString = BPaperArticlePieces[0];
+        } else if (BrightonBOutputInt == 2){
+            BrightonBPaperString = BPaperArticlePieces[1];
+        } else if (BrightonBOutputInt == 3){
+            BrightonBPaperString = BPaperArticlePieces[2];
+        }
+
+        if (BrightonCOutputInt == 1){
+            BrightonCPaperString = CPaperArticlePieces[0];
+        } else if (BrightonCOutputInt == 2){
+            BrightonCPaperString = CPaperArticlePieces[1];
+        } else if (BrightonCOutputInt == 3){
+            BrightonCPaperString = CPaperArticlePieces[2];
         }
     }
     public void NewspaperPrint() // using this to test things 
