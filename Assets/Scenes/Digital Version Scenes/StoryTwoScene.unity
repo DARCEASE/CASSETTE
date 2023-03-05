@@ -44949,7 +44949,7 @@ MonoBehaviour:
   AngryNewspaper: 
   CompassionateNewspaper: 
   FearfulNewspaper: 
-  AFS: {fileID: 0}
+  AFS: {fileID: 608035563}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
   BorisAOutputInt: 0
@@ -45077,47 +45077,47 @@ MonoBehaviour:
     might suggest, Brighton Beach has become one of the most crime-ridden neighborhoods
     in New York City. This is due, in part, to a surge in mob violence in the area.
     It seems like the city\u2019s attempts to quell organized crime throughout the
-    last few decades have been in vain.\r\n"
+    last few decades have been in vain."
   - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
     middle-aged man with a heavy Russian accent. \u201CDon\u2019t ask questions.
     Don\u2019t write about us. Don\u2019t talk about us. As far as you\u2019re concerned,
     we don\u2019t exist. You [expletive] test me and you die.\u201D He gives our
     reporter one last glare and stalks off. Bystanders don\u2019t react. On Brighton
-    Beach, threats from the Russian Mob always greet those who ask too many questions.\r\n"
+    Beach, threats from the Russian Mob always greet those who ask too many questions."
   - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
     man with a heavy Russian accent. \u201CDon\u2019t ask questions. Don\u2019t write
     about us. Don\u2019t talk about us. As far as you\u2019re concerned, we don\u2019t
     exist. You [expletive] test me and you die.\u201D He gives our reporter one last
     glare and stalks off. Bystanders don\u2019t react. On Brighton Beach, threats
-    from the Russian Mob always greet those who ask too many questions.\r\n"
+    from the Russian Mob always greet those who ask too many questions."
   - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
     by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
     instead redirected the conversation toward his past. Mr. Kramarov sees America
     as a safe haven compared to the violent, poverty-stricken Soviet Union he once
     called home. Withith Brighton Beach as his main point of reference, however,
-    that\u2019s surely a difficult position to uphold.\r\n"
+    that\u2019s surely a difficult position to uphold."
   - "Last week\u2019s shooting took place at Nadezhda, a restaurant owned by Boris
     Kramarov, a Soviet immigrant. Unwilling to provide details about the incident,
     Mr. Kramarov instead offered bitter complaints about the USA. \u201CI thought
     America was a land of prosperity,\u201D Mr. Kramarov spat. \u201CLook at my beautiful
     restaurant. How am I going to pay my bills? This happened a week ago, and it\u2019s
-    still like this.\u201D\r\n"
+    still like this.\u201D"
   - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
     by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
     instead lamented the destruction of his dining area, which was still in a state
     of bullet-scarred disrepair. \u201CLook at my beautiful restaurant,\u201D Mr.
     Kramarov said. \u201CHow am I going to pay my bills? This happened a week ago,
-    and it\u2019s still like this.\u201D\r\n"
+    and it\u2019s still like this.\u201D"
   - "The recent increase of violent crime in Brighton Beach is beginning to affect
     the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
     the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
     His scar will be a permanent reminder of the event. The Stohlers could not provide
-    useful information about the perpetrators.\r\n"
+    useful information about the perpetrators."
   - "The recent increase of violent crime in Brighton Beach is beginning to affect
     the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
     the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
     Luckily, the injury was minor, and he has mostly recovered. The Stohlers could
-    not provide useful information about the perpetrators.\r\n"
+    not provide useful information about the perpetrators."
   - "The recent increase of violent crime in Brighton Beach is beginning to affect
     the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
     the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
@@ -45127,7 +45127,7 @@ MonoBehaviour:
     to La Cosa Nostra. Among the casualties was the nephew and heir to Mr. Vito Masucci,
     jailed former head of the Masucci crime family. Mr. Masucci insisted that his
     family was innocent and that the shooting was unprovoked. Given his family\u2019s
-    criminal record, however, these claims are unreliable. \r\n"
+    criminal record, however, these claims are unreliable. "
   - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
     to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
     Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
@@ -45144,7 +45144,7 @@ MonoBehaviour:
     Stohler personifies this attitude, despite being a tourist herself. \u201CYes
     I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
     she said when interviewed, as jaded to crime and violence as the rest of the
-    city.\r\n"
+    city.\r"
   - "The city\u2019s inhabitants are bafflingly dismissive of the shooting. Ms. Franziska
     Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
     I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
@@ -45154,7 +45154,7 @@ MonoBehaviour:
     Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
     I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
     she said when interviewed, as unconcerned for her own safety as the rest of the
-    city.\r\n"
+    city.\r\n\n"
   BPaperArticlePieces:
   - It is a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
     and chatter can be heard along the boardwalk. Standing here, one would never
@@ -45321,8 +45321,8 @@ MonoBehaviour:
     to take things as they come. Following moments of tragedy, the human spirit nonetheless
     shines as brightly as ever. \r\n"
   newspaperHeadlines:
-  - FEAR IN BRIGHTON BEACH BROOKLYN
   - BRIGHTON BEACH CRIME BEATS
+  - FEAR IN BRIGHTON BEACH BROOKLYN
   - COMPASSION FOR BRIGHTON RESIDENTS
   BorisDPOne: {fileID: 1955818698}
   BorisDPTwo: {fileID: 2124620505}
@@ -52132,8 +52132,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
-        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035560}
+        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
