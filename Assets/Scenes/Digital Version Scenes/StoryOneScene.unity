@@ -26270,52 +26270,33 @@ MonoBehaviour:
   allCharText:
   - {fileID: 1518510946}
   - {fileID: 1625320134}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   allCharTMPText:
   - {fileID: 1426122873}
   - {fileID: 903007265}
   - {fileID: 1654952556}
   - {fileID: 2106992099}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 1004026854}
   - {fileID: 1766196066}
   - {fileID: 836239701}
   - {fileID: 1391197997}
   - {fileID: 964835350}
   - {fileID: 903420438}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 487518109}
   - {fileID: 1176269868}
   - {fileID: 712789477}
   - {fileID: 1413617493}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 1891169136}
   - {fileID: 1991578359}
   - {fileID: 1998170180}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 1346292725}
   - {fileID: 1105620422}
   - {fileID: 1809505012}
   CompText: []
   CompTMPText: []
-  allTitleText:
-  - {fileID: 0}
+  allTitleText: []
   allTitleTMPText:
   - {fileID: 1426122873}
   - {fileID: 1004026854}
-  - {fileID: 0}
-  - {fileID: 0}
   allInterviewTMPText:
   - {fileID: 867419933}
   - {fileID: 1082184866}

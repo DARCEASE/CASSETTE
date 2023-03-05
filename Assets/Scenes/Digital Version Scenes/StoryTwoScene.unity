@@ -22749,6 +22749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFS: {fileID: 608035563}
+  TS: {fileID: 0}
 --- !u!4 &608035559
 Transform:
   m_ObjectHideFlags: 0
@@ -55611,7 +55612,7 @@ MonoBehaviour:
     bravery, Masucci\u2019s honesty and familial love. Even the attacker from the
     Russian mob seemed more desperate than malicious. Even in moments of utmost tragedy,
     the human spirit shines through.\r\n"
-  ApaperArticlePieces:
+  APaperArticlePieces:
   - "It\u2019s a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
     and chatter can be heard along the boardwalk. Despite what this peaceful facade
     might suggest, Brighton Beach has become one of the most crime-ridden neighborhoods
@@ -55641,7 +55642,7 @@ MonoBehaviour:
     Mr. Kramarov instead offered bitter complaints about the USA. \u201CI thought
     America was a land of prosperity,\u201D Mr. Kramarov spat. \u201CLook at my beautiful
     restaurant. How am I going to pay my bills? This happened a week ago, and it\u2019s
-    still like this.\u201D\r\n\r\n"
+    still like this.\u201D\r\n"
   - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
     by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
     instead lamented the destruction of his dining area, which was still in a state
@@ -55652,12 +55653,12 @@ MonoBehaviour:
     the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
     the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
     His scar will be a permanent reminder of the event. The Stohlers could not provide
-    useful information about the perpetrators.\r"
+    useful information about the perpetrators.\r\n"
   - "The recent increase of violent crime in Brighton Beach is beginning to affect
     the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
     the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
     Luckily, the injury was minor, and he has mostly recovered. The Stohlers could
-    not provide useful information about the perpetrators."
+    not provide useful information about the perpetrators.\r\n"
   - "The recent increase of violent crime in Brighton Beach is beginning to affect
     the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
     the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
@@ -55684,12 +55685,12 @@ MonoBehaviour:
     Stohler personifies this attitude, despite being a tourist herself. \u201CYes
     I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
     she said when interviewed, as jaded to crime and violence as the rest of the
-    city.\r"
+    city.\r\n"
   - "The city\u2019s inhabitants are bafflingly dismissive of the shooting. Ms. Franziska
     Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
     I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
     she said when interviewed, as unconcerned for her own safety as the rest of the
-    city."
+    city.\r\n"
   - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
     Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
     I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
@@ -55776,24 +55777,90 @@ MonoBehaviour:
     I\u2019m still alive.\u201D She, perhaps like the rest of this city, has decided
     to disregard the world\u2019s growing violence."
   CPaperArticlePieces:
-  - "It was a cold, gray day in Brighton Beach when a Local Rag reporter was attacked
-    by the mob. It happened suddenly; a man sprang from the shadows and began spewing
-    threats in a thick Russian accent. After he\u2019d said his piece, the man stalked
-    away, his demeanor akin to a starving wolf.\r\n"
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "It was a cold, gray day on Brighton Beach. Waves lapped against the shore. Laughter
+    and chatter could be heard along the boardwalk. One would never guess that this
+    neighborhood was just the site of a shooting - yet another concerning symptom
+    of Brighton Beach\u2019s recent rise in criminal activity.\r\n"
+  - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
+    the mob. It happened suddenly - a man sprang from the shadows and, in a thick
+    Russian accent, growled a threatening request: to stop investigating the recent
+    shooting and to leave the neighborhood for good. He then stalked off, his demeanor
+    that of a starving wolf.
+
+'
+  - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
+    the mob. It happened suddenly - a man sprang from the shadows and, with a low,
+    ominous voice, growled a threatening request: to stop investigating the recent
+    shooting and to leave the neighborhood for good. He then stalked off, his demeanor
+    that of a starving wolf.
+
+'
+  - "\tThe shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was accommodating to our reporter, he was afraid to answer questions about
+    the shooting.\r\n"
+  - "\tThe shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was accommodating to our reporter, he was unwilling to answer questions about
+    the shooting.\r\n"
+  - "\tThe shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was friendly to our reporter, he was hesitant to answer questions about the
+    shooting.\r\n"
+  - "\tAmong those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler, frozen in shock
+    at the sudden gunfire, was injured by a stray bullet. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "\tAmong those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler, too surprised
+    to flee or take cover, was injured in the crossfire. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "\tAmong those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler was injured in
+    the crossfire, but bravely kept his eyes on the events. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a mob boss currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the primary target of the shooting,  a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a former mob boss currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the shooting\u2019s primary target, a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a gentleman currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the primary target of the shooting, a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "It\u2019s all too easy to despair in times like these, but some find a different
+    solution. Franziska Stohler provides an example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Perhaps, in this violent world, becoming resistant
+    to suffering is a necessary method of self-defense.\r\n"
+  - "It\u2019s all too easy to despair in times like these, but some find a different
+    solution. Franziska Stohler provides an example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Perhaps, in this violent world, becoming indifferent
+    toward tragedy is a necessary method of self-defense. \r\n"
+  - "It is all too easy to despair in times like these, but perhaps there is an alternative.
+    Franziska Stohler provides a compelling example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Following moments of tragedy, the human spirit nonetheless
+    shines as brightly as ever. \r\n"
   newspaperHeadlines:
   - FEAR IN BRIGHTON BEACH BROOKLYN
   - BRIGHTON BEACH CRIME BEATS
@@ -63609,8 +63676,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+      - m_Target: {fileID: 608035562}
+        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
         m_Arguments:
@@ -66712,7 +66779,7 @@ MonoBehaviour:
   Char3Box: {fileID: 1125126639}
   Char4Box: {fileID: 597732063}
   Char5Box: {fileID: 1978220702}
-  SubmitButtonGO: {fileID: 0}
+  SubmitButtonGO: {fileID: 1618377402}
   CompletedChar1: 0
   CompletedChar2: 0
   CompletedChar3: 0
