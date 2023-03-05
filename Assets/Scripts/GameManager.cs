@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     {
         TS.TransitionIn(); //Fades to Black
         SceneManager.LoadScene("StoryOneScene");
-        SceneManager.LoadScene("HybridStoryOne");
+        SceneManager.LoadScene("HYBRIDStoryOne");
         Debug.Log("BOOTING UP!");
         
     }
