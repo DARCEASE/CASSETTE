@@ -2620,7 +2620,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5722,7 +5722,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10871,7 +10871,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13877,7 +13877,7 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 775834437}
   a_durationBar: {fileID: 631678339}
   a_slider: {fileID: 1118775261}
-  a_titleText: {fileID: 0}
+  a_titleText: {fileID: 1288469741}
   a_timeText: {fileID: 1670840977}
 --- !u!114 &456504219
 MonoBehaviour:
@@ -16785,7 +16785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &548778282
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27100,7 +27100,7 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1510963097}
   a_durationBar: {fileID: 1503807041}
   a_slider: {fileID: 2046167647}
-  a_titleText: {fileID: 0}
+  a_titleText: {fileID: 728642583}
   a_timeText: {fileID: 2096034556}
 --- !u!114 &922320286
 MonoBehaviour:
@@ -35353,7 +35353,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -36527,7 +36527,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -38428,13 +38428,14 @@ GameObject:
   - component: {fileID: 1279310166}
   - component: {fileID: 1279310168}
   - component: {fileID: 1279310167}
+  - component: {fileID: 1279310169}
   m_Layer: 5
   m_Name: NewsPaperPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38493,6 +38494,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279310165}
   m_CullTransparentMesh: 1
+--- !u!114 &1279310169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279310165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996ccad3243fea442b4a2074622f6a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SideArticles:
+  - Jim Questioned
+  - Michael Assaulted
+  - Abundantia Excels
+  - Don't Ask, Don't Tell
+  sideArticleText: {fileID: 2122143201}
+  sideArt1: 0
+  sideArt2: 0
+  sideArt3: 0
+  sideArt4: 0
 --- !u!1 &1287405346
 GameObject:
   m_ObjectHideFlags: 0
@@ -44658,7 +44681,7 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 721872327}
   a_durationBar: {fileID: 1346515618}
   a_slider: {fileID: 1324324516}
-  a_titleText: {fileID: 0}
+  a_titleText: {fileID: 292294190}
   a_timeText: {fileID: 636627724}
 --- !u!114 &1415734645
 MonoBehaviour:
@@ -49507,7 +49530,7 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1823597511}
   a_durationBar: {fileID: 1428997112}
   a_slider: {fileID: 1680526636}
-  a_titleText: {fileID: 0}
+  a_titleText: {fileID: 2057092401}
   a_timeText: {fileID: 187643632}
 --- !u!114 &1553609067
 MonoBehaviour:
@@ -62047,7 +62070,7 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 991530705}
   a_durationBar: {fileID: 73119214}
   a_slider: {fileID: 1583945027}
-  a_titleText: {fileID: 0}
+  a_titleText: {fileID: 1844542696}
   a_timeText: {fileID: 1082184866}
 --- !u!82 &1983585085
 AudioSource:
@@ -63729,7 +63752,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
