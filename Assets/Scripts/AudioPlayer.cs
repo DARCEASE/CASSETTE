@@ -25,7 +25,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] Slider a_slider;
 
     //Just in case we want to display the name too (since they would click within the player's file for this)
-    public TMP_Text a_titleText, a_timeText;
+    public TMP_Text a_timeText;
 
     void Start()
     {
@@ -83,7 +83,7 @@ public class AudioPlayer : MonoBehaviour
     }
 
     void ShowClipInfo(){ //Shows the name of the clip and its length
-        a_titleText.text = a_clip.name;
+        //a_titleText.text = a_clip.name;
         a_fullLength = (int) a_clip.length;
     }
    
