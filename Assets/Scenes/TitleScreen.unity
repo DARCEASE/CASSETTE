@@ -760,7 +760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\tClick Here to Begin. "
+  m_Text: Press Space to Begin
 --- !u!222 &327546542
 CanvasRenderer:
   m_ObjectHideFlags: 0
