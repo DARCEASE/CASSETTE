@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TitleScreen.unity
     guid: 598d9f90de6a853498c403ded88a9ed9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Digital Version Scenes/StoryOneScene.unity
     guid: 71a901368dbafdf4eb61b04774033d60
   - enabled: 1
@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Hybrid Version Scenes/HYBRIDStoryOne.unity
+    path: Assets/Scenes/Hybrid Version Scenes/HybridStoryOne.unity
     guid: 1951a155b00fa714c9c519f2dff94ea7
   m_configObjects: {}
