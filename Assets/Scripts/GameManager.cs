@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScene") //restart game
+        if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen") //restart game
         {
             TS.ToNextScene();
         }
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     public void NextStory()
     {
+        TS.ToNextScene();
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
         //AFS.FormulaCalculation();
@@ -44,7 +45,7 @@ public class GameManager : MonoBehaviour
     public void FinishDemo()
     {
         //Game will go back to title screen 
-        SceneManager.LoadScene("StoryOneScene");
+        TS.ToNextScene();
         Debug.Log("Thank you for playing :3");
 
     }

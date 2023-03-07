@@ -21,7 +21,7 @@ public class TypewriterScript : MonoBehaviour
     bool goToNext = false;
     bool isTalking = false;
     [SerializeField] float typeSpeed;
-    TransitionScript TS;
+    [SerializeField] TransitionScript TS;
 
 
     void Awake()
@@ -39,7 +39,10 @@ public class TypewriterScript : MonoBehaviour
 
     private void Update()
     {
-       
+        if (Input.GetKeyDown(KeyCode.Space)) //restart game
+        {
+            TS.ToNextScene();
+        }
     }
 
     private IEnumerator TextScroll(string lineOfText) //Gives it that one character at a timeffect...

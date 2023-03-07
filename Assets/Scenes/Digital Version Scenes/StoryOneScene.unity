@@ -23686,6 +23686,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813876284}
   m_CullTransparentMesh: 1
+--- !u!111 &815589518 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+  m_PrefabInstance: {fileID: 972963007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &815589519 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7967658876803784714, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+  m_PrefabInstance: {fileID: 972963007}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &817504121
 GameObject:
   m_ObjectHideFlags: 0
@@ -28863,6 +28879,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransitionController
       objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784714, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 8fa7653e466a84a47bdc29ef3287acac, type: 2}
+    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784717, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: FadeOut
+      value: 
+      objectReference: {fileID: 815589518}
+    - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: TransitionOBJ
+      value: 
+      objectReference: {fileID: 815589519}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28941,7 +28989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 60
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
