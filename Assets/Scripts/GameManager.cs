@@ -7,25 +7,25 @@ public class GameManager : MonoBehaviour
 {
     public AudienceFeedbackScript AFS;
     [SerializeField] TransitionScript TS;
+    Scene currentScene;
 
     void Start()
     {
         AFS = GetComponent<AudienceFeedbackScript>();
-
+        currentScene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) //restart game
+        if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScene") //restart game
         {
-             SceneManager.LoadScene("StoryOneScene");
+            TS.ToNextScene();
         }
     }
 
     public void NextStory()
     {
-        TS.TransitionIn(); //Fades to Black
         SceneManager.LoadScene("StoryTwoScene");
         Debug.Log("StoryTwoScene");
         //AFS.FormulaCalculation();
@@ -33,9 +33,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        ///*
-        TS.TransitionIn(); //Fades to Black
-       
+        ///*       
         SceneManager.LoadScene("HybridStoryOne");
         Debug.Log("BOOTING UP!");
         //*/

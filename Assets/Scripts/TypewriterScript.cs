@@ -39,11 +39,7 @@ public class TypewriterScript : MonoBehaviour
 
     private void Update()
     {
-        if (goToNext){
-            TS.TransitionIn();
-
-        }
-        //DontDestroyOnLoad(this);
+       
     }
 
     private IEnumerator TextScroll(string lineOfText) //Gives it that one character at a timeffect...
@@ -62,10 +58,5 @@ public class TypewriterScript : MonoBehaviour
         introText.text = lineOfText;
         isTyping = false;
         cancelTyping = false;
-
-        if (letter == lineOfText.Length - 1){
-            goToNext = true;
-
-        }
     }
 }
