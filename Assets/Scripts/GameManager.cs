@@ -27,8 +27,8 @@ public class GameManager : MonoBehaviour
     public void NextStory()
     {
         TS.ToNextScene();
-        SceneManager.LoadScene("StoryTwoScene");
-        Debug.Log("StoryTwoScene");
+        //SceneManager.LoadScene("StoryTwoScene");
+        //Debug.Log("StoryTwoScene");
         //AFS.FormulaCalculation();
     }
 

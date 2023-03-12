@@ -31,13 +31,13 @@ public class TransitionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (scene.name == "StoryOneScene" || scene.name == "StoryTwoScene" ){
+       /* if (scene.name == "StoryOneScene" || scene.name == "StoryTwoScene" ){
             if (FadeOut.isPlaying == true){ //if finished
                 TransitionOBJ.enabled = true;
             } else{
                 TransitionOBJ.enabled = false;
             }
-        }
+        }*/
     }
     
     public void ToNextScene(){
