@@ -23,7 +23,8 @@ public class SettingsMenuController : MonoBehaviour
     [SerializeField] AudioController AC;
     [SerializeField] Slider intVolSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
     [SerializeField] AudioSource char1Audio, char2Audio, char3Audio, char4Audio, char5Audio;
-    [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay;
+    [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay, volSliderKnob;
+    float simpleKnobVal, knobVal, minKnobVal, maxKnobVal, minKnobPosX, maxKnobPosX, knobPosX, barWidith;
     int fontSizeTitleReg = 70;
     int fontSizeTitleDys = 50;
     int fontSizeReg = 12;
@@ -62,16 +63,27 @@ public class SettingsMenuController : MonoBehaviour
         
         isReg = true;
         isDyslex = false;
+        knobPosX = volSliderKnob.transform.localPosition.x;
+        intVolSlider.maxValue = 1;
+        knobPosX = 0.5f;
+        intVolSlider.value = knobPosX;
 
     }
 
     void Update()
     {
+        /*
         intVolSlider.value = char1Audio.volume;
         intVolSlider.value = char2Audio.volume;
         intVolSlider.value = char3Audio.volume;
         intVolSlider.value = char4Audio.volume;
         intVolSlider.value = char5Audio.volume;
+        */
+        char1Audio.volume = intVolSlider.value;
+        char2Audio.volume = intVolSlider.value;
+        char3Audio.volume = intVolSlider.value;
+        char4Audio.volume = intVolSlider.value;
+        char5Audio.volume = intVolSlider.value;
 
         /*
         for (int i = 0; i < 5; i++){
@@ -103,6 +115,14 @@ public class SettingsMenuController : MonoBehaviour
         AC.mouseA_source.mute = !AC.mouseA_source.mute;
     }
 
+    void OnMouseDrag() {
+        char1Audio.volume = intVolSlider.value;
+        char2Audio.volume = intVolSlider.value;
+        char3Audio.volume = intVolSlider.value;
+        char4Audio.volume = intVolSlider.value;
+        char5Audio.volume = intVolSlider.value;
+        Debug.Log("Sliding");  
+    }
 
 
     public void ChangeToRegularFont(){
