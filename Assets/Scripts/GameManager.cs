@@ -22,6 +22,38 @@ public class GameManager : MonoBehaviour
         {
             TS.ToNextScene();
         }
+
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryOneScene" || currentScene.name == "StoryTwoScene" || currentScene.name == "HybridStoryOne" || currentScene.name == "HybridStoryTwo") //restart game
+        {
+            SceneManager.LoadScene("TitleScreen");
+        }
+
+        //Keypad shortcuts for exhibitions
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SceneManager.LoadScene("StoryOneScene");
+            Debug.Log("Pressed 1");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SceneManager.LoadScene("StoryTwoScene");
+            Debug.Log("Pressed 2");
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SceneManager.LoadScene("HybridStoryOne");
+            Debug.Log("Pressed 3");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4)) 
+        {
+            SceneManager.LoadScene("HybridStoryTwo");
+            Debug.Log("Pressed 4");
+        }
+
     }
 
     public void NextStory()
