@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 [RequireComponent(typeof(AudioSource))]
 public class AudioController : MonoBehaviour
 {
-    [SerializeField] AudioSource bg_source, mouseA_source;
+    public AudioSource bg_source, mouseA_source;
 
     void Start()
     {

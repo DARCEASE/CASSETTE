@@ -20,9 +20,10 @@ public class SettingsMenuController : MonoBehaviour
     // Apple (Basic Title font)
     // Lexend Bold (Dys Title font, make it bold AND italicized)
 
-    [SerializeField] Slider volSlider, fontSizeSlider, cursorSizeSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
+    [SerializeField] AudioController AC;
+    [SerializeField] Slider intVolSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
+    [SerializeField] AudioSource char1Audio, char2Audio, char3Audio, char4Audio, char5Audio;
     [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay;
-    AudioSource[] audioContSources;
     int fontSizeTitleReg = 70;
     int fontSizeTitleDys = 50;
     int fontSizeReg = 12;
@@ -55,7 +56,6 @@ public class SettingsMenuController : MonoBehaviour
 
     void Start()
     {
-        audioContSources = AudioContObj.GetComponents<AudioSource>(); //Gets the audioSource components from the Audio Controller
         SettingsMenuDisplay.SetActive(false);
         //SoundsMenuDisplay.SetActive(false);
         //InterfaceMenuDisplay.SetActive(false);
@@ -67,7 +67,18 @@ public class SettingsMenuController : MonoBehaviour
 
     void Update()
     {
-        volSlider.value = audioContSources[0].volume; //leaving this just in case we decide to add BG music again
+        intVolSlider.value = char1Audio.volume;
+        intVolSlider.value = char2Audio.volume;
+        intVolSlider.value = char3Audio.volume;
+        intVolSlider.value = char4Audio.volume;
+        intVolSlider.value = char5Audio.volume;
+
+        /*
+        for (int i = 0; i < 5; i++){
+            intVolSlider.value =
+        }*/
+
+        //volSlider.value = audioContSources[0].volume; //leaving this just in case we decide to add BG music again
         if(Input.GetKeyDown(KeyCode.C) && isReg){
                 ChangeToDyslexicFont();
     
@@ -76,15 +87,23 @@ public class SettingsMenuController : MonoBehaviour
         }
     }
 
-    public void MuteSFX(){
+/*
+    public void MuteBGMusic(){ //Mouse Click
         //Mute SFX
-        audioContSources[1].mute = audioContSources[1].mute;
+        AC.bg_source.mute = AC.bg_source.mute;
+    }
+*/
+    public void ToggleBGMusic(){
+        //Unmmute SFX 
+        AC.bg_source.mute = !AC.bg_source.mute;
     }
 
-    public void UnmuteSFX(){
+    public void ToggleSFX(){
         //Unmmute SFX 
-        audioContSources[1].mute = !audioContSources[1].mute;
+        AC.mouseA_source.mute = !AC.mouseA_source.mute;
     }
+
+
 
     public void ChangeToRegularFont(){
         //CHANGE ALL TEXT TO REG FONT
