@@ -54,7 +54,7 @@ public class CharacterCompleteCheck : MonoBehaviour
             }
         }
            
-        if (scene.name == "StoryTwoScene"){
+        if (scene.name == "StoryTwoScene"|| scene.name == "HybridStoryTwo"){
             
             if (STNPB.Char1SelectionDoneA && STNPB.Char1SelectionDoneB && STNPB.Char1SelectionDoneC){
                 Char1Box.SetActive(false);
