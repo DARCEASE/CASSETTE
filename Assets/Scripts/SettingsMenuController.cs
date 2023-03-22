@@ -248,17 +248,23 @@ public class SettingsMenuController : MonoBehaviour
     
     }
 
+    public void CloseSettingsMenu(){
+        //DISPLAYS SETTINGS MENU
+        SettingsMenuDisplay.SetActive(false);
+    
+    }
+
     public void ShowAudioSettingsOptions(){
         //ALL AUDIO SETTINGS OPTIONS WILL BE HERE
-        InterfaceMenuDisplay.SetActive(false);
-        SoundsMenuDisplay.SetActive(true);
+        //InterfaceMenuDisplay.SetActive(false);
+        //SoundsMenuDisplay.SetActive(true);
 
     }
 
     public void ShowInterfaceSettingsOptions(){
         //ALL INTERFACE SETTINGS OPTIONS WILL BE HERE
-        InterfaceMenuDisplay.SetActive(true);
-        SoundsMenuDisplay.SetActive(false);
+        //InterfaceMenuDisplay.SetActive(true);
+        //SoundsMenuDisplay.SetActive(false);
     }
 
 
