@@ -79,7 +79,6 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             NovakSQOutputInt = 1;
             Char1SelectionDoneA = true;
-            SAS.sideArt1 += 2;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
@@ -118,7 +117,6 @@ public class NewspaperBehavior : MonoBehaviour
         {
             muckrakerPaper+=1;
             Char1SelectionDoneB = true;
-            SAS.sideArt2 += 2;
 
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
@@ -146,7 +144,6 @@ public class NewspaperBehavior : MonoBehaviour
             muckrakerPaper+=1;
             NovakOutputInt = 1;
             NovakTabOutputInt = 1;
-            SAS.sideArt3 += 4;      
             Char1SelectionDoneC = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
@@ -171,6 +168,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
+            SAS.sideArt1 += 25;
         }
 
         //SHould change bools into ints to make it easier and clean things up.
@@ -203,6 +201,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char2SelectionDoneA = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
+            SAS.sideArt1 += 25;
         }
         else if (JimDPOne.value == 2)
         {
@@ -291,6 +290,7 @@ public class NewspaperBehavior : MonoBehaviour
             JimOutputInt = 2;
             //Feedback Vals
             AFS.entertainingVal -= AFS.ratingNum;
+            SAS.sideArt4 += 20;
         }
         else if (JimDPThree.value == 3)
         {
@@ -302,6 +302,7 @@ public class NewspaperBehavior : MonoBehaviour
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
             AFS.unbiasedVal -= AFS.ratingNum;
+            SAS.sideArt1 += 25;
         }
 
         if (JimOutputInt == 1){
@@ -375,6 +376,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
+            SAS.sideArt4 += 20;
         }
         else if (JuliaDPTwo.value == 3)
         {
@@ -461,6 +463,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
+            SAS.sideArt3 += 21;
         }
         else if (MichaelDPOne.value == 3)
         {
@@ -473,6 +476,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            SAS.sideArt2 += 65;
         }
 
         if (MikeOutputInt == 1){
@@ -529,6 +533,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            SAS.sideArt2 += 35;
         }
     }
     public void MichaelDropC()
@@ -540,6 +545,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
             AFS.credibleVal += AFS.ratingNum;
+            SAS.sideArt4 += 20;
         }
         else if (MichaelDPThree.value == 2)
         {
@@ -569,6 +575,8 @@ public class NewspaperBehavior : MonoBehaviour
             Char4SelectionDoneA = true;
             //Feedback Vals
             AFS.entertainingVal += AFS.ratingNum;
+            SAS.sideArt4 += 20;
+
         }
         else if (MaxDPOne.value == 2)
         {
@@ -630,6 +638,7 @@ public class NewspaperBehavior : MonoBehaviour
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
+            SAS.sideArt3 += 21;
         }
         else if (MaxDPTwo.value == 3)
         {
@@ -672,6 +681,7 @@ public class NewspaperBehavior : MonoBehaviour
             AFS.entertainingVal -= AFS.ratingNum;
             AFS.credibleVal -= AFS.ratingNum;
             AFS.unbiasedVal += AFS.ratingNum;
+            SAS.sideArt3 += 21;
         }
         else if (MaxDPThree.value == 3)
         {
