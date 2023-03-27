@@ -39356,13 +39356,14 @@ GameObject:
   - component: {fileID: 1279310166}
   - component: {fileID: 1279310168}
   - component: {fileID: 1279310167}
+  - component: {fileID: 1279310169}
   m_Layer: 5
   m_Name: NewsPaperPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39422,6 +39423,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279310165}
   m_CullTransparentMesh: 1
+--- !u!114 &1279310169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279310165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996ccad3243fea442b4a2074622f6a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SideArticles:
+  - Jim Questioned
+  - Michael Assaulted
+  - Abundantia Excels
+  - Evergreen Park
+  - Don't Ask, Don't Tell
+  sideArticleText: {fileID: 275232272}
+  sideArt1: 0
+  sideArt2: 0
+  sideArt3: 0
+  sideArt4: 0
+  sideArt5: 0
 --- !u!1 &1282686154
 GameObject:
   m_ObjectHideFlags: 0
@@ -40679,7 +40704,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1294080683}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -55815,13 +55840,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e6be9c482914904e95c61c7c80bcfe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volSlider: {fileID: 625758980}
-  fontSizeSlider: {fileID: 0}
-  cursorSizeSlider: {fileID: 0}
+  AC: {fileID: 0}
+  intVolSlider: {fileID: 0}
+  char1Audio: {fileID: 0}
+  char2Audio: {fileID: 0}
+  char3Audio: {fileID: 0}
+  char4Audio: {fileID: 0}
+  char5Audio: {fileID: 0}
   AudioContObj: {fileID: 1762230524}
   SettingsMenuDisplay: {fileID: 50307238}
   SoundsMenuDisplay: {fileID: 1908652264}
   InterfaceMenuDisplay: {fileID: 1424843997}
+  volSliderKnob: {fileID: 0}
   regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
   dyslexFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
   regFontTMP: {fileID: 0}
