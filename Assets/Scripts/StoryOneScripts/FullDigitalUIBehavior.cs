@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 //PURPOSE: To manage the UI interface interactions 
 //USAGE: place on emply gameobject and call it the game managaer 
@@ -32,8 +33,13 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // 17: Settings Menu 
     // 18: Audio Settings 
     // 19: Analytics App Panel
-    //20 
+    // 20: Messages Panel
 
+    public TMP_Text[] Messages; // Full View Texts in messages panel
+    public TMP_Text MsgAppTxt;
+
+    // 0: Memo Text
+    // 1: Side Message 
 
 
     void Start()
@@ -63,7 +69,26 @@ public class FullDigitalUIBehavior : MonoBehaviour
     {
         FilePanels[i].gameObject.SetActive(false);
     }
-    
+
+    public void MessageBtnBehavior(int i)
+    {
+
+        
+       /* foreach (GameObject x in Messages)
+        {
+            if (x == i) { 
+                Messages[i].gameObject.SetActive(true);
+            }
+            else{
+                Messages[i].gameObject.SetActive(false);
+            }
+        }
+       */
+
+
+    }
+
+
     public void QuitGame()
     {
         Application.Quit();
