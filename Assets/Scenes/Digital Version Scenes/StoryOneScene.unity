@@ -25858,7 +25858,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 307.239}
+  m_SizeDelta: {x: 0, y: 679.3989}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &863726345
 GameObject:
@@ -30132,7 +30132,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 938213851}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.881402
+  m_Size: 0.39858922
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -60005,8 +60005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 5.5403, y: -5.660365}
-  m_SizeDelta: {x: 265.1779, y: 266.05}
+  m_AnchoredPosition: {x: 8.4687, y: -5.6604}
+  m_SizeDelta: {x: 271.03, y: 673.74}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1821060292
 MonoBehaviour:
@@ -60028,9 +60028,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nSUBJECT: Headline Here\nTO: The Local Rag\nFROM: Bartolo@mew.com\n\n\nEmail
-    text goes here and says things and the message keeps saying a thing. \n\n\n\nLovingly,
-    \nBartholemew\n"
+  m_text: "\nSUBJECT: Headline Here\nTO: The Local Rag\nFROM: Bartolo@mew.com\n\n\nHey
+    kid.\r\n\r\nWhen I hired you as my replacement, I knew you\u2019d be a great
+    editor. I swear you\u2019re gonna win our newspaper a Pulitzer yet! Just double-check
+    the Evergreen interviews and we\u2019ll be ready to write.\r\n\r\nI understand
+    you\u2019re still a little new to the company computer, but it\u2019s really
+    easy to use once you get the hang of it.\r\n\r\nYou can find the audio recordings
+    in a file on the desktop. Listen through the interviews to get a sense of the
+    situation. There are also transcripts of the interviews you can read if the recordings
+    are hard to hear. \r\n\r\nOnce you\u2019ve listened to those, you\u2019ll need
+    to review the writer\u2019s notes. Check the disk on the desktop and you\u2019ll
+    see some preliminary ideas from the writer. Fill in the blanks as you see fit.
+    Once you\u2019re done, hit submit, and the writer will get started, using your
+    ideas as a base to work from.\r\n\r\nWell, I\u2019m off to enjoy my retirement.
+    Can\u2019t wait to see what kinds of stories you write, kid!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -60057,8 +60068,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -60093,7 +60104,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.2549286, y: -0.94104004, z: 0.029161451, w: 1.4188843}
+  m_margin: {x: 0.2549286, y: -0.94104004, z: 0.029161451, w: -0.86224365}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
