@@ -70,35 +70,25 @@ public class FullDigitalUIBehavior : MonoBehaviour
         FilePanels[i].gameObject.SetActive(false);
     }
 
-    public void MessageBtnBehavior(int i)
+    public void MessageBtnBehavior(int x) // in messages app, as you click a button in the inbox, you should be able to expand it 
     {
-
-        
-       /* foreach (GameObject x in Messages)
+        for (int i = 0; i < Messages.Length; i++) //for each element in the list, as long as i is less than the length of the list DONT HALT!!! Unless youre at the end <3
         {
-            if (x == i) { 
+            if (x == i) // if x = to the items in the list - then open up the text related text 
+            {
                 Messages[i].gameObject.SetActive(true);
             }
-            else{
-                Messages[i].gameObject.SetActive(false);
+            else // if not the assigned text then turn it off <3 
+            {
+                Messages[i].gameObject.SetActive(false); 
             }
         }
-       */
 
-
-    }
-
-
-    public void QuitGame()
-    {
-        Application.Quit();
-        Debug.Log("Youve officially left the office...");
+        
     }
     
-   
-   
-    
-
 
 
 }
+
+
