@@ -32,8 +32,8 @@ public class SettingsMenuController : MonoBehaviour
     
     //Text varis
     bool isReg, isDyslex;
-    [SerializeField] Font regFont, dyslexFont; //KEEP IN MIND: This should apply to ALL TEXT
-    [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP, intFontTMP;
+    [SerializeField] Font regFont, dyslexFont, TitleFont, intFont; //KEEP IN MIND: This should apply to ALL TEXT
+    [SerializeField] TMP_FontAsset regFontTMP, dyslexFontTMP, TitleFontTMP, intFontTMP; //interview font
     //[SerializeField] Text[] allTextObjects;
     //[SerializeField] TMP_Text[] allTMPTextObjects;
 
@@ -155,22 +155,22 @@ public class SettingsMenuController : MonoBehaviour
         }
 
         //Comp font
-        /*
+        ///*
         for (int i = 0; i < CompText.Length; i++){
-            CompText[i].font = regFont;
+            CompText[i].font = intFont;
         }
 
         for (int i = 0; i < CompTMPText.Length; i++){
-            CompTMPText[i].font = regFontTMP;
-        }*/
+            CompTMPText[i].font = intFontTMP;
+        }//*/
 
         //TItle font
         for (int i = 0; i < allTitleText.Length; i++){
-            allTitleText[i].font = regFont;
+            allTitleText[i].font = TitleFont;
         }
 
         for (int i = 0; i < allTitleTMPText.Length; i++){
-            allTitleTMPText[i].font = regFontTMP;
+            allTitleTMPText[i].font = TitleFontTMP;
         }
 
         //Interview Font
@@ -214,14 +214,14 @@ public class SettingsMenuController : MonoBehaviour
         }
 
         //Comp font
-        /*
+        ///*
         for (int i = 0; i < CompText.Length; i++){
             CompText[i].font = dyslexFont;
         }
 
         for (int i = 0; i < CompTMPText.Length; i++){
             CompTMPText[i].font = dyslexFontTMP;
-        }*/
+        }//*/
 
         //TItle font
         for (int i = 0; i < allTitleText.Length; i++){

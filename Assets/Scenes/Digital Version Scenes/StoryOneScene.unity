@@ -2057,7 +2057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &50307239
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14401,7 +14401,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646639336}
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000005
   m_Size: 0.7445447
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -18788,8 +18788,11 @@ MonoBehaviour:
   volSliderKnob: {fileID: 1248090960}
   regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
   dyslexFont: {fileID: 12800000, guid: 56ae6163912ba084394e45e930b41442, type: 3}
+  TitleFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
+  intFont: {fileID: 12800000, guid: 1d57ad76e48fa614c87f8460abb23ab8, type: 3}
   regFontTMP: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   dyslexFontTMP: {fileID: 11400000, guid: 7825dcc4041281b479227559b1c4ae0b, type: 2}
+  TitleFontTMP: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   intFontTMP: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   allCharText:
   - {fileID: 1518510946}
@@ -18815,12 +18818,33 @@ MonoBehaviour:
   - {fileID: 1346292725}
   - {fileID: 1105620422}
   - {fileID: 1809505012}
-  CompText: []
-  CompTMPText: []
+  - {fileID: 1265203191}
+  - {fileID: 300663375}
+  - {fileID: 904576785}
+  - {fileID: 1032880265}
+  - {fileID: 35776628}
+  CompText:
+  - {fileID: 1348841215}
+  CompTMPText:
+  - {fileID: 1821060292}
+  - {fileID: 1827191284}
   allTitleText: []
   allTitleTMPText:
   - {fileID: 1426122873}
   - {fileID: 1004026854}
+  - {fileID: 1221120962}
+  - {fileID: 822673261}
+  - {fileID: 1087889285}
+  - {fileID: 652065913}
+  - {fileID: 1003124267}
+  - {fileID: 388139097}
+  - {fileID: 1704210684}
+  - {fileID: 364623593}
+  - {fileID: 401727866}
+  - {fileID: 1628282223}
+  - {fileID: 220371887}
+  - {fileID: 401727866}
+  - {fileID: 1508080769}
   allInterviewTMPText:
   - {fileID: 867419933}
   - {fileID: 1082184866}
@@ -18837,6 +18861,16 @@ MonoBehaviour:
   - {fileID: 1302225516}
   - {fileID: 636627724}
   - {fileID: 2113795354}
+  - {fileID: 1067068207}
+  - {fileID: 1215867001}
+  - {fileID: 1460986716}
+  - {fileID: 509945223}
+  - {fileID: 1030746868}
+  - {fileID: 1003512177}
+  - {fileID: 1469803185}
+  - {fileID: 1190805168}
+  - {fileID: 528712439}
+  - {fileID: 1049497843}
 --- !u!1 &615550905
 GameObject:
   m_ObjectHideFlags: 0
@@ -28000,8 +28034,8 @@ RectTransform:
   m_Father: {fileID: 1607002475}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.6014108}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -33924,7 +33958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1088587050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39938,7 +39972,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279310165}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 996ccad3243fea442b4a2074622f6a6f, type: 3}
   m_Name: 
@@ -39947,12 +39981,14 @@ MonoBehaviour:
   - Jim Questioned
   - Michael Assaulted
   - Abundantia Excels
+  - Evergreen Park
   - Don't Ask, Don't Tell
   sideArticleText: {fileID: 2122143201}
   sideArt1: 0
   sideArt2: 0
   sideArt3: 0
   sideArt4: 0
+  sideArt5: 0
 --- !u!1 &1287405346
 GameObject:
   m_ObjectHideFlags: 0
@@ -40999,9 +41035,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1305219608
 MonoBehaviour:
@@ -57219,7 +57255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1722718662
 RectTransform:
   m_ObjectHideFlags: 0
