@@ -2057,7 +2057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &50307239
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13999,7 +13999,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ccdd740702f9fcf4f9a384b359f308de, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aff2048c8e710414f897506eb6c0c7c6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -14401,7 +14401,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646639336}
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000005
   m_Size: 0.7445447
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -15347,7 +15347,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 509131044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 608035560}
+        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+        m_MethodName: MessageBtnBehavior
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &509131044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18693,6 +18705,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 2108882127}
   - {fileID: 1088587049}
+  Messages:
+  - {fileID: 1821060292}
+  - {fileID: 1827191284}
+  MsgAppTxt: {fileID: 0}
 --- !u!114 &608035561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18772,8 +18788,11 @@ MonoBehaviour:
   volSliderKnob: {fileID: 1248090960}
   regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
   dyslexFont: {fileID: 12800000, guid: 56ae6163912ba084394e45e930b41442, type: 3}
+  TitleFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
+  intFont: {fileID: 12800000, guid: 1d57ad76e48fa614c87f8460abb23ab8, type: 3}
   regFontTMP: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   dyslexFontTMP: {fileID: 11400000, guid: 7825dcc4041281b479227559b1c4ae0b, type: 2}
+  TitleFontTMP: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   intFontTMP: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   allCharText:
   - {fileID: 1518510946}
@@ -18799,12 +18818,33 @@ MonoBehaviour:
   - {fileID: 1346292725}
   - {fileID: 1105620422}
   - {fileID: 1809505012}
-  CompText: []
-  CompTMPText: []
+  - {fileID: 1265203191}
+  - {fileID: 300663375}
+  - {fileID: 904576785}
+  - {fileID: 1032880265}
+  - {fileID: 35776628}
+  CompText:
+  - {fileID: 1348841215}
+  CompTMPText:
+  - {fileID: 1821060292}
+  - {fileID: 1827191284}
   allTitleText: []
   allTitleTMPText:
   - {fileID: 1426122873}
   - {fileID: 1004026854}
+  - {fileID: 1221120962}
+  - {fileID: 822673261}
+  - {fileID: 1087889285}
+  - {fileID: 652065913}
+  - {fileID: 1003124267}
+  - {fileID: 388139097}
+  - {fileID: 1704210684}
+  - {fileID: 364623593}
+  - {fileID: 401727866}
+  - {fileID: 1628282223}
+  - {fileID: 220371887}
+  - {fileID: 401727866}
+  - {fileID: 1508080769}
   allInterviewTMPText:
   - {fileID: 867419933}
   - {fileID: 1082184866}
@@ -18821,6 +18861,16 @@ MonoBehaviour:
   - {fileID: 1302225516}
   - {fileID: 636627724}
   - {fileID: 2113795354}
+  - {fileID: 1067068207}
+  - {fileID: 1215867001}
+  - {fileID: 1460986716}
+  - {fileID: 509945223}
+  - {fileID: 1030746868}
+  - {fileID: 1003512177}
+  - {fileID: 1469803185}
+  - {fileID: 1190805168}
+  - {fileID: 528712439}
+  - {fileID: 1049497843}
 --- !u!1 &615550905
 GameObject:
   m_ObjectHideFlags: 0
@@ -25852,13 +25902,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1821060291}
+  - {fileID: 1827191283}
   m_Father: {fileID: 1305219607}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 307.239}
+  m_SizeDelta: {x: 0, y: 679.3989}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &863726345
 GameObject:
@@ -27669,7 +27720,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b72baf77082f925409c15cd81360110d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 338f9784549ba4add8560dc00ba907a1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -27983,8 +28034,8 @@ RectTransform:
   m_Father: {fileID: 1607002475}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.6014108}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -30132,7 +30183,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 938213851}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.881402
+  m_Size: 0.3985892
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -33084,7 +33135,7 @@ GameObject:
   - component: {fileID: 1067068208}
   - component: {fileID: 1067068207}
   m_Layer: 5
-  m_Name: doc title (1)
+  m_Name: 'doc title '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33900,13 +33951,14 @@ GameObject:
   - component: {fileID: 1088587050}
   - component: {fileID: 1088587052}
   - component: {fileID: 1088587051}
+  - component: {fileID: 1088587053}
   m_Layer: 5
   m_Name: MessagesPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1088587050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33968,6 +34020,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088587049}
   m_CullTransparentMesh: 1
+--- !u!114 &1088587053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088587049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149b014c693d33346888437a67f00486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragRectTransform: {fileID: 1088587050}
+  canvas: {fileID: 1743493949}
 --- !u!1 &1089847462
 GameObject:
   m_ObjectHideFlags: 0
@@ -37598,8 +37664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000015258789}
-  m_SizeDelta: {x: -7.4457, y: -8.9265}
+  m_AnchoredPosition: {x: 1.6235733, y: -0.000015258789}
+  m_SizeDelta: {x: -10.692858, y: -8.9265}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215867001
 MonoBehaviour:
@@ -39906,7 +39972,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279310165}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 996ccad3243fea442b4a2074622f6a6f, type: 3}
   m_Name: 
@@ -39915,12 +39981,14 @@ MonoBehaviour:
   - Jim Questioned
   - Michael Assaulted
   - Abundantia Excels
+  - Evergreen Park
   - Don't Ask, Don't Tell
   sideArticleText: {fileID: 2122143201}
   sideArt1: 0
   sideArt2: 0
   sideArt3: 0
   sideArt4: 0
+  sideArt5: 0
 --- !u!1 &1287405346
 GameObject:
   m_ObjectHideFlags: 0
@@ -40967,9 +41035,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1305219608
 MonoBehaviour:
@@ -46468,7 +46536,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f07495a60ef70c34abd10a8c5c91630d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 15894dadf49cc4582bc351f7df073937, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -48732,8 +48800,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000015258789}
-  m_SizeDelta: {x: -7.4457, y: -8.9265}
+  m_AnchoredPosition: {x: -3.1713707, y: -0.000015258789}
+  m_SizeDelta: {x: -1.1027416, y: -8.9265}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1460986716
 MonoBehaviour:
@@ -51689,7 +51757,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1550618611}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 608035560}
+        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+        m_MethodName: MessageBtnBehavior
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1550618611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51813,7 +51893,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4e036b3183989c64ea6efcfecbceff80, type: 3}
+  m_audioClip: {fileID: 8300000, guid: de1b1b898ef484360ab58fd623614c29, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -57175,7 +57255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1722718662
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60005,8 +60085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 5.5403, y: -5.660365}
-  m_SizeDelta: {x: 265.1779, y: 266.05}
+  m_AnchoredPosition: {x: 8.4687, y: -5.6604}
+  m_SizeDelta: {x: 271.03, y: 673.74}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1821060292
 MonoBehaviour:
@@ -60028,9 +60108,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nSUBJECT: Headline Here\nTO: The Local Rag\nFROM: Bartolo@mew.com\n\n\nEmail
-    text goes here and says things and the message keeps saying a thing. \n\n\n\nLovingly,
-    \nBartholemew\n"
+  m_text: "\nSUBJECT: [IMPORTANT] WELCOME!\nTO: The Local Rag\nFROM: Bartolo@mew.com\n\n\nHey
+    kid.\r\n\r\nWhen I hired you as my replacement, I knew you\u2019d be a great
+    editor. I swear you\u2019re gonna win our newspaper a Pulitzer yet! Just double-check
+    the Evergreen interviews and we\u2019ll be ready to write.\r\n\r\nI understand
+    you\u2019re still a little new to the company computer, but it\u2019s really
+    easy to use once you get the hang of it.\r\n\r\nYou can find the audio recordings
+    in a file on the desktop. Listen through the interviews to get a sense of the
+    situation. There are also transcripts of the interviews you can read if the recordings
+    are hard to hear. \r\n\r\nOnce you\u2019ve listened to those, you\u2019ll need
+    to review the writer\u2019s notes. Check the disk on the desktop and you\u2019ll
+    see some preliminary ideas from the writer. Fill in the blanks as you see fit.
+    Once you\u2019re done, hit submit, and the writer will get started, using your
+    ideas as a base to work from.\r\n\r\nWell, I\u2019m off to enjoy my retirement.
+    Can\u2019t wait to see what kinds of stories you write, kid!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -60057,8 +60148,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -60093,7 +60184,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.2549286, y: -0.94104004, z: 0.029161451, w: 1.4188843}
+  m_margin: {x: 0.2549286, y: -0.94104004, z: 0.029161451, w: -0.86224365}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -60486,6 +60577,151 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825047840}
+  m_CullTransparentMesh: 1
+--- !u!1 &1827191282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827191283}
+  - component: {fileID: 1827191285}
+  - component: {fileID: 1827191284}
+  m_Layer: 5
+  m_Name: MsgTWOText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1827191283
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827191282}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000498845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 863198414}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 8.4687, y: -5.6604}
+  m_SizeDelta: {x: 271.03, y: 673.74}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1827191284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827191282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '
+
+    SUBJECT: LOCAL RAG, MORE LIKE
+
+    TO: The Local Rag
+
+    FROM:
+    Justin@kidd.org
+
+
+
+    This paper SUX!!!!!'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
+  m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4280361250
+  m_fontColor: {r: 0.13207549, g: 0.1288359, b: 0.1288359, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 10
+  m_fontSizeBase: 10
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 2
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 30
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0.2549286, y: -0.94104004, z: 0.029161451, w: -0.86224365}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1827191285
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827191282}
   m_CullTransparentMesh: 1
 --- !u!1 &1831162910
 GameObject:
@@ -65167,7 +65403,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 65b04d629988adc47a6e4f7f21baa338, type: 3}
+  m_audioClip: {fileID: 8300000, guid: af1d32612666a474b95b824ccebaf9d1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
