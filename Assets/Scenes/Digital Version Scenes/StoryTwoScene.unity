@@ -235,12 +235,12 @@ RectTransform:
   m_Children:
   - {fileID: 140728778}
   m_Father: {fileID: 591320705}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: -17}
+  m_SizeDelta: {x: 30, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1936128
 MonoBehaviour:
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1150166148}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.52260745
+  m_Size: 0.3806851
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1651,7 +1651,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 57005364}
-  - {fileID: 298674450}
   - {fileID: 1721680031}
   m_Father: {fileID: 922320284}
   m_RootOrder: 3
@@ -1682,7 +1681,7 @@ MonoBehaviour:
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 8
   m_Viewport: {fileID: 57005364}
-  m_HorizontalScrollbar: {fileID: 298674451}
+  m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1721680032}
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
@@ -2199,7 +2198,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: -17}
+  m_SizeDelta: {x: -27, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &57005365
 MonoBehaviour:
@@ -2367,42 +2366,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.000060554343}
   m_SizeDelta: {x: 0, y: 1220.9265}
   m_Pivot: {x: 0, y: 1}
---- !u!1 &69321755
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 69321756}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &69321756
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69321755}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 970672216}
-  m_Father: {fileID: 1239673824}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &69686431
 GameObject:
   m_ObjectHideFlags: 0
@@ -6079,42 +6042,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
---- !u!1 &199692063
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 199692064}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &199692064
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199692063}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1164860415}
-  m_Father: {fileID: 298674450}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &200156290
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,12 +6074,12 @@ RectTransform:
   m_Children:
   - {fileID: 338274892}
   m_Father: {fileID: 1573088870}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: -17}
+  m_SizeDelta: {x: 30, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &200156292
 MonoBehaviour:
@@ -6197,8 +6124,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 664744877}
   m_HandleRect: {fileID: 664744876}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.16174258
+  m_Value: 1.0000001
+  m_Size: 0.17566645
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8495,132 +8422,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292294188}
-  m_CullTransparentMesh: 1
---- !u!1 &298674449
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 298674450}
-  - component: {fileID: 298674453}
-  - component: {fileID: 298674452}
-  - component: {fileID: 298674451}
-  m_Layer: 5
-  m_Name: Scrollbar Horizontal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &298674450
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298674449}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 199692064}
-  m_Father: {fileID: 34965138}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 20}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &298674451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298674449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1164860416}
-  m_HandleRect: {fileID: 1164860415}
-  m_Direction: 0
-  m_Value: 0
-  m_Size: 1
-  m_NumberOfSteps: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &298674452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298674449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &298674453
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298674449}
   m_CullTransparentMesh: 1
 --- !u!1 &300663373
 GameObject:
@@ -12078,81 +11879,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407839983}
   m_CullTransparentMesh: 1
---- !u!1 &408616598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 408616599}
-  - component: {fileID: 408616601}
-  - component: {fileID: 408616600}
-  m_Layer: 5
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &408616599
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408616598}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1359777232}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &408616600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408616598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &408616601
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408616598}
-  m_CullTransparentMesh: 1
 --- !u!1 &409728217
 GameObject:
   m_ObjectHideFlags: 0
@@ -12573,8 +12299,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0}
-  m_SizeDelta: {x: 346, y: 1158.4734}
+  m_AnchoredPosition: {x: -0.20004272, y: 0}
+  m_SizeDelta: {x: 346, y: 1372.761}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &433140032
 GameObject:
@@ -17935,7 +17661,7 @@ RectTransform:
   m_Father: {fileID: 2145117684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8283577}
+  m_AnchorMin: {x: 0, y: 0.799469}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -18486,7 +18212,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 706037743}
-  - {fileID: 1043384286}
   - {fileID: 1936127}
   m_Father: {fileID: 456504217}
   m_RootOrder: 3
@@ -18517,7 +18242,7 @@ MonoBehaviour:
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 8
   m_Viewport: {fileID: 706037743}
-  m_HorizontalScrollbar: {fileID: 1043384287}
+  m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1936128}
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
@@ -18753,7 +18478,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0}
-  m_SizeDelta: {x: 0, y: 377.8664}
+  m_SizeDelta: {x: 0, y: 563.3943}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &603495893
 GameObject:
@@ -20373,7 +20098,7 @@ RectTransform:
   m_Father: {fileID: 338274892}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.83825743}
+  m_AnchorMin: {x: 0, y: 0.82433355}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -21474,7 +21199,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: -17}
+  m_SizeDelta: {x: -27, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &706037744
 MonoBehaviour:
@@ -21563,81 +21288,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &710891164
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 710891165}
-  - component: {fileID: 710891167}
-  - component: {fileID: 710891166}
-  m_Layer: 5
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &710891165
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710891164}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 917591109}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0005779719, y: 0}
-  m_AnchorMax: {x: 0.99942195, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &710891166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710891164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &710891167
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710891164}
-  m_CullTransparentMesh: 1
 --- !u!1 &712789475
 GameObject:
   m_ObjectHideFlags: 0
@@ -22441,7 +22091,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2025792041}
-  - {fileID: 841432319}
   - {fileID: 1425546701}
   m_Father: {fileID: 1983585081}
   m_RootOrder: 3
@@ -22472,7 +22121,7 @@ MonoBehaviour:
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 8
   m_Viewport: {fileID: 2025792041}
-  m_HorizontalScrollbar: {fileID: 841432320}
+  m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1425546702}
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
@@ -23966,7 +23615,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1881143226}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.1847421
+  m_Size: 0.15590392
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -24203,8 +23852,8 @@ RectTransform:
   m_Father: {fileID: 1287405347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0005780744, y: 0}
-  m_AnchorMax: {x: 0.99942195, y: 1}
+  m_AnchorMin: {x: 0.5006921, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -25693,132 +25342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838821015}
   m_CullTransparentMesh: 1
---- !u!1 &841432318
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 841432319}
-  - component: {fileID: 841432322}
-  - component: {fileID: 841432321}
-  - component: {fileID: 841432320}
-  m_Layer: 5
-  m_Name: Scrollbar Horizontal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &841432319
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841432318}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 917591109}
-  m_Father: {fileID: 737313921}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 20}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &841432320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841432318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 710891166}
-  m_HandleRect: {fileID: 710891165}
-  m_Direction: 0
-  m_Value: 0.49996185
-  m_Size: 0.99884397
-  m_NumberOfSteps: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &841432321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841432318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &841432322
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841432318}
-  m_CullTransparentMesh: 1
 --- !u!1 &844912759
 GameObject:
   m_ObjectHideFlags: 0
@@ -26733,7 +26256,33 @@ MonoBehaviour:
     that fair? Haha! But like I said, it\u2019s no big deal. I\u2019m sure I\u2019ll
     \u201Cfuhgeddaboudit\u201D it in a week. Oh, the doctors said I\u2019ll have
     a scar. But maybe it\u2019ll fade or something. I don\u2019t mind it. I don\u2019t
-    mind either way.\r\n"
+    mind either way.\r\nOkay, um\u2026 I guess I should start at the beginning. My
+    cousin Franziska is visiting from Germany for a few days. We went down to Coney
+    Island together, thought we\u2019d check out the beach. We stopped for lunch
+    at a restaurant at Brighton Beach. That\u2019s where it all happened.\n\nI didn\u2019t
+    even see them walk in! One minute we were sitting down to eat some pierogies
+    and the next\u2026 there were gunshot noises and everyone was yelling and screaming.
+    I always thought \u2013 heh, heh [slightly embarrassed] \u2013 I always thought
+    I\u2019d be good in a situation like that, y\u2019know? Spring into action, take
+    the guy down \u2013 but I guess I was too surprised or something \u2018cause
+    I couldn\u2019t even move. I was just kinda frozen in my seat.\n\nAnd then\u2026
+    I got hit by a stray bullet, right here in my left arm. It hurt like a bitch,
+    I gotta tell ya. And here\u2019s the funny thing: when I was sittin\u2019 in
+    the ambulance, all I could think about was my dinner reservation. Isn\u2019t
+    that kinda stupid? I got shot in the arm, and a bunch of people died, and all
+    I could think about was canceling my dinner reservation.\n\nNo, I\u2019ve never
+    seen something like this before. I live on West 75th. That\u2019s the Upper West
+    Side, we don\u2019t get this kinda stuff up there. I mean, I knew about the mob.
+    I\u2019ve seen the Godfather, haha. I read the news. But I never thought I\u2019d
+    see it up close. I guess things are different in that part of the city. Next
+    time, I\u2019m taking Franz to the history museum, and that\u2019s it! Haha.\n\nNaw,
+    I\u2019m fine. The bullet wound isn\u2019t too bad. It \u2013 ugh \u2013 it doesn\u2019t
+    really hurt anymore, see? I\u2019ve got good doctors. I don\u2019t mind all this.
+    I don\u2019t. I just\u2026 I guess I wanna know, why me? Y\u2019know? How\u2019s
+    that fair? Haha! But like I said, it\u2019s no big deal. I\u2019m sure I\u2019ll
+    \u201Cfuhgeddaboudit\u201D it in a week. Oh, the doctors said I\u2019ll have
+    a scar. But maybe it\u2019ll fade or something. I don\u2019t mind it. I don\u2019t
+    mind either way.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -27001,34 +26550,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nFranziska Stohler\r\n\r\n[Franziska is a tourist from Berlin, Germany,
-    visiting their cousin Guy. She is an avid participant in the Berlin techno scene
-    \u2013 it defines her life and her outlook.]\n\n\r\nFranziska: Do you hear this
-    music? Great stuff! I\u2019m from Berlin, they have a crazy nightlife there!
-    But I\u2019m in New York for Frankie Bones. The Future is Ours! He\u2019s got
-    a\u2013 uh\u2013 a \u201Cgenerator party\u201D here, you should come! Have some
-    fun!\r\n\r\nFranziska: Oh, that\u2019s a camera bag! I photograph the Technoszene
-    in Berlin. I take a lot of pictures. It\u2019s good to document things. I photographed
-    the Berlin Wall when it fell. It was so great to know that the war was finally
-    over! But the nightlife photos are more important. That\u2019s where Germany
-    really came back together \u2013 on the dance floor!\r\n\r\nFranziska: Oh, you
-    have questions about the restaurant, N-Nadezhda? Yes, I was there with my cousin,
-    very scary. People walked in and started shooting at a group of customers, and
-    then the customers started shooting back! It was very loud \u2013 bang-bang-bang
-    \u2013 and my cousin Guy got hit by a bullet right here! After a few seconds,
-    the shooting people ran away, and then the customers ran too \u2013 even some
-    of the ones with bullets in them! Someone told me it was the Russian and the
-    Italian mob. That\u2019s crazy! Does that kind of thing happen a lot here?\r\n\r\nFranziska:
-    Yes, Guy is my cousin. I invited him to come with me here, to get his mind off
-    the injury, but he said no! He doesn\u2019t come with me to parties, he doesn\u2019t
-    like to have fun. He\u2019s a\u2013 a stiff kind of person, you know? But underneath
-    I think he\u2019s really sensitive! He\u2019s a nice person, very kind, I\u2019m
-    glad he\u2019s alright.\r\n\r\nFranziska: Yes I\u2019m out dancing! [Obviously!]
-    Sure, there were guns and bullets, but I\u2019m still alive. Man muss die Dinge
-    nehmen, wie sie kommen. People build walls and people tear walls down. Countries
-    break apart and countries merge together. Someone probably drops nukes on us
-    tomorrow, but right now, we don\u2019t stop dancing! There is no future! Peace,
-    love, unity! Come on!\r\n"
+  m_text: "\nFranziska Stohler\r\n\r\n\nDo you hear this music? Great stuff! I\u2019m
+    from Berlin, they have a crazy nightlife there! But I\u2019m in New York for
+    Frankie Bones. The Future is Ours! He\u2019s got a\u2013 uh\u2013 a \u201Cgenerator
+    party\u201D here, you should come! Have some fun!\n\nOh, that\u2019s a camera
+    bag! I photograph the Technoszene in Berlin. I take a lot of pictures. It\u2019s
+    good to document things. I photographed the Berlin Wall when it fell. It was
+    so great to know that the war was finally over! But the nightlife photos are
+    more important. That\u2019s where Germany really came back together \u2013 on
+    the dance floor!\n\nOh, you have questions about the restaurant, N-Nadezhda?
+    Yes, I was there with my cousin, very scary. People walked in and started shooting
+    at a group of customers, and then the customers started shooting back! It was
+    very loud \u2013 bang-bang-bang \u2013 and my cousin Guy got hit by a bullet
+    right here! After a few seconds, the shooting people ran away, and then the customers
+    ran too \u2013 even some of the ones with bullets in them! Someone told me it
+    was the Russian and the Italian mob. That\u2019s crazy! Does that kind of thing
+    happen a lot here?\n\nYes, Guy is my cousin. I invited him to come with me here,
+    to get his mind off the injury, but he said no! He doesn\u2019t come with me
+    to parties, he doesn\u2019t like to have fun. He\u2019s a\u2013 a stiff kind
+    of person, you know? But underneath I think he\u2019s really sensitive! He\u2019s
+    a nice person, very kind, I\u2019m glad he\u2019s alright.\n\nYes I\u2019m out
+    dancing! Sure, there were guns and bullets, but I\u2019m still alive. Man muss
+    die Dinge nehmen, wie sie kommen. People build walls and people tear walls down.
+    Countries break apart and countries merge together. Someone probably drops nukes
+    on us tomorrow, but right now, we don\u2019t stop dancing! There is no future!
+    Peace, love, unity! Come on!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -27862,42 +27408,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914701908}
   m_CullTransparentMesh: 1
---- !u!1 &917591108
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 917591109}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &917591109
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917591108}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 710891165}
-  m_Father: {fileID: 841432319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &922320283
 GameObject:
   m_ObjectHideFlags: 0
@@ -30332,81 +29842,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969252330}
   m_CullTransparentMesh: 1
---- !u!1 &970672215
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 970672216}
-  - component: {fileID: 970672218}
-  - component: {fileID: 970672217}
-  m_Layer: 5
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &970672216
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970672215}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 69321756}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.99999994, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &970672217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970672215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &970672218
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970672215}
-  m_CullTransparentMesh: 1
 --- !u!1 &975994129
 GameObject:
   m_ObjectHideFlags: 0
@@ -32708,132 +32143,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043185268}
   m_CullTransparentMesh: 1
---- !u!1 &1043384285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1043384286}
-  - component: {fileID: 1043384289}
-  - component: {fileID: 1043384288}
-  - component: {fileID: 1043384287}
-  m_Layer: 5
-  m_Name: Scrollbar Horizontal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1043384286
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043384285}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1359777232}
-  m_Father: {fileID: 591320705}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 20}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1043384287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043384285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 408616600}
-  m_HandleRect: {fileID: 408616599}
-  m_Direction: 0
-  m_Value: 0
-  m_Size: 1
-  m_NumberOfSteps: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1043384288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043384285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1043384289
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043384285}
-  m_CullTransparentMesh: 1
 --- !u!1 &1045179579
 GameObject:
   m_ObjectHideFlags: 0
@@ -33414,8 +32723,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 792687037}
   m_HandleRect: {fileID: 792687036}
   m_Direction: 0
-  m_Value: 0.5000763
-  m_Size: 0.998844
+  m_Value: 1.0002289
+  m_Size: 0.49930784
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -33626,7 +32935,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.000015258789, y: 0}
-  m_SizeDelta: {x: 346, y: 1150.5076}
+  m_SizeDelta: {x: 346, y: 1069.5393}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1073894982
 GameObject:
@@ -37002,7 +36311,7 @@ RectTransform:
   m_Father: {fileID: 140728778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.47739255}
+  m_AnchorMin: {x: 0, y: 0.6193149}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -37524,81 +36833,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162524674}
-  m_CullTransparentMesh: 1
---- !u!1 &1164860414
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1164860415}
-  - component: {fileID: 1164860417}
-  - component: {fileID: 1164860416}
-  m_Layer: 5
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1164860415
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164860414}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 199692064}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1164860416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164860414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1164860417
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164860414}
   m_CullTransparentMesh: 1
 --- !u!1 &1165607336
 GameObject:
@@ -39744,132 +38978,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 592, y: 1705.4167}
   m_Pivot: {x: 0.5, y: 1}
---- !u!1 &1239673823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1239673824}
-  - component: {fileID: 1239673827}
-  - component: {fileID: 1239673826}
-  - component: {fileID: 1239673825}
-  m_Layer: 5
-  m_Name: Scrollbar Horizontal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1239673824
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239673823}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 69321756}
-  m_Father: {fileID: 1573088870}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 20}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1239673825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239673823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 970672217}
-  m_HandleRect: {fileID: 970672216}
-  m_Direction: 0
-  m_Value: 0
-  m_Size: 1
-  m_NumberOfSteps: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1239673826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239673823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1239673827
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239673823}
-  m_CullTransparentMesh: 1
 --- !u!1 &1243191709
 GameObject:
   m_ObjectHideFlags: 0
@@ -44852,42 +43960,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
   m_Text: New Text
---- !u!1 &1359777231
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1359777232}
-  m_Layer: 5
-  m_Name: Sliding Area
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1359777232
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359777231}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 408616599}
-  m_Father: {fileID: 1043384286}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1368472158
 GameObject:
   m_ObjectHideFlags: 0
@@ -46064,11 +45136,11 @@ RectTransform:
   m_Father: {fileID: 57005364}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000060554343}
-  m_SizeDelta: {x: 0, y: 1081.5095}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.000030517578, y: -0.000061035156}
+  m_SizeDelta: {x: 346, y: 1264.1707}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1405890693
 GameObject:
   m_ObjectHideFlags: 0
@@ -47689,11 +46761,11 @@ RectTransform:
   m_Father: {fileID: 1404637542}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.4400024, y: -29.3393}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 4.4400024, y: -18.51}
   m_SizeDelta: {x: 427.7463, y: 1115.804}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1422692920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47716,34 +46788,34 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Vito Masucci\n\n\nListen, I really appreciate you coming all the way up
     here to Sing Sing to talk to me. It\u2019s your first time here, right? I doubt
-    it\u2019s exactly your usual beat. \r\n\nWhat do I wanna talk to you about? What
+    it\u2019s exactly your usual beat. \n\nWhat do I wanna talk to you about? What
     do you think? The Russians. Those Russian goons shot my nephew - murdered him
     and his buddy like dogs in the street. And for what? For doing business in Brighton
     Beach? That\u2019s illegal now? Excuse my language, but it\u2019s bullshit. He
-    didn\u2019t do a damn thing to them. He was a good kid. He had a future.\r\n\nBut
+    didn\u2019t do a damn thing to them. He was a good kid. He had a future.\n\nBut
     you already know that. That\u2019s not why I asked you to come here. No, I asked
     you to come here because I might be able to point you in the direction of the
     assholes that did this. Now, you didn\u2019t hear this from me, but the guy you\u2019re
     looking for is one Ivan Puzyretsky. Ivan the Terrible, they call him. He\u2019s
     the one running that new crop of Russian goons down on Brighton Beach that came
     here when the wall fell. They came here to this country, this beautiful city,
-    and started sticking their noses where they don\u2019t belong.\r\n\nWhat, you
-    don\u2019t believe me, kid? Now why would I lie to you about something like that?
-    What have I got to gain, huh? Let\u2019s say you go to the cops about it. I don\u2019t
+    and started sticking their noses where they don\u2019t belong.\n\nWhat, you don\u2019t
+    believe me, kid? Now why would I lie to you about something like that? What have
+    I got to gain, huh? Let\u2019s say you go to the cops about it. I don\u2019t
     think they\u2019d believe you - not on my word. The suits don\u2019t exactly
     want to trust the word of a guy they locked up on a RICO racket. I\u2019m innocent,
     of course, but try telling that to Uncle Sam. No, I figure that information could
     best be delivered to a good, honest paper like yours. Hey, I\u2019m a gentleman.
-    I want to give back to the community, you know?\r\n\nLook, I\u2019ve made mistakes.
+    I want to give back to the community, you know?\n\nLook, I\u2019ve made mistakes.
     That\u2019s why I\u2019m here. But as bad as the feds may think I am, I never
     did anything like these Russians. I have rules, I have a code of honor. There
     are lines you just don\u2019t cross. Not for these Russians. There\u2019s nothing
-    they won\u2019t do to you. \r\n\nListen, it\u2019s a good thing you\u2019re doing,
+    they won\u2019t do to you. \nListen, it\u2019s a good thing you\u2019re doing,
     talking to me. Someone needs to get the message out there. These Russian goons\u2026they\u2019re
     bad news. And I\u2019m glad that you\u2019re coming to me to get my opinion.
     It\u2019s a real sign of respect, you know? And I appreciate that. If there\u2019s
     anything, ANYTHING, you need, you let me know, ok? You can tell my lawyer, he\u2019ll
-    tell me. I\u2019ll make sure that you\u2019re taken care of. \r\n"
+    tell me. I\u2019ll make sure that you\u2019re taken care of."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -47809,7 +46881,7 @@ MonoBehaviour:
   m_margin: {x: 18.186417, y: -0.94104004, z: 21.217438, w: 1.4188843}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1422692921
@@ -48276,12 +47348,12 @@ RectTransform:
   m_Children:
   - {fileID: 2145117684}
   m_Father: {fileID: 737313921}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: -17}
+  m_SizeDelta: {x: 30, y: 0.000030518}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1425546702
 MonoBehaviour:
@@ -48327,7 +47399,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.17164233
+  m_Size: 0.20053099
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -48929,7 +48001,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: -17}
+  m_SizeDelta: {x: -27, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1443335412
 MonoBehaviour:
@@ -52338,7 +51410,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1443335411}
-  - {fileID: 1239673824}
   - {fileID: 200156291}
   m_Father: {fileID: 1553609065}
   m_RootOrder: 3
@@ -52369,7 +51440,7 @@ MonoBehaviour:
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 8
   m_Viewport: {fileID: 1443335411}
-  m_HorizontalScrollbar: {fileID: 1239673825}
+  m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 200156292}
   m_HorizontalScrollbarVisibility: 2
   m_VerticalScrollbarVisibility: 2
@@ -56185,17 +55256,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Brighton Beach Man\n\r\n\n\u2013you get it? No more questions, no more
-    \u201Cchats\u201D, no more nothing. You don\u2019t talk to anyone here, got it?
-    Otherwise, you fuckin\u2019 rat\u2026I\u2019ll make you a heart attack. This
-    is the last time you\u2019ll be able to see. You ask any more questions\u2026just
-    wait and see what\u2019s goin\u2019 to happen to you.\r\n\nAnd don\u2019t even
+  m_text: "Brighton Beach Man\n\r\n\n NOT AN OFFICIAL INTERVIEW TRANSCRIPT. Audio
+    was recorded secretly by a Local Rag reporter who was being publicly confronted
+    by a probable member of the Russian mob.\n\n\u2013you get it? No more questions,
+    no more \u201Cchats\u201D, no more nothing. You don\u2019t talk to anyone here,
+    got it? Otherwise, you fuckin\u2019 rat\u2026I\u2019ll make you a heart attack.
+    This is the last time you\u2019ll be able to see. You ask any more questions\u2026just
+    wait and see what\u2019s goin\u2019 to happen to you.\n\nAnd don\u2019t even
     think about going to your cops. What do you think they can do? You think they
     can touch me? You think your American jails scare me? I survived the gulag and
-    I didn\u2019t break. You have NOTHING that can scare me.\r\n\nDon\u2019t ask
-    questions. Don\u2019t write about us.  Don\u2019t talk about us. As far as you\u2019re
-    concerned, we don\u2019t exist. Got it? I\u2019m being nice about this. You fucking
-    test me and you die.\r\n"
+    I didn\u2019t break. You have NOTHING that can scare me.\n\nDon\u2019t ask questions.
+    Don\u2019t write about us.  Don\u2019t talk about us. As far as you\u2019re concerned,
+    we don\u2019t exist. Got it? I\u2019m being nice about this. You fucking test
+    me and you die.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -57817,12 +56890,12 @@ RectTransform:
   m_Children:
   - {fileID: 398109291}
   m_Father: {fileID: 34965138}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: -17}
+  m_SizeDelta: {x: 30, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1721680032
 MonoBehaviour:
@@ -57867,8 +56940,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764925725}
   m_HandleRect: {fileID: 1764925724}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.18259275
+  m_Value: 1.0000001
+  m_Size: 0.16965732
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -59695,7 +58768,7 @@ RectTransform:
   m_Father: {fileID: 398109291}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.81740725}
+  m_AnchorMin: {x: 0, y: 0.83034265}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -63281,7 +62354,7 @@ RectTransform:
   m_Father: {fileID: 1324101916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8152579}
+  m_AnchorMin: {x: 0, y: 0.84409606}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -67498,7 +66571,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: -17}
+  m_SizeDelta: {x: -27, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2025792042
 MonoBehaviour:
@@ -70873,37 +69946,36 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Boris Kramarov\n\r\n\nLook, ya nechevo ne znayu. My friend, I don\u2019t
     know anything. Don\u2019t ask me about anything. I didn\u2019t see anything.
-    I don\u2019t know who did this. \r\n\nYou know what you can ask? Look at this
-    place. Look at my beautiful restaurant. How am I going to pay my bills? This
-    happened a week ago, and it\u2019s still like this. As long as it\u2019s like
-    this, I\u2019m losing money. Without money, how am I going to pay for this? New
-    windows are expensive.\r\n\nThis wasn\u2019t supposed to happen here. In America.
-    This country, it was supposed to be a promised land. \r\n\nBefore this? I was
-    in Birobidzhan. Before that I was in Moscow. Birobidzhan, it\u2019s in the east,
-    in Siberia. It was where Stalin sent all the Jews he didn\u2019t have killed
-    during his purges. It was\u2026the  fifties? The start of the fifties, I think,
-    I was just a child then. My father, a very good doctor in Moscow. But Stalin
-    accused him of trying to murder government officials. All nonsense, of course.
-    But every Jewish doctor in Moscow that didn\u2019t just disappear one day was
-    sent to Siberia. We ended up in Birobidzhan. Winter there was colder than you
-    could believe. But the mountains there\u2026it was a beautiful place, my friend.
-    \r\n\nWhy am I here? My friend, Birobidzhan was beautiful, but it wasn\u2019t
-    good. Everyone was poor, everyone was hungry. There was crime everywhere. It
-    was part of the government. We thought things might get better after Stalin died,
-    but the party never changed. Even when my father\u2019s name was cleared we weren\u2019t
-    allowed to leave. I thought America was a land of prosperity. My friends and
-    I, we passed around your rock CDs like they were holy artifacts. I listened to
-    the Voice of America and thought that your streets were paved with gold.\r\n\nSo,
-    when Gorbachev came to power, I applied to leave as soon as I could. I thought
-    life here would be better than in Birobidzhan. It had to be. Anything would be
-    better than Birobidzhan.\r\nBut when I got here\u2026my friend, this country
-    is not what was promised. \n\nThis restaurant, Nadezhda, I got lucky. There were
-    people here who would help me. Other Jews who helped me land on my feet a bit.
-    We Jews have to stick together. But this\u2026I struggle every day. My family
-    and I are barely scraping by.\r\n\nAnd now, Gorbachev is gone, and the war is
-    over, and everything that I thought I\u2019d left behind in Siberia has followed
-    me to America. It is my luck, I suppose. My friend, you have no idea what has
-    been unleashed on your country. \n"
+    I don\u2019t know who did this. \n\nYou know what you can ask? Look at this place.
+    Look at my beautiful restaurant. How am I going to pay my bills? This happened
+    a week ago, and it\u2019s still like this. As long as it\u2019s like this, I\u2019m
+    losing money. Without money, how am I going to pay for this? New windows are
+    expensive.\n\nThis wasn\u2019t supposed to happen here. In America. This country,
+    it was supposed to be a promised land. \n\nBefore this? I was in Birobidzhan.
+    Before that I was in Moscow. Birobidzhan, it\u2019s in the east, in Siberia.
+    It was where Stalin sent all the Jews he didn\u2019t have killed during his purges.
+    It was\u2026the  fifties? The start of the fifties, I think, I was just a child
+    then. My father, a very good doctor in Moscow. But Stalin accused him of trying
+    to murder government officials. All nonsense, of course. But every Jewish doctor
+    in Moscow that didn\u2019t just disappear one day was sent to Siberia. We ended
+    up in Birobidzhan. Winter there was colder than you could believe. But the mountains
+    there\u2026it was a beautiful place, my friend. \n\nWhy am I here? My friend,
+    Birobidzhan was beautiful, but it wasn\u2019t good. Everyone was poor, everyone
+    was hungry. There was crime everywhere. It was part of the government. We thought
+    things might get better after Stalin died, but the party never changed. Even
+    when my father\u2019s name was cleared we weren\u2019t allowed to leave. I thought
+    America was a land of prosperity. My friends and I, we passed around your rock
+    CDs like they were holy artifacts. I listened to the Voice of America and thought
+    that your streets were paved with gold.\n\nSo, when Gorbachev came to power,
+    I applied to leave as soon as I could. I thought life here would be better than
+    in Birobidzhan. It had to be. Anything would be better than Birobidzhan.\n\nBut
+    when I got here\u2026my friend, this country is not what was promised. This restaurant,
+    Nadezhda, I got lucky. There were people here who would help me. Other Jews who
+    helped me land on my feet a bit. We Jews have to stick together. But this\u2026I
+    struggle every day. My family and I are barely scraping by.\n\nAnd now, Gorbachev
+    is gone, and the war is over, and everything that I thought I\u2019d left behind
+    in Siberia has followed me to America. It is my luck, I suppose. My friend, you
+    have no idea what has been unleashed on your country. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
