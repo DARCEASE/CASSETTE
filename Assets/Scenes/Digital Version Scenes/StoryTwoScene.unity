@@ -46115,9 +46115,9 @@ MonoBehaviour:
     to take things as they come. Following moments of tragedy, the human spirit nonetheless
     shines as brightly as ever."
   newspaperHeadlines:
-  - BRIGHTON BEACH CRIME BEATS
-  - FEAR IN BRIGHTON BEACH BROOKLYN
-  - COMPASSION FOR BRIGHTON RESIDENTS
+  - RED MENACE ON BRIGHTON BEACH
+  - WAR IN THE STREETS
+  - BULLETS FLY ON BRIGHTON BEACH
   BorisDPOne: {fileID: 1955818698}
   BorisDPTwo: {fileID: 2124620505}
   BorisDPThree: {fileID: 339281353}
@@ -69842,7 +69842,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "ROBERT EVERGREEN \nFOUND DEAD"
+  m_Text: "LOCAL HERO FOUND \nDEAD"
 --- !u!222 &2111132689
 CanvasRenderer:
   m_ObjectHideFlags: 0
