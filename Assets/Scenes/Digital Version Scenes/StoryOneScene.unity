@@ -40593,14 +40593,13 @@ GameObject:
   - component: {fileID: 1279310166}
   - component: {fileID: 1279310168}
   - component: {fileID: 1279310167}
-  - component: {fileID: 1279310169}
   m_Layer: 5
   m_Name: NewsPaperPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40659,30 +40658,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279310165}
   m_CullTransparentMesh: 1
---- !u!114 &1279310169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279310165}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 996ccad3243fea442b4a2074622f6a6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SideArticles:
-  - Jim Questioned
-  - Michael Assaulted
-  - Abundantia Excels
-  - Evergreen Park
-  - Don't Ask, Don't Tell
-  sideArticleText: {fileID: 2122143201}
-  sideArt1: 0
-  sideArt2: 0
-  sideArt3: 0
-  sideArt4: 0
-  sideArt5: 0
 --- !u!1 &1287405346
 GameObject:
   m_ObjectHideFlags: 0
@@ -46796,7 +46771,7 @@ MonoBehaviour:
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0
-  SAS: {fileID: 1279310169}
+  SAS: {fileID: 0}
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0
