@@ -29993,11 +29993,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991530705}
   m_CullTransparentMesh: 1
---- !u!111 &996805107 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-  m_PrefabInstance: {fileID: 1540889268}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &996805108 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7967658876803784714, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
@@ -38397,7 +38392,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 592, y: 1705.4167}
+  m_SizeDelta: {x: 592, y: 1513.3357}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1243191709
 GameObject:
@@ -49570,7 +49565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -811.9}
+  m_AnchoredPosition: {x: 0, y: -720.3}
   m_SizeDelta: {x: 432.9693, y: 29.900024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536654669
@@ -49794,7 +49789,7 @@ PrefabInstance:
     - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: FadeOut
       value: 
-      objectReference: {fileID: 996805107}
+      objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: TransitionOBJ
       value: 
@@ -62057,7 +62052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.7225342, y: 320.32843}
+  m_AnchoredPosition: {x: 3.7225342, y: 223.97}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1896397309
