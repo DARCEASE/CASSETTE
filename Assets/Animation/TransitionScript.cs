@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class TransitionScript : MonoBehaviour
 {
- 
+    [SerializeField] AnimationCurve ac;
     [SerializeField] CanvasGroup canvas;
     Scene scene;
     [SerializeField] Image TransitionOBJ;
@@ -16,6 +16,7 @@ public class TransitionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FadeOutScene();
         scene = SceneManager.GetActiveScene();
     }
 
@@ -36,10 +37,16 @@ public class TransitionScript : MonoBehaviour
     //One to Fade Out...
 
     IEnumerator IntroLevel(){
-        float t = 1;
-        while ( t < transitionTime){ // 1 is less than 5
-            t -= (Time.deltaTime*100);
-            canvas.alpha = t;
+        float t = 0;
+        while (t < 0.5f){
+            t +=Time.deltaTime;
+            yield return null;
+        }
+        t = transitionTime;
+        while ( t > 0){ // 1 is less than 5
+            t -= Time.deltaTime;
+            canvas.alpha = ac.Evaluate(t/transitionTime);
+            Debug.Log("RUNNING HERE");
             yield return null;
         }
     }
