@@ -11348,7 +11348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Interviews
+  m_text: INTERVIEWS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -16741,8 +16741,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
+  m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18632,7 +18632,6 @@ GameObject:
   - component: {fileID: 608035559}
   - component: {fileID: 608035560}
   - component: {fileID: 608035558}
-  - component: {fileID: 608035561}
   - component: {fileID: 608035562}
   - component: {fileID: 608035563}
   m_Layer: 0
@@ -18709,34 +18708,6 @@ MonoBehaviour:
   - {fileID: 1821060292}
   - {fileID: 1827191284}
   MsgAppTxt: {fileID: 0}
---- !u!114 &608035561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 608035557}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c30981c6f6caeba488071ed289c2d2d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DClickButtons:
-  - {fileID: 574720232}
-  - {fileID: 1101756044}
-  - {fileID: 966290101}
-  - {fileID: 873878755}
-  - {fileID: 118338596}
-  - {fileID: 1709420499}
-  - {fileID: 1021888797}
-  - {fileID: 5926226}
-  - {fileID: 240584916}
-  - {fileID: 0}
-  - {fileID: 2100847154}
-  testButton: {fileID: 0}
-  tapTime: 0
-  resetTimer: 0
-  doubleClicked: 0
 --- !u!114 &608035562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18782,7 +18753,7 @@ MonoBehaviour:
   char4Audio: {fileID: 1553609068}
   char5Audio: {fileID: 1415734646}
   AudioContObj: {fileID: 1762230524}
-  SettingsMenuDisplay: {fileID: 50307238}
+  SettingsMenuDisplay: {fileID: 1722718661}
   SoundsMenuDisplay: {fileID: 1908652264}
   InterfaceMenuDisplay: {fileID: 1424843997}
   volSliderKnob: {fileID: 1248090960}
@@ -18854,6 +18825,8 @@ MonoBehaviour:
   - {fileID: 1460986716}
   - {fileID: 1405981190}
   - {fileID: 153155436}
+  - {fileID: 1821060292}
+  - {fileID: 1827191284}
   BerkTMPObjs:
   - {fileID: 1265203191}
   - {fileID: 300663375}
@@ -18878,6 +18851,16 @@ MonoBehaviour:
   - {fileID: 1979733584}
   - {fileID: 1409682966}
   - {fileID: 1406725476}
+  - {fileID: 509945223}
+  - {fileID: 1469803185}
+  - {fileID: 1190805168}
+  - {fileID: 1030746868}
+  - {fileID: 528712439}
+  - {fileID: 1049497843}
+  - {fileID: 1003512177}
+  - {fileID: 359165299}
+  - {fileID: 1140863599}
+  - {fileID: 565680176}
   AppleSDFTextObjs:
   - {fileID: 279715742}
   BerkTextObjs:
@@ -32609,8 +32592,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
+  m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37160,8 +37143,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
+  m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -39034,8 +39017,8 @@ RectTransform:
   m_Father: {fileID: 320234972}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -48515,7 +48498,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -49313,8 +49296,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
+  m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -52051,7 +52034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560469102}
   m_Layer: 5
-  m_Name: AudioSettingsObjTemps
+  m_Name: SettingsOptions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54974,7 +54957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1649929604}
   m_Layer: 5
-  m_Name: Content
+  m_Name: Content (needs necessity check)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57279,7 +57262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1722718662
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61772,7 +61755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1873577902
 RectTransform:
   m_ObjectHideFlags: 0
@@ -63607,12 +63590,12 @@ GameObject:
   - component: {fileID: 1911356895}
   - component: {fileID: 1911356894}
   m_Layer: 5
-  m_Name: InterfaceSettingsObjTemps
+  m_Name: InterfaceSettingsObjTemps (needs necessity check)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1911356893
 RectTransform:
   m_ObjectHideFlags: 0
