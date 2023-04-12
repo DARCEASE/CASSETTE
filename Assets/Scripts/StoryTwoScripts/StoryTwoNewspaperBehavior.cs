@@ -614,15 +614,15 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
         //Brighton: 0,1,2 Boris: 3,4,5 Vito: 6,7,8 Guy: 9,10,11 Franz:, 12,13,14
         //if they are not equal, it'll jump over here
         if (FearfulPaper > CompassionatePaper && FearfulPaper > AngryPaper){
-           PlayerNewspaper = newspaperPrints[0];
+           PlayerNewspaper = FearfulNewspaper;
            PlayerHeadline = newspaperHeadlines[0];
         }
         else if (AngryPaper > CompassionatePaper && AngryPaper > FearfulPaper){
-            PlayerNewspaper = newspaperPrints[1];
+            PlayerNewspaper = AngryNewspaper;
             PlayerHeadline = newspaperHeadlines[1];
         }
         else if (CompassionatePaper > FearfulPaper && CompassionatePaper > AngryPaper){
-            PlayerNewspaper = newspaperPrints[2];
+            PlayerNewspaper = CompassionateNewspaper;
             PlayerHeadline = newspaperHeadlines[2];
         }
         finalNewspaper.text = PlayerNewspaper;

@@ -1423,6 +1423,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 644103880}
     m_Modifications:
+    - target: {fileID: 7967658876803784712, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784713, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Name
       value: TransitionController
@@ -1433,7 +1437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: transitionTime
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x

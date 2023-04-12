@@ -34,25 +34,7 @@ public class SettingsMenuController : MonoBehaviour
     bool isReg, isDyslex;
     [SerializeField] Font AppleFont, DyslexFont, BerkFont, PrintFont; //KEEP IN MIND: This should apply to ALL TEXT
     [SerializeField] TMP_FontAsset AppleFontTMP, DyslexFontTMP, BerkFontTMP, PrintFontTMP; //interview font
-    //[SerializeField] Text[] allTextObjects;
-    //[SerializeField] TMP_Text[] allTMPTextObjects;
-
-    //Character Texts (Interview Panels & Fill-in panels (includes choices))
-    /*
-    [SerializeField] Text[] allCharText; //CHar fill in Panel Info
-    [SerializeField] TMP_Text[] allCharTMPText;
-
-    //Button Text
-    [SerializeField] Text[] CompText;
-    [SerializeField] TMP_Text[] CompTMPText;
-    
-    //Title text
-    [SerializeField] Text[] allTitleText;
-    [SerializeField] TMP_Text[] allTitleTMPText;
-
-    //InterviewPanel text
-    [SerializeField] TMP_Text[] allInterviewTMPText;
-    */
+ 
     //Second Attempt
     //TMP objs
     [SerializeField] TMP_Text[] AppleSDFTMPObjs;
@@ -95,12 +77,7 @@ public class SettingsMenuController : MonoBehaviour
         char4Audio.volume = intVolSlider.value;
         char5Audio.volume = intVolSlider.value;
 
-        /*
-        for (int i = 0; i < 5; i++){
-            intVolSlider.value =
-        }*/
-
-        //volSlider.value = audioContSources[0].volume; //leaving this just in case we decide to add BG music again
+     
         if(Input.GetKeyDown(KeyCode.C) && isReg){
                 ChangeToDyslexicFont();
     
@@ -109,12 +86,6 @@ public class SettingsMenuController : MonoBehaviour
         }
     }
 
-/*
-    public void MuteBGMusic(){ //Mouse Click
-        //Mute SFX
-        AC.bg_source.mute = AC.bg_source.mute;
-    }
-*/
     public void ToggleBGMusic(){
         //Unmmute SFX 
         AC.bg_source.mute = !AC.bg_source.mute;
@@ -137,133 +108,42 @@ public class SettingsMenuController : MonoBehaviour
 
     public void ChangeToRegularFont(){
         //CHANGE ALL TEXT TO REG FONT
-        //testTextObj.font = regFont;
         isReg = true;
         isDyslex = false;
 
         for (int i = 0; i < AppleSDFTMPObjs.Length; i++){
 
             AppleSDFTMPObjs[i].font = AppleFontTMP;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < BerkTMPObjs.Length; i++){
             
             BerkTMPObjs[i].font = BerkFontTMP;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < PrintCharTMPObjs.Length; i++){
             
             PrintCharTMPObjs[i].font = PrintFontTMP;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < AppleSDFTextObjs.Length; i++){
 
             AppleSDFTextObjs[i].font = AppleFont;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < BerkTextObjs.Length; i++){
             
             BerkTextObjs[i].font = BerkFont;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < PrintCharTextObjs.Length; i++){
             
             PrintCharTextObjs[i].font = PrintFont;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
-
-        /*
-        //Char font
-        for (int i = 0; i < allCharText.Length; i++){
-            allCharText[i].font = regFont;
-            if (allCharText[i].fontSize == fontSizeTitleDys){
-                allCharText[i].fontSize = fontSizeTitleReg;
-            }
-            if (allCharText[i].fontSize == fontSizeDys){
-                allCharText[i].fontSize = fontSizeReg;
-            }
-
-            Debug.Log("Char text " + i);
-        }
-
-        for (int i = 0; i < allCharTMPText.Length; i++){
-            allCharTMPText[i].font = regFontTMP;
-            if (allCharTMPText[i].fontSize == fontSizeTitleDys){
-                allCharTMPText[i].fontSize = fontSizeTitleDys;
-            }
-            if (allCharTMPText[i].fontSize == fontSizeDys){
-                allCharTMPText[i].fontSize = fontSizeReg;
-            }
-            Debug.Log("Char TMP " + i);
-        }
-
-        //Comp font
-        ///*
-        for (int i = 0; i < CompText.Length; i++){
-            CompText[i].font = intFont;
-        }
-
-        for (int i = 0; i < CompTMPText.Length; i++){
-            CompTMPText[i].font = intFontTMP;
-        }//
-
-        //TItle font
-        for (int i = 0; i < allTitleText.Length; i++){
-            allTitleText[i].font = TitleFont;
-        }
-
-        for (int i = 0; i < allTitleTMPText.Length; i++){
-            allTitleTMPText[i].font = TitleFontTMP;
-        }
-
-        //Interview Font
-        for (int i = 0; i < allInterviewTMPText.Length; i++){
-            if (i % 3 == 0){
-                allInterviewTMPText[i].font = regFontTMP;
-            } else{
-                allInterviewTMPText[i].font = intFontTMP;
-            }
-        }*/
     }
 
     public void ChangeToDyslexicFont(){
         //CHANGE ALL TEXT TO DYSLEX FONT
-        //testTextObj.font = dyslexFont;
 
         isDyslex = true;
         isReg = false;
@@ -271,122 +151,32 @@ public class SettingsMenuController : MonoBehaviour
         for (int i = 0; i < AppleSDFTMPObjs.Length; i++){
 
             AppleSDFTMPObjs[i].font = DyslexFontTMP;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < BerkTMPObjs.Length; i++){
             
             BerkTMPObjs[i].font = DyslexFontTMP;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < PrintCharTMPObjs.Length; i++){
             
             PrintCharTMPObjs[i].font = DyslexFontTMP;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < AppleSDFTextObjs.Length; i++){
 
             AppleSDFTextObjs[i].font = DyslexFont;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < BerkTextObjs.Length; i++){
             
             BerkTextObjs[i].font = DyslexFont;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
 
         for (int i = 0; i < PrintCharTextObjs.Length; i++){
             
             PrintCharTextObjs[i].font = DyslexFont;
-            /*if (AppleSDFTMPObjs[i].fontSize == fontSizeTitleDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeTitleReg;
-            }
-            if (AppleSDFTMPObjs[i].fontSize == fontSizeDys){
-                AppleSDFTMPObjs[i].fontSize = fontSizeReg;
-            }*/
         }
-
-        
-        /*
-        //Char font
-        for (int i = 0; i < allCharText.Length; i++){
-            allCharText[i].font = dyslexFont;
-            if (allCharText[i].fontSize == fontSizeTitleReg){
-                allCharText[i].fontSize = fontSizeTitleDys;
-            }
-            if (allCharText[i].fontSize == fontSizeReg){
-                allCharText[i].fontSize = fontSizeDys;
-            }
-            Debug.Log("ALl Char Text " + i);
-        }
-
-        for (int i = 0; i < allCharTMPText.Length; i++){
-            allCharTMPText[i].font = dyslexFontTMP;
-            if (allCharTMPText[i].fontSize == fontSizeTitleReg){
-                allCharTMPText[i].fontSize = fontSizeTitleDys;
-            }
-            if (allCharTMPText[i].fontSize == fontSizeReg){
-                allCharTMPText[i].fontSize = fontSizeDys;
-            }
-            Debug.Log("All Char TMP " + i);
-        }
-
-        //Comp font
-        ///*
-        for (int i = 0; i < CompText.Length; i++){
-            CompText[i].font = dyslexFont;
-        }
-
-        for (int i = 0; i < CompTMPText.Length; i++){
-            CompTMPText[i].font = dyslexFontTMP;
-        }
-
-        //TItle font
-        for (int i = 0; i < allTitleText.Length; i++){
-            allTitleText[i].font = dyslexFont;
-        }
-
-        for (int i = 0; i < allTitleTMPText.Length; i++){
-            allTitleTMPText[i].font = dyslexFontTMP;
-        }
-
-        //Interview Font
-        for (int i = 0; i < allInterviewTMPText.Length; i++){
-            if (i % 3 == 0){
-                allInterviewTMPText[i].font = dyslexFontTMP;
-            } else{
-                allInterviewTMPText[i].font = dyslexFontTMP;
-            }
-        }
-        */
     }
 
     public void ShowSettingsMenu(){

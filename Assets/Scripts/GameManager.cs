@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        TS.FadeOutScene();
         AFS = GetComponent<AudienceFeedbackScript>();
         currentScene = SceneManager.GetActiveScene();
     }
@@ -19,6 +18,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
+                    //TS.FadeOutScene();
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen") //restart game
         {
             TS.ToNextScene();
