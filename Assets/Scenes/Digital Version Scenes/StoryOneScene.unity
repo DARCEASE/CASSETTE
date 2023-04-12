@@ -19143,7 +19143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 925287765}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &608035560
 MonoBehaviour:
@@ -25254,22 +25254,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813876284}
   m_CullTransparentMesh: 1
---- !u!111 &815589518 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-  m_PrefabInstance: {fileID: 972963007}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &815589519 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7967658876803784714, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-  m_PrefabInstance: {fileID: 972963007}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &822673259
 GameObject:
   m_ObjectHideFlags: 0
@@ -28626,7 +28610,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925287763}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76edaca6b8af1694c8b5d9019404f5f2, type: 3}
   m_Name: 
@@ -28643,8 +28627,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1507010981}
-  - {fileID: 608035559}
   - {fileID: 1410984874}
+  - {fileID: 608035559}
   - {fileID: 1762230525}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -30164,46 +30148,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransitionController
       objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784713, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784714, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: 7400000, guid: 8fa7653e466a84a47bdc29ef3287acac, type: 2}
-    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_Animations.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_Animations.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784715, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_Animations.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784717, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: FadeOut
-      value: 
-      objectReference: {fileID: 815589518}
-    - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: TransitionOBJ
-      value: 
-      objectReference: {fileID: 815589519}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -30239,14 +30183,6 @@ PrefabInstance:
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_SizeDelta.y
       value: 6.2353
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 335.5705
-      objectReference: {fileID: 0}
-    - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 223.71365
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46537,7 +46473,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 925287765}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1410984875
 MonoBehaviour:

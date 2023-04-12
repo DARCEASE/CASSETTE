@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        TS.FadeOutScene();
         AFS = GetComponent<AudienceFeedbackScript>();
         currentScene = SceneManager.GetActiveScene();
     }
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen") //restart game
         {
             TS.ToNextScene();
+            
         }
 
         if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryOneScene" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryTwoScene" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
@@ -59,9 +61,6 @@ public class GameManager : MonoBehaviour
     public void NextStory()
     {
         TS.ToNextScene();
-        //SceneManager.LoadScene("StoryTwoScene");
-        //Debug.Log("StoryTwoScene");
-        //AFS.FormulaCalculation();
     }
 
     public void StartGame()
