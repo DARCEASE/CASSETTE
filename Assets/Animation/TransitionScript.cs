@@ -8,9 +8,10 @@ using UnityEngine.UI;
 public class TransitionScript : MonoBehaviour
 {
     private string currentState;
-
     private Animator animator;
     public Animation FadeOut;
+
+    [SerializeField] CanvasGroup canvas;
 
     Scene scene;
 
@@ -40,6 +41,10 @@ public class TransitionScript : MonoBehaviour
         }*/
     }
     
+    public void FadeOutScene(){
+        StartCoroutine(IntroLevel());
+    }
+
     public void ToNextScene(){
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
@@ -47,14 +52,27 @@ public class TransitionScript : MonoBehaviour
     //One to Fade in...
     //One to Fade Out...
 
+
+    IEnumerator IntroLevel(){
+        float t = 1;
+        while ( t < transitionTime){
+            t -= Time.deltaTime;
+            canvas.alpha = t/transitionTime;
+            yield return null;
+        }
+    }
+
     IEnumerator LoadLevel(int levelIndex){
-        animator.SetTrigger("EndFade");
-        
+        float t = 0;
+        while ( t < transitionTime){
+            t += Time.deltaTime;
+            canvas.alpha = t/transitionTime;
+            yield return null;
+        }        
 
         if (levelIndex > 5){
             levelIndex = 0;
         } 
-        yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
 
 
