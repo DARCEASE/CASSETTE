@@ -24024,7 +24024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &826565301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -56087,21 +56087,20 @@ MonoBehaviour:
   SoundsMenuDisplay: {fileID: 1908652264}
   InterfaceMenuDisplay: {fileID: 1424843997}
   volSliderKnob: {fileID: 1248090960}
-  regFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
-  dyslexFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
-  TitleFont: {fileID: 0}
-  intFont: {fileID: 0}
-  regFontTMP: {fileID: 0}
-  dyslexFontTMP: {fileID: 0}
-  TitleFontTMP: {fileID: 0}
-  intFontTMP: {fileID: 0}
-  allCharText: []
-  allCharTMPText: []
-  CompText: []
-  CompTMPText: []
-  allTitleText: []
-  allTitleTMPText: []
-  allInterviewTMPText: []
+  AppleFont: {fileID: 0}
+  DyslexFont: {fileID: 0}
+  BerkFont: {fileID: 0}
+  PrintFont: {fileID: 0}
+  AppleFontTMP: {fileID: 0}
+  DyslexFontTMP: {fileID: 0}
+  BerkFontTMP: {fileID: 0}
+  PrintFontTMP: {fileID: 0}
+  AppleSDFTMPObjs: []
+  PrintCharTMPObjs: []
+  BerkTMPObjs: []
+  AppleSDFTextObjs: []
+  BerkTextObjs: []
+  PrintCharTextObjs: []
 --- !u!1 &1723162696
 GameObject:
   m_ObjectHideFlags: 0
