@@ -39485,7 +39485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1279310166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45573,9 +45573,9 @@ MonoBehaviour:
     his ex-wife. While he would not elaborate on the details, Lt. Bailey did comment
     that ultimately he had to \u201Cregret\u201D his relationship with the businessman. "
   newspaperHeadlines:
-  - MILITARY POLICY HURTS TOO MANY
-  - ROBERT EVERGREEN FOUND DEAD
-  - SUITS AND SAUCY SAILORS
+  - GRIEVING A HERO
+  - LOCAL HERO DEAD
+  - QUEER DEATH OF A BUSINESSMAN
   NovakDPOne: {fileID: 1955818698}
   NovakDPTwo: {fileID: 2124620505}
   NovakDPThree: {fileID: 339281353}
