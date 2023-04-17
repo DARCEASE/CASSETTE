@@ -57209,7 +57209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Friday, March 6th, 1992        $0.25
+  m_text: Monday, December 14, 1992       $0.25
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
