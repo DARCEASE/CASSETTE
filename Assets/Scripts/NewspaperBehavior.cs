@@ -698,9 +698,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         int finalPaperInt;
         //PAPER PIECING
-        MuckrakerNewspaper = NovakMuckString + "" + JuliaMuckString + "" + JimMuckString + "" + MaxMuckString + "" + MichaelMuckString;
-        StatusQuoNewspaper = NovakSQString + "" + JuliaSQString + "" + JimSQString + "" + MaxSQString + "" + MichaelSQString;
-        TabloidNewspaper = NovakTabloidString + "" + JuliaTabloidString + "" + JimTabloidString + "" + MaxTabloidString + "" + MichaelTabloidString;
+        MuckrakerNewspaper = NovakMuckString + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
+        StatusQuoNewspaper = NovakSQString + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
+        TabloidNewspaper = NovakTabloidString + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
 
 
         //Value Check

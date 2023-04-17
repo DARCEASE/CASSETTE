@@ -535,9 +535,9 @@ public class StoryTwoNewspaperBehavior : MonoBehaviour
     {
         int finalPaperInt;
         //PAPER PIECING
-        AngryNewspaper = BrightonAPaperString + "" + BorisAPaperString + "" + GuyAPaperString + "" + VitoAPaperString + "" + FranzAPaperString;
-        FearfulNewspaper = BrightonBPaperString + "" + BorisBPaperString + "" + GuyBPaperString + "" + VitoBPaperString + "" + FranzBPaperString;
-        CompassionateNewspaper = BrightonCPaperString + "" + BorisCPaperString + "" + GuyCPaperString + "" + VitoCPaperString + "" + FranzCPaperString;
+        AngryNewspaper = BrightonAPaperString + "\n" + BorisAPaperString + "\n" + GuyAPaperString + "\n" + VitoAPaperString + "\n" + FranzAPaperString;
+        FearfulNewspaper = BrightonBPaperString + "\n" + BorisBPaperString + "\n" + GuyBPaperString + "\n" + VitoBPaperString + "\n" + FranzBPaperString;
+        CompassionateNewspaper = BrightonCPaperString + "\n" + BorisCPaperString + "\n" + GuyCPaperString + "\n" + VitoCPaperString + "\n" + FranzCPaperString;
 
         //For determining which paper to print when they're equal
         if (FearfulPaper == AngryPaper){
