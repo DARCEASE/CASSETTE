@@ -24829,9 +24829,9 @@ MonoBehaviour:
     and everyone was yelling and screaming. I always thought \u2013 heh, heh \u2013
     I always thought I\u2019d be good in a situation like that, y\u2019know? Spring
     into action, take the guy down \u2013 but I guess I was too surprised or something
-    \u2018cause I couldn\u2019t even move. I was just kinda frozen in my seat.\r\n\r\n
-    And then\u2026 I got hit by a stray bullet, right here in my left arm. It hurt
-    like a bitch, I gotta tell ya. And here\u2019s the funny thing: when I was sittin\u2019
+    \u2018cause I couldn\u2019t even move. I was just kinda frozen in my seat.\r\n\r\nAnd
+    then\u2026 I got hit by a stray bullet, right here in my left arm. It hurt like
+    a bitch, I gotta tell ya. And here\u2019s the funny thing: when I was sittin\u2019
     in the ambulance, all I could think about was my dinner reservation. Isn\u2019t
     that kinda stupid? I got shot in the arm, and a bunch of people died, and all
     I could think about was canceling my dinner reservation.\r\n\r\nNo, I\u2019ve
@@ -41159,7 +41159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
