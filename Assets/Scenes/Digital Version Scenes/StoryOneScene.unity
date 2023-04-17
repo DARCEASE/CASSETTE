@@ -45609,7 +45609,7 @@ MonoBehaviour:
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0
-  SAS: {fileID: 1279310169}
+  SAS: {fileID: 0}
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0

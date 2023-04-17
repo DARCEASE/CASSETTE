@@ -791,7 +791,7 @@ public class NewspaperBehavior : MonoBehaviour
         }
         finalNewspaper.text = PlayerNewspaper;
         finalHeadline.text = PlayerHeadline;
-        SAS.ROTDORESAS();
+        //SAS.ROTDORESAS();
     }
 }
 
