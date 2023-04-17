@@ -10001,7 +10001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Interviews
+  m_text: INTERVIEWS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -56287,7 +56287,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4c12613a4038fb440abc3b5c2b16b9b7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.432
+  m_Volume: 0.192
   m_Pitch: 1
   Loop: 0
   Mute: 0

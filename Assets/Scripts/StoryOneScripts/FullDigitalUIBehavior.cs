@@ -70,6 +70,8 @@ public class FullDigitalUIBehavior : MonoBehaviour
         FilePanels[i].gameObject.SetActive(false);
     }
 
+    
+
     public void MessageBtnBehavior(int x) // in messages app, as you click a button in the inbox, you should be able to expand it 
     {
         for (int i = 0; i < Messages.Length; i++) //for each element in the list, as long as i is less than the length of the list DONT HALT!!! Unless youre at the end <3
@@ -86,7 +88,13 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
         
     }
-    
+
+    public void QuitGame()
+    {
+        Debug.Log("The Editor has left the office...");
+        Application.Quit();
+    }
+
 
 
 }
