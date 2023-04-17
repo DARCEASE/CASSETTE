@@ -81,7 +81,7 @@ public class NewspaperBehavior : MonoBehaviour
             Char1SelectionDoneA = true;
             //Feedback Vals
             AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal += AFS.ratingNum;
+            AFS.unbiasedVal += 2;
         }
         else if (NovakDPOne.value == 2)
         {
@@ -89,7 +89,7 @@ public class NewspaperBehavior : MonoBehaviour
             NovakSQOutputInt = 2;
             Char1SelectionDoneA = true;
             //Feedback Vals
-            AFS.entertainingVal -= AFS.ratingNum;    
+            AFS.entertainingVal -= 1;    
         }
         else if (NovakDPOne.value == 3)
         {
@@ -119,22 +119,20 @@ public class NewspaperBehavior : MonoBehaviour
             Char1SelectionDoneB = true;
 
             //Feedback Vals
-            AFS.entertainingVal += AFS.ratingNum;
         }
         else if (NovakDPTwo.value == 2)
         {
             statusQuoPaper+=1;
             Char1SelectionDoneB = true;
             //Feedback Vals
-            AFS.credibleVal += AFS.ratingNum;
-            AFS.unbiasedVal += AFS.ratingNum;
+            AFS.entertainingVal -= 1;
         }
         else if (NovakDPTwo.value == 3)
         {
             tabloidPaper+=1;
             Char1SelectionDoneB = true;
             //Feedback Vals
-            AFS.entertainingVal += AFS.ratingNum;
+            AFS.entertainingVal += 2;
         } 
     }
     public void NovakDropC()
@@ -146,7 +144,7 @@ public class NewspaperBehavior : MonoBehaviour
             NovakTabOutputInt = 1;
             Char1SelectionDoneC = true;
             //Feedback Vals
-            AFS.entertainingVal += AFS.ratingNum;
+            AFS.entertainingVal += 3;
             AFS.credibleVal -= AFS.ratingNum;
         }
         else if (NovakDPThree.value == 2)
@@ -166,7 +164,7 @@ public class NewspaperBehavior : MonoBehaviour
             NovakTabOutputInt = 3;
             Char1SelectionDoneC = true;
             //Feedback Vals
-            AFS.entertainingVal += AFS.ratingNum;
+            AFS.entertainingVal += 2;
             AFS.credibleVal -= AFS.ratingNum;
             SAS.sideArt1 += 25;
         }
@@ -698,9 +696,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         int finalPaperInt;
         //PAPER PIECING
-        MuckrakerNewspaper = NovakMuckString + "" + JuliaMuckString + "" + JimMuckString + "" + MaxMuckString + "" + MichaelMuckString;
-        StatusQuoNewspaper = NovakSQString + "" + JuliaSQString + "" + JimSQString + "" + MaxSQString + "" + MichaelSQString;
-        TabloidNewspaper = NovakTabloidString + "" + JuliaTabloidString + "" + JimTabloidString + "" + MaxTabloidString + "" + MichaelTabloidString;
+        MuckrakerNewspaper = NovakMuckString + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
+        StatusQuoNewspaper = NovakSQString + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
+        TabloidNewspaper = NovakTabloidString + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
 
 
         //Value Check

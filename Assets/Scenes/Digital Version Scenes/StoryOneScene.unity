@@ -7316,7 +7316,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 608035563}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
-        m_MethodName: ToggleSFX
+        m_MethodName: ChangeToDyslexicFont
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8606,7 +8606,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 608035563}
         m_TargetAssemblyTypeName: SettingsMenuController, Assembly-CSharp
-        m_MethodName: ToggleSFX
+        m_MethodName: ChangeToRegularFont
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9114,7 +9114,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 191.85, y: 148.65833}
-  m_SizeDelta: {x: 67.5155, y: 30.4534}
+  m_SizeDelta: {x: 87.4557, y: 30.4534}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &300663375
 MonoBehaviour:
@@ -26846,7 +26846,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000011996663, y: -0.000015258789}
-  m_SizeDelta: {x: 0, y: 288.3943}
+  m_SizeDelta: {x: 0, y: 317.235}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &896135291
 GameObject:
@@ -27052,7 +27052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348.5, y: -13.716}
+  m_AnchoredPosition: {x: -3, y: -76}
   m_SizeDelta: {x: 124.98, y: 27.4324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903420438
@@ -28078,7 +28078,7 @@ RectTransform:
   m_Father: {fileID: 2129137800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.16137415}
+  m_AnchorMin: {x: 0, y: 0.237616}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
@@ -29486,6 +29486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransitionController
       objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784713, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -29740,8 +29744,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 930756808}
   m_HandleRect: {fileID: 930756807}
   m_Direction: 2
-  m_Value: 1.0000007
-  m_Size: 0.83862585
+  m_Value: 1
+  m_Size: 0.762384
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -37551,8 +37555,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1734783158}
   m_HandleRect: {fileID: 1734783157}
   m_Direction: 2
-  m_Value: 1.0000004
-  m_Size: 0.76341885
+  m_Value: 1
+  m_Size: 0.7634188
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -38968,7 +38972,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 11.472385, y: 0.22650146}
-  m_SizeDelta: {x: 57.1842, y: 30.453}
+  m_SizeDelta: {x: 81.1181, y: 30.453}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1265203191
 MonoBehaviour:
@@ -45492,16 +45496,17 @@ MonoBehaviour:
     Evergreen\u2019s sudden passing. \u201CWe were unable to spend as much time together
     as I wish we could\u2019ve,\u201D he said when reached for comment.\r\n"
   TabloidArticlePieces:
-  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+  - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
     circumstances on Monday morning, having apparently jumped from the roof of his
     office building. While he was known as a family man and an upstanding citizen
     of our city, there was a shocking secret hiding in his closet - Robert Evergreen
-    was a homosexual.\r\n\r"
+    was a homosexual.
+
+'
   - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
     circumstances on Monday morning, having fallen from the roof of his office building.
     While he was known as a family man and an upstanding citizen of our city, there
     was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
-
 
 
 '
@@ -45509,19 +45514,19 @@ MonoBehaviour:
     circumstances on Monday morning, having apparently been pushed from the roof
     of his office building. While he was known as a family man and an upstanding
     citizen of our city, there was a shocking secret hiding in his closet - Robert
-    Evergreen was a homosexual. \r\n\r\n"
+    Evergreen was a homosexual. \n\r"
   - "Jim expressed bitterness towards his father in both life and death, describing
     Mr. Evergreen as a neglectful and callous parent \u2013 an attitude that only
     worsened post-divorce as he freely pursued his homosexuality Mr. Evergreen\u2019s
-    ex-wife declined to comment for this article.\r\n\r\n"
+    ex-wife declined to comment for this article."
   - "Jim is deep in the throes of grief after his father\u2019s death, but admitted
     that Mr. Evergreen was a neglectful and uncaring parent \u2013 an attitude that
     only worsened post-divorce as he freely pursued his homosexuality. Mr. Evergreen\u2019s
-    ex-wife declined to comment for this article.\r\n\r\n"
+    ex-wife declined to comment for this article.\r"
   - "Jim seemed on the verge of tears as he described his father\u2019s cruel and
     callous nature \u2013 an attitude that only worsened post-divorce as he freely
     pursued his homosexuality. Mr. Evergreen\u2019s ex-wife declined to comment for
-    this article.\r\n\r\n"
+    this article.\r"
   - Mr. Evergreen leaves behind an ex-wife and two children, each of whom held a
     conflicting opinion of his deviant lifestyle. When asked for comment, his daughter,
     Julia Anderson, staunchly defended his homosexuality. His son, Jim Evergreen,
@@ -57092,7 +57097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00077819824, y: 24.290016}
+  m_AnchoredPosition: {x: -0.00077819824, y: 37}
   m_SizeDelta: {x: 346, y: 239.8088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732107772
@@ -57244,7 +57249,7 @@ RectTransform:
   m_Father: {fileID: 1375434692}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.23658115}
+  m_AnchorMin: {x: 0, y: 0.2365812}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
