@@ -8,8 +8,7 @@ using UnityEngine.UI;
 
 public class AudienceFeedbackScript : MonoBehaviour
 {
-    public int entertainingVal, credibleVal;
-    public int unbiasedVal = 25;
+    public int entertainingVal, credibleVal, unbiasedVal;
     public int ratingNum; //vals to add and subtract
     public float floatAudienceVal;
     public int totalAudienceVal;
