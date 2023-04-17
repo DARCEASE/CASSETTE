@@ -29488,7 +29488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784713, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x
@@ -38593,8 +38593,8 @@ RectTransform:
   m_Father: {fileID: 320234972}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -45496,16 +45496,17 @@ MonoBehaviour:
     Evergreen\u2019s sudden passing. \u201CWe were unable to spend as much time together
     as I wish we could\u2019ve,\u201D he said when reached for comment.\r\n"
   TabloidArticlePieces:
-  - "Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
+  - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
     circumstances on Monday morning, having apparently jumped from the roof of his
     office building. While he was known as a family man and an upstanding citizen
     of our city, there was a shocking secret hiding in his closet - Robert Evergreen
-    was a homosexual.\r\n\r"
+    was a homosexual.
+
+'
   - 'Robert Evergreen, CEO of Abundantia Investments, was found dead under mysterious
     circumstances on Monday morning, having fallen from the roof of his office building.
     While he was known as a family man and an upstanding citizen of our city, there
     was a shocking secret hiding in his closet - Robert Evergreen was a homosexual.
-
 
 
 '
@@ -45513,19 +45514,19 @@ MonoBehaviour:
     circumstances on Monday morning, having apparently been pushed from the roof
     of his office building. While he was known as a family man and an upstanding
     citizen of our city, there was a shocking secret hiding in his closet - Robert
-    Evergreen was a homosexual. \r\n\r\n"
+    Evergreen was a homosexual. \n\r"
   - "Jim expressed bitterness towards his father in both life and death, describing
     Mr. Evergreen as a neglectful and callous parent \u2013 an attitude that only
     worsened post-divorce as he freely pursued his homosexuality Mr. Evergreen\u2019s
-    ex-wife declined to comment for this article.\r\n\r\n"
+    ex-wife declined to comment for this article."
   - "Jim is deep in the throes of grief after his father\u2019s death, but admitted
     that Mr. Evergreen was a neglectful and uncaring parent \u2013 an attitude that
     only worsened post-divorce as he freely pursued his homosexuality. Mr. Evergreen\u2019s
-    ex-wife declined to comment for this article.\r\n\r\n"
+    ex-wife declined to comment for this article.\r"
   - "Jim seemed on the verge of tears as he described his father\u2019s cruel and
     callous nature \u2013 an attitude that only worsened post-divorce as he freely
     pursued his homosexuality. Mr. Evergreen\u2019s ex-wife declined to comment for
-    this article.\r\n\r\n"
+    this article.\r"
   - Mr. Evergreen leaves behind an ex-wife and two children, each of whom held a
     conflicting opinion of his deviant lifestyle. When asked for comment, his daughter,
     Julia Anderson, staunchly defended his homosexuality. His son, Jim Evergreen,
@@ -48003,7 +48004,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -56888,7 +56889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1722718662
 RectTransform:
   m_ObjectHideFlags: 0
