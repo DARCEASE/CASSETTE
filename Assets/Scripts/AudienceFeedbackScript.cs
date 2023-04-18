@@ -23,13 +23,13 @@ public class AudienceFeedbackScript : MonoBehaviour
     void Start()
     {
         //Entertaining
-        entertainingVal = 25;
+        entertainingVal = 41;
         sliderEntertaining.maxValue = 100;
         //Credible
-        credibleVal = 25;
+        credibleVal = 41;
         sliderCredible.maxValue = 100;
         //Unbiased
-        unbiasedVal = 25;
+        unbiasedVal = 41;
         sliderUnbiased.maxValue = 100;
     }
 
