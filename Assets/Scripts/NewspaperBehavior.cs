@@ -46,6 +46,13 @@ public class NewspaperBehavior : MonoBehaviour
     public bool Char3SelectionDoneA, Char3SelectionDoneB, Char3SelectionDoneC;
     public bool Char4SelectionDoneA, Char4SelectionDoneB, Char4SelectionDoneC;
     public bool Char5SelectionDoneA, Char5SelectionDoneB, Char5SelectionDoneC;
+
+    public bool Char1Muck1, Char1SQ1, Char1Tab1, Char1Muck2, Char1SQ2, Char1Tab2, Char1Muck3, Char1SQ3, Char1Tab3; 
+    public bool Char2Muck1, Char2SQ1, Char2Tab1, Char2Muck2, Char2SQ2, Char2Tab2, Char2Muck3, Char2SQ3, Char2Tab3;
+    public bool Char3Muck1, Char3SQ1, Char3Tab1, Char3Muck2, Char3SQ2, Char3Tab2, Char3Muck3, Char3SQ3, Char3Tab3;
+    public bool Char4Muck1, Char4SQ1, Char4Tab1, Char4Muck2, Char4SQ2, Char4Tab2, Char4Muck3, Char4SQ3, Char4Tab3;
+    public bool Char5Muck1, Char5SQ1, Char5Tab1, Char5Muck2, Char5SQ2, Char5Tab2, Char5Muck3, Char5SQ3, Char5Tab3;
+
     bool NovakOutput1Bool, NovakOutput2Bool, NovakOutput3Bool, JuliaOutput1Bool, JuliaOutput2Bool, JuliaOutput3Bool, JimOutput1Bool, JimOutput2Bool, JimOutput3Bool, MaxOutput1Bool, MaxOutput2Bool, MaxOutput3Bool, MikeOutput1Bool, MikeOutput2Bool, MikeOutput3Bool; //Novak is 0, 1, 2 of AP
     //Values
     [SerializeField] int muckrakerPaper, tabloidPaper, statusQuoPaper;
@@ -76,7 +83,11 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (NovakDPOne.value == 1) // if you choose the first option for Novak Is.. 
         {  
-            muckrakerPaper+=1;
+
+            //Make booleans for each option and then calculate them once the person hits submit
+            Char1Muck1 = true;
+            Char1SQ1 = false;
+            Char1Tab1 = false;
             NovakSQOutputInt = 1;
             Char1SelectionDoneA = true;
             //Feedback Vals
@@ -84,7 +95,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPOne.value == 2)
         {
-            statusQuoPaper+=1;
+            Char1Muck1 = false;
+            Char1SQ1 = true;
+            Char1Tab1 = false;
             NovakSQOutputInt = 2;
             Char1SelectionDoneA = true;
             //Feedback Vals
@@ -92,7 +105,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPOne.value == 3)
         {
-            tabloidPaper+=1;
+            Char1Muck1 = false;
+            Char1SQ1 = false;
+            Char1Tab1 = true;
             NovakSQOutputInt = 3;
             Char1SelectionDoneA = true;
             //Feedback Vals
@@ -114,6 +129,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (NovakDPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
+            Char1Muck2 = true;
+            Char1SQ2 = false;
+            Char1Tab2 = false;
             muckrakerPaper+=1;
             Char1SelectionDoneB = true;
 
@@ -121,6 +139,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPTwo.value == 2)
         {
+            Char1Muck2 = false;
+            Char1SQ2 = true;
+            Char1Tab2 = false;
             statusQuoPaper+=1;
             Char1SelectionDoneB = true;
             //Feedback Vals
@@ -128,6 +149,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPTwo.value == 3)
         {
+            Char1Muck2 = false;
+            Char1SQ2 = false;
+            Char1Tab2 = true;
             tabloidPaper+=1;
             Char1SelectionDoneB = true;
             //Feedback Vals
@@ -139,6 +163,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (NovakDPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
+            Char1Muck3 = true;
+            Char1SQ3 = false;
+            Char1Tab3 = false;
             muckrakerPaper+=1;
             NovakOutputInt = 1;
             NovakTabOutputInt = 1;
@@ -149,6 +176,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPThree.value == 2)
         {
+            Char1Muck3 = false;
+            Char1SQ3 = true;
+            Char1Tab3 = false;
             statusQuoPaper+=1;
             NovakOutputInt = 2;
             NovakTabOutputInt = 2;
@@ -159,6 +189,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (NovakDPThree.value == 3)
         {
+            Char1Muck3 = false;
+            Char1SQ3 = false;
+            Char1Tab3 = true;
             tabloidPaper+=1;
             NovakOutputInt = 3;
             NovakTabOutputInt = 3;
@@ -194,6 +227,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JimDPOne.value == 1) 
         {
+            Char2Muck1 = true;
+            Char2SQ1 = false;
+            Char2Tab1 = false;
             muckrakerPaper+=1;
             JimTabOutputInt = 1;
             Char2SelectionDoneA = true;
@@ -203,6 +239,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JimDPOne.value == 2)
         {
+            Char2Muck1 = false;
+            Char2SQ1 = true;
+            Char2Tab1 = false;
             statusQuoPaper+=1;
             JimTabOutputInt = 2;
             Char2SelectionDoneA = true;
@@ -211,6 +250,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JimDPOne.value == 3)
         {
+            Char2Muck1 = false;
+            Char2SQ1 = false;
+            Char2Tab1 = true;
             tabloidPaper+=1;
             JimTabOutputInt = 3;
             Char2SelectionDoneA = true;
@@ -232,12 +274,18 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JimDPTwo.value == 1) 
         {
+            Char2Muck2 = true;
+            Char2SQ2 = false;
+            Char2Tab2 = false;
             muckrakerPaper+=1;
             JimSQOutputInt = 1;
             Char2SelectionDoneB = true;      
         }
         else if (JimDPOne.value == 2)
         {
+            Char2Muck2 = false;
+            Char2SQ2 = true;
+            Char2Tab2 = false;
             statusQuoPaper+=1;
             JimSQOutputInt = 2;
             Char2SelectionDoneB = true;
@@ -246,6 +294,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JimDPOne.value == 3)
         {
+            Char2Muck2 = false;
+            Char2SQ2 = false;
+            Char2Tab2 = true;
             tabloidPaper+=1;
             JimSQOutputInt = 3;
             Char2SelectionDoneB = true;
@@ -264,12 +315,18 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JimDPThree.value == 1) 
         {
+            Char2Muck3 = true;
+            Char2SQ3 = false;
+            Char2Tab3 = false;
             muckrakerPaper+=1;
             JimOutputInt = 1;
             Char2SelectionDoneC = true;
         }
         else if (JimDPThree.value == 2)
         {
+            Char2Muck3 = false;
+            Char2SQ3 = false;
+            Char2Tab3 = true;
             statusQuoPaper+=1;
             Char2SelectionDoneC = true;
             JimOutputInt = 2;
@@ -279,6 +336,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JimDPThree.value == 3)
         {
+            Char2Muck3 = false;
+            Char2SQ3 = false;
+            Char2Tab3 = true;
             tabloidPaper+=1;
             JimOutputInt = 3;
             Char2SelectionDoneC = true;
@@ -301,12 +361,18 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JuliaDPOne.value == 1) 
         {
+            Char3Muck1 = true;
+            Char3SQ1 = false;
+            Char3Tab1 = false;
             muckrakerPaper+=1;
             JuliaSQOutputInt = 1;
             Char3SelectionDoneA = true;
         }
         else if (JuliaDPOne.value == 2)
         {
+            Char3Muck1 = false;
+            Char3SQ1 = true;
+            Char3Tab1 = false;
             statusQuoPaper+=1;
             JuliaSQOutputInt = 2;
             Char3SelectionDoneA = true;
@@ -316,6 +382,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JuliaDPOne.value == 3)
         {
+            Char3Muck1 = false;
+            Char3SQ1 = false;
+            Char3Tab1 = true;
             tabloidPaper+=1;
             JuliaSQOutputInt = 3;
             Char3SelectionDoneA = true;
@@ -335,7 +404,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JuliaDPTwo.value == 1)
         {
-            //Debug.Log("JULIA. Drop 2 Opt 1");
+            Char3Muck2 = true;
+            Char3SQ2 = false;
+            Char3Tab2 = false;
             muckrakerPaper+=1;
             Char3SelectionDoneB = true;
             JuliaOutputInt = 1;
@@ -344,6 +415,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JuliaDPTwo.value == 2)
         {
+            Char3Muck2 = false;
+            Char3SQ2 = true;
+            Char3Tab2 = false;
             statusQuoPaper+=1;
             Char3SelectionDoneB = true;
             JuliaOutputInt = 2;
@@ -353,7 +427,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JuliaDPTwo.value == 3)
         {
-            //Debug.Log("JULIA. Drop 2 Opt 3");
+            Char3Muck2 = false;
+            Char3SQ2 = false;
+            Char3Tab2 = true;
             tabloidPaper +=1;
             Char3SelectionDoneB = true;
             JuliaOutputInt = 3;
@@ -374,6 +450,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (JuliaDPThree.value == 1)
         {
+            Char3Muck3 = true;
+            Char3SQ3 = false;
+            Char3Tab3 = false;
             muckrakerPaper+=1;
             JuliaTabOutputInt = 1;
             Char3SelectionDoneC = true;
@@ -381,6 +460,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JuliaDPThree.value == 2)
         {
+            Char3Muck3 = false;
+            Char3SQ3 = true;
+            Char3Tab3 = false;
             statusQuoPaper+=1;
             JuliaTabOutputInt = 2;
             Char3SelectionDoneC = true;
@@ -390,6 +472,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (JuliaDPThree.value == 3)
         {
+            Char3Muck3 = false;
+            Char3SQ3 = false;
+            Char3Tab3 = true;
             tabloidPaper+=1;
             JuliaTabOutputInt = 3;
             Char3SelectionDoneC = true;
@@ -411,7 +496,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MichaelDPOne.value == 1)
         {
-            //Debug.Log("MICHAEL. Drop 1 Opt 1");
+            Char4Muck1 = true;
+            Char4SQ1 = false;
+            Char4Tab1 = false;
             muckrakerPaper+=1;
             MikeTabOutputInt = 1;
             MikeSQOutputInt = 1;
@@ -422,6 +509,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MichaelDPOne.value == 2)
         {
+            Char4Muck1 = false;
+            Char4SQ1 = true;
+            Char4Tab1 = false;
             statusQuoPaper+=1;
             MikeTabOutputInt = 2;
             MikeSQOutputInt = 2;
@@ -433,7 +523,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MichaelDPOne.value == 3)
         {
-            //Debug.Log("MICHAEL. Drop 1 Opt 3");
+            Char4Muck1 = false;
+            Char4SQ1 = false;
+            Char4Tab1 = true;
             tabloidPaper+=1;
             MikeTabOutputInt = 3;
             MikeSQOutputInt = 3;
@@ -475,6 +567,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MichaelDPTwo.value == 1)
         {
+            Char4Muck2 = true;
+            Char4SQ2 = false;
+            Char4Tab2 = false;
             muckrakerPaper+=1;
             Char5SelectionDoneB = true;
             //Feedback Vals
@@ -483,6 +578,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MichaelDPTwo.value == 2)
         {
+            Char4Muck2 = false;
+            Char4SQ2 = true;
+            Char4Tab2 = false;
             statusQuoPaper+=1;
             Char5SelectionDoneB = true;
             //Feedback Vals
@@ -490,6 +588,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MichaelDPTwo.value == 3)
         {
+            Char4Muck3 = false;
+            Char4SQ3 = false;
+            Char4Tab3 = true;
             tabloidPaper+=1;
             Char5SelectionDoneB = true;
             //Feedback Vals
@@ -502,17 +603,26 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MichaelDPThree.value == 1)
         {
+            Char4Muck3 = true;
+            Char4SQ3 = false;
+            Char4Tab3 = false;
             muckrakerPaper+=1;
             Char5SelectionDoneC = true;
             SAS.sideArt4 += 20;
         }
         else if (MichaelDPThree.value == 2)
         {
+            Char4Muck3 = false;
+            Char4SQ3 = true;
+            Char4Tab3 = false;
             statusQuoPaper+=1;
             Char5SelectionDoneC = true;
         }
         else if (MichaelDPThree.value == 3)
         {
+            Char4Muck3 = false;
+            Char4SQ3 = false;
+            Char4Tab3 = true;
             tabloidPaper+=1;
             Char5SelectionDoneC = true;
             //Feedback Vals
@@ -526,6 +636,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MaxDPOne.value == 1)
         {
+            Char5Muck1 = true;
+            Char5SQ1 = false;
+            Char5Tab1 = false;
             muckrakerPaper+=1;
             MaxSQOutputInt = 1;
             MaxOutputInt = 1;
@@ -537,6 +650,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPOne.value == 2)
         {
+            Char5Muck1 = false;
+            Char5SQ1 = true;
+            Char5Tab1 = false;
             statusQuoPaper+=1;
             MaxSQOutputInt = 2;
             MaxOutputInt = 2;
@@ -546,6 +662,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPOne.value == 3)
         {
+            Char5Muck1 = false;
+            Char5SQ1 = false;
+            Char5Tab1 = true;
             tabloidPaper+=1;
             MaxSQOutputInt = 3;
             MaxOutputInt = 3;
@@ -576,6 +695,9 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MaxDPTwo.value == 1)
         {
+            Char5Muck2 = true;
+            Char5SQ2 = false;
+            Char5Tab2 = false;
             muckrakerPaper+=1;
             MaxTabOutputInt = 1;
             Char4SelectionDoneB = true;
@@ -584,6 +706,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPTwo.value == 2)
         {
+            Char5Muck2 = false;
+            Char5SQ2 = true;
+            Char5Tab2 = false;
             statusQuoPaper+=1;
             MaxTabOutputInt = 2;
             Char4SelectionDoneB = true;
@@ -593,6 +718,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPTwo.value == 3)
         {
+            Char5Muck2 = false;
+            Char5SQ2 = false;
+            Char5Tab2 = true;
             tabloidPaper+=1;
             MaxTabOutputInt = 3;
             Char4SelectionDoneB = true;
@@ -613,11 +741,17 @@ public class NewspaperBehavior : MonoBehaviour
     {
         if (MaxDPThree.value == 1)
         {
+            Char5Muck3 = true;
+            Char5SQ3 = false;
+            Char5Tab3 = false;
             muckrakerPaper+=1;
             Char4SelectionDoneC = true;
         }
         else if (MaxDPThree.value == 2)
         {
+            Char5Muck3 = false;
+            Char5SQ3 = true;
+            Char5Tab3 = false;
             statusQuoPaper+=1;
             Char4SelectionDoneC = true;
             //Feedback Vals
@@ -627,6 +761,9 @@ public class NewspaperBehavior : MonoBehaviour
         }
         else if (MaxDPThree.value == 3)
         {
+            Char5Muck3 = false;
+            Char5SQ3 = false;
+            Char5Tab3 = true;
             tabloidPaper+=1;
             Char4SelectionDoneC = true;
             //Feedback Vals
