@@ -2488,7 +2488,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5688,7 +5688,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10977,7 +10977,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -18882,7 +18882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e252f300ffc26f346a9a5d98002fbd49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openOnDClick: {fileID: 0}
   FilePanels:
   - {fileID: 1699370205}
   - {fileID: 1039742319}
@@ -18909,6 +18908,7 @@ MonoBehaviour:
   - {fileID: 1821060292}
   - {fileID: 1827191284}
   MsgAppTxt: {fileID: 0}
+  analyticsWindow: {fileID: 0}
 --- !u!114 &608035562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36341,7 +36341,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -37632,7 +37632,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -45611,6 +45611,51 @@ MonoBehaviour:
   Char5SelectionDoneA: 0
   Char5SelectionDoneB: 0
   Char5SelectionDoneC: 0
+  Char1Muck1: 0
+  Char1SQ1: 0
+  Char1Tab1: 0
+  Char1Muck2: 0
+  Char1SQ2: 0
+  Char1Tab2: 0
+  Char1Muck3: 0
+  Char1SQ3: 0
+  Char1Tab3: 0
+  Char2Muck1: 0
+  Char2SQ1: 0
+  Char2Tab1: 0
+  Char2Muck2: 0
+  Char2SQ2: 0
+  Char2Tab2: 0
+  Char2Muck3: 0
+  Char2SQ3: 0
+  Char2Tab3: 0
+  Char3Muck1: 0
+  Char3SQ1: 0
+  Char3Tab1: 0
+  Char3Muck2: 0
+  Char3SQ2: 0
+  Char3Tab2: 0
+  Char3Muck3: 0
+  Char3SQ3: 0
+  Char3Tab3: 0
+  Char4Muck1: 0
+  Char4SQ1: 0
+  Char4Tab1: 0
+  Char4Muck2: 0
+  Char4SQ2: 0
+  Char4Tab2: 0
+  Char4Muck3: 0
+  Char4SQ3: 0
+  Char4Tab3: 0
+  Char5Muck1: 0
+  Char5SQ1: 0
+  Char5Tab1: 0
+  Char5Muck2: 0
+  Char5SQ2: 0
+  Char5Tab2: 0
+  Char5Muck3: 0
+  Char5SQ3: 0
+  Char5Tab3: 0
   muckrakerPaper: 0
   tabloidPaper: 0
   statusQuoPaper: 0
@@ -66782,7 +66827,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -68039,11 +68084,11 @@ GameObject:
   - component: {fileID: 2108882131}
   m_Layer: 5
   m_Name: AnalyticsWindowPanel
-  m_TagString: Untagged
+  m_TagString: AnalyticsWindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2108882128
 RectTransform:
   m_ObjectHideFlags: 0

@@ -25,10 +25,6 @@ public class SettingsMenuController : MonoBehaviour
     [SerializeField] AudioSource char1Audio, char2Audio, char3Audio, char4Audio, char5Audio;
     [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay, volSliderKnob;
     float simpleKnobVal, knobVal, minKnobVal, maxKnobVal, minKnobPosX, maxKnobPosX, knobPosX, barWidith;
-    int fontSizeTitleReg = 70;
-    int fontSizeTitleDys = 50;
-    int fontSizeReg = 12;
-    int fontSizeDys = 12;
     
     //Text varis
     bool isReg, isDyslex;

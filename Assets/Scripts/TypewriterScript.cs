@@ -18,8 +18,6 @@ public class TypewriterScript : MonoBehaviour
     [SerializeField] TMP_Text introText;
     bool isTyping = false;
     bool cancelTyping = false;
-    bool goToNext = false;
-    bool isTalking = false;
     [SerializeField] float typeSpeed;
     [SerializeField] TransitionScript TS;
 
