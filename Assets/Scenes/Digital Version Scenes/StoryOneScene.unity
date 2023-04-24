@@ -17127,7 +17127,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -4.300003, y: 0}
   m_SizeDelta: {x: 15.4005, y: -4.16}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17834,8 +17834,8 @@ RectTransform:
   m_Father: {fileID: 2145117684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8184111}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
   m_Pivot: {x: 0.5, y: 1}
@@ -26560,9 +26560,9 @@ MonoBehaviour:
     early Monday morning. For now, we don\u2019t know the manner of death or whether
     it was the result of a homicide, accident, or suicide. It\u2019d be improper
     for us to speculate on it at this moment. We\u2019ll inform the public of more
-    when it\u2019s appropriate to do so. \n\nYeah, yeah, yeah. Deep f***ing background.
+    when it\u2019s appropriate to do so. \n\nYeah, yeah, yeah. Deep [expletive] background.
     \n\nI mean, I\u2019m just as surprised as you are. Course I knew about the guy.
-    The man was a living legend. Built a business out of nothing, made a f***ing
+    The man was a living legend. Built a business out of nothing, made a [expletive]
     fortune, and went on to marry one hell of a broad and ended up with two kids
     - I think it was something with \u201CJ\u201D. Julia! Julia and Jim. Yeah, they\u2019re
     his only kids as far as I know. Only next of kin, too. No, not the wife. I mean,
@@ -26575,7 +26575,7 @@ MonoBehaviour:
     going around saying \u2013 Mr. Evergreen was something of a \u201Cconfirmed bachelor\u201D.
     I mean, not exactly my taste, but it\u2019s the 90s and, you know, love is love,
     I guess.\n\nLook, what a man does in his private life, that\u2019s no business
-    of mine. So long as it doesn\u2019t end up on page six or in a holding cell.\n\n"
+    of mine. So long as it doesn\u2019t end up on page six or in a holding cell.\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -27671,7 +27671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 205.19994, y: 51.099945}
+  m_AnchoredPosition: {x: 205.19994, y: 50.5}
   m_SizeDelta: {x: 376, y: 326}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &922320285
@@ -29396,11 +29396,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 31
+      value: 46.677
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -108
+      value: -110
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44203,7 +44203,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.000015258789, y: 0}
-  m_SizeDelta: {x: 346, y: 1132.5784}
+  m_SizeDelta: {x: 346, y: 1111.676}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1405981188
 GameObject:
@@ -46035,29 +46035,27 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Jim Evergreen\r\n\rNovember 9, 1992\n\n\nListen. There\u2019s a lot you
-    don\u2019t know about my dad. Sure, yeah, he seems like a kind of major success
-    story. Rags to riches and all that. Big company man. But I knew him better than
-    anybody. I knew what he was like when nobody else was looking.\n\nAnother round,
-    barkeep.\n\nHe was a fine dad to me and Julia growing up. Y\u2019know, he and
-    mom had a nice house in the suburbs, sent us to a nice school. But as soon as
-    Julia and I moved out to start our own lives, something changed.\n\nI really
-    did my best to stay in touch with him, like any son should. But whenever I tried
-    to call him, he wouldn\u2019t answer the phone. When I would come to his house
-    and knock on his door, he wouldn\u2019t answer. And whenever he decided to grace
-    our Thanksgiving table with his presence, he hardly said a word to me. His son.
-    He hardly even looked at me.\n\nI guess he must have decided that we weren\u2019t
-    good enough for him anymore. I guess he decided that me, Julia, and mom \u2013
-    none of us were good enough for him, and he decided it was time to ditch us.
-    He ditched mom straight away, and replaced her with that f***ing guy. Michael\u2019s
-    his name, I think. I swear to God, if I ever see his face, I don\u2019t know
-    what I\u2019ll do. He probably spends more time with him now \u2013 or, did spend
-    more time with him \u2013 than he did his actual family.\n\nListen. Everybody\u2019s
-    gonna tell you the same old story. They\u2019re gonna talk about how great he
-    was, they\u2019re gonna talk about how all the wonderful things he did, and all
-    the lives he changed. Julia\u2019s gonna make excuses for him like she always
-    does. But I\u2019m family. I saw the side of him that the rest of those people
-    never did. Please don\u2019t forget what I told you. I knew him better than anybody.
-    \n\nWe\u2019re done here."
+    don\u2019t know about my dad. Sure, yeah, he seems like some kinda major success
+    story. Rags to riches. Big company man. But I - I knew him better than anybody.
+    I knew what he was like when nobody else was looking.\n\nHe was a fine dad to
+    me and Julia - when we were growing up, y\u2019know. He and mom had a nice house
+    in the suburbs. They sent us to a nice school. But as soon as Julia and I moved
+    out to start our own lives, something changed.\n\nI did my best to try and stay
+    in touch with him, I really tried. But whenever I tried to call him, he wouldn\u2019t
+    answer his phone. When I would come to his house and knock on his door, he wouldn\u2019t
+    answer. When he decided to grace our Thanksgiving table with his presence, he
+    hardly said a word to me. Hardly looked at me.\n\nI guess he must\u2019ve decided
+    that we weren\u2019t good enough for him anymore. I guess he\u2019s decided that
+    me, Julia, and mom, none of us were good for him anymore. He decided it was time
+    to ditch us. He ditched mom straight away and then replaced her - right after
+    that. God, with that f***ing guy he\u2019s with now. It\u2019s [expletive]. Probably
+    spends more time with him than he does his actual family.\n\nCan I get another
+    drink?\n\nListen. Everybody\u2019s gonna tell you the same old story. They\u2019re
+    gonna talk about how great he was. They\u2019re gonna talk about all the wonderful
+    things he did, and all the lives that he changed. Julia\u2019s gonna make excuses
+    for him like she always does. But I\u2019m - I\u2019m family. I saw a side of
+    him that the rest of those people - the rest of these people never did. Don\u2019t
+    forget what I told you. I knew him better than anybody.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -46561,7 +46559,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.18158886
+  m_Size: 0.18158889
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -51531,7 +51529,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -56555,7 +56553,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1764925724}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.1893695
+  m_Size: 0.19293013
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -57819,7 +57817,7 @@ RectTransform:
   m_Father: {fileID: 398109291}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8106305}
+  m_AnchorMin: {x: 0, y: 0.8070699}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.059500217, y: -1.699997}
   m_SizeDelta: {x: 14.5553, y: 6.9113}
@@ -64588,7 +64586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1983585081
 RectTransform:
   m_ObjectHideFlags: 0
@@ -65608,9 +65606,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -27, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2025792042
 MonoBehaviour:
