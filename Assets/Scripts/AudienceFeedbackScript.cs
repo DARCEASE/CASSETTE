@@ -53,6 +53,7 @@ public class AudienceFeedbackScript : MonoBehaviour
         floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000);
         totalAudienceVal = (int) floatAudienceVal;
         Debug.Log("The current audience score is " + totalAudienceVal);
+        totalAudienceVal = PlayerPrefs.GetInt("AudienceFeedbackScore", totalAudienceVal);
         textAudNum.text = totalAudienceVal.ToString();
         return textAudNum.text;
     }

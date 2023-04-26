@@ -701,7 +701,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -3733,7 +3733,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -6939,7 +6939,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -11484,7 +11484,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ExitFile
         m_Mode: 3
@@ -17618,7 +17618,6 @@ GameObject:
   m_Component:
   - component: {fileID: 608035559}
   - component: {fileID: 608035560}
-  - component: {fileID: 608035562}
   - component: {fileID: 608035558}
   - component: {fileID: 608035561}
   - component: {fileID: 608035563}
@@ -17669,7 +17668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e252f300ffc26f346a9a5d98002fbd49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openOnDClick: {fileID: 0}
   FilePanels:
   - {fileID: 1699370205}
   - {fileID: 1039742319}
@@ -17695,6 +17693,7 @@ MonoBehaviour:
   - {fileID: 911730963}
   - {fileID: 1930219221}
   MsgAppTxt: {fileID: 0}
+  analyticsWindow: {fileID: 0}
 --- !u!114 &608035561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17723,35 +17722,6 @@ MonoBehaviour:
   tapTime: 0
   resetTimer: 0
   doubleClicked: 0
---- !u!114 &608035562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 608035557}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f964082eb970aa4da360f2b12dc27a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  S2FilePanels:
-  - {fileID: 1699370205}
-  - {fileID: 0}
-  - {fileID: 444811094}
-  - {fileID: 628035364}
-  - {fileID: 1415734642}
-  - {fileID: 527811753}
-  - {fileID: 1553609064}
-  - {fileID: 2104827466}
-  - {fileID: 922320283}
-  - {fileID: 1343876729}
-  - {fileID: 456504216}
-  - {fileID: 313905479}
-  - {fileID: 1983585080}
-  - {fileID: 1279310165}
-  - {fileID: 1591384061}
-  - {fileID: 1821227085}
 --- !u!114 &608035563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28174,7 +28144,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ExitFile
         m_Mode: 3
@@ -29683,7 +29653,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -35351,7 +35321,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ExitFile
         m_Mode: 3
@@ -35750,7 +35720,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ExitFile
         m_Mode: 3
@@ -50074,10 +50044,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
-        m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
-        m_MethodName: ButtonBehavior
-        m_Mode: 3
+      - m_Target: {fileID: 608035560}
+        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+        m_MethodName: AnalyticsButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -53847,7 +53817,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -66641,7 +66611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ExitFile
         m_Mode: 3
@@ -67825,7 +67795,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 608035562}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryTwoUIBehavior, Assembly-CSharp
         m_MethodName: ExitFile
         m_Mode: 3
