@@ -11,7 +11,7 @@ public class ROTDOREController : MonoBehaviour
     //IS THIS UNIQUE TO ROTDORE? IF SO, IT GOES HERE
     //IF NOT, IT GOES INTO THE CONTROLLER
     //Audience Feedback Script
-    public AudienceFeedbackScript AFS;
+    //public AudienceFeedbackScript AFS;
 
     //All paper holding strings
     string NovakMuckString, NovakSQString, NovakTabloidString;
@@ -21,15 +21,22 @@ public class ROTDOREController : MonoBehaviour
     string MichaelMuckString, MichaelSQString, MichaelTabloidString;
 
     public Text finalNewspaper, finalHeadline;
+
+    [HideInInspector]
     public int NovakOutputInt, JimOutputInt, JuliaOutputInt, MaxOutputInt, MikeOutputInt;
+    [HideInInspector]
     public int NovakSQOutputInt, JimSQOutputInt, JuliaSQOutputInt, MaxSQOutputInt, MikeSQOutputInt;
+    [HideInInspector]
     public int NovakTabOutputInt, JimTabOutputInt, JuliaTabOutputInt, MaxTabOutputInt, MikeTabOutputInt;
     //Values
     public int muckrakerPaper, tabloidPaper, statusQuoPaper;
     
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperPrints, newspaperHeadlines, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
+    [SerializeField] string[] newspaperHeadlines, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
 
+    void Update() {
+        NewspaperPrint();    
+    }
 
     public void MuckPieceCalculator(){
         //Muckraker
@@ -171,6 +178,10 @@ public class ROTDOREController : MonoBehaviour
     {
         int finalPaperInt;
         //PAPER PIECING
+        MuckPieceCalculator();
+        SQPieceCalculator();
+        TabPieceCalculator();
+
         MuckrakerNewspaper = NovakMuckString + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
         StatusQuoNewspaper = NovakSQString + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
         TabloidNewspaper = NovakTabloidString + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
