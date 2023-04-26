@@ -274,5 +274,7 @@ public class ROTDOREController : MonoBehaviour
             PlayerNewspaper = TabloidNewspaper;
             PlayerHeadline = newspaperHeadlines[2];
         }
+
+        Debug.Log(PlayerNewspaper);
     }
 }

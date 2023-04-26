@@ -727,8 +727,8 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public void NewspaperPrint() // using this to test things 
     {
         ///*
-        ROTDORE.PlayerNewspaper = PlayerNewspaper;
-        ROTDORE.PlayerHeadline = PlayerHeadline;
+        finalNewspaper.text = ROTDORE.PlayerNewspaper;
+        finalHeadline.text = ROTDORE.PlayerHeadline;
         //*/
     }
 }
