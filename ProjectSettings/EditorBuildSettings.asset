@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: 598d9f90de6a853498c403ded88a9ed9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/ToStoryOne.unity
     guid: e121e5b535907964380721f8ae37d494
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/StoryOneScene.unity
     guid: 71a901368dbafdf4eb61b04774033d60
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/ToStoryTwo.unity
     guid: bd73ae3cf08edaf4fa931c6fa052c412
   - enabled: 0
@@ -26,10 +26,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Hybrid Version Scenes/HybridStoryTwo.unity
     guid: cfca68d8b8c16434682b8df012e33839
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Digital Version Scenes/TESTStoryOneScene 1.unity
     guid: 8a60552230c3ab74893968e884e45eb1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Digital Version Scenes/TESTStoryTwoScene 1.unity
     guid: 7dd50c169cef4ad409b77f3cddec2037
   m_configObjects: {}
