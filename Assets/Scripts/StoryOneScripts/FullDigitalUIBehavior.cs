@@ -66,7 +66,8 @@ public class FullDigitalUIBehavior : MonoBehaviour
     public void ButtonBehavior(int i) // if you press a file, activate its proper window based on the index #
     {
         //if (openOnDClick.doubleClicked == true){
-            FilePanels[i].gameObject.SetActive(true);
+            //Push panel to the center of the canvas and in front maybe do this with sorting layer??? 
+        FilePanels[i].gameObject.SetActive(true);
             Debug.Log("Clicked and Opened");
         //}
             
