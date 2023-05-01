@@ -10,7 +10,7 @@ using TMPro;
 //USAGE: place on emply gameobject and call it the game managaer 
 public class FullDigitalUIBehavior : MonoBehaviour
 {
-
+    [SerializeField] private RectTransform RT; 
     //public DoubleClick openOnDClick;
     public GameObject[] FilePanels;
     // 0: Memo (avaialble at the start of game)
@@ -38,6 +38,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
     public TMP_Text[] Messages; // Full View Texts in messages panel
     public TMP_Text MsgAppTxt;
     public GameObject analyticsWindow;
+    
 
 
     // 0: Memo Text
@@ -66,9 +67,10 @@ public class FullDigitalUIBehavior : MonoBehaviour
     public void ButtonBehavior(int i) // if you press a file, activate its proper window based on the index #
     {
         //if (openOnDClick.doubleClicked == true){
-            //Push panel to the center of the canvas and in front maybe do this with sorting layer??? 
+        RT = FilePanels[i].GetComponent<RectTransform>();
+        RT.SetAsLastSibling(); //Push panel to the center of the canvas and in front maybe do this with sorting layer??? 
         FilePanels[i].gameObject.SetActive(true);
-            Debug.Log("Clicked and Opened");
+        Debug.Log("Clicked and Opened");
         //}
             
     }
