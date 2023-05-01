@@ -23,14 +23,15 @@ public class AudienceFeedbackScript : MonoBehaviour
     void Start()
     {
         //Entertaining
-        entertainingVal = 41;
+        //entertainingVal = 41;
         sliderEntertaining.maxValue = 100;
         //Credible
-        credibleVal = 41;
+        //credibleVal = 41;
         sliderCredible.maxValue = 100;
         //Unbiased
-        unbiasedVal = 41;
+        //unbiasedVal = 41;
         sliderUnbiased.maxValue = 100;
+        totalAudienceVal = PlayerPrefs.GetInt("AudienceFeedbackScore");
     }
 
     // Update is called once per frame
@@ -53,7 +54,7 @@ public class AudienceFeedbackScript : MonoBehaviour
         floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000);
         totalAudienceVal = (int) floatAudienceVal;
         Debug.Log("The current audience score is " + totalAudienceVal);
-        totalAudienceVal = PlayerPrefs.GetInt("AudienceFeedbackScore", totalAudienceVal);
+        PlayerPrefs.SetInt("AudienceFeedbackScore", totalAudienceVal);
         textAudNum.text = totalAudienceVal.ToString();
         return textAudNum.text;
     }
