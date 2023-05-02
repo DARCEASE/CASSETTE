@@ -31,7 +31,9 @@ public class AudienceFeedbackScript : MonoBehaviour
         //Unbiased
         //unbiasedVal = 41;
         sliderUnbiased.maxValue = 100;
-        totalAudienceVal = PlayerPrefs.GetInt("AudienceFeedbackScore");
+        textAudNum.text = PlayerPrefs.GetInt("AudienceFeedbackScore").ToString();
+        Debug.Log("PlayerPref Data: " + PlayerPrefs.GetInt("AudienceFeedbackScore"));
+
     }
 
     // Update is called once per frame
@@ -42,6 +44,7 @@ public class AudienceFeedbackScript : MonoBehaviour
         sliderEntertaining.value = entertainingVal;
         sliderCredible.value = credibleVal;
         sliderUnbiased.value = unbiasedVal;
+
     }
 
     //Reader Numbers Calc
@@ -50,7 +53,6 @@ public class AudienceFeedbackScript : MonoBehaviour
         E_equationVal = (float) (Mathf.Pow(entertainingVal, 2f)/DIVIDEBY100);
         C_equationVal = (float) (Mathf.Pow(credibleVal, 2f)/DIVIDEBY100);
         U_equationVal = (float) (Mathf.Pow(unbiasedVal, 2f)/DIVIDEBY100);
-
         floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000);
         totalAudienceVal = (int) floatAudienceVal;
         Debug.Log("The current audience score is " + totalAudienceVal);

@@ -17,13 +17,14 @@ public class TransitionScript : MonoBehaviour
     void Start()
     {
         FadeOutScene();
-        scene = SceneManager.GetActiveScene();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        scene = SceneManager.GetActiveScene();
+        Debug.Log(scene.IsValid());
     }
     
     public void FadeOutScene(){

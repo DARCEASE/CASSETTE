@@ -32186,6 +32186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e252f300ffc26f346a9a5d98002fbd49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RT: {fileID: 0}
   FilePanels:
   - {fileID: 1699370205}
   - {fileID: 1039742319}
@@ -32796,7 +32797,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 844092289}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -51050,7 +51051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784713, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x
@@ -76650,21 +76651,21 @@ MonoBehaviour:
   Char5DPOne: {fileID: 1586403694}
   Char5DPTwo: {fileID: 1649429140}
   Char5DPThree: {fileID: 2124042287}
-  Char1SelectionDoneA: 0
-  Char1SelectionDoneB: 0
-  Char1SelectionDoneC: 0
-  Char2SelectionDoneA: 0
-  Char2SelectionDoneB: 0
-  Char2SelectionDoneC: 0
-  Char3SelectionDoneA: 0
-  Char3SelectionDoneB: 0
-  Char3SelectionDoneC: 0
-  Char4SelectionDoneA: 0
-  Char4SelectionDoneB: 0
-  Char4SelectionDoneC: 0
-  Char5SelectionDoneA: 0
-  Char5SelectionDoneB: 0
-  Char5SelectionDoneC: 0
+  Char1SelectionDoneA: 1
+  Char1SelectionDoneB: 1
+  Char1SelectionDoneC: 1
+  Char2SelectionDoneA: 1
+  Char2SelectionDoneB: 1
+  Char2SelectionDoneC: 1
+  Char3SelectionDoneA: 1
+  Char3SelectionDoneB: 1
+  Char3SelectionDoneC: 1
+  Char4SelectionDoneA: 1
+  Char4SelectionDoneB: 1
+  Char4SelectionDoneC: 1
+  Char5SelectionDoneA: 1
+  Char5SelectionDoneB: 1
+  Char5SelectionDoneC: 1
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0
