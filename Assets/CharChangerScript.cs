@@ -26,25 +26,31 @@ public class CharChangerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scene = SceneManager.GetActiveScene();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        scene = SceneManager.GetActiveScene();
+
         if (scene.name == "TESTStoryOneScene 1"){
-            for (int i = 0; i < S1_Ints.Length; i++){
-                S1_Ints[i].SetActive(true);
+
+            for (int i = 0; i < S2_Info.Length; i++){
+                S2_Info[i].SetActive(false);
             }
+ 
             for (int i = 0; i < S2_Ints.Length; i++){
                 S2_Ints[i].SetActive(false);
             }
-        } else if (scene.name == "TESTStoryOneScene 2"){
+
+        } else if (scene.name == "TESTStoryTwoScene 1"){
             for (int i = 0; i < S1_Ints.Length; i++){
                 S1_Ints[i].SetActive(false);
             }
-            for (int i = 0; i < S2_Ints.Length; i++){
-                S2_Ints[i].SetActive(true);
+
+            for (int i = 0; i < S1_Info.Length; i++){
+                S1_Info[i].SetActive(false);
             }
         }
     }
