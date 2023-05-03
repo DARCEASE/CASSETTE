@@ -77,13 +77,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
-                Char1A1 = true;
-                Char1B1 = false;
-                Char1C1 = false;
+              if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+
                 Char1SelectionDoneA = true;
                 RUSSIA.FearfulPaper += 1;
             }
+
         }
         else if (Char1DPOne.value == 2)
         {
@@ -98,13 +97,11 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 1;    
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
-                Char1A1 = false;
-                Char1B1 = true;
-                Char1C1 = false;
+              if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char1SelectionDoneA = true;
                 RUSSIA.AngryPaper += 1;
             }
+
 
         }
         else if (Char1DPOne.value == 3)
@@ -123,13 +120,11 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
-                Char1A1 = false;
-                Char1B1 = false;
-                Char1C1 = true;
+              if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char1SelectionDoneA = true;
                 RUSSIA.CompassionatePaper += 1;
             }
+
         }
     }
 
@@ -146,12 +141,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
             }
 
             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
-                Char1A2 = true;
-                Char1B2 = false;
-                Char1C2 = false;
-                Char1SelectionDoneA = true;
+                Char1SelectionDoneB = true;
                 RUSSIA.FearfulPaper += 1;
+                RUSSIA.BorisBOutputInt = 1;
+                RUSSIA.BorisCOutputInt = 1;
             }
+
         }
         else if (Char1DPTwo.value == 2)
         {
@@ -165,15 +160,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 1;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
-                Char1A2 = false;
-                Char1B2 = true;
-                Char1C2 = false;
-                Char1SelectionDoneA = true;
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1SelectionDoneB = true;
                 RUSSIA.AngryPaper += 1;
                 RUSSIA.BorisBOutputInt = 2;
-                RUSSIA.BorisCOutputInt = 3;
+                RUSSIA.BorisCOutputInt = 2;
             }
+
         }
         else if (Char1DPTwo.value == 3)
         {
@@ -187,6 +180,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
                 AFS.credibleVal += 1;
             }
+
+              if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1SelectionDoneB = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.BorisBOutputInt = 3;
+                RUSSIA.BorisCOutputInt = 3;
+            }
+
         } 
     }
     
@@ -206,6 +207,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
                 AFS.credibleVal -= 3;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1SelectionDoneC = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.BorisAOutputInt = 1;
+            }
+
         }
         else if (Char1DPThree.value == 2)
         {
@@ -221,6 +229,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal += 3;
                 AFS.unbiasedVal += 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1SelectionDoneC = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.BorisAOutputInt = 2;
+            }
+
         }
         else if (Char1DPThree.value == 3)
         {
@@ -237,6 +252,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal -= 3;
                 SAS.sideArt1 += 25;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1SelectionDoneC = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.BorisAOutputInt = 3;
+            }
+
         }
     }
 
@@ -256,6 +278,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
                 SAS.sideArt1 += 25;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneA = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.VitoCOutputInt = 1;
+            }
+
         }
         else if (Char2DPOne.value == 2)
         {
@@ -269,6 +298,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneA = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.VitoCOutputInt = 2;
+            }
+
         }
         else if (Char2DPOne.value == 3)
         {
@@ -282,6 +318,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.entertainingVal += 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneA = true;
+                RUSSIA.VitoCOutputInt = 3;
+                RUSSIA.CompassionatePaper += 1;
+            }
+
         }
 
     }
@@ -298,6 +341,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.JimSQOutputInt = 1;
                 Char2SelectionDoneB = true;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneB = true;
+                RUSSIA.FearfulPaper += 1;
+            }
+
         }
         else if (Char2DPOne.value == 2)
         {
@@ -311,6 +360,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.credibleVal += 3;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneB = true;
+                RUSSIA.AngryPaper += 1;
+            }
+
         }
         else if (Char2DPOne.value == 3)
         {
@@ -322,6 +377,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.JimSQOutputInt = 3;
                 Char2SelectionDoneB = true;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneB = true;
+                RUSSIA.CompassionatePaper += 1;
+            }
+
         }
     }
 
@@ -337,6 +398,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.JimOutputInt = 1;
                 Char2SelectionDoneC = true;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneC = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.VitoAOutputInt = 1;
+                RUSSIA.VitoBOutputInt = 1;
+            }
+
         }
         else if (Char2DPThree.value == 2)
         {
@@ -351,6 +420,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 1;
                 SAS.sideArt4 += 20;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneC = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.VitoAOutputInt = 2;
+                RUSSIA.VitoBOutputInt = 2;
+            }
+
         }
         else if (Char2DPThree.value == 3)
         {
@@ -365,6 +442,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 1;
                 SAS.sideArt1 += 25;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char2SelectionDoneC = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.VitoAOutputInt = 3;
+                RUSSIA.VitoBOutputInt = 3;
+            }
+
         }
     }
 
@@ -381,6 +466,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.JuliaSQOutputInt = 1;
                 Char3SelectionDoneA = true;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneA = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.GuyCOutputInt = 1;
+            }
+
         }
         else if (Char3DPOne.value == 2)
         {
@@ -395,6 +487,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 2;
                 AFS.unbiasedVal += 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneA = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.GuyCOutputInt = 2;
+            }
+
         }
         else if (Char3DPOne.value == 3)
         {
@@ -408,6 +507,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.entertainingVal += 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneA = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.GuyCOutputInt = 3;
+            }
+
         }
     }
 
@@ -425,6 +531,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.entertainingVal -= 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneB = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.GuyAOutputInt = 1;
+                RUSSIA.GuyBOutputInt = 1;  
+            }
+
         }
         else if (Char3DPTwo.value == 2)
         {
@@ -439,6 +553,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
                 SAS.sideArt4 += 20;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneB = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.GuyAOutputInt = 2;
+                RUSSIA.GuyBOutputInt = 2;
+            }
+
         }
         else if (Char3DPTwo.value == 3)
         {
@@ -453,6 +575,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal -= 3;
                 AFS.unbiasedVal -= 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneB = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.GuyAOutputInt = 3;
+                RUSSIA.GuyBOutputInt = 3;
+            }
+            
         }
     }
 
@@ -469,6 +599,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3SelectionDoneC = true;
                 AFS.unbiasedVal -= 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneC = true;
+                RUSSIA.FearfulPaper += 1;
+
+            }
+
         }
         else if (Char3DPThree.value == 2)
         {
@@ -483,6 +620,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 1;
                 AFS.unbiasedVal += 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneC = true;
+                RUSSIA.AngryPaper += 1;
+
+            }
+
         }
         else if (Char3DPThree.value == 3)
         {
@@ -496,6 +640,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.entertainingVal += 1;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char3SelectionDoneC = true;
+                RUSSIA.CompassionatePaper += 1;
+
+            }
+
         }
     }
 
@@ -516,6 +667,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.credibleVal += 3;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneA = true;
+                RUSSIA.FearfulPaper += 1;
+            }
+
         }
         else if (Char4DPOne.value == 2)
         {
@@ -532,6 +689,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 2;
                 SAS.sideArt3 += 21;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneA = true;
+                RUSSIA.AngryPaper += 1;
+            }
+
         }
         else if (Char4DPOne.value == 3)
         {
@@ -549,6 +712,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal += 3;
                 SAS.sideArt2 += 65;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneA = true;
+                RUSSIA.CompassionatePaper += 1;
+            }
+
         }
     }
 
@@ -566,6 +735,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal += 2;
                 AFS.unbiasedVal -= 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneB = true;
+                RUSSIA.FearfulPaper += 1;
+            }
+
         }
         else if (Char4DPTwo.value == 2)
         {
@@ -578,6 +753,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneB = true;
+                RUSSIA.AngryPaper += 1;
+            }
+
         }
         else if (Char4DPTwo.value == 3)
         {
@@ -592,6 +773,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 1;
                 SAS.sideArt2 += 35;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneB = true;
+                RUSSIA.CompassionatePaper += 1;
+            }
+
         }
     }
 
@@ -607,6 +794,15 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4SelectionDoneC = true;
                 SAS.sideArt4 += 20;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneC = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.BrightonAOutputInt = 1;
+                RUSSIA.BrightonBOutputInt = 1;
+                RUSSIA.BrightonCOutputInt = 1;
+            }
+
         }
         else if (Char4DPThree.value == 2)
         {
@@ -617,6 +813,16 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.statusQuoPaper+=1;
                 Char4SelectionDoneC = true;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneC = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.BrightonAOutputInt = 2;
+                RUSSIA.BrightonBOutputInt = 2;
+                RUSSIA.BrightonCOutputInt = 2;
+
+            }
+
         }
         else if (Char4DPThree.value == 3)
         {
@@ -630,6 +836,16 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
                 AFS.credibleVal += 3;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char4SelectionDoneC = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.BrightonAOutputInt = 3;
+                RUSSIA.BrightonBOutputInt = 3;
+                RUSSIA.BrightonCOutputInt = 3;
+
+            }
+
         }
     }
 
@@ -651,6 +867,11 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt4 += 20;
             }
 
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneA = true;
+                RUSSIA.FearfulPaper += 1;
+            }
+
         }
         else if (Char5DPOne.value == 2)
         {
@@ -665,6 +886,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneA = true;
+                RUSSIA.AngryPaper += 1;
+            }
+
         }
         else if (Char5DPOne.value == 3)
         {
@@ -679,6 +906,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.unbiasedVal -= 2;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneA = true;
+                RUSSIA.CompassionatePaper += 1;
+            }
+
         }
     }
 
@@ -696,6 +929,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.unbiasedVal -= 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneB = true;
+                RUSSIA.FearfulPaper += 1;
+            }
+
         }
         else if (Char5DPTwo.value == 2)
         {
@@ -710,6 +949,12 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
                 SAS.sideArt3 += 21;
             }
+
+             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneB = true;
+                RUSSIA.AngryPaper += 1;
+            }
+
         }
         else if (Char5DPTwo.value == 3)
         {
@@ -723,6 +968,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.entertainingVal += 2;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneB = true;
+                RUSSIA.CompassionatePaper += 1;
+
+            }
+
         }
     }
 
@@ -737,6 +989,15 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.muckrakerPaper+=1;
                 Char5SelectionDoneC = true;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneC = true;
+                RUSSIA.FearfulPaper += 1;
+                RUSSIA.FranzAOutputInt = 1;
+                RUSSIA.FranzBOutputInt = 1;
+                RUSSIA.FranzCOutputInt = 1;
+            }
+
         }
         else if (Char5DPThree.value == 2)
         {
@@ -751,6 +1012,15 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal += 3;
                 SAS.sideArt3 += 21;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneC = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.FranzAOutputInt = 2;
+                RUSSIA.FranzBOutputInt = 2;
+                RUSSIA.FranzCOutputInt = 2;
+            }
+
         }
         else if (Char5DPThree.value == 3)
         {
@@ -764,14 +1034,30 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 1;
                 AFS.credibleVal -= 3;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char5SelectionDoneC = true;
+                RUSSIA.CompassionatePaper += 1;
+                RUSSIA.FranzAOutputInt = 3;
+                RUSSIA.FranzBOutputInt = 3;
+                RUSSIA.FranzCOutputInt = 3;
+            }  
         }
     }
 
     public void NewspaperPrint() // using this to test things 
     {
         ///*
-        finalNewspaper.text = ROTDORE.PlayerNewspaper;
-        finalHeadline.text = ROTDORE.PlayerHeadline;
+        if (scene.name == "TESTStoryOneScene 1"){
+            finalNewspaper.text = ROTDORE.PlayerNewspaper;
+            finalHeadline.text = ROTDORE.PlayerHeadline;
+        } else if (scene.name == "TESTStoryTwoScene 1"){
+            finalNewspaper.text = RUSSIA.PlayerNewspaper;
+            finalNewspaper.text = RUSSIA.PlayerHeadline;
+        }
+        
+        
+        
         //*/
     }
 }

@@ -2088,7 +2088,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 608035560}
         m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -13839,7 +13839,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 608035560}
         m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -15807,7 +15807,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 608035560}
         m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -19229,7 +19229,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 608035560}
         m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -23104,7 +23104,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1861054270}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.20053099
+  m_Size: 0.200531
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -29091,8 +29091,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646639336}
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.7445447
+  m_Value: 0.99999976
+  m_Size: 0.7445446
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -33932,7 +33932,7 @@ MonoBehaviour:
   - {fileID: 774034112}
   - {fileID: 1728486250}
   S1_Info:
-  - {fileID: 1575656568}
+  - {fileID: 1426122871}
   - {fileID: 1658693790}
   - {fileID: 1062113796}
   - {fileID: 1113578637}
@@ -33950,7 +33950,7 @@ MonoBehaviour:
   - {fileID: 1996729399}
   - {fileID: 1039742319}
   S2_Info:
-  - {fileID: 1426122871}
+  - {fileID: 1575656568}
   - {fileID: 1518510944}
   - {fileID: 1632298169}
   - {fileID: 687593208}
@@ -33971,6 +33971,9 @@ MonoBehaviour:
   GamePanels:
   - {fileID: 1279310165}
   - {fileID: 775475060}
+  - {fileID: 1039742319}
+  - {fileID: 1719463859}
+  - {fileID: 1088587049}
   S1_Names: []
   S2_Names: []
 --- !u!1 &551081509
@@ -40636,7 +40639,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1630266808}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.15590392
+  m_Size: 0.1559039
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -45440,7 +45443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 608035560}
         m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
         m_MethodName: ButtonBehavior
         m_Mode: 3
@@ -48860,7 +48863,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -58671,7 +58674,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 730756638}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.83862585
+  m_Size: 0.8386258
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -67684,7 +67687,7 @@ RectTransform:
   m_Father: {fileID: 1033323566}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5006921, y: 0}
+  m_AnchorMin: {x: 0.0011560321, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -86212,6 +86215,7 @@ GameObject:
   - component: {fileID: 1410984874}
   - component: {fileID: 1410984876}
   - component: {fileID: 1410984875}
+  - component: {fileID: 1410984877}
   m_Layer: 0
   m_Name: DropdownController
   m_TagString: Untagged
@@ -86539,6 +86543,7 @@ MonoBehaviour:
   PlayerHeadline: 
   AFS: {fileID: 608035562}
   ROTDORE: {fileID: 1410984875}
+  RUSSIA: {fileID: 0}
   SAS: {fileID: 1279310169}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
@@ -86557,6 +86562,330 @@ MonoBehaviour:
   Char5DPOne: {fileID: 1586403694}
   Char5DPTwo: {fileID: 1649429140}
   Char5DPThree: {fileID: 2124042287}
+  Char1SelectionDoneA: 1
+  Char1SelectionDoneB: 1
+  Char1SelectionDoneC: 1
+  Char2SelectionDoneA: 1
+  Char2SelectionDoneB: 1
+  Char2SelectionDoneC: 1
+  Char3SelectionDoneA: 1
+  Char3SelectionDoneB: 1
+  Char3SelectionDoneC: 1
+  Char4SelectionDoneA: 1
+  Char4SelectionDoneB: 1
+  Char4SelectionDoneC: 1
+  Char5SelectionDoneA: 1
+  Char5SelectionDoneB: 1
+  Char5SelectionDoneC: 1
+--- !u!114 &1410984877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a928c5f288f544794c6a878189d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  PlayerHeadline: 
+  AngryNewspaper: 
+  CompassionateNewspaper: 
+  FearfulNewspaper: 
+  finalNewspaper: {fileID: 1358871417}
+  finalHeadline: {fileID: 2111132688}
+  AFS: {fileID: 0}
+  BorisAOutputInt: 0
+  GuyAOutputInt: 0
+  VitoAOutputInt: 0
+  BrightonAOutputInt: 0
+  FranzAOutputInt: 0
+  BorisBOutputInt: 0
+  GuyBOutputInt: 0
+  VitoBOutputInt: 0
+  BrightonBOutputInt: 0
+  FranzBOutputInt: 0
+  BorisCOutputInt: 0
+  GuyCOutputInt: 0
+  VitoCOutputInt: 0
+  BrightonCOutputInt: 0
+  FranzCOutputInt: 0
+  APaperArticlePieces:
+  - "It\u2019s a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+    and chatter can be heard along the boardwalk. Despite what this peaceful facade
+    might suggest, Brighton Beach has become one of the most crime-ridden neighborhoods
+    in New York City. This is due, in part, to a surge in mob violence in the area.
+    It seems like the city\u2019s attempts to quell organized crime throughout the
+    last few decades have been in vain.\r\n"
+  - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
+    middle-aged man with a heavy Russian accent. \u201CDon\u2019t ask questions.
+    Don\u2019t write about us. Don\u2019t talk about us. As far as you\u2019re concerned,
+    we don\u2019t exist. You [expletive] test me and you die.\u201D He gives our
+    reporter one last glare and stalks off. Bystanders don\u2019t react. On Brighton
+    Beach, threats from the Russian Mob always greet those who ask too many questions.\r\n"
+  - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
+    man with a heavy Russian accent. \u201CDon\u2019t ask questions. Don\u2019t write
+    about us. Don\u2019t talk about us. As far as you\u2019re concerned, we don\u2019t
+    exist. You [expletive] test me and you die.\u201D He gives our reporter one last
+    glare and stalks off. Bystanders don\u2019t react. On Brighton Beach, threats
+    from the Russian Mob always greet those who ask too many questions.\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
+    by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
+    instead redirected the conversation toward his past. Mr. Kramarov sees America
+    as a safe haven compared to the violent, poverty-stricken Soviet Union he once
+    called home. Withith Brighton Beach as his main point of reference, however,
+    that\u2019s surely a difficult position to uphold.\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a restaurant owned by Boris
+    Kramarov, a Soviet immigrant. Unwilling to provide details about the incident,
+    Mr. Kramarov instead offered bitter complaints about the USA. \u201CI thought
+    America was a land of prosperity,\u201D Mr. Kramarov spat. \u201CLook at my beautiful
+    restaurant. How am I going to pay my bills? This happened a week ago, and it\u2019s
+    still like this.\u201D\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
+    by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
+    instead lamented the destruction of his dining area, which was still in a state
+    of bullet-scarred disrepair. \u201CLook at my beautiful restaurant,\u201D Mr.
+    Kramarov said. \u201CHow am I going to pay my bills? This happened a week ago,
+    and it\u2019s still like this.\u201D\r\n"
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    His scar will be a permanent reminder of the event. The Stohlers could not provide
+    useful information about the perpetrators.\r\n"
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    Luckily, the injury was minor, and he has mostly recovered. The Stohlers could
+    not provide useful information about the perpetrators."
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    He is recovering, but the injury will leave a scar. The Stohlers could not provide
+    useful information about the perpetrators.\r\n"
+  - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir to Mr. Vito Masucci,
+    jailed former head of the Masucci crime family. Mr. Masucci insisted that his
+    family was innocent and that the shooting was unprovoked. Given his family\u2019s
+    criminal record, however, these claims are unreliable. \r\n"
+  - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
+    Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
+    that his family was innocent and that the shooting was unprovoked. Given his
+    family\u2019s criminal record, this probably isn\u2019t true. \r\n"
+  - 'Despite these unhelpful witnesses, it is clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
+    Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
+    that his family was innocent and that the shooting was unprovoked. Apparently,
+    the Russian mob was the real culprit.
+
+'
+  - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
+    Stohler personifies this attitude, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as jaded to crime and violence as the rest of the
+    city.\r\n"
+  - "The city\u2019s inhabitants are bafflingly dismissive of the shooting. Ms. Franziska
+    Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as unconcerned for her own safety as the rest of the
+    city.\r\n"
+  - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
+    Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as unconcerned for her own safety as the rest of the
+    city.\r\n"
+  BPaperArticlePieces:
+  - 'It is a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+    and chatter can be heard along the boardwalk. Standing here, one would never
+    guess that this seemingly peaceful neighborhood was, just last week, the site
+    of a violent shooting.
+
+'
+  - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
+    a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
+    Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
+    Beach.\r\n"
+  - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
+    a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
+    Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
+    Beach.\r\n"
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov was visibly
+    frightened and refused to provide details. He was distraught to find that the
+    violence he\u2019d fled in the Soviet Union was beginning to reappear in his
+    new home. \u201CEverything that I thought I\u2019d left behind in Siberia has
+    followed me to America,\u201D he explained.\r\n"
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov refused
+    to provide details to the police or media. He was upset to find that the violence
+    he\u2019d fled in the Soviet Union was beginning to reappear in his new home.
+    \u201CEverything that I thought I\u2019d left behind in Siberia has followed
+    me to America,\u201D he explained. \r\n"
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov politely
+    declined to provide details. He was disappointed to find that the violence he\u2019d
+    fled in the Soviet Union was beginning to reappear in his new home. \u201CEverything
+    that I thought I\u2019d left behind in Siberia has followed me to America,\u201D
+    he explained. \r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting, and his injuries have yet to fully heal.\r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting. Luckily, the wound was minor, and he is in recovery.\r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting, and his injuries have yet to fully heal.\r\n"
+  - "Little is known about the men behind this horrible crime. Mr. Vito Masucci,
+    the jailed head of the notorious Masucci crime family, insisted that the Russian
+    mob is responsible. Mr. Masucci\u2019s nephew and heir apparent was killed during
+    the shooting. It\u2019s possible that he was the primary target. While Mr. Masucci\u2019s
+    trustworthiness is questionable, this is the only explanation being offered at
+    the moment.\r\n"
+  - "Little is known about the men behind this horrible crime. Mr. Vito Masucci,
+    the jailed head of the notorious Masucci crime family, insisted that the Russian
+    mob is responsible. Mr. Masucci\u2019s nephew and heir apparent was killed during
+    the shooting. It\u2019s possible that he was the primary target. While Mr. Masucci\u2019s
+    claims are unreliable, this is the only explanation being offered at the moment.\r\n"
+  - "This crime, it seems, was an incidence of gang violence. Mr. Vito Masucci, the
+    jailed head of the Masucci crime family, insisted that the Russian mob is responsible.
+    Mr. Masucci\u2019s nephew and heir apparent was killed during the shooting. He
+    was the Russian mob\u2019s primary target. Ivan Puzyretsky, aka Ivan the Terrible,
+    a notorious Russian mobster and enemy of the Masuccis, likely led the assault.\r\n"
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unbothered by the event or by her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has become
+    jaded to the world\u2019s growing violence.\r\n"
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has become
+    dismissive of the world\u2019s growing violence."
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has decided
+    to disregard the world\u2019s growing violence.\r\n"
+  CPaperArticlePieces:
+  - "It was a cold, gray day on Brighton Beach. Waves lapped against the shore. Laughter
+    and chatter could be heard along the boardwalk. One would never guess that this
+    neighborhood was just the site of a shooting - yet another concerning symptom
+    of Brighton Beach\u2019s recent rise in criminal activity.\r\n"
+  - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
+    the mob. It happened suddenly - a man sprang from the shadows and, in a thick
+    Russian accent, growled a threatening request: to stop investigating the recent
+    shooting and to leave the neighborhood for good. He then stalked off, his demeanor
+    that of a starving wolf.'
+  - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
+    the mob. It happened suddenly - a man sprang from the shadows and, with a low,
+    ominous voice, growled a threatening request: to stop investigating the recent
+    shooting and to leave the neighborhood for good. He then stalked off, his demeanor
+    that of a starving wolf.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was accommodating to our reporter, he was afraid to answer questions about
+    the shooting.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was accommodating to our reporter, he was unwilling to answer questions about
+    the shooting.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was friendly to our reporter, he was hesitant to answer questions about the
+    shooting.
+
+'
+  - "Among those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler, frozen in shock
+    at the sudden gunfire, was injured by a stray bullet. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "Among those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler, too surprised
+    to flee or take cover, was injured in the crossfire. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "Among those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler was injured in
+    the crossfire, but bravely kept his eyes on the events. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a mob boss currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the primary target of the shooting,  a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a former mob boss currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the shooting\u2019s primary target, a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a gentleman currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the primary target of the shooting, a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "It\u2019s all too easy to despair in times like these, but some find a different
+    solution. Franziska Stohler provides an example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Perhaps, in this violent world, becoming resistant
+    to suffering is a necessary method of self-defense.\r\n"
+  - "It\u2019s all too easy to despair in times like these, but some find a different
+    solution. Franziska Stohler provides an example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Perhaps, in this violent world, becoming indifferent
+    toward tragedy is a necessary method of self-defense. "
+  - "It is all too easy to despair in times like these, but perhaps there is an alternative.
+    Franziska Stohler provides a compelling example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Following moments of tragedy, the human spirit nonetheless
+    shines as brightly as ever. \r\n\t\r\n"
+  newspaperHeadlines:
+  - Fearful
+  - Angry
+  - Compassionate
+  BorisDPOne: {fileID: 1869266737}
+  BorisDPTwo: {fileID: 765550600}
+  BorisDPThree: {fileID: 557151246}
+  VitoDPOne: {fileID: 1955347120}
+  VitoDPTwo: {fileID: 908376689}
+  VitoDPThree: {fileID: 6620388}
+  GuyDPOne: {fileID: 1577571665}
+  GuyDPTwo: {fileID: 95505270}
+  GuyDPThree: {fileID: 1225311042}
+  FranziskaDPOne: {fileID: 1498114466}
+  FranziskaDPTwo: {fileID: 402046269}
+  FranziskaDPThree: {fileID: 833227613}
+  BrightonDPOne: {fileID: 386080594}
+  BrightonDPTwo: {fileID: 704809369}
+  BrightonDPThree: {fileID: 1492281386}
   Char1SelectionDoneA: 0
   Char1SelectionDoneB: 0
   Char1SelectionDoneC: 0
@@ -86572,6 +86901,9 @@ MonoBehaviour:
   Char5SelectionDoneA: 0
   Char5SelectionDoneB: 0
   Char5SelectionDoneC: 0
+  AngryPaper: 0
+  FearfulPaper: 0
+  CompassionatePaper: 0
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0
@@ -88161,8 +88493,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1091892846}
   m_HandleRect: {fileID: 1091892845}
   m_Direction: 0
-  m_Value: 1.0002289
-  m_Size: 0.49930784
+  m_Value: 1.0001526
+  m_Size: 0.99884397
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -88217,12 +88549,12 @@ GameObject:
   - component: {fileID: 1426122874}
   - component: {fileID: 1426122873}
   m_Layer: 5
-  m_Name: S2doc title (1)
+  m_Name: doc title (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1426122872
 RectTransform:
   m_ObjectHideFlags: 0
@@ -97894,12 +98226,12 @@ GameObject:
   - component: {fileID: 1575656571}
   - component: {fileID: 1575656570}
   m_Layer: 5
-  m_Name: doc title (1)
+  m_Name: S2doc title (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1575656569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -117747,7 +118079,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

@@ -46,6 +46,11 @@ public class CharChangerScript : MonoBehaviour
             }
 
         } else if (scene.name == "TESTStoryTwoScene 1"){
+
+            /*for (int i = 0; i < GamePanels.Length; i++){
+                GamePanels[i].SetActive(false);
+            }*/
+
             for (int i = 0; i < S1_Ints.Length; i++){
                 S1_Ints[i].SetActive(false);
             }
