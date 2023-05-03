@@ -17933,7 +17933,6 @@ MonoBehaviour:
   - {fileID: 983210232}
   - {fileID: 911730963}
   MsgAppTxt: {fileID: 0}
-  analyticsWindow: {fileID: 0}
 --- !u!114 &608035561
 MonoBehaviour:
   m_ObjectHideFlags: 0
