@@ -18,6 +18,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     //Audience Feedback Script
     public AudienceFeedbackScript AFS;
     public ROTDOREController ROTDORE;
+    public RussiaController RUSSIA;
     //Side Article
     [SerializeField] SideArticleScript SAS;
     public Text finalNewspaper, finalHeadline;
@@ -75,7 +76,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
             }
-            
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1A1 = true;
+                Char1B1 = false;
+                Char1C1 = false;
+                Char1SelectionDoneA = true;
+                RUSSIA.FearfulPaper += 1;
+            }
         }
         else if (Char1DPOne.value == 2)
         {
@@ -89,14 +97,23 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.entertainingVal -= 1;    
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1A1 = false;
+                Char1B1 = true;
+                Char1C1 = false;
+                Char1SelectionDoneA = true;
+                RUSSIA.AngryPaper += 1;
+            }
+
         }
         else if (Char1DPOne.value == 3)
         {
             if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
 
                 Char1A1 = false;
-                Char1B1 = false;
-                Char1C1 = true;
+                Char1B1 = true;
+                Char1C1 = false;
                 ROTDORE.NovakSQOutputInt = 3;
                 Char1SelectionDoneA = true;
                 ROTDORE.NovakSQOutputInt = 3;
@@ -104,6 +121,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 //Feedback Vals
                 AFS.credibleVal -= 3;
                 AFS.unbiasedVal -= 2;
+            }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1A1 = false;
+                Char1B1 = false;
+                Char1C1 = true;
+                Char1SelectionDoneA = true;
+                RUSSIA.CompassionatePaper += 1;
             }
         }
     }
@@ -119,6 +144,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.muckrakerPaper+=1;
                 Char1SelectionDoneB = true;
             }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1A2 = true;
+                Char1B2 = false;
+                Char1C2 = false;
+                Char1SelectionDoneA = true;
+                RUSSIA.FearfulPaper += 1;
+            }
         }
         else if (Char1DPTwo.value == 2)
         {
@@ -130,6 +163,16 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1SelectionDoneB = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 1;
+            }
+
+            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+                Char1A2 = false;
+                Char1B2 = true;
+                Char1C2 = false;
+                Char1SelectionDoneA = true;
+                RUSSIA.AngryPaper += 1;
+                RUSSIA.BorisBOutputInt = 2;
+                RUSSIA.BorisCOutputInt = 3;
             }
         }
         else if (Char1DPTwo.value == 3)

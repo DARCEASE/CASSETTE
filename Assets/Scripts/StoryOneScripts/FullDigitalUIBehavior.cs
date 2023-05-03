@@ -37,7 +37,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     public TMP_Text[] Messages; // Full View Texts in messages panel
     public TMP_Text MsgAppTxt;
-    public GameObject analyticsWindow;
+    //public GameObject analyticsWindow;
     
 
 
@@ -75,9 +75,9 @@ public class FullDigitalUIBehavior : MonoBehaviour
             
     }
 
-    public void AnalyticsButton(){
+    /*public void AnalyticsButton(){
         analyticsWindow.SetActive(true);
-    }
+    }*/
 
     public void ExitFile(int i) // If a file is open right now, close it
     {
