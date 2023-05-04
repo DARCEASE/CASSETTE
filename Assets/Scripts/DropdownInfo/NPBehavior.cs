@@ -570,7 +570,7 @@ public class NPBehavior : MonoBehaviour
         ///*
         if (scene.name == "TESTStoryTwoScene 1"){
             finalNewspaper.text = RUSSIA.PlayerNewspaper;
-            finalNewspaper.text = RUSSIA.PlayerHeadline;
+            finalHeadline.text = RUSSIA.PlayerHeadline;
         }
         
         //*/

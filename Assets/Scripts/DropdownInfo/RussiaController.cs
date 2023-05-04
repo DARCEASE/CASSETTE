@@ -25,14 +25,9 @@ public class RussiaController : MonoBehaviour
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
     [SerializeField] string[] APaperArticlePieces, BPaperArticlePieces, CPaperArticlePieces;// angry, fearful, Compassionate article pieces 
     [SerializeField] string[] newspaperHeadlines;
-    
-    [SerializeField] public int AngryPaper,FearfulPaper, CompassionatePaper;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+    [SerializeField] public int AngryPaper,FearfulPaper, CompassionatePaper;
+    
     // Update is called once per frame
     void Update()
     {
