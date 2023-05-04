@@ -23,7 +23,7 @@ public class SettingsMenuController : MonoBehaviour
     [SerializeField] AudioController AC;
     [SerializeField] Slider intVolSlider; //sliders to change values (CAN'T USE FOR CURSOR APPARENTLY)
     [SerializeField] AudioSource char1Audio, char2Audio, char3Audio, char4Audio, char5Audio;
-    [SerializeField] GameObject AudioContObj, SettingsMenuDisplay, SoundsMenuDisplay, InterfaceMenuDisplay, volSliderKnob;
+    [SerializeField] GameObject AudioContObj, volSliderKnob;
     float simpleKnobVal, knobVal, minKnobVal, maxKnobVal, minKnobPosX, maxKnobPosX, knobPosX, barWidith;
     
     //Text varis
@@ -45,7 +45,6 @@ public class SettingsMenuController : MonoBehaviour
 
     void Start()
     {
-        SettingsMenuDisplay.SetActive(false);
         //SoundsMenuDisplay.SetActive(false);
         //InterfaceMenuDisplay.SetActive(false);
         
@@ -174,31 +173,5 @@ public class SettingsMenuController : MonoBehaviour
             PrintCharTextObjs[i].font = DyslexFont;
         }
     }
-
-    public void ShowSettingsMenu(){
-        //DISPLAYS SETTINGS MENU
-        SettingsMenuDisplay.SetActive(true);
-    
-    }
-
-    public void CloseSettingsMenu(){
-        //DISPLAYS SETTINGS MENU
-        SettingsMenuDisplay.SetActive(false);
-    
-    }
-
-    public void ShowAudioSettingsOptions(){
-        //ALL AUDIO SETTINGS OPTIONS WILL BE HERE
-        //InterfaceMenuDisplay.SetActive(false);
-        //SoundsMenuDisplay.SetActive(true);
-
-    }
-
-    public void ShowInterfaceSettingsOptions(){
-        //ALL INTERFACE SETTINGS OPTIONS WILL BE HERE
-        //InterfaceMenuDisplay.SetActive(true);
-        //SoundsMenuDisplay.SetActive(false);
-    }
-
 
 }
