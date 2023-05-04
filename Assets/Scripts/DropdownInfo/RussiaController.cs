@@ -25,23 +25,7 @@ public class RussiaController : MonoBehaviour
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
     [SerializeField] string[] APaperArticlePieces, BPaperArticlePieces, CPaperArticlePieces;// angry, fearful, Compassionate article pieces 
     [SerializeField] string[] newspaperHeadlines;
-
-    // MAKE A VARIABLE FOR THE DROPDOWN ITSELF 
-    public Dropdown BorisDPOne, BorisDPTwo, BorisDPThree;
-    public Dropdown VitoDPOne, VitoDPTwo, VitoDPThree;
-    public Dropdown GuyDPOne, GuyDPTwo, GuyDPThree;
-    public Dropdown FranziskaDPOne, FranziskaDPTwo, FranziskaDPThree;
-    public Dropdown BrightonDPOne, BrightonDPTwo, BrightonDPThree;
-
-    //Keeps track of which dropsdowns are complete. Broad so it can be used in future NPB scripts.
-    //These will be accessed by CharacterCompleteCheck so it MUST BE PUBLIC!
-    public bool Char1SelectionDoneA, Char1SelectionDoneB, Char1SelectionDoneC;
-    public bool Char2SelectionDoneA, Char2SelectionDoneB, Char2SelectionDoneC;
-    public bool Char3SelectionDoneA, Char3SelectionDoneB, Char3SelectionDoneC;
-    public bool Char4SelectionDoneA, Char4SelectionDoneB, Char4SelectionDoneC;
-    public bool Char5SelectionDoneA, Char5SelectionDoneB, Char5SelectionDoneC;
-
-    //Values
+    
     [SerializeField] public int AngryPaper,FearfulPaper, CompassionatePaper;
     // Start is called before the first frame update
     void Start()

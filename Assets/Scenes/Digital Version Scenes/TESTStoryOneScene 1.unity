@@ -871,9 +871,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: GuyDropC
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char2DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6229,9 +6229,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: VitoDropB
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char3DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23863,9 +23863,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: FranziskaDropA
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char5DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24950,9 +24950,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: BrightonDropB
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char4DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35662,9 +35662,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: BorisDropC
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char1DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -44642,9 +44642,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: FranziskaDropB
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char5DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -46873,21 +46873,11 @@ MonoBehaviour:
   Char4Box: {fileID: 1476214096}
   Char5Box: {fileID: 529038329}
   SubmitButtonGO: {fileID: 633632192}
-  S2_Char1Box: {fileID: 1413350372}
-  S2_Char2Box: {fileID: 1905678882}
-  S2_Char3Box: {fileID: 610037009}
-  S2_Char4Box: {fileID: 1476214096}
-  S2_Char5Box: {fileID: 529038329}
   CompletedChar1: 0
   CompletedChar2: 0
   CompletedChar3: 0
   CompletedChar4: 0
   CompletedChar5: 0
-  S2_CompletedChar1: 0
-  S2_CompletedChar2: 0
-  S2_CompletedChar3: 0
-  S2_CompletedChar4: 0
-  S2_CompletedChar5: 0
 --- !u!114 &743827122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46895,17 +46885,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743827119}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4f2eabc46cf96a489f7da6177d979eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  STNPB: {fileID: 0}
+  NPB: {fileID: 1410984878}
   Char1Box: {fileID: 1413350372}
   Char2Box: {fileID: 1905678882}
   Char3Box: {fileID: 610037009}
   Char4Box: {fileID: 1476214096}
   Char5Box: {fileID: 529038329}
+  SubmitButtonGO: {fileID: 633632192}
+  CompletedChar1: 0
+  CompletedChar2: 0
+  CompletedChar3: 0
+  CompletedChar4: 0
+  CompletedChar5: 0
 --- !u!1 &743948398
 GameObject:
   m_ObjectHideFlags: 0
@@ -48021,9 +48017,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: BorisDropB
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char1DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -51664,9 +51660,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: BrightonDropC
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char4DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -56222,9 +56218,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: GuyDropB
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char2DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77188,9 +77184,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: VitoDropC
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char3DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -88183,6 +88179,7 @@ GameObject:
   - component: {fileID: 1410984876}
   - component: {fileID: 1410984875}
   - component: {fileID: 1410984877}
+  - component: {fileID: 1410984878}
   m_Layer: 0
   m_Name: DropdownController
   m_TagString: Untagged
@@ -88838,21 +88835,44 @@ MonoBehaviour:
   - Fearful
   - Angry
   - Compassionate
-  BorisDPOne: {fileID: 1869266737}
-  BorisDPTwo: {fileID: 765550600}
-  BorisDPThree: {fileID: 557151246}
-  VitoDPOne: {fileID: 1955347120}
-  VitoDPTwo: {fileID: 908376689}
-  VitoDPThree: {fileID: 6620388}
-  GuyDPOne: {fileID: 1577571665}
-  GuyDPTwo: {fileID: 95505270}
-  GuyDPThree: {fileID: 1225311042}
-  FranziskaDPOne: {fileID: 1498114466}
-  FranziskaDPTwo: {fileID: 402046269}
-  FranziskaDPThree: {fileID: 833227613}
-  BrightonDPOne: {fileID: 386080594}
-  BrightonDPTwo: {fileID: 704809369}
-  BrightonDPThree: {fileID: 1492281386}
+  AngryPaper: 0
+  FearfulPaper: 0
+  CompassionatePaper: 0
+--- !u!114 &1410984878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef761a405a334a6408aeed6aeae9b2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  PlayerHeadline: 
+  AFS: {fileID: 0}
+  ROTDORE: {fileID: 0}
+  RUSSIA: {fileID: 1410984877}
+  SAS: {fileID: 1279310169}
+  finalNewspaper: {fileID: 1358871417}
+  finalHeadline: {fileID: 2111132688}
+  Char1DPOne: {fileID: 1869266737}
+  Char1DPTwo: {fileID: 765550600}
+  Char1DPThree: {fileID: 557151246}
+  Char2DPOne: {fileID: 1955347120}
+  Char2DPTwo: {fileID: 908376689}
+  Char2DPThree: {fileID: 6620388}
+  Char3DPOne: {fileID: 1577571665}
+  Char3DPTwo: {fileID: 95505270}
+  Char3DPThree: {fileID: 1225311042}
+  Char4DPOne: {fileID: 1498114466}
+  Char4DPTwo: {fileID: 402046269}
+  Char4DPThree: {fileID: 833227613}
+  Char5DPOne: {fileID: 386080594}
+  Char5DPTwo: {fileID: 704809369}
+  Char5DPThree: {fileID: 1492281386}
   Char1SelectionDoneA: 0
   Char1SelectionDoneB: 0
   Char1SelectionDoneC: 0
@@ -88868,9 +88888,6 @@ MonoBehaviour:
   Char5SelectionDoneA: 0
   Char5SelectionDoneB: 0
   Char5SelectionDoneC: 0
-  AngryPaper: 0
-  FearfulPaper: 0
-  CompassionatePaper: 0
 --- !u!1 &1411119287
 GameObject:
   m_ObjectHideFlags: 0
@@ -95911,9 +95928,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: FranziskaDropC
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char5DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -96202,9 +96219,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: BrightonDropA
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char4DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -100991,9 +101008,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: VitoDropA
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char3DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -111704,21 +111721,11 @@ MonoBehaviour:
   Char4Box: {fileID: 1576184036}
   Char5Box: {fileID: 1056099877}
   SubmitButtonGO: {fileID: 633632192}
-  S2_Char1Box: {fileID: 0}
-  S2_Char2Box: {fileID: 0}
-  S2_Char3Box: {fileID: 0}
-  S2_Char4Box: {fileID: 0}
-  S2_Char5Box: {fileID: 0}
   CompletedChar1: 0
   CompletedChar2: 0
   CompletedChar3: 0
   CompletedChar4: 0
   CompletedChar5: 0
-  S2_CompletedChar1: 0
-  S2_CompletedChar2: 0
-  S2_CompletedChar3: 0
-  S2_CompletedChar4: 0
-  S2_CompletedChar5: 0
 --- !u!1 &1762230524
 GameObject:
   m_ObjectHideFlags: 0
@@ -118092,9 +118099,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: BorisDropA
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char1DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -123899,9 +123906,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryTwoNewspaperBehavior, Assembly-CSharp
-        m_MethodName: GuyDropA
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
+        m_MethodName: Char2DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
