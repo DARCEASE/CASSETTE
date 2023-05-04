@@ -17,7 +17,6 @@ public class NPBehavior : MonoBehaviour
     
     //Audience Feedback Script
     public AudienceFeedbackScript AFS;
-    public ROTDOREController ROTDORE;
     public RussiaController RUSSIA;
     //Side Article
     [SerializeField] SideArticleScript SAS;
@@ -50,12 +49,13 @@ public class NPBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scene = SceneManager.GetActiveScene();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        scene = SceneManager.GetActiveScene();
         NewspaperPrint();
     }
 
@@ -68,6 +68,7 @@ public class NPBehavior : MonoBehaviour
             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
 
                 Char1SelectionDoneA = true;
+                Debug.Log("DP 1 Work");
                 RUSSIA.FearfulPaper += 1;
             }
 
@@ -77,6 +78,7 @@ public class NPBehavior : MonoBehaviour
 
             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char1SelectionDoneA = true;
+                Debug.Log("DP 2 Work");
                 RUSSIA.AngryPaper += 1;
             }
 
@@ -86,6 +88,7 @@ public class NPBehavior : MonoBehaviour
         {
             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char1SelectionDoneA = true;
+                Debug.Log("DP 3 Work");
                 RUSSIA.CompassionatePaper += 1;
             }
 

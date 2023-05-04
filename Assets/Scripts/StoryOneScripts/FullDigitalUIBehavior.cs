@@ -70,7 +70,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
         RT = FilePanels[i].GetComponent<RectTransform>();
         RT.SetAsLastSibling(); //Push panel to the center of the canvas and in front maybe do this with sorting layer??? 
         FilePanels[i].gameObject.SetActive(true);
-        Debug.Log("Clicked and Opened");
+        //Debug.Log("Clicked and Opened");
         //}
             
     }
@@ -105,7 +105,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("The Editor has left the office...");
+        //Debug.Log("The Editor has left the office...");
         Application.Quit();
     }
 
