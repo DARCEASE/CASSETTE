@@ -8,9 +8,11 @@ public class CharacterCompleteCheck : MonoBehaviour
     Scene scene;
     [SerializeField] NewspaperBehavior NPB;
     [SerializeField] NewspaperBehaviorCopy NPBC;
-    [SerializeField] StoryTwoNewspaperBehavior STNPB;
     [SerializeField] GameObject Char1Box, Char2Box, Char3Box, Char4Box, Char5Box, SubmitButtonGO;
+    [SerializeField] GameObject S2_Char1Box, S2_Char2Box, S2_Char3Box, S2_Char4Box, S2_Char5Box;
+
     [SerializeField] bool CompletedChar1, CompletedChar2, CompletedChar3, CompletedChar4, CompletedChar5;
+    [SerializeField] bool S2_CompletedChar1, S2_CompletedChar2, S2_CompletedChar3, S2_CompletedChar4, S2_CompletedChar5;
     //[SerializeField] GameObject Char1CheckedBox, Char2BoxCheckedBox, Char3BoxCheckedBox, Char4BoxCheckedBox, Char5BoxCheckedBox;
 
     void Start()
@@ -87,7 +89,58 @@ public class CharacterCompleteCheck : MonoBehaviour
             }
         }
 
+        if (scene.name == "TESTStoryTwoScene 1"){
+            
+            NPBC.Char1SelectionDoneA = false;
+            NPBC.Char1SelectionDoneB = false;
+            NPBC.Char1SelectionDoneC = false;
+            NPBC.Char2SelectionDoneA = false;
+            NPBC.Char2SelectionDoneB = false;
+            NPBC.Char2SelectionDoneC = false;
+            NPBC.Char3SelectionDoneA = false;
+            NPBC.Char3SelectionDoneB = false;
+            NPBC.Char3SelectionDoneC = false;
+            NPBC.Char4SelectionDoneA = false;
+            NPBC.Char4SelectionDoneB = false;
+            NPBC.Char4SelectionDoneC = false;
+            NPBC.Char5SelectionDoneA = false;
+            NPBC.Char5SelectionDoneB = false;
+            NPBC.Char5SelectionDoneC = false;
 
+            if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
+                Char1Box.SetActive(false);
+                S2_CompletedChar1 = true;
+                
+            }
+                
+            if (NPBC.Char2SelectionDoneA && NPBC.Char2SelectionDoneB && NPBC.Char2SelectionDoneC){
+                Char2Box.SetActive(false);
+                S2_CompletedChar2 = true;
+            }
+                
+            if (NPBC.Char3SelectionDoneA && NPBC.Char3SelectionDoneB && NPBC.Char3SelectionDoneC){
+                Char3Box.SetActive(false);
+                S2_CompletedChar3 = true;
+            }
+                
+            if (NPBC.Char4SelectionDoneA && NPBC.Char4SelectionDoneB && NPBC.Char4SelectionDoneC){
+                Char4Box.SetActive(false);
+                S2_CompletedChar4 = true;
+            }
+                
+            if (NPBC.Char5SelectionDoneA && NPBC.Char5SelectionDoneB && NPBC.Char5SelectionDoneC){
+                Char5Box.SetActive(false);
+                S2_CompletedChar5 = true;
+            }
+                
+            if (S2_CompletedChar1 == true && S2_CompletedChar2 == true && S2_CompletedChar3 == true && S2_CompletedChar4 == true && S2_CompletedChar5 == true){
+                SubmitButtonGO.SetActive(true);
+            } else {
+                SubmitButtonGO.SetActive(false);
+            }
+        }
+
+        /*
         if (scene.name == "StoryTwoScene"|| scene.name == "HybridStoryTwo"){
             
             if (STNPB.Char1SelectionDoneA && STNPB.Char1SelectionDoneB && STNPB.Char1SelectionDoneC){
@@ -120,6 +173,6 @@ public class CharacterCompleteCheck : MonoBehaviour
             } else{
                 SubmitButtonGO.SetActive(false);
             }
-        }  
+        }  */
     }
 }
