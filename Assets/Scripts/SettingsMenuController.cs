@@ -30,6 +30,9 @@ public class SettingsMenuController : MonoBehaviour
     bool isReg, isDyslex;
     [SerializeField] Font AppleFont, DyslexFont, BerkFont, PrintFont; //KEEP IN MIND: This should apply to ALL TEXT
     [SerializeField] TMP_FontAsset AppleFontTMP, DyslexFontTMP, BerkFontTMP, PrintFontTMP; //interview font
+    //if Berk = 20, Dys = 15. If dys = 15, Berk = 20
+    [SerializeField] int TESTBerkFontReg, TESTBerkFontDys;
+
  
     //Second Attempt
     //TMP objs
@@ -114,6 +117,15 @@ public class SettingsMenuController : MonoBehaviour
         for (int i = 0; i < BerkTMPObjs.Length; i++){
             
             BerkTMPObjs[i].font = BerkFontTMP;
+
+            if (BerkTMPObjs[i].fontSize <= TESTBerkFontReg && BerkTMPObjs[i].fontSize > 35){
+                BerkTMPObjs[i].fontSize = 65;
+                Debug.Log("1 BerkTMP to Dys Title Fonts: " + i);
+            
+            }if (BerkTMPObjs[i].fontSize <= TESTBerkFontReg && BerkTMPObjs[i].fontSize < 35){
+                BerkTMPObjs[i].fontSize = TESTBerkFontReg;
+            }
+
         }
 
         for (int i = 0; i < PrintCharTMPObjs.Length; i++){
@@ -129,6 +141,16 @@ public class SettingsMenuController : MonoBehaviour
         for (int i = 0; i < BerkTextObjs.Length; i++){
             
             BerkTextObjs[i].font = BerkFont;
+
+            if (BerkTextObjs[i].fontSize > 35){
+                BerkTextObjs[i].fontSize = 65;
+                Debug.Log("2 BerkText to Dys Title Fonts: " + i);
+
+            } else if (BerkTextObjs[i].fontSize >= TESTBerkFontReg  && BerkTextObjs[i].fontSize < 35){
+                BerkTextObjs[i].fontSize = TESTBerkFontReg;
+            }
+
+            
         }
 
         for (int i = 0; i < PrintCharTextObjs.Length; i++){
@@ -151,6 +173,18 @@ public class SettingsMenuController : MonoBehaviour
         for (int i = 0; i < BerkTMPObjs.Length; i++){
             
             BerkTMPObjs[i].font = DyslexFontTMP;
+
+            if (BerkTMPObjs[i].fontSize >= TESTBerkFontDys && BerkTMPObjs[i].fontSize > 35){
+                BerkTMPObjs[i].fontSize = 37;
+                Debug.Log("3 BerkTMP to Dys Title Fonts: " + i);
+            }
+
+            if (BerkTMPObjs[i].fontSize >= TESTBerkFontDys && BerkTMPObjs[i].fontSize < 35){
+                BerkTMPObjs[i].fontSize = TESTBerkFontDys;
+
+            }
+
+           
         }
 
         for (int i = 0; i < PrintCharTMPObjs.Length; i++){
@@ -166,6 +200,14 @@ public class SettingsMenuController : MonoBehaviour
         for (int i = 0; i < BerkTextObjs.Length; i++){
             
             BerkTextObjs[i].font = DyslexFont;
+
+            if (BerkTextObjs[i].fontSize >= TESTBerkFontDys && BerkTextObjs[i].fontSize > 35){
+                BerkTextObjs[i].fontSize = 37;
+                Debug.Log("4 BerkText to Dys Title Fonts: " + i);
+
+            } else if (BerkTextObjs[i].fontSize >= TESTBerkFontDys && BerkTextObjs[i].fontSize < 35){
+                BerkTextObjs[i].fontSize = TESTBerkFontDys;
+            }
         }
 
         for (int i = 0; i < PrintCharTextObjs.Length; i++){
