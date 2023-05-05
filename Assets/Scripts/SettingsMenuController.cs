@@ -120,7 +120,6 @@ public class SettingsMenuController : MonoBehaviour
 
             if (BerkTMPObjs[i].fontSize <= TESTBerkFontReg && BerkTMPObjs[i].fontSize > 35){
                 BerkTMPObjs[i].fontSize = 65;
-                Debug.Log("1 BerkTMP to Dys Title Fonts: " + i);
             
             }if (BerkTMPObjs[i].fontSize <= TESTBerkFontReg && BerkTMPObjs[i].fontSize < 35){
                 BerkTMPObjs[i].fontSize = TESTBerkFontReg;
@@ -144,7 +143,6 @@ public class SettingsMenuController : MonoBehaviour
 
             if (BerkTextObjs[i].fontSize > 35){
                 BerkTextObjs[i].fontSize = 65;
-                Debug.Log("2 BerkText to Dys Title Fonts: " + i);
 
             } else if (BerkTextObjs[i].fontSize >= TESTBerkFontReg  && BerkTextObjs[i].fontSize < 35){
                 BerkTextObjs[i].fontSize = TESTBerkFontReg;
@@ -175,7 +173,7 @@ public class SettingsMenuController : MonoBehaviour
             BerkTMPObjs[i].font = DyslexFontTMP;
 
             if (BerkTMPObjs[i].fontSize >= TESTBerkFontDys && BerkTMPObjs[i].fontSize > 35){
-                BerkTMPObjs[i].fontSize = 37;
+                BerkTMPObjs[i].fontSize = 36;
                 Debug.Log("3 BerkTMP to Dys Title Fonts: " + i);
             }
 
@@ -202,7 +200,7 @@ public class SettingsMenuController : MonoBehaviour
             BerkTextObjs[i].font = DyslexFont;
 
             if (BerkTextObjs[i].fontSize >= TESTBerkFontDys && BerkTextObjs[i].fontSize > 35){
-                BerkTextObjs[i].fontSize = 37;
+                BerkTextObjs[i].fontSize = 36;
                 Debug.Log("4 BerkText to Dys Title Fonts: " + i);
 
             } else if (BerkTextObjs[i].fontSize >= TESTBerkFontDys && BerkTextObjs[i].fontSize < 35){
