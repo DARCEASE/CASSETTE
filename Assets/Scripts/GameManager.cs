@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public AudienceFeedbackScript AFS;
     [SerializeField] TransitionScript TS;
+    [SerializeField] CharChangerScript CCS;
     Scene currentScene;
 
     void Start()
@@ -61,6 +62,11 @@ public class GameManager : MonoBehaviour
     public void NextStory()
     {
         TS.ToNextScene();
+        CCS.NewspaperGO.SetActive(false);
+        for (int i = 0; i < CCS.GamePanels.Length; i++){
+                CCS.GamePanels[i].SetActive(false);
+                //Debug.Log("Not active");
+            }
     }
 
     public void StartGame()

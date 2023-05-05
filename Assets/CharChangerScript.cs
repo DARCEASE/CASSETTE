@@ -17,11 +17,13 @@ using TMPro;
 
 public class CharChangerScript : MonoBehaviour
 {
-    Scene scene;/*S1_Ints, S2_Ints,*/
+    Scene scene;
+    /*S1_Ints, S2_Ints,*/
     //Text objs for Drafts Window
     //[SerializeField] GameObject Drafts_Char1, Drafts_Char2, Drafts_Char3, Drafts_Char4, Drafts_Char5;
-    [SerializeField] GameObject[] S1_Info, S2_Info, GamePanels; //Put all their info in here, then turn on/off
-    [SerializeField] GameObject NewspaperGO; 
+    [SerializeField] GameObject[] S1_Info, S2_Info; //Put all their info in here, then turn on/off
+    public GameObject[] GamePanels;
+    public GameObject NewspaperGO; 
 
     [SerializeField] TMP_Text[] S1_Names, S2_Names; //Goes into drafts
     // Start is called before the first frame update
@@ -37,9 +39,12 @@ public class CharChangerScript : MonoBehaviour
         Debug.Log("Name: " + SceneManager.GetActiveScene().name);
 
         if (NewspaperGO.activeSelf == true){
-                for (int i = 0; i < GamePanels.Length; i++){
-                GamePanels[i].SetActive(false);
-            }
+                Debug.Log("Active");
+                //NewspaperGO.SetActive(false);
+                //for (int i = 0; i < GamePanels.Length; i++){
+                //GamePanels[i].SetActive(false);
+                //Debug.Log("Not active");
+            //}
         }
 
        if (scene.name == "TESTStoryOneScene 1"){

@@ -36972,6 +36972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AFS: {fileID: 608035562}
   TS: {fileID: 972963008}
+  CCS: {fileID: 548778283}
 --- !u!4 &608035559
 Transform:
   m_ObjectHideFlags: 0
@@ -58573,6 +58574,10 @@ PrefabInstance:
     - target: {fileID: 7967658876803784713, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967658876803784718, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
+      propertyPath: transitionTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7967658876803784719, guid: 754a7aab7a11a194b92c19c78e6ecc03, type: 3}
       propertyPath: m_Pivot.x
