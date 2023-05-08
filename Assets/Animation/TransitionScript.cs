@@ -41,13 +41,13 @@ public class TransitionScript : MonoBehaviour
         float t = 0;
         while (t < 0.5f){
             t +=Time.deltaTime;
-            yield return null;
+            //yield return null;
         }
         t = transitionTime;
         while ( t > 0){ // 1 is less than 5
             t -= Time.deltaTime;
             canvas.alpha = ac.Evaluate(t/transitionTime);
-            Debug.Log("RUNNING HERE");
+            //Debug.Log("RUNNING HERE");
             yield return null;
         }
     }
