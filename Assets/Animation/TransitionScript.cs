@@ -17,18 +17,16 @@ public class TransitionScript : MonoBehaviour
     void Start()
     {
         FadeOutScene();
-
     }
 
     // Update is called once per frame
     void Update()
     {
         scene = SceneManager.GetActiveScene();
-        Debug.Log(scene.IsValid());
     }
     
     public void FadeOutScene(){
-        StartCoroutine(IntroLevel());
+        //StartCoroutine(IntroLevel());
     }
 
     public void ToNextScene(){
@@ -36,33 +34,40 @@ public class TransitionScript : MonoBehaviour
     }
     //One to Fade in...
     //One to Fade Out...
-
+    /*
     IEnumerator IntroLevel(){
         float t = 0;
         while (t < 0.5f){
             t +=Time.deltaTime;
-            //yield return null;
+            yield return null;
         }
         t = transitionTime;
+    }
+
+    IEnumerator EndLevel(){
+        float t = 0;
         while ( t > 0){ // 1 is less than 5
             t -= Time.deltaTime;
             canvas.alpha = ac.Evaluate(t/transitionTime);
             //Debug.Log("RUNNING HERE");
             yield return null;
         }
+        t = transitionTime;
     }
-
+    */
     IEnumerator LoadLevel(int levelIndex){
         float t = 0;
+        /*
         while ( t < transitionTime){
             t += Time.deltaTime;
             canvas.alpha = t/transitionTime;
             yield return null;
         }        
-
+        */
         if (levelIndex > 5){
             levelIndex = 0;
         } 
         SceneManager.LoadScene(levelIndex);
+        yield return null;
     }
 }

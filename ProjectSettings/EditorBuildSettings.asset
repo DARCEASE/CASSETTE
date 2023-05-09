@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/TESTStoryTwoScene 1.unity
     guid: 7dd50c169cef4ad409b77f3cddec2037
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 35aad75ab2f014e468fb1b49a9743ace
   m_configObjects: {}

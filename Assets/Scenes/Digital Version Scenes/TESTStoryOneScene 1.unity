@@ -55608,7 +55608,7 @@ RectTransform:
   m_Father: {fileID: 2129137800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.237616}
+  m_AnchorMin: {x: 0, y: 0.23761594}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
@@ -58977,7 +58977,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 930756808}
   m_HandleRect: {fileID: 930756807}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000004
   m_Size: 0.76238406
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -86916,21 +86916,21 @@ MonoBehaviour:
   Char5DPOne: {fileID: 1586403694}
   Char5DPTwo: {fileID: 1649429140}
   Char5DPThree: {fileID: 2124042287}
-  Char1SelectionDoneA: 1
-  Char1SelectionDoneB: 1
-  Char1SelectionDoneC: 1
-  Char2SelectionDoneA: 1
-  Char2SelectionDoneB: 1
-  Char2SelectionDoneC: 1
-  Char3SelectionDoneA: 1
-  Char3SelectionDoneB: 1
-  Char3SelectionDoneC: 1
-  Char4SelectionDoneA: 1
-  Char4SelectionDoneB: 1
-  Char4SelectionDoneC: 1
-  Char5SelectionDoneA: 1
-  Char5SelectionDoneB: 1
-  Char5SelectionDoneC: 1
+  Char1SelectionDoneA: 0
+  Char1SelectionDoneB: 0
+  Char1SelectionDoneC: 0
+  Char2SelectionDoneA: 0
+  Char2SelectionDoneB: 0
+  Char2SelectionDoneC: 0
+  Char3SelectionDoneA: 0
+  Char3SelectionDoneB: 0
+  Char3SelectionDoneC: 0
+  Char4SelectionDoneA: 0
+  Char4SelectionDoneB: 0
+  Char4SelectionDoneC: 0
+  Char5SelectionDoneA: 0
+  Char5SelectionDoneB: 0
+  Char5SelectionDoneC: 0
 --- !u!114 &1410984877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87267,10 +87267,10 @@ MonoBehaviour:
   Char1SelectionDoneC: 0
   Char2SelectionDoneA: 0
   Char2SelectionDoneB: 0
-  Char2SelectionDoneC: 0
-  Char3SelectionDoneA: 0
-  Char3SelectionDoneB: 0
-  Char3SelectionDoneC: 0
+  Char2SelectionDoneC: 1
+  Char3SelectionDoneA: 1
+  Char3SelectionDoneB: 1
+  Char3SelectionDoneC: 1
   Char4SelectionDoneA: 0
   Char4SelectionDoneB: 0
   Char4SelectionDoneC: 0
