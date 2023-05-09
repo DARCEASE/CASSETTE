@@ -13,7 +13,7 @@ public class AudioPlayer : MonoBehaviour
 {
     //For audio, specifically showing the length of the clip, the current second it's on, minutes, and seconds
     [SerializeField] GameObject a_knob, a_durationBarBG, a_durationBar; //both the fill and handle slide area should move as the clip runs. //a_durationBar = fill line
-    AudioSource a_source;
+    [SerializeField] AudioSource a_source;
     AudioClip a_clip;
     int a_fullLength;
     int a_duration;
@@ -29,7 +29,7 @@ public class AudioPlayer : MonoBehaviour
 
     void Start()
     {
-        a_source = GetComponent<AudioSource>();
+        //a_source = GetComponent<AudioSource>();
         a_clip = a_source.clip;
         a_source.Pause();
         ShowClipInfo();

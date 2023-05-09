@@ -47,6 +47,6 @@ public class DragWindows : MonoBehaviour, IDragHandler, IPointerDownHandler
     {
         dragRectTransform.SetAsLastSibling();
 
-        Debug.Log("everythingOnTop");
+        //Debug.Log("everythingOnTop");
     }
 }

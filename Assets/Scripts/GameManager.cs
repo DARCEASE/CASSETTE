@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public AudienceFeedbackScript AFS;
     [SerializeField] TransitionScript TS;
+    [SerializeField] CharChangerScript CCS;
     Scene currentScene;
 
     void Start()
@@ -18,9 +19,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
+                    //TS.FadeOutScene();
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen") //restart game
         {
             TS.ToNextScene();
+            
         }
 
         if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryOneScene" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryTwoScene" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
@@ -59,9 +62,11 @@ public class GameManager : MonoBehaviour
     public void NextStory()
     {
         TS.ToNextScene();
-        //SceneManager.LoadScene("StoryTwoScene");
-        //Debug.Log("StoryTwoScene");
-        //AFS.FormulaCalculation();
+        CCS.NewspaperGO.SetActive(false);
+        for (int i = 0; i < CCS.GamePanels.Length; i++){
+                CCS.GamePanels[i].SetActive(false);
+                //Debug.Log("Not active");
+            }
     }
 
     public void StartGame()
