@@ -4066,7 +4066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &57317819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28620,8 +28620,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646639336}
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.7445447
+  m_Value: 1
+  m_Size: 0.74454457
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -52570,28 +52570,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lieutenant Michael Bailey\r\n\r\n\nHello. My name is Lieutenant Michael
-    Bailey. I was Robert Evergreen\u2019s romantic partner.\n\nWe had an on-and-off
-    relationship for about fifteen years. We met during Fleet Week. Between each
-    of our different responsibilities, we didn\u2019t get to spend as much time together
-    as I wish we could\u2019ve.\n\nOf course we kept our relationship a secret. If
-    Robert\u2019s coworkers had found out, then he would be \u2013 would have been
-    \u2013 discredited. If my superior officers find out, then I\u2019ll \u2013 I\u2019ll
-    be discharged.\n\nYes, it\u2019s true his children found out. But Robert promised
-    that they would keep it a secret. No, I wasn\u2019t close to his family. I didn\u2019t
-    really meet his kids. I know that his son didn\u2019t react very well when he
-    found out about our relationship. I think that he and Robert grew apart after
-    that. I \u2013 I think Robert was closer with his daughter. Yes, I know he had
-    a wife. They parted ways about five years ago. No, I don\u2019t have any more
-    to say about his wife.\n\nUncomfortable? Yeah. Yeah, of course I\u2019m uncomfortable.
-    Do you understand what kind of position I\u2019m in here? I mean, I either reveal
-    that Robert and I were in a relationship, in which case my life falls apart,
-    Robert\u2019s family\u2019s lives fall apart, the company that Robert built could
-    fall apart. Or, I keep it a secret. \n\nI cover things up. I lie about it. In
-    which case, the two of us might as well have never had a relationship in the
-    first place. Nothing changes. Neither choice is good. I already made my decision.
-    But either way \u2013 I can\u2019t help but feel like I have to regret my relationship
-    with Robert, which is \u2013 never mind."
+  m_text: "Lieutenant Michael Bailey\nNovember 10, 1992\r\n\r\nHello. My name is
+    Lieutenant Michael Bailey. I was Robert Evergreen\u2019s romantic partner.\r\n\r\nWe
+    had an on-and-off relationship for about fifteen years. We met during Fleet Week.
+    Between each of our different responsibilities, we didn\u2019t get to spend as
+    much time together as I wish we could\u2019ve.\r\n\r\nOf course we kept our relationship
+    a secret. If Robert\u2019s coworkers had found out, then he would be \u2013 would
+    have been \u2013 discredited. If my superior officers find out, then I\u2019ll
+    \u2013 I\u2019ll be discharged.\r\n\r\nYes, it\u2019s true his children found
+    out. But Robert promised that they would keep it a secret. No, I wasn\u2019t
+    close to his family. I didn\u2019t really meet his kids. I know that his son
+    didn\u2019t react very well when he found out about our relationship. I think
+    that he and Robert grew apart after that. I \u2013 I think Robert was closer
+    with his daughter. Yes, I know he had a wife. They parted ways about five years
+    ago. No, I don\u2019t have any more to say about his wife.\r\n\r\nUncomfortable?
+    Yeah. Yeah, of course I\u2019m uncomfortable. Do you understand what kind of
+    position I\u2019m in here? I mean, I either reveal that Robert and I were in
+    a relationship, in which case my life falls apart, Robert\u2019s family\u2019s
+    lives fall apart, the company that Robert built could fall apart. Or, I keep
+    it a secret. I cover things up. I lie about it. In which case, the two of us
+    might as well have never had a relationship in the first place. Nothing changes.
+    Neither choice is good. I already made my decision. But either way \u2013 I can\u2019t
+    help but feel like I have to regret my relationship with Robert, which is \u2013
+    never mind.\r\n\r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -53179,29 +53180,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Detective Novak\r\n\r\n\nOk, look. The official statement of the NYPD
-    at this point is that the investigation is ongoing. Mr. Evergreen was found dead
-    on the sidewalk on Monday morning. Apparently he\u2019d fallen from a great height.
-    This probably happened late Sunday night, or maybe even early Monday morning.
-    For now, we don\u2019t know the manner of death or whether it was the result
-    of a homicide, accident, or suicide. It\u2019d be improper for us to speculate
-    on it at this moment. We\u2019ll inform the public of more when it\u2019s appropriate
-    to do so. \n\nYeah, yeah, yeah. Deep f***ing background. \n\nI mean, I\u2019m
-    just as surprised as you are. Course I knew about the guy. The man was a living
-    legend. Built a business out of nothing, made a f***ing fortune, and went on
-    to marry one hell of a broad and ended up with two kids - I think it was something
-    with \u201CJ\u201D. Julia! Julia and Jim. Yeah, they\u2019re his only kids as
-    far as I know. Only next of kin, too. No, not the wife. I mean, ex-wife now.
-    They divorced five years ago. About as amicable as things can get with the rich
-    and famous. Weren\u2019t any big courtroom fights or anything that I know about.
-    Just kind of a quiet announcement on the society pages. \n\nWhat, a guy like
-    me can\u2019t read the paper? Yeah, right. \n\nSince then? No, no one else has
-    been in his life, not that I know of. He hasn\u2019t been seen with any special
-    lady friend. I mean, there are the rumors, but...\n\nWell, the rumor\u2019s going
-    around saying \u2013 Mr. Evergreen was something of a \u201Cconfirmed bachelor\u201D.
-    I mean, not exactly my taste, but it\u2019s the 90s and, you know, love is love,
-    I guess.\n\nLook, what a man does in his private life, that\u2019s no business
-    of mine. So long as it doesn\u2019t end up on page six or in a holding cell.\n\n"
+  m_text: "Detective Novak\nNovember 9, 1992\r\n\r\n\nOk, look. The official statement
+    of the NYPD at this point is that the investigation is ongoing. Mr. Evergreen
+    was found dead on the sidewalk on Monday morning. Apparently he\u2019d fallen
+    from a great height. This probably happened late Sunday night, or maybe even
+    early Monday morning. For now, we don\u2019t know the manner of death or whether
+    it was the result of a homicide, accident, or suicide. It\u2019d be improper
+    for us to speculate on it at this moment. We\u2019ll inform the public of more
+    when it\u2019s appropriate to do so. \r\n\r\nYeah, yeah, yeah. Deep [expletive]
+    background. \r\n\r\nI mean, I\u2019m just as surprised as you are. Course I knew
+    about the guy. The man was a living legend. Built a business out of nothing,
+    made a [expletive] fortune, and went on to marry one hell of a broad and ended
+    up with two kids - I think it was something with \u201CJ\u201D. Julia! Julia
+    and Jim. Yeah, they\u2019re his only kids as far as I know. Only next of kin,
+    too. No, not the wife. I mean, ex-wife now. They divorced five years ago. About
+    as amicable as things can get with the rich and famous. Weren\u2019t any big
+    courtroom fights or anything that I know about. Just kind of a quiet announcement
+    on the society pages. \r\n\r\nWhat, a guy like me can\u2019t read the paper?
+    Yeah, right. \r\n\r\nSince then? No, no one else has been in his life, not that
+    I know of. He hasn\u2019t been seen with any special lady friend. I mean, there
+    are the rumors, but...\r\n\r\nWell, the rumor\u2019s going around saying \u2013
+    Mr. Evergreen was something of a \u201Cconfirmed bachelor\u201D. I mean, not
+    exactly my taste, but it\u2019s the 90s and, you know, love is love, I guess.\r\n\r\nLook,
+    what a man does in his private life, that\u2019s no business of mine. So long
+    as it doesn\u2019t end up on page six or in a holding cell.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -55575,7 +55577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &937857137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -77376,7 +77378,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1578229420}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7445447
+  m_Size: 0.7445446
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -85962,9 +85964,9 @@ MonoBehaviour:
   Char1SelectionDoneA: 1
   Char1SelectionDoneB: 1
   Char1SelectionDoneC: 1
-  Char2SelectionDoneA: 1
+  Char2SelectionDoneA: 0
   Char2SelectionDoneB: 1
-  Char2SelectionDoneC: 1
+  Char2SelectionDoneC: 0
   Char3SelectionDoneA: 1
   Char3SelectionDoneB: 1
   Char3SelectionDoneC: 1
@@ -87249,30 +87251,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jim Evergreen\r\n\r\n\nListen. There\u2019s a lot you don\u2019t know
-    about my dad. Sure, yeah, he seems like a kind of major success story. Rags to
-    riches and all that. Big company man. But I knew him better than anybody. I knew
-    what he was like when nobody else was looking.\n\nAnother round, barkeep.\n\nHe
-    was a fine dad to me and Julia growing up. Y\u2019know, he and mom had a nice
-    house in the suburbs, sent us to a nice school. But as soon as Julia and I moved
-    out to start our own lives, something changed.\n\nI really did my best to stay
-    in touch with him, like any son should. But whenever I tried to call him, he
-    wouldn\u2019t answer the phone. When I would come to his house and knock on his
-    door, he wouldn\u2019t answer. And whenever he decided to grace our Thanksgiving
-    table with his presence, he hardly said a word to me. His son. He hardly even
-    looked at me.\n\nI guess he must have decided that we weren\u2019t good enough
-    for him anymore. I guess he decided that me, Julia, and mom \u2013 none of us
-    were good enough for him, and he decided it was time to ditch us. He ditched
-    mom straight away, and replaced her with that f***ing guy. Michael\u2019s his
-    name, I think. I swear to God, if I ever see his face, I don\u2019t know what
-    I\u2019ll do. He probably spends more time with him now \u2013 or, did spend
-    more time with him \u2013 than he did his actual family.\n\nListen. Everybody\u2019s
+  m_text: "Jim Evergreen\nNovember 9, 1992\r\n\n\r\nListen. There\u2019s a lot you
+    don\u2019t know about my dad. Sure, yeah, he seems like some kinda major success
+    story. Rags to riches. Big company man. But I - I knew him better than anybody.
+    I knew what he was like when nobody else was looking.\r\n\r\nHe was a fine dad
+    to me and Julia - when we were growing up, y\u2019know. He and mom had a nice
+    house in the suburbs. They sent us to a nice school. But as soon as Julia and
+    I moved out to start our own lives, something changed.\r\n\r\nI did my best to
+    try and stay in touch with him, I really tried. But whenever I tried to call
+    him, he wouldn\u2019t answer his phone. When I would come to his house and knock
+    on his door, he wouldn\u2019t answer. When he decided to grace our Thanksgiving
+    table with his presence, he hardly said a word to me. Hardly looked at me.\r\n\r\nI
+    guess he must\u2019ve decided that we weren\u2019t good enough for him anymore.
+    I guess he\u2019s decided that me, Julia, and mom, none of us were good for him
+    anymore. He decided it was time to ditch us. He ditched mom straight away and
+    then replaced her - right after that. God, with that f***ing guy he\u2019s with
+    now. It\u2019s [expletive]. Probably spends more time with him than he does his
+    actual family.\r\n\r\nCan I get another drink?\r\n\r\nListen. Everybody\u2019s
     gonna tell you the same old story. They\u2019re gonna talk about how great he
-    was, they\u2019re gonna talk about how all the wonderful things he did, and all
-    the lives he changed. Julia\u2019s gonna make excuses for him like she always
-    does. But I\u2019m family. I saw the side of him that the rest of those people
-    never did. Please don\u2019t forget what I told you. I knew him better than anybody.
-    \n\nWe\u2019re done here."
+    was. They\u2019re gonna talk about all the wonderful things he did, and all the
+    lives that he changed. Julia\u2019s gonna make excuses for him like she always
+    does. But I\u2019m - I\u2019m family. I saw a side of him that the rest of those
+    people - the rest of these people never did. Don\u2019t forget what I told you.
+    I knew him better than anybody.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -102203,7 +102204,7 @@ RectTransform:
   m_Father: {fileID: 1578922969}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25545537}
+  m_AnchorMin: {x: 0, y: 0.25545543}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
@@ -104391,41 +104392,41 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Julia Anderson\r\n\r\n\nDad didn\u2019t kill himself. I don\u2019t care
-    what anyone says, Dad didn\u2019t kill himself. He would never do that. He didn\u2019t
-    have any reason to. He was happy, ok? Happier than I think he had ever been before.
-    He had a thriving business, he had a family, he was about to have his first grandchild,
-    for God sake. There was nothing that would have been causing him this kind of
-    grief.\n\nAbout \u2013 what do you mean about his \u2013 Jim. You spoke to Jim.
-    No, Jim didn\u2019t lie to you, but \u2013 he also \u2013 look \u2013 you have
-    to understand, of course the divorce was hard for all of us, but for Jim \u2013
-    Dad was Jim\u2019s hero growing up. He wanted to be just like him. So, for Jim,
-    the divorce wasn\u2019t just sad, it \u2013 it was a betrayal. He couldn\u2019t
-    \u2013 can\u2019t see past his own anger. \n\nI mean, I was sad too when it happened.
-    Everyone\u2019s upset if their parents get divorced, I think, but it made more
-    sense to me. Mom and Dad were really careful to keep their arguments away from
-    Jim. I mean, they \u2013 they also tried to keep their arguments away from me,
-    but I still heard them. So I knew that Dad wasn\u2019t happy. So, the divorce
-    made me sad, but I didn\u2019t feel betrayed by it the way that Jim did. The
-    way that Jim does.\n\nAnd when Jim told me about Dad\u2019s \u2013 partner, I
-    don\u2019t know, I \u2013 I guess it made some things make sense. \n\nNo, I\u2019ve
-    never met him. I \u2013 I never had the opportunity. I don\u2019t think he lives
-    in the city. I mean \u2013 pretty sure that he and Dad didn\u2019t live together.
-    I talked to Dad about it a little bit, after Jim told me. Mostly just because
-    I was curious and, well, a little bit scared if it was true, with the virus going
-    around and everything, but Dad told me that that wasn\u2019t something that I
-    had to worry about, and \u2013 can\u2019t say that I understand it entirely,
-    but Dad was happy. And I guess that was enough.\n\nI don\u2019t know why Dad
-    is dead now. I don\u2019t know what happened. I just know that he wouldn\u2019t
-    and didn\u2019t kill himself. He was too excited to meet his grandchild in March,
-    he wouldn\u2019t kill himself. I don\u2019t know if it was murder, or accident,
-    or whatever, but it wasn\u2019t suicide.\n\nLook, about \u2013 about Dad. I know
-    that this is a juicy scoop, ok? I \u2013 I get it, but, do you have to publish
-    it? I mean, look, you don\u2019t \u2013 you don\u2019t have to lie, but you don\u2019t
-    have to tell the whole truth, either. You and I may be enlightened people, but
-    the rest of the world isn\u2019t so forgiving, and \u2013 Dad didn\u2019t even
-    really want me to know. Dad \u2013 Dad had a reputation. It isn\u2019t right
-    for you to destroy it."
+  m_text: "Julia Anderson\nNovember 9, 1992\r\n\n\r\nDad didn\u2019t kill himself.
+    I don\u2019t care what anyone says, Dad didn\u2019t kill himself. He would never
+    do that. He didn\u2019t have any reason to. He was happy, ok? Happier than I
+    think he had ever been before. He had a thriving business, he had a family, he
+    was about to have his first grandchild, for God sake. There was nothing that
+    would have been causing him this kind of grief.\r\n\r\nAbout \u2013 what do you
+    mean about his \u2013 Jim. You spoke to Jim. No, Jim didn\u2019t lie to you,
+    but \u2013 he also \u2013 look \u2013 you have to understand, of course the divorce
+    was hard for all of us, but for Jim \u2013 Dad was Jim\u2019s hero growing up.
+    He wanted to be just like him. So, for Jim, the divorce wasn\u2019t just sad,
+    it \u2013 it was a betrayal. He couldn\u2019t \u2013 can\u2019t see past his
+    own anger. \r\n\r\nI mean, I was sad too when it happened. Everyone\u2019s upset
+    if their parents get divorced, I think, but it made more sense to me. Mom and
+    Dad were really careful to keep their arguments away from Jim. I mean, they \u2013
+    they also tried to keep their arguments away from me, but I still heard them.
+    So I knew that Dad wasn\u2019t happy. So, the divorce made me sad, but I didn\u2019t
+    feel betrayed by it the way that Jim did. The way that Jim does.\r\n\r\nAnd when
+    Jim told me about Dad\u2019s \u2013 partner, I don\u2019t know, I \u2013 I guess
+    it made some things make sense. \r\n\r\nNo, I\u2019ve never met him. I \u2013
+    I never had the opportunity. I don\u2019t think he lives in the city. I mean
+    \u2013 pretty sure that he and Dad didn\u2019t live together. I talked to Dad
+    about it a little bit, after Jim told me. Mostly just because I was curious and,
+    well, a little bit scared if it was true, with the virus going around and everything,
+    but Dad told me that that wasn\u2019t something that I had to worry about, and
+    \u2013 can\u2019t say that I understand it entirely, but Dad was happy. And I
+    guess that was enough.\r\n\r\nI don\u2019t know why Dad is dead now. I don\u2019t
+    know what happened. I just know that he wouldn\u2019t and didn\u2019t kill himself.
+    He was too excited to meet his grandchild in March, he wouldn\u2019t kill himself.
+    I don\u2019t know if it was murder, or accident, or whatever, but it wasn\u2019t
+    suicide.\r\nLook, about \u2013 about Dad. I know that this is a juicy scoop,
+    ok? I \u2013 I get it, but, do you have to publish it? I mean, look, you don\u2019t
+    \u2013 you don\u2019t have to lie, but you don\u2019t have to tell the whole
+    truth, either. You and I may be enlightened people, but the rest of the world
+    isn\u2019t so forgiving, and \u2013 Dad didn\u2019t even really want me to know.
+    Dad \u2013 Dad had a reputation. It isn\u2019t right for you to destroy it. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -106808,7 +106809,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1764925724}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.1893695
+  m_Size: 0.18936948
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -127242,7 +127243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2078945142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -129532,41 +129533,41 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Maxine \"Max\" Elliot\n\n\nI have a very busy schedule, so we\u2019d best
-    get to it. Go ahead. Ask your questions.\n\n\u2013Something wrong? Oh. Pardon
-    me, let me guess: you were \u2013 expecting someone taller? If you must know,
-    I started going by \u201CMax\u201D at Wellesley. I\u2019ve found that it\u2019s
-    helped open a few doors in this boys club business. But that\u2019s not why you\u2019re
-    here. You\u2019re here to talk about Mr. Evergreen.\n\nWe\u2019re all devastated
-    by his passing, of course. Rest assured that Abundantia Investments will stay
-    open, and we should be able to resume our normal business operations within a
-    week. In fact you may have heard our statement to that effect on Marketplace
-    Morning Report. \n\nAs for Robert himself, Mr. Evergreen was an excellent boss
-    and business partner. A consummate professional, and an immaculate dresser, I
-    must admit. Never a hair or cufflink out of place. And always a new Hermes tie.
-    \n\nI don\u2019t know anything about his personal life. Mr. Evergreen kept his
-    home and work lives separate from one another. Like I said, he was a professional.
-    It\u2019s something that I appreciated about him. I knew he had children. I don\u2019t
-    know anything about his ex-wife. They already divorced by the time that I began
-    working here. No, I don\u2019t know that he was dating anyone. I also don\u2019t
-    know that he wasn\u2019t dating anyone. Like I said, he kept his private life
-    private.\n\nOkay. Off. The record. You heard me? Off.\n\nI know what you\u2019re
-    getting at. You\u2019re not going to take me for a fool, because I am not a fool.
-    You aren\u2019t going to get anything salacious about Robert out of me. I know
-    what rumors there were about Robert. They\u2019re the same rumors there have
-    been about me my entire damn time in this industry. Sure, I heard the whispers
-    after he left the company holiday party early, but, as far as I know, he was
-    just tired and went back home. I respected his privacy, and as far as I\u2019m
-    concerned there is just as much truth to those rumors about Robert as there is
-    to rumors about me. Which is to say, none.\n\nYou know, Robert and I were the
-    only people in this damn company who weren\u2019t spreading rumors. It\u2019s
-    partly thanks to him that I\u2019m here, to where I am today. He\u2019s the first
-    boss I\u2019d had who didn\u2019t expect anything in return other than what I
-    do best. Just to make sure this business runs properly, and I appreciated that.
-    I appreciated that immensely. \n\nI considered Robert my friend. Robert was the
-    best boss that I\u2019ve ever had in my entire career. Robert \u2013 Robert \u2013
-    Mr. Evergreen was never anything but professional with me. And the least \u2013
-    the least that I can do now is to return the favor."
+  m_text: "Maxine \"Max\" Elliot\nNovember 10, 1992\r\n\r\n\nI have a very busy schedule,
+    so we\u2019d best get to it. Go ahead. Ask your questions.\r\n\r\n\u2013Something
+    wrong? Oh. Pardon me, let me guess: you were \u2013 expecting someone taller?
+    If you must know, I started going by \u201CMax\u201D at Wellesley. I\u2019ve
+    found that it\u2019s helped open a few doors in this boys club business. But
+    that\u2019s not why you\u2019re here. You\u2019re here to talk about Mr. Evergreen.\r\n\r\nWe\u2019re
+    all devastated by his passing, of course. Rest assured that Abundantia Investments
+    will stay open, and we should be able to resume our normal business operations
+    within a week. In fact you may have heard our statement to that effect on Marketplace
+    Morning Report. \r\n\r\nAs for Robert himself, Mr. Evergreen was an excellent
+    boss and business partner. A consummate professional, and an immaculate dresser,
+    I must admit. Never a hair or cufflink out of place. And always a new Hermes
+    tie. \r\n\r\nI don\u2019t know anything about his personal life. Mr. Evergreen
+    kept his home and work lives separate from one another. Like I said, he was a
+    professional. It\u2019s something that I appreciated about him. I knew he had
+    children. I don\u2019t know anything about his ex-wife. They already divorced
+    by the time that I began working here. No, I don\u2019t know that he was dating
+    anyone. I also don\u2019t know that he wasn\u2019t dating anyone. Like I said,
+    he kept his private life private.\r\n\r\nOkay. Off. The record. You heard me?
+    Off.\r\n\r\nI know what you\u2019re getting at. You\u2019re not going to take
+    me for a fool, because I am not a fool. You aren\u2019t going to get anything
+    salacious about Robert out of me. I know what rumors there were about Robert.
+    They\u2019re the same rumors there have been about me my entire damn time in
+    this industry. Sure, I heard the whispers after he left the company holiday party
+    early, but, as far as I know, he was just tired and went back home. I respected
+    his privacy, and as far as I\u2019m concerned there is just as much truth to
+    those rumors about Robert as there is to rumors about me. Which is to say, none.\r\n\r\nYou
+    know, Robert and I were the only people in this damn company who weren\u2019t
+    spreading rumors. It\u2019s partly thanks to him that I\u2019m here, to where
+    I am today. He\u2019s the first boss I\u2019d had who didn\u2019t expect anything
+    in return other than what I do best. Just to make sure this business runs properly,
+    and I appreciated that. I appreciated that immensely. \r\n\r\nI considered Robert
+    my friend. Robert was the best boss that I\u2019ve ever had in my entire career.
+    Robert \u2013 Robert \u2013 Mr. Evergreen was never anything but professional
+    with me. And the least \u2013 the least that I can do now is to return the favor.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
