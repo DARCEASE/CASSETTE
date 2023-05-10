@@ -86629,9 +86629,9 @@ MonoBehaviour:
   tabloidPaper: 0
   statusQuoPaper: 0
   newspaperHeadlines:
-  - MUCK
-  - TAB
-  - SQ
+  - Grieving a Hero
+  - Local Hero Dead
+  - Queer Death of a Businessman
   MuckrakerArticlePieces:
   - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having possibly leapt from an upper floor. Mr.
@@ -87222,9 +87222,9 @@ MonoBehaviour:
     to take things as they come. Following moments of tragedy, the human spirit nonetheless
     shines as brightly as ever. \r\n\t\r\n"
   newspaperHeadlines:
-  - Fearful
-  - Angry
-  - Compassionate
+  - War in the Streets
+  - Red Menace on Brighton Beach
+  - Bullets Fly on Brighton Beach
   AngryPaper: 0
   FearfulPaper: 0
   CompassionatePaper: 0
