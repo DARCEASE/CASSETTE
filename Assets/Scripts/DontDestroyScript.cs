@@ -12,10 +12,15 @@ public class DontDestroyScript : MonoBehaviour
     Scene scene;
     void Update()
     {
-        if (scene.name != "EndScene"){
-            DontDestroyOnLoad(this.gameObject);
+        scene = SceneManager.GetActiveScene();
+        DontDestroyOnLoad(this.gameObject);
+
+        /*if (scene.name == "TESTStoryOneScene 1" || scene.name == "TESTStoryTwoScene 1"){
+            Debug.Log("Scene Name DDS: " + scene.name);
+            this.gameObject.SetActive(true);
         } else{
+        //if (scene.name == "ToStoryTwo" || scene.name == "EndScene"){
             this.gameObject.SetActive(false);
-        }
+        } */   
     }
 }

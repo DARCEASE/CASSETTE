@@ -32,8 +32,6 @@ public class AudienceFeedbackScript : MonoBehaviour
         //unbiasedVal = 41;
         sliderUnbiased.maxValue = 100;
         //textAudNum.text = PlayerPrefs.GetInt("AudienceFeedbackScore").ToString();
-        Debug.Log("PlayerPref Data: " + PlayerPrefs.GetInt("AudienceFeedbackScore"));
-
     }
 
     // Update is called once per frame
@@ -55,7 +53,6 @@ public class AudienceFeedbackScript : MonoBehaviour
         U_equationVal = (float) (Mathf.Pow(unbiasedVal, 2f)/DIVIDEBY100);
         floatAudienceVal = Mathf.Floor(((E_equationVal + C_equationVal + U_equationVal)/3) * 1000);
         totalAudienceVal = (int) floatAudienceVal;
-        Debug.Log("The current audience score is " + totalAudienceVal);
         //PlayerPrefs.SetInt("AudienceFeedbackScore", totalAudienceVal);
         textAudNum.text = totalAudienceVal.ToString();
         return textAudNum.text;

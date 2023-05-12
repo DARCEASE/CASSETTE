@@ -67,7 +67,7 @@ public class TransitionScript : MonoBehaviour
         if (levelIndex > 5){
             levelIndex = 0;
         } 
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene(levelIndex, LoadSceneMode.Single);
         yield return null;
     }
 }
