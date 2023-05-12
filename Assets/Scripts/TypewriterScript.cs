@@ -27,7 +27,7 @@ public class TypewriterScript : MonoBehaviour
         
         TMPfullTitle = TMPReportOf.text +'\n' + TMPnameOfStory.text; //puts a space for the story title
         TMPReportOf.color = Color.red;
-        Debug.Log((TMPReportOf.color));
+        //Debug.Log((TMPReportOf.color));
         StartCoroutine(TextScroll(TMPfullTitle));
     }
 

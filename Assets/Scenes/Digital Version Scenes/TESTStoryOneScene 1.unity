@@ -457,8 +457,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.8181, y: -34.386936}
-  m_SizeDelta: {x: 165.1846, y: 48.9004}
+  m_AnchoredPosition: {x: 0.0937, y: -34.386936}
+  m_SizeDelta: {x: 185.0479, y: 48.9004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3503494
 MonoBehaviour:
@@ -873,7 +873,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
-        m_MethodName: Char2DropC
+        m_MethodName: Char3DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6031,7 +6031,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
-        m_MethodName: Char3DropB
+        m_MethodName: Char2DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9661,7 +9661,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 19
+          m_IntArgument: 18
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -39444,6 +39444,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641322196}
   m_CullTransparentMesh: 1
+--- !u!1001 &641347098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1390730083379619251, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_Name
+      value: ToggleSwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508133353256612794, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654977552267836375, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
+      propertyPath: GameItems
+      value: 
+      objectReference: {fileID: 925287763}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 522be7b9c2aa8e64891ddd0c49a112a8, type: 3}
 --- !u!1 &641718923
 GameObject:
   m_ObjectHideFlags: 0
@@ -44726,8 +44787,8 @@ MonoBehaviour:
   NPB: {fileID: 0}
   NPBC: {fileID: 1410984876}
   Char1Box: {fileID: 1413350372}
-  Char2Box: {fileID: 1905678882}
-  Char3Box: {fileID: 610037009}
+  Char2Box: {fileID: 610037009}
+  Char3Box: {fileID: 1905678882}
   Char4Box: {fileID: 1476214096}
   Char5Box: {fileID: 529038329}
   SubmitButtonGO: {fileID: 633632192}
@@ -44750,8 +44811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NPB: {fileID: 1410984878}
   Char1Box: {fileID: 1413350372}
-  Char2Box: {fileID: 1905678882}
-  Char3Box: {fileID: 610037009}
+  Char2Box: {fileID: 610037009}
+  Char3Box: {fileID: 1905678882}
   Char4Box: {fileID: 1476214096}
   Char5Box: {fileID: 529038329}
   SubmitButtonGO: {fileID: 633632192}
@@ -54369,7 +54430,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
-        m_MethodName: Char2DropB
+        m_MethodName: Char3DropB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55574,7 +55635,7 @@ Transform:
   - {fileID: 608035559}
   - {fileID: 1762230525}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &930756806
 GameObject:
@@ -55608,7 +55669,7 @@ RectTransform:
   m_Father: {fileID: 2129137800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.237616}
+  m_AnchorMin: {x: 0, y: 0.23761594}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
@@ -58434,6 +58495,150 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969252330}
   m_CullTransparentMesh: 1
+--- !u!1 &972459587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972459588}
+  - component: {fileID: 972459591}
+  - component: {fileID: 972459590}
+  - component: {fileID: 972459589}
+  m_Layer: 5
+  m_Name: CloseWindow (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &972459588
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972459587}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1983585081}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 20.2, y: -4.3}
+  m_SizeDelta: {x: 18, y: 19}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &972459589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972459587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 972459590}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 608035560}
+        m_TargetAssemblyTypeName: FullDigitalUIBehavior, Assembly-CSharp
+        m_MethodName: ExitFile
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1762230526}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &972459590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972459587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6981132, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 788f4a771805d1d459e2e86c7d548bbc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &972459591
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972459587}
+  m_CullTransparentMesh: 1
 --- !u!1 &972487622
 GameObject:
   m_ObjectHideFlags: 0
@@ -58977,7 +59182,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 930756808}
   m_HandleRect: {fileID: 930756807}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000004
   m_Size: 0.76238406
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -75598,7 +75803,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
-        m_MethodName: Char3DropC
+        m_MethodName: Char2DropC
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -86629,9 +86834,9 @@ MonoBehaviour:
   tabloidPaper: 0
   statusQuoPaper: 0
   newspaperHeadlines:
-  - MUCK
-  - TAB
-  - SQ
+  - Grieving a Hero
+  - Local Hero Dead
+  - Queer Death of a Businessman
   MuckrakerArticlePieces:
   - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having possibly leapt from an upper floor. Mr.
@@ -86916,21 +87121,21 @@ MonoBehaviour:
   Char5DPOne: {fileID: 1586403694}
   Char5DPTwo: {fileID: 1649429140}
   Char5DPThree: {fileID: 2124042287}
-  Char1SelectionDoneA: 1
-  Char1SelectionDoneB: 1
-  Char1SelectionDoneC: 1
-  Char2SelectionDoneA: 1
-  Char2SelectionDoneB: 1
-  Char2SelectionDoneC: 1
-  Char3SelectionDoneA: 1
-  Char3SelectionDoneB: 1
-  Char3SelectionDoneC: 1
-  Char4SelectionDoneA: 1
-  Char4SelectionDoneB: 1
-  Char4SelectionDoneC: 1
-  Char5SelectionDoneA: 1
-  Char5SelectionDoneB: 1
-  Char5SelectionDoneC: 1
+  Char1SelectionDoneA: 0
+  Char1SelectionDoneB: 0
+  Char1SelectionDoneC: 0
+  Char2SelectionDoneA: 0
+  Char2SelectionDoneB: 0
+  Char2SelectionDoneC: 0
+  Char3SelectionDoneA: 0
+  Char3SelectionDoneB: 0
+  Char3SelectionDoneC: 0
+  Char4SelectionDoneA: 0
+  Char4SelectionDoneB: 0
+  Char4SelectionDoneC: 0
+  Char5SelectionDoneA: 0
+  Char5SelectionDoneB: 0
+  Char5SelectionDoneC: 0
 --- !u!114 &1410984877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87222,9 +87427,9 @@ MonoBehaviour:
     to take things as they come. Following moments of tragedy, the human spirit nonetheless
     shines as brightly as ever. \r\n\t\r\n"
   newspaperHeadlines:
-  - Fearful
-  - Angry
-  - Compassionate
+  - War in the Streets
+  - Red Menace on Brighton Beach
+  - Bullets Fly on Brighton Beach
   AngryPaper: 0
   FearfulPaper: 0
   CompassionatePaper: 0
@@ -87250,12 +87455,12 @@ MonoBehaviour:
   Char1DPOne: {fileID: 1869266737}
   Char1DPTwo: {fileID: 765550600}
   Char1DPThree: {fileID: 557151246}
-  Char2DPOne: {fileID: 1955347120}
-  Char2DPTwo: {fileID: 908376689}
-  Char2DPThree: {fileID: 6620388}
-  Char3DPOne: {fileID: 1577571665}
-  Char3DPTwo: {fileID: 95505270}
-  Char3DPThree: {fileID: 1225311042}
+  Char2DPOne: {fileID: 1577571665}
+  Char2DPTwo: {fileID: 95505270}
+  Char2DPThree: {fileID: 1225311042}
+  Char3DPOne: {fileID: 1955347120}
+  Char3DPTwo: {fileID: 908376689}
+  Char3DPThree: {fileID: 6620388}
   Char4DPOne: {fileID: 1498114466}
   Char4DPTwo: {fileID: 402046269}
   Char4DPThree: {fileID: 833227613}
@@ -93424,7 +93629,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
+          m_IntArgument: 19
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -98905,7 +99110,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
-        m_MethodName: Char3DropA
+        m_MethodName: Char2DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -121931,7 +122136,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
-        m_MethodName: Char2DropA
+        m_MethodName: Char3DropA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -123752,6 +123957,7 @@ RectTransform:
   - {fileID: 2095423346}
   - {fileID: 1125043094}
   - {fileID: 1233770696}
+  - {fileID: 972459588}
   m_Father: {fileID: 548778282}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -130514,7 +130720,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 691136609}
   m_HandleRect: {fileID: 691136608}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000005
   m_Size: 0.78466916
   m_NumberOfSteps: 0
   m_OnValueChanged:

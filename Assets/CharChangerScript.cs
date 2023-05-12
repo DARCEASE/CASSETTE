@@ -36,10 +36,7 @@ public class CharChangerScript : MonoBehaviour
     void Update()
     {
         scene = SceneManager.GetActiveScene();
-        Debug.Log("Name: " + SceneManager.GetActiveScene().name);
-
         if (NewspaperGO.activeSelf == true){
-                Debug.Log("Active");
                 //NewspaperGO.SetActive(false);
                 //for (int i = 0; i < GamePanels.Length; i++){
                 //GamePanels[i].SetActive(false);

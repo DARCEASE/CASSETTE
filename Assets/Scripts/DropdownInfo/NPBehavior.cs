@@ -213,7 +213,7 @@ public class NPBehavior : MonoBehaviour
             }
 
         }
-        else if (Char2DPOne.value == 2)
+        else if (Char2DPTwo.value == 2)
         {
 
             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
@@ -222,7 +222,7 @@ public class NPBehavior : MonoBehaviour
             }
 
         }
-        else if (Char2DPOne.value == 3)
+        else if (Char2DPTwo.value == 3)
         {
             
              if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
