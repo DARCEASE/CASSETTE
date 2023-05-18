@@ -571,6 +571,7 @@ public class NPBehavior : MonoBehaviour
         if (scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryTwo" ){
             finalNewspaper.text = RUSSIA.PlayerNewspaper;
             finalHeadline.text = RUSSIA.PlayerHeadline;
+            SAS.ROTDORESAS();
         }
         
         //*/
