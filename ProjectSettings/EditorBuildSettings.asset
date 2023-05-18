@@ -11,19 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/ToStoryOne.unity
     guid: e121e5b535907964380721f8ae37d494
+  - enabled: 0
+    path: Assets/Scenes/Hybrid Version Scenes/HybridStoryOne.unity
+    guid: 73980e0fd0e690b4e8ab73bec0a3ae04
   - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/TESTStoryOneScene 1.unity
     guid: 8a60552230c3ab74893968e884e45eb1
   - enabled: 1
+    path: Assets/Scenes/Depreciated/StoryTwoScene.unity
+    guid: a8786ecf6b05afb4a908dc39e096f1a6
+  - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/ToStoryTwo.unity
     guid: bd73ae3cf08edaf4fa931c6fa052c412
-  - enabled: 1
-    path: Assets/Scenes/EndScene.unity
-    guid: 35aad75ab2f014e468fb1b49a9743ace
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hybrid Version Scenes/HybridStoryTwo.unity
     guid: 7dd50c169cef4ad409b77f3cddec2037
   - enabled: 1
-    path: Assets/Scenes/Hybrid Version Scenes/HybridStoryOne.unity
-    guid: 73980e0fd0e690b4e8ab73bec0a3ae04
+    path: Assets/Scenes/EndScene.unity
+    guid: 35aad75ab2f014e468fb1b49a9743ace
   m_configObjects: {}
