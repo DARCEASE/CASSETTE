@@ -963,7 +963,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Boris Kramarov \nCoreysvo\n\nGuy Stohler  \nChristian Menza\n\nVito Masucci 
-    \nBigbenva\n\nBrighton Man\n\n \nFranziska Stohler "
+    \nBigbenva\n\nBrighton Man\nJon Earle\n \nFranziska Stohler \nCanning Robb\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
