@@ -18,11 +18,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Digital Version Scenes/TESTStoryOneScene 1.unity
     guid: 8a60552230c3ab74893968e884e45eb1
   - enabled: 1
-    path: Assets/Scenes/Depreciated/StoryTwoScene.unity
-    guid: a8786ecf6b05afb4a908dc39e096f1a6
-  - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/ToStoryTwo.unity
     guid: bd73ae3cf08edaf4fa931c6fa052c412
+  - enabled: 1
+    path: Assets/Scenes/Depreciated/StoryTwoScene.unity
+    guid: a8786ecf6b05afb4a908dc39e096f1a6
   - enabled: 0
     path: Assets/Scenes/Hybrid Version Scenes/HybridStoryTwo.unity
     guid: 7dd50c169cef4ad409b77f3cddec2037
