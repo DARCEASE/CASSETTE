@@ -39,7 +39,7 @@ public class SideArticleScript : MonoBehaviour
         else{
             sideArticleText.text = SideArticles[4];
         }
-
+        Debug.Log("SAS Running");
         return sideArticleText.text;
     }
 }

@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryOneScene" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "StoryTwoScene" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "TESTStoryOneScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "TESTStoryTwoScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
         {
             SceneManager.LoadScene("TitleScreen");
         }
@@ -34,13 +34,13 @@ public class GameManager : MonoBehaviour
         //Keypad shortcuts for exhibitions
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            SceneManager.LoadScene("StoryOneScene");
+            SceneManager.LoadScene("TESTStoryOneScene 1");
             Debug.Log("Pressed 1");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            SceneManager.LoadScene("StoryTwoScene");
+            SceneManager.LoadScene("TESTStoryTwoScene 1");
             Debug.Log("Pressed 2");
 
         }
