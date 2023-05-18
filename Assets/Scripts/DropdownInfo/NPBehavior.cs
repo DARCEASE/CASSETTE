@@ -568,7 +568,7 @@ public class NPBehavior : MonoBehaviour
     void NewspaperPrint() // using this to test things 
     {
         ///*
-        if (scene.name == "TESTStoryTwoScene 1"){
+        if (scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryTwo" ){
             finalNewspaper.text = RUSSIA.PlayerNewspaper;
             finalHeadline.text = RUSSIA.PlayerHeadline;
         }

@@ -23,7 +23,8 @@ public class CharacterCompleteCheck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne"){
+        
+        /* if (scene.name == "HybridStoryOne"){
             
             if (NPB.Char1SelectionDoneA && NPB.Char1SelectionDoneB && NPB.Char1SelectionDoneC){
                 Char1Box.SetActive(false);
@@ -53,9 +54,9 @@ public class CharacterCompleteCheck : MonoBehaviour
             if (CompletedChar1 == true && CompletedChar2 == true && CompletedChar3 == true && CompletedChar4 == true && CompletedChar5 == true){
                 SubmitButtonGO.SetActive(true);
             }
-        }
+        } */
            
-        if (scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne"){
             
             if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
                 Char1Box.SetActive(false);

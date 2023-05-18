@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            SceneManager.LoadScene("TESTStoryOneScene 2");
+            SceneManager.LoadScene("TESTStoryTwoScene 1");
             Debug.Log("Pressed 2");
 
         }

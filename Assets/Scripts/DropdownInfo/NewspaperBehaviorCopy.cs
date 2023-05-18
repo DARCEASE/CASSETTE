@@ -921,7 +921,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public void NewspaperPrint() // using this to test things 
     {
         ///*
-        if (scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne" ){
             finalNewspaper.text = ROTDORE.PlayerNewspaper;
             finalHeadline.text = ROTDORE.PlayerHeadline;
         }
