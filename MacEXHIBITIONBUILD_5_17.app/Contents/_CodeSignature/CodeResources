@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<data>
-		6di+6eDElM5NPZEGMeI7szeYgBs=
+		PeG4k5RgVWGy0D/xyQONewu6Xew=
 		</data>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		7B+6q8SYJO0PgB/Altwh73ov29A=
+		bb/Zo9WUtIeViAaWck+LKJDMwpY=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
@@ -442,7 +442,7 @@
 		</data>
 		<key>Resources/Data/level2</key>
 		<data>
-		lJQbYp1uH8DY/RAeU/7HyB3/zx0=
+		4SpairQcJEAFDVx3pVOmvnqAhi0=
 		</data>
 		<key>Resources/Data/level3</key>
 		<data>
@@ -454,15 +454,7 @@
 		</data>
 		<key>Resources/Data/level5</key>
 		<data>
-		fRiPFfyDr4Ir4ZrmR2Avayt8nDQ=
-		</data>
-		<key>Resources/Data/level6</key>
-		<data>
-		6P2iRhz8f6tMywfnQX6STOuAhWQ=
-		</data>
-		<key>Resources/Data/level7</key>
-		<data>
-		TS7ttQtbXPHAqFo765aBb4lnaDA=
+		HgeZv4BJWHTdAUM0RIt+2KU28Fk=
 		</data>
 		<key>Resources/Data/resources.assets</key>
 		<data>
@@ -519,30 +511,6 @@
 		<key>Resources/Data/sharedassets5.assets.resS</key>
 		<data>
 		hLaa1ew39Hct8+voucefqG7XHCY=
-		</data>
-		<key>Resources/Data/sharedassets6.assets</key>
-		<data>
-		F+L6//HxkHawC2kox43GbtfXOY0=
-		</data>
-		<key>Resources/Data/sharedassets6.assets.resS</key>
-		<data>
-		7DBWoSlvkk4FFDuQnib3KFgsd8Q=
-		</data>
-		<key>Resources/Data/sharedassets6.resource</key>
-		<data>
-		NZHbiXbLgkx/z2YRz23v1aKX1uA=
-		</data>
-		<key>Resources/Data/sharedassets7.assets</key>
-		<data>
-		fIpcqMYCdJDCbhwSdIsbgczyn1o=
-		</data>
-		<key>Resources/Data/sharedassets7.assets.resS</key>
-		<data>
-		cbkKpNMiuVVL8u9ejfqj7AQAsjU=
-		</data>
-		<key>Resources/Data/sharedassets7.resource</key>
-		<data>
-		p64Vtb0bK5iUVt74hO898orgiX0=
 		</data>
 		<key>Resources/DefaultPreferences.plist</key>
 		<data>
@@ -724,7 +692,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VbC74TLmBP8/iYZ54u+ZEEI3IfmX9NQVhOn8YVuj7Kc=
+			iolUileRCe03iHXemBlQj8rXdqdjQoAA1lHkeXibnRo=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
@@ -1459,7 +1427,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+b+hiXQmOO8Q/pCwIp8O9h89NsI/K+0VwQQPaAg9OM=
+			HzUvsggnYKHDBuQKJYoSCScFLTaSMGC+JUjWTAAbWhc=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
@@ -1487,7 +1455,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oM3qzoW34czldJRwE5nCNRAgfK0MN6wDx/xxObAOl5s=
+			ZRsypR+xjYx8JjZ59mbxEtPjZz/awoHHL84N/+PRAqw=
 			</data>
 		</dict>
 		<key>Resources/Data/level3</key>
@@ -1508,21 +1476,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2VugnYSCvUTsje0HnBlODK/jOrheW1jvoXFevEpLF8s=
-			</data>
-		</dict>
-		<key>Resources/Data/level6</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WAsGxbmBKED+pSOaVuw2yQMpdzQbchBn23PfGpeW4rM=
-			</data>
-		</dict>
-		<key>Resources/Data/level7</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CZouZUe2GxtwiqzCm7NSGBa0+TgGV723LLcoCt621uw=
+			2SLGePAlkVI/NT48NPhWGenoRXrYxP4yF6F+eXEkBug=
 			</data>
 		</dict>
 		<key>Resources/Data/resources.assets</key>
@@ -1621,48 +1575,6 @@
 			<key>hash2</key>
 			<data>
 			+CxpP6u92DcOqAnN+qvrG7LhRuawc55bi2zKg7Sm7EY=
-			</data>
-		</dict>
-		<key>Resources/Data/sharedassets6.assets</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H2kIkkchlmHQhrv940Q22+e4upTEwm0/NRbjDDwDhO4=
-			</data>
-		</dict>
-		<key>Resources/Data/sharedassets6.assets.resS</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			co7ntrQr/IBH+u169aF+loxi5TX6BE+/u+bMl1PNPg4=
-			</data>
-		</dict>
-		<key>Resources/Data/sharedassets6.resource</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HQvFj/hV+P80v+Q6MyfKLLG/ghjXKTTP3ghJnnXbrgs=
-			</data>
-		</dict>
-		<key>Resources/Data/sharedassets7.assets</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YXLT1paqO6zfFDZ1RwwWduGxDdClt9Fkps0pdfOrDNU=
-			</data>
-		</dict>
-		<key>Resources/Data/sharedassets7.assets.resS</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TgLGBPPMGKIKSfoa8Nm7PRz9QFyPPmy3hg/P5fyTc3E=
-			</data>
-		</dict>
-		<key>Resources/Data/sharedassets7.resource</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Dw4FnfEuhdZSL9KRNZW/3mahwhupBiHCqce4OomQJYM=
 			</data>
 		</dict>
 		<key>Resources/DefaultPreferences.plist</key>
