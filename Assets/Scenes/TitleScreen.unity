@@ -288,6 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AFS: {fileID: 0}
   TS: {fileID: 187972895}
+  CCS: {fileID: 0}
 --- !u!4 &117209996
 Transform:
   m_ObjectHideFlags: 0
