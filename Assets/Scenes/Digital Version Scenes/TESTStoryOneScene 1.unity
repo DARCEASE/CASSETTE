@@ -86775,6 +86775,7 @@ GameObject:
   - component: {fileID: 1410984874}
   - component: {fileID: 1410984876}
   - component: {fileID: 1410984875}
+  - component: {fileID: 1410984877}
   m_Layer: 0
   m_Name: DropdownController
   m_TagString: Untagged
@@ -87136,6 +87137,44 @@ MonoBehaviour:
   Char5SelectionDoneA: 0
   Char5SelectionDoneB: 0
   Char5SelectionDoneC: 0
+--- !u!114 &1410984877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d006344fbd69fc54c9b98a2684936255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParaOneSent_One: 
+  ParaOneSent_Two: 
+  ParaOneSent_Three: 
+  ParaOneSent_Four: 
+  ParaOneSent_Five: 
+  newspaperHeadlines: []
+  ParaOneSentences:
+  - This is a test case for sentence 1A
+  - This is a test case for sentence 1B
+  - This is a test case for sentence 1C
+  - This is a test case for sentence 2A
+  - This is a test case for sentence 2B
+  - This is a test case for sentence 2C
+  - This is a test case for sentence 3A
+  - This is a test case for sentence 3B
+  - This is a test case for sentence 3C
+  - This is a test case for sentence 4A
+  - This is a test case for sentence 4B
+  - This is a test case for sentence 4C
+  - This is a test case for sentence 5A
+  - This is a test case for sentence 5B
+  - This is a test case for sentence 5C
+  ParaTwoSentences: []
+  ParaThreeSentences: []
+  ParaFourSentences: []
+  ParaFiveSentences: []
 --- !u!1 &1412467899
 GameObject:
   m_ObjectHideFlags: 0
