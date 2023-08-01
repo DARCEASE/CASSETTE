@@ -871,7 +871,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char3DropC
         m_Mode: 1
@@ -6029,7 +6029,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char2DropB
         m_Mode: 1
@@ -23088,7 +23088,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char5DropA
         m_Mode: 1
@@ -24175,7 +24175,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char4DropB
         m_Mode: 1
@@ -27378,7 +27378,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456504216}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0004929763}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00049057486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1901295271}
@@ -27387,11 +27387,11 @@ RectTransform:
   m_Father: {fileID: 548778282}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.78}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 224.6, y: 77.8}
   m_SizeDelta: {x: 376, y: 326}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &456504218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34091,7 +34091,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char1DropC
         m_Mode: 1
@@ -42785,7 +42785,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char5DropB
         m_Mode: 1
@@ -44811,7 +44811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f2eabc46cf96a489f7da6177d979eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NPB: {fileID: 0}
+  NPB: {fileID: 1410984878}
   Char1Box: {fileID: 1413350372}
   Char2Box: {fileID: 610037009}
   Char3Box: {fileID: 1905678882}
@@ -45938,7 +45938,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char1DropB
         m_Mode: 1
@@ -49927,7 +49927,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char4DropC
         m_Mode: 1
@@ -54430,7 +54430,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char3DropB
         m_Mode: 1
@@ -55298,7 +55298,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922320283}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0004929763}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00049057486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1500020711}
@@ -55307,11 +55307,11 @@ RectTransform:
   m_Father: {fileID: 548778282}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.78}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 205.19994, y: 51.099945}
   m_SizeDelta: {x: 376, y: 326}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &922320285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75803,7 +75803,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char2DropC
         m_Mode: 1
@@ -86773,9 +86773,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1410984874}
-  - component: {fileID: 1410984876}
   - component: {fileID: 1410984875}
+  - component: {fileID: 1410984876}
   - component: {fileID: 1410984877}
+  - component: {fileID: 1410984878}
+  - component: {fileID: 1410984879}
   m_Layer: 0
   m_Name: DropdownController
   m_TagString: Untagged
@@ -87094,7 +87096,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410984873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6acfc9027802aff409fc321d3896a757, type: 3}
   m_Name: 
@@ -87103,7 +87105,7 @@ MonoBehaviour:
   PlayerHeadline: 
   AFS: {fileID: 608035562}
   ROTDORE: {fileID: 1410984875}
-  RUSSIA: {fileID: 0}
+  RUSSIA: {fileID: 1410984877}
   SAS: {fileID: 1279310169}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}
@@ -87144,6 +87146,352 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410984873}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a928c5f288f544794c6a878189d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  PlayerHeadline: 
+  AngryNewspaper: 
+  CompassionateNewspaper: 
+  FearfulNewspaper: 
+  finalNewspaper: {fileID: 2082781119}
+  finalHeadline: {fileID: 642179187}
+  AFS: {fileID: 0}
+  BorisAOutputInt: 0
+  GuyAOutputInt: 0
+  VitoAOutputInt: 0
+  BrightonAOutputInt: 0
+  FranzAOutputInt: 0
+  BorisBOutputInt: 0
+  GuyBOutputInt: 0
+  VitoBOutputInt: 0
+  BrightonBOutputInt: 0
+  FranzBOutputInt: 0
+  BorisCOutputInt: 0
+  GuyCOutputInt: 0
+  VitoCOutputInt: 0
+  BrightonCOutputInt: 0
+  FranzCOutputInt: 0
+  APaperArticlePieces:
+  - "It\u2019s a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+    and chatter can be heard along the boardwalk. Despite what this peaceful facade
+    might suggest, Brighton Beach has become one of the most crime-ridden neighborhoods
+    in New York City. This is due, in part, to a surge in mob violence in the area.
+    It seems like the city\u2019s attempts to quell organized crime throughout the
+    last few decades have been in vain.\r\n"
+  - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
+    middle-aged man with a heavy Russian accent. \u201CDon\u2019t ask questions.
+    Don\u2019t write about us. Don\u2019t talk about us. As far as you\u2019re concerned,
+    we don\u2019t exist. You [expletive] test me and you die.\u201D He gives our
+    reporter one last glare and stalks off. Bystanders don\u2019t react. On Brighton
+    Beach, threats from the Russian Mob always greet those who ask too many questions.\r\n"
+  - "It\u2019s a cold, gray day on Brighton Beach. Our reporter is cornered by a
+    man with a heavy Russian accent. \u201CDon\u2019t ask questions. Don\u2019t write
+    about us. Don\u2019t talk about us. As far as you\u2019re concerned, we don\u2019t
+    exist. You [expletive] test me and you die.\u201D He gives our reporter one last
+    glare and stalks off. Bystanders don\u2019t react. On Brighton Beach, threats
+    from the Russian Mob always greet those who ask too many questions.\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
+    by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
+    instead redirected the conversation toward his past. Mr. Kramarov sees America
+    as a safe haven compared to the violent, poverty-stricken Soviet Union he once
+    called home. Withith Brighton Beach as his main point of reference, however,
+    that\u2019s surely a difficult position to uphold.\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a restaurant owned by Boris
+    Kramarov, a Soviet immigrant. Unwilling to provide details about the incident,
+    Mr. Kramarov instead offered bitter complaints about the USA. \u201CI thought
+    America was a land of prosperity,\u201D Mr. Kramarov spat. \u201CLook at my beautiful
+    restaurant. How am I going to pay my bills? This happened a week ago, and it\u2019s
+    still like this.\u201D\r\n"
+  - "Last week\u2019s shooting took place at Nadezhda, a Russian restaurant owned
+    by Boris Kramarov. Unwilling to provide details about the incident, Mr. Kramarov
+    instead lamented the destruction of his dining area, which was still in a state
+    of bullet-scarred disrepair. \u201CLook at my beautiful restaurant,\u201D Mr.
+    Kramarov said. \u201CHow am I going to pay my bills? This happened a week ago,
+    and it\u2019s still like this.\u201D\r\n"
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    His scar will be a permanent reminder of the event. The Stohlers could not provide
+    useful information about the perpetrators.\r\n"
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    Luckily, the injury was minor, and he has mostly recovered. The Stohlers could
+    not provide useful information about the perpetrators."
+  - "The recent increase of violent crime in Brighton Beach is beginning to affect
+    the rest of the city. Cousins Guy Stohler and Franziska Stohler were caught in
+    the shooting\u2019s crossfire. Mr. Stohler suffered a wound from a stray bullet.
+    He is recovering, but the injury will leave a scar. The Stohlers could not provide
+    useful information about the perpetrators.\r\n"
+  - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir to Mr. Vito Masucci,
+    jailed former head of the Masucci crime family. Mr. Masucci insisted that his
+    family was innocent and that the shooting was unprovoked. Given his family\u2019s
+    criminal record, however, these claims are unreliable. \r\n"
+  - "Despite these unhelpful witnesses, it\u2019s clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
+    Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
+    that his family was innocent and that the shooting was unprovoked. Given his
+    family\u2019s criminal record, this probably isn\u2019t true. \r\n"
+  - 'Despite these unhelpful witnesses, it is clear that the shooting was related
+    to La Cosa Nostra. Among the casualties was the nephew and heir apparent to Mr.
+    Vito Masucci, jailed former head of the Masucci crime family. Mr. Masucci insisted
+    that his family was innocent and that the shooting was unprovoked. Apparently,
+    the Russian mob was the real culprit.
+
+'
+  - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
+    Stohler personifies this attitude, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as jaded to crime and violence as the rest of the
+    city.\r\n"
+  - "The city\u2019s inhabitants are bafflingly dismissive of the shooting. Ms. Franziska
+    Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as unconcerned for her own safety as the rest of the
+    city.\r\n"
+  - "The city\u2019s inhabitants are bafflingly unbothered by the shooting. Ms. Franziska
+    Stohler personifies this dismissal, despite being a tourist herself. \u201CYes
+    I\u2019m out dancing! Sure, there were guns and bullets, but I\u2019m still alive,\u201D
+    she said when interviewed, as unconcerned for her own safety as the rest of the
+    city.\r\n"
+  BPaperArticlePieces:
+  - 'It is a cold, gray day on Brighton Beach. Waves lap against the shore. Laughter
+    and chatter can be heard along the boardwalk. Standing here, one would never
+    guess that this seemingly peaceful neighborhood was, just last week, the site
+    of a violent shooting.
+
+'
+  - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
+    a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
+    Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
+    Beach.\r\n"
+  - "It is a cold, gray day on Brighton Beach. A Local Rag reporter, while investigating
+    a shooting, is assaulted and threatened by a mobster with a thick Russian accent.
+    Passers-by don\u2019t react. Mob violence is becoming a fact of life on Brighton
+    Beach.\r\n"
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov was visibly
+    frightened and refused to provide details. He was distraught to find that the
+    violence he\u2019d fled in the Soviet Union was beginning to reappear in his
+    new home. \u201CEverything that I thought I\u2019d left behind in Siberia has
+    followed me to America,\u201D he explained.\r\n"
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov refused
+    to provide details to the police or media. He was upset to find that the violence
+    he\u2019d fled in the Soviet Union was beginning to reappear in his new home.
+    \u201CEverything that I thought I\u2019d left behind in Siberia has followed
+    me to America,\u201D he explained. \r\n"
+  - "The shooting took place at Nadezhda, a Russian restaurant owned by a Soviet
+    refugee named Boris Kramarov. When asked about the event, Mr. Kramarov politely
+    declined to provide details. He was disappointed to find that the violence he\u2019d
+    fled in the Soviet Union was beginning to reappear in his new home. \u201CEverything
+    that I thought I\u2019d left behind in Siberia has followed me to America,\u201D
+    he explained. \r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting, and his injuries have yet to fully heal.\r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting. Luckily, the wound was minor, and he is in recovery.\r\n"
+  - "Guy Stohler and his cousin Franziska Stohler witnessed the shooting. \u201CI
+    didn\u2019t even see them walk in! One minute we were sitting down to eat some
+    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
+    and screaming,\u201D Mr. Stohler recounted. He was hit by a stray bullet during
+    the shooting, and his injuries have yet to fully heal.\r\n"
+  - "Little is known about the men behind this horrible crime. Mr. Vito Masucci,
+    the jailed head of the notorious Masucci crime family, insisted that the Russian
+    mob is responsible. Mr. Masucci\u2019s nephew and heir apparent was killed during
+    the shooting. It\u2019s possible that he was the primary target. While Mr. Masucci\u2019s
+    trustworthiness is questionable, this is the only explanation being offered at
+    the moment.\r\n"
+  - "Little is known about the men behind this horrible crime. Mr. Vito Masucci,
+    the jailed head of the notorious Masucci crime family, insisted that the Russian
+    mob is responsible. Mr. Masucci\u2019s nephew and heir apparent was killed during
+    the shooting. It\u2019s possible that he was the primary target. While Mr. Masucci\u2019s
+    claims are unreliable, this is the only explanation being offered at the moment.\r\n"
+  - "This crime, it seems, was an incidence of gang violence. Mr. Vito Masucci, the
+    jailed head of the Masucci crime family, insisted that the Russian mob is responsible.
+    Mr. Masucci\u2019s nephew and heir apparent was killed during the shooting. He
+    was the Russian mob\u2019s primary target. Ivan Puzyretsky, aka Ivan the Terrible,
+    a notorious Russian mobster and enemy of the Masuccis, likely led the assault.\r\n"
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unbothered by the event or by her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has become
+    jaded to the world\u2019s growing violence.\r\n"
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has become
+    dismissive of the world\u2019s growing violence."
+  - "Today, only one week out from this horrible ordeal, the neighborhood moves on
+    as if nothing even happened. We tracked down Franziska Stohler outside of a techno
+    party in Tribeca, apparently unconcerned with the event or with her cousin\u2019s
+    lingering injury. \u201CSure, there were guns and bullets,\u201D she said, \u201Cbut
+    I\u2019m still alive.\u201D She, perhaps like the rest of this city, has decided
+    to disregard the world\u2019s growing violence.\r\n"
+  CPaperArticlePieces:
+  - "It was a cold, gray day on Brighton Beach. Waves lapped against the shore. Laughter
+    and chatter could be heard along the boardwalk. One would never guess that this
+    neighborhood was just the site of a shooting - yet another concerning symptom
+    of Brighton Beach\u2019s recent rise in criminal activity.\r\n"
+  - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
+    the mob. It happened suddenly - a man sprang from the shadows and, in a thick
+    Russian accent, growled a threatening request: to stop investigating the recent
+    shooting and to leave the neighborhood for good. He then stalked off, his demeanor
+    that of a starving wolf.'
+  - 'It was a cold, gray day on Brighton Beach when our reporter was confronted by
+    the mob. It happened suddenly - a man sprang from the shadows and, with a low,
+    ominous voice, growled a threatening request: to stop investigating the recent
+    shooting and to leave the neighborhood for good. He then stalked off, his demeanor
+    that of a starving wolf.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was accommodating to our reporter, he was afraid to answer questions about
+    the shooting.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was accommodating to our reporter, he was unwilling to answer questions about
+    the shooting.
+
+'
+  - 'The shooting in question occurred a few days prior at the boardwalk restaurant
+    Nadezhda. Boris Kramarov, an immigrant from the Soviet Union, opened Nadezhda
+    with the help of the local Jewish community when he arrived in the States. While
+    he was friendly to our reporter, he was hesitant to answer questions about the
+    shooting.
+
+'
+  - "Among those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler, frozen in shock
+    at the sudden gunfire, was injured by a stray bullet. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "Among those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler, too surprised
+    to flee or take cover, was injured in the crossfire. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "Among those present at the shooting were cousins Guy and Franziska Stohler,
+    visiting from Manhattan and Berlin, respectively. Mr. Stohler was injured in
+    the crossfire, but bravely kept his eyes on the events. Both he and Ms. Stohler
+    were able to provide details to police and reporters about the shooting. Unfortunately,
+    their eyewitness observations were unable to reveal much about the motives or
+    identities of those involved. \r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a mob boss currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the primary target of the shooting,  a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a former mob boss currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the shooting\u2019s primary target, a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "But times of crisis can move the most unlikely people to acts of selflessness.
+    This paper was contacted by Mr. Vito Masucci, a gentleman currently incarcerated
+    at the Sing Sing Correctional Facility. He identified his nephew, Mario Masucci,
+    as the primary target of the shooting, a result of a conflict between his family
+    and the Russian mob. \u201CHe was a good kid,\u201D Mr. Masucci said, \u201CHe
+    had a future\u201D.\r\n"
+  - "It\u2019s all too easy to despair in times like these, but some find a different
+    solution. Franziska Stohler provides an example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Perhaps, in this violent world, becoming resistant
+    to suffering is a necessary method of self-defense.\r\n"
+  - "It\u2019s all too easy to despair in times like these, but some find a different
+    solution. Franziska Stohler provides an example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Perhaps, in this violent world, becoming indifferent
+    toward tragedy is a necessary method of self-defense. "
+  - "It is all too easy to despair in times like these, but perhaps there is an alternative.
+    Franziska Stohler provides a compelling example, interviewed outside a vibrant
+    rave in Tribeca. \u201CMan muss die Dinge nehmen, wie sie kommen\u201D. You have
+    to take things as they come. Following moments of tragedy, the human spirit nonetheless
+    shines as brightly as ever. \r\n\t\r\n"
+  newspaperHeadlines:
+  - War in the Streets
+  - Red Menace on Brighton Beach
+  - Bullets Fly on Brighton Beach
+  AngryPaper: 0
+  FearfulPaper: 0
+  CompassionatePaper: 0
+--- !u!114 &1410984878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef761a405a334a6408aeed6aeae9b2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNewspaper: 
+  PlayerHeadline: 
+  AFS: {fileID: 0}
+  RUSSIA: {fileID: 1410984877}
+  SAS: {fileID: 1279310169}
+  finalNewspaper: {fileID: 2082781119}
+  finalHeadline: {fileID: 642179187}
+  Char1DPOne: {fileID: 1869266737}
+  Char1DPTwo: {fileID: 765550600}
+  Char1DPThree: {fileID: 557151246}
+  Char2DPOne: {fileID: 1577571665}
+  Char2DPTwo: {fileID: 95505270}
+  Char2DPThree: {fileID: 1225311042}
+  Char3DPOne: {fileID: 1955347120}
+  Char3DPTwo: {fileID: 908376689}
+  Char3DPThree: {fileID: 6620388}
+  Char4DPOne: {fileID: 1498114466}
+  Char4DPTwo: {fileID: 402046269}
+  Char4DPThree: {fileID: 833227613}
+  Char5DPOne: {fileID: 386080594}
+  Char5DPTwo: {fileID: 704809369}
+  Char5DPThree: {fileID: 1492281386}
+  Char1SelectionDoneA: 0
+  Char1SelectionDoneB: 0
+  Char1SelectionDoneC: 0
+  Char2SelectionDoneA: 0
+  Char2SelectionDoneB: 0
+  Char2SelectionDoneC: 0
+  Char3SelectionDoneA: 0
+  Char3SelectionDoneB: 0
+  Char3SelectionDoneC: 0
+  Char4SelectionDoneA: 0
+  Char4SelectionDoneB: 0
+  Char4SelectionDoneC: 0
+  Char5SelectionDoneA: 0
+  Char5SelectionDoneB: 0
+  Char5SelectionDoneC: 0
+--- !u!114 &1410984879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410984873}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d006344fbd69fc54c9b98a2684936255, type: 3}
@@ -87156,7 +87504,7 @@ MonoBehaviour:
   ParaOneSent_Five: 
   newspaperHeadlines: []
   ParaOneSentences:
-  - This is a test case for sentence 1A
+  - This is a test case for sentence 1A (PARA 1)
   - This is a test case for sentence 1B
   - This is a test case for sentence 1C
   - This is a test case for sentence 2A
@@ -87678,7 +88026,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415734642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0004929763}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00049057486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1402027510}
@@ -87687,11 +88035,11 @@ RectTransform:
   m_Father: {fileID: 548778282}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.78}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 165.30003, y: -12.800049}
   m_SizeDelta: {x: 376, y: 326}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1415734644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88575,7 +88923,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.18158889
+  m_Size: 0.1815889
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -93849,7 +94197,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char5DropC
         m_Mode: 1
@@ -94176,7 +94524,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char4DropA
         m_Mode: 1
@@ -96442,7 +96790,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553609064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0004929763}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00049057486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1795861767}
@@ -96451,11 +96799,11 @@ RectTransform:
   m_Father: {fileID: 548778282}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.78}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 186.29999, y: 19.399933}
   m_SizeDelta: {x: 376, y: 326}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1553609066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98801,7 +99149,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char2DropA
         m_Mode: 1
@@ -116515,7 +116863,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char1DropA
         m_Mode: 1
@@ -121827,7 +122175,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1410984878}
         m_TargetAssemblyTypeName: NPBehavior, Assembly-CSharp
         m_MethodName: Char3DropA
         m_Mode: 1
@@ -123644,7 +123992,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983585080}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0004929763}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00049057486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2095423346}
@@ -123654,11 +124002,11 @@ RectTransform:
   m_Father: {fileID: 548778282}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.78}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 249.19002, y: 112.629944}
   m_SizeDelta: {x: 376, y: 326}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1983585082
 MonoBehaviour:
   m_ObjectHideFlags: 0
