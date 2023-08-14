@@ -86840,6 +86840,18 @@ MonoBehaviour:
   - Grieving a Hero
   - Local Hero Dead
   - Queer Death of a Businessman
+  AllNewspaperPieces:
+  - possibly leapt from the roof of the building.
+  - apparently fallen from a great height.
+  - possibly been thrown from an upper floor.
+  - a revered NYPD investigator,
+  - a well-intentioned NYPD investigator,
+  - a rookie investigator for the NYPD,
+  - is committed to solving the case and finding justice for our departed hero.
+  - also asks the public to come forward with any information that may be relevant
+    to the case.
+  - "also hinted that Robert\u2019s personal life might not have been as wholesome
+    as it appeared."
   MuckrakerArticlePieces:
   - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having possibly leapt from an upper floor. Mr.
@@ -87096,7 +87108,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410984873}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6acfc9027802aff409fc321d3896a757, type: 3}
   m_Name: 
@@ -87443,7 +87455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410984873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef761a405a334a6408aeed6aeae9b2a3, type: 3}
   m_Name: 
@@ -87492,7 +87504,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410984873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d006344fbd69fc54c9b98a2684936255, type: 3}
   m_Name: 

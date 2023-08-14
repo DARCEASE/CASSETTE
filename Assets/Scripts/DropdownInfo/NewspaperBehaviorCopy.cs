@@ -70,7 +70,6 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1B1 = false;
                 Char1C1 = false;
                 Char1SelectionDoneA = true;
-                Debug.Log(Char1SelectionDoneA);
                 ROTDORE.NovakSQOutputInt = 1;
                 ROTDORE.muckrakerPaper += 1;
                 //Feedback Vals

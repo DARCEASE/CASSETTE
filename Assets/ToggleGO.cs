@@ -20,7 +20,7 @@ public class ToggleGO : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         DontDestroyOnLoad(this.gameObject);
 
-        if (scene.name == "TESTStoryOneScene 1" || scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryOne" || scene.name == "HybridStoryTwo" ){
+        if (scene.name == "TESTStoryOneScene 1" || scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryOne" || scene.name == "HybridStoryTwo" || scene.name == "ARTICLETESTSCENE"){
             Debug.Log("Scene Name Toggle: " + scene.name);
             GameItems.SetActive(true);
         } else{

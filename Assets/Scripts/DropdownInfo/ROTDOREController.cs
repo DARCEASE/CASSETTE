@@ -19,6 +19,11 @@ public class ROTDOREController : MonoBehaviour
     string JuliaMuckString, JuliaSQString, JuliaTabloidString;
     string MaxMuckString, MaxSQString, MaxTabloidString;
     string MichaelMuckString, MichaelSQString, MichaelTabloidString;
+    //NEW STRINGS
+    string NovakFinalString, JimFinalString, JuliaFinalString, MaxFinalString, MichaelFinalString;
+
+    //Always Appearing Pieces:
+    string novakParaPiece_One, novakParaPiece_Two, novakChoiceOne, novakChoiceTwo, novakChoiceThree;
 
     public Text finalNewspaper, finalHeadline;
 
@@ -32,7 +37,7 @@ public class ROTDOREController : MonoBehaviour
     public int muckrakerPaper, tabloidPaper, statusQuoPaper;
     
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperHeadlines, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
+    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
 
     void Update() {
         NewspaperPrint();    
@@ -40,13 +45,13 @@ public class ROTDOREController : MonoBehaviour
 
     public void MuckPieceCalculator(){
         //Muckraker
-        if (NovakOutputInt == 1){
+        /*if (NovakOutputInt == 1){
             NovakMuckString = MuckrakerArticlePieces[0];
         } else if (NovakOutputInt == 2){
             NovakMuckString = MuckrakerArticlePieces[1];
         } else if (NovakOutputInt == 3){
             NovakMuckString = MuckrakerArticlePieces[2];
-        }
+        }*/
 
          if (JimOutputInt == 1){
             JimMuckString = MuckrakerArticlePieces[3];
@@ -84,6 +89,7 @@ public class ROTDOREController : MonoBehaviour
 
     public void SQPieceCalculator(){
         //SQ
+        /*
         if (NovakSQOutputInt == 1){
             NovakSQString = SQArticlePieces[0];
 
@@ -92,7 +98,7 @@ public class ROTDOREController : MonoBehaviour
         } else if (NovakSQOutputInt == 3){
             NovakSQString = SQArticlePieces[2];
         }
-
+        */
          if (JimSQOutputInt == 1){
             JimSQString = SQArticlePieces[3];
         } else if (JimSQOutputInt == 2){
@@ -130,13 +136,14 @@ public class ROTDOREController : MonoBehaviour
 
     public void TabPieceCalculator(){
         //Tab
+        /*
         if (NovakTabOutputInt == 1){
             NovakTabloidString = TabloidArticlePieces[0];
         } else if (NovakTabOutputInt == 2){
             NovakTabloidString = TabloidArticlePieces[1];
         } else if (NovakTabOutputInt == 3){
             NovakTabloidString = TabloidArticlePieces[2];
-        }
+        }*/
 
         if (JimTabOutputInt == 1){
             JimTabloidString = TabloidArticlePieces[3];
@@ -173,6 +180,35 @@ public class ROTDOREController : MonoBehaviour
 
     }
 
+    public void AllPiecesCalculator(){
+
+        //Novak
+        if (NovakOutputInt == 1){
+            novakChoiceOne = AllNewspaperPieces[0];
+        } else if (NovakSQOutputInt == 1){
+            novakChoiceOne = AllNewspaperPieces[1];
+        } else if (NovakTabOutputInt == 1){
+            novakChoiceOne = AllNewspaperPieces[2];
+        }
+
+        if (NovakOutputInt == 2){
+            novakChoiceTwo = AllNewspaperPieces[3];
+        } else if (NovakSQOutputInt == 2){
+            novakChoiceTwo = AllNewspaperPieces[4];
+        } else if (NovakTabOutputInt == 2){
+            novakChoiceTwo = AllNewspaperPieces[5];
+        }
+
+        if (NovakOutputInt == 3){
+            novakChoiceThree = AllNewspaperPieces[6];
+        } else if (NovakSQOutputInt == 3){
+            novakChoiceThree = AllNewspaperPieces[7];
+        } else if (NovakTabOutputInt == 3){
+            novakChoiceThree = AllNewspaperPieces[8];
+        }
+
+    }
+
 
     public void NewspaperPrint() // using this to test things 
     {
@@ -182,9 +218,20 @@ public class ROTDOREController : MonoBehaviour
         SQPieceCalculator();
         TabPieceCalculator();
 
+        novakParaPiece_One = "Robert Evergreen was found dead outside his workplace Monday morning, having";
+        novakParaPiece_Two = "Mr. Evergreen was the founder and CEO of Abundantia Investments, a father of two, and a well-liked community member. According to Detective Novak, the investigation is still ongoing. Novak,";
+
+        /*
+        //Old code
         MuckrakerNewspaper = NovakMuckString + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
         StatusQuoNewspaper = NovakSQString + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
         TabloidNewspaper = NovakTabloidString + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
+        */
+
+        //New WIP Code
+        MuckrakerNewspaper = novakParaPiece_One + novakChoiceThree + novakParaPiece_Two + novakChoiceOne + novakChoiceTwo + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
+        StatusQuoNewspaper = novakParaPiece_One + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
+        TabloidNewspaper = novakParaPiece_One + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
 
 
         //Value Check
