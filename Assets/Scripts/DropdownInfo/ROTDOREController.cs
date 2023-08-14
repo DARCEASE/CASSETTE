@@ -217,6 +217,7 @@ public class ROTDOREController : MonoBehaviour
         MuckPieceCalculator();
         SQPieceCalculator();
         TabPieceCalculator();
+        AllPiecesCalculator();
 
         novakParaPiece_One = "Robert Evergreen was found dead outside his workplace Monday morning, having";
         novakParaPiece_Two = "Mr. Evergreen was the founder and CEO of Abundantia Investments, a father of two, and a well-liked community member. According to Detective Novak, the investigation is still ongoing. Novak,";
