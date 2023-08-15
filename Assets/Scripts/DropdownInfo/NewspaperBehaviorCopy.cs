@@ -70,7 +70,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1B1 = false;
                 Char1C1 = false;
                 Char1SelectionDoneA = true;
-                ROTDORE.NovakSQOutputInt = 1;
+                ROTDORE.NovakOutputInt = 3;
                 ROTDORE.muckrakerPaper += 1;
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
@@ -83,7 +83,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1B1 = true;
                 Char1C1 = false;
                 Char1SelectionDoneA = true;
-                ROTDORE.NovakSQOutputInt = 2;
+                ROTDORE.NovakSQOutputInt = 3;
                 ROTDORE.statusQuoPaper += 1;
                 //Feedback Vals
                 AFS.entertainingVal -= 1;    
@@ -96,7 +96,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1A1 = false;
                 Char1B1 = true;
                 Char1C1 = false;
-                ROTDORE.NovakSQOutputInt = 3;
+                ROTDORE.NovakTabOutputInt = 3;
                 Char1SelectionDoneA = true;
                 ROTDORE.NovakSQOutputInt = 3;
                 ROTDORE.tabloidPaper += 1;
@@ -117,6 +117,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1C2 = false;
                 ROTDORE.muckrakerPaper+=1;
                 Char1SelectionDoneB = true;
+                ROTDORE.NovakOutputInt = 1;
             }
         }
         else if (Char1DPTwo.value == 2)
@@ -127,6 +128,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1C2 = false;
                 ROTDORE.statusQuoPaper+=1;
                 Char1SelectionDoneB = true;
+                ROTDORE.NovakSQOutputInt = 1;
                 //Feedback Vals
                 AFS.entertainingVal -= 1;
             }
@@ -139,6 +141,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char1C2 = true;
                 ROTDORE.tabloidPaper+=1;
                 Char1SelectionDoneB = true;
+                ROTDORE.NovakTabOutputInt = 1;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
                 AFS.credibleVal += 1;
@@ -158,6 +161,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.NovakOutputInt = 1;
                 ROTDORE.NovakTabOutputInt = 1;
                 Char1SelectionDoneC = true;
+                ROTDORE.NovakOutputInt = 2;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
                 AFS.credibleVal -= 3;
@@ -174,6 +178,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 ROTDORE.NovakOutputInt = 2;
                 ROTDORE.NovakTabOutputInt = 2;
                 Char1SelectionDoneC = true;
+                ROTDORE.NovakSQOutputInt = 2;
                 //Feedback Vals
                 AFS.credibleVal += 3;
                 AFS.unbiasedVal += 2;

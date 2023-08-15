@@ -184,27 +184,27 @@ public class ROTDOREController : MonoBehaviour
 
         //Novak
         if (NovakOutputInt == 1){
-            novakChoiceOne = AllNewspaperPieces[0];
+            novakChoiceThree = AllNewspaperPieces[0];
         } else if (NovakSQOutputInt == 1){
-            novakChoiceOne = AllNewspaperPieces[1];
+            novakChoiceThree = AllNewspaperPieces[1];
         } else if (NovakTabOutputInt == 1){
-            novakChoiceOne = AllNewspaperPieces[2];
+            novakChoiceThree = AllNewspaperPieces[2];
         }
 
         if (NovakOutputInt == 2){
-            novakChoiceTwo = AllNewspaperPieces[3];
+            novakChoiceOne = AllNewspaperPieces[3];
         } else if (NovakSQOutputInt == 2){
-            novakChoiceTwo = AllNewspaperPieces[4];
+            novakChoiceOne = AllNewspaperPieces[4];
         } else if (NovakTabOutputInt == 2){
-            novakChoiceTwo = AllNewspaperPieces[5];
+            novakChoiceOne = AllNewspaperPieces[5];
         }
 
         if (NovakOutputInt == 3){
-            novakChoiceThree = AllNewspaperPieces[6];
+            novakChoiceTwo = AllNewspaperPieces[6];
         } else if (NovakSQOutputInt == 3){
-            novakChoiceThree = AllNewspaperPieces[7];
+            novakChoiceTwo = AllNewspaperPieces[7];
         } else if (NovakTabOutputInt == 3){
-            novakChoiceThree = AllNewspaperPieces[8];
+            novakChoiceTwo = AllNewspaperPieces[8];
         }
 
     }
@@ -230,9 +230,11 @@ public class ROTDOREController : MonoBehaviour
         */
 
         //New WIP Code
-        MuckrakerNewspaper = novakParaPiece_One + novakChoiceThree + novakParaPiece_Two + novakChoiceOne + novakChoiceTwo + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
-        StatusQuoNewspaper = novakParaPiece_One + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
-        TabloidNewspaper = novakParaPiece_One + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
+        NovakFinalString = novakParaPiece_One + " " + novakChoiceThree + " " + novakParaPiece_Two + " " + novakChoiceOne + " " + novakChoiceTwo;
+        Debug.Log(NovakFinalString);
+        MuckrakerNewspaper = NovakFinalString + "\n" + JuliaMuckString + "\n" + JimMuckString + "\n" + MaxMuckString + "\n" + MichaelMuckString;
+        StatusQuoNewspaper = NovakFinalString + "\n" + JuliaSQString + "\n" + JimSQString + "\n" + MaxSQString + "\n" + MichaelSQString;
+        TabloidNewspaper = NovakFinalString + "\n" + JuliaTabloidString + "\n" + JimTabloidString + "\n" + MaxTabloidString + "\n" + MichaelTabloidString;
 
 
         //Value Check
