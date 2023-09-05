@@ -212,7 +212,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B1 = false;
                 Char2C1 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.JimTabOutputInt = 1;
+                ROTDORE.JimOutputInt = 1;
                 Char2SelectionDoneA = true;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
@@ -226,7 +226,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B1 = true;
                 Char2C1 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.JimTabOutputInt = 2;
+                ROTDORE.JimSQOutputInt = 1;
                 Char2SelectionDoneA = true;
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
@@ -239,7 +239,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B1 = false;
                 Char2C1 = true;
                 ROTDORE.tabloidPaper+=1;
-                ROTDORE.JimTabOutputInt = 3;
+                ROTDORE.JimTabOutputInt = 1;
                 Char2SelectionDoneA = true;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
@@ -256,7 +256,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B2 = false;
                 Char2C2 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.JimSQOutputInt = 1;
+                ROTDORE.JimOutputInt = 2;
                 Char2SelectionDoneB = true;
             }
         }
@@ -280,7 +280,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B2 = false;
                 Char2C2 = true;
                 ROTDORE.tabloidPaper+=1;
-                ROTDORE.JimSQOutputInt = 3;
+                ROTDORE.JimTabOutputInt = 2;
                 Char2SelectionDoneB = true;
             }
 
@@ -296,7 +296,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B3 = false;
                 Char2C3 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.JimOutputInt = 1;
+                ROTDORE.JimOutputInt = 3;
                 Char2SelectionDoneC = true;
             }
         }
@@ -307,7 +307,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B3 = false;
                 Char2C3 = true;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.JimOutputInt = 2;
+                ROTDORE.JimSQOutputInt = 3;
                 Char2SelectionDoneC = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 1;
@@ -321,7 +321,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char2B3 = false;
                 Char2C3 = true;
                 ROTDORE.tabloidPaper+=1;
-                ROTDORE.JimOutputInt = 3;
+                ROTDORE.JimTabOutputInt = 3;
                 Char2SelectionDoneC = true;
                 //Feedback Vals
                 AFS.entertainingVal += 1;
@@ -340,7 +340,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B1 = false;
                 Char3C1 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.JuliaSQOutputInt = 1;
+                ROTDORE.JuliaOutputInt = 1;
                 Char3SelectionDoneA = true;
             }
 
@@ -358,7 +358,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B1 = true;
                 Char3C1 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.JuliaSQOutputInt = 2;
+                ROTDORE.JuliaSQOutputInt = 1;
                 Char3SelectionDoneA = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 2;
@@ -379,7 +379,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B1 = false;
                 Char3C1 = true;
                 ROTDORE.tabloidPaper+=1;
-                ROTDORE.JuliaSQOutputInt = 3;
+                ROTDORE.JuliaTabOutputInt = 1;
                 Char3SelectionDoneA = true;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
@@ -403,7 +403,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B2 = false;
                 Char3C2 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.JuliaOutputInt = 1;
+                ROTDORE.JuliaOutputInt = 2;
                 Char3SelectionDoneB = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 2;
@@ -424,7 +424,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B2 = true;
                 Char3C2 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.JuliaOutputInt = 2;
+                ROTDORE.JuliaSQOutputInt = 2;
                 Char3SelectionDoneB = true;
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
@@ -446,7 +446,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B2 = false;
                 Char3C2 = true;
                 ROTDORE.tabloidPaper +=1;
-                ROTDORE.JuliaOutputInt = 3;
+                ROTDORE.JuliaTabOutputInt = 2;
                 Char3SelectionDoneB = true;
                 //Feedback Vals
                 AFS.credibleVal -= 3;
@@ -472,7 +472,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B3 = false;
                 Char3C3 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.JuliaTabOutputInt = 1;
+                ROTDORE.JuliaOutputInt = 3;
                 Char3SelectionDoneC = true;
                 AFS.unbiasedVal -= 2;
             }
@@ -491,7 +491,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3B3 = true;
                 Char3C3 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.JuliaTabOutputInt = 2;
+                ROTDORE.JuliaSQOutputInt = 3;
                 Char3SelectionDoneC = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 1;
@@ -523,7 +523,6 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 RUSSIA.CompassionatePaper += 1;
 
             }
-
         }
     }
 
@@ -538,8 +537,6 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4C1 = false;
                 Char4SelectionDoneA = true;
                 ROTDORE.muckrakerPaper += 1;
-                ROTDORE.MikeTabOutputInt = 1;
-                ROTDORE.MikeSQOutputInt = 1;
                 ROTDORE.MikeOutputInt = 1;
                 //Feedback Vals
                 AFS.credibleVal += 3;
@@ -558,9 +555,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B1 = true;
                 Char4C1 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.MikeTabOutputInt = 2;
-                ROTDORE.MikeSQOutputInt = 2;
-                ROTDORE.MikeOutputInt = 2;
+                ROTDORE.MikeSQOutputInt = 1;
                 Char4SelectionDoneA = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 2;
@@ -581,9 +576,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4C1 = true;
                 ROTDORE.tabloidPaper+=1;
                 Char4SelectionDoneA = true;
-                ROTDORE.MikeTabOutputInt = 3;
-                ROTDORE.MikeSQOutputInt = 3;
-                ROTDORE.MikeOutputInt = 3;
+                ROTDORE.MikeTabOutputInt = 1;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
                 AFS.credibleVal += 3;
@@ -607,6 +600,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B2 = false;
                 Char4C2 = false;
                 ROTDORE.muckrakerPaper+=1;
+                ROTDORE.MikeOutputInt = 2;
                 Char4SelectionDoneB = true;
                 //Feedback Vals
                 AFS.credibleVal += 2;
@@ -626,6 +620,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B2 = true;
                 Char4C2 = false;
                 ROTDORE.statusQuoPaper+=1;
+                ROTDORE.MikeSQOutputInt = 2;
                 Char4SelectionDoneB = true;
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
@@ -644,6 +639,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B3 = false;
                 Char4C3 = true;
                 ROTDORE.tabloidPaper+=1;
+                ROTDORE.MikeTabOutputInt = 2;
                 Char4SelectionDoneB = true;
                 //Feedback Vals
                 AFS.entertainingVal += 1;
@@ -668,6 +664,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B3 = false;
                 Char4C3 = false;
                 ROTDORE.muckrakerPaper+=1;
+                ROTDORE.MikeOutputInt = 3;
                 Char4SelectionDoneC = true;
                 SAS.sideArt4 += 20;
             }
@@ -688,6 +685,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B3 = true;
                 Char4C3 = false;
                 ROTDORE.statusQuoPaper+=1;
+                ROTDORE.MikeSQOutputInt = 3;
                 Char4SelectionDoneC = true;
             }
 
@@ -708,6 +706,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4B3 = false;
                 Char4C3 = true;
                 ROTDORE.tabloidPaper+=1;
+                ROTDORE.MikeTabOutputInt = 3;
                 Char4SelectionDoneC = true;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
@@ -737,7 +736,6 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5C1 = false;
                 ROTDORE.muckrakerPaper+=1;
                 Char5SelectionDoneA = true;
-                ROTDORE.MaxSQOutputInt = 1;
                 ROTDORE.MaxOutputInt = 1;
                 //Feedback Vals
                 AFS.unbiasedVal += 1;
@@ -757,8 +755,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B1 = true;
                 Char5C1 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.MaxSQOutputInt = 2;
-                ROTDORE.MaxOutputInt = 2;
+                ROTDORE.MaxSQOutputInt = 1;
                 Char5SelectionDoneA = true;
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
@@ -777,8 +774,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B1 = false;
                 Char5C1 = true;
                 ROTDORE.tabloidPaper+=1;
-                ROTDORE.MaxSQOutputInt = 3;
-                ROTDORE.MaxOutputInt = 3;
+                ROTDORE.MaxTabOutputInt = 1;
                 Char5SelectionDoneA = true;
                 //Feedback Vals
                 AFS.unbiasedVal -= 2;
@@ -801,7 +797,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B2 = false;
                 Char5C2 = false;
                 ROTDORE.muckrakerPaper+=1;
-                ROTDORE.MaxTabOutputInt = 1;
+                ROTDORE.MaxOutputInt = 2;
                 Char5SelectionDoneB = true;
                 //Feedback Vals
                 AFS.unbiasedVal -= 2;
@@ -820,7 +816,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B2 = true;
                 Char5C2 = false;
                 ROTDORE.statusQuoPaper+=1;
-                ROTDORE.MaxTabOutputInt = 2;
+                ROTDORE.MaxSQOutputInt = 2;
                 Char5SelectionDoneB = true;
                 //Feedback Vals
                 AFS.unbiasedVal += 2;
@@ -840,7 +836,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B2 = false;
                 Char5C2 = true;
                 ROTDORE.tabloidPaper+=1;
-                ROTDORE.MaxTabOutputInt = 3;
+                ROTDORE.MaxTabOutputInt = 2;
                 Char5SelectionDoneB = true;
                 //Feedback Vals
                 AFS.entertainingVal += 2;
@@ -864,6 +860,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B3 = false;
                 Char5C3 = false;
                 ROTDORE.muckrakerPaper+=1;
+                ROTDORE.MaxOutputInt = 3;
                 Char5SelectionDoneC = true;
             }
 
@@ -883,6 +880,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B3 = true;
                 Char5C3 = false;
                 ROTDORE.statusQuoPaper+=1;
+                ROTDORE.MaxSQOutputInt = 3;
                 Char5SelectionDoneC = true;
                 //Feedback Vals
                 AFS.entertainingVal -= 2;
@@ -906,6 +904,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5B3 = false;
                 Char5C3 = true;
                 ROTDORE.tabloidPaper+=1;
+                ROTDORE.MaxTabOutputInt = 3;
                 Char5SelectionDoneC = true;
                 //Feedback Vals
                 AFS.entertainingVal += 1;
