@@ -186,7 +186,7 @@ public class ROTDOREController : MonoBehaviour
 
     public void AllPiecesCalculator(){
 
-        //Novak
+        //Novak (Ordered like this on purpose!!!!!)
         if (NovakOutputInt == 1){
             novakChoiceThree = AllNewspaperPieces[0];
         } else if (NovakSQOutputInt == 1){
