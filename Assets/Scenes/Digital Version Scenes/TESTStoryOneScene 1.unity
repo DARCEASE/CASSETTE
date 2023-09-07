@@ -86850,23 +86850,13 @@ MonoBehaviour:
     to the case.
   - "also hinted that Robert\u2019s personal life might not have been as wholesome
     as it appeared."
-  - "also hinted that Robert\u2019s personal life might not have been as wholesome
-    as it appeared."
-  - 'was five months pregnant at the time of his death.
-
-    
-
-'
+  - "was five months pregnant at the time of his death.\r"
   - "is deeply upset by his sudden passing.\r"
   - "is hysterical with grief for her departed father.\r"
-  - "tepidly supported\r\n\r"
+  - "tepidly supported\r"
   - "overflowed with praise for\r"
   - "clung to the quality of\r"
-  - 'his life choices,
-
-    
-
-'
+  - "his life choices,\r"
   - "his character and disposition,\r"
   - the man she thought she knew,
   - "wasn\u2019t nearly so forgiving.\r"
@@ -86907,6 +86897,21 @@ MonoBehaviour:
   - Despite his deep and long-lasting relationship with Mr. Evergreen,
   - "As one of Mr. Evergreen\u2019s closest companions,\r"
   - "Despite claiming to regret his relationship with Mr. Evergreen,\r"
+  AllParaPieces:
+  - 'Robert Evergreen was found dead outside his workplace Monday morning, having '
+  - Mr. Evergreen was the founder and CEO of Abundantia Investments, a father of
+    two, and a well-liked community member. According to Detective Novak, the investigation
+    is still ongoing. Novak,
+  - "Evergreen is survived by two children, Jim Evergreen and Julia Anderson, as
+    well as an ex-wife. Mr. Evergreen\u2019s daughter Julia\r"
+  - 'Although Julia '
+  - "Mr. Evergreen\u2019s son, Jim,  "
+  - Jim
+  - "Mr. Evergreen\u2019s ex-wife declined to comment for this article."
+  - "Mr. Evergreen\u2019s company will remain in operation, led by his "
+  - Elliot. Ms. Elliot,
+  - "when reached for comment he simply said: \u201CWe were unable to spend as much
+    time together as I wish we could have.\u201D"
   MuckrakerArticlePieces:
   - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having possibly leapt from an upper floor. Mr.
