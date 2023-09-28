@@ -82,9 +82,17 @@ public class GameManager : MonoBehaviour
     public void FinishDemo()
     {
         //Game will go back to title screen 
-        TS.ToNextScene();
+        //TS.ToNextScene();
+        SceneManager.LoadScene("TitleScreen");
         Debug.Log("Thank you for playing :3");
 
+    }
+
+    public void EndCredits()
+
+    {
+        //Sends player to credit screen
+        SceneManager.LoadScene("EndScene");
     }
 
     public void RestartGame()
