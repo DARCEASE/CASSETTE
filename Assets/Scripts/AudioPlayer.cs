@@ -73,6 +73,7 @@ public class AudioPlayer : MonoBehaviour
         a_duration = 0;
         a_source.time = (float) a_duration;
         a_slider.value = (float) a_duration;
+        ShowDuration();
     }
 
     void ShowDuration(){ //Puts the milliseconds into minutes in seconds
