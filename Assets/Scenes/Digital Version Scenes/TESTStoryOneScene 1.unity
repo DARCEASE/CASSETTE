@@ -37033,6 +37033,8 @@ MonoBehaviour:
   - {fileID: 1821060292}
   - {fileID: 1827191284}
   MsgAppTxt: {fileID: 0}
+  _clicked: 0
+  msc: {fileID: 1088587054}
 --- !u!114 &608035562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67250,6 +67252,7 @@ GameObject:
   - component: {fileID: 1088587052}
   - component: {fileID: 1088587051}
   - component: {fileID: 1088587053}
+  - component: {fileID: 1088587054}
   m_Layer: 5
   m_Name: MessagesPanel
   m_TagString: Untagged
@@ -67332,6 +67335,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dragRectTransform: {fileID: 1088587050}
   canvas: {fileID: 1743493949}
+--- !u!114 &1088587054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088587049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3182ebbae1da5d4468dd50eb7b6f5494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sb: {fileID: 1003053390}
+  uiB: {fileID: 608035560}
 --- !u!1 &1089847462
 GameObject:
   m_ObjectHideFlags: 0
