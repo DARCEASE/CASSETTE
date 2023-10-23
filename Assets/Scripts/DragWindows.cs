@@ -14,7 +14,7 @@ public class DragWindows : MonoBehaviour, IDragHandler, IPointerDownHandler
     // Start is called before the first frame update
     private void Awake()
     {
-        Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.lockState = CursorLockMode.Confined;
         if (dragRectTransform == null)
         {
             dragRectTransform = transform.parent.GetComponent<RectTransform>();
