@@ -1,0 +1,14 @@
+"appbuild"
+{
+	"appid" "2660050"
+	"desc" "WIN_DEMO"
+	"buildoutput" "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\output"
+	"contentroot" ""
+	"setlive" ""
+	"preview" "0"
+	"local"	""
+	"depots"
+	{
+		"2660050"	"C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\depot_2660050.vdf"
+	}
+}

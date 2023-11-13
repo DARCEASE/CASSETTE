@@ -1,0 +1,71 @@
+
+
+[2023-10-23 18:24:05] Client version: 1696019544
+[2023-10-23 18:24:05] Load failed: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf.
+[2023-10-23 18:24:05] Load failed: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\config\libraryfolders.vdf.
+[2023-10-23 18:24:05] Steam library folders configuration will be reset.
+[2023-10-23 18:24:05] No install folder configuration files found.
+
+
+[2023-10-23 18:32:19] Client version: 1696019544
+[2023-10-23 18:32:19] Load failed: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf.
+[2023-10-23 18:32:19] Load failed: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\config\libraryfolders.vdf.
+[2023-10-23 18:32:19] Steam library folders configuration will be reset.
+[2023-10-23 18:32:19] No install folder configuration files found.
+
+
+[2023-10-23 18:32:53] Client version: 1696019544
+[2023-10-23 18:32:53] Load failed: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf.
+[2023-10-23 18:32:53] Load failed: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\config\libraryfolders.vdf.
+[2023-10-23 18:32:53] Steam library folders configuration will be reset.
+[2023-10-23 18:32:53] No install folder configuration files found.
+[2023-10-23 18:35:50] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-10-23 18:35:50] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-10-23 18:58:01] Client version: 1696019544
+[2023-10-23 18:58:01] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-10-23 18:58:54] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-10-23 18:58:54] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-10-23 20:15:00] Client version: 1696019544
+[2023-10-23 20:15:00] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-10-23 20:15:01] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-10-23 20:15:01] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-10-23 20:16:22] Client version: 1696019544
+[2023-10-23 20:16:22] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-10-23 20:16:23] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-10-23 20:16:23] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-10-23 20:16:33] Client version: 1696019544
+[2023-10-23 20:16:33] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-10-23 20:16:33] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-10-23 20:16:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-11-03 19:44:58] Client version: 1698778122
+[2023-11-03 19:44:58] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-11-03 19:45:00] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-11-03 19:45:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-11-03 19:46:54] Client version: 1698778122
+[2023-11-03 19:46:54] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-11-03 19:46:55] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-11-03 19:46:55] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-11-03 19:47:11] Client version: 1698778122
+[2023-11-03 19:47:11] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-11-03 19:47:11] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-11-03 19:47:11] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2023-11-03 19:47:23] Client version: 1698778122
+[2023-11-03 19:47:23] Loaded Steam library folders configuration: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2023-11-03 19:47:23] Loaded 0 apps from install folder "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2023-11-03 19:47:23] Triggered async write of Steam library folders configuration (1 libraries).
