@@ -2426,7 +2426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &25537992
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2439,11 +2439,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1445221981}
-  - {fileID: 524045295}
   - {fileID: 1360420689}
   - {fileID: 1777716747}
   - {fileID: 1473048075}
   - {fileID: 846213604}
+  - {fileID: 524045295}
   - {fileID: 286163472}
   - {fileID: 461180465}
   m_Father: {fileID: 548778282}
@@ -5485,7 +5485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &81806185
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8137,8 +8137,8 @@ RectTransform:
   m_Father: {fileID: 1057499419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.36275405}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16511,7 +16511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &286163472
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16564,7 +16564,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: FRANZ STOHLER
+  m_Text: CARLA BROOKS
 --- !u!222 &286163474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20793,7 +20793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: He
+  m_text: The arrest was handled
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -20856,7 +20856,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
+  m_margin: {x: 0, y: 0, z: -271.5654, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -22721,11 +22721,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: bizarre German techno fan
+    - m_Text: "Bailey\u2019s former commanding officer"
       m_Image: {fileID: 0}
-    - m_Text: clueless European tourist
+    - m_Text: One of few women serving as a Lt. Commander in the US Navy
       m_Image: {fileID: 0}
-    - m_Text: young photographer from Berlin
+    - m_Text: 'A Lieutenant Commander in the US Navy - gender is unimportant '
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -23808,11 +23808,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: threatened to kill this reporter!
+    - m_Text: Poorly
       m_Image: {fileID: 0}
-    - m_Text: told this reporter to drop the story!
+    - m_Text: Well
       m_Image: {fileID: 0}
-    - m_Text: told this reporter to stay away from the area!
+    - m_Text: Excellently
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -26707,7 +26707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: He ambushed me on the street! Must have been
+  m_text: "The police response to Michael and Guy\u2019s fight was"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -27688,7 +27688,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &461180465
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28229,7 +28229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &471899251
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28243,7 +28243,7 @@ RectTransform:
   m_Children:
   - {fileID: 551081510}
   m_Father: {fileID: 1465110271}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -28270,7 +28270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Brighton_Man
+  m_text: Det_Novak
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -31395,7 +31395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &524045295
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31409,7 +31409,7 @@ RectTransform:
   m_Children:
   - {fileID: 635884113}
   m_Father: {fileID: 25537992}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -31436,7 +31436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: F_Stohler
+  m_text: C_Brooks
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -34991,7 +34991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Seemed blase about shooting! Reason: '
+  m_text: The military policy about gay servicemen is
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -37335,7 +37335,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 844092289}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -42323,11 +42323,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: Is unconcerned with
+    - m_Text: Justified
       m_Image: {fileID: 0}
-    - m_Text: "Doesn\u2019t really like"
+    - m_Text: Unjustified
       m_Image: {fileID: 0}
-    - m_Text: Cares a lot about
+    - m_Text: Legal, but immoral
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -49465,11 +49465,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: Leave this encounter out of the story
+    - m_Text: Yes
       m_Image: {fileID: 0}
-    - m_Text: Fully report the encounter
+    - m_Text: No
       m_Image: {fileID: 0}
-    - m_Text: "Mention threats, but don\u2019t describe the man who made them"
+    - m_Text: Unsure
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -50559,7 +50559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Guy\u2019s cousin."
+  m_text: "Michael Bailey\u2019s dismissal was"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -50622,7 +50622,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
+  m_margin: {x: 0, y: 0, z: -51.427704, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -50776,7 +50776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &846213604
 RectTransform:
   m_ObjectHideFlags: 0
@@ -50789,7 +50789,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 25537992}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -56502,9 +56502,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17.49, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &950409177
 MonoBehaviour:
@@ -58945,8 +58945,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2119849542}
   m_HandleRect: {fileID: 2119849541}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.76396257
+  m_Value: 1.0000004
+  m_Size: 0.7639627
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -61527,7 +61527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1015581839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -63274,7 +63274,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Witnessed the shooting. Is a
+  m_text: Characterize Lieutenant Commander Carla Brooks as
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -63337,7 +63337,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
+  m_margin: {x: 0, y: 0, z: -9.540939, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -69665,8 +69665,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1905600759}
   m_HandleRect: {fileID: 1905600758}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.84390926
+  m_Value: 1.0000007
+  m_Size: 0.84390944
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -74345,8 +74345,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1734783158}
   m_HandleRect: {fileID: 1734783157}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.7634188
+  m_Value: 1.0000004
+  m_Size: 0.7634189
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -82163,7 +82163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1350438368
 RectTransform:
   m_ObjectHideFlags: 0
@@ -82178,7 +82178,7 @@ RectTransform:
   - {fileID: 593718934}
   - {fileID: 1216182777}
   m_Father: {fileID: 1465110271}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -83362,7 +83362,7 @@ RectTransform:
   m_Children:
   - {fileID: 342704324}
   m_Father: {fileID: 25537992}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -89758,7 +89758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1445221981
 RectTransform:
   m_ObjectHideFlags: 0
@@ -91412,11 +91412,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 81806185}
-  - {fileID: 471899251}
   - {fileID: 1868413349}
   - {fileID: 2073995019}
   - {fileID: 1602968333}
   - {fileID: 1350438368}
+  - {fileID: 471899251}
   - {fileID: 2027036640}
   - {fileID: 1988159525}
   m_Father: {fileID: 548778282}
@@ -92179,7 +92179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1473048075
 RectTransform:
   m_ObjectHideFlags: 0
@@ -92194,7 +92194,7 @@ RectTransform:
   - {fileID: 1352118773}
   - {fileID: 981456425}
   m_Father: {fileID: 25537992}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -93612,11 +93612,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: is jaded to violence
+    - m_Text: Immoral
       m_Image: {fileID: 0}
-    - m_Text: is dismissive of tragedy
+    - m_Text: Correct
       m_Image: {fileID: 0}
-    - m_Text: has a positive outlook
+    - m_Text: Questionable
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -93939,11 +93939,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: 
       m_Image: {fileID: 0}
-    - m_Text: A resident of Brighton Beach
+    - m_Text: Appropriate
       m_Image: {fileID: 0}
-    - m_Text: A member of the Russian mob
+    - m_Text: Extreme
       m_Image: {fileID: 0}
-    - m_Text: A man with a Russian accent
+    - m_Text: Unsatisfactory
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -100025,7 +100025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1602968333
 RectTransform:
   m_ObjectHideFlags: 0
@@ -100038,7 +100038,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1465110271}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -110793,7 +110793,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 25537992}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -115892,9 +115892,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17.49, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1863752227
 MonoBehaviour:
@@ -116025,7 +116025,7 @@ RectTransform:
   m_Children:
   - {fileID: 696072178}
   m_Father: {fileID: 1465110271}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -117261,8 +117261,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 641322198}
   m_HandleRect: {fileID: 641322197}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.71647716
+  m_Value: 1.0000004
+  m_Size: 0.7164773
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -119141,8 +119141,8 @@ RectTransform:
   m_Father: {fileID: 1164493575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.15609062}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -123906,7 +123906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1988159525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -125623,7 +125623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2027036640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -125676,7 +125676,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: BRIGHTON MAN
+  m_Text: DETECTIVE NOVAK
 --- !u!222 &2027036642
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -127975,7 +127975,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1465110271}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -132802,7 +132802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: How to handle this?
+  m_text: "Did Michael\u2019s sexuality affect his arrest at all?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -132865,7 +132865,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93078613, w: 0}
+  m_margin: {x: 0, y: 0, z: -42.26497, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
