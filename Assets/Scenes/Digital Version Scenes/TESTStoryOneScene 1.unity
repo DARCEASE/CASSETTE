@@ -293,7 +293,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1150166148}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.1393761
+  m_Size: 0.13937612
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2426,7 +2426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &25537992
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5485,7 +5485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &81806185
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11668,7 +11668,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 664744876}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.20224497
+  m_Size: 0.20224498
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -16344,38 +16344,41 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Boris Kramarov\n\r\n\nLook, ya nechevo ne znayu. My friend, I don\u2019t
-    know anything. Don\u2019t ask me about anything. I didn\u2019t see anything.
-    I don\u2019t know who did this. \n\nYou know what you can ask? Look at this place.
-    Look at my beautiful restaurant. How am I going to pay my bills? This happened
-    a week ago, and it\u2019s still like this. As long as it\u2019s like this, I\u2019m
-    losing money. Without money, how am I going to pay for this? New windows are
-    expensive.\n\nThis wasn\u2019t supposed to happen here. In America. This country,
-    it was supposed to be a promised land. \n\nBefore this? I was in Birobidzhan.
-    Before that I was in Moscow. Birobidzhan, it\u2019s in the east, in Siberia.
-    It was where Stalin sent all the Jews he didn\u2019t have killed during his purges.
-    It was\u2026the  fifties? The start of the fifties, I think, I was just a child
-    then. My father, a very good doctor in Moscow. But Stalin accused him of trying
-    to murder government officials. All nonsense, of course. But every Jewish doctor
-    in Moscow that didn\u2019t just disappear one day was sent to Siberia. We ended
-    up in Birobidzhan. Winter there was colder than you could believe. But the mountains
-    there\u2026it was a beautiful place, my friend. \n\nWhy am I here? My friend,
-    Birobidzhan was beautiful, but it wasn\u2019t good. Everyone was poor, everyone
-    was hungry. There was crime everywhere. It was part of the government. We thought
-    things might get better after Stalin died, but the party never changed. Even
-    when my father\u2019s name was cleared we weren\u2019t allowed to leave. I thought
-    America was a land of prosperity. My friends and I, we passed around your rock
-    CDs like they were holy artifacts. I listened to the Voice of America and thought
-    that your streets were paved with gold.\n\nSo, when Gorbachev came to power,
-    I applied to leave as soon as I could. I thought life here would be better than
-    in Birobidzhan. It had to be. Anything would be better than Birobidzhan.\n\nBut
-    when I got here\u2026my friend, this country is not what was promised. This restaurant,
-    Nadezhda, I got lucky. There were people here who would help me. Other Jews who
-    helped me land on my feet a bit. We Jews have to stick together. But this\u2026I
-    struggle every day. My family and I are barely scraping by.\n\nAnd now, Gorbachev
-    is gone, and the war is over, and everything that I thought I\u2019d left behind
-    in Siberia has followed me to America. It is my luck, I suppose. My friend, you
-    have no idea what has been unleashed on your country. "
+  m_text: "Boris Kramarov\n\r\nYeah, I saw it happen. Well, sort of. The before and
+    after, I guess. The man they arrested, he came here before it all went down.
+    Ordered a cup of coffee. Just sat there while it got cold. Real quiet guy. Good
+    tipper, too. \r\n\r\nIs what the papers say true? Was he really\u2026Mr. Evergreen\u2019s
+    lover?\r\n\r\nDamn. Never would have known, you know? I guess they really do
+    look like everyone else. \n\nYeah, I knew Mr. Evergreen. He was a regular customer.
+    Every day, came in here to get lunch. Well, every day he was in town, you know?
+    Business trips and all that. But, whenever he was in the city he came here for
+    lunch. Got the same thing every time. Coffee with milk and sugar, tuna melt on
+    rye. Good guy. Really friendly. Talked to me about the old country, asked good
+    questions. I told him if he ever made a trip to Birobidzhan - eh, Siberia - he
+    could stay with my relatives. Really good guy. I liked him. People like that
+    - people that rich - they don\u2019t usually take the time to talk to a guy like
+    me, you know? \u2026I left a mug from the diner for him at the memorial. One
+    last cup of coffee for him, you know?\r\n\nYeah, that day. Um, the guy they arrested
+    - Bailey, I think - came in, ordered a coffee. Black, no sugar. Guess Mr. Evergreen
+    must have told him about the place. Really quiet. I tried to talk to him, ah,
+    he brushed me off. No, no, he wasn\u2019t rude about it. Just, had a lot on his
+    mind I guess. You get to know the look, running a place like this. Some people,
+    they, they just kind of want to come to a crowded place to be quiet? As long
+    as they pay, it\u2019s none of my business. Anyone who comes here to eat is fine
+    with me.\r\n\nNo, I didn\u2019t really see what happened. I saw the before and
+    the after, like I said. The Bailey guy finished his coffee, left his cash on
+    the table, left his tip, and walked out the door. I didn\u2019t exactly watch
+    him leave. Just minding my own business, and I hear this awful commotion from
+    outside. I take a look across the street and he\u2019s just punching this other
+    guy. Bam, bam, bam! Going real hard at him. I picked up the phone, I called the
+    police, all the while he\u2019s still going at the other guy. I thought the poor
+    man was going to die. \r\n\r\nI didn\u2019t see the arrest - there were other
+    customers, the view was blocked by all the cars. But, from what I hear, it wasn\u2019t
+    pretty. A bit after the cops arrive, so do the ambulances. Both Bailey and the
+    guy he was punching got taken away on stretchers. I don\u2019t think that the
+    guy he was punching could have gotten any blows on Bailey, so the police must
+    have roughed him up pretty bad. \r\n\r\nI don\u2019t know. I guess you never
+    know by looking at a guy, right? \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -22480,7 +22483,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1861054270}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.200531
+  m_Size: 0.20053104
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -28231,7 +28234,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &471899251
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41261,7 +41264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: G_Stohler
+  m_text: G_Rogers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -46859,7 +46862,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1881143226}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.13243334
+  m_Size: 0.13243335
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -56044,7 +56047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Brighton_Man.INT
+  m_text: Det_Novak.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -56904,19 +56907,31 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Brighton Beach Man\n\r\n\n NOT AN OFFICIAL INTERVIEW TRANSCRIPT. Audio
-    was recorded secretly by a Local Rag reporter who was being publicly confronted
-    by a probable member of the Russian mob.\n\n\u2013you get it? No more questions,
-    no more \u201Cchats\u201D, no more nothing. You don\u2019t talk to anyone here,
-    got it? Otherwise, you fuckin\u2019 rat\u2026I\u2019ll make you a heart attack.
-    This is the last time you\u2019ll be able to see. You ask any more questions\u2026just
-    wait and see what\u2019s goin\u2019 to happen to you.\n\nAnd don\u2019t even
-    think about going to your cops. What do you think they can do? You think they
-    can touch me? You think your American jails scare me? I survived the gulag and
-    I didn\u2019t break. You have NOTHING that can scare me.\n\nDon\u2019t ask questions.
-    Don\u2019t write about us.  Don\u2019t talk about us. As far as you\u2019re concerned,
-    we don\u2019t exist. Got it? I\u2019m being nice about this. You fucking test
-    me and you die.\n"
+  m_text: "Detective Novak\n\r\nNo, look, man, I can\u2019t talk right now, okay?
+    It\u2019s not a good time. The brass is already on edge what with the protests.
+    I mean, hell, you saw them down at the courthouse, right? They\u2019ve been there
+    all day, just - you can\u2019t miss them! Just endless chanting. The last thing
+    that anybody needs right now is for me to start saying anything more than I should.
+    \r\n\r\nAll that I can tell you on the record is that, yes, Mr. Michael Bailey
+    was arrested. That\u2019s all that I can say on the record, okay? He was arrested,
+    and he\u2019s probably going to be charged by the DA for, I don\u2019t know,
+    aggravated assault or something. \r\n\nWhat do you want me to tell you, man?
+    The arrest? \u2026it was bad, okay? The whole damn city knows it was bad. I can\u2019t
+    - I\u2019m not going to give you any names, okay? But - that Bailey guy, he was
+    an active threat at the time. He was beating the absolute crap out of that guy!
+    But\u2026\r\n\nLook, man. I\u2019ve, I\u2019ve been doing this a long time, okay?
+    I know that sometimes\u2026sometimes it\u2019s just the wrong person in the wrong
+    place at the wrong time who says the wrong freaking thing. And\u2026I don\u2019t
+    know the details of Bailey\u2019s life but, apparently he was gay? And probably
+    Mr. Evergreen\u2019s boyfriend. And he was just kicked out of the navy and this
+    wise guy just starts mouthing off at him - and at Mr. Evergreen\u2019s memorial
+    too! And\u2026look, I\u2019m not saying he deserved it. No one, well, almost
+    no one deserves that. Not that hard, certainly, and not for that. But\u2026\r\n\nI
+    don\u2019t know, man. If we hadn\u2019t intervened, Bailey would probably have
+    killed the guy. But it shouldn\u2019t have gone down like that. And now, now
+    it\u2019s this whole damn mess and I\u2019ve probably already said enough to
+    get dressed down by the brass. \r\n\r\nLook, I really can\u2019t say anything
+    else. You\u2019ve got to go. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -57161,59 +57176,42 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Guy Stohler\r\n\n\nOkay, um\u2026 I guess I should start at the beginning.
-    My cousin Franziska is visiting from Germany for a few days. We went down to
-    Coney Island together, thought we\u2019d check out the beach. We stopped for
-    lunch at a restaurant at Brighton Beach. That\u2019s where it all happened.\r\n\r\nI
-    didn\u2019t even see them walk in! One minute we were sitting down to eat some
-    pierogies and the next\u2026 there were gunshot noises and everyone was yelling
-    and screaming. I always thought \u2013 heh, heh \u2013 I always thought I\u2019d
-    be good in a situation like that, y\u2019know? Spring into action, take the guy
-    down \u2013 but I guess I was too surprised or something \u2018cause I couldn\u2019t
-    even move. I was just kinda frozen in my seat.\r\n\r\n And then\u2026 I got hit
-    by a stray bullet, right here in my left arm. It hurt like a bitch, I gotta tell
-    ya. And here\u2019s the funny thing: when I was sittin\u2019 in the ambulance,
-    all I could think about was my dinner reservation. Isn\u2019t that kinda stupid?
-    I got shot in the arm, and a bunch of people died, and all I could think about
-    was canceling my dinner reservation.\r\n\r\nNo, I\u2019ve never seen something
-    like this before. I live on West 75th. That\u2019s the Upper West Side, we don\u2019t
-    get this kinda stuff up there. I mean, I knew about the mob. I\u2019ve seen the
-    Godfather, haha. I read the news. But I never thought I\u2019d see it up close.
-    I guess things are different in that part of the city. Next time, I\u2019m taking
-    Franz to the history museum, and that\u2019s it! Haha.\r\n\r\nNaw, I\u2019m fine.
-    The bullet wound isn\u2019t too bad. It \u2013ugh \u2013 it doesn\u2019t really
-    hurt anymore, see? I\u2019ve got good doctors. I don\u2019t mind all this. I
-    don\u2019t. I just\u2026 I guess I wanna know, why me? Y\u2019know? How\u2019s
-    that fair? Haha! But like I said, it\u2019s no big deal. I\u2019m sure I\u2019ll
-    \u201Cfuhgeddaboudit\u201D it in a week. Oh, the doctors said I\u2019ll have
-    a scar. But maybe it\u2019ll fade or something. I don\u2019t mind it. I don\u2019t
-    mind either way.\r\nOkay, um\u2026 I guess I should start at the beginning. My
-    cousin Franziska is visiting from Germany for a few days. We went down to Coney
-    Island together, thought we\u2019d check out the beach. We stopped for lunch
-    at a restaurant at Brighton Beach. That\u2019s where it all happened.\n\nI didn\u2019t
-    even see them walk in! One minute we were sitting down to eat some pierogies
-    and the next\u2026 there were gunshot noises and everyone was yelling and screaming.
-    I always thought \u2013 heh, heh [slightly embarrassed] \u2013 I always thought
-    I\u2019d be good in a situation like that, y\u2019know? Spring into action, take
-    the guy down \u2013 but I guess I was too surprised or something \u2018cause
-    I couldn\u2019t even move. I was just kinda frozen in my seat.\n\nAnd then\u2026
-    I got hit by a stray bullet, right here in my left arm. It hurt like a bitch,
-    I gotta tell ya. And here\u2019s the funny thing: when I was sittin\u2019 in
-    the ambulance, all I could think about was my dinner reservation. Isn\u2019t
-    that kinda stupid? I got shot in the arm, and a bunch of people died, and all
-    I could think about was canceling my dinner reservation.\n\nNo, I\u2019ve never
-    seen something like this before. I live on West 75th. That\u2019s the Upper West
-    Side, we don\u2019t get this kinda stuff up there. I mean, I knew about the mob.
-    I\u2019ve seen the Godfather, haha. I read the news. But I never thought I\u2019d
-    see it up close. I guess things are different in that part of the city. Next
-    time, I\u2019m taking Franz to the history museum, and that\u2019s it! Haha.\n\nNaw,
-    I\u2019m fine. The bullet wound isn\u2019t too bad. It \u2013 ugh \u2013 it doesn\u2019t
-    really hurt anymore, see? I\u2019ve got good doctors. I don\u2019t mind all this.
-    I don\u2019t. I just\u2026 I guess I wanna know, why me? Y\u2019know? How\u2019s
-    that fair? Haha! But like I said, it\u2019s no big deal. I\u2019m sure I\u2019ll
-    \u201Cfuhgeddaboudit\u201D it in a week. Oh, the doctors said I\u2019ll have
-    a scar. But maybe it\u2019ll fade or something. I don\u2019t mind it. I don\u2019t
-    mind either way.\n"
+  m_text: "Hey! Guy Rogers. Nice meetin\u2019 ya.\r\n\r\nThe reporter asks Guy to
+    describe the incident. Guy is casual. He talks to the reporter like they\u2019re
+    pals.\r\n\r\nSo, uh, when it happened, I was at Mr. Evergreen\u2019s memorial.
+    Community affair outside his office building. There was this big muscly fella
+    there putting a \u2013 little \u2013 flower? Or somethin\u2019, made outta rope?
+    It was \u2013 aheh, it was badly made, I could \u2013 I could tell he\u2019d
+    made it himself, ahah\u2026\r\n\r\r\nAnyway, I said to the guy, hey, you make
+    that in girl scouts or somethin\u2019? Just tryin\u2019 to bust his balls a little,
+    y\u2019know? A joke! But \u2013 but I guess he didn\u2019t appreciate it, heh,
+    because he \u2013 uh, he just threw a punch! So hard it knocked me down. I was
+    taken totally by surprise! And then he, uhhh, he, he starting beating me there.
+    I wasn\u2019t \u2013 ehhh, I wasn\u2019t really able to \u2013 throw any punches
+    back or anything, I was too \u2013 surprised! Always thought I could defend myself
+    in a situation like that, but when it comes outta nowhere, what can you do, y\u2019know?\r\n\r\r\nI
+    was real lucky, actually, there was an officer nearby who came over right away,
+    pulled the big guy offa me. I swear the guy wanted to kill me! Could see it in
+    his eyes and the officer pulled him away. He wanted me dead, I\u2019m sure of
+    it! Thank God he didn\u2019t get the chance! Officer roughed him up a little
+    and took him away. Ambulance came and all, but I\u2019m fine, really! Got bruised,
+    got \u2013 got roughed up, y\u2019know, but hey, I took it like a man, I can
+    handle it! No issue, heh.\r\n\r\nNah, I didn\u2019t know Evergreen myself, but
+    \u2013 but, well, heh, y\u2019know, when I was a kid, I kinda looked up to him!
+    You know how kids are. I clipped a photo of him from the paper once and in high
+    school I kept it in my wallet, ahah! \u2026Whenever I felt down I\u2019d take
+    him out and say, look, Guy, this is what you want! This is who you \u2013 this
+    is who you gotta be. You\u2019ll have it! You\u2019ll have it. And look where
+    I am now! Very successful! S-so sad that Mr. Evergreen died, real shame. City
+    won\u2019t be the same without him!\n\nYou\u2013? \u2026Ahaha, that\u2019s not
+    \u2013 you been readin\u2019 the tabloids? Robert Evergreen wasn\u2019t \u2013
+    ehehhh, he wasn\u2019t like that. He wasn\u2019t a, uh, a homosexual man. No
+    sir! He had a wife, y\u2019know? And kids? He was a ladies\u2019 man! Not into
+    \u2013 not into guys, that\u2019s for sure! And THAT guy? G.I. Joe? Mr. \u2013
+    Mr. Street Fighter himself? The very same? Pfffff! Don\u2019t believe everything
+    you hear, yeah?\r\n\nOhhhh yeah, I\u2019m fine, not too much \u2013 aheh, not
+    too many lingering injuries, just \u2013 just takin\u2019 it easy, no problem.
+    Like I said, I\u2019m tough stuff. I just hope that weirdo learned his lesson!\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -58735,7 +58733,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 930756807}
   m_Direction: 2
   m_Value: 1.0000004
-  m_Size: 0.76238406
+  m_Size: 0.7623842
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -78540,31 +78538,38 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nFranziska Stohler\r\n\r\n\nDo you hear this music? Great stuff! I\u2019m
-    from Berlin, they have a crazy nightlife there! But I\u2019m in New York for
-    Frankie Bones. The Future is Ours! He\u2019s got a\u2013 uh\u2013 a \u201Cgenerator
-    party\u201D here, you should come! Have some fun!\n\nOh, that\u2019s a camera
-    bag! I photograph the Technoszene in Berlin. I take a lot of pictures. It\u2019s
-    good to document things. I photographed the Berlin Wall when it fell. It was
-    so great to know that the war was finally over! But the nightlife photos are
-    more important. That\u2019s where Germany really came back together \u2013 on
-    the dance floor!\n\nOh, you have questions about the restaurant, N-Nadezhda?
-    Yes, I was there with my cousin, very scary. People walked in and started shooting
-    at a group of customers, and then the customers started shooting back! It was
-    very loud \u2013 bang-bang-bang \u2013 and my cousin Guy got hit by a bullet
-    right here! After a few seconds, the shooting people ran away, and then the customers
-    ran too \u2013 even some of the ones with bullets in them! Someone told me it
-    was the Russian and the Italian mob. That\u2019s crazy! Does that kind of thing
-    happen a lot here?\n\nYes, Guy is my cousin. I invited him to come with me here,
-    to get his mind off the injury, but he said no! He doesn\u2019t come with me
-    to parties, he doesn\u2019t like to have fun. He\u2019s a\u2013 a stiff kind
-    of person, you know? But underneath I think he\u2019s really sensitive! He\u2019s
-    a nice person, very kind, I\u2019m glad he\u2019s alright.\n\nYes I\u2019m out
-    dancing! Sure, there were guns and bullets, but I\u2019m still alive. Man muss
-    die Dinge nehmen, wie sie kommen. People build walls and people tear walls down.
-    Countries break apart and countries merge together. Someone probably drops nukes
-    on us tomorrow, but right now, we don\u2019t stop dancing! There is no future!
-    Peace, love, unity! Come on!"
+  m_text: "\rLieutenant Commander Carla Brooks\n\r\nFormer Lieutenant Michael Bailey
+    was dismissed from the United States Navy several days ago. No, the court-martial
+    grants discharges. My only involvement in the process was to inform him of the
+    decision. \r\n\r\nThe United States Navy no longer has any affiliation with Mr.
+    Bailey. Any action he may have taken after his discharge is entirely unrelated
+    to us. He, and only he, is responsible for his current situation.\r\n\r\nHomosexuality
+    is strictly forbidden in the United States Navy. Mr. Bailey was discharged in
+    accordance with this policy. \r\n\nMy relationship with Mr. Bailey was\u2026professional.
+    Passing. I did not know him personally. I cannot answer those sorts of questions.\r\n\nWhy
+    are you asking me this? Do you think that I\u2019m responsible for something?
+    I acted in accordance with the official policy of the United States Navy on homosexual
+    activity. Hundreds of homosexuals are released from service each year. This was
+    not a special case. The United States Navy holds no malice or ill will towards
+    homosexuals. Mr. Bailey was treated with the utmost respect, even as he was released
+    from service. There was nothing personal about this decision. It\u2019s just
+    policy.\r\n\nReally? And what would you have me do? Are you suggesting that I
+    should have ignored United States Navy policy? Given Mr. Bailey a free pass because,
+    what, he fucked some locally famous businessman? You don\u2019t know anything
+    about this situation. You don\u2019t know anything about me.\r\n\nDo you understand
+    how rare it is for a woman to hold the position of Lieutenant Commander in the
+    United States Navy? You want me to disregard United States Navy policy, sacrifice
+    my position, my career to, what, exactly? To take a stand? My replacement would
+    be in my place before the week was over. And Lieutenant Bailey would still be
+    dishonorably discharged. \r\n\r\nYou are aware that the United States government
+    treats a dishonorable discharge as the equivalent of a felony conviction, correct?
+    Mr. Bailey was aware of this policy. He knew the consequences. He chose to reveal
+    his homosexuality. All he had to do was stay quiet. If he really could not bear
+    to conceal his lifestyle any longer he could have resigned at the end of his
+    current contract or requested an early discharge. He had options.\r\nIf you have
+    any problem with the official policies of the United States Navy, I suggest you
+    take it up with your senator.\r\n\r\nI\u2019m going to have to end this conversation
+    now. We\u2019re done.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -82165,7 +82170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1350438368
 RectTransform:
   m_ObjectHideFlags: 0
@@ -82628,7 +82633,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1405370027}
   m_HandleRect: {fileID: 1405370026}
   m_Direction: 0
-  m_Value: 1.0000381
+  m_Value: 1
   m_Size: 0.998844
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -88349,7 +88354,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 577281579}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.18158889
+  m_Size: 0.1815889
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -99036,36 +99041,48 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vito Masucci\n\n\nListen, I really appreciate you coming all the way up
-    here to Sing Sing to talk to me. It\u2019s your first time here, right? I doubt
-    it\u2019s exactly your usual beat. \n\nWhat do I wanna talk to you about? What
-    do you think? The Russians. Those Russian goons shot my nephew - murdered him
-    and his buddy like dogs in the street. And for what? For doing business in Brighton
-    Beach? That\u2019s illegal now? Excuse my language, but it\u2019s bullshit. He
-    didn\u2019t do a damn thing to them. He was a good kid. He had a future.\n\nBut
-    you already know that. That\u2019s not why I asked you to come here. No, I asked
-    you to come here because I might be able to point you in the direction of the
-    assholes that did this. Now, you didn\u2019t hear this from me, but the guy you\u2019re
-    looking for is one Ivan Puzyretsky. Ivan the Terrible, they call him. He\u2019s
-    the one running that new crop of Russian goons down on Brighton Beach that came
-    here when the wall fell. They came here to this country, this beautiful city,
-    and started sticking their noses where they don\u2019t belong.\n\nWhat, you don\u2019t
-    believe me, kid? Now why would I lie to you about something like that? What have
-    I got to gain, huh? Let\u2019s say you go to the cops about it. I don\u2019t
-    think they\u2019d believe you - not on my word. The suits don\u2019t exactly
-    want to trust the word of a guy they locked up on a RICO racket. I\u2019m innocent,
-    of course, but try telling that to Uncle Sam. No, I figure that information could
-    best be delivered to a good, honest paper like yours. Hey, I\u2019m a gentleman.
-    I want to give back to the community, you know?\n\nLook, I\u2019ve made mistakes.
-    That\u2019s why I\u2019m here. But as bad as the feds may think I am, I never
-    did anything like these Russians. I have rules, I have a code of honor. There
-    are lines you just don\u2019t cross. Not for these Russians. There\u2019s nothing
-    they won\u2019t do to you. \nListen, it\u2019s a good thing you\u2019re doing,
-    talking to me. Someone needs to get the message out there. These Russian goons\u2026they\u2019re
-    bad news. And I\u2019m glad that you\u2019re coming to me to get my opinion.
-    It\u2019s a real sign of respect, you know? And I appreciate that. If there\u2019s
-    anything, ANYTHING, you need, you let me know, ok? You can tell my lawyer, he\u2019ll
-    tell me. I\u2019ll make sure that you\u2019re taken care of."
+  m_text: "Dani Kaminski\n\n\nYes! Yes \u2013 uhh\u2026 *clears throat* I am here
+    with queers against violence. We are outside of the New York Criminal Court.
+    We are protesting the brutally violent arrest of Michael Bailey, which happened
+    yesterday, after his involvement in a small scuffle on the street. Every day
+    we queers are attacked from every direction and we have had ENOUGH of it! We
+    aren\u2019t gonna stand for it anymore!\r\n\n\r\nYeah! I - I wasn\u2019t there
+    myself but I can tell you what I\u2019ve heard about it. Um \u2013 Michael, uh,
+    went to the community memorial outside of Roberts workplace \u2013 in order to
+    mourn. There, he was\u2026 provoked \u2013 attacked \u2013 by somebody who was
+    also visiting the memorial. And they got into a fight. Uhh, the police \u2013
+    were called, and when they arrived, they pulled the two of them apart, and Michael
+    immediately surrendered, but nonetheless, the police beat him. Brutally.\r\n\r\nOH
+    yes, this kind of thing happens constantly. Luckily, I have never, myself, been
+    the target of a police beating \u2013 but, uh, I have been attacked by other
+    people before \u2013 six months ago, I was attacked by a group of three \u2013
+    one of them had a baseball bat, um\u2026 left me with\u2026 bruised\u2026 ribs
+    and a broken rib, as well. Uhhh \u2013 and of course, the police didn\u2019t
+    give a shit about that! Heh! But when it\u2019s a straight white Wall Street
+    get who\u2019s getting beaten \u2013 and it\u2019s a queer who\u2019s doing the
+    beating, then \u2013 they mobilize the whole precinct on him!\r\n\r\nWell, no,
+    we\u2019re not \u2013 protesting the fact that Michael\u2026 was arrested. We\u2019re
+    protesting the fact that he was beaten so brutally by the police. You get that?
+    The police are supposed to be people who PROTECT this city \u2013 people who
+    protect its citizens. Michael surrendered, Michael was not a threat. But the
+    police beat him anyway. That\u2019s not okay!\r\n\nWell \u2013 yeah, he did it
+    because Michael\u2019s gay, but \u2013 you gotta get something here. That police
+    officer didn\u2019t attack Michael because he hated specifically Michael \u2013
+    he didn\u2019t have something against Michael individually. Okay? He attacked
+    Michael because Michael is queer. It could have been ANY of us here \u2013 any
+    other queer \u2013 standing in his shoes that day\u2026 and he would have done
+    EXACTLY the same thing. He didn\u2019t \u2013 just attack Michael specifically
+    that day \u2013 he attacked a queer, who just so happened to be Michael. You
+    get it? He attacked any of us \u2013 all of us. That\u2019s why we\u2019re protesting!\n\nHeh\u2026
+    hmh\u2026 y\u2019know what? No! I \u2013 I DON\u2019T think that Michael was
+    wrong for getting into a fight. Yeah, I\u2019m honestly surprised he just \u2013
+    kept it together that long at all. Uhh, considering what I\u2019ve heard about
+    him, and about the way the Navy is\u2026 uhh, I\u2019m shocked he didn\u2019t
+    snap sooner! \u2026You know, you fuckin\u2019 straights\u2026 you\u2019re so
+    ridiculous! I don\u2019t understand you. \u2026Well you\u2019re CONSTANTLY trying
+    to convince us \u2013 that we\u2019re monsters? And then you act SO fuckin\u2019
+    surprised when we start ACTING like it. I don\u2019t get how you justify yourselves
+    \u2013 it\u2019s SAD, honestly.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -99531,7 +99548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: F_Stohler.INT
+  m_text: C_Brooks.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -100027,7 +100044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1602968333
 RectTransform:
   m_ObjectHideFlags: 0
@@ -115894,9 +115911,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17.49, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1863752227
 MonoBehaviour:
@@ -119143,8 +119160,8 @@ RectTransform:
   m_Father: {fileID: 1164493575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.15609062}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0000047683716, y: 0}
   m_SizeDelta: {x: 20, y: 2.0248032}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -122151,7 +122168,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1015101736}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3806851
+  m_Size: 0.38068512
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -123196,7 +123213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: V_Masucci.INT
+  m_text: D_Kaminskii.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
   m_sharedMaterial: {fileID: 7634562543802530875, guid: 563867dd446532743b6baf522e995bfa, type: 2}
@@ -123908,7 +123925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1988159525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -125625,7 +125642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2027036640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -129047,7 +129064,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GUY STOHLER
+  m_Text: GUY ROGERS
 --- !u!222 &2091526464
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -129661,8 +129678,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1876697046}
   m_HandleRect: {fileID: 1876697045}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.1696573
+  m_Value: 1.0000001
+  m_Size: 0.16965733
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
