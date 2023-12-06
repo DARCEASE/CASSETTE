@@ -28434,8 +28434,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646639336}
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.7445447
+  m_Value: 1.0000005
+  m_Size: 0.74454474
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -46311,7 +46311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Novak.INT
+  m_text: Det_Novak .INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -69202,7 +69202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'G_Stohler.
+  m_text: 'D_Kaminski.
 
     INT'
   m_isRightToLeft: 0
@@ -77866,8 +77866,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1578229421}
   m_HandleRect: {fileID: 1578229420}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.7445447
+  m_Value: 1
+  m_Size: 0.74454474
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -80933,7 +80933,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'F_Stohler.
+  m_text: 'Lt_Com_
+
+    Brooks.
 
     INT'
   m_isRightToLeft: 0
@@ -94644,7 +94646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Brighton_Man.
+  m_text: 'G_Rogers.
 
     INT'
   m_isRightToLeft: 0
@@ -114320,7 +114322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C_Brooks
+  m_text: C_BROOKS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -121382,7 +121384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DANI
+  m_text: D_KAMINSKI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -128705,7 +128707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'V_Masucci.
+  m_text: 'Det_Novak.
 
     INT'
   m_isRightToLeft: 0
