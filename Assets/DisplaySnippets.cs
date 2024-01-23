@@ -12,10 +12,13 @@ public class DisplaySnippets : MonoBehaviour
     // ROTDORE:Make a system that stores the text and audio file that should appear when the player selects a certain button.
 
     [SerializeField] AudioClip[] Novak_Audios, Jim_Audios, Julia_Audios, Max_Audios, Mike_Audios;
+    [TextArea]
     [SerializeField] string[] Novak_Texts, Jim_Texts, Julia_Texts, Max_Texts, Mike_Texts;
 
     [SerializeField] TMP_Text currentDisplayedText;
+    [SerializeField] AudioSource currentAudioSource;
     [SerializeField] AudioClip currentDisplayedAudio;
+    //if player clicks on THIS button, THIS text will appear.
 
 
     
@@ -34,5 +37,10 @@ public class DisplaySnippets : MonoBehaviour
     public void Novak_Audio_One(){
         currentDisplayedAudio = Novak_Audios[0];
         currentDisplayedText.text = Novak_Texts[0];
+    }
+
+    public void Julia_Audio(){
+        currentDisplayedAudio = Julia_Audios[0];
+        currentDisplayedText.text = Julia_Texts[0];
     }
 }
