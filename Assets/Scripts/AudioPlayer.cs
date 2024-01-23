@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 using TMPro;
 
+
 // PLAN: For this to play and pause audio, and have the player scrub through audio if need be.
 // If the player hits an icon, the player should pop up and play the audio for them.
 
