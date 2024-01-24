@@ -3641,7 +3641,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 925287765}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &46370883
 MonoBehaviour:
@@ -25321,7 +25321,7 @@ RectTransform:
   - {fileID: 705887520}
   - {fileID: 2002203175}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -27617,7 +27617,7 @@ RectTransform:
   - {fileID: 1212401873}
   - {fileID: 838564479}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -27666,7 +27666,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: aff2048c8e710414f897506eb6c0c7c6, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -29666,7 +29666,7 @@ GameObject:
   - component: {fileID: 478485546}
   - component: {fileID: 478485545}
   m_Layer: 5
-  m_Name: Jim.INT
+  m_Name: Met_Him.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29689,7 +29689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.100002, y: -23.999992}
+  m_AnchoredPosition: {x: -93, y: -23.999992}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478485545
@@ -29743,7 +29743,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1877495099}
+        m_TargetAssemblyTypeName: DisplaySnippets, Assembly-CSharp
+        m_MethodName: Julia_Audios_Two
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -34644,7 +34656,6 @@ RectTransform:
   - {fileID: 774034113}
   - {fileID: 25537992}
   - {fileID: 1728486251}
-  - {fileID: 1877495097}
   - {fileID: 1983585081}
   - {fileID: 456504217}
   - {fileID: 922320284}
@@ -40860,7 +40871,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Anderson.INT
+  m_text: Partner.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -44894,7 +44905,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715710442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1048006060}
@@ -57030,7 +57041,7 @@ RectTransform:
   - {fileID: 937857137}
   - {fileID: 2078945142}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -57361,6 +57372,7 @@ Transform:
   - {fileID: 1410984874}
   - {fileID: 608035559}
   - {fileID: 1762230525}
+  - {fileID: 1877495097}
   - {fileID: 46370882}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -69261,7 +69273,7 @@ RectTransform:
   - {fileID: 1352542246}
   - {fileID: 208352997}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -77765,7 +77777,7 @@ RectTransform:
   - {fileID: 1688709500}
   - {fileID: 1130754025}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -80939,7 +80951,7 @@ GameObject:
   - component: {fileID: 1288279490}
   - component: {fileID: 1288279489}
   m_Layer: 5
-  m_Name: Novak.INT
+  m_Name: Suicide.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80962,7 +80974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.67, y: -23.999992}
+  m_AnchoredPosition: {x: 177.3, y: -23.999992}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1288279489
@@ -81016,7 +81028,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1877495099}
+        m_TargetAssemblyTypeName: DisplaySnippets, Assembly-CSharp
+        m_MethodName: Julia_Audios_Five
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -90263,7 +90287,7 @@ RectTransform:
   - {fileID: 377811607}
   - {fileID: 1868582929}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -90360,7 +90384,7 @@ RectTransform:
   - {fileID: 1708811568}
   - {fileID: 1689911373}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -97348,7 +97372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J_Evergreen.INT
+  m_text: Met_Him.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -99010,7 +99034,7 @@ GameObject:
   - component: {fileID: 1537674755}
   - component: {fileID: 1537674754}
   m_Layer: 5
-  m_Name: Max.INT
+  m_Name: Reputation.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99033,7 +99057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.3, y: -23.999992}
+  m_AnchoredPosition: {x: 87, y: -23.999992}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537674754
@@ -99087,7 +99111,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 12
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1877495099}
+        m_TargetAssemblyTypeName: DisplaySnippets, Assembly-CSharp
+        m_MethodName: Julia_Audios_Four
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -99525,7 +99561,7 @@ RectTransform:
   - {fileID: 398406757}
   - {fileID: 2018411251}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -104296,7 +104332,7 @@ GameObject:
   - component: {fileID: 1620277683}
   - component: {fileID: 1620277682}
   m_Layer: 5
-  m_Name: MichaeL.INT
+  m_Name: Why_Dead.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104319,7 +104355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 83, y: -23.99997}
+  m_AnchoredPosition: {x: -187, y: -24}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620277682
@@ -104373,7 +104409,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1877495099}
+        m_TargetAssemblyTypeName: DisplaySnippets, Assembly-CSharp
+        m_MethodName: Julia_Audios_One
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -108503,7 +108551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1672103987
 RectTransform:
   m_ObjectHideFlags: 0
@@ -108750,7 +108798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Elliot.INT
+  m_text: Reputation.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -108884,41 +108932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Julia Anderson\r\n\r\n\nDad didn\u2019t kill himself. I don\u2019t care
-    what anyone says, Dad didn\u2019t kill himself. He would never do that. He didn\u2019t
-    have any reason to. He was happy, ok? Happier than I think he had ever been before.
-    He had a thriving business, he had a family, he was about to have his first grandchild,
-    for God sake. There was nothing that would have been causing him this kind of
-    grief.\n\nAbout \u2013 what do you mean about his \u2013 Jim. You spoke to Jim.
-    No, Jim didn\u2019t lie to you, but \u2013 he also \u2013 look \u2013 you have
-    to understand, of course the divorce was hard for all of us, but for Jim \u2013
-    Dad was Jim\u2019s hero growing up. He wanted to be just like him. So, for Jim,
-    the divorce wasn\u2019t just sad, it \u2013 it was a betrayal. He couldn\u2019t
-    \u2013 can\u2019t see past his own anger. \n\nI mean, I was sad too when it happened.
-    Everyone\u2019s upset if their parents get divorced, I think, but it made more
-    sense to me. Mom and Dad were really careful to keep their arguments away from
-    Jim. I mean, they \u2013 they also tried to keep their arguments away from me,
-    but I still heard them. So I knew that Dad wasn\u2019t happy. So, the divorce
-    made me sad, but I didn\u2019t feel betrayed by it the way that Jim did. The
-    way that Jim does.\n\nAnd when Jim told me about Dad\u2019s \u2013 partner, I
-    don\u2019t know, I \u2013 I guess it made some things make sense. \n\nNo, I\u2019ve
-    never met him. I \u2013 I never had the opportunity. I don\u2019t think he lives
-    in the city. I mean \u2013 pretty sure that he and Dad didn\u2019t live together.
-    I talked to Dad about it a little bit, after Jim told me. Mostly just because
-    I was curious and, well, a little bit scared if it was true, with the virus going
-    around and everything, but Dad told me that that wasn\u2019t something that I
-    had to worry about, and \u2013 can\u2019t say that I understand it entirely,
-    but Dad was happy. And I guess that was enough.\n\nI don\u2019t know why Dad
-    is dead now. I don\u2019t know what happened. I just know that he wouldn\u2019t
-    and didn\u2019t kill himself. He was too excited to meet his grandchild in March,
-    he wouldn\u2019t kill himself. I don\u2019t know if it was murder, or accident,
-    or whatever, but it wasn\u2019t suicide.\n\nLook, about \u2013 about Dad. I know
-    that this is a juicy scoop, ok? I \u2013 I get it, but, do you have to publish
-    it? I mean, look, you don\u2019t \u2013 you don\u2019t have to lie, but you don\u2019t
-    have to tell the whole truth, either. You and I may be enlightened people, but
-    the rest of the world isn\u2019t so forgiving, and \u2013 Dad didn\u2019t even
-    really want me to know. Dad \u2013 Dad had a reputation. It isn\u2019t right
-    for you to destroy it."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
   m_sharedMaterial: {fileID: -1452325657931712687, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
@@ -120862,15 +120876,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877495096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.00049283047}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 106.10184}
+  m_LocalScale: {x: 0.805, y: 0.805, z: 0.805}
   m_Children: []
-  m_Father: {fileID: 548778282}
-  m_RootOrder: 15
+  m_Father: {fileID: 925287765}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.780003}
+  m_AnchoredPosition: {x: -37.363068, y: 35.035397}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1877495098
@@ -120994,11 +121008,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   Julia_Audios:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 63ba451e3d81f824d958a75849f08f3e, type: 3}
+  - {fileID: 8300000, guid: bceaccce79ce4874ea6ca3341fbc1360, type: 3}
+  - {fileID: 8300000, guid: ec41157ddcce6984c90c5743c90a84db, type: 3}
+  - {fileID: 8300000, guid: 73a446e7a5072bc448d948151b47622f, type: 3}
+  - {fileID: 8300000, guid: 661526c798adbc0478fcc3390ec03733, type: 3}
   Max_Audios:
   - {fileID: 0}
   - {fileID: 0}
@@ -121170,8 +121184,13 @@ MonoBehaviour:
     place. Nothing changes. Neither choice is good. I already made my decision. But
     either way \u2013 I can\u2019t help but feel like I have to regret my relationship
     with Robert, which is \u2013 never mind.\r\n\r\n"
-  currentDisplayedText: {fileID: 895287734}
-  currentAudioSource: {fileID: 0}
+  currentDisplayedText: {fileID: 1676831443}
+  currentAudioSource: {fileID: 1877495098}
+  Char1AS: {fileID: 0}
+  Char2AS: {fileID: 456504220}
+  Char3AS: {fileID: 0}
+  Char4AS: {fileID: 0}
+  Char5AS: {fileID: 0}
   currentDisplayedAudio: {fileID: 0}
 --- !u!1 &1877883465
 GameObject:
@@ -121425,7 +121444,7 @@ GameObject:
   - component: {fileID: 1879453645}
   - component: {fileID: 1879453644}
   m_Layer: 5
-  m_Name: Julia.INT
+  m_Name: Partner.INT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121448,7 +121467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -99, y: -24}
+  m_AnchoredPosition: {x: -0.00001812, y: -26}
   m_SizeDelta: {x: 40, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879453644
@@ -121503,6 +121522,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1877495099}
+        m_TargetAssemblyTypeName: DisplaySnippets, Assembly-CSharp
+        m_MethodName: Julia_Audios_Three
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -125304,7 +125335,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M_Bailey.INT
+  m_text: Why_Dead.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
@@ -127255,7 +127286,7 @@ RectTransform:
   - {fileID: 1180842096}
   - {fileID: 1276703313}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -128474,7 +128505,7 @@ RectTransform:
   - {fileID: 1233770696}
   - {fileID: 972459588}
   m_Father: {fileID: 548778282}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -132301,7 +132332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Det_Novak .INT
+  m_text: Suicide.INT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
   m_sharedMaterial: {fileID: -1526508358855837044, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
