@@ -27591,9 +27591,9 @@ GameObject:
   - component: {fileID: 456504222}
   - component: {fileID: 456504221}
   - component: {fileID: 456504220}
-  - component: {fileID: 456504223}
   - component: {fileID: 456504218}
   - component: {fileID: 456504219}
+  - component: {fileID: 456504223}
   - component: {fileID: 456504224}
   m_Layer: 5
   m_Name: Char2InterviewPanel
@@ -121008,11 +121008,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   Julia_Audios:
-  - {fileID: 8300000, guid: 63ba451e3d81f824d958a75849f08f3e, type: 3}
-  - {fileID: 8300000, guid: bceaccce79ce4874ea6ca3341fbc1360, type: 3}
-  - {fileID: 8300000, guid: ec41157ddcce6984c90c5743c90a84db, type: 3}
   - {fileID: 8300000, guid: 73a446e7a5072bc448d948151b47622f, type: 3}
+  - {fileID: 8300000, guid: ec41157ddcce6984c90c5743c90a84db, type: 3}
+  - {fileID: 8300000, guid: bceaccce79ce4874ea6ca3341fbc1360, type: 3}
   - {fileID: 8300000, guid: 661526c798adbc0478fcc3390ec03733, type: 3}
+  - {fileID: 8300000, guid: 63ba451e3d81f824d958a75849f08f3e, type: 3}
   Max_Audios:
   - {fileID: 0}
   - {fileID: 0}
@@ -121080,12 +121080,18 @@ MonoBehaviour:
     I saw a side of him that the rest of those people - the rest of these people
     never did. Don\u2019t forget what I told you. I knew him better than anybody.\r\n\r\n"
   Julia_Texts:
-  - "suicide.int\r\n\r\nDad didn\u2019t kill himself. I don\u2019t care what anyone
-    says, Dad didn\u2019t kill himself. He would never do that. He didn\u2019t have
-    any reason to. He was happy, ok? Happier than I think he had ever been before.
-    He had a thriving business, he had a family, he was about to have his first grandchild,
-    for God sake. There was nothing that would have been causing him this kind of
-    grief.\r"
+  - "why_dead.int\r\n\r\nI don\u2019t know why Dad is dead now. I don\u2019t know
+    what happened. I just know that he wouldn\u2019t and didn\u2019t kill himself.
+    He was too excited to meet his grandchild in March, he wouldn\u2019t kill himself.
+    I don\u2019t know if it was murder, or accident, or whatever, but it wasn\u2019t
+    suicide.\r\n"
+  - "met_him.int\r\n\r\nNo, I\u2019ve never met him. I \u2013 I never had the opportunity.
+    I don\u2019t think he lives in the city. I mean \u2013 pretty sure that he and
+    Dad didn\u2019t live together. I talked to Dad about it a little bit, after Jim
+    told me. Mostly just because I was curious and, well, a little bit scared if
+    it was true, with the virus going around and everything, but Dad told me that
+    that wasn\u2019t something that I had to worry about, and \u2013 can\u2019t say
+    that I understand it entirely, but Dad was happy. And I guess that was enough.\r\n\r\n"
   - "partner.int\r\n\r\nAbout \u2013 what do you mean about his \u2013 Jim. You spoke
     to Jim. No, Jim didn\u2019t lie to you, but \u2013 he also \u2013 look \u2013
     you have to understand, of course the divorce was hard for all of us, but for
@@ -121100,18 +121106,6 @@ MonoBehaviour:
     way that Jim did. The way that Jim does.\r\n\r\nAnd when Jim told me about Dad\u2019s
     \u2013 partner, I don\u2019t know, I \u2013 I guess it made some things make
     sense. "
-  - "met_him.int\r\n\r\nNo, I\u2019ve never met him. I \u2013 I never had the opportunity.
-    I don\u2019t think he lives in the city. I mean \u2013 pretty sure that he and
-    Dad didn\u2019t live together. I talked to Dad about it a little bit, after Jim
-    told me. Mostly just because I was curious and, well, a little bit scared if
-    it was true, with the virus going around and everything, but Dad told me that
-    that wasn\u2019t something that I had to worry about, and \u2013 can\u2019t say
-    that I understand it entirely, but Dad was happy. And I guess that was enough.\r\n\r\n"
-  - "why_dead.int\r\n\r\nI don\u2019t know why Dad is dead now. I don\u2019t know
-    what happened. I just know that he wouldn\u2019t and didn\u2019t kill himself.
-    He was too excited to meet his grandchild in March, he wouldn\u2019t kill himself.
-    I don\u2019t know if it was murder, or accident, or whatever, but it wasn\u2019t
-    suicide.\r\n"
   - "reputation.int\r\n\r\nLook, about \u2013 about Dad. I know that this is a juicy
     scoop, ok? I \u2013 I get it, but, do you have to publish it? I mean, look, you
     don\u2019t \u2013 you don\u2019t have to lie, but you don\u2019t have to tell
@@ -121119,6 +121113,12 @@ MonoBehaviour:
     the world isn\u2019t so forgiving, and \u2013 Dad didn\u2019t even really want
     me to know. Dad \u2013 Dad had a reputation. It isn\u2019t right for you to destroy
     it. \n"
+  - "suicide.int\r\n\r\nDad didn\u2019t kill himself. I don\u2019t care what anyone
+    says, Dad didn\u2019t kill himself. He would never do that. He didn\u2019t have
+    any reason to. He was happy, ok? Happier than I think he had ever been before.
+    He had a thriving business, he had a family, he was about to have his first grandchild,
+    for God sake. There was nothing that would have been causing him this kind of
+    grief.\r"
   Max_Texts:
   - "questions.int\r\n\r\nI have a very busy schedule, so we\u2019d best get to it.
     Go ahead. Ask your questions.\r"

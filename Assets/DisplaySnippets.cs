@@ -30,7 +30,7 @@ public class DisplaySnippets : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //currentDisplayedAudio = currentAudioSource.clip;
     }
 
     public void Novak_Audios_One(){
@@ -41,48 +41,58 @@ public class DisplaySnippets : MonoBehaviour
     #region Julia
     public void Julia_Audios_One(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
-            currentDisplayedAudio = Julia_Audios[0];
+            //currentDisplayedAudio = Julia_Audios[0];
             currentDisplayedText.text = Julia_Texts[0];
             Char2AS.clip = Julia_Audios[0];
-            currentAudioSource.clip = Char2AS.clip;
+            //currentAudioSource.clip = Char2AS.clip;
+            //currentDisplayedAudio = currentAudioSource.clip;
             
         }
     }
 
     public void Julia_Audios_Two(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
-            currentDisplayedAudio = Julia_Audios[1];
+            //currentDisplayedAudio = Julia_Audios[1];
             currentDisplayedText.text = Julia_Texts[1];
-            currentAudioSource.clip = Julia_Audios[1];
+            //currentAudioSource.clip = Julia_Audios[1];
             Char2AS.clip = Julia_Audios[1];
-            currentAudioSource.clip = Char2AS.clip;        }
+            //currentAudioSource.clip = Char2AS.clip;
+            //currentDisplayedAudio = currentAudioSource.clip;
+
+        }
     }
 
     public void Julia_Audios_Three(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
-            currentDisplayedAudio = Julia_Audios[2];
+            //currentDisplayedAudio = Julia_Audios[2];
             currentDisplayedText.text = Julia_Texts[2];
-            currentAudioSource.clip = Julia_Audios[2];
+            //currentAudioSource.clip = Julia_Audios[2];
             Char2AS.clip = Julia_Audios[2];
-            currentAudioSource.clip = Char2AS.clip;        }
+            //currentAudioSource.clip = Char2AS.clip;        
+            //currentDisplayedAudio = currentAudioSource.clip;
+        }
     }
 
     public void Julia_Audios_Four(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
-            currentDisplayedAudio = Julia_Audios[3];
+            //currentDisplayedAudio = Julia_Audios[3];
             currentDisplayedText.text = Julia_Texts[3];
-            currentAudioSource.clip = Julia_Audios[3];
+            //currentAudioSource.clip = Julia_Audios[3];
             Char2AS.clip = Julia_Audios[3];
-            currentAudioSource.clip = Char2AS.clip;        }
+            //currentAudioSource.clip = Char2AS.clip;        
+            //currentDisplayedAudio = currentAudioSource.clip;
+        }
     }
 
     public void Julia_Audios_Five(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
-            currentDisplayedAudio = Julia_Audios[4];
-            currentDisplayedText.text = Julia_Texts[4];
-            currentAudioSource.clip = Julia_Audios[4];
+            //currentDisplayedAudio = Julia_Audios[4];
+            //currentAudioSource = currentDisplayedAudio;
             Char2AS.clip = Julia_Audios[4];
-            currentAudioSource.clip = Char2AS.clip;        }
+            currentDisplayedText.text = Julia_Texts[4];
+            //currentAudioSource.clip = Julia_Audios[4];
+            //currentAudioSource.clip = Char2AS.clip;      
+        }
     }
     #endregion
 }
