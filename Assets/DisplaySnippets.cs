@@ -44,8 +44,8 @@ public class DisplaySnippets : MonoBehaviour
             //currentDisplayedAudio = Julia_Audios[0];
             currentDisplayedText.text = Julia_Texts[0];
             Char2AS.clip = Julia_Audios[0];
-            //currentAudioSource.clip = Char2AS.clip;
-            //currentDisplayedAudio = currentAudioSource.clip;
+            currentAudioSource.clip = Char2AS.clip;
+            currentDisplayedAudio = currentAudioSource.clip;
             
         }
     }
@@ -56,8 +56,8 @@ public class DisplaySnippets : MonoBehaviour
             currentDisplayedText.text = Julia_Texts[1];
             //currentAudioSource.clip = Julia_Audios[1];
             Char2AS.clip = Julia_Audios[1];
-            //currentAudioSource.clip = Char2AS.clip;
-            //currentDisplayedAudio = currentAudioSource.clip;
+            currentAudioSource.clip = Char2AS.clip;
+            currentDisplayedAudio = currentAudioSource.clip;
 
         }
     }
@@ -68,8 +68,8 @@ public class DisplaySnippets : MonoBehaviour
             currentDisplayedText.text = Julia_Texts[2];
             //currentAudioSource.clip = Julia_Audios[2];
             Char2AS.clip = Julia_Audios[2];
-            //currentAudioSource.clip = Char2AS.clip;        
-            //currentDisplayedAudio = currentAudioSource.clip;
+            currentAudioSource.clip = Char2AS.clip;        
+            currentDisplayedAudio = currentAudioSource.clip;
         }
     }
 
@@ -79,8 +79,8 @@ public class DisplaySnippets : MonoBehaviour
             currentDisplayedText.text = Julia_Texts[3];
             //currentAudioSource.clip = Julia_Audios[3];
             Char2AS.clip = Julia_Audios[3];
-            //currentAudioSource.clip = Char2AS.clip;        
-            //currentDisplayedAudio = currentAudioSource.clip;
+            currentAudioSource.clip = Char2AS.clip;        
+            currentDisplayedAudio = currentAudioSource.clip;
         }
     }
 
@@ -90,8 +90,8 @@ public class DisplaySnippets : MonoBehaviour
             //currentAudioSource = currentDisplayedAudio;
             Char2AS.clip = Julia_Audios[4];
             currentDisplayedText.text = Julia_Texts[4];
-            //currentAudioSource.clip = Julia_Audios[4];
-            //currentAudioSource.clip = Char2AS.clip;      
+            currentAudioSource.clip = Julia_Audios[4];
+            currentAudioSource.clip = Char2AS.clip;      
         }
     }
     #endregion
