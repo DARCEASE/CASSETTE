@@ -37,6 +37,9 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     public TMP_Text[] Messages; // Full View Texts in messages panel
     public TMP_Text MsgAppTxt;
+    public bool _clicked;
+    public MessageScrollController msc;
+
     //public GameObject analyticsWindow;
     
 
@@ -91,12 +94,15 @@ public class FullDigitalUIBehavior : MonoBehaviour
         for (int i = 0; i < Messages.Length; i++) //for each element in the list, as long as i is less than the length of the list DONT HALT!!! Unless youre at the end <3
         {
             if (x == i) // if x = to the items in the list - then open up the text related text 
-            {
+            {   
                 Messages[i].gameObject.SetActive(true);
+                msc.SBFunc();
+               
             }
             else // if not the assigned text then turn it off <3 
             {
-                Messages[i].gameObject.SetActive(false); 
+                Messages[i].gameObject.SetActive(false);
+                msc.SBFunc();
             }
         }
 

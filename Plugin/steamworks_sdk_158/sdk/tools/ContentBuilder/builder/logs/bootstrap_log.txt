@@ -1,0 +1,345 @@
+
+
+[2023-10-23 18:23:53] Startup - updater built Jun  8 2020 17:15:58
+[2023-10-23 18:23:53] Checking for update on startup
+[2023-10-23 18:23:53] Checking for available update...
+[2023-10-23 18:23:53] Downloading manifest: client-download.steampowered.com/client/steam_cmd_win32
+[2023-10-23 18:23:53] Download failed: http error 0 (client-download.steampowered.com/client/steam_cmd_win32)
+[2023-10-23 18:23:53] Downloading manifest: media.steampowered.com/client/steam_cmd_win32
+[2023-10-23 18:23:54] Package file steamcmd_public_all.zip.62eb846cfa979c1919c3fe1712834a9424c05f9b missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_bins_win32.zip.vz.61fe46aec40c4377ff02085a363d56861ded541c_6532609 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_steamservice_win32.zip.vz.450eb983cd0fc5b473d41379cf1606b1d1b26251_1691222 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_steamerrorreporter_win32.zip.b5e6a2decc89d21aa1af3e57da94e3f5a50e6e58 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_siteserverui_win32.zip.vz.d28e54d4a2ab21fa2afe40aefaa6afb56193855c_36240290 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_win32.zip.vz.0db9fce8ff23d34349cdaee09ad123afe7d61630_1739597 missing or incorrect size
+[2023-10-23 18:23:54] Add pending download: client-download.steampowered.com/client/steamcmd_public_all.zip.62eb846cfa979c1919c3fe1712834a9424c05f9b
+[2023-10-23 18:23:54] Add pending download: client-download.steampowered.com/client/steamcmd_bins_win32.zip.vz.61fe46aec40c4377ff02085a363d56861ded541c_6532609
+[2023-10-23 18:23:54] Add pending download: client-download.steampowered.com/client/steamcmd_steamservice_win32.zip.vz.450eb983cd0fc5b473d41379cf1606b1d1b26251_1691222
+[2023-10-23 18:23:54] Add pending download: client-download.steampowered.com/client/steamcmd_steamerrorreporter_win32.zip.b5e6a2decc89d21aa1af3e57da94e3f5a50e6e58
+[2023-10-23 18:23:54] Add pending download: client-download.steampowered.com/client/steamcmd_siteserverui_win32.zip.vz.d28e54d4a2ab21fa2afe40aefaa6afb56193855c_36240290
+[2023-10-23 18:23:54] Add pending download: client-download.steampowered.com/client/steamcmd_win32.zip.vz.0db9fce8ff23d34349cdaee09ad123afe7d61630_1739597
+[2023-10-23 18:23:54] Error: Download of package (steamcmd_siteserverui_win32) failed after 0 bytes (0 : 0).
+[2023-10-23 18:23:54] Error: Download of package (steamcmd_steamerrorreporter_win32) failed after 0 bytes (0 : 0).
+[2023-10-23 18:23:54] Error: Download of package (steamcmd_steamservice_win32) failed after 0 bytes (0 : 0).
+[2023-10-23 18:23:54] Error: Download of package (steamcmd_bins_win32) failed after 0 bytes (0 : 0).
+[2023-10-23 18:23:54] Error: Download of package (steamcmd_public_all) failed after 0 bytes (0 : 0).
+[2023-10-23 18:23:54] Downloading update (0 of 45,351 KB)...
+[2023-10-23 18:23:54] Error: Download of package (steamcmd_win32) failed after 0 bytes (0 : 0).
+[2023-10-23 18:23:54] Package file steamcmd_public_all.zip.62eb846cfa979c1919c3fe1712834a9424c05f9b missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_bins_win32.zip.vz.61fe46aec40c4377ff02085a363d56861ded541c_6532609 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_steamservice_win32.zip.vz.450eb983cd0fc5b473d41379cf1606b1d1b26251_1691222 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_steamerrorreporter_win32.zip.b5e6a2decc89d21aa1af3e57da94e3f5a50e6e58 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_siteserverui_win32.zip.vz.d28e54d4a2ab21fa2afe40aefaa6afb56193855c_36240290 missing or incorrect size
+[2023-10-23 18:23:54] Package file steamcmd_win32.zip.vz.0db9fce8ff23d34349cdaee09ad123afe7d61630_1739597 missing or incorrect size
+[2023-10-23 18:23:54] Add pending download: media.steampowered.com/client/steamcmd_public_all.zip.62eb846cfa979c1919c3fe1712834a9424c05f9b
+[2023-10-23 18:23:54] Add pending download: media.steampowered.com/client/steamcmd_bins_win32.zip.vz.61fe46aec40c4377ff02085a363d56861ded541c_6532609
+[2023-10-23 18:23:54] Add pending download: media.steampowered.com/client/steamcmd_steamservice_win32.zip.vz.450eb983cd0fc5b473d41379cf1606b1d1b26251_1691222
+[2023-10-23 18:23:54] Add pending download: media.steampowered.com/client/steamcmd_steamerrorreporter_win32.zip.b5e6a2decc89d21aa1af3e57da94e3f5a50e6e58
+[2023-10-23 18:23:54] Add pending download: media.steampowered.com/client/steamcmd_siteserverui_win32.zip.vz.d28e54d4a2ab21fa2afe40aefaa6afb56193855c_36240290
+[2023-10-23 18:23:54] Add pending download: media.steampowered.com/client/steamcmd_win32.zip.vz.0db9fce8ff23d34349cdaee09ad123afe7d61630_1739597
+[2023-10-23 18:23:54] Downloading update (797 of 45,351 KB)...
+[2023-10-23 18:23:54] Downloading update (6,730 of 45,351 KB)...
+[2023-10-23 18:23:55] Downloading update (12,745 of 45,351 KB)...
+[2023-10-23 18:23:55] Downloading update (16,922 of 45,351 KB)...
+[2023-10-23 18:23:55] Downloading update (19,456 of 45,351 KB)...
+[2023-10-23 18:23:56] Downloading update (23,577 of 45,351 KB)...
+[2023-10-23 18:23:56] Downloading update (27,191 of 45,351 KB)...
+[2023-10-23 18:23:56] Downloading update (31,128 of 45,351 KB)...
+[2023-10-23 18:23:56] Downloading update (34,983 of 45,351 KB)...
+[2023-10-23 18:23:57] Downloading update (39,170 of 45,351 KB)...
+[2023-10-23 18:23:57] Downloading update (42,792 of 45,351 KB)...
+[2023-10-23 18:23:57] Downloading update (45,351 of 45,351 KB)...
+[2023-10-23 18:23:57] Download Complete.
+[2023-10-23 18:23:57] uninstalled manifest found in C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\package\steam_cmd_win32 (1).
+[2023-10-23 18:23:57] Found pending update
+[2023-10-23 18:23:57] Applying update...
+[2023-10-23 18:23:57] Extracting package...
+[2023-10-23 18:24:02] Installing update...
+[2023-10-23 18:24:03] Committing NTFS transaction (0 non-transactional backup files)
+[2023-10-23 18:24:03] Cleaning up...
+[2023-10-23 18:24:03] Update complete, launching...
+[2023-10-23 18:24:03] Shutdown
+
+
+[2023-10-23 18:24:03] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 18:24:03] Startup - Steam Client launched with: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe
+[2023-10-23 18:24:04] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2023-10-23 18:24:04] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 18:24:04] 1. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 18:24:04] Checking for update on startup
+[2023-10-23 18:24:04] Checking for available updates...
+[2023-10-23 18:24:04] Downloading manifest: https://cdn.steamstatic.com/client/steam_cmd_win32
+[2023-10-23 18:24:04] Manifest download: send request
+[2023-10-23 18:24:04] Manifest download: waiting for download to finish
+[2023-10-23 18:24:04] Manifest download: finished
+[2023-10-23 18:24:04] Download skipped: /client/steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 18:24:04] Nothing to do
+[2023-10-23 18:24:04] Verifying installation...
+[2023-10-23 18:24:04] Performing checksum verification of executable files
+[2023-10-23 18:24:05] Verification complete
+
+
+[2023-10-23 18:32:18] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 18:32:18] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe" 
+[2023-10-23 18:32:18] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2023-10-23 18:32:18] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 18:32:18] 1. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 18:32:18] Checking for update on startup
+[2023-10-23 18:32:18] Checking for available updates...
+[2023-10-23 18:32:18] Downloading manifest: https://cdn.steamstatic.com/client/steam_cmd_win32
+[2023-10-23 18:32:18] Manifest download: send request
+[2023-10-23 18:32:18] Manifest download: waiting for download to finish
+[2023-10-23 18:32:19] Manifest download: finished
+[2023-10-23 18:32:19] Download skipped: /client/steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 18:32:19] Nothing to do
+[2023-10-23 18:32:19] Verifying installation...
+[2023-10-23 18:32:19] Performing checksum verification of executable files
+[2023-10-23 18:32:19] Verification complete
+[2023-10-23 18:32:47] Shutdown
+
+
+[2023-10-23 18:32:51] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 18:32:51] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe" 
+[2023-10-23 18:32:51] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2023-10-23 18:32:51] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 18:32:51] 1. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 18:32:51] Checking for update on startup
+[2023-10-23 18:32:51] Checking for available updates...
+[2023-10-23 18:32:51] Downloading manifest: https://cdn.steamstatic.com/client/steam_cmd_win32
+[2023-10-23 18:32:52] Manifest download: send request
+[2023-10-23 18:32:52] Manifest download: waiting for download to finish
+[2023-10-23 18:32:52] Manifest download: finished
+[2023-10-23 18:32:52] Download skipped: /client/steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 18:32:52] Nothing to do
+[2023-10-23 18:32:52] Verifying installation...
+[2023-10-23 18:32:52] Performing checksum verification of executable files
+[2023-10-23 18:32:52] Verification complete
+[2023-10-23 18:57:34] Shutdown
+
+
+[2023-10-23 18:58:00] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 18:58:00] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe" 
+[2023-10-23 18:58:00] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 18:58:00] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-10-23 18:58:00] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-10-23 18:58:00] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 18:58:00] Checking for update on startup
+[2023-10-23 18:58:00] Checking for available updates...
+[2023-10-23 18:58:00] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-10-23 18:58:01] Manifest download: send request
+[2023-10-23 18:58:01] Manifest download: waiting for download to finish
+[2023-10-23 18:58:01] Manifest download: finished
+[2023-10-23 18:58:01] Download skipped: /steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 18:58:01] Nothing to do
+[2023-10-23 18:58:01] Verifying installation...
+[2023-10-23 18:58:01] Performing checksum verification of executable files
+[2023-10-23 18:58:01] Verification complete
+
+
+[2023-10-23 20:14:59] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 20:14:59] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvegr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660060.vdf" +quit
+[2023-10-23 20:14:59] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 20:14:59] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-10-23 20:14:59] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-10-23 20:14:59] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 20:14:59] Checking for update on startup
+[2023-10-23 20:14:59] Checking for available updates...
+[2023-10-23 20:14:59] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-10-23 20:14:59] Manifest download: send request
+[2023-10-23 20:15:00] Manifest download: waiting for download to finish
+[2023-10-23 20:15:00] Manifest download: finished
+[2023-10-23 20:15:00] Download skipped: /steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 20:15:00] Nothing to do
+[2023-10-23 20:15:00] Verifying installation...
+[2023-10-23 20:15:00] Performing checksum verification of executable files
+[2023-10-23 20:15:00] Verification complete
+[2023-10-23 20:15:03] Shutdown
+
+
+[2023-10-23 20:16:21] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 20:16:21] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvergr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660060.vdf" +quit
+[2023-10-23 20:16:21] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 20:16:21] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-10-23 20:16:21] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-10-23 20:16:21] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 20:16:21] Checking for update on startup
+[2023-10-23 20:16:21] Checking for available updates...
+[2023-10-23 20:16:21] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-10-23 20:16:21] Manifest download: send request
+[2023-10-23 20:16:21] Manifest download: waiting for download to finish
+[2023-10-23 20:16:22] Manifest download: finished
+[2023-10-23 20:16:22] Download skipped: /steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 20:16:22] Nothing to do
+[2023-10-23 20:16:22] Verifying installation...
+[2023-10-23 20:16:22] Performing checksum verification of executable files
+[2023-10-23 20:16:22] Verification complete
+[2023-10-23 20:16:29] Shutdown
+
+
+[2023-10-23 20:16:32] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-23 20:16:32] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvergr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660060.vdf" +quit
+[2023-10-23 20:16:32] Using the following download hosts for Public, Realm steamglobal
+[2023-10-23 20:16:32] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-10-23 20:16:32] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-10-23 20:16:32] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-10-23 20:16:32] Checking for update on startup
+[2023-10-23 20:16:32] Checking for available updates...
+[2023-10-23 20:16:32] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-10-23 20:16:33] Manifest download: send request
+[2023-10-23 20:16:33] Manifest download: waiting for download to finish
+[2023-10-23 20:16:33] Manifest download: finished
+[2023-10-23 20:16:33] Download skipped: /steam_cmd_win32 version 1696019544, installed version 1696019544, existing pending version 0
+[2023-10-23 20:16:33] Nothing to do
+[2023-10-23 20:16:33] Verifying installation...
+[2023-10-23 20:16:33] Performing checksum verification of executable files
+[2023-10-23 20:16:33] Verification complete
+[2023-10-23 20:16:44] Shutdown
+
+
+[2023-11-03 19:44:42] Startup - updater built Sep 29 2023 10:42:34
+[2023-11-03 19:44:42] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvergr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660050.vdf" +quit
+[2023-11-03 19:44:43] Using the following download hosts for Public, Realm steamglobal
+[2023-11-03 19:44:43] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:44:43] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:44:43] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-11-03 19:44:43] Checking for update on startup
+[2023-11-03 19:44:43] Checking for available updates...
+[2023-11-03 19:44:43] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-11-03 19:44:43] Manifest download: send request
+[2023-11-03 19:44:43] Manifest download: waiting for download to finish
+[2023-11-03 19:44:44] Manifest download: finished
+[2023-11-03 19:44:44] Downloaded new manifest: /steam_cmd_win32 version 1698778122, installed version 1696019544, existing pending version 0
+[2023-11-03 19:44:44] Package file steamcmd_public_all.zip.f309916e0032b82d26e4b6174e5114dea51ece35 missing or incorrect size
+[2023-11-03 19:44:44] Package file steamcmd_bins_win32.zip.vz.33ae974ecf3130477f50cba78de64ffd69444aea_6546338 missing or incorrect size
+[2023-11-03 19:44:44] Package file steamcmd_steamservice_win32.zip.vz.b93f8a55ba8a7524f52ffd8fc2e25e633251216c_1693014 missing or incorrect size
+[2023-11-03 19:44:44] Package file steamcmd_steamerrorreporter_win32.zip.2f07678347e18deee42b5fe20a3b7cd57fbb0ec1 missing or incorrect size
+[2023-11-03 19:44:44] Package file steamcmd_siteserverui_win32.zip.vz.dd514fd3953ee64e9f9e763485292792691971ca_36267915 missing or incorrect size
+[2023-11-03 19:44:44] Package file steamcmd_win32.zip.vz.54a1ce5f05ef8269fac0225bdf3ea1566462b5f1_1740209 missing or incorrect size
+[2023-11-03 19:44:44] Add pending download: https://client-update.akamai.steamstatic.com/steamcmd_public_all.zip.f309916e0032b82d26e4b6174e5114dea51ece35
+[2023-11-03 19:44:44] Manifest download: send request
+[2023-11-03 19:44:45] Add pending download: https://client-update.akamai.steamstatic.com/steamcmd_bins_win32.zip.vz.33ae974ecf3130477f50cba78de64ffd69444aea_6546338
+[2023-11-03 19:44:45] Manifest download: send request
+[2023-11-03 19:44:45] Add pending download: https://client-update.akamai.steamstatic.com/steamcmd_steamservice_win32.zip.vz.b93f8a55ba8a7524f52ffd8fc2e25e633251216c_1693014
+[2023-11-03 19:44:45] Manifest download: send request
+[2023-11-03 19:44:45] Add pending download: https://client-update.akamai.steamstatic.com/steamcmd_steamerrorreporter_win32.zip.2f07678347e18deee42b5fe20a3b7cd57fbb0ec1
+[2023-11-03 19:44:45] Manifest download: send request
+[2023-11-03 19:44:45] Add pending download: https://client-update.akamai.steamstatic.com/steamcmd_siteserverui_win32.zip.vz.dd514fd3953ee64e9f9e763485292792691971ca_36267915
+[2023-11-03 19:44:45] Manifest download: send request
+[2023-11-03 19:44:45] Add pending download: https://client-update.akamai.steamstatic.com/steamcmd_win32.zip.vz.54a1ce5f05ef8269fac0225bdf3ea1566462b5f1_1740209
+[2023-11-03 19:44:45] Manifest download: send request
+[2023-11-03 19:44:45] Downloading update (65 of 45,394 KB)...
+[2023-11-03 19:44:45] Downloading update (1,175 of 45,394 KB)...
+[2023-11-03 19:44:45] Downloading update (2,814 of 45,394 KB)...
+[2023-11-03 19:44:46] Downloading update (4,782 of 45,394 KB)...
+[2023-11-03 19:44:46] Downloading update (6,297 of 45,394 KB)...
+[2023-11-03 19:44:46] Downloading update (8,309 of 45,394 KB)...
+[2023-11-03 19:44:46] Downloading update (10,037 of 45,394 KB)...
+[2023-11-03 19:44:47] Downloading update (11,800 of 45,394 KB)...
+[2023-11-03 19:44:47] Downloading update (13,084 of 45,394 KB)...
+[2023-11-03 19:44:47] Downloading update (15,017 of 45,394 KB)...
+[2023-11-03 19:44:47] Downloading update (16,429 of 45,394 KB)...
+[2023-11-03 19:44:48] Downloading update (17,872 of 45,394 KB)...
+[2023-11-03 19:44:48] Downloading update (19,455 of 45,394 KB)...
+[2023-11-03 19:44:48] Downloading update (21,304 of 45,394 KB)...
+[2023-11-03 19:44:49] Downloading update (23,773 of 45,394 KB)...
+[2023-11-03 19:44:49] Downloading update (26,537 of 45,394 KB)...
+[2023-11-03 19:44:49] Downloading update (29,794 of 45,394 KB)...
+[2023-11-03 19:44:49] Downloading update (32,764 of 45,394 KB)...
+[2023-11-03 19:44:50] Downloading update (36,101 of 45,394 KB)...
+[2023-11-03 19:44:50] Downloading update (38,968 of 45,394 KB)...
+[2023-11-03 19:44:50] Downloading update (42,225 of 45,394 KB)...
+[2023-11-03 19:44:50] Downloading update (45,092 of 45,394 KB)...
+[2023-11-03 19:44:51] Downloading update (45,394 of 45,394 KB)...
+[2023-11-03 19:44:51] Download complete.
+[2023-11-03 19:44:51] Saving metrics to disk (C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\package\steam_cmd_metrics.bin)
+[2023-11-03 19:44:51] uninstalled manifest found in C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\package\steam_cmd_win32 (1).
+[2023-11-03 19:44:51] Found pending update
+[2023-11-03 19:44:51] Installing update...
+[2023-11-03 19:44:51] Extracting package...
+[2023-11-03 19:44:56] Installing update...
+[2023-11-03 19:44:56] Committing NTFS transaction (0 non-transactional backup files)
+[2023-11-03 19:44:56] Cleaning up...
+[2023-11-03 19:44:56] Update complete, launching Steamcmd...
+[2023-11-03 19:44:56] Shutdown
+
+
+[2023-11-03 19:44:57] Startup - updater built Oct 25 2023 18:53:46
+[2023-11-03 19:44:57] Startup - Steam Client launched with: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe +login TheLocalRag "R0bertEvergr33n!" +run_app_build C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660050.vdf +quit
+[2023-11-03 19:44:57] Loading cached metrics from disk (C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\package\steam_cmd_metrics.bin)
+[2023-11-03 19:44:57] Using the following download hosts for Public, Realm steamglobal
+[2023-11-03 19:44:57] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:44:57] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:44:57] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-11-03 19:44:57] Checking for update on startup
+[2023-11-03 19:44:57] Checking for available updates...
+[2023-11-03 19:44:57] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-11-03 19:44:57] Manifest download: send request
+[2023-11-03 19:44:57] Manifest download: waiting for download to finish
+[2023-11-03 19:44:57] Manifest download: finished
+[2023-11-03 19:44:57] Download skipped: /steam_cmd_win32 version 1698778122, installed version 1698778122, existing pending version 0
+[2023-11-03 19:44:57] Nothing to do
+[2023-11-03 19:44:57] Verifying installation...
+[2023-11-03 19:44:57] Performing checksum verification of executable files
+[2023-11-03 19:44:58] Verification complete
+[2023-11-03 19:45:03] Clearing cached metrics (C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\package\steam_cmd_metrics.bin)
+[2023-11-03 19:45:17] Shutdown
+
+
+[2023-11-03 19:46:53] Startup - updater built Oct 25 2023 18:53:46
+[2023-11-03 19:46:53] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvergr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660050.vdf" +quit
+[2023-11-03 19:46:53] Using the following download hosts for Public, Realm steamglobal
+[2023-11-03 19:46:53] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:46:53] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:46:53] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-11-03 19:46:53] Checking for update on startup
+[2023-11-03 19:46:53] Checking for available updates...
+[2023-11-03 19:46:53] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-11-03 19:46:53] Manifest download: send request
+[2023-11-03 19:46:54] Manifest download: waiting for download to finish
+[2023-11-03 19:46:54] Manifest download: finished
+[2023-11-03 19:46:54] Download skipped: /steam_cmd_win32 version 1698778122, installed version 1698778122, existing pending version 0
+[2023-11-03 19:46:54] Nothing to do
+[2023-11-03 19:46:54] Verifying installation...
+[2023-11-03 19:46:54] Performing checksum verification of executable files
+[2023-11-03 19:46:54] Verification complete
+[2023-11-03 19:47:03] Shutdown
+
+
+[2023-11-03 19:47:10] Startup - updater built Oct 25 2023 18:53:46
+[2023-11-03 19:47:10] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvergr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660050.vdf" +quit
+[2023-11-03 19:47:10] Using the following download hosts for Public, Realm steamglobal
+[2023-11-03 19:47:10] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:47:10] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:47:10] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-11-03 19:47:10] Checking for update on startup
+[2023-11-03 19:47:10] Checking for available updates...
+[2023-11-03 19:47:10] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-11-03 19:47:10] Manifest download: send request
+[2023-11-03 19:47:10] Manifest download: waiting for download to finish
+[2023-11-03 19:47:10] Manifest download: finished
+[2023-11-03 19:47:10] Download skipped: /steam_cmd_win32 version 1698778122, installed version 1698778122, existing pending version 0
+[2023-11-03 19:47:10] Nothing to do
+[2023-11-03 19:47:10] Verifying installation...
+[2023-11-03 19:47:10] Performing checksum verification of executable files
+[2023-11-03 19:47:11] Verification complete
+[2023-11-03 19:47:15] Shutdown
+
+
+[2023-11-03 19:47:22] Startup - updater built Oct 25 2023 18:53:46
+[2023-11-03 19:47:22] Startup - Steam Client launched with: "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder\steamcmd.exe"  +login TheLocalRag "R0bertEvergr33n!" +run_app_build "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\scripts\app_2660050.vdf" +quit
+[2023-11-03 19:47:22] Using the following download hosts for Public, Realm steamglobal
+[2023-11-03 19:47:22] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:47:22] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2023-11-03 19:47:22] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2023-11-03 19:47:22] Checking for update on startup
+[2023-11-03 19:47:22] Checking for available updates...
+[2023-11-03 19:47:22] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win32
+[2023-11-03 19:47:22] Manifest download: send request
+[2023-11-03 19:47:22] Manifest download: waiting for download to finish
+[2023-11-03 19:47:23] Manifest download: finished
+[2023-11-03 19:47:23] Download skipped: /steam_cmd_win32 version 1698778122, installed version 1698778122, existing pending version 0
+[2023-11-03 19:47:23] Nothing to do
+[2023-11-03 19:47:23] Verifying installation...
+[2023-11-03 19:47:23] Performing checksum verification of executable files
+[2023-11-03 19:47:23] Verification complete
+[2023-11-03 19:47:29] Shutdown

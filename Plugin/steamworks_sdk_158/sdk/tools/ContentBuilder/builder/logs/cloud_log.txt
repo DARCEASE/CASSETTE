@@ -1,0 +1,204 @@
+
+
+[2023-10-23 18:35:50] Client version: 1696019544
+[2023-10-23 18:35:50] [AppID 7] Starting sync (init,)
+[2023-10-23 18:35:50] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 18:35:50] [AppID 7] Not running AutoCloud. No config data found
+[2023-10-23 18:35:50] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 18:35:50] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:35:52] [AppID 7] Starting sync (down,)
+[2023-10-23 18:35:52] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-10-23 18:35:52] [AppID 7] Download complete in build list
+[2023-10-23 18:35:52] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-10-23 18:35:52] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-10-23 18:35:52] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:36:21] [AppID 7] Starting sync (init,)
+[2023-10-23 18:36:21] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 18:36:21] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 18:36:22] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:36:22] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-10-23 18:36:22] [AppID 7] Starting sync (eval,)
+[2023-10-23 18:36:22] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 18:36:22] [AppID 7] Currently already synced to global change number '9301681826038063296', should be nothing to download
+[2023-10-23 18:36:22] [AppID 7] Eval complete
+[2023-10-23 18:36:22] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-10-23 18:36:22] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:36:22] [AppID 7] Starting sync (down,)
+[2023-10-23 18:36:23] [AppID 7] Currently already synced to global change number '9301681826038063296', should be nothing to download
+[2023-10-23 18:36:23] [AppID 7] Download complete in build list
+[2023-10-23 18:36:23] [AppID 7] Successfully synced to ChangeNumber 0
+[2023-10-23 18:36:23] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-10-23 18:36:23] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:37:23] [Roaming Config] PerformSyncCloud - all sync'd up
+
+
+[2023-10-23 18:58:54] Client version: 1696019544
+[2023-10-23 18:58:54] [AppID 7] Starting sync (init,)
+[2023-10-23 18:58:54] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 18:58:54] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 18:58:54] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:58:55] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-10-23 18:58:55] [AppID 7] Starting sync (eval,)
+[2023-10-23 18:58:55] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 18:58:55] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-10-23 18:58:55] [AppID 7] Eval complete
+[2023-10-23 18:58:55] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-10-23 18:58:55] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:58:55] [AppID 7] Starting sync (down,)
+[2023-10-23 18:58:55] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-10-23 18:58:55] [AppID 7] Download complete in build list
+[2023-10-23 18:58:55] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-10-23 18:58:55] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-10-23 18:58:55] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Assets\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 18:59:55] [Roaming Config] PerformSyncCloud - all sync'd up
+
+
+[2023-10-23 20:15:01] Client version: 1696019544
+[2023-10-23 20:15:01] [AppID 7] Starting sync (init,)
+[2023-10-23 20:15:01] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:15:01] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 20:15:01] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+
+
+[2023-10-23 20:16:23] Client version: 1696019544
+[2023-10-23 20:16:23] [AppID 7] Starting sync (init,)
+[2023-10-23 20:16:23] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:16:23] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 20:16:23] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 20:16:24] [AppID 7] Starting sync (init,)
+[2023-10-23 20:16:24] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:16:24] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 20:16:24] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 20:16:24] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-10-23 20:16:24] [AppID 7] Starting sync (eval,)
+[2023-10-23 20:16:24] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:16:25] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-10-23 20:16:25] [AppID 7] Eval complete
+[2023-10-23 20:16:25] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-10-23 20:16:25] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 20:16:25] [AppID 7] Starting sync (down,)
+[2023-10-23 20:16:25] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-10-23 20:16:25] [AppID 7] Download complete in build list
+[2023-10-23 20:16:25] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-10-23 20:16:25] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-10-23 20:16:25] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+
+
+[2023-10-23 20:16:33] Client version: 1696019544
+[2023-10-23 20:16:33] [AppID 7] Starting sync (init,)
+[2023-10-23 20:16:33] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:16:33] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 20:16:33] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 20:16:35] [AppID 7] Starting sync (init,)
+[2023-10-23 20:16:35] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:16:35] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-10-23 20:16:35] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 20:16:35] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-10-23 20:16:35] [AppID 7] Starting sync (eval,)
+[2023-10-23 20:16:35] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-10-23 20:16:35] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-10-23 20:16:35] [AppID 7] Eval complete
+[2023-10-23 20:16:35] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-10-23 20:16:35] [AppID 7] Starting sync (down,)
+[2023-10-23 20:16:35] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-10-23 20:16:36] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-10-23 20:16:36] [AppID 7] Download complete in build list
+[2023-10-23 20:16:36] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-10-23 20:16:36] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-10-23 20:16:36] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+
+
+[2023-11-03 19:45:00] Client version: 1698778122
+[2023-11-03 19:45:00] [AppID 7] Starting sync (init,)
+[2023-11-03 19:45:00] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:45:00] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:45:00] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:45:02] [AppID 7] Starting sync (init,)
+[2023-11-03 19:45:02] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:45:02] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:45:02] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:45:03] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-11-03 19:45:03] [AppID 7] Starting sync (eval,)
+[2023-11-03 19:45:03] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:45:03] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-11-03 19:45:03] [AppID 7] Eval complete
+[2023-11-03 19:45:03] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-11-03 19:45:03] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:45:03] [AppID 7] Starting sync (down,)
+[2023-11-03 19:45:03] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-11-03 19:45:03] [AppID 7] Download complete in build list
+[2023-11-03 19:45:03] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-11-03 19:45:03] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-11-03 19:45:03] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+
+
+[2023-11-03 19:46:55] Client version: 1698778122
+[2023-11-03 19:46:55] [AppID 7] Starting sync (init,)
+[2023-11-03 19:46:55] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:46:55] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:46:55] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:46:57] [AppID 7] Starting sync (init,)
+[2023-11-03 19:46:57] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:46:57] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:46:57] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:46:57] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-11-03 19:46:57] [AppID 7] Starting sync (eval,)
+[2023-11-03 19:46:57] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:46:58] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-11-03 19:46:58] [AppID 7] Eval complete
+[2023-11-03 19:46:58] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-11-03 19:46:58] [AppID 7] Starting sync (down,)
+[2023-11-03 19:46:58] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:46:58] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-11-03 19:46:58] [AppID 7] Download complete in build list
+[2023-11-03 19:46:58] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-11-03 19:46:58] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-11-03 19:46:58] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+
+
+[2023-11-03 19:47:11] Client version: 1698778122
+[2023-11-03 19:47:11] [AppID 7] Starting sync (init,)
+[2023-11-03 19:47:11] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:47:11] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:47:11] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:47:12] [AppID 7] Starting sync (init,)
+[2023-11-03 19:47:12] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:47:12] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:47:13] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:47:13] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-11-03 19:47:13] [AppID 7] Starting sync (eval,)
+[2023-11-03 19:47:13] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:47:13] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-11-03 19:47:13] [AppID 7] Eval complete
+[2023-11-03 19:47:13] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-11-03 19:47:13] [AppID 7] Starting sync (down,)
+[2023-11-03 19:47:13] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:47:13] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-11-03 19:47:13] [AppID 7] Download complete in build list
+[2023-11-03 19:47:13] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-11-03 19:47:13] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-11-03 19:47:13] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+
+
+[2023-11-03 19:47:23] Client version: 1698778122
+[2023-11-03 19:47:23] [AppID 7] Starting sync (init,)
+[2023-11-03 19:47:23] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:47:23] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:47:23] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:47:25] [AppID 7] Starting sync (init,)
+[2023-11-03 19:47:25] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:47:25] [U:1:1596555165] [AppID 7] Init cache request complete
+[2023-11-03 19:47:25] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:47:25] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2023-11-03 19:47:25] [AppID 7] Starting sync (eval,)
+[2023-11-03 19:47:25] [AppID 7] AutoCloud checking local state for user 1596555165
+[2023-11-03 19:47:25] [AppID 7] Need to sync from local change number '0' to global change number '9301681826038063296', but not attempting now
+[2023-11-03 19:47:25] [AppID 7] Eval complete
+[2023-11-03 19:47:25] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2023-11-03 19:47:25] [AppID 7] Starting sync (down,)
+[2023-11-03 19:47:26] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'
+[2023-11-03 19:47:26] [AppID 7] Attempting to sync from local change number '0' to global change number '9301681826038063296'
+[2023-11-03 19:47:26] [AppID 7] Download complete in build list
+[2023-11-03 19:47:26] [AppID 7] Successfully synced to ChangeNumber 9301681826038063296
+[2023-11-03 19:47:26] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2023-11-03 19:47:26] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\builder/userdata/1596555165/7/remotecache.vdf'

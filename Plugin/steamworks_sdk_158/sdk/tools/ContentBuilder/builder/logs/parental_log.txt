@@ -1,0 +1,82 @@
+
+
+[2023-10-23 18:35:50] Client version: 1696019544
+[2023-10-23 18:35:50] Failed to get ParentalSettings\Settings from config file for account ID 1596555165
+[2023-10-23 18:35:51] Got parental settings for account ID 1596555165
+[2023-10-23 18:36:22] Validating parental settings
+[2023-10-23 18:36:22] Settings dump:
+[2023-10-23 18:36:22] 	Account ID: 1596555165
+[2023-10-23 18:36:22] 	Enabled: false
+[2023-10-23 18:36:22] 	Base list: 0 ()
+[2023-10-23 18:36:22] 	No custom list
+[2023-10-23 18:36:22] 	No enabled features
+
+
+[2023-10-23 18:58:55] Client version: 1696019544
+[2023-10-23 18:58:55] Validating parental settings
+[2023-10-23 18:58:55] Settings dump:
+[2023-10-23 18:58:55] 	Account ID: 1596555165
+[2023-10-23 18:58:55] 	Enabled: false
+[2023-10-23 18:58:55] 	Base list: 0 ()
+[2023-10-23 18:58:55] 	No custom list
+[2023-10-23 18:58:55] 	No enabled features
+
+
+[2023-10-23 20:16:24] Client version: 1696019544
+[2023-10-23 20:16:24] Validating parental settings
+[2023-10-23 20:16:24] Settings dump:
+[2023-10-23 20:16:24] 	Account ID: 1596555165
+[2023-10-23 20:16:24] 	Enabled: false
+[2023-10-23 20:16:24] 	Base list: 0 ()
+[2023-10-23 20:16:24] 	No custom list
+[2023-10-23 20:16:24] 	No enabled features
+
+
+[2023-10-23 20:16:35] Client version: 1696019544
+[2023-10-23 20:16:35] Validating parental settings
+[2023-10-23 20:16:35] Settings dump:
+[2023-10-23 20:16:35] 	Account ID: 1596555165
+[2023-10-23 20:16:35] 	Enabled: false
+[2023-10-23 20:16:35] 	Base list: 0 ()
+[2023-10-23 20:16:35] 	No custom list
+[2023-10-23 20:16:35] 	No enabled features
+
+
+[2023-11-03 19:45:02] Client version: 1698778122
+[2023-11-03 19:45:02] Validating parental settings
+[2023-11-03 19:45:02] Settings dump:
+[2023-11-03 19:45:02] 	Account ID: 1596555165
+[2023-11-03 19:45:02] 	Enabled: false
+[2023-11-03 19:45:02] 	Base list: 0 ()
+[2023-11-03 19:45:02] 	No custom list
+[2023-11-03 19:45:02] 	No enabled features
+
+
+[2023-11-03 19:46:57] Client version: 1698778122
+[2023-11-03 19:46:57] Validating parental settings
+[2023-11-03 19:46:57] Settings dump:
+[2023-11-03 19:46:57] 	Account ID: 1596555165
+[2023-11-03 19:46:57] 	Enabled: false
+[2023-11-03 19:46:57] 	Base list: 0 ()
+[2023-11-03 19:46:57] 	No custom list
+[2023-11-03 19:46:57] 	No enabled features
+
+
+[2023-11-03 19:47:13] Client version: 1698778122
+[2023-11-03 19:47:13] Validating parental settings
+[2023-11-03 19:47:13] Settings dump:
+[2023-11-03 19:47:13] 	Account ID: 1596555165
+[2023-11-03 19:47:13] 	Enabled: false
+[2023-11-03 19:47:13] 	Base list: 0 ()
+[2023-11-03 19:47:13] 	No custom list
+[2023-11-03 19:47:13] 	No enabled features
+
+
+[2023-11-03 19:47:25] Client version: 1698778122
+[2023-11-03 19:47:25] Validating parental settings
+[2023-11-03 19:47:25] Settings dump:
+[2023-11-03 19:47:25] 	Account ID: 1596555165
+[2023-11-03 19:47:25] 	Enabled: false
+[2023-11-03 19:47:25] 	Base list: 0 ()
+[2023-11-03 19:47:25] 	No custom list
+[2023-11-03 19:47:25] 	No enabled features

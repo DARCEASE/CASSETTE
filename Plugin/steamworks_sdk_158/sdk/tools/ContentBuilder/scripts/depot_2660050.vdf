@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "2660050"
+	"contentroot" "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\content"
+	"FileMapping"
+	{
+		"LocalPath" "*"
+		"DepotPath" "."
+		"recursive" "1"
+	}
+	"FileExclusion" "*.pdb"
+}

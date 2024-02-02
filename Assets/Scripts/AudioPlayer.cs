@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 using TMPro;
 
+
 // PLAN: For this to play and pause audio, and have the player scrub through audio if need be.
 // If the player hits an icon, the player should pop up and play the audio for them.
 
@@ -21,7 +22,7 @@ public class AudioPlayer : MonoBehaviour
     int a_seconds;
     bool _mouseOver;
     float simpleKnobVal, knobVal, minKnobVal, maxKnobVal, minKnobPosX, maxKnobPosX, knobPosX, barWidith;
-    bool knobDragging;
+    bool restHit;
     [SerializeField] Slider a_slider;
 
     //Just in case we want to display the name too (since they would click within the player's file for this)
@@ -66,13 +67,14 @@ public class AudioPlayer : MonoBehaviour
     public void PauseAudio(){ //Pauses the audio
         if (a_source.isPlaying){
             a_source.Pause();
-            a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
         }
     }
 
     public void RestartAudio(){
         a_duration = 0;
         a_source.time = (float) a_duration;
+        a_slider.value = (float) a_duration;
+        ShowDuration();
     }
 
     void ShowDuration(){ //Puts the milliseconds into minutes in seconds

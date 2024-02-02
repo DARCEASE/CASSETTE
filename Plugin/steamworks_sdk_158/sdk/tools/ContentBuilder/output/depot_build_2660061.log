@@ -1,0 +1,184 @@
+[2023-10-23 20:16:36]: Starting build for depot 2660061, content path is "C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\content", build flags 0x0
+[2023-10-23 20:16:36]: Building file listing for depot 2660061 ...
+[2023-10-23 20:16:36]: Found 163 files for mapping: C:\Users\ashle\OneDrive\Documents\Games\CASSETTE\Plugin\steamworks_sdk_158\sdk\tools\ContentBuilder\content * -> .
+[2023-10-23 20:16:36]: Found 163 files (117 MB) for depot 2660061
+[2023-10-23 20:16:36]: Building depot 2660061, baseline manifest 7855760954910317781 (10 files)
+[2023-10-23 20:16:37]: Found 239 chunks ( 10 used previously ) for depot 2660061, took 0 minutes, 0 seconds
+[2023-10-23 20:16:37]: Changes to baseline manifest 7855760954910317781 :
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\EmbedRuntime" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll" 4860 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll" 762 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0\Browsers" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser" 2 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx" 60 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0\machine.config" 29 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0\settings.map" 3 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\2.0\web.config" 12 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0\Browsers" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser" 2 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx" 60 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0\machine.config" 33 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0\settings.map" 3 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.0\web.config" 19 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5\Browsers" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser" 2 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx" 60 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5\machine.config" 34 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5\settings.map" 3 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\4.5\web.config" 19 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\browscap.ini" 305 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\config" 4 kB 
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\mconfig" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "MonoBleedingEdge\etc\mono\mconfig\config.xml" 26 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen.exe" 639 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\app.info" 1 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\boot.config" 1 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\globalgamemanagers" 58 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\globalgamemanagers.assets" 86 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\level0" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\level1" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\level2" 846 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\level3" 16 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Assembly-CSharp.dll" 121 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Mono.Security.dll" 303 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\mscorlib.dll" 3815 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\netstandard.dll" 83 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.ComponentModel.Composition.dll" 242 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Configuration.dll" 42 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Core.dll" 1033 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Data.dll" 1896 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Diagnostics.StackTrace.dll" 7 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.dll" 2225 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Drawing.dll" 180 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.EnterpriseServices.dll" 33 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Globalization.Extensions.dll" 6 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.IO.Compression.dll" 97 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.IO.Compression.FileSystem.dll" 23 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Net.Http.dll" 112 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Numerics.dll" 112 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Runtime.Serialization.dll" 821 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Runtime.Serialization.Xml.dll" 7 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.ServiceModel.Internals.dll" 213 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Transactions.dll" 33 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Xml.dll" 2358 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Xml.Linq.dll" 117 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\System.Xml.XPath.XDocument.dll" 5 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.2D.Animation.Runtime.dll" 36 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.2D.Animation.Triangle.Runtime.dll" 183 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.2D.Common.Runtime.dll" 3 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.2D.IK.Runtime.dll" 17 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.2D.PixelPerfect.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.2D.SpriteShape.Runtime.dll" 103 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.InternalAPIEngineBridge.001.dll" 4 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.Mathematics.dll" 700 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.TextMeshPro.dll" 362 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\Unity.Timeline.dll" 109 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.AccessibilityModule.dll" 13 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.AIModule.dll" 45 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.AndroidJNIModule.dll" 67 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.AnimationModule.dll" 147 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ARModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.AssetBundleModule.dll" 22 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.AudioModule.dll" 57 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ClothModule.dll" 15 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ClusterInputModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ClusterRendererModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.CoreModule.dll" 1120 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.CrashReportingModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.DirectorModule.dll" 14 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.dll" 90 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.DSPGraphModule.dll" 18 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.GameCenterModule.dll" 28 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.GIModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.GridModule.dll" 14 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.HotReloadModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ImageConversionModule.dll" 13 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.IMGUIModule.dll" 157 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.InputLegacyModule.dll" 26 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.InputModule.dll" 13 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.JSONSerializeModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.LocalizationModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ParticleSystemModule.dll" 139 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.PerformanceReportingModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.Physics2DModule.dll" 105 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.PhysicsModule.dll" 95 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ProfilerModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.ScreenCaptureModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.SharedInternalsModule.dll" 21 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.SpriteMaskModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.SpriteShapeModule.dll" 14 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.StreamingModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.SubstanceModule.dll" 14 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.SubsystemsModule.dll" 24 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.TerrainModule.dll" 80 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.TerrainPhysicsModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.TextCoreModule.dll" 183 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.TextRenderingModule.dll" 28 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.TilemapModule.dll" 26 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.TLSModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UI.dll" 225 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UIElementsModule.dll" 781 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UIElementsNativeModule.dll" 47 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UIModule.dll" 24 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UmbraModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UNETModule.dll" 77 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityAnalyticsModule.dll" 33 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityConnectModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityCurlModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityTestProtocolModule.dll" 9 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll" 12 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll" 12 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityWebRequestModule.dll" 43 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll" 20 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.VehiclesModule.dll" 13 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.VFXModule.dll" 39 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.VideoModule.dll" 29 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.VirtualTexturingModule.dll" 23 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.VRModule.dll" 15 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.WindModule.dll" 10 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Managed\UnityEngine.XRModule.dll" 55 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Resources" 0 kB ,Flags: 64
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\resources.assets" 865 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\resources.assets.resS" 2543 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Resources\unity default resources" 4732 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\Resources\unity_builtin_extra" 340 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\RuntimeInitializeOnLoads.json" 1 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\ScriptingAssemblies.json" 3 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets0.assets" 125 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets0.assets.resS" 809 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets0.resource" 1008 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets1.assets" 27 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets1.assets.resS" 512 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets2.assets" 949 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets2.assets.resS" 19184 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets2.resource" 22394 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets3.assets" 11 kB 
+[2023-10-23 20:16:37]: Added  : "Report on the Death of Robert Evergreen_Data\sharedassets3.assets.resS" 10928 kB 
+[2023-10-23 20:16:37]: Added  : "UnityCrashHandler64.exe" 1222 kB 
+[2023-10-23 20:16:37]: Added  : "UnityPlayer.dll" 27464 kB 
+[2023-10-23 20:16:37]: Added  : "your game content lives here.txt" 0 kB 
+[2023-10-23 20:16:37]: Added  : "your game content lives here.txt.meta" 1 kB 
+[2023-10-23 20:16:37]: Removed: app_2660060.vdf (1 kB)
+[2023-10-23 20:16:37]: Removed: app_build_1000.vdf.meta (1 kB)
+[2023-10-23 20:16:37]: Removed: app_build_2660060.vdf (1 kB)
+[2023-10-23 20:16:37]: Removed: depot_2660061.vdf (1 kB)
+[2023-10-23 20:16:37]: Removed: depot_build_1001.vdf.meta (1 kB)
+[2023-10-23 20:16:37]: Removed: depot_build_1002.vdf (2 kB)
+[2023-10-23 20:16:37]: Removed: depot_build_1002.vdf.meta (1 kB)
+[2023-10-23 20:16:37]: Removed: depot_build_2660061.vdf (1 kB)
+[2023-10-23 20:16:37]: Removed: simple_app_build.vdf (1 kB)
+[2023-10-23 20:16:37]: Removed: simple_app_build.vdf.meta (1 kB)
+[2023-10-23 20:16:37]: Summary: 163 files added, 0 files changed, 10 files removed
+[2023-10-23 20:16:37]: Uploading new manifest to 208.64.201.204:80 (handle 12653156615961580808, 31463 bytes).
+[2023-10-23 20:16:38]: Uploading 239 out of 239 missing chunks.
+[2023-10-23 20:16:44]: Success! New manifestID 2001475258911537660 created and 239 new chunks uploaded.
