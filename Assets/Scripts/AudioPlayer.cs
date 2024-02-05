@@ -43,7 +43,7 @@ public class AudioPlayer : MonoBehaviour
 
     void Update()
     {
-     
+
     }
 
     IEnumerator WaitForClipEnd(){ //Allows the player to see how far along in the audio clip they're in
