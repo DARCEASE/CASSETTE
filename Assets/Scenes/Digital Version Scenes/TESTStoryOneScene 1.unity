@@ -27640,6 +27640,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 775834437}
   a_durationBar: {fileID: 631678339}
   a_source: {fileID: 456504220}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1118775261}
   a_timeText: {fileID: 1670840977}
 --- !u!114 &456504219
@@ -27902,6 +27904,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1512591200}
   a_durationBar: {fileID: 428270430}
   a_source: {fileID: 456504223}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 12606580}
   a_timeText: {fileID: 2134506815}
 --- !u!1 &458047926
@@ -31134,6 +31138,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1512591200}
   a_durationBar: {fileID: 428270430}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 12606580}
   a_timeText: {fileID: 2134506815}
 --- !u!114 &506668844
@@ -47772,6 +47778,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1329891430}
   a_durationBar: {fileID: 388120732}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 731613747}
   a_timeText: {fileID: 870798126}
 --- !u!114 &774034115
@@ -53025,6 +53033,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 170296989}
   a_durationBar: {fileID: 1309657519}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 763717552}
   a_timeText: {fileID: 365117585}
 --- !u!114 &853175243
@@ -57064,6 +57074,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1510963097}
   a_durationBar: {fileID: 1503807041}
   a_source: {fileID: 922320287}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 2046167647}
   a_timeText: {fileID: 2096034556}
 --- !u!114 &922320286
@@ -57326,6 +57338,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 740036846}
   a_durationBar: {fileID: 145388324}
   a_source: {fileID: 922320290}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 555340897}
   a_timeText: {fileID: 1532771670}
 --- !u!1 &925287763
@@ -90407,6 +90421,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 721872327}
   a_durationBar: {fileID: 1346515618}
   a_source: {fileID: 1415734646}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1324324516}
   a_timeText: {fileID: 636627724}
 --- !u!114 &1415734645
@@ -90669,6 +90685,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1329891430}
   a_durationBar: {fileID: 388120732}
   a_source: {fileID: 1415734649}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 731613747}
   a_timeText: {fileID: 870798126}
 --- !u!1 &1420306798
@@ -99584,6 +99602,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1823597511}
   a_durationBar: {fileID: 1428997112}
   a_source: {fileID: 1553609068}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1680526636}
   a_timeText: {fileID: 187643632}
 --- !u!114 &1553609067
@@ -99846,6 +99866,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 896559744}
   a_durationBar: {fileID: 1817216251}
   a_source: {fileID: 1553609071}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 9307479}
   a_timeText: {fileID: 997379258}
 --- !u!1 &1554304702
@@ -111584,6 +111606,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 896559744}
   a_durationBar: {fileID: 1817216251}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 9307479}
   a_timeText: {fileID: 997379258}
 --- !u!114 &1728486253
@@ -120995,6 +121019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83499c856b4db0246a27ddcb1fd064f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AP: {fileID: 456504218}
   Novak_Audios:
   - {fileID: 0}
   - {fileID: 0}
@@ -128566,6 +128591,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 991530705}
   a_durationBar: {fileID: 73119214}
   a_source: {fileID: 1983585085}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1583945027}
   a_timeText: {fileID: 1082184866}
 --- !u!82 &1983585085
@@ -128790,6 +128817,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 467657938}
   a_durationBar: {fileID: 1885319655}
   a_source: {fileID: 1983585087}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 481034524}
   a_timeText: {fileID: 20866685}
 --- !u!1 &1984795967

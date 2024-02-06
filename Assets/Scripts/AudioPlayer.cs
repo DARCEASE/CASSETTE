@@ -17,7 +17,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] AudioSource a_source;
     public AudioClip a_clip; //Once a audio clip is in, it will stay the first clip. This vari needs to change for the duration to change
     int a_fullLength;
-    int a_duration;
+    public int a_duration;
     int a_minutes;
     int a_seconds;
     bool _mouseOver;
@@ -36,7 +36,7 @@ public class AudioPlayer : MonoBehaviour
         ShowClipInfo();
         knobPosX = a_knob.transform.localPosition.x;
         barWidith = a_durationBarBG.transform.localScale.x;
-        a_slider.maxValue = a_fullLength;
+        
         a_slider.value = knobPosX;
 
     }
@@ -44,6 +44,7 @@ public class AudioPlayer : MonoBehaviour
     void Update()
     {
         a_clip = a_source.clip;
+        a_slider.maxValue = a_fullLength;
         ShowClipInfo();
     }
 
@@ -77,16 +78,16 @@ public class AudioPlayer : MonoBehaviour
         a_slider.value = (float) a_duration;
         ShowDuration();
     }
-
+    // 2/5: DURATION ISN'T UPDATING, FIXED
     void ShowDuration(){ //Puts the milliseconds into minutes in seconds
         a_seconds = a_duration % 60;
         a_minutes = (a_duration / 60) % 60;
         a_slider.value = (float) a_duration;
+        Debug.Log("This is a test");
         a_timeText.text = a_minutes + ":" + a_seconds.ToString("D2") + "/" + ((a_fullLength / 60) % 60) + ":" + (a_fullLength % 60).ToString("D2"); //D2 = 2 decimal points
     }
 
-    void ShowClipInfo(){ //Shows the name of the clip and its length
-        //a_titleText.text = a_clip.name;
+    void ShowClipInfo(){ //Shows the name of the clip's length
         a_fullLength = (int) a_clip.length;
     }
    
