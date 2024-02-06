@@ -15,7 +15,7 @@ public class AudioPlayer : MonoBehaviour
     //For audio, specifically showing the length of the clip, the current second it's on, minutes, and seconds
     [SerializeField] GameObject a_knob, a_durationBarBG, a_durationBar; //both the fill and handle slide area should move as the clip runs. //a_durationBar = fill line
     [SerializeField] AudioSource a_source;
-    AudioClip a_clip;
+    public AudioClip a_clip; //Once a audio clip is in, it will stay the first clip. This vari needs to change for the duration to change
     int a_fullLength;
     int a_duration;
     int a_minutes;
@@ -43,7 +43,8 @@ public class AudioPlayer : MonoBehaviour
 
     void Update()
     {
-
+        a_clip = a_source.clip;
+        ShowClipInfo();
     }
 
     IEnumerator WaitForClipEnd(){ //Allows the player to see how far along in the audio clip they're in

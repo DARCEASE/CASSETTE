@@ -13,6 +13,7 @@ public class DisplaySnippets : MonoBehaviour
     // ROTDORE:Make a system that stores the text and audio file that should appear when the player selects a certain button.
     
     Scene scene;
+    [SerializeField] AudioPlayer AP;
     [SerializeField] AudioClip[] Novak_Audios, Jim_Audios, Julia_Audios, Max_Audios, Mike_Audios;
     [TextArea]
     [SerializeField] string[] Novak_Texts, Jim_Texts, Julia_Texts, Max_Texts, Mike_Texts;
@@ -46,7 +47,7 @@ public class DisplaySnippets : MonoBehaviour
             Char2AS.clip = Julia_Audios[0];
             currentAudioSource.clip = Char2AS.clip;
             currentDisplayedAudio = currentAudioSource.clip;
-            
+            AP.a_clip = currentAudioSource.clip;
         }
     }
 
@@ -58,7 +59,7 @@ public class DisplaySnippets : MonoBehaviour
             Char2AS.clip = Julia_Audios[1];
             currentAudioSource.clip = Char2AS.clip;
             currentDisplayedAudio = currentAudioSource.clip;
-
+            AP.a_clip = currentAudioSource.clip;
         }
     }
 
@@ -70,6 +71,7 @@ public class DisplaySnippets : MonoBehaviour
             Char2AS.clip = Julia_Audios[2];
             currentAudioSource.clip = Char2AS.clip;        
             currentDisplayedAudio = currentAudioSource.clip;
+            AP.a_clip = currentAudioSource.clip;
         }
     }
 
@@ -81,6 +83,7 @@ public class DisplaySnippets : MonoBehaviour
             Char2AS.clip = Julia_Audios[3];
             currentAudioSource.clip = Char2AS.clip;        
             currentDisplayedAudio = currentAudioSource.clip;
+            AP.a_clip = currentAudioSource.clip;
         }
     }
 
@@ -91,7 +94,8 @@ public class DisplaySnippets : MonoBehaviour
             Char2AS.clip = Julia_Audios[4];
             currentDisplayedText.text = Julia_Texts[4];
             currentAudioSource.clip = Julia_Audios[4];
-            currentAudioSource.clip = Char2AS.clip;      
+            currentAudioSource.clip = Char2AS.clip;  
+            AP.a_clip = currentAudioSource.clip;
         }
     }
     #endregion
