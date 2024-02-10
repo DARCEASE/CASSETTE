@@ -33,7 +33,7 @@ public class AudioPlayer : MonoBehaviour
         //a_source = GetComponent<AudioSource>();
         a_clip = a_source.clip;
         a_source.Pause();
-        ShowClipInfo();
+        //ShowClipInfo();
         knobPosX = a_knob.transform.localPosition.x;
         barWidith = a_durationBarBG.transform.localScale.x;
         
@@ -76,7 +76,7 @@ public class AudioPlayer : MonoBehaviour
         a_duration = 0;
         a_source.time = (float) a_duration;
         a_slider.value = (float) a_duration;
-        ShowDuration();
+        
     }
     // 2/5: DURATION ISN'T UPDATING, FIXED
     void ShowDuration(){ //Puts the milliseconds into minutes in seconds
