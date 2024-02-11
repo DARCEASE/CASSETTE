@@ -33,10 +33,54 @@ public class DisplaySnippets : MonoBehaviour
     {
     }
 
+    //Would it be possible to consolidate these and have them change depending on the scene it's in? YES!
+    #region Ch1
+    #region Novak_One
     public void Novak_Audios_One(){
-        currentDisplayedAudio = Novak_Audios[0];
-        currentDisplayedText.text = Novak_Texts[0];
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Novak_Texts[0];
+            Char1AS.clip = Novak_Audios[0];
+            currentAudioSource.clip = Char1AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
     }
+
+    public void Novak_Audios_Two(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Novak_Texts[1];
+            Char1AS.clip = Novak_Audios[1];
+            currentAudioSource.clip = Char1AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Novak_Audios_Three(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Novak_Texts[2];
+            Char1AS.clip = Novak_Audios[2];
+            currentAudioSource.clip = Char1AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Novak_Audios_Four(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Novak_Texts[3];
+            Char1AS.clip = Novak_Audios[3];
+            currentAudioSource.clip = Char1AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Novak_Audios_Five(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Novak_Texts[4];
+            Char1AS.clip = Novak_Audios[4];
+            currentAudioSource.clip = Char1AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+    #endregion
 
     #region Julia
     public void Julia_Audios_One(){
@@ -83,5 +127,147 @@ public class DisplaySnippets : MonoBehaviour
             AP.a_duration = (int) currentAudioSource.time;
         }
     }
+    #endregion
+
+    #region Jim
+    public void Jim_Audios_One(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Jim_Texts[0];
+            Char3AS.clip = Jim_Audios[0];
+            currentAudioSource.clip = Char3AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Jim_Audios_Two(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Jim_Texts[1];
+            Char3AS.clip = Jim_Audios[1];
+            currentAudioSource.clip = Char3AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Jim_Audios_Three(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Jim_Texts[2];
+            Char3AS.clip = Jim_Audios[2];
+            currentAudioSource.clip = Char3AS.clip;       
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Jim_Audios_Four(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Jim_Texts[3];
+            Char3AS.clip = Jim_Audios[3];
+            currentAudioSource.clip = Char3AS.clip;       
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Jim_Audios_Five(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Jim_Texts[4];
+            Char3AS.clip = Jim_Audios[4];
+            currentAudioSource.clip = Char3AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+    #endregion
+
+    #region Max
+    public void Max_Audios_One(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Max_Texts[0];
+            Char4AS.clip = Max_Audios[0];
+            currentAudioSource.clip = Char4AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Max_Audios_Two(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Max_Texts[1];
+            Char4AS.clip = Max_Audios[1];
+            currentAudioSource.clip = Char4AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Max_Audios_Three(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Max_Texts[2];
+            Char4AS.clip = Max_Audios[2];
+            currentAudioSource.clip = Char4AS.clip;       
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Max_Audios_Four(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Max_Texts[3];
+            Char4AS.clip = Max_Audios[3];
+            currentAudioSource.clip = Char4AS.clip;       
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Max_Audios_Five(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Max_Texts[4];
+            Char4AS.clip = Max_Audios[4];
+            currentAudioSource.clip = Char4AS.clip;  
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+    #endregion
+
+    #region Mike
+    public void Mike_Audios_One(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Mike_Texts[0];
+            Char5AS.clip = Mike_Audios[0];
+            currentAudioSource.clip = Char5AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Mike_Audios_Two(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Mike_Texts[1];
+            Char5AS.clip = Mike_Audios[1];
+            currentAudioSource.clip = Char5AS.clip;
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Mike_Audios_Three(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Mike_Texts[2];
+            Char5AS.clip = Mike_Audios[2];
+            currentAudioSource.clip = Char5AS.clip;        
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Mike_Audios_Four(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Mike_Texts[3];
+            Char5AS.clip = Mike_Audios[3];
+            currentAudioSource.clip = Char5AS.clip;        
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+
+    public void Mike_Audios_Five(){
+        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            currentDisplayedText.text = Mike_Texts[4];
+            Char5AS.clip = Mike_Audios[4];
+            currentAudioSource.clip = Char5AS.clip; 
+            AP.a_duration = (int) currentAudioSource.time;
+        }
+    }
+    #endregion
     #endregion
 }
