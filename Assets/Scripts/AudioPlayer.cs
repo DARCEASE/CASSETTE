@@ -72,14 +72,6 @@ public class AudioPlayer : MonoBehaviour
         a_source.time = (float) a_duration;
         a_slider.value = (float) a_duration;
     }
-
-    public void SetAudioToZero(){
-        a_duration = 0;
-        a_source.time = (float) a_duration;
-        a_slider.value = (float) a_duration;
-        Debug.Log("Audio Source time: " + a_source.time);
-        Debug.Log("Audio duration: " + a_duration);
-    }
     
     // 2/18: THE DURATION IN HERE ISN'T RESETTING WHEN ACCESSING A NEW CLIP
     void ShowDuration(){ //Puts the milliseconds into minutes and seconds

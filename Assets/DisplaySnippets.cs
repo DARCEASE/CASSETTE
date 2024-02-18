@@ -37,7 +37,6 @@ public class DisplaySnippets : MonoBehaviour
     #region Ch1
     #region Novak_One
     public void Char1_Audios_One(){
-        AP.a_duration = 0;
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[0];
             Char1AS.clip = Novak_Audios[0];
@@ -45,7 +44,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char1_Audios_Two(){
-        AP.a_duration = 0;
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[1];
             Char1AS.clip = Novak_Audios[1];
@@ -53,7 +51,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char1_Audios_Three(){
-        AP.SetAudioToZero();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[2];
             Char1AS.clip = Novak_Audios[2];
@@ -61,7 +58,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char1_Audios_Four(){
-        AP.a_duration = 0;
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[3];
             Char1AS.clip = Novak_Audios[3];
@@ -69,7 +65,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char1_Audios_Five(){
-        AP.a_duration = 0;
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[4];
             Char1AS.clip = Novak_Audios[4];
@@ -77,7 +72,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char1_Audios_Six(){
-        AP.a_duration = 0;
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[5];
             Char1AS.clip = Novak_Audios[5];
@@ -87,7 +81,6 @@ public class DisplaySnippets : MonoBehaviour
 
     #region Julia
     public void Char2_Audios_One(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[0];
             Char2AS.clip = Julia_Audios[0];
@@ -95,7 +88,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char2_Audios_Two(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[1];
             Char2AS.clip = Julia_Audios[1];
@@ -103,7 +95,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char2_Audios_Three(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[2];
             Char2AS.clip = Julia_Audios[2];
@@ -111,7 +102,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char2_Audios_Four(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[3];
             Char2AS.clip = Julia_Audios[3];
@@ -119,7 +109,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char2_Audios_Five(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[4];
             Char2AS.clip = Julia_Audios[4];
@@ -129,7 +118,6 @@ public class DisplaySnippets : MonoBehaviour
 
     #region Jim
     public void Char3_Audios_One(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[0];
             Char3AS.clip = Jim_Audios[0];
@@ -137,7 +125,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char3_Audios_Two(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[1];
             Char3AS.clip = Jim_Audios[1];            
@@ -145,7 +132,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char3_Audios_Three(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[2];
             Char3AS.clip = Jim_Audios[2];
@@ -153,7 +139,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char3_Audios_Four(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[3];
             Char3AS.clip = Jim_Audios[3];
@@ -161,7 +146,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char3_Audios_Five(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[4];
             Char3AS.clip = Jim_Audios[4];
@@ -171,7 +155,6 @@ public class DisplaySnippets : MonoBehaviour
 
     #region Max
     public void Char4_Audios_One(){
-        
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[0];
             Char4AS.clip = Max_Audios[0];
@@ -186,7 +169,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char4_Audios_Three(){
-
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[2];
             Char4AS.clip = Max_Audios[2];
@@ -194,7 +176,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char4_Audios_Four(){
-
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[3];
             Char4AS.clip = Max_Audios[3];
@@ -202,7 +183,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char4_Audios_Five(){
-
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[4];
             Char4AS.clip = Max_Audios[4];
@@ -210,7 +190,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char4_Audios_Six(){
-
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[5];
             Char4AS.clip = Max_Audios[5];
@@ -220,7 +199,6 @@ public class DisplaySnippets : MonoBehaviour
 
     #region Mike
     public void Char5_Audios_One(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[0];
             Char5AS.clip = Mike_Audios[0];
@@ -228,7 +206,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char5_Audios_Two(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[1];
             Char5AS.clip = Mike_Audios[1];
@@ -236,7 +213,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char5_Audios_Three(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[2];
             Char5AS.clip = Mike_Audios[2];
@@ -244,7 +220,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char5_Audios_Four(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[3];
             Char5AS.clip = Mike_Audios[3];
@@ -252,7 +227,6 @@ public class DisplaySnippets : MonoBehaviour
     }
 
     public void Char5_Audios_Five(){
-        AP.RestartAudio();
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[4];
             Char5AS.clip = Mike_Audios[4];
