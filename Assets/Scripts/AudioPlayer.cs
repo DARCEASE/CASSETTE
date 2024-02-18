@@ -23,26 +23,23 @@ public class AudioPlayer : MonoBehaviour
     bool _mouseOver;
     float simpleKnobVal, knobVal, minKnobVal, maxKnobVal, minKnobPosX, maxKnobPosX, knobPosX, barWidith;
     bool restHit;
-    [SerializeField] Slider a_slider;
+    [SerializeField] public Slider a_slider;
 
     //Just in case we want to display the name too (since they would click within the player's file for this)
     public TMP_Text a_timeText;
 
     void Start()
     {
-        //a_source = GetComponent<AudioSource>();
         a_clip = a_source.clip;
         a_source.Pause();
-        //ShowClipInfo();
         knobPosX = a_knob.transform.localPosition.x;
         barWidith = a_durationBarBG.transform.localScale.x;
-        
         a_slider.value = knobPosX;
-
     }
 
     void Update()
     {
+        //Makes the duration show with the new system
         a_clip = a_source.clip;
         a_slider.maxValue = a_fullLength;
         ShowClipInfo();
@@ -57,12 +54,10 @@ public class AudioPlayer : MonoBehaviour
     }
 
     public void PlayAudio(){ //Plays audio until it reaches the end
- 
         if (!a_source.isPlaying){
                 a_source.Play();
             a_slider.onValueChanged.AddListener(delegate {OnMouseDrag();});
         }
-
         StartCoroutine(WaitForClipEnd());
     }
 
@@ -76,15 +71,23 @@ public class AudioPlayer : MonoBehaviour
         a_duration = 0;
         a_source.time = (float) a_duration;
         a_slider.value = (float) a_duration;
-        
     }
-    // 2/5: DURATION ISN'T UPDATING, FIXED
-    void ShowDuration(){ //Puts the milliseconds into minutes in seconds
+
+    public void SetAudioToZero(){
+        a_duration = 0;
+        a_source.time = (float) a_duration;
+        a_slider.value = (float) a_duration;
+        Debug.Log("Audio Source time: " + a_source.time);
+        Debug.Log("Audio duration: " + a_duration);
+    }
+    
+    // 2/18: THE DURATION IN HERE ISN'T RESETTING WHEN ACCESSING A NEW CLIP
+    void ShowDuration(){ //Puts the milliseconds into minutes and seconds
         a_seconds = a_duration % 60;
         a_minutes = (a_duration / 60) % 60;
         a_slider.value = (float) a_duration;
-        Debug.Log("This is a test");
         a_timeText.text = a_minutes + ":" + a_seconds.ToString("D2") + "/" + ((a_fullLength / 60) % 60) + ":" + (a_fullLength % 60).ToString("D2"); //D2 = 2 decimal points
+        Debug.Log("Show Duration A duration: " + a_duration);
     }
 
     void ShowClipInfo(){ //Shows the name of the clip's length
@@ -93,6 +96,5 @@ public class AudioPlayer : MonoBehaviour
    
     void OnMouseDrag() {
         a_source.time = a_slider.value;
-        Debug.Log("Sliding");  
     }
 }
