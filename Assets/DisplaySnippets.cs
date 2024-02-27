@@ -37,42 +37,42 @@ public class DisplaySnippets : MonoBehaviour
     #region Ch1
     #region Novak_One
     public void Char1_Audios_One(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[0];
             Char1AS.clip = Novak_Audios[0];
         }
     }
 
     public void Char1_Audios_Two(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[1];
             Char1AS.clip = Novak_Audios[1];
         }
     }
 
     public void Char1_Audios_Three(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[2];
             Char1AS.clip = Novak_Audios[2];
         }
     }
 
     public void Char1_Audios_Four(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[3];
             Char1AS.clip = Novak_Audios[3];
         }
     }
 
     public void Char1_Audios_Five(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[4];
             Char1AS.clip = Novak_Audios[4];
         }
     }
 
     public void Char1_Audios_Six(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[5];
             Char1AS.clip = Novak_Audios[5];
         }
@@ -118,35 +118,35 @@ public class DisplaySnippets : MonoBehaviour
 
     #region Jim
     public void Char3_Audios_One(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[0];
             Char3AS.clip = Jim_Audios[0];
         }
     }
 
     public void Char3_Audios_Two(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[1];
             Char3AS.clip = Jim_Audios[1];            
         }
     }
 
     public void Char3_Audios_Three(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[2];
             Char3AS.clip = Jim_Audios[2];
         }
     }
 
     public void Char3_Audios_Four(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[3];
             Char3AS.clip = Jim_Audios[3];
         }
     }
 
     public void Char3_Audios_Five(){
-        if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[4];
             Char3AS.clip = Jim_Audios[4];
         }

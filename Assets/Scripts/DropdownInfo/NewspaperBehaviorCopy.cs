@@ -44,6 +44,10 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     bool Char3A1, Char3B1, Char3C1, Char3A2, Char3B2, Char3C2, Char3A3, Char3B3, Char3C3;
     bool Char4A1, Char4B1, Char4C1, Char4A2, Char4B2, Char4C2, Char4A3, Char4B3, Char4C3;
     bool Char5A1, Char5B1, Char5C1, Char5A2, Char5B2, Char5C2, Char5A3, Char5B3, Char5C3;
+
+    //Demo bools (Novak and Jim)
+    bool DEMO_Char1A1, DEMO_Char1B1, DEMO_Char1C1, DEMO_Char1A2, DEMO_Char1B2, DEMO_Char1C2, DEMO_Char1A3, DEMO_Char1B3, DEMO_Char1C3;
+    bool DEMO_Char2A1, DEMO_Char2B1, DEMO_Char2C1, DEMO_Char2A2, DEMO_Char2B2, DEMO_Char2C2, DEMO_Char2A3, DEMO_Char2B3, DEMO_Char2C3;
     
 #endregion
 
@@ -65,10 +69,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         if (Char1DPOne.value == 1) // if you choose the first option for Novak Is.. 
         {  
             //Make booleans for each option and then calculate them once the person hits submit
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"  || scene.name == "DEMO"){
                 Char1A1 = true;
                 Char1B1 = false;
                 Char1C1 = false;
+                DEMO_Char1A1 = true;
+                DEMO_Char1B1 = false;
+                DEMO_Char1C1 = false;
                 Char1SelectionDoneA = true;
                 ROTDORE.NovakOutputInt = 3;
                 ROTDORE.muckrakerPaper += 1;
@@ -78,10 +85,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char1DPOne.value == 2)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A1 = false;
                 Char1B1 = true;
                 Char1C1 = false;
+                DEMO_Char1A1 = false;
+                DEMO_Char1B1 = true;
+                DEMO_Char1C1 = false;
                 Char1SelectionDoneA = true;
                 ROTDORE.NovakSQOutputInt = 3;
                 ROTDORE.statusQuoPaper += 1;
@@ -91,11 +101,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char1DPOne.value == 3)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
 
                 Char1A1 = false;
                 Char1B1 = true;
                 Char1C1 = false;
+                DEMO_Char1A1 = false;
+                DEMO_Char1B1 = false;
+                DEMO_Char1C1 = true;
                 ROTDORE.NovakTabOutputInt = 3;
                 Char1SelectionDoneA = true;
                 ROTDORE.tabloidPaper += 1;
@@ -110,10 +123,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char1DPTwo.value == 1) // if you choose the first option for Novak Is.. 
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A2 = true;
                 Char1B2 = false;
                 Char1C2 = false;
+                DEMO_Char1A2 = true;
+                DEMO_Char1B2 = false;
+                DEMO_Char1C2 = false;
                 ROTDORE.muckrakerPaper+=1;
                 Char1SelectionDoneB = true;
                 ROTDORE.NovakOutputInt = 1;
@@ -121,10 +137,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char1DPTwo.value == 2)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A2 = false;
                 Char1B2 = true;
                 Char1C2 = false;
+                DEMO_Char1A2 = false;
+                DEMO_Char1B2 = true;
+                DEMO_Char1C2 = false;                
                 ROTDORE.statusQuoPaper+=1;
                 Char1SelectionDoneB = true;
                 ROTDORE.NovakSQOutputInt = 1;
@@ -134,10 +153,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char1DPTwo.value == 3)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A2 = false;
                 Char1B2 = false;
                 Char1C2 = true;
+                DEMO_Char1A2 = false;
+                DEMO_Char1B2 = false;
+                DEMO_Char1C2 = true;
                 ROTDORE.tabloidPaper+=1;
                 Char1SelectionDoneB = true;
                 ROTDORE.NovakTabOutputInt = 1;
@@ -152,10 +174,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char1DPThree.value == 1) // if you choose the first option for Novak Is.. 
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A3 = true;
                 Char1B3 = false;
-                Char1C3 = false;
+                Char1C3 = false;                
+                DEMO_Char1A3 = true;
+                DEMO_Char1B3 = false;
+                DEMO_Char1C3 = false;                
                 ROTDORE.muckrakerPaper+=1;
                 Char1SelectionDoneC = true;
                 ROTDORE.NovakOutputInt = 2;
@@ -167,10 +192,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char1DPThree.value == 2)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A3 = false;
                 Char1B3 = true;
                 Char1C3 = false;
+                DEMO_Char1A3 = false;
+                DEMO_Char1B3 = true;
+                DEMO_Char1C3 = false;                                
                 ROTDORE.statusQuoPaper+=1;
                 Char1SelectionDoneC = true;
                 ROTDORE.NovakSQOutputInt = 2;
@@ -181,10 +209,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char1DPThree.value == 3)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char1A3 = false;
                 Char1B3 = false;
                 Char1C3 = true;
+                DEMO_Char1A3 = false;
+                DEMO_Char1B3 = false;
+                DEMO_Char1C3 = true;                                                
                 ROTDORE.tabloidPaper+=1;
                 ROTDORE.NovakTabOutputInt = 3;
                 Char1SelectionDoneC = true;
@@ -201,10 +232,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char2DPOne.value == 1) 
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A1 = true;
                 Char2B1 = false;
                 Char2C1 = false;
+                DEMO_Char2A1 = true;
+                DEMO_Char2B1 = false;
+                DEMO_Char2C1 = false;
                 ROTDORE.muckrakerPaper+=1;
                 ROTDORE.JimOutputInt = 1;
                 Char2SelectionDoneA = true;
@@ -215,10 +249,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char2DPOne.value == 2)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A1 = false;
                 Char2B1 = true;
                 Char2C1 = false;
+                DEMO_Char2A1 = false;
+                DEMO_Char2B1 = true;
+                DEMO_Char2C1 = false;
                 ROTDORE.statusQuoPaper+=1;
                 ROTDORE.JimSQOutputInt = 1;
                 Char2SelectionDoneA = true;
@@ -228,10 +265,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char2DPOne.value == 3)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A1 = false;
                 Char2B1 = false;
                 Char2C1 = true;
+                DEMO_Char2A1 = false;
+                DEMO_Char2B1 = false;
+                DEMO_Char2C1 = true;
                 ROTDORE.tabloidPaper+=1;
                 ROTDORE.JimTabOutputInt = 1;
                 Char2SelectionDoneA = true;
@@ -245,10 +285,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char2DPTwo.value == 1) 
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A2 = true;
                 Char2B2 = false;
                 Char2C2 = false;
+                DEMO_Char2A2 = true;
+                DEMO_Char2B2 = false;
+                DEMO_Char2C2 = false;                
                 ROTDORE.muckrakerPaper+=1;
                 ROTDORE.JimOutputInt = 2;
                 Char2SelectionDoneB = true;
@@ -256,10 +299,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char2DPTwo.value == 2)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"|| scene.name == "DEMO"){
                 Char2A2 = false;
                 Char2B2 = true;
                 Char2C2 = false;
+                DEMO_Char2A2 = false;
+                DEMO_Char2B2 = true;
+                DEMO_Char2C2 = false;
                 ROTDORE.statusQuoPaper+=1;
                 ROTDORE.JimSQOutputInt = 2;
                 Char2SelectionDoneB = true;
@@ -269,10 +315,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char2DPTwo.value == 3)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A2 = false;
                 Char2B2 = false;
                 Char2C2 = true;
+                DEMO_Char2A2 = false;
+                DEMO_Char2B2 = false;
+                DEMO_Char2C2 = true;
                 ROTDORE.tabloidPaper+=1;
                 ROTDORE.JimTabOutputInt = 2;
                 Char2SelectionDoneB = true;
@@ -285,10 +334,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char2DPThree.value == 1) 
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A3 = true;
                 Char2B3 = false;
                 Char2C3 = false;
+                DEMO_Char2A3 = true;
+                DEMO_Char2B3 = false;
+                DEMO_Char2C3 = false;                
                 ROTDORE.muckrakerPaper+=1;
                 ROTDORE.JimOutputInt = 3;
                 Char2SelectionDoneC = true;
@@ -296,10 +348,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char2DPThree.value == 2)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"|| scene.name == "DEMO"){
                 Char2A3 = false;
                 Char2B3 = false;
                 Char2C3 = true;
+                DEMO_Char2A3 = false;
+                DEMO_Char2B3 = true;
+                DEMO_Char2C3 = false;                                
                 ROTDORE.statusQuoPaper+=1;
                 ROTDORE.JimSQOutputInt = 3;
                 Char2SelectionDoneC = true;
@@ -310,10 +365,13 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char2DPThree.value == 3)
         {
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "DEMO"){
                 Char2A3 = false;
                 Char2B3 = false;
                 Char2C3 = true;
+                DEMO_Char2A3 = false;
+                DEMO_Char2B3 = false;
+                DEMO_Char2C3 = true;                                
                 ROTDORE.tabloidPaper+=1;
                 ROTDORE.JimTabOutputInt = 3;
                 Char2SelectionDoneC = true;
@@ -392,7 +450,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char3DPTwo.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char3A2 = true;
                 Char3B2 = false;
                 Char3C2 = false;
@@ -413,7 +471,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char3DPTwo.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char3A2 = false;
                 Char3B2 = true;
                 Char3C2 = false;
@@ -435,7 +493,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char3DPTwo.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char3A2 = false;
                 Char3B2 = false;
                 Char3C2 = true;
@@ -461,7 +519,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char3DPThree.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char3A3 = true;
                 Char3B3 = false;
                 Char3C3 = false;
@@ -471,7 +529,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneC = true;
                 RUSSIA.FearfulPaper += 1;
 
@@ -480,7 +538,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char3DPThree.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char3A3 = false;
                 Char3B3 = true;
                 Char3C3 = false;
@@ -501,7 +559,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char3DPThree.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char3A3 = false;
                 Char3B3 = false;
                 Char3C3 = true;
@@ -525,7 +583,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char4DPOne.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A1 = true;
                 Char4B1 = false;
                 Char4C1 = false;
@@ -544,7 +602,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char4DPOne.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A1 = false;
                 Char4B1 = true;
                 Char4C1 = false;
@@ -564,7 +622,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char4DPOne.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A1 = false;
                 Char4B1 = false;
                 Char4C1 = true;
@@ -589,7 +647,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char4DPTwo.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A2 = true;
                 Char4B2 = false;
                 Char4C2 = false;
@@ -609,7 +667,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char4DPTwo.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A2 = false;
                 Char4B2 = true;
                 Char4C2 = false;
@@ -628,7 +686,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char4DPTwo.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A3 = false;
                 Char4B3 = false;
                 Char4C3 = true;
@@ -653,7 +711,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char4DPThree.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A3 = true;
                 Char4B3 = false;
                 Char4C3 = false;
@@ -674,7 +732,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char4DPThree.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A3 = false;
                 Char4B3 = true;
                 Char4C3 = false;
@@ -695,7 +753,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char4DPThree.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char4A3 = false;
                 Char4B3 = false;
                 Char4C3 = true;
@@ -724,7 +782,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char5DPOne.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A1 = true;
                 Char5B1 = false;
                 Char5C1 = false;
@@ -744,7 +802,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char5DPOne.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A1 = false;
                 Char5B1 = true;
                 Char5C1 = false;
@@ -763,7 +821,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char5DPOne.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A1 = false;
                 Char5B1 = false;
                 Char5C1 = true;
@@ -786,7 +844,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char5DPTwo.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A2 = true;
                 Char5B2 = false;
                 Char5C2 = false;
@@ -805,7 +863,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char5DPTwo.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A2 = false;
                 Char5B2 = true;
                 Char5C2 = false;
@@ -825,7 +883,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char5DPTwo.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A2 = false;
                 Char5B2 = false;
                 Char5C2 = true;
@@ -849,7 +907,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     {
         if (Char5DPThree.value == 1)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A3 = true;
                 Char5B3 = false;
                 Char5C3 = false;
@@ -869,7 +927,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char5DPThree.value == 2)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A3 = false;
                 Char5B3 = true;
                 Char5C3 = false;
@@ -893,7 +951,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
         else if (Char5DPThree.value == 3)
         {
-            if (scene.name == "StoryOneScene" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
                 Char5A3 = false;
                 Char5B3 = false;
                 Char5C3 = true;
@@ -918,7 +976,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public void NewspaperPrint() // using this to test things 
     {
         ///*
-        if (scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne" ){
+        if (scene.name == "OfficialStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne" || scene.name == "DEMO" ){
             finalNewspaper.text = ROTDORE.PlayerNewspaper;
             finalHeadline.text = ROTDORE.PlayerHeadline;
         }

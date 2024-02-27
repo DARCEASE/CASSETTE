@@ -19,14 +19,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-                    //TS.FadeOutScene();
+        //TS.FadeOutScene();
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen") //restart game
         {
             TS.ToNextScene();
             
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "TESTStoryOneScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "TESTStoryTwoScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || currentScene.name == "OfficialStoryOne" || currentScene.name == "TESTStoryOneScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "TESTStoryTwoScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
         {
             SceneManager.LoadScene("TitleScreen");
         }
@@ -34,16 +34,16 @@ public class GameManager : MonoBehaviour
         //Keypad shortcuts for exhibitions
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            SceneManager.LoadScene("TESTStoryOneScene 1");
+            SceneManager.LoadScene("DEMO");
             Debug.Log("Pressed 1");
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        /*if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             SceneManager.LoadScene("TESTStoryTwoScene 1");
             Debug.Log("Pressed 2");
 
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
@@ -51,11 +51,11 @@ public class GameManager : MonoBehaviour
             Debug.Log("Pressed 3");
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4)) 
+        /*if (Input.GetKeyDown(KeyCode.Alpha4)) 
         {
             SceneManager.LoadScene("HybridStoryTwo");
             Debug.Log("Pressed 4");
-        }
+        }*/
 
     }
 
@@ -103,9 +103,9 @@ public class GameManager : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
 
         Debug.Log("restarting game commencing...");
-        if (scene.name == "StoryOneScene")
+        if (scene.name == "DEMO")
         {
-            SceneManager.LoadScene("StoryOneScene");
+            SceneManager.LoadScene("OfficialStoryOne");
         }
         else{
             SceneManager.LoadScene("HybridStoryOne");
