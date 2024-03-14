@@ -28,12 +28,15 @@ public class FullDigitalUIBehavior : MonoBehaviour
     // 12: Max Interview
     // 13: Draft Folder (again?) Dint touch it so that I dont break anything
     // 14: Newspaper Output Panel
-    // 15: Drafts Folder Panel (used to be STORYWRITE)
-    // 16: Exit Panel (again?)
-    // 17: Settings Menu 
-    // 18: Audio Settings 
-    // 19: Analytics App Panel
-    // 20: Messages Panel
+    // 15: Exit Panel (again?)
+    // 16: Settings Menu 
+    // 17: Analytics App Panel
+    // 18: Messages Panel
+    // 19: Char1 Int Folder
+    // 20: Char2 Int Folder
+    // 21: Char3 Int Folder
+    // 22: Char4 Int Folder
+    // 23: Char5 Int Folder
 
     public TMP_Text[] Messages; // Full View Texts in messages panel
     public TMP_Text MsgAppTxt;

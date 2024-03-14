@@ -56,7 +56,7 @@ public class CharacterCompleteCheck : MonoBehaviour
             }
         } */
            
-        if (scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne"){
+        if (scene.name == "OfficialStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne"){
             
             if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
                 Char1Box.SetActive(false);
@@ -85,6 +85,23 @@ public class CharacterCompleteCheck : MonoBehaviour
                 
             if (CompletedChar1 == true && CompletedChar2 == true && CompletedChar3 == true && CompletedChar4 == true && CompletedChar5 == true){
                 SubmitButtonGO.SetActive(true);
+            }
+
+            if (scene.name == "DEMO"){
+                if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
+                Char1Box.SetActive(false);
+                CompletedChar1 = true;
+                }
+                    
+                if (NPBC.Char2SelectionDoneA && NPBC.Char2SelectionDoneB && NPBC.Char2SelectionDoneC){
+                    Char2Box.SetActive(false);
+                    CompletedChar2 = true;
+                }
+                    
+                if (CompletedChar1 == true && CompletedChar2 == true){
+                    SubmitButtonGO.SetActive(true);
+                }
+
             }
         }
     }
