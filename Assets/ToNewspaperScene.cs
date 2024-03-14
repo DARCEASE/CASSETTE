@@ -1,19 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+//THIS IS WHERE THE ANIMATION WILL BE
 
 public class ToNewspaperScene : MonoBehaviour
 {
     [SerializeField] AudioController ac;
+    [SerializeField] GameObject AnimationPanel;
+    VideoPlayer vp;
+    
     //public Button SubmitButton;
     public GameObject articleObj;
 
     void Start()
     {
     //    SubmitButton = this.gameObject;
+        vp = AnimationPanel.GetComponent<VideoPlayer>();
     }
 
     void Update()
@@ -26,8 +31,11 @@ public class ToNewspaperScene : MonoBehaviour
     }
 
     IEnumerator LoadNewspaper(GameObject article){
+        AnimationPanel.SetActive(true);
+        vp.Play();
         ac.newspaperPrint_source.Play();
         yield return new WaitForSeconds(5);
+        AnimationPanel.SetActive(false);
         article.SetActive(true);
     }
 
