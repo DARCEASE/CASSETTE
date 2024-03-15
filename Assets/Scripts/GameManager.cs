@@ -112,5 +112,12 @@ public class GameManager : MonoBehaviour
         }
         
     }
+     public void SafetyBuildRestart()
+    {
+        //Game will go back to the original game scene. Used to create a safety build for the digital version of Unreleased GA 2024
+        SceneManager.LoadScene("OfficialStoryOne");
+        Debug.Log("Thank you for playing :3");
+
+    }
    
 }

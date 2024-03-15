@@ -4156,7 +4156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &57317819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27408,6 +27408,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 775834437}
   a_durationBar: {fileID: 631678339}
   a_source: {fileID: 456504220}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1118775261}
   a_timeText: {fileID: 1670840977}
 --- !u!114 &456504219
@@ -27670,6 +27672,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1512591200}
   a_durationBar: {fileID: 428270430}
   a_source: {fileID: 456504223}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 12606580}
   a_timeText: {fileID: 2134506815}
 --- !u!1 &458047926
@@ -28787,8 +28791,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1646639336}
   m_HandleRect: {fileID: 1646639335}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.7445447
+  m_Value: 1.0000007
+  m_Size: 0.7445446
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -30513,6 +30517,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1512591200}
   a_durationBar: {fileID: 428270430}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 12606580}
   a_timeText: {fileID: 2134506815}
 --- !u!114 &506668844
@@ -36717,6 +36723,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 740036846}
   a_durationBar: {fileID: 145388324}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 555340897}
   a_timeText: {fileID: 1532771670}
 --- !u!114 &604896885
@@ -37033,6 +37041,8 @@ MonoBehaviour:
   - {fileID: 1821060292}
   - {fileID: 1827191284}
   MsgAppTxt: {fileID: 0}
+  _clicked: 0
+  msc: {fileID: 0}
 --- !u!114 &608035562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46307,6 +46317,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1329891430}
   a_durationBar: {fileID: 388120732}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 731613747}
   a_timeText: {fileID: 870798126}
 --- !u!114 &774034115
@@ -51426,6 +51438,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 170296989}
   a_durationBar: {fileID: 1309657519}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 763717552}
   a_timeText: {fileID: 365117585}
 --- !u!114 &853175243
@@ -55328,6 +55342,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1510963097}
   a_durationBar: {fileID: 1503807041}
   a_source: {fileID: 922320287}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 2046167647}
   a_timeText: {fileID: 2096034556}
 --- !u!114 &922320286
@@ -55590,6 +55606,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 740036846}
   a_durationBar: {fileID: 145388324}
   a_source: {fileID: 922320290}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 555340897}
   a_timeText: {fileID: 1532771670}
 --- !u!1 &925287763
@@ -78302,8 +78320,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1578229421}
   m_HandleRect: {fileID: 1578229420}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.7445447
+  m_Value: 0.99999976
+  m_Size: 0.7445446
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -86839,6 +86857,8 @@ MonoBehaviour:
   - Grieving a Hero
   - Local Hero Dead
   - Queer Death of a Businessman
+  AllNewspaperPieces: []
+  AllParaPieces: []
   MuckrakerArticlePieces:
   - "Mr. Robert Evergreen, local hero and self-made businessman, was found dead outside
     his workplace Monday morning, having possibly leapt from an upper floor. Mr.
@@ -88017,6 +88037,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 721872327}
   a_durationBar: {fileID: 1346515618}
   a_source: {fileID: 1415734646}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1324324516}
   a_timeText: {fileID: 636627724}
 --- !u!114 &1415734645
@@ -88279,6 +88301,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1329891430}
   a_durationBar: {fileID: 388120732}
   a_source: {fileID: 1415734649}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 731613747}
   a_timeText: {fileID: 870798126}
 --- !u!1 &1420306798
@@ -96781,6 +96805,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 1823597511}
   a_durationBar: {fileID: 1428997112}
   a_source: {fileID: 1553609068}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1680526636}
   a_timeText: {fileID: 187643632}
 --- !u!114 &1553609067
@@ -97043,6 +97069,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 896559744}
   a_durationBar: {fileID: 1817216251}
   a_source: {fileID: 1553609071}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 9307479}
   a_timeText: {fileID: 997379258}
 --- !u!1 &1554304702
@@ -99194,7 +99222,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25545532}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.99999994}
   m_AnchoredPosition: {x: 1.26, y: 11.0354}
   m_SizeDelta: {x: 20, y: 2.0248}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -101069,7 +101097,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 608035558}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: NextStory
+        m_MethodName: FinishDemo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -108350,6 +108378,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 896559744}
   a_durationBar: {fileID: 1817216251}
   a_source: {fileID: 0}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 9307479}
   a_timeText: {fileID: 997379258}
 --- !u!114 &1728486253
@@ -110563,6 +110593,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bg_source: {fileID: 1762230527}
   mouseA_source: {fileID: 1762230526}
+  newspaperPrint_source: {fileID: 0}
+  SubmitButton: {fileID: 0}
 --- !u!1 &1762462388
 GameObject:
   m_ObjectHideFlags: 0
@@ -124022,6 +124054,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 991530705}
   a_durationBar: {fileID: 73119214}
   a_source: {fileID: 1983585085}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 1583945027}
   a_timeText: {fileID: 1082184866}
 --- !u!82 &1983585085
@@ -124246,6 +124280,8 @@ MonoBehaviour:
   a_durationBarBG: {fileID: 467657938}
   a_durationBar: {fileID: 1885319655}
   a_source: {fileID: 1983585087}
+  a_clip: {fileID: 0}
+  a_duration: 0
   a_slider: {fileID: 481034524}
   a_timeText: {fileID: 20866685}
 --- !u!1 &1984795967
