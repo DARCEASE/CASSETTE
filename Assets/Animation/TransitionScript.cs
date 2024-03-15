@@ -23,6 +23,7 @@ public class TransitionScript : MonoBehaviour
     void Update()
     {
         scene = SceneManager.GetActiveScene();
+
     }
     
     public void FadeOutScene(){
@@ -32,38 +33,10 @@ public class TransitionScript : MonoBehaviour
     public void ToNextScene(){
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
-    //One to Fade in...
-    //One to Fade Out...
-    /*
-    IEnumerator IntroLevel(){
-        float t = 0;
-        while (t < 0.5f){
-            t +=Time.deltaTime;
-            yield return null;
-        }
-        t = transitionTime;
-    }
-
-    IEnumerator EndLevel(){
-        float t = 0;
-        while ( t > 0){ // 1 is less than 5
-            t -= Time.deltaTime;
-            canvas.alpha = ac.Evaluate(t/transitionTime);
-            //Debug.Log("RUNNING HERE");
-            yield return null;
-        }
-        t = transitionTime;
-    }
-    */
+ 
     IEnumerator LoadLevel(int levelIndex){
         float t = 0;
-        /*
-        while ( t < transitionTime){
-            t += Time.deltaTime;
-            canvas.alpha = t/transitionTime;
-            yield return null;
-        }        
-        */
+
         if (levelIndex > 7){
             levelIndex = 0;
         } 
