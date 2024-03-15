@@ -529,7 +529,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-            if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneC = true;
                 RUSSIA.FearfulPaper += 1;
 
