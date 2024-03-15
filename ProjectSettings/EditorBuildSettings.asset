@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Digital Version Scenes/OfficialStoryOne.unity
     guid: 8a60552230c3ab74893968e884e45eb1
   - enabled: 0
-    path: Assets/Scenes/Hybrid Version Scenes/HybridStoryOne.unity
+    path: Assets/Scenes/Hybrid Version Scenes/HybridStoryOne OLD.unity
     guid: b31f1b2e7e5b79b4791d1dd6f554c0b5
   - enabled: 0
     path: Assets/Scenes/Digital Version Scenes/ToStoryTwo.unity
