@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || currentScene.name == "OfficialStoryOne" || currentScene.name == "TESTStoryOneScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "TESTStoryTwoScene 1" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "HybridStoryTwo") //restart game
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne")
         {
             SceneManager.LoadScene("TitleScreen");
         }
