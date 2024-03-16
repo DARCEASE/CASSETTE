@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     public void Update()
     {
         //TS.FadeOutScene();
-        if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen") //restart game
+        if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen")
         {
             TS.ToNextScene();
             
