@@ -89,7 +89,6 @@ public class GameManager : MonoBehaviour
     }
 
     public void EndCredits()
-
     {
         //Sends player to credit screen
         SceneManager.LoadScene("EndScene");
