@@ -32,10 +32,10 @@ public class ROTDOREController : MonoBehaviour
     string maxParaPiece_One, maxParaPiece_Two, maxChoiceOne, maxChoiceTwo, maxChoiceThree;
 
     public Text finalNewspaper, finalHeadline;
-    Scene demo;
+    Scene scene;
 
     void Start(){
-        demo = SceneManager.GetActiveScene();
+        scene = SceneManager.GetActiveScene();
     }
 
     [HideInInspector]
@@ -210,7 +210,7 @@ public class ROTDOREController : MonoBehaviour
         StatusQuoNewspaper = NovakFinalString + "\n" + JuJimFinalString + "\n" + MaxFinalString + "\n" + MichaelFinalString;
         TabloidNewspaper = NovakFinalString + "\n" + JuJimFinalString + "\n" + MaxFinalString + "\n" + MichaelFinalString;
 
-        if (demo.name == "DEMO"){
+        if (scene.name == "DEMO"){
             NovakFinalString = novakParaPiece_One + " " + novakChoiceThree + " " + novakParaPiece_Two + " " + novakChoiceOne + " " + novakChoiceTwo;
             JuJimFinalString = jujimParaPiece_One + " " + juliaChoiceOne + " " + jujimParaPiece_Two + " " + juliaChoiceTwo + " " + juliaChoiceThree + " " + jujimParaPiece_Three + " " + jimChoiceOne + " " + jimChoiceTwo + " " + jujimParaPiece_Four + " " + jimChoiceThree + " " + jujimParaPiece_Five;
 
