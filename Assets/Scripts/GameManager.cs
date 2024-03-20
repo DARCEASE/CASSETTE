@@ -19,17 +19,16 @@ public class GameManager : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
     }
 
-    // Update is called once per frame
     public void Update()
     {
-        //TS.FadeOutScene();
+        //TS.FadeOutScene(); This is for transition screen to Ch 1
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen")
         {
-            TS.ToNextScene();
-            
+            //TS.ToNextScene();
+            StartCoroutine(LoadGameAsync());
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne")
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene" )
         {
             SceneManager.LoadScene("TitleScreen");
         }
@@ -41,25 +40,19 @@ public class GameManager : MonoBehaviour
             Debug.Log("Pressed 1");
         }
 
-        /*if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            SceneManager.LoadScene("TESTStoryTwoScene 1");
-            Debug.Log("Pressed 2");
-
-        }*/
-
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             SceneManager.LoadScene("HybridStoryOne");
             Debug.Log("Pressed 3");
         }
+    }
 
-        /*if (Input.GetKeyDown(KeyCode.Alpha4)) 
-        {
-            SceneManager.LoadScene("HybridStoryTwo");
-            Debug.Log("Pressed 4");
-        }*/
+    //ENUM HERE, LOOK HERE
+    IEnumerator LoadGameAsync(){
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("DEMO");
 
+        while (!asyncLoad.isDone)
+            yield return null;
     }
 
     public void NextStory()
@@ -72,18 +65,9 @@ public class GameManager : MonoBehaviour
             }
     }
 
-    public void StartGame()
-    {
-        ///*       
-        SceneManager.LoadScene("HybridStoryOne");
-        Debug.Log("BOOTING UP!");
-        //*/
-        
-    }
-
     //temp function for the sake of time 
     public void FinishDemo()
-    {
+    {   //NewspaperPanel.SetActive(false);
         SceneManager.LoadScene("TitleScreen");
         Debug.Log("Thank you for playing :3");
     }
@@ -92,11 +76,12 @@ public class GameManager : MonoBehaviour
     {
         //Sends player to credit screen
         SceneManager.LoadScene("EndScene");
-        NewspaperPanel.SetActive(false);
-        for (int i = 0; i < UIB.FilePanels.Length; i++){
+        
+        /*for (int i = 0; i < UIB.FilePanels.Length; i++){
             UIB.FilePanels[i].gameObject.SetActive(false);
+            Debug.Log(UIB.FilePanels[i]);
         }
-        NBC.resetAll = true;
+        NBC.resetAll = true;*/
     }
 
     public void RestartGame()

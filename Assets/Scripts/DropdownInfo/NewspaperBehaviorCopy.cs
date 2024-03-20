@@ -56,8 +56,8 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene();
-        if (resetAll == true)
-            ResetAllVars();
+        //if (resetAll == true)
+        //    ResetAllVars();
     }
 
     // Update is called once per frame
@@ -976,8 +976,16 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         }
     }
 
-    void ResetAllVars(){
+    /*void ResetAllVars(){
         if (scene.name == "DEMO"){
+            Char1DPOne.value = 0;
+            Char1DPTwo.value = 0;
+            Char1DPThree.value = 0;
+
+            Char2DPOne.value = 0;
+            Char2DPTwo.value = 0;
+            Char2DPThree.value = 0;
+            
             DEMO_Char1A1 = false;
             DEMO_Char1B1 = false;
             DEMO_Char1C1 = false;
@@ -996,16 +1004,8 @@ public class NewspaperBehaviorCopy : MonoBehaviour
             DEMO_Char2A3 = false;
             DEMO_Char2B3 = false;
             DEMO_Char2C3 = false;
-
-            Char1DPOne.value = 0;
-            Char1DPTwo.value = 0;
-            Char1DPThree.value = 0;
-
-            Char2DPOne.value = 0;
-            Char2DPTwo.value = 0;
-            Char2DPThree.value = 0;
         }
-    }
+    }*/
 
     public void NewspaperPrint() // using this to test things 
     {
