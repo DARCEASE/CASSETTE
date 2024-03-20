@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public AudienceFeedbackScript AFS;
     [SerializeField] TransitionScript TS;
     [SerializeField] CharChangerScript CCS;
+    [SerializeField] NewspaperBehaviorCopy NBC;
+    [SerializeField] GameObject NewspaperPanel;
     Scene currentScene;
 
     void Start()
@@ -92,6 +94,9 @@ public class GameManager : MonoBehaviour
     {
         //Sends player to credit screen
         SceneManager.LoadScene("EndScene");
+        NewspaperPanel.SetActive(false);
+        NBC.resetAll = true;
+
     }
 
     public void RestartGame()

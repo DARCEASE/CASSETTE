@@ -38,6 +38,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public bool Char3SelectionDoneA, Char3SelectionDoneB, Char3SelectionDoneC;
     public bool Char4SelectionDoneA, Char4SelectionDoneB, Char4SelectionDoneC;
     public bool Char5SelectionDoneA, Char5SelectionDoneB, Char5SelectionDoneC;
+    public bool resetAll;
 
     bool Char1A1, Char1B1, Char1C1, Char1A2, Char1B2, Char1C2, Char1A3, Char1B3, Char1C3; 
     bool Char2A1, Char2B1, Char2C1, Char2A2, Char2B2, Char2C2, Char2A3, Char2B3, Char2C3;
@@ -55,6 +56,8 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene();
+        if (resetAll == true)
+            ResetAllVars();
     }
 
     // Update is called once per frame
@@ -970,6 +973,29 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 RUSSIA.FranzBOutputInt = 3;
                 RUSSIA.FranzCOutputInt = 3;
             }  
+        }
+    }
+
+    void ResetAllVars(){
+        if (scene.name == "DEMO"){
+            DEMO_Char1A1 = false;
+            DEMO_Char1B1 = false;
+            DEMO_Char1C1 = false;
+            DEMO_Char1A2 = false;
+            DEMO_Char1B2 = false;
+            DEMO_Char1C2 = false;
+            DEMO_Char1A3 = false;
+            DEMO_Char1B3 = false;
+            DEMO_Char1C3 = false;
+            DEMO_Char2A1 = false;
+            DEMO_Char2B1 = false;
+            DEMO_Char2C1 = false;
+            DEMO_Char2A2 = false;
+            DEMO_Char2B2 = false;
+            DEMO_Char2C2 = false;
+            DEMO_Char2A3 = false;
+            DEMO_Char2B3 = false;
+            DEMO_Char2C3 = false;
         }
     }
 
