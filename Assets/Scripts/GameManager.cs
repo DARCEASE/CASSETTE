@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
 
     //temp function for the sake of time 
     public void FinishDemo()
-    {   //NewspaperPanel.SetActive(false);
+    {   
         SceneManager.LoadScene("TitleScreen");
         Debug.Log("Thank you for playing :3");
     }

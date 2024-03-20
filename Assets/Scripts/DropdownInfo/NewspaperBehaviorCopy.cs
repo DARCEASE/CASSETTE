@@ -19,6 +19,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public AudienceFeedbackScript AFS;
     public ROTDOREController ROTDORE;
     public RussiaController RUSSIA;
+    [SerializeField] GameObject NewspaperPanel;
     //Side Article
     [SerializeField] SideArticleScript SAS;
     public Text finalNewspaper, finalHeadline;
@@ -55,6 +56,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        NewspaperPanel.SetActive(false);
         scene = SceneManager.GetActiveScene();
         //if (resetAll == true)
         //    ResetAllVars();
