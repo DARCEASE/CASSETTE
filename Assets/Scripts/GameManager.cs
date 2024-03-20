@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     public AudienceFeedbackScript AFS;
     [SerializeField] TransitionScript TS;
     [SerializeField] CharChangerScript CCS;
+    [SerializeField] NewspaperBehaviorCopy NBC;
+    [SerializeField] GameObject NewspaperPanel;
+    [SerializeField] FullDigitalUIBehavior UIB;
     Scene currentScene;
 
     void Start()
@@ -81,17 +84,19 @@ public class GameManager : MonoBehaviour
     //temp function for the sake of time 
     public void FinishDemo()
     {
-        //Game will go back to title screen 
-        //TS.ToNextScene();
         SceneManager.LoadScene("TitleScreen");
         Debug.Log("Thank you for playing :3");
-
     }
 
     public void EndCredits()
     {
         //Sends player to credit screen
         SceneManager.LoadScene("EndScene");
+        NewspaperPanel.SetActive(false);
+        for (int i = 0; i < UIB.FilePanels.Length; i++){
+            UIB.FilePanels[i].gameObject.SetActive(false);
+        }
+        NBC.resetAll = true;
     }
 
     public void RestartGame()
