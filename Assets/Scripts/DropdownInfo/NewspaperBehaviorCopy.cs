@@ -996,6 +996,14 @@ public class NewspaperBehaviorCopy : MonoBehaviour
             DEMO_Char2A3 = false;
             DEMO_Char2B3 = false;
             DEMO_Char2C3 = false;
+
+            Char1DPOne.value = 0;
+            Char1DPTwo.value = 0;
+            Char1DPThree.value = 0;
+
+            Char2DPOne.value = 0;
+            Char2DPTwo.value = 0;
+            Char2DPThree.value = 0;
         }
     }
 
