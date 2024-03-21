@@ -19,7 +19,6 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public AudienceFeedbackScript AFS;
     public ROTDOREController ROTDORE;
     public RussiaController RUSSIA;
-    [SerializeField] GameObject NewspaperPanel;
     //Side Article
     [SerializeField] SideArticleScript SAS;
     public Text finalNewspaper, finalHeadline;
@@ -56,10 +55,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NewspaperPanel.SetActive(false);
         scene = SceneManager.GetActiveScene();
-        //if (resetAll == true)
-        //    ResetAllVars();
     }
 
     // Update is called once per frame
@@ -977,38 +973,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
             }  
         }
     }
-
-    /*void ResetAllVars(){
-        if (scene.name == "DEMO"){
-            Char1DPOne.value = 0;
-            Char1DPTwo.value = 0;
-            Char1DPThree.value = 0;
-
-            Char2DPOne.value = 0;
-            Char2DPTwo.value = 0;
-            Char2DPThree.value = 0;
-            
-            DEMO_Char1A1 = false;
-            DEMO_Char1B1 = false;
-            DEMO_Char1C1 = false;
-            DEMO_Char1A2 = false;
-            DEMO_Char1B2 = false;
-            DEMO_Char1C2 = false;
-            DEMO_Char1A3 = false;
-            DEMO_Char1B3 = false;
-            DEMO_Char1C3 = false;
-            DEMO_Char2A1 = false;
-            DEMO_Char2B1 = false;
-            DEMO_Char2C1 = false;
-            DEMO_Char2A2 = false;
-            DEMO_Char2B2 = false;
-            DEMO_Char2C2 = false;
-            DEMO_Char2A3 = false;
-            DEMO_Char2B3 = false;
-            DEMO_Char2C3 = false;
-        }
-    }*/
-
+    
     public void NewspaperPrint() // using this to test things 
     {
         ///*

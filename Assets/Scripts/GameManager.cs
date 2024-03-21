@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] TransitionScript TS;
     [SerializeField] CharChangerScript CCS;
     [SerializeField] NewspaperBehaviorCopy NBC;
-    [SerializeField] GameObject NewspaperPanel;
     [SerializeField] FullDigitalUIBehavior UIB;
     Scene currentScene;
 
