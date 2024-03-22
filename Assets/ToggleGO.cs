@@ -8,11 +8,16 @@ public class ToggleGO : MonoBehaviour
 
     [SerializeField] GameObject GameItems;
     Scene scene;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    /*public static ToggleGO TGO_Instance;
+
+    void Awake(){
+        if (TGO_Instance == null){
+            TGO_Instance = this;
+            return;
+        }
+        Destroy (gameObject);
+    }*/
 
     // Update is called once per frame
     void Update()

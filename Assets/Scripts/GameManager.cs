@@ -24,7 +24,8 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen")
         {
             //TS.ToNextScene();
-            StartCoroutine(LoadGameAsync());
+            //StartCoroutine(LoadGameAsync());
+            SceneManager.LoadScene("OfficialStoryOne");
         }
 
         if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene" )
@@ -47,12 +48,12 @@ public class GameManager : MonoBehaviour
     }
 
     //ENUM HERE, LOOK HERE
-    IEnumerator LoadGameAsync(){
+    /*IEnumerator LoadGameAsync(){
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("DEMO");
 
         while (!asyncLoad.isDone)
             yield return null;
-    }
+    }*/
 
     public void NextStory()
     {
