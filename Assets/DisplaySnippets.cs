@@ -13,7 +13,6 @@ public class DisplaySnippets : MonoBehaviour
     // ROTDORE:Make a system that stores the text and audio file that should appear when the player selects a certain button.
     
     Scene scene;
-    [SerializeField] AudioPlayer AP;
     [SerializeField] AudioClip[] Novak_Audios, Jim_Audios, Julia_Audios, Max_Audios, Mike_Audios;
     [TextArea]
     [SerializeField] string[] Novak_Texts, Jim_Texts, Julia_Texts, Max_Texts, Mike_Texts;

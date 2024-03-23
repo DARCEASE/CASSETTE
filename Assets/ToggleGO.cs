@@ -8,8 +8,8 @@ public class ToggleGO : MonoBehaviour
 
     [SerializeField] GameObject GameItems;
     Scene scene;
-
-    /*public static ToggleGO TGO_Instance;
+    /*
+    public static ToggleGO TGO_Instance;
 
     void Awake(){
         if (TGO_Instance == null){

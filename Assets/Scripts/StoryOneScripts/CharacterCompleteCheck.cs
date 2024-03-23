@@ -56,6 +56,38 @@ public class CharacterCompleteCheck : MonoBehaviour
             }            
         }
 
+        if (scene.name == "OfficialStoryTwo" || scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryTwo"){
+            
+            if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
+                Char1Box.SetActive(false);
+                CompletedChar1 = true;
+            }
+                
+            if (NPBC.Char2SelectionDoneA && NPBC.Char2SelectionDoneB && NPBC.Char2SelectionDoneC){
+                Char2Box.SetActive(false);
+                CompletedChar2 = true;
+            }
+                
+            if (NPBC.Char3SelectionDoneA && NPBC.Char3SelectionDoneB && NPBC.Char3SelectionDoneC){
+                Char3Box.SetActive(false);
+                CompletedChar3 = true;
+            }
+                
+            if (NPBC.Char4SelectionDoneA && NPBC.Char4SelectionDoneB && NPBC.Char4SelectionDoneC){
+                Char4Box.SetActive(false);
+                CompletedChar4 = true;
+            }
+                
+            if (NPBC.Char5SelectionDoneA && NPBC.Char5SelectionDoneB && NPBC.Char5SelectionDoneC){
+                Char5Box.SetActive(false);
+                CompletedChar5 = true;
+            }
+                
+            if (CompletedChar1 == true && CompletedChar2 == true && CompletedChar3 == true && CompletedChar4 == true && CompletedChar5 == true){
+                SubmitButtonGO.SetActive(true);
+            }            
+        }
+
         if (scene.name == "DEMO"){
                 if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
                 Char1Box.SetActive(false);
