@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("OfficialStoryOne");
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene" )
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryTwo" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryThree" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene")
         {
             SceneManager.LoadScene("TitleScreen");
         }
