@@ -113302,6 +113302,36 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 87d0516349afc9243a088c651dc23adf, type: 3}
   - {fileID: 8300000, guid: d8f473cc2ef344840b7ed3a32cb7790b, type: 3}
   - {fileID: 8300000, guid: 98742fc66fc4cab4c85d351d9f8ae331, type: 3}
+  Dani_Audios:
+  - {fileID: 8300000, guid: 6d087ee914959f546b643917d49b94b9, type: 3}
+  - {fileID: 8300000, guid: 16ce2461571edc24f9cc2907a739bc2c, type: 3}
+  - {fileID: 8300000, guid: 015623a6cd444ec49a49b0d78dc9312a, type: 3}
+  - {fileID: 8300000, guid: 2b47cb1b68fa0484fa105507c9bbe773, type: 3}
+  - {fileID: 8300000, guid: 55c3f3fa47df222468e738a19faadfb6, type: 3}
+  - {fileID: 8300000, guid: 6219e4da0bdd40448af097a45dab449a, type: 3}
+  Boris_Audios:
+  - {fileID: 8300000, guid: 4f13eade568df1b45931a6e8e2b138e5, type: 3}
+  - {fileID: 8300000, guid: 4f13eade568df1b45931a6e8e2b138e5, type: 3}
+  - {fileID: 8300000, guid: 4f13eade568df1b45931a6e8e2b138e5, type: 3}
+  - {fileID: 8300000, guid: 4f13eade568df1b45931a6e8e2b138e5, type: 3}
+  - {fileID: 8300000, guid: 4f13eade568df1b45931a6e8e2b138e5, type: 3}
+  Guy_Audios:
+  - {fileID: 8300000, guid: a174766283c418b4d80dc8425ca60cab, type: 3}
+  - {fileID: 8300000, guid: 79e704faf1287a843a3d760219796c39, type: 3}
+  - {fileID: 8300000, guid: 4583df38d1652034882a5bce986c7581, type: 3}
+  - {fileID: 8300000, guid: 70cb86416a48c4e47867a95a71570333, type: 3}
+  - {fileID: 8300000, guid: 9135095f753c9104b8e4313877fda892, type: 3}
+  Carla_Audios:
+  - {fileID: 8300000, guid: 448ed15b341738a4bb57d5bb33ee5924, type: 3}
+  - {fileID: 8300000, guid: c3b46c562455d5c4cabe6c3caa7a6de5, type: 3}
+  - {fileID: 8300000, guid: a3aa9a87a2ccfd34eaea505538267cbf, type: 3}
+  - {fileID: 8300000, guid: 768d192f9c3acf846be44d1cf3778357, type: 3}
+  - {fileID: 8300000, guid: d07bfbcf2bf04d3419a69d43cc18fb8c, type: 3}
+  Novak2_Audios:
+  - {fileID: 8300000, guid: cc5ce41d064833f46b0270f6c534c40d, type: 3}
+  - {fileID: 8300000, guid: 2564f4897e6bd5e40a7f7d8354772006, type: 3}
+  - {fileID: 8300000, guid: 3519e6e60aa1be24ab43fc464d9859f4, type: 3}
+  - {fileID: 8300000, guid: 73bd8965820534648a7ab10f98ed4815, type: 3}
   Novak_Texts:
   - "official.int\r\n\r\nOk, look. The official statement of the NYPD at this point
     is that the investigation is ongoing. Mr. Evergreen was found dead on the sidewalk
@@ -113461,6 +113491,46 @@ MonoBehaviour:
     place. Nothing changes. Neither choice is good. I already made my decision. But
     either way \u2013 I can\u2019t help but feel like I have to regret my relationship
     with Robert, which is \u2013 never mind.\r\n\r\n"
+  Dani_Texts:
+  - "Yes! Yes \u2013 uhh\u2026 *clears throat* I am here with queers against violence.
+    We are outside of the New York Criminal Court. We are protesting the brutally
+    violent arrest of Michael Bailey, which happened yesterday, after his involvement
+    in a small scuffle on the street. Every day we queers are attacked from every
+    direction and we have had ENOUGH of it! We aren\u2019t gonna stand for it anymore!"
+  - "Yeah! I - I wasn\u2019t there myself but I can tell you what I\u2019ve heard
+    about it. Um \u2013 Michael, uh, went to the community memorial outside of Roberts
+    workplace \u2013 in order to mourn. There, he was\u2026 provoked \u2013 attacked
+    \u2013 by somebody who was also visiting the memorial. And they got into a fight.
+    Uhh, the police \u2013 were called, and when they arrived, they pulled the two
+    of them apart, and Michael immediately surrendered, but nonetheless, the police
+    beat him. Brutally. "
+  - 
+  - 
+  - 
+  - 
+  Boris_Texts:
+  - 
+  - 
+  - 
+  - 
+  - 
+  Guy_Texts:
+  - 
+  - 
+  - 
+  - 
+  - 
+  Carla_Texts:
+  - 
+  - 
+  - 
+  - 
+  - 
+  Novak2_Texts:
+  - 
+  - 
+  - 
+  - 
   Display_Char1: {fileID: 895287734}
   Display_Char2: {fileID: 1676831443}
   Display_Char3: {fileID: 1422692920}
