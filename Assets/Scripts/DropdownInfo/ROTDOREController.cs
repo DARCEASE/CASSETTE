@@ -34,10 +34,6 @@ public class ROTDOREController : MonoBehaviour
     public Text finalNewspaper, finalHeadline;
     Scene scene;
 
-    void Start(){
-        scene = SceneManager.GetActiveScene();
-    }
-
     [HideInInspector]
     public int NovakOutputInt, JimOutputInt, JuliaOutputInt, MaxOutputInt, MikeOutputInt;
     [HideInInspector]
@@ -48,14 +44,43 @@ public class ROTDOREController : MonoBehaviour
     public int muckrakerPaper, tabloidPaper, statusQuoPaper;
     
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, AllParaPieces, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
+    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, S2NewsPaperPieces, AllParaPieces, S2AllParaPieces;
+
+    //CHAP 2 REGION
+    string Novak2MuckString, Novak2SQString, Novak2TabloidString;
+    string DaniMuckString, DaniSQString, DaniTabloidString;
+    string BorisMuckString, BorisSQString, BorisTabloidString;
+    string GuyMuckString, GuySQString, GuyTabloidString;
+    string CarlaMuckString, CarlaSQString, CarlaTabloidString;
+
+    [HideInInspector]
+    public int Novak2OutputInt, DaniOutputInt, BorisOutputInt, GuyOutputInt, CarlaOutputInt;
+    [HideInInspector]
+    public int Novak2SQOutputInt, DaniSQOutputInt, BorisSQOutputInt, GuySQOutputInt, CarlaSQOutputInt;
+    [HideInInspector]
+    public int Novak2TabOutputInt, DaniTabOutputInt, BorisTabOutputInt, GuyTabOutputInt, CarlaTabOutputInt;
+
+    string Novak2FinalString, DaniFinalString, BorisFinalString, GuyFinalString, CarlaFinalString;
+
+    //Always Appearing Pieces:
+    string novak2ParaPiece_One, novak2ParaPiece_Two, novak2ChoiceOne, novak2ChoiceTwo, novak2ChoiceThree;
+    string daniChoiceOne, daniChoiceTwo, daniChoiceThree;
+    string borisParaPiece_One, borisParaPiece_Two, borisParaPiece_Three, borisParaPiece_Four, borisParaPiece_Five, borisChoiceOne, borisChoiceTwo, borisChoiceThree;
+    string guyParaPiece_One, guyChoiceOne, guyChoiceTwo, guyChoiceThree;
+    string carlaParaPiece_One, carlaParaPiece_Two, carlaChoiceOne, carlaChoiceTwo, carlaChoiceThree;
+
+
+    void Start(){
+        scene = SceneManager.GetActiveScene();
+    }
+
 
     void Update() {
         NewspaperPrint();    
     }
 
     public void AllPiecesCalculator(){
-
+        #region Ch 1
         //Novak (Ordered like this on purpose!!!!!)
         if (NovakOutputInt == 1){
             novakChoiceThree = AllNewspaperPieces[0];
@@ -179,6 +204,135 @@ public class ROTDOREController : MonoBehaviour
             mikeChoiceThree = AllNewspaperPieces[43];
         } else if (MikeTabOutputInt == 1){
             mikeChoiceThree = AllNewspaperPieces[44];
+        }
+        #endregion
+        if (scene.name == "OfficialStoryTwo"){ //if this is in Ch 2...
+
+        //Dani
+        if (DaniOutputInt== 1){
+            daniChoiceOne = AllNewspaperPieces[0];
+        } else if (DaniOutputInt== 1){
+            daniChoiceOne = AllNewspaperPieces[0];
+        } else if (DaniOutputInt== 1){
+            daniChoiceOne = AllNewspaperPieces[0];
+        } 
+
+        if (NovakOutputInt == 2){
+            novakChoiceOne = AllNewspaperPieces[3];
+        } else if (NovakSQOutputInt == 2){
+            novakChoiceOne = AllNewspaperPieces[4];
+        } else if (NovakTabOutputInt == 2){
+            novakChoiceOne = AllNewspaperPieces[5];
+        }
+
+        if (NovakOutputInt == 3){
+            novakChoiceTwo = AllNewspaperPieces[6];
+        } else if (NovakSQOutputInt == 3){
+            novakChoiceTwo = AllNewspaperPieces[7];
+        } else if (NovakTabOutputInt == 3){
+            novakChoiceTwo = AllNewspaperPieces[8];
+        }
+
+        //Julia
+        if (JuliaOutputInt == 1){
+            juliaChoiceOne = AllNewspaperPieces[9];
+        } else if (JuliaSQOutputInt == 1){
+            juliaChoiceOne = AllNewspaperPieces[10];
+        } else if (JuliaTabOutputInt == 1){
+            juliaChoiceOne = AllNewspaperPieces[11];
+        }
+
+        if (JuliaOutputInt == 2){
+            juliaChoiceTwo = AllNewspaperPieces[12];
+        } else if (JuliaSQOutputInt == 2){
+            juliaChoiceTwo = AllNewspaperPieces[13];
+        } else if (JuliaTabOutputInt == 2){
+            juliaChoiceTwo = AllNewspaperPieces[14];
+        }
+
+        if (JuliaOutputInt == 3){
+            juliaChoiceThree = AllNewspaperPieces[15];
+        } else if (JuliaSQOutputInt == 3){
+            juliaChoiceThree = AllNewspaperPieces[16];
+        } else if (JuliaTabOutputInt == 3){
+            juliaChoiceThree = AllNewspaperPieces[17];
+        }
+
+        //Jim
+        if (JimOutputInt == 1){
+            jimChoiceOne = AllNewspaperPieces[18];
+        } else if (JimSQOutputInt == 1){
+            jimChoiceOne = AllNewspaperPieces[19];
+        } else if (JimTabOutputInt == 1){
+            jimChoiceOne = AllNewspaperPieces[20];
+        }
+
+        if (JimOutputInt == 2){
+            jimChoiceTwo = AllNewspaperPieces[21];
+        } else if (JimSQOutputInt == 2){
+            jimChoiceTwo = AllNewspaperPieces[22];
+        } else if (JimTabOutputInt == 2){
+            jimChoiceTwo = AllNewspaperPieces[23];
+        }
+
+        if (JimOutputInt == 3){
+            jimChoiceThree = AllNewspaperPieces[24];
+        } else if (JimSQOutputInt == 3){
+            jimChoiceThree = AllNewspaperPieces[25];
+        } else if (JimTabOutputInt == 3){
+            jimChoiceThree = AllNewspaperPieces[26];
+        }
+
+        //Max
+        if (MaxOutputInt == 1){
+            maxChoiceOne = AllNewspaperPieces[27];
+        } else if (MaxSQOutputInt == 1){
+            maxChoiceOne = AllNewspaperPieces[28];
+        } else if (MaxTabOutputInt == 1){
+            maxChoiceOne = AllNewspaperPieces[29];
+        }
+
+       if (MaxOutputInt == 2){
+            maxChoiceTwo = AllNewspaperPieces[30];
+        } else if (MaxSQOutputInt == 2){
+            maxChoiceTwo = AllNewspaperPieces[31];
+        } else if (MaxTabOutputInt == 2){
+            maxChoiceTwo = AllNewspaperPieces[32];
+        }
+
+        if (MaxOutputInt == 3){
+            maxChoiceThree = AllNewspaperPieces[33];
+        } else if (MaxSQOutputInt == 3){
+            maxChoiceThree = AllNewspaperPieces[34];
+        } else if (MaxTabOutputInt == 3){
+            maxChoiceThree = AllNewspaperPieces[35];
+        }
+
+        //Mike
+        if (MikeOutputInt == 1){
+            mikeChoiceOne = AllNewspaperPieces[36];
+        } else if (MikeSQOutputInt == 1){
+            mikeChoiceOne = AllNewspaperPieces[37];
+        } else if (MikeTabOutputInt == 1){
+            mikeChoiceOne = AllNewspaperPieces[38];
+        }
+
+        if (MikeOutputInt == 2){
+            mikeChoiceTwo = AllNewspaperPieces[39];
+        } else if (MikeSQOutputInt == 2){
+            mikeChoiceTwo = AllNewspaperPieces[40];
+        } else if (MikeTabOutputInt == 2){
+            mikeChoiceTwo = AllNewspaperPieces[41];
+        }
+
+        if (MikeOutputInt == 1){
+            mikeChoiceThree = AllNewspaperPieces[42];
+        } else if (MikeSQOutputInt == 1){
+            mikeChoiceThree = AllNewspaperPieces[43];
+        } else if (MikeTabOutputInt == 1){
+            mikeChoiceThree = AllNewspaperPieces[44];
+        }
+
         }
     }
 

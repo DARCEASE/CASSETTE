@@ -33314,7 +33314,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 844092289}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -112420,6 +112420,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a3aa9a87a2ccfd34eaea505538267cbf, type: 3}
   - {fileID: 8300000, guid: 768d192f9c3acf846be44d1cf3778357, type: 3}
   - {fileID: 8300000, guid: d07bfbcf2bf04d3419a69d43cc18fb8c, type: 3}
+  - {fileID: 8300000, guid: 7238eb001c428ac44af7786c0295bfb3, type: 3}
   Novak2_Audios:
   - {fileID: 8300000, guid: cc5ce41d064833f46b0270f6c534c40d, type: 3}
   - {fileID: 8300000, guid: 2564f4897e6bd5e40a7f7d8354772006, type: 3}
