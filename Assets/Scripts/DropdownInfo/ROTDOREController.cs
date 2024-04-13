@@ -314,7 +314,7 @@ public class ROTDOREController : MonoBehaviour
         } else if (Novak2SQOutputInt == 3){
             novak2ChoiceOne = S2NewsPaperPieces[37];
         } else if (Novak2TabOutputInt == 3){
-            novak2ChoiceOne = S2NewsPaperPiecess[38];
+            novak2ChoiceOne = S2NewsPaperPieces[38];
         }
 
         if (Novak2OutputInt == 3){
@@ -322,7 +322,7 @@ public class ROTDOREController : MonoBehaviour
         } else if (Novak2SQOutputInt == 3){
             novak2ChoiceTwo = S2NewsPaperPieces[40];
         } else if (Novak2TabOutputInt == 3){
-            novak2ChoiceTwo = S2NewsPaperPiecess[41];
+            novak2ChoiceTwo = S2NewsPaperPieces[41];
         }
 
         if (Novak2OutputInt == 3){
@@ -330,8 +330,138 @@ public class ROTDOREController : MonoBehaviour
         } else if (Novak2SQOutputInt == 3){
             novak2ChoiceThree = S2NewsPaperPieces[43];
         } else if (Novak2TabOutputInt == 3){
-            novak2ChoiceThree = S2NewsPaperPiecess[44];
+            novak2ChoiceThree = S2NewsPaperPieces[44];
         }
+        }
+        #endregion
+
+        //Ch 3
+        #region Ch 3
+        if (scene.name == "OfficialStoryTwo"){
+            //Dani
+            if (DaniOutputInt== 1){
+                daniChoiceOne = S2NewsPaperPieces[0];
+            } else if (DaniSQOutputInt== 1){
+                daniChoiceOne = S2NewsPaperPieces[1];
+            } else if (DaniTabOutputInt== 1){
+                daniChoiceOne = S2NewsPaperPieces[2];
+            } 
+
+            if (DaniOutputInt== 2){
+                daniChoiceTwo = S2NewsPaperPieces[3];
+            } else if (DaniSQOutputInt== 2){
+                daniChoiceTwo = S2NewsPaperPieces[4];
+            } else if (DaniTabOutputInt== 2){
+                daniChoiceTwo = S2NewsPaperPieces[5];
+            } 
+
+            if (DaniOutputInt== 3){
+                daniChoiceThree = S2NewsPaperPieces[6];
+            } else if (DaniSQOutputInt== 3){
+                daniChoiceThree = S2NewsPaperPieces[7];
+            } else if (DaniTabOutputInt== 3){
+                daniChoiceThree = S2NewsPaperPieces[8];
+            }
+
+            //Boris
+            if (BorisOutputInt == 1){
+                borisChoiceOne = S2NewsPaperPieces[9];
+            } else if (BorisSQOutputInt == 1){
+                borisChoiceOne = S2NewsPaperPieces[10];
+            } else if (BorisTabOutputInt == 1){
+                borisChoiceOne = S2NewsPaperPieces[11];
+            }
+
+            if (BorisOutputInt == 2){
+                borisChoiceTwo = S2NewsPaperPieces[12];
+            } else if (BorisSQOutputInt == 2){
+                borisChoiceTwo = S2NewsPaperPieces[13];
+            } else if (BorisTabOutputInt == 2){
+                borisChoiceTwo = S2NewsPaperPieces[14];
+            }
+
+            if (BorisOutputInt == 2){
+                borisChoiceThree = S2NewsPaperPieces[15];
+            } else if (BorisSQOutputInt == 2){
+                borisChoiceThree = S2NewsPaperPieces[16];
+            } else if (BorisTabOutputInt == 2){
+                borisChoiceThree = S2NewsPaperPieces[17];
+            }
+
+            //Guy
+            if (GuyOutputInt == 1){
+                guyChoiceOne = S2NewsPaperPieces[18];
+            } else if (GuySQOutputInt == 1){
+                guyChoiceOne = S2NewsPaperPieces[19];
+            } else if (GuyTabOutputInt == 1){
+                guyChoiceOne = S2NewsPaperPieces[20];
+            }
+
+            if (GuyOutputInt == 2){
+                guyChoiceTwo = S2NewsPaperPieces[21];
+            } else if (GuySQOutputInt == 2){
+                guyChoiceTwo = S2NewsPaperPieces[22];
+            } else if (GuyTabOutputInt == 2){
+                guyChoiceTwo = S2NewsPaperPieces[23];
+            }
+
+            if (GuyOutputInt == 3){
+                guyChoiceThree = S2NewsPaperPieces[24];
+            } else if (GuySQOutputInt == 3){
+                guyChoiceThree = S2NewsPaperPieces[25];
+            } else if (GuyTabOutputInt == 3){
+                guyChoiceThree = S2NewsPaperPieces[26];
+            }
+
+            //Carla
+            if (CarlaOutputInt == 1){
+                carlaChoiceOne = S2NewsPaperPieces[27];
+            } else if (CarlaSQOutputInt == 1){
+                carlaChoiceOne = S2NewsPaperPieces[28];
+            } else if (CarlaTabOutputInt == 1){
+                carlaChoiceOne = S2NewsPaperPieces[29];
+            }
+
+        if (CarlaOutputInt == 2){
+                carlaChoiceTwo = S2NewsPaperPieces[30];
+            } else if (CarlaSQOutputInt == 2){
+                carlaChoiceTwo = S2NewsPaperPieces[31];
+            } else if (CarlaTabOutputInt == 2){
+                carlaChoiceTwo = S2NewsPaperPieces[32];
+            }
+
+            if (CarlaOutputInt == 3){
+                carlaChoiceThree = S2NewsPaperPieces[33];
+            } else if (CarlaSQOutputInt == 3){
+                carlaChoiceThree = S2NewsPaperPieces[34];
+            } else if (CarlaTabOutputInt == 3){
+                carlaChoiceThree = S2NewsPaperPieces[35];
+            }
+
+            //Novak
+            if (Novak2OutputInt == 3){
+                novak2ChoiceOne = S2NewsPaperPieces[36];
+            } else if (Novak2SQOutputInt == 3){
+                novak2ChoiceOne = S2NewsPaperPieces[37];
+            } else if (Novak2TabOutputInt == 3){
+                novak2ChoiceOne = S2NewsPaperPieces[38];
+            }
+
+            if (Novak2OutputInt == 3){
+                novak2ChoiceTwo = S2NewsPaperPieces[39];
+            } else if (Novak2SQOutputInt == 3){
+                novak2ChoiceTwo = S2NewsPaperPieces[40];
+            } else if (Novak2TabOutputInt == 3){
+                novak2ChoiceTwo = S2NewsPaperPieces[41];
+            }
+
+            if (Novak2OutputInt == 3){
+                novak2ChoiceThree = S2NewsPaperPieces[42];
+            } else if (Novak2SQOutputInt == 3){
+                novak2ChoiceThree = S2NewsPaperPieces[43];
+            } else if (Novak2TabOutputInt == 3){
+                novak2ChoiceThree = S2NewsPaperPieces[44];
+            }
         }
         #endregion
     }
