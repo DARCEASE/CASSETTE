@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] TransitionScript TS;
     [SerializeField] CharChangerScript CCS;
     [SerializeField] NewspaperBehaviorCopy NBC;
+    [SerializeField] GameObject NewspaperPanel;
     [SerializeField] FullDigitalUIBehavior UIB;
     Scene currentScene;
 
@@ -24,11 +25,10 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen")
         {
             //TS.ToNextScene();
-            //StartCoroutine(LoadGameAsync());
-            SceneManager.LoadScene("OfficialStoryOne");
+            StartCoroutine(LoadGameAsync());
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryTwo" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryThree" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene")
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene" )
         {
             SceneManager.LoadScene("TitleScreen");
         }
@@ -48,12 +48,12 @@ public class GameManager : MonoBehaviour
     }
 
     //ENUM HERE, LOOK HERE
-    /*IEnumerator LoadGameAsync(){
+    IEnumerator LoadGameAsync(){
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("DEMO");
 
         while (!asyncLoad.isDone)
             yield return null;
-    }*/
+    }
 
     public void NextStory()
     {
