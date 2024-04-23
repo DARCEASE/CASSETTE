@@ -8,11 +8,16 @@ public class ToggleGO : MonoBehaviour
 
     [SerializeField] GameObject GameItems;
     Scene scene;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    /*
+    public static ToggleGO TGO_Instance;
+
+    void Awake(){
+        if (TGO_Instance == null){
+            TGO_Instance = this;
+            return;
+        }
+        Destroy (gameObject);
+    }*/
 
     // Update is called once per frame
     void Update()
@@ -20,7 +25,7 @@ public class ToggleGO : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         DontDestroyOnLoad(this.gameObject);
 
-        if (scene.name == "DEMO" ||scene.name == "OfficialStoryOne" ||scene.name == "TESTStoryOneScene 1" || scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryOne" || scene.name == "HybridStoryTwo" || scene.name == "ARTICLETESTSCENE"){
+        if (scene.name == "DEMO" ||scene.name == "OfficialStoryOne" ||scene.name == "OfficialStoryTwo" || scene.name == "OfficialStoryThree" || scene.name == "HybridStoryOne" || scene.name == "HybridStoryTwo" || scene.name == "HybridStoryThree"){
             Debug.Log("Scene Name Toggle: " + scene.name);
             GameItems.SetActive(true);
         } else{

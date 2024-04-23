@@ -7,40 +7,45 @@ using UnityEngine.SceneManagement;
 
 public class TransitionScript : MonoBehaviour
 {
-    [SerializeField] AnimationCurve ac;
     [SerializeField] CanvasGroup canvas;
+    [SerializeField] bool fadeIn, fadeOut;
     Scene scene;
     [SerializeField] Image TransitionOBJ;
-    [SerializeField] float transitionTime;
+    [SerializeField] float TimetoFade;
 
     // Start is called before the first frame update
     void Start()
     {
-        FadeOutScene();
+        FadeOut();
     }
 
     // Update is called once per frame
     void Update()
     {
         scene = SceneManager.GetActiveScene();
-
+        if (fadeIn == true){
+            if (canvas.alpha < 1){
+                canvas.alpha += TimetoFade * Time.deltaTime;
+                if (canvas.alpha >= 1){
+                    fadeIn = false;
+                }
+            }
+        }
+        if (fadeOut == true){
+            if (canvas.alpha >= 0){
+                canvas.alpha -= TimetoFade * Time.deltaTime;
+                if (canvas.alpha == 0){
+                    fadeOut = false;
+                }
+            }
+        }
     }
     
-    public void FadeOutScene(){
-        //StartCoroutine(IntroLevel());
+    public void FadeIn(){
+        fadeIn = true;
     }
 
-    public void ToNextScene(){
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
-    }
- 
-    IEnumerator LoadLevel(int levelIndex){
-        float t = 0;
-
-        if (levelIndex > 7){
-            levelIndex = 0;
-        } 
-        SceneManager.LoadScene(levelIndex, LoadSceneMode.Single);
-        yield return null;
+    public void FadeOut(){
+        fadeOut = true;
     }
 }

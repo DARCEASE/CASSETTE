@@ -2365,7 +2365,6 @@ MonoBehaviour:
   TS: {fileID: 0}
   CCS: {fileID: 0}
   NBC: {fileID: 0}
-  NewspaperPanel: {fileID: 0}
   UIB: {fileID: 0}
 --- !u!4 &2073607573
 Transform:

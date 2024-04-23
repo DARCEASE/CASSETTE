@@ -289,6 +289,8 @@ MonoBehaviour:
   AFS: {fileID: 0}
   TS: {fileID: 187972895}
   CCS: {fileID: 0}
+  NBC: {fileID: 0}
+  UIB: {fileID: 0}
 --- !u!4 &117209996
 Transform:
   m_ObjectHideFlags: 0

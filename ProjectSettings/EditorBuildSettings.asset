@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: 598d9f90de6a853498c403ded88a9ed9
   - enabled: 0
-    path: Assets/Scenes/Digital Version Scenes/OfficialStoryOne.unity
-    guid: 8a60552230c3ab74893968e884e45eb1
-  - enabled: 1
     path: Assets/Scenes/DEMO/DEMO.unity
-    guid: 421c74886213f1342a853a2da0729af7
+    guid: 1155776354ba6a34697ebb666bd2065c
+  - enabled: 1
+    path: Assets/Scenes/Digital Version Scenes/OfficialStoryOne.unity
+    guid: 0b006e83f97ffc840b99bea060376937
+  - enabled: 0
+    path: Assets/Scenes/Digital Version Scenes/OfficialStoryTwo.unity
+    guid: 80b06582692f3c84dbda2ce3042459ee
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 35aad75ab2f014e468fb1b49a9743ace

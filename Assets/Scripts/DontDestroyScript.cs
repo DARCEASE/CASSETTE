@@ -9,8 +9,17 @@ DON'T REMOVE/DESTROY IT OR ELSE ERRORS WILL HAPPEN!
 
 public class DontDestroyScript : MonoBehaviour
 {
+    Scene scene;
+
+    void Start(){
+
+    }
+    
     void Update()
     {
-        DontDestroyOnLoad(this.gameObject);
+        scene = SceneManager.GetActiveScene();
+        
+        if (scene.name != "EndScene")
+            DontDestroyOnLoad(this.gameObject);
     }
 }
