@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] TransitionScript TS;
     [SerializeField] CharChangerScript CCS;
     [SerializeField] NewspaperBehaviorCopy NBC;
-    [SerializeField] GameObject NewspaperPanel;
     [SerializeField] FullDigitalUIBehavior UIB;
     Scene currentScene;
 
@@ -24,11 +23,10 @@ public class GameManager : MonoBehaviour
         //TS.FadeOutScene(); This is for transition screen to Ch 1
         if (Input.GetKeyDown(KeyCode.Space) && currentScene.name == "TitleScreen")
         {
-            //TS.ToNextScene();
-            StartCoroutine(LoadGameAsync());
+            ToNextScene();
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene" )
+        if (Input.GetKeyDown(KeyCode.R) && currentScene.name == "DEMO" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryOne" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryTwo" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "OfficialStoryThree" || Input.GetKeyDown(KeyCode.R) && currentScene.name == "EndScene")
         {
             SceneManager.LoadScene("TitleScreen");
         }
@@ -48,21 +46,28 @@ public class GameManager : MonoBehaviour
     }
 
     //ENUM HERE, LOOK HERE
-    IEnumerator LoadGameAsync(){
+    /*IEnumerator LoadGameAsync(){
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("DEMO");
 
         while (!asyncLoad.isDone)
             yield return null;
-    }
+    }*/
 
-    public void NextStory()
-    {
-        TS.ToNextScene();
-        CCS.NewspaperGO.SetActive(false);
-        for (int i = 0; i < CCS.GamePanels.Length; i++){
+     public void ToNextScene(){
+        StartCoroutine(LoadLevel());
+    }
+ 
+    IEnumerator LoadLevel(){ 
+        TS.FadeIn();
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1));
+        if (currentScene.name != "TitleScreen" || currentScene.name != "EndScene"){
+        //Closes all windows
+            CCS.NewspaperGO.SetActive(false);
+            for (int i = 0; i < CCS.GamePanels.Length; i++){
                 CCS.GamePanels[i].SetActive(false);
-                //Debug.Log("Not active");
             }
+        }
     }
 
     //temp function for the sake of time 
@@ -76,30 +81,13 @@ public class GameManager : MonoBehaviour
     {
         //Sends player to credit screen
         SceneManager.LoadScene("EndScene");
-        
-        /*for (int i = 0; i < UIB.FilePanels.Length; i++){
-            UIB.FilePanels[i].gameObject.SetActive(false);
-            Debug.Log(UIB.FilePanels[i]);
-        }
-        NBC.resetAll = true;*/
     }
 
     public void RestartGame()
     {
         //For hybrid version, if the player hits replay, the comp should check to see if the scene is the hybrid scene, then restart the hybrid scene
         //Currently brings player from Hybrid to digital ver scene
-        //used to restart but also load in game from start scrn
-        Scene scene = SceneManager.GetActiveScene();
-
-        Debug.Log("restarting game commencing...");
-        if (scene.name == "DEMO")
-        {
-            SceneManager.LoadScene("OfficialStoryOne");
-        }
-        else{
-            SceneManager.LoadScene("HybridStoryOne");
-        }
-        
+        //used to restart but also load in game from start scrn        
     }
      public void SafetyBuildRestart()
     {
@@ -108,5 +96,4 @@ public class GameManager : MonoBehaviour
         Debug.Log("Thank you for playing :3");
 
     }
-   
 }
