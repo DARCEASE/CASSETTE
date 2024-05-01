@@ -8,7 +8,7 @@ using TMPro;
 
 public class TypewriterScript : MonoBehaviour
 {
-    [SerializeField] TMP_Text TMPReportOf;
+     [SerializeField] TMP_Text TMPReportOf;
     [SerializeField] TMP_Text TMPnameOfStory;
     string TMPfullTitle;
     Color32 colorC= new Color32(1,0,0,255);
@@ -39,7 +39,7 @@ public class TypewriterScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) //restart game
         {
-            TS.ToNextScene();
+            //TS.ToNextScene();
         }
     }
 
