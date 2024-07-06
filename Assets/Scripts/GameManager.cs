@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour
                 CCS.GamePanels[i].SetActive(false);
             }
         }
+        TS.FadeOut();
     }
 
     //temp function for the sake of time 
