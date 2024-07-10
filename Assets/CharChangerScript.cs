@@ -54,7 +54,7 @@ public class CharChangerScript : MonoBehaviour
                 S2_Ints[i].SetActive(false);
             }*/
 
-        } else if (scene.name == "TESTStoryTwoScene 1" || scene.name == "HybridStoryTwo"){
+        } else if (scene.name == "TESTCh2Scene" || scene.name == "HybridStoryTwo"){
 
                         
             /*

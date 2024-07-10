@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: 598d9f90de6a853498c403ded88a9ed9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/OfficialStoryOne.unity
     guid: 8a60552230c3ab74893968e884e45eb1
   - enabled: 1
+    path: Assets/Scenes/Digital Version Scenes/TESTCh2Scene.unity
+    guid: 80b06582692f3c84dbda2ce3042459ee
+  - enabled: 0
     path: Assets/Scenes/DEMO/DEMO.unity
     guid: 421c74886213f1342a853a2da0729af7
   - enabled: 1

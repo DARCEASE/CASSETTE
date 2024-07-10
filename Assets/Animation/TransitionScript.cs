@@ -43,9 +43,11 @@ public class TransitionScript : MonoBehaviour
     
     public void FadeIn(){
         fadeIn = true;
+        Debug.Log("Fading in");
     }
 
     public void FadeOut(){
         fadeOut = true;
+        Debug.Log("Fading out");
     }
 }
