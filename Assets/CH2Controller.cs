@@ -7,20 +7,20 @@ using UnityEngine.SceneManagement;
 
 public class CH2Controller : MonoBehaviour
 {
-    public string PlayerNewspaper, MuckrakerNewspaper, StatusQuoNewspaper, TabloidNewspaper, PlayerHeadline;
+    public string PlayerNewspaper, ANewspaper, CNewspaper, BNewspaper, PlayerHeadline;
     
-    //KEEP HERE WHAT IS UNIQUE TO THE ROTDORE STORY
-    //IS THIS UNIQUE TO ROTDORE? IF SO, IT GOES HERE
+    //KEEP HERE WHAT IS UNIQUE TO THE CH2
+    //IS THIS UNIQUE TO CH2? IF SO, IT GOES HERE
     //IF NOT, IT GOES INTO THE CONTROLLER
     //Audience Feedback Script
     //public AudienceFeedbackScript AFS;
 
     //All paper holding strings
-    string NovakMuckString, NovakSQString, NovakTabloidString;
-    string DaniMuckString, DaniSQString, DaniTabloidString;
-    string BorisMuckString, BorisSQString, BorisTabloidString;
-    string GuyMuckString, GuySQString, GuyTabloidString;
-    string CarlaMuckString, CarlaSQString, CarlaTabloidString;
+    string NovakMuckString, NovakSQString, NovakBString;
+    string DaniMuckString, DaniSQString, DaniBString;
+    string BorisMuckString, BorisSQString, BorisBString;
+    string GuyMuckString, GuySQString, GuyBString;
+    string CarlaMuckString, CarlaSQString, CarlaBString;
     //NEW STRINGS
     string NovakFinalString, DaniFinalString, GuyFinalString, CarlaFinalString, BorisFinalString;
     string FinalParaOne, FinalParaTwo, FinalParaThree, FinalParaFour;
@@ -49,10 +49,10 @@ public class CH2Controller : MonoBehaviour
     [HideInInspector]
     public int NovakTabOutputInt, DaniTabOutputInt, BorisTabOutputInt, GuyTabOutputInt, CarlaTabOutputInt;
     //Values
-    public int muckrakerPaper, tabloidPaper, statusQuoPaper;
+    public int APaper, BPaper, CPaper;
     
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, AllParaPieces, MuckrakerArticlePieces, SQArticlePieces, TabloidArticlePieces;
+    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, AllParaPieces, AArticlePieces, SQArticlePieces, BArticlePieces;
 
     void Update() {
         NewspaperPrint();    
@@ -210,94 +210,94 @@ public class CH2Controller : MonoBehaviour
         FinalParaThree = AllParaPieces[5] + " " + DaniChoiceThree + " " + " " + DaniChoiceTwo;
         FinalParaFour = AllParaPieces[6] + " " + CarlaChoiceOne + " " + AllParaPieces[7] + " " + CarlaChoiceThree + " " + AllParaPieces[8] + " " + CarlaChoiceTwo + " " + AllParaPieces[9];
 
-        MuckrakerNewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
-        StatusQuoNewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
-        TabloidNewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
+        ANewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
+        CNewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
+        BNewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
     
         //Value Check
-        if (muckrakerPaper == statusQuoPaper){
+        if (APaper == CPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = MuckrakerNewspaper;
+                PlayerNewspaper = ANewspaper;
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = StatusQuoNewspaper;
+                PlayerNewspaper = CNewspaper;
                 PlayerHeadline = newspaperHeadlines[1];
             }   
         }
 
-        if (muckrakerPaper == tabloidPaper){
+        if (APaper == BPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = MuckrakerNewspaper;
+                PlayerNewspaper = ANewspaper;
                 PlayerHeadline = newspaperHeadlines[0];
            }
             else{
-                PlayerNewspaper = TabloidNewspaper;
+                PlayerNewspaper = BNewspaper;
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
 
-        if (tabloidPaper == statusQuoPaper){
+        if (BPaper == CPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = TabloidNewspaper;
+                PlayerNewspaper = BNewspaper;
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = StatusQuoNewspaper;
+                PlayerNewspaper = CNewspaper;
                 PlayerHeadline = newspaperHeadlines[1];
             }
         }
 
-        if (tabloidPaper == muckrakerPaper){
+        if (BPaper == APaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = TabloidNewspaper;
+                PlayerNewspaper = BNewspaper;
                 PlayerHeadline = newspaperHeadlines[2];
            }
             else{
-                PlayerNewspaper = MuckrakerNewspaper;
+                PlayerNewspaper = ANewspaper;
                 PlayerHeadline = newspaperHeadlines[0];
             }
         }
 
-        if (statusQuoPaper == tabloidPaper){
+        if (CPaper == BPaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-                PlayerNewspaper = StatusQuoNewspaper;
+                PlayerNewspaper = CNewspaper;
                 PlayerHeadline = newspaperHeadlines[1];
             }
             else{
-                PlayerNewspaper = TabloidNewspaper;
+                PlayerNewspaper = BNewspaper;
                 PlayerHeadline = newspaperHeadlines[2];
             }    
         }
 
-        if (statusQuoPaper == muckrakerPaper){
+        if (CPaper == APaper){
            finalPaperInt = Random.Range(1, 2);
            if (finalPaperInt == 1){
-            PlayerNewspaper = StatusQuoNewspaper;
+            PlayerNewspaper = CNewspaper;
             PlayerHeadline = newspaperHeadlines[1];
            }   
             else{
-                PlayerNewspaper = MuckrakerNewspaper;
+                PlayerNewspaper = ANewspaper;
                 PlayerHeadline = newspaperHeadlines[0];
             }    
         }
         //Novak: 0,1,2 Dani: 3,4,5 Boris: 6,7,8 Carla: 9,10,11 Guy:, 12,13,14
         //if they are not equal, it'll mp over here
-        if (muckrakerPaper > tabloidPaper && muckrakerPaper > statusQuoPaper){
-           PlayerNewspaper = MuckrakerNewspaper;
+        if (APaper > BPaper && APaper > CPaper){
+           PlayerNewspaper = ANewspaper;
             PlayerHeadline = newspaperHeadlines[0];
         }
-        else if (statusQuoPaper > tabloidPaper && statusQuoPaper > muckrakerPaper){
-            PlayerNewspaper = StatusQuoNewspaper;
+        else if (CPaper > BPaper && CPaper > APaper){
+            PlayerNewspaper = CNewspaper;
             PlayerHeadline = newspaperHeadlines[1];
         }
-        else if (tabloidPaper > muckrakerPaper && tabloidPaper > statusQuoPaper){
-            PlayerNewspaper = TabloidNewspaper;
+        else if (BPaper > APaper && BPaper > CPaper){
+            PlayerNewspaper = BNewspaper;
             PlayerHeadline = newspaperHeadlines[2];
         }
     }
