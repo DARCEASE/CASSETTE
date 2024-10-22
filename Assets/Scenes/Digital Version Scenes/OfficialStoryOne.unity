@@ -42953,7 +42953,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 844092289}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -100537,7 +100537,7 @@ MonoBehaviour:
   PlayerHeadline: 
   AFS: {fileID: 608035562}
   ROTDORE: {fileID: 1410984875}
-  RUSSIA: {fileID: 0}
+  CH2: {fileID: 0}
   NewspaperPanel: {fileID: 1279310165}
   SAS: {fileID: 1279310169}
   finalNewspaper: {fileID: 1358871417}
@@ -100586,9 +100586,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerNewspaper: 
-  MuckrakerNewspaper: 
-  StatusQuoNewspaper: 
-  TabloidNewspaper: 
+  ANewspaper: 
+  CNewspaper: 
+  BNewspaper: 
   PlayerHeadline: 
   finalNewspaper: {fileID: 2082781119}
   finalHeadline: {fileID: 642179187}
@@ -100607,11 +100607,75 @@ MonoBehaviour:
   BorisTabOutputInt: 0
   GuyTabOutputInt: 0
   CarlaTabOutputInt: 0
-  muckrakerPaper: 0
-  tabloidPaper: 0
-  statusQuoPaper: 0
-  newspaperHeadlines: []
-  AllNewspaperPieces: []
+  APaper: 0
+  BPaper: 0
+  CPaper: 0
+  newspaperHeadlines:
+  - A
+  - B
+  - C
+  AllNewspaperPieces:
+  - romantic partner,
+  - supposed lover,
+  - significant other,
+  - attacking a passerby who insulted him.
+  - assaulting a passerby on the street.
+  - his participation in a street fight.
+  - was conducted by a homophobic officer.
+  - "some have branded a \u201Chomophobic\u201D attack."
+  - may have been motivated by homophobia.
+  - Bailey quickly toppled his opponent and struck him several times.
+  - Bailey managed to topple his opposer and strike him several times.
+  - Bailey knocked his victim to the ground and beat him ruthlessly.
+  - Rogers bravely withstood the blows, but sustained several injuries in the process.
+  - Rogers, unable to defend himself, sustained several life-threatening injuries.
+  - Despite his cocky and derisive attitude, Rogers did not land a single blow in
+    return.
+  - wrestled the two men apart.
+  - defused the conflict.
+  - pulled the two men apart.
+  - According to witnesses,
+  - Some witnesses claim that
+  - Some witnesses suspect that
+  - Bailey, despite surrendering, was handled roughly by the arresting officer. Bailey
+    and Rogers both left the scene in ambulances.
+  - Bailey, despite surrendering, was beaten violently by the arresting officer.
+    Bailey and Rogers both left the scene in ambulances.
+  - 'Bailey was handled roughly by the officer, which is often unavoidable when police
+    are dealing with an active threat. '
+  - "Queers Against Violence gathered on Centre Street to protest the method of Bailey\u2019s
+    arrest. According to queer protestor Dani Kaminski, \u201CThis kind of thing
+    happens constantly\u2026 [the arresting officer] attacked Michael because Michael
+    is queer.\u201D"
+  - "Queers Against Violence gathered on Centre Street to protest the method of Bailey\u2019s
+    arrest. According to protestor Dani Kaminski, \u201CThis kind of thing happens
+    constantly\u2026 [the arresting officer] attacked Michael because Michael is
+    queer.\u201D"
+  - "known as QAV gathered on Centre Street to protest the method of Bailey\u2019s
+    arrest. According to protestor Dani Kaminski, \u201CThis kind of thing happens
+    constantly\u2026 [the arresting officer] attacked Michael because Michael is
+    [gay].\u201D"
+  - The protests have helped draw public attention toward the often-underdiscussed
+    issue of violence against gay New Yorkers.
+  - The gathering caused major disruptions in the area, and it is unknown whether
+    the group intends to march again.
+  - The gathering caused disruptions in the downtown area and drew a lot of attention
+    from the public.
+  - "Bailey\u2019s former commanding officer,"
+  - a female officer in the US Navy,
+  - an officer in the United States Navy,
+  - appalling
+  - official
+  - dubious
+  - regarding
+  - targeting
+  - discriminating
+  - a very polite customer.
+  - aloof and withdrawn.
+  - seeming dangerous.
+  - "to the public\u2019s horror,"
+  - after careful investigation,
+  - "to the public\u2019s dismay,"
   AllParaPieces:
   - "Michael Bailey, the late Robert Evergreen\u2019s\r"
   - was arrested this week for
@@ -100627,9 +100691,70 @@ MonoBehaviour:
   - policy
   - gay service members. Moments before the attack, Bailey was seen at a coffee shop,
     where a witness described him as
-  MuckrakerArticlePieces: []
-  SQArticlePieces: []
-  TabloidArticlePieces: []
+  AArticlePieces:
+  - romantic partner,
+  - attacking a passerby who insulted him.
+  - was conducted by a homophobic officer.
+  - Bailey quickly toppled his opponent and struck him several times.
+  - Rogers bravely withstood the blows, but sustained several injuries in the process.
+  - wrestled the two men apart.
+  - According to witnesses,
+  - Bailey, despite surrendering, was handled roughly by the arresting officer. Bailey
+    and Rogers both left the scene in ambulances.
+  - "Queers Against Violence gathered on Centre Street to protest the method of Bailey\u2019s
+    arrest. According to queer protestor Dani Kaminski, \u201CThis kind of thing
+    happens constantly\u2026 [the arresting officer] attacked Michael because Michael
+    is queer.\u201D"
+  - The protests have helped draw public attention toward the often-underdiscussed
+    issue of violence against gay New Yorkers.
+  - "Bailey\u2019s former commanding officer,"
+  - appalling
+  - regarding
+  - a very polite customer.
+  - "to the public\u2019s horror,"
+  SQArticlePieces:
+  - supposed lover,
+  - assaulting a passerby on the street.
+  - "some have branded a \u201Chomophobic\u201D attack."
+  - Bailey managed to topple his opposer and strike him several times.
+  - Rogers, unable to defend himself, sustained several life-threatening injuries.
+  - defused the conflict.
+  - Some witnesses claim that
+  - Bailey, despite surrendering, was beaten violently by the arresting officer.
+    Bailey and Rogers both left the scene in ambulances.
+  - "Queers Against Violence gathered on Centre Street to protest the method of Bailey\u2019s
+    arrest. According to protestor Dani Kaminski, \u201CThis kind of thing happens
+    constantly\u2026 [the arresting officer] attacked Michael because Michael is
+    queer.\u201D"
+  - The gathering caused major disruptions in the area, and it is unknown whether
+    the group intends to march again.
+  - a female officer in the US Navy,
+  - official
+  - targeting
+  - aloof and withdrawn.
+  - after careful investigation,
+  BArticlePieces:
+  - significant other,
+  - his participation in a street fight.
+  - may have been motivated by homophobia.
+  - Bailey knocked his victim to the ground and beat him ruthlessly.
+  - Despite his cocky and derisive attitude, Rogers did not land a single blow in
+    return.
+  - pulled the two men apart.
+  - Some witnesses suspect that
+  - 'Bailey was handled roughly by the officer, which is often unavoidable when police
+    are dealing with an active threat. '
+  - "known as QAV gathered on Centre Street to protest the method of Bailey\u2019s
+    arrest. According to protestor Dani Kaminski, \u201CThis kind of thing happens
+    constantly\u2026 [the arresting officer] attacked Michael because Michael is
+    [gay].\u201D"
+  - The gathering caused disruptions in the downtown area and drew a lot of attention
+    from the public.
+  - an officer in the United States Navy,
+  - dubious
+  - discriminating
+  - seeming dangerous.
+  - "to the public\u2019s dismay,"
 --- !u!1 &1412467899
 GameObject:
   m_ObjectHideFlags: 0
