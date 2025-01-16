@@ -39,7 +39,7 @@ public class TypewriterScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) //restart game
         {
-            TS.ToNextScene();
+            //TS.ToNextScene();
         }
     }
 

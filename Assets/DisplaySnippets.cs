@@ -13,10 +13,11 @@ public class DisplaySnippets : MonoBehaviour
     // ROTDORE:Make a system that stores the text and audio file that should appear when the player selects a certain button.
     
     Scene scene;
-    [SerializeField] AudioPlayer AP;
     [SerializeField] AudioClip[] Novak_Audios, Jim_Audios, Julia_Audios, Max_Audios, Mike_Audios;
+    [SerializeField] AudioClip[] Dani_Audios, Boris_Audios, Guy_Audios, Carla_Audios, Novak2_Audios;
     [TextArea]
     [SerializeField] string[] Novak_Texts, Jim_Texts, Julia_Texts, Max_Texts, Mike_Texts;
+    [SerializeField] string[] Dani_Texts, Boris_Texts, Guy_Texts, Carla_Texts, Novak2_Texts;
     [SerializeField] TMP_Text Display_Char1, Display_Char2, Display_Char3, Display_Char4, Display_Char5;
     [SerializeField] AudioSource currentAudioSource, Char1AS, Char2AS, Char3AS, Char4AS, Char5AS;
     [SerializeField] AudioClip currentDisplayedAudio;
@@ -37,16 +38,26 @@ public class DisplaySnippets : MonoBehaviour
     #region Ch1
     #region Novak_One
     public void Char1_Audios_One(){
-        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne"){
             Display_Char1.text = Novak_Texts[0];
             Char1AS.clip = Novak_Audios[0];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char1.text = Dani_Texts[0];
+            Char1AS.clip = Dani_Audios[0];
         }
     }
 
     public void Char1_Audios_Two(){
-        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
+        if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne"){
             Display_Char1.text = Novak_Texts[1];
             Char1AS.clip = Novak_Audios[1];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char1.text = Dani_Texts[1];
+            Char1AS.clip = Dani_Audios[1];
         }
     }
 
@@ -55,6 +66,11 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char1.text = Novak_Texts[2];
             Char1AS.clip = Novak_Audios[2];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char1.text = Dani_Texts[2];
+            Char1AS.clip = Dani_Audios[2];
+        }
     }
 
     public void Char1_Audios_Four(){
@@ -62,6 +78,12 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char1.text = Novak_Texts[3];
             Char1AS.clip = Novak_Audios[3];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char1.text = Dani_Texts[3];
+            Char1AS.clip = Dani_Audios[3];
+        }
+
     }
 
     public void Char1_Audios_Five(){
@@ -69,12 +91,21 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char1.text = Novak_Texts[4];
             Char1AS.clip = Novak_Audios[4];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char1.text = Dani_Texts[4];
+            Char1AS.clip = Dani_Audios[4];
+        }
     }
 
     public void Char1_Audios_Six(){
         if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char1.text = Novak_Texts[5];
             Char1AS.clip = Novak_Audios[5];
+        }
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char1.text = Dani_Texts[5];
+            Char1AS.clip = Dani_Audios[5];
         }
     }
     #endregion
@@ -85,12 +116,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char2.text = Julia_Texts[0];
             Char2AS.clip = Julia_Audios[0];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Boris_Texts[0];
+            Char2AS.clip = Boris_Audios[0];
+        }
     }
 
     public void Char2_Audios_Two(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[1];
             Char2AS.clip = Julia_Audios[1];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Boris_Texts[1];
+            Char2AS.clip = Boris_Audios[1];
         }
     }
 
@@ -99,6 +140,11 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char2.text = Julia_Texts[2];
             Char2AS.clip = Julia_Audios[2];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Boris_Texts[2];
+            Char2AS.clip = Boris_Audios[2];
+        }
     }
 
     public void Char2_Audios_Four(){
@@ -106,12 +152,23 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char2.text = Julia_Texts[3];
             Char2AS.clip = Julia_Audios[3];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Boris_Texts[3];
+            Char2AS.clip = Boris_Audios[3];
+        }
+
     }
 
     public void Char2_Audios_Five(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char2.text = Julia_Texts[4];
             Char2AS.clip = Julia_Audios[4];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Boris_Texts[4];
+            Char2AS.clip = Boris_Audios[4];
         }
     }
     #endregion
@@ -122,12 +179,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char3.text = Jim_Texts[0];
             Char3AS.clip = Jim_Audios[0];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Guy_Texts[0];
+            Char2AS.clip = Guy_Audios[0];
+        }
     }
 
     public void Char3_Audios_Two(){
         if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[1];
             Char3AS.clip = Jim_Audios[1];            
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Guy_Texts[1];
+            Char2AS.clip = Guy_Audios[1];
         }
     }
 
@@ -136,6 +203,11 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char3.text = Jim_Texts[2];
             Char3AS.clip = Jim_Audios[2];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Guy_Texts[3];
+            Char2AS.clip = Guy_Audios[3];
+        }
     }
 
     public void Char3_Audios_Four(){
@@ -143,12 +215,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char3.text = Jim_Texts[3];
             Char3AS.clip = Jim_Audios[3];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Guy_Texts[3];
+            Char2AS.clip = Guy_Audios[3];
+        }
     }
 
     public void Char3_Audios_Five(){
         if (scene.name == "DEMO" || scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char3.text = Jim_Texts[4];
             Char3AS.clip = Jim_Audios[4];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Guy_Texts[4];
+            Char2AS.clip = Guy_Audios[4];
         }
     }
     #endregion
@@ -159,12 +241,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char4.text = Max_Texts[0];
             Char4AS.clip = Max_Audios[0];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Carla_Texts[0];
+            Char2AS.clip = Carla_Audios[0];
+        }
     }
 
     public void Char4_Audios_Two(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[1];
             Char4AS.clip = Max_Audios[1];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Carla_Texts[1];
+            Char2AS.clip = Carla_Audios[1];
         }
     }
 
@@ -173,12 +265,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char4.text = Max_Texts[2];
             Char4AS.clip = Max_Audios[2];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Carla_Texts[2];
+            Char2AS.clip = Carla_Audios[2];
+        }
     }
 
     public void Char4_Audios_Four(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[3];
             Char4AS.clip = Max_Audios[3];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Carla_Texts[3];
+            Char2AS.clip = Carla_Audios[3];
         }
     }
 
@@ -187,12 +289,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char4.text = Max_Texts[4];
             Char4AS.clip = Max_Audios[4];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Carla_Texts[4];
+            Char2AS.clip = Carla_Audios[4];
+        }
     }
 
     public void Char4_Audios_Six(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char4.text = Max_Texts[5];
             Char4AS.clip = Max_Audios[5];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Carla_Texts[5];
+            Char2AS.clip = Carla_Audios[5];
         }
     }
     #endregion
@@ -203,12 +315,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char5.text = Mike_Texts[0];
             Char5AS.clip = Mike_Audios[0];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Novak2_Texts[0];
+            Char2AS.clip = Novak2_Audios[0];
+        }
     }
 
     public void Char5_Audios_Two(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[1];
             Char5AS.clip = Mike_Audios[1];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Novak2_Texts[1];
+            Char2AS.clip = Novak2_Audios[1];
         }
     }
 
@@ -217,6 +339,11 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char5.text = Mike_Texts[2];
             Char5AS.clip = Mike_Audios[2];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Novak2_Texts[2];
+            Char2AS.clip = Novak2_Audios[2];
+        }
     }
 
     public void Char5_Audios_Four(){
@@ -224,12 +351,22 @@ public class DisplaySnippets : MonoBehaviour
             Display_Char5.text = Mike_Texts[3];
             Char5AS.clip = Mike_Audios[3];
         }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Novak2_Texts[3];
+            Char2AS.clip = Novak2_Audios[3];
+        }
     }
 
     public void Char5_Audios_Five(){
         if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne" || scene.name == "TESTStoryOneScene 1"){
             Display_Char5.text = Mike_Texts[4];
             Char5AS.clip = Mike_Audios[4];
+        }
+
+        if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
+            Display_Char2.text = Novak2_Texts[4];
+            Char2AS.clip = Novak2_Audios[4];
         }
     }
     #endregion

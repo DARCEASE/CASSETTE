@@ -53,14 +53,7 @@ public class FullDigitalUIBehavior : MonoBehaviour
 
     void Start()
     {
-        //openOnDClick = GetComponent<DoubleClick>(); //GameObject.Find("DoubleClickHandler").
-       // FilePanels[0].gameObject.SetActive(true); // memo panel must be active at start of game for player
-       /* if (analyticsWindow == null){
-            analyticsWindow = GameObject.FindWithTag("AnalyticsWindow");
-        }
-        analyticsWindow.SetActive(false);
-        */
-      
+
     }
 
     // Update is called once per frame
@@ -72,25 +65,17 @@ public class FullDigitalUIBehavior : MonoBehaviour
     
     public void ButtonBehavior(int i) // if you press a file, activate its proper window based on the index #
     {
-        //if (openOnDClick.doubleClicked == true){
+
         RT = FilePanels[i].GetComponent<RectTransform>();
         RT.SetAsLastSibling(); //Push panel to the center of the canvas and in front maybe do this with sorting layer??? 
         FilePanels[i].gameObject.SetActive(true);
-        //Debug.Log("Clicked and Opened");
-        //}
             
     }
-
-    /*public void AnalyticsButton(){
-        analyticsWindow.SetActive(true);
-    }*/
 
     public void ExitFile(int i) // If a file is open right now, close it
     {
         FilePanels[i].gameObject.SetActive(false);
     }
-
-    
 
     public void MessageBtnBehavior(int x) // in messages app, as you click a button in the inbox, you should be able to expand it 
     {
