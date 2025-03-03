@@ -44,7 +44,7 @@ public class CharChangerScript : MonoBehaviour
             //}
         }
 
-       if (scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne"){
+       if (scene.name == "OfficialStoryOne" || scene.name == "HybridStoryOne"){
 
             for (int i = 0; i < S2_Info.Length; i++){
                 S2_Info[i].SetActive(false);
@@ -54,7 +54,7 @@ public class CharChangerScript : MonoBehaviour
                 S2_Ints[i].SetActive(false);
             }*/
 
-        } else if (scene.name == "TESTCh2Scene" || scene.name == "HybridStoryTwo"){
+        } else if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo"){
 
                         
             /*
