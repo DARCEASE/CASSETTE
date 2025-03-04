@@ -300,6 +300,9 @@ public class CH2Controller : MonoBehaviour
             PlayerNewspaper = BNewspaper;
             PlayerHeadline = newspaperHeadlines[2];
         }
+
+        finalNewspaper.text = PlayerNewspaper;
+        finalHeadline.text = PlayerHeadline;
     }
 }
 

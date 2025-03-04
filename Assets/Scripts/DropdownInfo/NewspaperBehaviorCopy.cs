@@ -655,7 +655,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3SelectionDoneA = true;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -675,7 +675,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -694,7 +694,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -713,7 +713,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char3SelectionDoneA = true;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -733,7 +733,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -752,7 +752,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -777,7 +777,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal -= 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneB = true;
                 CH2.APaper+=1;  
             }
@@ -797,7 +797,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt4 += 20;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -817,7 +817,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -862,7 +862,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneC = true;
                 CH2.APaper+=1;
 
@@ -882,7 +882,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 1;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char3SelectionDoneC = true;
                 CH2.APaper+=1;
 
@@ -908,7 +908,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal += 3;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -928,7 +928,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt3 += 21;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -949,7 +949,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt2 += 65;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -975,7 +975,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -994,7 +994,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -1015,7 +1015,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt2 += 35;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -1039,7 +1039,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt4 += 20;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneC = true;
                 CH2.APaper+=1;
             }
@@ -1056,7 +1056,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char4SelectionDoneC = true;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneC = true;
                 CH2.APaper+=1;
 
@@ -1077,7 +1077,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal += 3;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char4SelectionDoneC = true;
                 CH2.APaper+=1;
 
@@ -1105,7 +1105,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt4 += 20;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -1124,7 +1124,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal += 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -1143,7 +1143,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneA = true;
                 CH2.APaper+=1;
             }
@@ -1168,7 +1168,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.unbiasedVal -= 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -1188,7 +1188,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt3 += 21;
             }
 
-             if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+             if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -1207,7 +1207,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.entertainingVal += 2;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneB = true;
                 CH2.APaper+=1;
             }
@@ -1230,7 +1230,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 Char5SelectionDoneC = true;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneC = true;
                 CH2.APaper+=1;
             }
@@ -1251,7 +1251,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 SAS.sideArt3 += 21;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneC = true;
                 CH2.APaper+=1;
             }
@@ -1271,7 +1271,7 @@ public class NewspaperBehaviorCopy : MonoBehaviour
                 AFS.credibleVal -= 3;
             }
 
-            if (scene.name == "StoryTwoScene" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
+            if (scene.name == "OfficialStoryTwo" || scene.name == "HybridStoryTwo" || scene.name == "TESTStoryTwoScene 1"){
                 Char5SelectionDoneC = true;
                 CH2.APaper+=1;
             }  
@@ -1284,6 +1284,11 @@ public class NewspaperBehaviorCopy : MonoBehaviour
         ///*
         if (scene.name == "OfficialStoryOne" || scene.name == "TESTStoryOneScene 1" || scene.name == "HybridStoryOne" || scene.name == "DEMO" ){
             finalNewspaper.text = ROTDORE.PlayerNewspaper;
+            finalHeadline.text = ROTDORE.PlayerHeadline;
+        }
+
+        if (scene.name == "OfficialStoryTwo") {
+            finalNewspaper.text = CH2.PlayerNewspaper;
             finalHeadline.text = ROTDORE.PlayerHeadline;
         }
         

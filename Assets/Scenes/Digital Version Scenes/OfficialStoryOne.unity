@@ -52153,7 +52153,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 743827120}
-  - component: {fileID: 743827122}
   - component: {fileID: 743827121}
   m_Layer: 5
   m_Name: CheckBoxes (1)
@@ -52198,37 +52197,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743827119}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbc286ae7c025d54f8254712735ca531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NPB: {fileID: 0}
   NPBC: {fileID: 1410984876}
-  Char1Box: {fileID: 1413350372}
-  Char2Box: {fileID: 610037009}
-  Char3Box: {fileID: 1905678882}
-  Char4Box: {fileID: 1476214096}
-  Char5Box: {fileID: 529038329}
-  SubmitButtonGO: {fileID: 633632192}
-  CompletedChar1: 0
-  CompletedChar2: 0
-  CompletedChar3: 0
-  CompletedChar4: 0
-  CompletedChar5: 0
---- !u!114 &743827122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743827119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f2eabc46cf96a489f7da6177d979eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NPB: {fileID: 0}
   Char1Box: {fileID: 1413350372}
   Char2Box: {fileID: 610037009}
   Char3Box: {fileID: 1905678882}
@@ -126958,7 +126932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc286ae7c025d54f8254712735ca531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NPB: {fileID: 0}
   NPBC: {fileID: 1410984876}
   Char1Box: {fileID: 465263160}
   Char2Box: {fileID: 313322910}

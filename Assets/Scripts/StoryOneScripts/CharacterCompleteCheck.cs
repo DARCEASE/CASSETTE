@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class CharacterCompleteCheck : MonoBehaviour
 {
     Scene scene;
-    [SerializeField] NewspaperBehavior NPB;
     [SerializeField] NewspaperBehaviorCopy NPBC;
     [SerializeField] GameObject Char1Box, Char2Box, Char3Box, Char4Box, Char5Box, SubmitButtonGO;
 
