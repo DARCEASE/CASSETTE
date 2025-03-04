@@ -41,11 +41,19 @@ public class NewspaperBehaviorCopy : MonoBehaviour
     public bool Char5SelectionDoneA, Char5SelectionDoneB, Char5SelectionDoneC;
     public bool resetAll;
 
+    //Ch1
     bool Char1A1, Char1B1, Char1C1, Char1A2, Char1B2, Char1C2, Char1A3, Char1B3, Char1C3; 
     bool Char2A1, Char2B1, Char2C1, Char2A2, Char2B2, Char2C2, Char2A3, Char2B3, Char2C3;
     bool Char3A1, Char3B1, Char3C1, Char3A2, Char3B2, Char3C2, Char3A3, Char3B3, Char3C3;
     bool Char4A1, Char4B1, Char4C1, Char4A2, Char4B2, Char4C2, Char4A3, Char4B3, Char4C3;
     bool Char5A1, Char5B1, Char5C1, Char5A2, Char5B2, Char5C2, Char5A3, Char5B3, Char5C3;
+
+    //Ch2
+    bool Ch2_Char1A1, Ch2_Char1B1, Ch2_Char1C1, Ch2_Char1A2, Ch2_Char1B2, Ch2_Char1C2, Ch2_Char1A3, Ch2_Char1B3, Ch2_Char1C3; 
+    bool Ch2_Char2A1, Ch2_Char2B1, Ch2_Char2C1, Ch2_Char2A2, Ch2_Char2B2, Ch2_Char2C2, Ch2_Char2A3, Ch2_Char2B3, Ch2_Char2C3;
+    bool Ch2_Char3A1, Ch2_Char3B1, Ch2_Char3C1, Ch2_Char3A2, Ch2_Char3B2, Ch2_Char3C2, Ch2_Char3A3, Ch2_Char3B3, Ch2_Char3C3;
+    bool Ch2_Char4A1, Ch2_Char4B1, Ch2_Char4C1, Ch2_Char4A2, Ch2_Char4B2, Ch2_Char4C2, Ch2_Char4A3, Ch2_Char4B3, Ch2_Char4C3;
+    bool Ch2_Char5A1, Ch2_Char5B1, Ch2_Char5C1, Ch2_Char5A2, Ch2_Char5B2, Ch2_Char5C2, Ch2_Char5A3, Ch2_Char5B3, Ch2_Char5C3;
 
     //Demo bools (Novak and Jim)
     bool DEMO_Char1A1, DEMO_Char1B1, DEMO_Char1C1, DEMO_Char1A2, DEMO_Char1B2, DEMO_Char1C2, DEMO_Char1A3, DEMO_Char1B3, DEMO_Char1C3;

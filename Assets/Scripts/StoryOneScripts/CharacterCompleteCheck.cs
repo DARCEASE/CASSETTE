@@ -61,6 +61,12 @@ public class CharacterCompleteCheck : MonoBehaviour
             CompletedChar3 = false;
             CompletedChar4 = false;
             CompletedChar5 = false;
+            Char1Box.SetActive(true);
+            Char2Box.SetActive(true);
+            Char3Box.SetActive(true);
+            Char4Box.SetActive(true);
+            Char5Box.SetActive(true);
+            Debug.Log("Running the CharBoxes");
             
             if (NPBC.Char1SelectionDoneA && NPBC.Char1SelectionDoneB && NPBC.Char1SelectionDoneC){
                 Char1Box.SetActive(false);
