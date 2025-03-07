@@ -52,7 +52,7 @@ public class CH2Controller : MonoBehaviour
     public int APaper, BPaper, CPaper;
     
     [TextArea] //WILL HAVE MULTIPLE BOXES FOR DIFFERENT PARAGRAPH OPTIONS.
-    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, AllParaPieces, AArticlePieces, SQArticlePieces, BArticlePieces;
+    [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, AllParaPieces;
 
     void Update() {
         NewspaperPrint();    
@@ -186,22 +186,10 @@ public class CH2Controller : MonoBehaviour
         }
     }
 
-
     public void NewspaperPrint() // using this to test things 
     {
         int finalPaperInt;
         //These are the intros/bits the remain despite the player's choices
-        /*NovakParaPiece_One = AllParaPieces[0];
-        NovakParaPiece_Two = AllParaPieces[1];
-        DaniParaPiece_One = AllParaPieces[2];
-        DaniParaPiece_Two = AllParaPieces[3];
-        DaniParaPiece_Three = AllParaPieces[4];
-        DaniParaPiece_Four = AllParaPieces[5];
-        DaniParaPiece_Five = AllParaPieces[6];
-        GuyParaPiece_One = AllParaPieces[7];
-        GuyParaPiece_Two = AllParaPieces[8];
-        CarlaParaPiece_One = AllParaPieces[9];*/
-        
         //PAPER PIECING
         AllPiecesCalculator();
         //ParaOne
