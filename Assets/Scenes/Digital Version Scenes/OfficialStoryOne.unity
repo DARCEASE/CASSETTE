@@ -871,8 +871,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char2DropC
         m_Mode: 1
         m_Arguments:
@@ -7002,8 +7002,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char3DropB
         m_Mode: 1
         m_Arguments:
@@ -10477,8 +10477,8 @@ MonoBehaviour:
   Char1Box: {fileID: 1209320430}
   Char2Box: {fileID: 1653246881}
   Char3Box: {fileID: 1715811290}
-  Char4Box: {fileID: 790485949}
-  Char5Box: {fileID: 292860347}
+  Char4Box: {fileID: 292860347}
+  Char5Box: {fileID: 790485949}
   SubmitButtonGO: {fileID: 633632192}
   CompletedChar1: 0
   CompletedChar2: 0
@@ -25279,8 +25279,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char5DropA
         m_Mode: 1
         m_Arguments:
@@ -26291,8 +26291,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char4DropB
         m_Mode: 1
         m_Arguments:
@@ -48837,8 +48837,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char5DropB
         m_Mode: 1
         m_Arguments:
@@ -57078,8 +57078,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char4DropC
         m_Mode: 1
         m_Arguments:
@@ -62169,8 +62169,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char2DropB
         m_Mode: 1
         m_Arguments:
@@ -86101,8 +86101,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char3DropC
         m_Mode: 1
         m_Arguments:
@@ -99198,23 +99198,23 @@ MonoBehaviour:
   CNewspaper: 
   BNewspaper: 
   PlayerHeadline: 
-  finalNewspaper: {fileID: 642179187}
-  finalHeadline: {fileID: 2082781119}
   NovakOutputInt: 0
-  DaniOutputInt: 0
   BorisOutputInt: 0
   GuyOutputInt: 0
+  DaniOutputInt: 0
   CarlaOutputInt: 0
   NovakSQOutputInt: 0
-  DaniSQOutputInt: 0
   BorisSQOutputInt: 0
   GuySQOutputInt: 0
+  DaniSQOutputInt: 0
   CarlaSQOutputInt: 0
   NovakTabOutputInt: 0
-  DaniTabOutputInt: 0
   BorisTabOutputInt: 0
   GuyTabOutputInt: 0
+  DaniTabOutputInt: 0
   CarlaTabOutputInt: 0
+  finalNewspaper: {fileID: 2082781119}
+  finalHeadline: {fileID: 642179187}
   APaper: 0
   BPaper: 0
   CPaper: 0
@@ -106444,8 +106444,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char5DropC
         m_Mode: 1
         m_Arguments:
@@ -106903,8 +106903,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char4DropA
         m_Mode: 1
         m_Arguments:
@@ -112775,8 +112775,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char3DropA
         m_Mode: 1
         m_Arguments:
@@ -138890,8 +138890,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1410984876}
-        m_TargetAssemblyTypeName: NewspaperBehaviorCopy, Assembly-CSharp
+      - m_Target: {fileID: 1410984878}
+        m_TargetAssemblyTypeName: ChTwoNB, Assembly-CSharp
         m_MethodName: Char2DropA
         m_Mode: 1
         m_Arguments:

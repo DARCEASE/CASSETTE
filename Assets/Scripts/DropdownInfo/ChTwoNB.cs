@@ -30,7 +30,7 @@ public class ChTwoNB : MonoBehaviour
     public Dropdown[] Char4DPs;
     public Dropdown[] Char5DPs;
 
-    //Ch2
+    //CH2
     public bool Ch2_Char1SelectionDoneA, Ch2_Char1SelectionDoneB, Ch2_Char1SelectionDoneC; 
     public bool Ch2_Char2SelectionDoneA, Ch2_Char2SelectionDoneB, Ch2_Char2SelectionDoneC;
     public bool Ch2_Char3SelectionDoneA, Ch2_Char3SelectionDoneB, Ch2_Char3SelectionDoneC;
@@ -62,21 +62,22 @@ public class ChTwoNB : MonoBehaviour
         {  
             #region Ch1_Code
             //Make booleans for each option and then calculate them once the person hits submit
+                CH2.APaper+=1;
+                CH2.BorisOutputInt = 3;
                 Ch2_Char1SelectionDoneA = true;
-                Debug.Log("Testing for Answer Boris 1");
         
         }
         else if (Char1DPs[0].value ==2)
         {
-                CH2.APaper+=1;
+                CH2.BPaper+=1;
+                CH2.BorisSQOutputInt = 3;
                 Ch2_Char1SelectionDoneA = true;
-                Debug.Log("Testing for Boris Answer 2");
         }
         else if (Char1DPs[0].value ==3)
         {
-                CH2.APaper+=1;
+                CH2.CPaper+=1;
+                CH2.BorisTabOutputInt = 3;
                 Ch2_Char1SelectionDoneA = true;
-                Debug.Log("Testing for Boris Answer 3");
         }
         #endregion 
     }
@@ -86,18 +87,21 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char1DPs[1].value ==1) // if you choose the first option for Novak Is.. 
         {
+            CH2.APaper+=1;
+            CH2.BorisOutputInt = 1;
             Ch2_Char1SelectionDoneB = true;
-            Debug.Log("Testing for Answer 2");
         }
         else if (Char1DPs[1].value ==2)
         {
+            CH2.BPaper+=1;
+            CH2.BorisSQOutputInt = 1;
             Ch2_Char1SelectionDoneB = true;
-            Debug.Log("Testing for Answer 2");
         }
         else if (Char1DPs[1].value ==3)
         {
+            CH2.CPaper+=1;
+            CH2.BorisTabOutputInt = 1;
             Ch2_Char1SelectionDoneB = true;
-            Debug.Log("Testing for Answer 2");
         } 
         #endregion
     }
@@ -107,20 +111,22 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char1DPs[2].value ==1) // if you choose the first option for Novak Is.. 
         {
+            CH2.APaper+=1;
+            CH2.BorisOutputInt = 2;
             Ch2_Char1SelectionDoneC = true;
-            Debug.Log("Testing for Answer 3");
 
         }
         else if (Char1DPs[2].value ==2)
         {
+            CH2.BPaper+=1;
+            CH2.BorisSQOutputInt = 2;
             Ch2_Char1SelectionDoneC = true;
-            Debug.Log("Testing for Answer 3");
         }
         else if (Char1DPs[2].value ==3)
         {
+            CH2.CPaper+=1;
+            CH2.BorisTabOutputInt = 2;
             Ch2_Char1SelectionDoneC = true;
-            Debug.Log("Testing for Answer 3");
-
         }
 
         #endregion
@@ -133,18 +139,21 @@ public class ChTwoNB : MonoBehaviour
         if (Char2DPs[0].value ==1) 
         {
             CH2.APaper+=1;
+            CH2.GuyOutputInt = 1;
             Ch2_Char2SelectionDoneA = true;
             
         }
         else if (Char2DPs[0].value ==2)
         {
-            CH2.APaper+=1;
+            CH2.BPaper+=1;
+            CH2.GuySQOutputInt = 1;
             Ch2_Char2SelectionDoneA = true;
             
         }
         else if (Char2DPs[0].value ==3)
         {
-            CH2.APaper+=1;
+            CH2.CPaper+=1;
+            CH2.GuyTabOutputInt = 1;
             Ch2_Char2SelectionDoneA = true;
             
         }
@@ -157,16 +166,20 @@ public class ChTwoNB : MonoBehaviour
         if (Char2DPs[1].value ==1) 
         {
             CH2.APaper+=1;
+            CH2.GuyOutputInt = 3;
             Ch2_Char2SelectionDoneB = true;
         }
         else if (Char2DPs[1].value ==2)
         {
-                CH2.APaper+=1;
-                Ch2_Char2SelectionDoneB = true;
+
+            CH2.BPaper+=1;
+            CH2.GuySQOutputInt = 3;
+            Ch2_Char2SelectionDoneB = true;
         }
         else if (Char2DPs[1].value ==3)
         {
-            CH2.APaper+=1;
+            CH2.CPaper+=1;
+            CH2.GuyTabOutputInt = 3;
             Ch2_Char2SelectionDoneB = true;
         }
         #endregion
@@ -178,33 +191,19 @@ public class ChTwoNB : MonoBehaviour
         if (Char2DPs[2].value ==1) 
         {
             CH2.APaper+=1;
+            CH2.GuyOutputInt = 2;
             Ch2_Char2SelectionDoneC = true;
         }
         else if (Char2DPs[2].value ==2)
         {
-            CH2.APaper+=1;
+            CH2.BPaper+=1;
+            CH2.GuySQOutputInt = 2;
             Ch2_Char2SelectionDoneC = true;
         }
         else if (Char2DPs[2].value ==3)
         {
-            CH2.APaper+=1;
-            Ch2_Char2SelectionDoneC = true;
-        }
-        #endregion
-        #region Ch2_Code
-        if (Char2DPs[2].value ==1) 
-        {
-            CH2.APaper+=1;
-            Ch2_Char2SelectionDoneC = true;
-        }
-        else if (Char2DPs[2].value ==2)
-        {
-            CH2.APaper+=1;
-            Ch2_Char2SelectionDoneC = true;
-        }
-        else if (Char2DPs[2].value ==3)
-        {
-            CH2.APaper+=1;
+            CH2.CPaper+=1;
+            CH2.GuyTabOutputInt = 2;
             Ch2_Char2SelectionDoneC = true;
         }
         #endregion
@@ -216,16 +215,20 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char3DPs[0].value ==1) 
         {
-            Ch2_Char3SelectionDoneA = true;
             CH2.APaper+=1;
+            CH2.DaniOutputInt = 1;
+            Ch2_Char3SelectionDoneA = true;
         }
         else if (Char3DPs[0].value ==2)
         {
+            CH2.BPaper+=1;
+            CH2.DaniSQOutputInt = 1;
             Ch2_Char3SelectionDoneA = true;
-            CH2.APaper+=1;
         }
         else if (Char3DPs[0].value ==3)
         {
+            CH2.CPaper+=1;
+            CH2.DaniTabOutputInt = 1;
             Ch2_Char3SelectionDoneA = true;
             CH2.APaper+=1;
         }
@@ -237,18 +240,21 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char3DPs[1].value ==1)
         {
+            CH2.APaper+=1;
+            CH2.DaniOutputInt = 3;
             Ch2_Char3SelectionDoneB = true;
-            CH2.APaper+=1;  
         }
         else if (Char3DPs[1].value ==2)
         {
+            CH2.BPaper+=1;
+            CH2.DaniSQOutputInt = 3;
             Ch2_Char3SelectionDoneB = true;
-            CH2.APaper+=1;
         }
         else if (Char3DPs[1].value ==3)
         {
+            CH2.CPaper+=1;
+            CH2.DaniTabOutputInt = 3;
             Ch2_Char3SelectionDoneB = true;
-            CH2.APaper+=1;      
         }
         #endregion
     }
@@ -258,21 +264,23 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char3DPs[2].value ==1)
         {
-            Ch2_Char3SelectionDoneC = true;
             CH2.APaper+=1;
+            CH2.DaniOutputInt = 2;
+            Ch2_Char3SelectionDoneC = true;
         }
         else if (Char3DPs[2].value ==2)
         {
-                Ch2_Char3SelectionDoneC = true;
-                CH2.APaper+=1;
+            CH2.BPaper+=1;
+            CH2.DaniSQOutputInt = 2;
+            Ch2_Char3SelectionDoneC = true;
 
         }
         else if (Char3DPs[2].value ==3)
         {
-                Ch2_Char3SelectionDoneC = true;
-                CH2.APaper+=1;
-
-            
+            CH2.CPaper+=1;
+            CH2.DaniTabOutputInt = 2;
+            Ch2_Char3SelectionDoneC = true;
+            CH2.APaper+=1;
         }
         #endregion
     }
@@ -283,23 +291,21 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char4DPs[0].value ==1)
         {
-                Ch2_Char4SelectionDoneA = true;
-                CH2.APaper+=1;
-
+            CH2.APaper+=1;
+            CH2.CarlaSQOutputInt = 1;
+            Ch2_Char4SelectionDoneA = true;
         }
         else if (Char4DPs[0].value ==2)
         {
-                Ch2_Char4SelectionDoneA = true;
-                CH2.APaper+=1;
-            
-
+            CH2.BPaper+=1;
+            CH2.CarlaSQOutputInt = 1;
+            Ch2_Char4SelectionDoneA = true;
         }
         else if (Char4DPs[0].value ==3)
         {
-                Ch2_Char4SelectionDoneA = true;
-                CH2.APaper+=1;
-            
-
+            CH2.CPaper+=1;
+            CH2.CarlaTabOutputInt = 1;
+            Ch2_Char4SelectionDoneA = true;            
         }
         #endregion
     }
@@ -309,20 +315,21 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char4DPs[1].value ==1)
         {
-                Ch2_Char4SelectionDoneB = true;
-                CH2.APaper+=1;
-
+            CH2.APaper+=1;
+            CH2.CarlaOutputInt = 2;
+            Ch2_Char4SelectionDoneB = true;
         }
         else if (Char4DPs[1].value ==2)
         {
-                Ch2_Char4SelectionDoneB = true;
-                CH2.APaper+=1;
-            
+            CH2.BPaper+=1;
+            CH2.CarlaSQOutputInt = 2;
+            Ch2_Char4SelectionDoneB = true;            
         }
         else if (Char4DPs[1].value ==3)
         {
-                Ch2_Char4SelectionDoneB = true;
-                CH2.APaper+=1;
+            CH2.CPaper+=1;
+            CH2.CarlaTabOutputInt = 2;
+            Ch2_Char4SelectionDoneB = true;
         }
         #endregion
     }
@@ -330,22 +337,23 @@ public class ChTwoNB : MonoBehaviour
     public void Char4DropC()
     {
         #region Ch1_Code
-        if (Char4DPs[3].value ==1)
+        if (Char4DPs[2].value ==1)
         {
-                Ch2_Char4SelectionDoneC = true;
-                CH2.APaper+=1;
+            CH2.APaper+=1;
+            CH2.CarlaOutputInt = 3;
+            Ch2_Char4SelectionDoneC = true;
         }
-        else if (Char4DPs[3].value ==2)
+        else if (Char4DPs[2].value ==2)
         {
-                Ch2_Char4SelectionDoneC = true;
-                CH2.APaper+=1;
-
+            CH2.BPaper+=1;
+            CH2.CarlaSQOutputInt = 3;
+            Ch2_Char4SelectionDoneC = true;
         }
-        else if (Char4DPs[3].value ==3)
+        else if (Char4DPs[2].value ==3)
         {
-                Ch2_Char4SelectionDoneC = true;
-                CH2.APaper+=1;
-
+            CH2.CPaper+=1;
+            CH2.CarlaTabOutputInt = 3;
+            Ch2_Char4SelectionDoneC = true;
         }
         #endregion
     }
@@ -356,19 +364,21 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char5DPs[0].value == 1)
         {
-                Ch2_Char5SelectionDoneA = true;
-                CH2.APaper+=1;
-
+            CH2.APaper+=1;
+            CH2.NovakOutputInt = 3;
+            Ch2_Char5SelectionDoneA = true;
         }
         else if (Char5DPs[0].value == 2)
         {
-                Ch2_Char5SelectionDoneA = true;
-                CH2.APaper+=1;
+            CH2.BPaper+=1;
+            CH2.NovakSQOutputInt = 3;
+            Ch2_Char5SelectionDoneA = true;
         }
         else if (Char5DPs[0].value == 3)
         {
-                Ch2_Char5SelectionDoneA = true;
-                CH2.APaper+=1;
+            CH2.CPaper+=1;
+            CH2.NovakTabOutputInt = 3;
+            Ch2_Char5SelectionDoneA = true;
         }
         #endregion
     }
@@ -378,22 +388,22 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char5DPs[1].value ==1)
         {
-                Ch2_Char5SelectionDoneB = true;
-                CH2.APaper+=1;
-
+            CH2.APaper+=1;
+            CH2.NovakOutputInt = 2;
+            Ch2_Char5SelectionDoneB = true;
         }
         else if (Char5DPs[1].value ==2)
         {
-                Ch2_Char5SelectionDoneB = true;
-                CH2.APaper+=1;
-            
+            CH2.BPaper+=1;
+            CH2.NovakSQOutputInt = 2;
+            Ch2_Char5SelectionDoneB = true;
+            CH2.APaper+=1;
         }
         else if (Char5DPs[1].value ==3)
         {
-                Ch2_Char5SelectionDoneB = true;
-                CH2.APaper+=1;
-            
-
+            CH2.CPaper+=1;
+            CH2.NovakTabOutputInt = 2;
+            Ch2_Char5SelectionDoneB = true;            
         }
         #endregion
     }
@@ -403,21 +413,22 @@ public class ChTwoNB : MonoBehaviour
         #region Ch1_Code
         if (Char5DPs[2].value ==1)
         {
-                Ch2_Char5SelectionDoneC = true;
-                CH2.APaper+=1;
-            
-
+            CH2.APaper+=1;
+            CH2.NovakOutputInt = 1;
+            Ch2_Char5SelectionDoneC = true;
         }
         else if (Char5DPs[2].value ==2)
         {
-                Ch2_Char5SelectionDoneC = true;
-                CH2.APaper+=1;
-
+            CH2.BPaper+=1;
+            CH2.NovakSQOutputInt = 1;
+            Ch2_Char5SelectionDoneC = true;
         }
         else if (Char5DPs[2].value ==3)
         {
-                Ch2_Char5SelectionDoneC = true;
-                CH2.APaper+=1;
+            CH2.CPaper+=1;
+            CH2.NovakTabOutputInt = 1;
+            Ch2_Char5SelectionDoneC = true;
+            CH2.APaper+=1;
         }
         #endregion
     }
@@ -425,10 +436,9 @@ public class ChTwoNB : MonoBehaviour
     public void NewspaperPrint() // using this to test things 
     {
         ///*
-        if (scene.name == "OfficialStoryTwo") {
             finalNewspaper.text = PlayerNewspaper;
             finalHeadline.text = PlayerHeadline;
-        }
+
         //*/
     }
 }

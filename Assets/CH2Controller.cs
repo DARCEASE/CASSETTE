@@ -25,6 +25,14 @@ public class CH2Controller : MonoBehaviour
     string NovakFinalString, DaniFinalString, GuyFinalString, CarlaFinalString, BorisFinalString;
     string FinalParaOne, FinalParaTwo, FinalParaThree, FinalParaFour;
 
+    [HideInInspector]
+    public int NovakOutputInt, BorisOutputInt, GuyOutputInt, DaniOutputInt, CarlaOutputInt;
+    [HideInInspector]
+    public int NovakSQOutputInt, BorisSQOutputInt, GuySQOutputInt, DaniSQOutputInt, CarlaSQOutputInt;
+    [HideInInspector]
+    public int NovakTabOutputInt, BorisTabOutputInt, GuyTabOutputInt, DaniTabOutputInt, CarlaTabOutputInt;
+
+    
     //Always Appearing Pieces:
     ///*
     string NovakChoiceOne, NovakChoiceTwo, NovakChoiceThree;
@@ -34,20 +42,12 @@ public class CH2Controller : MonoBehaviour
     string CarlaChoiceOne, CarlaChoiceTwo, CarlaChoiceThree;
     //*/
 
-
     public Text finalNewspaper, finalHeadline;
     Scene scene;
 
     void Start(){
         scene = SceneManager.GetActiveScene();
     }
-
-    [HideInInspector]
-    public int NovakOutputInt, DaniOutputInt, BorisOutputInt, GuyOutputInt, CarlaOutputInt; //A
-    [HideInInspector]
-    public int NovakSQOutputInt, DaniSQOutputInt, BorisSQOutputInt, GuySQOutputInt, CarlaSQOutputInt; //B
-    [HideInInspector]
-    public int NovakTabOutputInt, DaniTabOutputInt, BorisTabOutputInt, GuyTabOutputInt, CarlaTabOutputInt; //C
     //Values
     public int APaper, BPaper, CPaper;
     
@@ -55,7 +55,12 @@ public class CH2Controller : MonoBehaviour
     [SerializeField] string[] newspaperHeadlines, AllNewspaperPieces, AllParaPieces;
 
     void Update() {
-        NewspaperPrint();    
+        NewspaperPrint();
+
+        Debug.Log("Para 1: " + FinalParaOne);
+        Debug.Log("Para 2: " + FinalParaTwo);
+        Debug.Log("Para 3: " + FinalParaThree);
+        Debug.Log("Para 4: " + FinalParaFour);
     }
 
     public void AllPiecesCalculator(){
@@ -196,7 +201,7 @@ public class CH2Controller : MonoBehaviour
         FinalParaOne = AllParaPieces[0] + " " + BorisChoiceThree + " " + AllParaPieces[1] + " " + GuyChoiceOne + " " + AllParaPieces[2] + " " + NovakChoiceThree;
         FinalParaTwo = AllParaPieces[3] + " " + GuyChoiceThree + " " + GuyChoiceTwo + " " + AllNewspaperPieces[4] + " " + NovakChoiceTwo + " " + DaniChoiceOne + " " + NovakChoiceOne;
         FinalParaThree = AllParaPieces[5] + " " + DaniChoiceThree + " " + " " + DaniChoiceTwo;
-        FinalParaFour = AllParaPieces[6] + " " + CarlaChoiceOne + " " + AllParaPieces[7] + " " + CarlaChoiceThree + " " + AllParaPieces[8] + " " + CarlaChoiceTwo + " " + AllParaPieces[9];
+        FinalParaFour = AllParaPieces[6] + " " + CarlaChoiceOne + " " + AllParaPieces[7] + " " + CarlaChoiceThree + " " + AllParaPieces[8] + " " + CarlaChoiceTwo + " " + AllParaPieces[9] + " " + BorisChoiceOne + AllParaPieces[10] + " " + BorisChoiceTwo + " " + AllParaPieces[11];
 
         ANewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
         CNewspaper = FinalParaOne + "\n" + FinalParaTwo + "\n" + FinalParaThree + "\n" + FinalParaFour;
