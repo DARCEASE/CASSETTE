@@ -56,11 +56,6 @@ public class CH2Controller : MonoBehaviour
 
     void Update() {
         NewspaperPrint();
-
-        Debug.Log("Para 1: " + FinalParaOne);
-        Debug.Log("Para 2: " + FinalParaTwo);
-        Debug.Log("Para 3: " + FinalParaThree);
-        Debug.Log("Para 4: " + FinalParaFour);
     }
 
     public void AllPiecesCalculator(){
@@ -293,9 +288,6 @@ public class CH2Controller : MonoBehaviour
             PlayerNewspaper = BNewspaper;
             PlayerHeadline = newspaperHeadlines[2];
         }
-
-        finalNewspaper.text = PlayerNewspaper;
-        finalHeadline.text = PlayerHeadline;
     }
 }
 

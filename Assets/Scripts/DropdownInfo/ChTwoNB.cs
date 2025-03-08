@@ -12,9 +12,7 @@ public class ChTwoNB : MonoBehaviour
 {
 #region INITIALIZATIONS
 
-    Scene scene;
-    public string PlayerNewspaper, PlayerHeadline;
-    
+    Scene scene;    
     //Audience Feedback Script
     public AudienceFeedbackScript AFS;
     public CH2Controller CH2;
@@ -436,8 +434,8 @@ public class ChTwoNB : MonoBehaviour
     public void NewspaperPrint() // using this to test things 
     {
         ///*
-            finalNewspaper.text = PlayerNewspaper;
-            finalHeadline.text = PlayerHeadline;
+            finalNewspaper.text = CH2.PlayerNewspaper;
+            finalHeadline.text = CH2.PlayerHeadline;
 
         //*/
     }

@@ -960,11 +960,6 @@ public class NewspaperBehaviorCopy : MonoBehaviour
             finalNewspaper.text = ROTDORE.PlayerNewspaper;
             finalHeadline.text = ROTDORE.PlayerHeadline;
         }
-
-        if (scene.name == "OfficialStoryTwo") {
-            finalNewspaper.text = CH2.PlayerNewspaper;
-            finalHeadline.text = ROTDORE.PlayerHeadline;
-        }
         //*/
     }
 }

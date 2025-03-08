@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Digital Version Scenes/OfficialStoryTwo.unity
     guid: 80b06582692f3c84dbda2ce3042459ee
-  - enabled: 0
-    path: Assets/Scenes/DEMO/DEMO.unity
-    guid: 421c74886213f1342a853a2da0729af7
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 35aad75ab2f014e468fb1b49a9743ace
+  - enabled: 0
+    path: Assets/Scenes/DEMO/DEMO.unity
+    guid: 421c74886213f1342a853a2da0729af7
   m_configObjects: {}

@@ -24,7 +24,6 @@ public class CharacterCompleteCheckTwo : MonoBehaviour
             if (NB2.Ch2_Char1SelectionDoneA  && NB2.Ch2_Char1SelectionDoneB  && NB2.Ch2_Char1SelectionDoneC ){
                 Char1Box.SetActive(false);
                 CompletedChar1 = true;
-                Debug.Log("Removed Box");
             }
                     
             if (NB2.Ch2_Char2SelectionDoneA  && NB2.Ch2_Char2SelectionDoneB  && NB2.Ch2_Char2SelectionDoneC ){
