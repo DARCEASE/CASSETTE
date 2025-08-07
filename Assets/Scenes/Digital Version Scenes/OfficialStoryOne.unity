@@ -99179,8 +99179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a462a70567659134598cad5c921052a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerNewspaper: 
-  PlayerHeadline: 
   AFS: {fileID: 608035562}
   CH2: {fileID: 1410984877}
   NewspaperPanel: {fileID: 1279310165}
@@ -106461,13 +106459,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1494789275}
+  - component: {fileID: 1494789276}
   m_Layer: 5
   m_Name: SettingsMenuGO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1494789275
 RectTransform:
   m_ObjectHideFlags: 0
@@ -106488,6 +106487,43 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.0000076293945}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1494789276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494789274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6be9c482914904e95c61c7c80bcfe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AC: {fileID: 1762230528}
+  intVolSlider: {fileID: 1675950091}
+  char1Audio: {fileID: 1983585085}
+  char2Audio: {fileID: 456504220}
+  char3Audio: {fileID: 922320287}
+  char4Audio: {fileID: 1415734646}
+  char5Audio: {fileID: 1553609068}
+  AudioContObj: {fileID: 0}
+  volSliderKnob: {fileID: 538829963}
+  AppleFont: {fileID: 12800000, guid: c3dae14ea1cc3544c91727a42e4692dd, type: 3}
+  DyslexFont: {fileID: 12800000, guid: 56ae6163912ba084394e45e930b41442, type: 3}
+  BerkFont: {fileID: 12800000, guid: 4e9a89dc97d56e246818fd6f1b03e18c, type: 3}
+  PrintFont: {fileID: 12800000, guid: 1d57ad76e48fa614c87f8460abb23ab8, type: 3}
+  AppleFontTMP: {fileID: 11400000, guid: 989cd8cbf8185a24db00c8e6acc3320b, type: 2}
+  DyslexFontTMP: {fileID: 11400000, guid: 7825dcc4041281b479227559b1c4ae0b, type: 2}
+  BerkFontTMP: {fileID: 11400000, guid: 563867dd446532743b6baf522e995bfa, type: 2}
+  PrintFontTMP: {fileID: 11400000, guid: 579d3058df91684428d304e8a5f6d7d5, type: 2}
+  TESTBerkFontReg: 0
+  TESTBerkFontDys: 0
+  AppleSDFTMPObjs: []
+  PrintCharTMPObjs: []
+  BerkTMPObjs: []
+  AppleSDFTextObjs: []
+  BerkTextObjs: []
+  PrintCharTextObjs: []
 --- !u!1 &1495832171
 GameObject:
   m_ObjectHideFlags: 0
@@ -116593,7 +116629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1636124228
 RectTransform:
   m_ObjectHideFlags: 0
