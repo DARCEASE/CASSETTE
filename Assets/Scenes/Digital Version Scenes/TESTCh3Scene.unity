@@ -86632,7 +86632,7 @@ MonoBehaviour:
   AFS: {fileID: 608035562}
   ROTDORE: {fileID: 1410984875}
   CH2: {fileID: 0}
-  NewspaperPanel: {fileID: 0}
+  NewspaperPanel: {fileID: 1279310165}
   SAS: {fileID: 1279310169}
   finalNewspaper: {fileID: 1358871417}
   finalHeadline: {fileID: 2111132688}

@@ -177,7 +177,7 @@ public class CH2Controller : MonoBehaviour
             CarlaChoiceTwo = AllNewspaperPieces[38];
         }
 
-        if (CarlaOutputInt == 1){
+        if (CarlaOutputInt == 3){
             CarlaChoiceThree = AllNewspaperPieces[33];
         } else if (CarlaSQOutputInt == 1){
             CarlaChoiceThree = AllNewspaperPieces[34];
